@@ -1,0 +1,1928 @@
+---
+title: "Prophage-transformation conflict"
+author: "Nicholas Croucher"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
+
+library(magrittr)
+library(tidyverse)
+library(kableExtra)
+library(igraph)
+library(proxy)
+library(purrr)
+library(ape)
+library(Biostrings)
+library(pwalign)
+library(ggrepel)
+library(glmmTMB)
+library(broom)
+library(emmeans)
+library(cowplot)
+library(fitdistrplus)
+
+position_dodge <- function(width = NULL, preserve = "total") {
+  ggproto(NULL, PositionDodge,
+          width = width,
+          preserve = rlang::arg_match0(preserve, c("total", "single"))
+  )
+}
+
+#' @rdname ggplot2-ggproto
+#' @format NULL
+#' @usage NULL
+#' @export
+PositionDodge <- ggproto(
+  `_class` = "PositionDodge",
+  `_inherit` = ggplot2::Position,
+  width = NULL,
+  preserve = "total",
+  setup_params = function(self, data) {
+    flipped_aes <- has_flipped_aes(data)
+    data <- flip_data(data, flipped_aes)
+    if (is.null(data$xmin) &&
+        is.null(data$xmax) && is.null(self$width)) {
+      cli::cli_warn(c("Width not defined",
+                      "i" = "Set with {.code position_dodge(width = ...)}"))
+    }
+    
+    if (identical(self$preserve, "total")) {
+      n <- NULL
+    } else {
+      panels <- unname(split(data, data$PANEL))
+      ns <- vapply(panels,
+                   function(panel) {
+                     # we need to find the maximum number of times that the
+                     # same xmin is used, but making sure we count each group
+                     # only once
+                     if (is.null(panel$group))
+                       return(1)
+                     groups <-
+                       unname(split(panel, panel$group))
+                     xmins <-
+                       vapply(groups, function(group)
+                         group$xmin[1], double(1))
+                     max(table(xmins))
+                   },
+                   double(1))
+      n <- max(ns)
+    }
+    
+    list(width = self$width,
+         n = n,
+         flipped_aes = flipped_aes)
+  },
+  
+  setup_data = function(self, data, params) {
+    data <- flip_data(data, params$flipped_aes)
+    if (!"x" %in% names(data) &&
+        all(c("xmin", "xmax") %in% names(data))) {
+      data$x <- (data$xmin + data$xmax) / 2
+    }
+    flip_data(data, params$flipped_aes)
+  },
+  
+  compute_panel = function(data, params, scales) {
+    data <- flip_data(data, params$flipped_aes)
+    collided <- ggplot2:::collide(
+      data,
+      params$width,
+      name = "position_dodge",
+      strategy = pos_dodge,
+      n = params$n,
+      check.width = FALSE
+    )
+    flip_data(collided, params$flipped_aes)
+  }
+)
+
+# Dodge overlapping interval.
+# Assumes that each set has the same horizontal position.
+pos_dodge <- function(df, width, n = NULL) {
+  unique_count <- vctrs::vec_unique_count(df$group)
+  if (is.null(n)) {
+    n <- unique_count
+  }
+  
+  if (n == 1)
+    return(df)
+  
+  if (!all(c("xmin", "xmax") %in% names(df))) {
+    df$xmin <- df$x
+    df$xmax <- df$x
+  }
+  
+  d_width <- max(df$xmax - df$xmin)
+  
+  # Have a new group index from 1 to number of groups.
+  # This might be needed if the group numbers in this set don't include all of 1:n
+  groupidx <- match(df$group, sort(ggplot2:::unique0(df$group)))
+
+  # Find the center for each group, then use that to calculate xmin and xmax
+  df$x <- df$x + width * ((groupidx - 0.5) / unique_count - .5)
+  df$xmin <- df$x - d_width / n / 2
+  df$xmax <- df$x + d_width / n / 2
+  
+  df
+}
+
+generate_mst_from_mlst <- function(mlst_df) {
+  
+  # Build matrix
+  profile_mat <-
+    as.matrix(mlst_df %>% 
+              tibble::column_to_rownames("ST"))
+
+  # Calculate Hamming distances
+  profile_distances_mat <-
+    as.matrix(proxy::dist(profile_mat,
+                          method = function(a, b) sum(a != b)) )
+  
+  # Indices where distance == 1
+  slv_idx <- which(profile_distances_mat == 1, arr.ind = TRUE)
+  
+  # Keep only upper triangle to avoid duplicate pairs (i<j)
+  slv_idx <- slv_idx[slv_idx[, 1] < slv_idx[, 2], , drop = FALSE]
+  
+  # Build the edge list data frame: two profile name columns + distance
+  slv_connections <- data.frame(
+    mlst_1 = rownames(profile_distances_mat)[slv_idx[, 1]],
+    mlst_2 = colnames(profile_distances_mat)[slv_idx[, 2]]
+  )
+  
+  slv_graph <- graph_from_data_frame(
+    d = slv_connections,  # igraph uses 'weight' as the edge attribute name
+    directed = FALSE
+  )
+  
+  mlst_mst <- igraph::mst(slv_graph)
+  return(mlst_mst)
+  
+}
+
+plot_mst <- function(mlst_mst) {
+  
+  ggraph::ggraph(mlst_mst, layout = "stress") +
+    ggraph::geom_edge_link(color = "grey70") +
+    ggraph::geom_node_point(size = 1.5, color = "grey30") +
+    theme_void()
+
+}
+
+# Normalize bases to uppercase and map U->T, "."->"-"
+normalise_bases <- function(x) {
+  x <- toupper(x)
+  x[x == "U"] <- "T"
+  x[x == "."] <- "-"
+  x
+}
+
+# Allowed IUPAC DNA bases + gap
+allowed <- c("A","C","G","T","N","R","Y","S","W","K","M","B","D","H","V","-")
+
+# Validate a per-base character vector
+is_valid_base_vec <- function(x) {
+  x2 <- normalise_bases(x)
+  all(x2 %in% allowed)
+}
+
+# Convert DNAbin or per-base character vector to a sanitized DNA string; return NULL if invalid
+safe_dna_string_or_null <- function(x) {
+  s <- if (inherits(x, "DNAbin")) {
+    paste0(as.character(x), collapse = "")
+  } else if (is.character(x)) {
+    paste0(x, collapse = "")
+  } else {
+    return(NULL)
+  }
+  s <- toupper(s)
+  s <- chartr("U", "T", s)
+  s <- gsub("\\.", "-", s)
+  invalid <- gsub("[ACGTNRYSWKMBVDH-]", "", s)
+  if (nchar(invalid) > 0) return(NULL)
+  return(s)
+}
+
+# Align two sequences; return a tibble of mismatches or NULL if invalid
+mismatch_tbl_aligned <- function(seq_from, seq_to, ignore = c("-", "N")) {
+  s_from <- safe_dna_string_or_null(seq_from)
+  s_to   <- safe_dna_string_or_null(seq_to)
+  if (is.null(s_from) || is.null(s_to)) return(NULL)
+
+  aln <- pairwiseAlignment(DNAString(s_from), DNAString(s_to),
+                           type = "global", substitutionMatrix = NULL,
+                           gapOpening = 5, gapExtension = 2)
+
+  a_from <- as.character(pattern(aln))
+  a_to   <- as.character(subject(aln))
+  cf <- normalise_bases(strsplit(a_from, "")[[1]])
+  ct <- normalise_bases(strsplit(a_to, "")[[1]])
+
+  keep <- !(cf %in% ignore | ct %in% ignore)
+  cf2 <- cf[keep]; ct2 <- ct[keep]
+  pos <- which(cf2 != ct2)
+
+  if (length(pos) == 0) {
+    # Return an empty tibble (this is a valid comparison with zero mismatches)
+    return(tibble(pos = integer(), base_from = character(), base_to = character()))
+  }
+
+  return(tibble(pos = pos, base_from = cf2[pos], base_to = ct2[pos]))
+}
+
+# Compare two sequences; return tibble of mismatches or NULL to skip invalid pairs
+mismatch_tbl_dnabin <- function(seq_from, seq_to, ignore = c("-", "N")) {
+  if (is.null(seq_from) || is.null(seq_to)) return(NULL)
+
+  cf <- normalise_bases(as.character(seq_from))
+  ct <- normalise_bases(as.character(seq_to))
+
+  # Skip invalid characters by returning NULL
+  if (!is_valid_base_vec(cf) || !is_valid_base_vec(ct)) return(NULL)
+
+  # Align if lengths differ; otherwise compare directly
+  #if (length(cf) != length(ct)) {
+    return(mismatch_tbl_aligned(seq_from, seq_to, ignore = ignore))
+  #}
+
+  keep <- !(cf %in% ignore | ct %in% ignore)
+  cf2 <- cf[keep]; ct2 <- ct[keep]
+  pos <- which(cf2 != ct2)
+
+  if (length(pos) == 0) {
+    return(tibble(pos = integer(), base_from = character(), base_to = character()))
+  }
+
+  return(tibble(pos = pos, base_from = cf2[pos], base_to = ct2[pos]))
+}
+
+read_with_seqinr_dnabin_list <- function(files) {
+  out <- structure(list(), class = c("DNAbin","list"))
+  for (f in files) {
+    x <- seqinr::read.fasta(f, as.string = FALSE, seqtype = "DNA", set.attributes = FALSE)
+    for (nm in names(x)) out[[nm]] <- ape::as.DNAbin(x[[nm]])
+  }
+  return(out)
+}
+
+identify_mismatches_between_slvs <- function(mlst_profile_df, slvs_df, fn = NULL) {
+
+  # Identify the allele (locus) columns
+  allele_cols <- setdiff(names(mlst_profile_df), "ST")
+  
+  # Identify the allele changes between SLVs
+  allele_changes_df <-
+    slvs_df %>%
+      # Avoid name clash between slvs$from/to and allele value columns named "from"/"to"
+      dplyr::rename(from_ST = from, to_ST = to) %>%
+      # Join profiles for the "from" ST
+      dplyr::inner_join(
+        mlst_profile_df %>% 
+          dplyr::mutate(ST = as.character(ST)) %>% 
+          dplyr::rename_with(~ paste0(., "_from"), all_of(allele_cols)),
+        by = c("from_ST" = "ST")
+      ) %>%
+      # Join profiles for the "to" ST
+      dplyr::inner_join(
+        mlst_profile_df %>% 
+          dplyr::mutate(ST = as.character(ST)) %>% 
+          dplyr::rename_with(~ paste0(., "_to"), all_of(allele_cols)),
+        by = c("to_ST" = "ST")
+      ) %>%
+      # Reshape so that each row becomes multiple rows, one per locus,
+      # with two columns: `from` (allele number) and `to` (allele number)
+      tidyr::pivot_longer(
+        cols = all_of(c(paste0(allele_cols, "_from"), paste0(allele_cols, "_to"))),
+        names_to = c("locus", ".value"),
+        names_pattern = "^(.*)_(from|to)$"
+      ) %>%
+      # Keep the single differing locus (for true SLV edges)
+      dplyr::filter(!is.na(from) & !is.na(to) & from != to) %>%
+      # Present clean output
+      dplyr::select(from_ST, to_ST, locus, allele_from = from, allele_to = to)
+  
+  mlst_sequences_dna <-
+    read_with_seqinr_dnabin_list(
+      Sys.glob(fn)
+    )
+  
+  mismatches_df <-
+    allele_changes_df %>%
+      dplyr::mutate(
+        seq_from_id = paste0(locus, "_", allele_from),
+        seq_to_id   = paste0(locus, "_", allele_to),
+        mismatches  = purrr::pmap(
+          list(seq_from_id, seq_to_id),
+          function(id_from, id_to) {
+            mismatch_tbl_dnabin(mlst_sequences_dna[[id_from]], mlst_sequences_dna[[id_to]])
+          }
+        ),
+        is_invalid  = purrr::map_lgl(mismatches, is.null),
+        n_mismatch  = map_int(mismatches,
+                              ~ if (is.null(.x)) NA_integer_ else nrow(.x))
+      ) %>% 
+    dplyr::mutate(
+      Classification =
+        dplyr::case_when(
+          n_mismatch > 2 ~ "Recombination",
+          n_mismatch > 0 ~ "Point mutation",
+          n_mismatch == 0 ~ "Different lengths"
+        )
+    ) %>% 
+    dplyr::filter(Classification != "Different lengths")
+  
+}
+
+```
+
+# Analyse genotyping data
+
+The species to be analysed are taken from those found to contribute to the burden of [antimicrobial resistant-disease](https://doi.org/10.1016/S0140-6736(21)02724-0), as these constitute a set of genetically-diverse and well-sampled bacteria:
+
+- *Escherichia coli*: Multiple MLST schemes available for [Escherichia spp.](https://pubmlst.org/bigsdb?db=pubmlst_escherichia_seqdef); the Achtman scheme was used, as it had 7 loci.
+
+- *Staphylococcus aureus*: One MLST database available for [S. aureus](https://pubmlst.org/bigsdb?db=pubmlst_saureus_seqdef)
+
+- *Klebsiella pneumoniae*: One MLST database available for [K. pneumoniae](https://bigsdb.pasteur.fr/cgi-bin/bigsdb/bigsdb.pl?db=pubmlst_klebsiella_seqdef)
+
+- *Streptococcus pneumoniae*: One MLST database available for [S. pneumoniae](https://pubmlst.org/bigsdb?db=pubmlst_spneumoniae_seqdef)
+
+- *Acinetobacter baumanii*: One MLST database available for [A. baumanii](https://pubmlst.org/bigsdb?db=pubmlst_abaumannii_seqdef)
+
+- *Pseudomonas aeruginosa*: One MLST database available for [P. aeruginosa](https://pubmlst.org/bigsdb?db=pubmlst_paeruginosa_seqdef)
+
+- *Mycobacterium tuberculosis*: Excluded, as low diversity means MLST is not informative for this species.
+
+- *Enterococcus faecium*: One MLST database available for [E. faecium](https://pubmlst.org/bigsdb?db=pubmlst_efaecium_seqdef), although it is not clear whether other enterococci are effectively excluded, based on the species label in the profiles.
+
+- *Enterobacter* spp.: One MLST database available for [*E. cloacae* and related species](https://pubmlst.org/bigsdb?db=pubmlst_ecloacae_seqdef).
+
+- *Streptococcus agalactiae*: One MLST database available for [S. agalactiae](https://pubmlst.org/bigsdb?db=pubmlst_sagalactiae_seqdef).
+
+- *Salmonella spp.*: Dominated by *S. enterica*. One MLST database available for [S. agalactiae](https://pubmlst.org/bigsdb?db=pubmlst_salmonella_seqdef).
+
+- *Enterococcus faecalis*: One MLST database available for [E. faecalis](https://pubmlst.org/bigsdb?db=pubmlst_efaecalis_seqdef).
+
+- *Proteus* spp.: One MLST database for [*Proteus* species](https://pubmlst.org/bigsdb?db=pubmlst_proteus_seqdef).
+
+- *Serratia* spp.: One MLST database for [*Serratia* species](https://pubmlst.org/bigsdb?db=pubmlst_serratia_seqdef).
+
+- *Streptococcus pyogenes*: One MLST database available for [S. pyogenes](https://pubmlst.org/bigsdb?db=pubmlst_spyogenes_seqdef).
+
+- *Citrobacter* spp.: One MLST database available for [*C. freundii* and related species](https://pubmlst.org/bigsdb?db=pubmlst_cfreundii_seqdef).
+
+- *Haemophilus influenzae*: One MLST database available for [H. influenzae](https://pubmlst.org/bigsdb?db=pubmlst_hinfluenzae_seqdef).
+
+- *Shigella* spp.: Excluded as not evolutionary independent from *E. coli*.
+
+- *Morganella morganii*: One MLST database available for [M. morganii](https://bigsdb.pasteur.fr/cgi-bin/bigsdb/bigsdb.pl?db=pubmlst_morganella_seqdef).
+
+These were supplemented with other species representing genera [known to be naturally transformable](https://doi.org/10.1016/j.resmic.2007.09.004):
+
+- *Agrobacterium tumefaciens*:  Excluded, as no MLST data available.
+
+- *Neisseria* spp.: One MLST database available for [Neisseria species](https://pubmlst.org/bigsdb?db=pubmlst_neisseria_seqdef); this can be included, as both *N. meningitidis* and *N. gonorrhoeae* are naturally transformable.
+
+- *Legionella pneumophila*: Excluded, as no MLST data available from BigsDB.
+
+- *Moraxella* spp.: One MLST database available for [M. catarrhalis](https://pubmlst.org/bigsdb?db=pubmlst_moraxella_seqdef); this can be included, as *Moraxella* species are generally regarded as transformable.
+
+- *Vibrio cholerae*: One MLST database available for [V. cholera](https://pubmlst.org/bigsdb?db=pubmlst_vcholerae_seqdef).
+
+- *Campylobacter jejuni* & *coli*: One MLST database available for [Campylobacter spp.](https://pubmlst.org/bigsdb?db=pubmlst_campylobacter_seqdef). Both species are transformable, and therefore can be considered jointly.
+
+- *Helicobacter pylori*: One MLST database available for [H. pylori](https://pubmlst.org/bigsdb?db=pubmlst_helicobacter_seqdef).
+
+- *Mycobacterium smegmatis*: Excluded as no MLST scheme available.
+
+- *Bacillus subtilis*: One MLST database available for [B. subtilis](https://pubmlst.org/bigsdb?db=pubmlst_bsubtilis_seqdef).
+
+Given the inclusion of *B. subtilis* as a transformable gram-positive sporulating bacterium, *Clostridium difficile* was included as non-transformable gram-positive sporulating species.
+
+Searches run on 4/12/25.
+
+``` {r Define links between datasets}
+
+# Data structures
+species_name <- list()
+display_name <- list()
+st_prefix <- list()
+lower_length_threshold <- list()
+upper_length_threshold <- list()
+transformable <- list()
+primary_niche <- list()
+
+# E. coli
+species_name[["Eco"]] = "Escherichia coli"
+display_name[["Eco"]] = "italic('E. coli')"
+st_prefix[["Eco"]] = "Eco_Achtman"
+lower_length_threshold[["Eco"]] = 4000000
+upper_length_threshold[["Eco"]] = 6500000
+transformable[["Eco"]] = "Non-transformable"
+primary_niche[["Eco"]] = "Gastrointestinal tract"
+# Citrobacter species
+species_name[["Cit"]] = "Citrobacter spp"
+display_name[["Cit"]] = "italic('Citrobacter')~'spp.'"
+st_prefix[["Cit"]] = "Cit"
+lower_length_threshold[["Cit"]] = 4000000
+upper_length_threshold[["Cit"]] = 6500000
+transformable[["Cit"]] = "Non-transformable"
+primary_niche[["Cit"]] = "Gastrointestinal tract"
+# Enterobacter species
+species_name[["Esp"]] = "Enterobacter spp"
+display_name[["Esp"]] = "italic('Enterobacter')~'spp.'"
+st_prefix[["Esp"]] = "Esp"
+lower_length_threshold[["Esp"]] = 4000000
+upper_length_threshold[["Esp"]] = 6500000
+transformable[["Esp"]] = "Non-transformable"
+primary_niche[["Esp"]] = "Gastrointestinal tract"
+# Proteus species
+species_name[["Psp"]] = "Proteus spp"
+display_name[["Psp"]] = "italic('Proteus')~'spp.'"
+st_prefix[["Psp"]] = "Psp"
+lower_length_threshold[["Psp"]] = 3000000
+upper_length_threshold[["Psp"]] = 5000000
+transformable[["Psp"]] = "Non-transformable"
+primary_niche[["Psp"]] = "Gastrointestinal tract"
+# Serratia species
+species_name[["Ssp"]] = "Serratia spp"
+display_name[["Ssp"]] = "italic('Serratia')~'spp.'"
+st_prefix[["Ssp"]] = "Ssp"
+lower_length_threshold[["Ssp"]] = 4000000
+upper_length_threshold[["Ssp"]] = 6500000
+transformable[["Ssp"]] = "Non-transformable"
+primary_niche[["Ssp"]] = "Gastrointestinal tract"
+# S. aureus
+species_name[["Sau"]] = "Staphylococcus aureus"
+display_name[["Sau"]] = "italic('S. aureus')"
+st_prefix[["Sau"]] = "Sau"
+lower_length_threshold[["Sau"]] = 2000000
+upper_length_threshold[["Sau"]] = 4000000
+transformable[["Sau"]] = "Non-transformable"
+primary_niche[["Sau"]] = "Multiple"
+# K. pneumoniae
+species_name[["Kpn"]] = "Klebsiella pneumoniae"
+display_name[["Kpn"]] = "italic('K. pneumoniae')"
+st_prefix[["Kpn"]] = "Kpn"
+lower_length_threshold[["Kpn"]] = 4000000
+upper_length_threshold[["Kpn"]] = 7000000
+transformable[["Kpn"]] = "Non-transformable"
+primary_niche[["Kpn"]] = "Gastrointestinal tract"
+# S. pneumoniae
+species_name[["Spn"]] = "Streptococcus pneumoniae"
+display_name[["Spn"]] = "italic('S. pneumoniae')"
+st_prefix[["Spn"]] = "Spn"
+lower_length_threshold[["Spn"]] = 1500000
+upper_length_threshold[["Spn"]] = 3000000
+transformable[["Spn"]] = "Transformable"
+primary_niche[["Spn"]] = "Respiratory tract"
+# A. baumanii
+species_name[["Abau"]] = "Acinetobacter baumanii"
+display_name[["Abau"]] = "italic('A. baumanii')"
+st_prefix[["Abau"]] = "Abau_Oxford"
+lower_length_threshold[["Abau"]] = 3000000
+upper_length_threshold[["Abau"]] = 5500000
+transformable[["Abau"]] = "Transformable"
+primary_niche[["Abau"]] = "Environmental"
+# P. aeruginosa
+species_name[["Pae"]] = "Pseudomonas aeruginosa"
+display_name[["Pae"]] = "italic('P. aeruginosa')"
+st_prefix[["Pae"]] = "Pae"
+lower_length_threshold[["Pae"]] = 5500000
+upper_length_threshold[["Pae"]] = 8500000
+transformable[["Pae"]] = "Transformable"
+primary_niche[["Pae"]] = "Environmental"
+# E. faecium
+species_name[["Efm"]] = "Enterococcus faecium"
+display_name[["Efm"]] = "italic('E. faecium')"
+st_prefix[["Efm"]] = "Efm"
+lower_length_threshold[["Efm"]] = 1500000
+upper_length_threshold[["Efm"]] = 4000000
+transformable[["Efm"]] = "Non-transformable"
+primary_niche[["Efm"]] = "Gastrointestinal tract"
+# S. agalactiae
+species_name[["Sag"]] = "Streptococcus agalactiae"
+display_name[["Sag"]] = "italic('S. agalactiae')"
+st_prefix[["Sag"]] = "Sag"
+lower_length_threshold[["Sag"]] = 1500000
+upper_length_threshold[["Sag"]] = 3000000
+transformable[["Sag"]] = "Non-transformable"
+primary_niche[["Sag"]] = "Multiple"
+# S. enterica
+species_name[["Sen"]] = "Salmonella enterica"
+display_name[["Sen"]] = "italic('S. enterica')"
+st_prefix[["Sen"]] = "Sen"
+lower_length_threshold[["Sen"]] = 3500000
+upper_length_threshold[["Sen"]] = 6000000
+transformable[["Sen"]] = "Non-transformable"
+primary_niche[["Sen"]] = "Gastrointestinal tract"
+# E. faecalis
+species_name[["Efs"]] = "Enterococcus faecalis"
+display_name[["Efs"]] = "italic('E. faecalis')"
+st_prefix[["Efs"]] = "Efs" # not run
+lower_length_threshold[["Efs"]] = 2000000
+upper_length_threshold[["Efs"]] = 4000000
+transformable[["Efs"]] = "Non-transformable"
+primary_niche[["Efs"]] = "Gastrointestinal tract"
+# S. pyogenes
+species_name[["Spy"]] = "Streptococcus pyogenes"
+display_name[["Spy"]] = "italic('S. pyogenes')"
+st_prefix[["Spy"]] = "Spy"
+lower_length_threshold[["Spy"]] = 1000000
+upper_length_threshold[["Spy"]] = 2500000
+transformable[["Spy"]] = "Non-transformable"
+primary_niche[["Spy"]] = "Respiratory tract"
+# H. influenzae
+species_name[["Hflu"]] = "Haemophilus influenzae"
+display_name[["Hflu"]] = "italic('H. influenzae')"
+st_prefix[["Hflu"]] = "Hflu"
+lower_length_threshold[["Hflu"]] = 1000000
+upper_length_threshold[["Hflu"]] = 2500000
+transformable[["Hflu"]] = "Transformable"
+primary_niche[["Hflu"]] = "Respiratory tract"
+# M. morganii
+species_name[["Mmo"]] = "Morganella morganii"
+display_name[["Mmo"]] = "italic('M. morganii')"
+st_prefix[["Mmo"]] = "Mmo"
+lower_length_threshold[["Mmo"]] = 3000000
+upper_length_threshold[["Mmo"]] = 5000000
+transformable[["Mmo"]] = "Non-transformable"
+primary_niche[["Mmo"]] = "Gastrointestinal tract"
+# Neisseria species
+species_name[["Nsp"]] = "Neisseria spp"
+display_name[["Nsp"]] = "italic('Neisseria')~'spp.'"
+st_prefix[["Nsp"]] = "Nsp"
+lower_length_threshold[["Nsp"]] = 1500000
+upper_length_threshold[["Nsp"]] = 3000000
+transformable[["Nsp"]] = "Transformable"
+primary_niche[["Nsp"]] = "Respiratory tract"
+# Moraxella species
+species_name[["Msp"]] = "Moraxella catarrhalis"
+display_name[["Msp"]] = "italic('Moraxella')~'spp.'"
+st_prefix[["Msp"]] = "Msp"
+lower_length_threshold[["Msp"]] = 1000000
+upper_length_threshold[["Msp"]] = 3000000
+transformable[["Msp"]] = "Transformable"
+primary_niche[["Msp"]] = "Respiratory tract"
+# Campylobacter species
+species_name[["Cam"]] = "Campylobacter spp"
+display_name[["Cam"]] = "italic('Campylobacter')~'spp.'"
+st_prefix[["Cam"]] = "Cam"
+lower_length_threshold[["Cam"]] = 1000000
+upper_length_threshold[["Cam"]] = 3000000
+transformable[["Cam"]] = "Transformable"
+primary_niche[["Cam"]] = "Gastrointestinal tract"
+# Helicobacter pylori
+species_name[["Hpy"]] = "Helicobacter pylori"
+display_name[["Hpy"]] = "italic('H. pylori')"
+st_prefix[["Hpy"]] = "Hpy"
+lower_length_threshold[["Hpy"]] = 1000000
+upper_length_threshold[["Hpy"]] = 2500000
+transformable[["Hpy"]] = "Transformable"
+primary_niche[["Hpy"]] = "Gastrointestinal tract"
+# Vibrio cholerae
+species_name[["Vch"]] = "Vibrio cholerae"
+display_name[["Vch"]] = "italic('V. cholerae')"
+st_prefix[["Vch"]] = "Vch"
+lower_length_threshold[["Vch"]] = 3000000
+upper_length_threshold[["Vch"]] = 5000000
+transformable[["Vch"]] = "Transformable"
+primary_niche[["Vch"]] = "Environmental"
+# Bacillus subtilis
+species_name[["Bsu"]] = "Bacillus subtilis"
+display_name[["Bsu"]] = "italic('B. subtilis')"
+st_prefix[["Bsu"]] = "Bsu"
+lower_length_threshold[["Bsu"]] = 3000000
+upper_length_threshold[["Bsu"]] = 5500000
+transformable[["Bsu"]] = "Transformable"
+primary_niche[["Bsu"]] = "Environmental"
+
+```
+
+## Calculate MSTs from MLST data
+
+```{r Calculate MST, eval = FALSE}
+
+mlst_profiles <- list()
+mlst_msts <- list()
+slvs <- list()
+mst_plots <- list()
+
+for (name in rev(names(st_prefix))) {
+  
+  message(paste("Processing",name))
+  
+  mlst_profiles[[name]] <-
+    read.table(paste0("./MLST_data/",st_prefix[[name]],".tab.txt"),
+               sep = "\t", header = TRUE) %>% 
+      dplyr::select(-dplyr::any_of(c("clonal_complex","species")))
+  
+  mlst_msts[[name]] <-
+    generate_mst_from_mlst(mlst_profiles[[name]])
+  
+  slvs[[name]] <- as_data_frame(mlst_msts[[name]], what = "edges")
+  
+  mst_plots[[name]] <- plot_mst(mlst_msts[[name]])
+  
+  ggsave(paste0("./ebursts/",name,"_eburst.png"),
+       mst_plots[[name]],
+       width = 8,
+       height = 8)
+  
+}
+
+# Get summaries of MLST data
+st_counts_df <-
+  enframe(mlst_profiles) %>%
+    dplyr::mutate(`Sequence types` =
+                    map_int(value, nrow)) %>%  # count rows in each df
+    dplyr::select(name, `Sequence types`) %>% 
+    dplyr::left_join(enframe(species_name) %>% 
+                       tidyr::unnest(value),
+                     by = "name") %>% 
+    dplyr::mutate(name = value) %>% 
+    dplyr::select(-value)
+
+write_csv(
+  st_counts_df,
+  file = "./MLST_data/st_counts.csv"
+)
+
+```
+
+``` {r Calculate mismatches, eval = FALSE}
+
+mismatches <- list()
+
+for (name in rev(names(st_prefix))) {
+  
+  mismatches[[name]] <-
+    identify_mismatches_between_slvs(mlst_profiles[[name]],
+                                     slvs[[name]],
+                                     fn = paste0("./MLST_sequences/",st_prefix[[name]],"_*.fas")
+    )
+  
+}
+
+mismatches_df <-
+  dplyr::bind_rows(mismatches,.id = "Species")
+
+write_csv(
+  mismatches_df,
+  file = "./MLST_data/mismatches.csv"
+)
+
+write_csv(
+  mismatches_df %>%
+    dplyr::select(Species,seq_from_id,seq_to_id,mismatches) %>% 
+    dplyr::distinct() %>% 
+    tidyr::unnest(mismatches),
+  file = "./MLST_data/mismatch_details.csv"
+)
+
+```
+
+``` {r Load mismatches and plot, fig.width = 8, fig.height = 8}
+
+mismatches_df <-
+  read_csv("./MLST_data/mismatches.csv") %>% 
+    dplyr::select(-mismatches) %>% 
+    dplyr::left_join(
+      read_csv("./MLST_data/mismatch_details.csv") %>% 
+        tidyr::nest(data = c("pos","base_from","base_to")) %>% 
+        dplyr::rename(mismatches = data),
+      by = c("Species","seq_from_id","seq_to_id")
+    ) %>%
+        dplyr::left_join(enframe(display_name) %>%
+                           tidyr::unnest(value) %>% 
+                           dplyr::rename(display = value),
+                             by = c("Species" = "name"))
+
+ggplot(mismatches_df,
+       aes(x = n_mismatch)) +
+  geom_histogram(colour = "blue",fill = "blue") +
+  scale_x_continuous(trans = "log10") +
+  geom_vline(xintercept = 2.5, col = 'red', linetype = 2) +
+  facet_wrap(~display,
+             scales = 'free_y',
+             labeller = label_parsed) +
+  ylab("Count") +
+  xlab("Number of mismatches") +
+  theme_bw() +
+  theme(strip.background = element_blank())
+
+```
+
+``` {r Graph recombination}
+
+rho_m_df <-
+  mismatches_df %>% 
+        dplyr::filter(!is.na(Classification)) %>% 
+        dplyr::group_by(Species) %>% 
+        dplyr::summarise(rho_m = sum(Classification=="Recombination")/sum(Classification=="Point mutation")) %>%
+        dplyr::ungroup()
+
+species_levels <-
+  rho_m_df %>% 
+    dplyr::arrange(rho_m) %>% 
+    dplyr::pull(Species)
+
+rho_m_df %<>%
+  dplyr::mutate(Species = factor(Species, levels = species_levels))
+
+ggplot(rho_m_df,
+        aes(x = Species,
+            y = rho_m)) +
+  geom_col() +
+  theme_bw()
+
+```
+
+``` {r Model the probability of changes occurring through recombination, fig.width = 8}
+
+rec_modelling_df <-
+  mismatches_df %>% 
+    dplyr::filter(!is_invalid) %>% 
+    dplyr::select(Species,locus,Classification) %>% 
+    dplyr::mutate(Locus = paste0(Species,"_",locus)) %>% 
+    dplyr::select(-locus) %>% 
+    dplyr::group_by(Species) %>% 
+    dplyr::mutate(n_loci = n_distinct(Locus)) %>% 
+    dplyr::ungroup() %>% 
+    dplyr::mutate(FPR = (1/n_loci)**2) %>% 
+    dplyr::group_by(Species,Locus,FPR) %>% 
+    dplyr::summarise(Count = n(),
+                     Rec_count = sum(Classification == "Recombination")) %>% 
+    dplyr::ungroup() %>% 
+    dplyr::mutate(`Recombination proportion` = Rec_count/Count)
+
+rec_probability_model <-
+  glmmTMB::glmmTMB(
+    `Recombination proportion` ~ Species + (1|Locus),
+    data = rec_modelling_df,
+    family = betabinomial(link = "logit"),
+    ziformula = ~0,
+    dispformula = ~1,
+    weights = Count
+  )
+
+performance::check_model(rec_probability_model)
+
+```
+
+``` {r Plot probability of recombination, fig.width=8, fig.height = 8}
+
+# Estimated marginal means per species on the response scale (probabilities)
+rec_prob_df <-
+  emmeans(
+    rec_probability_model,
+    specs  = ~ Species,
+    type   = "response"  # back-transform from logit to probability
+  ) %>%
+  tibble::as_tibble()
+
+combined_rec_output_df <-
+  rec_prob_df %>% 
+    dplyr::left_join(rec_modelling_df, by = "Species") %>% 
+    dplyr::left_join(rho_m_df, by = "Species")
+
+ggplot(combined_rec_output_df,
+       aes(x = rho_m,
+           y = prob)) +
+  geom_point() +
+  ggrepel::geom_label_repel(aes(label = Species)) +
+  theme_bw()
+
+```
+
+# Prophage data
+
+## Search for PHASTER data
+
+Searches run on 8/12/25. For multispecies datasets, the species were selected as the binomial names that were more common than the count of isolates within the genus with an undefined species name.
+
+``` {bash, eval = FALSE}
+
+cd prophage
+conda activate edirect
+for SPECIES in "Escherichia coli" "Staphylococcus aureus" "Klebsiella pneumoniae" "Streptococcus pneumoniae" "Acinetobacter baumanii"   "Pseudomonas aeruginosa" "Enterococcus faecium"    "Streptococcus agalactiae" "Salmonella enterica" "Enterococcus faecalis"    "Streptococcus pyogenes"   "Haemophilus influenzae" "Morganella morganii"      "Neisseria meningitidis" "Neisseria gonorrhoeae" "Moraxella catarrhalis" "Campylobacter jejuni"     "Helicobacter pylori"      "Vibrio cholerae" "Bacillus subtilis" "Serratia sarumanii" "Serratia ureilytica" "Serratia nevei" "Serratia nematodiphila" "Serratia bockelmannii" "Serratia liquefaciens" "Serratia fonticola" "Serratia marcescens" "Serratia plymuthica" "Proteus mirabilis" "Proteus terrae" "Enterobacter hormaechei" "Citrobacter freundii";
+  do echo "Processing $SPECIES";
+  SEARCH_STRING=`echo "\"$SPECIES\"[Organism] AND "latest refseq"[filter] AND complete_genome[filter] AND (all[filter] NOT anomalous[filter])"`
+  esearch -db assembly -query "$SEARCH_STRING" | elink -target nuccore -name assembly_nuccore_refseq | esummary | xtract -pattern DocumentSummary -element AccessionVersion | sort -u > ${SPECIES}_nuccore_complete.txt;
+  ./get_prophage_data.sh ${SPECIES}_nuccore_complete.txt ${SPECIES};
+done
+# Combine multispecies datasets
+cat Neisseria\ gonorrhoeae_nuccore_complete.txt Neisseria\ meningitidis_nuccore_complete.txt > ./prophage/Neisseria\ spp_nuccore_complete.txt
+cat Campylobacter\ coli_nuccore_complete.txt Campylobacter\ jejuni_nuccore_complete.txt > Campylobacter\ spp_nuccore_complete.txt
+cat Serratia*_nuccore_complete.txt > Serratia\ spp_nuccore_complete.txt
+cat Proteus*_nuccore_complete.txt > Proteus\ spp_nuccore_complete.txt
+cat Enterobacter*_nuccore_complete.txt > Enterobacter\ spp_nuccore_complete.txt
+cat Citrobacter*_nuccore_complete.txt > Citrobacter\ spp_nuccore_complete.txt
+
+```
+
+``` {r Parse complete sequences}
+
+phaster_df <-
+  read_csv("./phaster_outputs/phaster_precomputed_accessions.csv")
+
+complete_sequences_df <-
+  map_dfr(species_name, ~ {
+  # Create filename
+  filename <- paste0("./prophage/",str_c(str_replace_all(.x, " ", "\\ "), "_nuccore_complete.txt"))
+  # Read file if it exists
+  if (file.exists(filename)) {
+    read_tsv(filename, col_names = "data", col_types = "c") %>%
+      mutate(species =.x)
+  } else {
+    tibble(data = character(0), species =.x)
+  }
+}) %>% 
+  dplyr::filter(
+      # Include only complete genomes (shorter accession numbers)
+      str_detect(data, "^[A-Z]{2}\\d{4,8}\\.\\d+$")
+  ) %>%
+  dplyr::mutate(
+    # Extract components from data column
+    accession_base = str_extract(data, "^[A-Z]{2}\\d+"),
+    full_accession = data
+  )
+
+phaster_complete_sequences_df <-
+  complete_sequences_df %>% 
+    # Try exact match first
+    dplyr::left_join(
+      phaster_df %>%
+        dplyr::select(accession, submission_url:summary_url),
+      by = c("full_accession" = "accession")
+    ) %>%
+    # For unmatched, try base accession match
+    dplyr::left_join(
+      phaster_df %>% 
+        dplyr::mutate(accession_base = str_extract(accession, "^[A-Z]{2}\\d+")) %>%
+        dplyr::select(accession_base, accession, submission_url:summary_url) %>%
+        dplyr::distinct(accession_base,.keep_all = TRUE),
+      by = "accession_base",
+      suffix = c("", "_base")
+    ) %>%
+    # Coalesce to prioritize exact matches
+    dplyr::mutate(
+      matched_accession = coalesce(accession, accession_base),
+      final_submission_url = coalesce(submission_url, submission_url_base),
+      final_zip_url = coalesce(zip_url, zip_url_base),
+      final_summary_url = coalesce(summary_url, summary_url_base)
+    ) %>%
+    dplyr::select(
+      data, 
+      species, 
+      matched_accession,
+      submission_url = final_submission_url,
+      zip_url = final_zip_url,
+      summary_url = final_summary_url
+    ) %>% 
+    dplyr::filter(!is.na(submission_url))
+
+# Export your accessions to a text file
+write.csv(
+  phaster_complete_sequences_df %>%
+    dplyr::pull(data),
+    file = "prophage/phaster_accessions.txt",
+    quote = F,
+    row.names = F,
+    col.names = FALSE)
+
+```
+
+``` {bash, eval = FALSE}
+
+cd prophage
+./get_phaster_ncbi_info.sh
+
+```
+
+``` {r Parse genome lengths to identify complete sequences, fig.width = 8, fig.height = 10}
+
+seq_length_df <-
+  read.table("./prophage/phaster_metadata.tsv",
+             sep = "\t",
+             comment.char = "",
+             header = TRUE) %>% 
+    dplyr::left_join(phaster_complete_sequences_df,
+                     by = c("Accession"="data")) %>% 
+    dplyr::group_by(species,BioSampleAccession) %>% 
+    dplyr::mutate(Total_length = sum(SequenceLength)) %>% 
+    dplyr::ungroup() %>% 
+    dplyr::left_join(
+      enframe(lower_length_threshold) %>%
+            tidyr::unnest(value) %>% 
+            dplyr::rename(Lower = value) %>% 
+        dplyr::left_join(
+        enframe(upper_length_threshold) %>%
+            tidyr::unnest(value) %>% 
+            dplyr::rename(Upper = value)
+        ) %>%
+        dplyr::left_join(enframe(species_name) %>%
+                           tidyr::unnest(value) %>% 
+                           dplyr::rename(species = value),
+                             by = "name") %>%
+        dplyr::left_join(enframe(display_name) %>%
+                           tidyr::unnest(value) %>% 
+                           dplyr::rename(display = value),
+                             by = "name")
+      ) %>% 
+      dplyr::filter(!is.na(name))
+
+# Plot genome lengths and boundaries
+ggplot(seq_length_df,
+       aes(x = Total_length)) +
+  geom_histogram(colour = "blue", fill = "blue") +
+  geom_vline(data = seq_length_df %>%
+               dplyr::select(display, Upper) %>% 
+               dplyr::distinct(),
+             aes(xintercept = Upper),
+             colour = "red", linetype = 2) +
+  geom_vline(data = seq_length_df %>%
+               dplyr::select(display, Lower) %>% 
+               dplyr::distinct(),
+             aes(xintercept = Lower),
+             colour = "red", linetype = 2) +
+  facet_wrap(~display,
+             scales = 'free_y',
+             labeller = label_parsed) +
+  ylab("Count") +
+  xlab("Total genome length (bp)") +
+  theme_bw() +
+  theme(strip.background = element_blank(),
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
+
+```
+
+``` {r Filter datasets by length}
+
+filtered_genome_df <-
+  seq_length_df %>% 
+    dplyr::filter(Total_length >= Lower & Total_length <= Upper)
+
+write.table(filtered_genome_df %>% 
+            dplyr::mutate(summary_url = gsub("/submissions/","/jobs/",summary_url)) %>% 
+            dplyr::select(summary_url),
+          file = "./phaster_outputs/phaster_urls.list",
+          row.names = FALSE,
+          col.names = FALSE,
+          quote = FALSE)
+
+```
+
+Each dataset was then retrieved from the database:
+
+``` {bash, eval = FALSE}
+
+cd phaster_outputs
+./download_phaster.sh
+
+```
+
+``` {r Processing phaster summary.txt, eval = FALSE}
+
+parse_phaster_summary <- function(file, accession) {
+  # If file missing or empty, return nothing
+  if (!file.exists(file)) return(NULL)
+  lines <- readr::read_lines(file)
+  if (length(lines) == 0) return(NULL)
+
+  # Find header line
+  header_idx <- which(str_detect(lines, "^\\s*REGION\\s+REGION_LENGTH"))
+  if (length(header_idx) == 0) return(NULL)
+
+  # Find dashed separator after header
+  sep_idx <- header_idx + 1
+  while (sep_idx <= length(lines) && !str_detect(lines[sep_idx], "-{5,}")) {
+    sep_idx <- sep_idx + 1
+  }
+  if (sep_idx > length(lines)) return(NULL)
+
+  data_start <- sep_idx + 1
+
+  # Data lines
+  data_lines <- lines[data_start:length(lines)]
+  data_lines <- data_lines[data_lines != ""]
+  if (length(data_lines) == 0) return(NULL)
+
+  # --- line parser using whitespace ---
+  parse_line <- function(x) {
+    parts <- x %>%
+      str_squish() %>%
+      str_split("\\s+", simplify = TRUE) %>%
+      as.character()
+
+    if (length(parts) < 16) return(NULL)
+
+    region        <- parts[1]
+    region_length <- parts[2]
+    completeness  <- parts[3]
+
+    rest <- parts[-(1:3)]
+    if (length(rest) == 0) return(NULL)
+
+    # REGION_POSITION looks like "start-end"
+    pos_idx <- which(str_detect(rest, "^[0-9]+-[0-9]+$"))[1]
+    if (is.na(pos_idx)) return(NULL)
+
+    # SPECIFIC_KEYWORD = everything before REGION_POSITION
+    specific_keyword <-
+      if (pos_idx == 1) NA_character_
+      else paste(rest[1:(pos_idx - 1)], collapse = " ")
+
+    tail_tokens <- rest[pos_idx:length(rest)]
+    if (length(tail_tokens) < 13) return(NULL)
+
+    tibble(
+      REGION                    = region,
+      REGION_LENGTH             = region_length,
+      COMPLETENESS_SCORE        = completeness,
+      SPECIFIC_KEYWORD          = specific_keyword,
+      REGION_POSITION           = tail_tokens[1],
+      TRNA_NUM                  = tail_tokens[2],
+      TOTAL_PROTEIN_NUM         = tail_tokens[3],
+      PHAGE_HIT_PROTEIN_NUM     = tail_tokens[4],
+      HYPOTHETICAL_PROTEIN_NUM  = tail_tokens[5],
+      PHAGE_HYPO_PERCENT        = tail_tokens[6],
+      BACTERIAL_PROTEIN_NUM     = tail_tokens[7],
+      ATT_SITE_SHOWUP           = tail_tokens[8],
+      PHAGE_SPECIES_NUM         = tail_tokens[9],
+      MOST_COMMON_PHAGE_NAME    = tail_tokens[10],
+      MOST_COMMON_PHAGE_NUM     = tail_tokens[11],
+      MOST_COMMON_PHAGE_PERCENT = tail_tokens[12],
+      GC_PERCENTAGE             = tail_tokens[13]
+    )
+  }
+
+  df <- map_dfr(data_lines, parse_line)
+  if (!("REGION" %in% names(df)) || nrow(df) == 0) return(NULL)
+
+  # ---------- clean types, keep all regions ----------
+  clean_df <- df %>%
+    filter(str_detect(REGION, "^\\d+$")) %>%
+    mutate(
+      REGION              = as.integer(REGION),
+      REGION_LENGTH_Kb    = as.numeric(str_remove(REGION_LENGTH, "Kb")),
+      COMPLETENESS        = str_extract(COMPLETENESS_SCORE, "^[^()]+") %>% str_trim(),
+      SCORE               = str_extract(COMPLETENESS_SCORE, "(?<=\\()\\d+(?=\\))") %>% as.integer(),
+      TOTAL_PROTEIN_NUM   = as.integer(TOTAL_PROTEIN_NUM),
+      TRNA_NUM            = as.integer(TRNA_NUM),
+      PHAGE_HIT_PROTEIN_NUM    = as.integer(PHAGE_HIT_PROTEIN_NUM),
+      HYPOTHETICAL_PROTEIN_NUM = as.integer(HYPOTHETICAL_PROTEIN_NUM),
+      PHAGE_HYPO_PERCENT       = as.numeric(str_remove(PHAGE_HYPO_PERCENT, "%")),
+      BACTERIAL_PROTEIN_NUM    = as.integer(BACTERIAL_PROTEIN_NUM),
+      PHAGE_SPECIES_NUM        = as.integer(PHAGE_SPECIES_NUM),
+      MOST_COMMON_PHAGE_NUM    = as.integer(MOST_COMMON_PHAGE_NUM),
+      MOST_COMMON_PHAGE_PERCENT = as.numeric(str_remove(MOST_COMMON_PHAGE_PERCENT, "%")),
+      GC_PERCENTAGE            = as.numeric(str_remove(GC_PERCENTAGE, "%"))
+    )
+
+  if (nrow(clean_df) == 0) return(NULL)
+
+  # ---------- keywords → long ----------
+  keywords_long <- clean_df %>%
+    mutate(SPECIFIC_KEYWORD = coalesce(SPECIFIC_KEYWORD, "")) %>%
+    separate_rows(SPECIFIC_KEYWORD, sep = ",") %>%
+    mutate(
+      SPECIFIC_KEYWORD = str_trim(SPECIFIC_KEYWORD),
+      SPECIFIC_KEYWORD = na_if(SPECIFIC_KEYWORD, "")
+    ) %>%
+    filter(!is.na(SPECIFIC_KEYWORD))
+
+  # No keywords at all in this file: return regions without keyword columns
+  if (nrow(keywords_long) == 0) {
+    out <- clean_df %>%
+      transmute(
+        accession,
+        REGION,
+        REGION_LENGTH_Kb,
+        TOTAL_PROTEIN_NUM,
+        COMPLETENESS,
+        SCORE,
+        MOST_COMMON_PHAGE_NAME
+      )
+    return(out)
+  }
+
+  # ---------- keywords → wide, values_fill = 0 ----------
+  keyword_matrix <- keywords_long %>%
+    dplyr::mutate(value = 1L) %>%
+    dplyr::select(REGION, SPECIFIC_KEYWORD, value) %>%
+    dplyr::distinct() %>%
+    tidyr::pivot_wider(
+      names_from  = SPECIFIC_KEYWORD,
+      values_from = value,
+      values_fill = 0   # ensures missing combos get 0
+    )
+
+  # ---------- final output ----------
+  final_df <- clean_df %>%
+    dplyr::select(
+      REGION,
+      REGION_LENGTH_Kb,
+      TOTAL_PROTEIN_NUM,
+      COMPLETENESS,
+      SCORE,
+      MOST_COMMON_PHAGE_NAME
+    ) %>%
+    dplyr::left_join(keyword_matrix, by = "REGION") %>%
+    dplyr::mutate(accession = accession,.before = 1)
+
+  # Ensure *all* keyword columns are 0/1 with no NA
+  # (i.e. any NA left from the join are turned into 0)
+  non_keyword_cols <- c(
+    "accession",
+    "REGION",
+    "REGION_LENGTH_Kb",
+    "TOTAL_PROTEIN_NUM",
+    "COMPLETENESS",
+    "SCORE",
+    "MOST_COMMON_PHAGE_NAME"
+  )
+
+  keyword_cols <- setdiff(names(final_df), non_keyword_cols)
+
+  if (length(keyword_cols) > 0) {
+    final_df <- final_df %>%
+      dplyr::mutate(across(all_of(keyword_cols),
+                    ~ replace_na(as.numeric(.x), 0)))
+  }
+
+  final_df
+}
+
+all_results <- purrr::map_dfr(
+  filtered_genome_df$Accession,
+  ~parse_phaster_summary(
+    file      = paste0("./phaster_outputs/",.x, ".txt"),
+    accession =.x
+  )
+) %>%
+  { 
+    non_keyword_cols <- c(
+      "accession",
+      "REGION",
+      "REGION_LENGTH_Kb",
+      "TOTAL_PROTEIN_NUM",
+      "COMPLETENESS",
+      "SCORE",
+      "MOST_COMMON_PHAGE_NAME"
+    )
+    keyword_cols <- setdiff(names(.), non_keyword_cols)
+
+    dplyr::mutate(.,
+      across(
+        all_of(keyword_cols),
+        ~ replace_na(as.numeric(.x), 0)
+      )
+    )
+  }
+
+# Store summarised results for more efficient reanalysis
+write_csv(all_results,
+          file = "./phaster_outputs/phaster_analysis_summary.csv"
+          )
+
+```
+
+``` {r Plot phaster outputs, fig.width = 8}
+
+# Read phaster summary
+all_results <-
+  read_csv("./phaster_outputs/phaster_analysis_summary.csv")
+
+# Plot output
+ggplot(all_results %>%
+         dplyr::mutate(
+           Lytic = dplyr::if_else(lysis == 0,
+                                  "No lytic amidase",
+                                  "Lytic amidase")
+         ) %>%
+         dplyr::mutate(
+           COMPLETENESS = factor(str_to_sentence(COMPLETENESS),
+                                 levels = c(
+                                   "Intact",
+                                   "Questionable",
+                                   "Incomplete"
+                                 )
+           )
+         ),
+       aes(x = REGION_LENGTH_Kb)) +
+  geom_histogram(colour = "blue", fill = "blue") +
+  scale_x_log10() +
+  ylab("Count") +
+  xlab("Region length (kb)") +
+  geom_vline(xintercept = 30, colour = "red", linetype = 2) +
+  facet_grid(Lytic~COMPLETENESS) +
+  theme_bw() +
+  theme(strip.background = element_blank())
+
+```
+
+``` {r Tabulate number of samples per species}
+
+# Get summaries of MLST data
+st_counts_df <-
+  read_csv(file = "./MLST_data/st_counts.csv")
+
+# Combine summaries
+sample_summary_df <-
+  tibble::enframe(table(complete_sequences_df$species)) %>% 
+    dplyr::rename(`Complete replicons` = value) %>% 
+    dplyr::left_join(
+      tibble::enframe(table(phaster_complete_sequences_df$species)) %>% 
+        dplyr::rename(`PHASTER entries` = value),
+      by = "name"
+    ) %>% 
+    dplyr::left_join(
+      st_counts_df,
+      by = "name"
+    ) %>% 
+    dplyr::left_join(
+      as.data.frame(table(mismatches_df$Species)) %>% 
+        dplyr::rename(
+          name = Var1,
+          `Single locus variants` = Freq
+        ) %>% 
+        dplyr::left_join(enframe(species_name) %>% 
+                           tidyr::unnest(value),
+                         by = "name") %>% 
+        dplyr::mutate(name = value) %>% 
+        dplyr::select(-value),
+      by = "name"
+    ) %>% 
+    dplyr::left_join(
+      filtered_genome_df %>% 
+        dplyr::group_by(species) %>% 
+        dplyr::summarise(`Full-length genomes` = n_distinct(BioSampleAccession)) %>% 
+        dplyr::ungroup(),
+      by = c("name"="species")
+    ) %>% 
+    dplyr::rename(Species = name) %>% 
+    dplyr::select(Species,`Sequence types`,`Single locus variants`,`Complete replicons`,`PHASTER entries`,`Full-length genomes`)
+
+# Generate summary table
+sample_summary_df %>%
+  kable() %>%
+  kable_styling(bootstrap_options = "striped", full_width = FALSE)
+
+```
+
+
+``` {r Count prophage per genome, fig.height = 8, fig.width = 8}
+
+# Filter prophage and count per genome
+filtered_prophage_count_df <-
+  all_results %>% 
+    dplyr::filter(REGION_LENGTH_Kb >= 30 & REGION_LENGTH_Kb <= 150 & COMPLETENESS == "intact") %>% 
+    dplyr::group_by(accession) %>% 
+    dplyr::summarise(phage_count = n()) %>% 
+    dplyr::ungroup()
+
+# Combine phage counts with species information
+filtered_prophage_per_sample_df <-
+  filtered_genome_df %>% 
+    # Set consistent name
+    dplyr::group_by(BioSampleAccession) %>% 
+    dplyr::mutate(Name = dplyr::if_else(SequenceLength==max(SequenceLength),BioSampleName,NA_character_)) %>% 
+    tidyr::fill(Name, .direction = "updown") %>% 
+    dplyr::ungroup() %>% 
+    # Process prophage data
+    dplyr::left_join(filtered_prophage_count_df, by = c("Accession" = "accession")) %>% 
+    dplyr::mutate(phage_count = dplyr::if_else(is.na(phage_count),0,phage_count)) %>% 
+    dplyr::group_by(BioSampleAccession,Name,species) %>% 
+    dplyr::summarise(total_phage_count = sum(phage_count)) %>% 
+    dplyr::ungroup() %>% 
+    dplyr::group_by(species) %>%
+    dplyr::mutate(
+      total_obs = n()
+    ) %>%
+    dplyr::ungroup() %>% 
+    dplyr::group_by(species,total_phage_count) %>%
+    dplyr::mutate(
+      obs_prob = n()/total_obs
+    ) %>%
+    dplyr::ungroup() %>% 
+    dplyr::left_join(
+      enframe(species_name) %>% 
+        tidyr::unnest(value) %>% 
+        dplyr::rename(species = value),
+      by = "species"
+    ) %>% 
+    dplyr::left_join(
+      enframe(display_name) %>% 
+        tidyr::unnest(value) %>% 
+        dplyr::rename(display = value),
+      by = "name"
+    )
+
+# Fit statistical distributions to prophage count data for each species
+fits_per_species <-
+  filtered_prophage_per_sample_df %>%
+  dplyr::group_by(species) %>%
+  dplyr::summarise(
+    data = list(total_phage_count),.groups = "drop"
+  ) %>%
+  dplyr::mutate(
+    # Fit Poisson
+    fit_pois = map(data, ~ suppressWarnings(fitdist(unlist(.x), "pois", method = "mle"))),
+    # Fit Negative Binomial
+    fit_nbinom = map(data, ~ suppressWarnings(fitdist(unlist(.x), "nbinom", method = "mle")))
+  )
+
+# Extract fit information
+pois_params <- fits_per_species %>%
+  dplyr::transmute(
+    species,
+    lambda = map_dbl(fit_pois, ~.x$estimate[["lambda"]])
+  )
+
+nbinom_params <- fits_per_species %>%
+  dplyr::transmute(
+    species,
+    size = map_dbl(fit_nbinom, ~.x$estimate[["size"]]),
+    mu   = map_dbl(fit_nbinom, ~.x$estimate[["mu"]])
+  )
+
+# Extract confidence intervals
+pois_ci <-
+  fits_per_species %>%
+    dplyr::mutate(
+      # extract point estimate
+      lambda_hat = map_dbl(fit_pois, ~.x$estimate[["lambda"]]),
+      # extract CI as a matrix, then convert to vector
+      ci_mat = map(fit_pois, ~ confint(.x))  # default 95% Wald CI
+    ) %>%
+    dplyr::mutate(
+      lambda_lwr = map_dbl(ci_mat, ~.x["lambda", "2.5 %"]),
+      lambda_upr = map_dbl(ci_mat, ~.x["lambda", "97.5 %"])
+    ) %>%
+    dplyr::mutate(lambda_lwr = dplyr::if_else(lambda_lwr < 0, 0.0, lambda_lwr)) %>% 
+    dplyr::select(species, lambda_hat, lambda_lwr, lambda_upr)
+
+# Calculate probabilities
+count_grid <- tibble(total_phage_count = 0:max(filtered_prophage_per_sample_df$total_phage_count))
+fitted_df <-
+  dplyr::bind_rows(
+    pois_params %>% 
+      dplyr::select(species, lambda) %>%
+      tidyr::crossing(count_grid) %>%
+      dplyr::mutate(
+        dist = "Poisson",
+        fitted_prob = dpois(total_phage_count, lambda)
+      ),
+    nbinom_params %>%
+      dplyr::select(species, size, mu) %>%
+      tidyr::crossing(count_grid) %>%
+      dplyr::mutate(
+        dist = "Negative binomial",
+        fitted_prob = dnbinom(total_phage_count, size = size, mu = mu)
+      )
+  ) %>% 
+    dplyr::left_join(
+      enframe(species_name) %>% 
+        tidyr::unnest(value) %>% 
+        dplyr::rename(species = value),
+      by = "species"
+    ) %>% 
+    dplyr::left_join(
+      enframe(display_name) %>% 
+        tidyr::unnest(value) %>% 
+        dplyr::rename(display = value),
+      by = "name"
+    )
+
+# Plot fitted distributions against observed prophage counts
+ggplot() +
+  # Observed probabilities as bars
+  geom_col(
+    data = filtered_prophage_per_sample_df %>% 
+            dplyr::select(species,total_phage_count,obs_prob,display) %>% 
+            dplyr::distinct(),
+    aes(x = total_phage_count, y = obs_prob),
+    fill = "blue",
+    color = "blue",
+    width = 0.8
+  ) +
+  # Fitted distributions as lines
+  geom_line(
+    data = fitted_df,
+    aes(x = total_phage_count,
+        y = fitted_prob,
+        color = dist),
+    size = 1
+  ) +
+  facet_wrap(~display,
+             scales = "free_y",
+             labeller = label_parsed) +
+  labs(
+    x = "Total phage count per sample",
+    y = "Proportion",
+    color = "Distribution"
+  ) +
+  theme_bw() +
+  theme(strip.background = element_blank(),
+        legend.position = "bottom")
+
+```
+
+Two groups of bacteria exhibited a substantial deviation from the unimodal distribution expected of a homogeneously-behaving population:
+
+- *Enterobacter* spp.: there are many isolates (of both *E. hormaechei* and *E. cloacae*) that lack any prophage, despite a peak at 4 prophage per isolate (isolates of *E. hormaechei*)
+
+- *Proteus* spp.: there are many isolates (of both *P. mirabilis* and *P. terrae*) that lack any prophage, despite a peak at 2 prophage per isolate (isolates of *P. mirabilis* and *P. terrae*)
+
+These were excluded from the subsequent comparison, to ensure the MLST and prophage data both corresponded to homogeneously behaving populations of isolates.
+
+# Compare prophage density and recombination rate
+
+Model the relationship between the density of prophage in genomes and rates of core genome recombination:
+
+``` {r Compare prophage density with recombination rate, fig.height = 8, fig.width = 8}
+
+# Excluded species
+excluded_species <- c("Esp","Psp")
+
+# Combine prophage density with homologous recombination
+prophage_rec_df <-
+  rec_prob_df %>% 
+    dplyr::rename(`Recombination probability` = prob) %>% 
+    dplyr::left_join(tibble::enframe(species_name) %>%
+                       tidyr::unnest(value) %>% 
+                       dplyr::rename(
+                         Species = name,
+                         species_name = value
+                       ),
+                     by = "Species") %>% 
+    dplyr::left_join(tibble::enframe(display_name) %>%
+                       tidyr::unnest(value) %>% 
+                       dplyr::rename(
+                         Species = name,
+                         display_name = value
+                       ),
+                     by = "Species") %>% 
+    dplyr::ungroup() %>% 
+    dplyr::left_join(filtered_prophage_per_sample_df %>% 
+                      dplyr::group_by(species) %>% 
+                      dplyr::summarise(mean_prophage = mean(total_phage_count)) %>% 
+                      dplyr::ungroup(),
+                     by = c("species_name" = "species")) %>% 
+    dplyr::left_join(pois_ci,
+                     by = c("species_name" = "species")) %>% 
+    # Add transformable status
+    dplyr::left_join(enframe(transformable) %>%
+                      tidyr::unnest(value) %>% 
+                      dplyr::rename(Transformability = value),
+                     by = c("Species" = "name")) %>% 
+    # Add ecological status
+    dplyr::left_join(enframe(primary_niche) %>%
+                      tidyr::unnest(value) %>% 
+                      dplyr::rename(Niche = value),
+                     by = c("Species" = "name")) %>% 
+    dplyr::filter(!(Species %in% excluded_species) & !is.na(species_name))
+
+# Fit model of recombination rate and prophage density
+rec_prophage_model <-
+  glmmTMB::glmmTMB(
+    `Recombination probability` ~ mean_prophage,
+    data = prophage_rec_df,
+    ziformula = ~0,
+    family = beta_family(link="logit")
+  )
+
+performance::check_model(rec_prophage_model)
+
+```
+
+Plot the data and model output together with bacterial species information:
+
+``` {r Plot rec phage model output, fig.width = 8, fig.height = 6}
+
+# Create a grid of mean_prophage values over the observed range
+newdata_rec <- prophage_rec_df %>%
+  summarise(
+    min_mean = min(mean_prophage, na.rm = TRUE),
+    max_mean = max(mean_prophage, na.rm = TRUE)
+  ) %>%
+  { tibble(mean_prophage = seq(.$min_mean,.$max_mean, length.out = 200)) }
+
+# Get fitted values with confidence intervals on the response scale
+pred <- predict(
+  rec_prophage_model,
+  newdata   = newdata_rec,
+  type      = "response",  # prob scale for beta/logit
+  se.fit    = TRUE
+)
+
+# Build a prediction data frame for ggplot
+z <- qnorm(0.975)  # 95% CI
+
+# Combine CI data
+rec_prophage_model_predictions <- newdata_rec %>%
+  mutate(
+    prob_fit = pred$fit,
+    prob_se  = pred$se.fit,
+    prob_lwr = prob_fit - z * prob_se,
+    prob_upr = prob_fit + z * prob_se
+  )
+
+# Extract p value
+mod_sum<-summary(rec_prophage_model)
+p_val  <- mod_sum$coefficients$cond["mean_prophage", "Pr(>|z|)"]
+p_label <- paste0("italic(p) == ", signif(p_val, 3))
+
+# Define palettes
+niche_palette <- c(
+  "Environmental" = 8,
+  "Gastrointestinal tract" = 16,
+  "Respiratory tract" = 1,
+  "Multiple" = 5
+)
+
+transformability_palette <- c(
+  "Transformable" = "cornflowerblue",
+  "Non-transformable" = "purple"
+)
+
+# Generate plot combining prophage and recombination data
+(comparison_plot <-
+  ggplot(prophage_rec_df,
+         aes(y = `Recombination probability`,
+             x = mean_prophage,
+             colour = Transformability,
+             shape = Niche,
+             label = display_name)) +
+    geom_point() +
+    geom_errorbar(aes(ymin = asymp.LCL,
+                      ymax = asymp.UCL),
+                  alpha = 0.5) +
+    geom_errorbarh(aes(xmin = lambda_lwr,
+                       xmax = lambda_upr),
+                  alpha = 0.5) +
+    # fitted model line
+    geom_line(
+      data = rec_prophage_model_predictions,
+      aes(x = mean_prophage, y = prob_fit),
+      inherit.aes = FALSE,
+      color = "black",
+      linewidth = 1,
+      alpha = 0.75
+    ) +
+    # confidence band for the fit
+    geom_ribbon(
+      data = rec_prophage_model_predictions,
+      aes(x = mean_prophage, ymin = prob_lwr, ymax = prob_upr),
+      inherit.aes = FALSE,
+      alpha = 0.2,
+      fill = "black"
+    ) +
+    ylab("Probability of diversification through recombination") +
+    xlab("Expected number of prophage in an isolate genome") +
+    scale_shape_manual(values = niche_palette) +
+    scale_colour_manual(values = transformability_palette,
+                        aesthetics = c("colour","fill")) +
+    ggrepel::geom_label_repel(size = 3,
+                             force_pull = 0.5,
+                             parse = TRUE) +
+    guides(
+      colour = guide_legend(title = "Transformability",
+                            nrow = 1),
+      shape  = guide_legend(title = "Niche",
+                            nrow = 1)
+    ) +
+    theme_bw() +
+    theme(legend.position = "bottom",
+          legend.box = "vertical") +
+    annotate(
+      "text",
+      x = 4,
+      y = 0.7,
+      label = p_label,
+      hjust = 1.1, vjust = 1.5,
+      parse = TRUE
+    )
+)
+
+```
+
+# Experimental data
+
+## Plot qPCR data
+
+``` {r Plot qPCR data, fig.width = 8, fig.height = 6}
+
+competence_palette <- c(
+  "Spontaneous competence" = "darkolivegreen3",
+  "Induced competence" = "seagreen3",
+  "Control" = "grey"
+)
+
+qpcr_df <-
+  read_csv("./experimental_data/qPCR_data.csv") %>% 
+    dplyr::mutate(`Experimental conditions` =
+                    dplyr::case_when(
+                      mutants == "NO_CSP" ~ "Control",
+                      mutants == "CSP_DnaseI" ~ "Control",
+                      mutants == "CSP" ~ "Control",
+                      grepl("_CSP",mutants) ~ "Induced competence",
+                      TRUE ~ "Spontaneous competence"
+                    )
+    ) %>% 
+    dplyr::mutate(DNA =
+                    dplyr::case_when(
+                      mutants == "NO_CSP" ~ "No CSP control",
+                      mutants == "CSP_DnaseI" ~ "CSP and DNase",
+                      mutants == "CSP" ~ "No DNA control",
+                      grepl("E99",mutants) ~ "1% pneumococcal",
+                      grepl("E90",mutants) ~ "10% pneumococcal",
+                      grepl("E50",mutants) ~ "50% pneumococcal",
+                      grepl("E10",mutants) ~ "90% pneumococcal",
+                      grepl("E1",mutants) ~ "99% pneumococcal"
+                    )
+    ) %>% 
+  dplyr::mutate(
+    Timepoint = 
+      dplyr::case_when(
+        conditions == "2hour" ~ "'2h post-CSP'",
+        conditions == "4hour" ~ "'4h post-CSP'"
+      )
+  ) %>% 
+  tidyr::pivot_longer(cols = c(Phage_circular,PRCI_circular),
+                      names_to = "MGE",
+                      values_to = "qPCR") %>% 
+  dplyr::mutate(
+    RMV8_MGE = 
+      factor(
+        dplyr::case_when(
+          MGE == "Phage_circular" ~ "phi*'RMV8'",
+          MGE == "PRCI_circular" ~ "'PRCI'[italic(malA)]"
+        ),
+        levels = c("phi*'RMV8'","'PRCI'[italic(malA)]")
+      )
+  ) %>% 
+  dplyr::filter(!is.na(qPCR)) %>% 
+  dplyr::mutate(`Biological replicate` = as.character(Replicate))
+
+(qpcr_plot <-
+  ggplot(qpcr_df,
+         aes(x = DNA,
+             y = qPCR,
+             colour = `Experimental conditions`,
+             group = interaction(DNA,`Experimental conditions`),
+             shape = `Biological replicate`)) +
+    geom_violin(draw_quantiles = c(0.5),
+                position = position_dodge(preserve = "single"),
+                scale = "width",) +
+    geom_point(position = position_jitterdodge()) +
+    scale_colour_manual(values = competence_palette,
+                        aesthetics = c("fill","colour")) +
+    scale_y_continuous(trans = "log10") +
+    ylab(expression(atop(italic(attP)~'sites in','culture supernatant'))) +
+    facet_grid(RMV8_MGE~Timepoint,
+               labeller = label_parsed) +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+          strip.background = element_blank())
+)
+
+```
+
+``` {r Focus on change in spontaneous deletion}
+
+spontaneous_start_end_df <-
+  dplyr::bind_rows(
+     qpcr_df %>%
+      dplyr::filter(
+        `Experimental conditions` == "Spontaneous competence" & 
+        MGE == "Phage_circular" & 
+        conditions == "4hour" & 
+        DNA %in% c("1% pneumococcal","99% pneumococcal")
+      ),
+    dplyr::bind_rows(
+      read_csv("./experimental_data/additional_qPCR_data.csv"),
+      read_csv("./experimental_data/Spontaneous_extra_replicates.csv")
+    ) %>% 
+      dplyr::filter(conditions=="4hour") %>% 
+      dplyr::mutate(`Experimental conditions` = "Spontaneous competence") %>% 
+      dplyr::mutate(DNA =
+                      dplyr::case_when(
+                        grepl("E99",mutants) ~ "1% pneumococcal",
+                        grepl("E1",mutants) ~ "99% pneumococcal"
+                      )
+      ) %>% 
+      tidyr::pivot_longer(cols = c(Phage_circular,PRCI_circular),
+                          names_to = "MGE",
+                          values_to = "qPCR") %>% 
+      dplyr::filter(MGE == "Phage_circular") %>% 
+      dplyr::mutate(`Biological replicate` = as.character(Replicate)),
+    read_csv("./experimental_data/extra_replicate_spontaneous_qPCR.csv") %>% 
+      dplyr::filter(conditions=="4hour") %>% 
+      dplyr::mutate(DNA =
+                      dplyr::case_when(
+                        grepl("E99",mutants) ~ "1% pneumococcal",
+                        grepl("E1",mutants) ~ "99% pneumococcal"
+                      )
+      ) %>% 
+      tidyr::pivot_longer(
+        cols = c(Phage_circular,PRCI_circular),
+        names_to = "MGE",
+        values_to = "qPCR") %>% 
+      dplyr::filter(MGE == "Phage_circular") %>% 
+      dplyr::mutate(`Biological replicate` = as.character(Replicate))
+  ) %>% 
+    dplyr::group_by(DNA,`Biological replicate`) %>% 
+    dplyr::mutate(Mean_est = mean(qPCR)) %>% 
+    dplyr::ungroup() %>% 
+    dplyr::group_by(DNA) %>% 
+    dplyr::mutate(Baseline =
+                    dplyr::if_else(
+                      DNA == "1% pneumococcal",
+                      Mean_est,
+                      NA_real_
+                    )
+                  ) %>% 
+    dplyr::ungroup() %>% 
+    dplyr::group_by(`Biological replicate`) %>% 
+    tidyr::fill(Baseline, .direction = "updown") %>% 
+    dplyr::mutate(Change = qPCR/Baseline) %>% 
+    dplyr::ungroup() %>% 
+    dplyr::filter(DNA == "99% pneumococcal")
+
+# Plot fold changes
+(fold_change_plot <-
+  ggplot(spontaneous_start_end_df,
+         aes(x = `Biological replicate`,
+             y = Change)) +
+    geom_violin(draw_quantiles = c(0.5),
+                scale = "width",
+                colour = competence_palette[["Spontaneous competence"]]) +
+    geom_point(position = position_jitter(width = 0.15),
+               colour = competence_palette[["Spontaneous competence"]]) +
+    scale_y_continuous(trans = "log10") +
+    geom_vline(xintercept = 3.5, linetype = 2) +
+    ylab(expression("Fold change in"~italic(attP)~"concentration")) +
+    theme_bw() +
+    theme(axis.text.x = element_blank(),
+          strip.background = element_rect(fill = NA))
+)
+
+```
+
+Plot transformation data:
+
+``` {r Plot transformation data}
+
+transformation_df <-
+  dplyr::bind_rows(
+    read_csv("./experimental_data/transformation_rates.csv"),
+    read_csv("./experimental_data/deletions_with_CSP_three_replicates.csv") %>% 
+      dplyr::filter(conditions == "Phage_Kan") %>% 
+      dplyr::select(-conditions) %>% 
+      dplyr::mutate(mutants = gsub("_","+",donor)) %>% 
+      dplyr::rename(deletion_rates = Transformation_efficiency)
+  ) %>% 
+  dplyr::mutate(DNA =
+                    dplyr::case_when(
+                      mutants == "Control" ~ "No CSP control",
+                      mutants == "CSP_DnaseI" ~ "CSP and DNase",
+                      mutants == "CSP" ~ "No DNA control",
+                      grepl("E99",mutants) ~ "1% pneumococcal",
+                      grepl("E90",mutants) ~ "10% pneumococcal",
+                      grepl("E50",mutants) ~ "50% pneumococcal",
+                      grepl("E10",mutants) ~ "90% pneumococcal",
+                      grepl("E1",mutants) ~ "99% pneumococcal"
+                    )
+    ) %>% 
+    dplyr::mutate(`Experimental conditions` =
+                    dplyr::case_when(
+                      mutants == "Control" ~ "Control",
+                      mutants == "CSP_DnaseI" ~ "Control",
+                      mutants == "CSP" ~ "Control",
+                      grepl("CSP",mutants) ~ "Induced competence",
+                      TRUE ~ "Spontaneous competence"
+                    )
+    )
+
+# Plot transformation data
+(transformation_plot <-
+  ggplot(transformation_df,
+         aes(x = DNA,
+             y = deletion_rates + 1e-8,
+             colour = `Experimental conditions`,
+             group = interaction(mutants,`Experimental conditions`))) +
+    geom_violin(draw_quantiles = c(0.5),
+                position = position_dodge(preserve = "single"),
+                scale = "width") +
+    geom_point(position = position_jitterdodge()) +
+    ylab(expression(atop("Transformation efficiency","(transformants per cfu)")))+
+    scale_colour_manual(values = competence_palette) +
+    scale_y_continuous(trans = "log10") +
+    geom_hline(yintercept = 1e-8, linetype = 3) +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+          strip.background = element_rect(fill = NA))
+)
+
+```
+
+Combine experimental data into a single figure:
+
+``` {r Combined experimental data figure, fig.width = 8, fig.height = 8}
+
+legend_plot <-
+  cowplot::get_legend(qpcr_plot)
+
+bottom_right_plot <-
+  cowplot::plot_grid(plotlist = list(fold_change_plot +
+                                       theme(legend.position = "none"),
+                                     legend_plot),
+                                     nrow = 1,
+                                     labels = c("C","")
+                     )
+
+bottom_plots <-
+  cowplot::plot_grid(plotlist = list(transformation_plot +
+                                       theme(legend.position = "none"),
+                                     bottom_right_plot),
+                     labels = c("B",""),
+                     nrow = 1,
+                     rel_widths = c(0.5,0.5))
+
+(exp_plot <-
+  cowplot::plot_grid(plotlist = list(qpcr_plot +
+                                       theme(legend.position = "none"),
+                                     bottom_plots),
+                     labels = c("A",""),
+                     nrow = 2)
+)
+
+```
+
+Now plot the control DNase data:
+
+``` {r Plot DNase control data, fig.width = 6, fig.height = 4}
+
+dnase_control_df <-
+  read_csv("./experimental_data/DnaseI_control.csv") %>% 
+    tidyr::pivot_longer(
+      cols = c(Ratio_PRCI,Ratio_Prophage),
+      names_to = "MGE",
+      values_to = "qPCR"
+    ) %>% 
+    dplyr::mutate(
+      Conditions =
+        dplyr::if_else(
+          grepl("No_DnaseI",conditions),
+          "No DNase",
+          "DNase"
+          )
+      ) %>% 
+    dplyr::mutate(
+      Ratio = 
+        dplyr::case_when(
+          MGE == "Ratio_PRCI" ~ "PRCI[italic(malA)]~'to'~italic(rpoA)",
+          MGE == "Ratio_Prophage" ~ "phi*'RMV8'~'to'~italic(rpoA)"
+        )
+    ) %>% 
+  dplyr::rename(`Biological replicate` = replicate) %>% 
+  dplyr::mutate(
+    Experiment = factor(
+      dplyr::case_when(
+        mutants == "control" ~ "No CSP control",
+        mutants == "CSP_induced" ~ "4h post-CSP"
+      ),
+      levels = c("No CSP control","4h post-CSP")
+    )
+  )
+
+# Define DNase palette
+dnase_palette <- c(
+  "DNase" = "red",
+  "No DNase" = "grey"
+)
+
+# Plot DNase control
+ggplot(dnase_control_df,
+       aes(x = Experiment,
+           y = qPCR,
+           shape = `Biological replicate`,
+           group = interaction(mutants,Conditions),
+           colour = Conditions)) +
+  geom_violin(position = position_dodge(preserve = "single"),
+              draw_quantiles = c(0.5)) +
+  geom_point(position = position_jitterdodge(jitter.width = 0.15)) +
+  scale_colour_manual(values = dnase_palette) +
+  facet_grid(~Ratio,
+               labeller = label_parsed) +
+  ylab(expression('Relative DNA amount ('*2^{-Delta*Delta*'C'[t]}*')')) +
+  scale_y_log10() +
+  theme_bw() +
+  theme(strip.background = element_blank())
+
+```
