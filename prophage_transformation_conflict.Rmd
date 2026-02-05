@@ -342,65 +342,63 @@ identify_mismatches_between_slvs <- function(mlst_profile_df, slvs_df, fn = NULL
 
 The species to be analysed are taken from those found to contribute to the burden of [antimicrobial resistant-disease](https://doi.org/10.1016/S0140-6736(21)02724-0), as these constitute a set of genetically-diverse and well-sampled bacteria:
 
-- *Escherichia coli*: Multiple MLST schemes available for [Escherichia spp.](https://pubmlst.org/bigsdb?db=pubmlst_escherichia_seqdef); the Achtman scheme was used, as it had 7 loci.
+- *Escherichia coli*: Multiple MLST schemes available for [*Escherichia* spp.](https://pubmlst.org/bigsdb?db=pubmlst_escherichia_seqdef); the Achtman scheme was used, as it had 7 loci.
 
-- *Staphylococcus aureus*: One MLST database available for [S. aureus](https://pubmlst.org/bigsdb?db=pubmlst_saureus_seqdef)
+- *Staphylococcus aureus*: One MLST database available for [*S. aureus*](https://pubmlst.org/bigsdb?db=pubmlst_saureus_seqdef)
 
-- *Klebsiella pneumoniae*: One MLST database available for [K. pneumoniae](https://bigsdb.pasteur.fr/cgi-bin/bigsdb/bigsdb.pl?db=pubmlst_klebsiella_seqdef)
+- *Klebsiella pneumoniae*: One MLST database available for [*K. pneumoniae*](https://bigsdb.pasteur.fr/cgi-bin/bigsdb/bigsdb.pl?db=pubmlst_klebsiella_seqdef)
 
-- *Streptococcus pneumoniae*: One MLST database available for [S. pneumoniae](https://pubmlst.org/bigsdb?db=pubmlst_spneumoniae_seqdef)
+- *Streptococcus pneumoniae*: One MLST database available for [*S. pneumoniae*](https://pubmlst.org/bigsdb?db=pubmlst_spneumoniae_seqdef)
 
-- *Acinetobacter baumanii*: One MLST database available for [A. baumanii](https://pubmlst.org/bigsdb?db=pubmlst_abaumannii_seqdef)
+- *Acinetobacter baumanii*: One MLST database available for [*A. baumanii*](https://pubmlst.org/bigsdb?db=pubmlst_abaumannii_seqdef)
 
-- *Pseudomonas aeruginosa*: One MLST database available for [P. aeruginosa](https://pubmlst.org/bigsdb?db=pubmlst_paeruginosa_seqdef)
+- *Pseudomonas aeruginosa*: One MLST database available for [*P. aeruginosa*](https://pubmlst.org/bigsdb?db=pubmlst_paeruginosa_seqdef)
 
 - *Mycobacterium tuberculosis*: Excluded, as low diversity means MLST is not informative for this species.
 
-- *Enterococcus faecium*: One MLST database available for [E. faecium](https://pubmlst.org/bigsdb?db=pubmlst_efaecium_seqdef), although it is not clear whether other enterococci are effectively excluded, based on the species label in the profiles.
+- *Enterococcus faecium*: One MLST database available for [*E. faecium*](https://pubmlst.org/bigsdb?db=pubmlst_efaecium_seqdef), although it is not clear whether other enterococci are effectively excluded, based on the species label in the profiles.
 
 - *Enterobacter* spp.: One MLST database available for [*E. cloacae* and related species](https://pubmlst.org/bigsdb?db=pubmlst_ecloacae_seqdef).
 
-- *Streptococcus agalactiae*: One MLST database available for [S. agalactiae](https://pubmlst.org/bigsdb?db=pubmlst_sagalactiae_seqdef).
+- *Streptococcus agalactiae*: One MLST database available for [*S. agalactiae*](https://pubmlst.org/bigsdb?db=pubmlst_sagalactiae_seqdef).
 
-- *Salmonella spp.*: Dominated by *S. enterica*. One MLST database available for [S. agalactiae](https://pubmlst.org/bigsdb?db=pubmlst_salmonella_seqdef).
+- *Salmonella spp.*: Dominated by *S. enterica*. One MLST database available for [*S. enterica*](https://pubmlst.org/bigsdb?db=pubmlst_salmonella_seqdef).
 
-- *Enterococcus faecalis*: One MLST database available for [E. faecalis](https://pubmlst.org/bigsdb?db=pubmlst_efaecalis_seqdef).
+- *Enterococcus faecalis*: One MLST database available for [*E. faecalis*](https://pubmlst.org/bigsdb?db=pubmlst_efaecalis_seqdef).
 
 - *Proteus* spp.: One MLST database for [*Proteus* species](https://pubmlst.org/bigsdb?db=pubmlst_proteus_seqdef).
 
 - *Serratia* spp.: One MLST database for [*Serratia* species](https://pubmlst.org/bigsdb?db=pubmlst_serratia_seqdef).
 
-- *Streptococcus pyogenes*: One MLST database available for [S. pyogenes](https://pubmlst.org/bigsdb?db=pubmlst_spyogenes_seqdef).
+- *Streptococcus pyogenes*: One MLST database available for [*S. pyogenes*](https://pubmlst.org/bigsdb?db=pubmlst_spyogenes_seqdef).
 
 - *Citrobacter* spp.: One MLST database available for [*C. freundii* and related species](https://pubmlst.org/bigsdb?db=pubmlst_cfreundii_seqdef).
 
-- *Haemophilus influenzae*: One MLST database available for [H. influenzae](https://pubmlst.org/bigsdb?db=pubmlst_hinfluenzae_seqdef).
+- *Haemophilus influenzae*: One MLST database available for [*H. influenzae*](https://pubmlst.org/bigsdb?db=pubmlst_hinfluenzae_seqdef).
 
 - *Shigella* spp.: Excluded as not evolutionary independent from *E. coli*.
 
-- *Morganella morganii*: One MLST database available for [M. morganii](https://bigsdb.pasteur.fr/cgi-bin/bigsdb/bigsdb.pl?db=pubmlst_morganella_seqdef).
+- *Morganella morganii*: One MLST database available for [*M. morganii*](https://bigsdb.pasteur.fr/cgi-bin/bigsdb/bigsdb.pl?db=pubmlst_morganella_seqdef).
 
 These were supplemented with other species representing genera [known to be naturally transformable](https://doi.org/10.1016/j.resmic.2007.09.004):
 
 - *Agrobacterium tumefaciens*:  Excluded, as no MLST data available.
 
-- *Neisseria* spp.: One MLST database available for [Neisseria species](https://pubmlst.org/bigsdb?db=pubmlst_neisseria_seqdef); this can be included, as both *N. meningitidis* and *N. gonorrhoeae* are naturally transformable.
+- *Neisseria* spp.: One MLST database available for [*Neisseria* species](https://pubmlst.org/bigsdb?db=pubmlst_neisseria_seqdef); this can be included, as both *N. meningitidis* and *N. gonorrhoeae* are naturally transformable.
 
 - *Legionella pneumophila*: Excluded, as no MLST data available from BigsDB.
 
-- *Moraxella* spp.: One MLST database available for [M. catarrhalis](https://pubmlst.org/bigsdb?db=pubmlst_moraxella_seqdef); this can be included, as *Moraxella* species are generally regarded as transformable.
+- *Moraxella* spp.: One MLST database available for [*M. catarrhalis*](https://pubmlst.org/bigsdb?db=pubmlst_moraxella_seqdef); this can be included, as *Moraxella* species are generally regarded as transformable.
 
-- *Vibrio cholerae*: One MLST database available for [V. cholera](https://pubmlst.org/bigsdb?db=pubmlst_vcholerae_seqdef).
+- *Vibrio cholerae*: One MLST database available for [*V. cholerae*](https://pubmlst.org/bigsdb?db=pubmlst_vcholerae_seqdef).
 
-- *Campylobacter jejuni* & *coli*: One MLST database available for [Campylobacter spp.](https://pubmlst.org/bigsdb?db=pubmlst_campylobacter_seqdef). Both species are transformable, and therefore can be considered jointly.
+- *Campylobacter jejuni* & *coli*: One MLST database available for [*Campylobacter* spp.](https://pubmlst.org/bigsdb?db=pubmlst_campylobacter_seqdef). Both species are transformable, and therefore can be considered jointly.
 
-- *Helicobacter pylori*: One MLST database available for [H. pylori](https://pubmlst.org/bigsdb?db=pubmlst_helicobacter_seqdef).
+- *Helicobacter pylori*: One MLST database available for [*H. pylori*](https://pubmlst.org/bigsdb?db=pubmlst_helicobacter_seqdef).
 
 - *Mycobacterium smegmatis*: Excluded as no MLST scheme available.
 
-- *Bacillus subtilis*: One MLST database available for [B. subtilis](https://pubmlst.org/bigsdb?db=pubmlst_bsubtilis_seqdef).
-
-Given the inclusion of *B. subtilis* as a transformable gram-positive sporulating bacterium, *Clostridium difficile* was included as non-transformable gram-positive sporulating species.
+- *Bacillus subtilis*: One MLST database available for [*B. subtilis*](https://pubmlst.org/bigsdb?db=pubmlst_bsubtilis_seqdef).
 
 Searches run on 4/12/25.
 
