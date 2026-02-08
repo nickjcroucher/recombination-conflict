@@ -1101,6 +1101,7 @@ parse_phaster_summary <- function(file, accession) {
         REGION,
         REGION_LENGTH_Kb,
         TOTAL_PROTEIN_NUM,
+        PHAGE_HIT_PROTEIN_NUM,
         COMPLETENESS,
         SCORE,
         MOST_COMMON_PHAGE_NAME
@@ -1125,6 +1126,7 @@ parse_phaster_summary <- function(file, accession) {
       REGION,
       REGION_LENGTH_Kb,
       TOTAL_PROTEIN_NUM,
+      PHAGE_HIT_PROTEIN_NUM,
       COMPLETENESS,
       SCORE,
       MOST_COMMON_PHAGE_NAME
@@ -1139,6 +1141,7 @@ parse_phaster_summary <- function(file, accession) {
     "REGION",
     "REGION_LENGTH_Kb",
     "TOTAL_PROTEIN_NUM",
+    "PHAGE_HIT_PROTEIN_NUM",
     "COMPLETENESS",
     "SCORE",
     "MOST_COMMON_PHAGE_NAME"
@@ -1168,6 +1171,7 @@ all_results <- purrr::map_dfr(
       "REGION",
       "REGION_LENGTH_Kb",
       "TOTAL_PROTEIN_NUM",
+      "PHAGE_HIT_PROTEIN_NUM",
       "COMPLETENESS",
       "SCORE",
       "MOST_COMMON_PHAGE_NAME"
@@ -1196,6 +1200,8 @@ all_results <-
   read_csv("./phaster_outputs/phaster_analysis_summary.csv")
 
 # Plot output
+lower_gene_bound <- 25
+upper_gene_bound <- 200
 ggplot(all_results %>%
          dplyr::mutate(
            Lytic = dplyr::if_else(lysis == 0,
@@ -1211,12 +1217,12 @@ ggplot(all_results %>%
                                  )
            )
          ),
-       aes(x = REGION_LENGTH_Kb)) +
+       aes(x = PHAGE_HIT_PROTEIN_NUM)) +
   geom_histogram(colour = "blue", fill = "blue") +
   scale_x_log10() +
   ylab("Count") +
-  xlab("Region length (kb)") +
-  geom_vline(xintercept = 30, colour = "red", linetype = 2) +
+  xlab("Number of prophage protein hits") +
+  geom_vline(xintercept = c(lower_gene_bound,upper_gene_bound), colour = "red", linetype = 2) +
   facet_grid(Lytic~COMPLETENESS) +
   theme_bw() +
   theme(strip.background = element_blank())
@@ -1278,7 +1284,7 @@ sample_summary_df %>%
 # Filter prophage and count per genome
 filtered_prophage_count_df <-
   all_results %>% 
-    dplyr::filter(REGION_LENGTH_Kb >= 30 & REGION_LENGTH_Kb <= 150 & COMPLETENESS == "intact") %>% 
+    dplyr::filter(PHAGE_HIT_PROTEIN_NUM >= lower_gene_bound & PHAGE_HIT_PROTEIN_NUM <= upper_gene_bound & COMPLETENESS == "intact") %>% 
     dplyr::group_by(accession) %>% 
     dplyr::summarise(phage_count = n()) %>% 
     dplyr::ungroup()
@@ -1471,7 +1477,7 @@ prophage_rec_df <-
 # Fit model of recombination rate and prophage density
 rec_prophage_model <-
   glmmTMB::glmmTMB(
-    `Recombination probability` ~ mean_prophage,
+    `Recombination probability` ~ lambda_hat,
     data = prophage_rec_df,
     ziformula = ~0,
     dispformula = ~1,
@@ -1489,15 +1495,15 @@ Plot the data and model output together with bacterial species information:
 # Create a grid of mean_prophage values over the observed range
 newdata_rec <- prophage_rec_df %>%
   summarise(
-    min_mean = min(mean_prophage, na.rm = TRUE),
-    max_mean = max(mean_prophage, na.rm = TRUE)
+    min_mean = min(lambda_hat, na.rm = TRUE),
+    max_mean = max(lambda_hat, na.rm = TRUE)
   ) %>%
-  { tibble(mean_prophage = seq(.$min_mean,.$max_mean, length.out = 200)) }
+  { tibble(lambda_hat = seq(.$min_mean,.$max_mean, length.out = 200)) }
 
 emm_rec <- emmeans(
   rec_prophage_model,
-  specs = ~ mean_prophage,
-  at    = list(mean_prophage = newdata_rec$mean_prophage),
+  specs = ~ lambda_hat,
+  at    = list(lambda_hat = newdata_rec$lambda_hat),
   type  = "response"   # back-transform from logit to probability
 )
 
@@ -1514,7 +1520,7 @@ rec_prophage_model_predictions <- as_tibble(emm_rec) %>%
 
 # Extract p value
 mod_sum<-summary(rec_prophage_model)
-p_val  <- mod_sum$coefficients$cond["mean_prophage", "Pr(>|z|)"]
+p_val  <- mod_sum$coefficients$cond["lambda_hat", "Pr(>|z|)"]
 p_label <- paste0("italic(p) == ", signif(p_val, 3))
 
 # Define palettes
@@ -1534,7 +1540,7 @@ transformability_palette <- c(
 (comparison_plot <-
   ggplot(prophage_rec_df,
          aes(y = `Recombination probability`,
-             x = mean_prophage,
+             x = lambda_hat,
              colour = Transformability,
              shape = Niche,
              label = display_name)) +
@@ -1548,7 +1554,7 @@ transformability_palette <- c(
     # fitted model line
     geom_line(
       data = rec_prophage_model_predictions,
-      aes(x = mean_prophage, y = prob_fit),
+      aes(x = lambda_hat, y = prob_fit),
       inherit.aes = FALSE,
       color = "black",
       linewidth = 1,
@@ -1557,7 +1563,7 @@ transformability_palette <- c(
     # confidence band for the fit
     geom_ribbon(
       data = rec_prophage_model_predictions,
-      aes(x = mean_prophage, ymin = prob_lwr, ymax = prob_upr),
+      aes(x = lambda_hat, ymin = prob_lwr, ymax = prob_upr),
       inherit.aes = FALSE,
       alpha = 0.2,
       fill = "black"
@@ -1856,11 +1862,11 @@ dnase_control_df <-
       values_to = "qPCR"
     ) %>% 
     dplyr::mutate(
-      Conditions =
+      `Incubation conditions` =
         dplyr::if_else(
           grepl("No_DnaseI",conditions),
-          "No DNase",
-          "DNase"
+          "No DNase I",
+          "DNase I"
           )
       ) %>% 
     dplyr::mutate(
@@ -1875,16 +1881,16 @@ dnase_control_df <-
     Experiment = factor(
       dplyr::case_when(
         mutants == "control" ~ "No CSP control",
-        mutants == "CSP_induced" ~ "4h post-CSP"
+        mutants == "CSP_induced" ~ "2h post-CSP"
       ),
-      levels = c("No CSP control","4h post-CSP")
+      levels = c("No CSP control","2h post-CSP")
     )
   )
 
 # Define DNase palette
 dnase_palette <- c(
-  "DNase" = "red",
-  "No DNase" = "grey"
+  "DNase I" = "red",
+  "No DNase I" = "grey"
 )
 
 # Plot DNase control
@@ -1892,15 +1898,16 @@ ggplot(dnase_control_df,
        aes(x = Experiment,
            y = qPCR,
            shape = `Biological replicate`,
-           group = interaction(mutants,Conditions),
-           colour = Conditions)) +
+           group = interaction(mutants,`Incubation conditions`),
+           colour = `Incubation conditions`)) +
   geom_violin(position = position_dodge(preserve = "single"),
               draw_quantiles = c(0.5)) +
   geom_point(position = position_jitterdodge(jitter.width = 0.15)) +
   scale_colour_manual(values = dnase_palette) +
   facet_grid(~Ratio,
                labeller = label_parsed) +
-  ylab(expression('Relative DNA amount ('*2^{-Delta*Delta*'C'[t]}*')')) +
+  ylab(expression('Relative concentration of MGE'~italic(attP)~'site to'~italic(rpoA))) +
+  xlab("Sample type") +
   scale_y_log10() +
   theme_bw() +
   theme(strip.background = element_blank())
