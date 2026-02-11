@@ -1610,7 +1610,7 @@ competence_palette <- c(
 )
 
 qpcr_df <-
-  read_csv("./experimental_data/qPCR_data.csv") %>% 
+  read_csv("./experimental_data/complete_qPCR_data.csv") %>% 
     dplyr::mutate(`Experimental conditions` =
                     dplyr::case_when(
                       mutants == "NO_CSP" ~ "Control",
@@ -1622,7 +1622,7 @@ qpcr_df <-
     ) %>% 
     dplyr::mutate(DNA =
                     dplyr::case_when(
-                      mutants == "NO_CSP" ~ "No CSP control",
+                      mutants == "NO_CSP" ~ "No CSP or DNA control",
                       mutants == "CSP_DnaseI" ~ "CSP and DNase",
                       mutants == "CSP" ~ "No DNA control",
                       grepl("E99",mutants) ~ "1% pneumococcal",
@@ -1635,8 +1635,8 @@ qpcr_df <-
   dplyr::mutate(
     Timepoint = 
       dplyr::case_when(
-        conditions == "2hour" ~ "'2h post-CSP'",
-        conditions == "4hour" ~ "'4h post-CSP'"
+        conditions == "2hour" ~ "'2h post-subculture'",
+        conditions == "4hour" ~ "'4h post-subculture'"
       )
   ) %>% 
   tidyr::pivot_longer(cols = c(Phage_circular,PRCI_circular),
@@ -1653,25 +1653,30 @@ qpcr_df <-
       )
   ) %>% 
   dplyr::filter(!is.na(qPCR)) %>% 
-  dplyr::mutate(`Biological replicate` = as.character(Replicate))
+  dplyr::mutate(`Biological replicate` = as.character(Replicate)) %>% 
+  # Adjust for 1.25 ul sampled volume
+  dplyr::mutate(qPCR = qPCR/1.25)
 
 (qpcr_plot <-
   ggplot(qpcr_df,
          aes(x = DNA,
              y = qPCR,
              colour = `Experimental conditions`,
+             fill = `Experimental conditions`,
              group = interaction(DNA,`Experimental conditions`),
              shape = `Biological replicate`)) +
     geom_violin(draw_quantiles = c(0.5),
                 position = position_dodge(preserve = "single"),
-                scale = "width",) +
+                scale = "width",
+                alpha = 0.25) +
     geom_point(position = position_jitterdodge()) +
     scale_colour_manual(values = competence_palette,
                         aesthetics = c("fill","colour")) +
     scale_y_continuous(trans = "log10") +
-    ylab(expression(atop(italic(attP)~'sites in','culture supernatant'))) +
+    ylab(expression(atop(italic(attP)~'sites per'~mu*'l','culture supernatant'))) +
     facet_grid(RMV8_MGE~Timepoint,
                labeller = label_parsed) +
+    xlab("Experimental conditions") +
     theme_bw() +
     theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
           strip.background = element_blank())
@@ -1715,14 +1720,16 @@ spontaneous_start_end_df <-
                         grepl("E1",mutants) ~ "99% pneumococcal"
                       )
       ) %>% 
+      dplyr::mutate(`Experimental conditions` = "Spontaneous competence") %>% 
       tidyr::pivot_longer(
         cols = c(Phage_circular,PRCI_circular),
         names_to = "MGE",
         values_to = "qPCR") %>% 
-      dplyr::filter(MGE == "Phage_circular") %>% 
-      dplyr::mutate(`Biological replicate` = as.character(Replicate))
-  ) %>% 
-    dplyr::group_by(DNA,`Biological replicate`) %>% 
+      dplyr::filter(MGE == "Phage_circular")
+    ) %>% 
+    dplyr::mutate(`Biological replicate` =
+                    gsub("[^0-9.-]", "", Replicate))   %>%
+    dplyr::group_by(DNA,`Biological replicate`,`Experimental conditions`) %>% 
     dplyr::mutate(Mean_est = mean(qPCR)) %>% 
     dplyr::ungroup() %>% 
     dplyr::group_by(DNA) %>% 
@@ -1734,23 +1741,30 @@ spontaneous_start_end_df <-
                     )
                   ) %>% 
     dplyr::ungroup() %>% 
-    dplyr::group_by(`Biological replicate`) %>% 
+    dplyr::group_by(`Biological replicate`,`Experimental conditions`) %>% 
     tidyr::fill(Baseline, .direction = "updown") %>% 
     dplyr::mutate(Change = qPCR/Baseline) %>% 
     dplyr::ungroup() %>% 
     dplyr::filter(DNA == "99% pneumococcal")
 
 # Plot fold changes
+replicate_palette <- c(16,17,18,3,7,8,10)
+names(replicate_palette) = as.character(1:7)
 (fold_change_plot <-
   ggplot(spontaneous_start_end_df,
          aes(x = `Biological replicate`,
+             shape = `Biological replicate`,
+             colour = `Experimental conditions`,
+             fill = `Experimental conditions`,
              y = Change)) +
     geom_violin(draw_quantiles = c(0.5),
                 scale = "width",
-                colour = competence_palette[["Spontaneous competence"]]) +
-    geom_point(position = position_jitter(width = 0.15),
-               colour = competence_palette[["Spontaneous competence"]]) +
+                alpha = 0.25) +
+    geom_point(position = position_jitter(width = 0.15)) +
     scale_y_continuous(trans = "log10") +
+    scale_shape_manual(values = replicate_palette) +
+    scale_colour_manual(values = competence_palette,
+                        aesthetics = c("fill","colour")) +
     geom_vline(xintercept = 3.5, linetype = 2) +
     ylab(expression("Fold change in"~italic(attP)~"concentration")) +
     theme_bw() +
@@ -1775,7 +1789,7 @@ transformation_df <-
   ) %>% 
   dplyr::mutate(DNA =
                     dplyr::case_when(
-                      mutants == "Control" ~ "No CSP control",
+                      mutants == "Control" ~ "No CSP or DNA control",
                       mutants == "CSP_DnaseI" ~ "CSP and DNase",
                       mutants == "CSP" ~ "No DNA control",
                       grepl("E99",mutants) ~ "1% pneumococcal",
@@ -1793,7 +1807,10 @@ transformation_df <-
                       grepl("CSP",mutants) ~ "Induced competence",
                       TRUE ~ "Spontaneous competence"
                     )
-    )
+    ) %>% 
+    dplyr::group_by(DNA,`Experimental conditions`) %>% 
+    dplyr::mutate(`Biological replicate` = as.character(row_number())) %>% 
+    dplyr::ungroup()
 
 # Plot transformation data
 (transformation_plot <-
@@ -1801,14 +1818,20 @@ transformation_df <-
          aes(x = DNA,
              y = deletion_rates + 1e-8,
              colour = `Experimental conditions`,
+             fill = `Experimental conditions`,
+             shape = `Biological replicate`,
              group = interaction(mutants,`Experimental conditions`))) +
     geom_violin(draw_quantiles = c(0.5),
                 position = position_dodge(preserve = "single"),
-                scale = "width") +
+                scale = "width",
+                alpha = 0.25) +
     geom_point(position = position_jitterdodge()) +
     ylab(expression(atop("Transformation efficiency","(transformants per cfu)")))+
-    scale_colour_manual(values = competence_palette) +
+    scale_colour_manual(values = competence_palette,
+                        aesthetics = c("fill","colour")) +
+    scale_shape_manual(values = replicate_palette) +
     scale_y_continuous(trans = "log10") +
+    xlab("Experimental conditions") +
     geom_hline(yintercept = 1e-8, linetype = 3) +
     theme_bw() +
     theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
@@ -1822,7 +1845,7 @@ Combine experimental data into a single figure:
 ``` {r Combined experimental data figure, fig.width = 8, fig.height = 8}
 
 legend_plot <-
-  cowplot::get_legend(qpcr_plot)
+  cowplot::get_legend(transformation_plot)
 
 bottom_right_plot <-
   cowplot::plot_grid(plotlist = list(fold_change_plot +
@@ -1834,7 +1857,8 @@ bottom_right_plot <-
 
 bottom_plots <-
   cowplot::plot_grid(plotlist = list(transformation_plot +
-                                       theme(legend.position = "none"),
+                                       theme(legend.position = "none",
+                                             axis.title.y = element_text(hjust =  -250)),
                                      bottom_right_plot),
                      labels = c("B",""),
                      nrow = 1,
@@ -1845,7 +1869,8 @@ bottom_plots <-
                                        theme(legend.position = "none"),
                                      bottom_plots),
                      labels = c("A",""),
-                     nrow = 2)
+                     nrow = 2,
+                     rel_heights = c(1.5,1))
 )
 
 ```
@@ -1881,9 +1906,9 @@ dnase_control_df <-
     Experiment = factor(
       dplyr::case_when(
         mutants == "control" ~ "No CSP control",
-        mutants == "CSP_induced" ~ "2h post-CSP"
+        mutants == "CSP_induced" ~ "2h post-subculture"
       ),
-      levels = c("No CSP control","2h post-CSP")
+      levels = c("No CSP control","2h post-subculture")
     )
   )
 
@@ -1911,5 +1936,43 @@ ggplot(dnase_control_df,
   scale_y_log10() +
   theme_bw() +
   theme(strip.background = element_blank())
+
+```
+To understand the origins of the exogenous DNA that is not added to the media, we plot the concentration of *rpoA*:
+
+``` {r Plot rpoA concentrations, fig.width = 12, fig.height = 6}
+
+(rpoA_plot <-
+  ggplot(qpcr_df %>% 
+           #dplyr::filter(`Experimental conditions` == "Control") %>% 
+           dplyr::filter(RMV8_MGE == "phi*'RMV8'") %>% 
+           dplyr::filter(!is.na(rpoA)) %>% 
+           dplyr::mutate(DNA = paste0("'",DNA,"'")) %>% 
+           dplyr::mutate(`Biological replicate` =
+                           as.factor(`Biological replicate`)) %>% 
+           dplyr::mutate(Timepoint = gsub("'","",Timepoint)),
+         aes(x = Timepoint,
+             y = rpoA,
+             colour = `Experimental conditions`,
+             fill = `Experimental conditions`,
+             group = interaction(Timepoint,`Experimental conditions`),
+             shape = `Biological replicate`)) +
+    geom_violin(draw_quantiles = c(0.5),
+                position = position_dodge(preserve = "single"),
+                scale = "width",
+                alpha = 0.25) +
+    geom_point(position = position_jitterdodge(jitter.width = 0.5)) +
+    scale_colour_manual(values = competence_palette,
+                        aesthetics = c("fill","colour")) +
+    scale_y_continuous(trans = "log10") +
+    ylab(expression(atop(italic(rpoA)~'copies per'~mu*'l','culture supernatant'))) +
+    facet_grid(.~DNA,
+               labeller = label_parsed) +
+    xlab("Timepoint") +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+          strip.background = element_blank(),
+          legend.position = "bottom")
+)
 
 ```
