@@ -1366,7 +1366,7 @@ sample_summary_df <-
       as.data.frame(table(mismatches_df$Species)) %>% 
         dplyr::rename(
           name = Var1,
-          `Single locus variants` = Freq
+          `Divergent genotypes` = Freq
         ) %>% 
         dplyr::left_join(enframe(species_name) %>% 
                            tidyr::unnest(value),
@@ -1383,7 +1383,7 @@ sample_summary_df <-
       by = c("name"="species")
     ) %>% 
     dplyr::rename(Species = name) %>% 
-    dplyr::select(Species,`Sequence types`,`Single locus variants`,`Complete replicons`,`PHASTER entries`,`Full-length genomes`)
+    dplyr::select(Species,`Sequence types`,`Divergent genotypes`,`Complete replicons`,`PHASTER entries`,`Full-length genomes`)
 
 # Generate summary table
 sample_summary_df %>%
@@ -2172,9 +2172,9 @@ dnase_control_df <-
     Experiment = factor(
       dplyr::case_when(
         mutants == "control" ~ "No CSP control",
-        mutants == "CSP_induced" ~ "2h post-subculture"
+        mutants == "CSP_induced" ~ "2h post-CSP"
       ),
-      levels = c("No CSP control","2h post-subculture")
+      levels = c("No CSP control","2h post-CSP")
     )
   )
 
