@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
+knitr::opts_chunk$set(echo = TRUE, cache=FALSE)
 
 library(magrittr)
 library(tidyverse)
@@ -23,6 +23,8 @@ library(broom)
 library(emmeans)
 library(cowplot)
 library(fitdistrplus)
+library(magick)
+library(rlang)
 
 position_dodge <- function(width = NULL, preserve = "total") {
   ggproto(NULL, PositionDodge,
@@ -336,6 +338,70 @@ identify_mismatches_between_slvs <- function(mlst_profile_df, slvs_df, fn = NULL
   
 }
 
+plot_violin_kw <- function(x_var,
+                           y_var,
+                           data = prophage_rec_df,
+                           colour_var = Transformability,
+                           shape_var  = Niche,
+                           x_lab = NULL,
+                           y_lab = NULL,
+                           hjust_amt = 0) {
+
+  # Convert input names to quosures
+  x_quo   <- enquo(x_var)
+  y_quo   <- enquo(y_var)
+  col_quo <- enquo(colour_var)
+  shp_quo <- enquo(shape_var)
+
+  # Kruskal–Wallis test
+  df_kw <- data %>%
+    dplyr::filter(!is.na(!!x_quo), !is.na(!!y_quo))
+
+  x_vec <- rlang::eval_tidy(x_quo, df_kw)
+  y_vec <- rlang::eval_tidy(y_quo, df_kw)
+
+  kw_res <- wilcox.test(y_vec~x_vec)  # y ~ x
+  p_val <- kw_res$p.value
+  pval_label <- paste0("Wilcoxon~rank~sum~test~italic(p) == ", signif(p_val, 3))
+
+  # Build plot
+  p <- ggplot(data,
+              aes(x = !!x_quo,
+                  y = !!y_quo)) +
+    geom_violin(draw_quantiles = c(0.5),
+                alpha = 0.3,
+                colour = "grey80") +
+    geom_jitter(
+      aes(colour = !!col_quo, shape = !!shp_quo),
+      position = position_jitter(width = 0.15, height = 0),
+      size = 2,
+      alpha = 0.8
+    ) +
+    scale_shape_manual(values = niche_palette) +
+    scale_colour_manual(values = transformability_palette) +
+    scale_y_continuous(expand = expansion(add = c(0,0.15)))
+
+  # Annotate p-value
+  p <- p +
+    annotate(
+      "text",
+      x = Inf, y = Inf,
+      label = pval_label,
+      hjust = 1.05, vjust = 1.5,
+      size = 3.5,
+      parse = TRUE
+    ) +
+    theme_bw() +
+    theme(panel.grid = element_blank(),
+          axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+          axis.title.y = element_text(hjust = hjust_amt))
+
+  if (!is.null(x_lab)) p <- p + xlab(x_lab)
+  if (!is.null(y_lab)) p <- p + ylab(y_lab)
+
+  p
+}
+
 ```
 
 # Analyse genotyping data
@@ -350,7 +416,7 @@ The species to be analysed are taken from those found to contribute to the burde
 
 - *Streptococcus pneumoniae*: One MLST database available for [*S. pneumoniae*](https://pubmlst.org/bigsdb?db=pubmlst_spneumoniae_seqdef)
 
-- *Acinetobacter baumanii*: One MLST database available for [*A. baumanii*](https://pubmlst.org/bigsdb?db=pubmlst_abaumannii_seqdef)
+- *Acinetobacter baumannii*: One MLST database available for [*A. baumanii*](https://pubmlst.org/bigsdb?db=pubmlst_abaumannii_seqdef)
 
 - *Pseudomonas aeruginosa*: One MLST database available for [*P. aeruginosa*](https://pubmlst.org/bigsdb?db=pubmlst_paeruginosa_seqdef)
 
@@ -412,6 +478,8 @@ lower_length_threshold <- list()
 upper_length_threshold <- list()
 transformable <- list()
 primary_niche <- list()
+gram <- list()
+intestinal <- list()
 
 # E. coli
 species_name[["Eco"]] = "Escherichia coli"
@@ -421,6 +489,8 @@ lower_length_threshold[["Eco"]] = 4000000
 upper_length_threshold[["Eco"]] = 6500000
 transformable[["Eco"]] = "Non-transformable"
 primary_niche[["Eco"]] = "Gastrointestinal tract"
+gram[["Eco"]] = "Gram negative"
+intestinal[["Eco"]] = "Intestinal"
 # Citrobacter species
 species_name[["Cit"]] = "Citrobacter spp"
 display_name[["Cit"]] = "italic('Citrobacter')~'spp.'"
@@ -429,6 +499,8 @@ lower_length_threshold[["Cit"]] = 4000000
 upper_length_threshold[["Cit"]] = 6500000
 transformable[["Cit"]] = "Non-transformable"
 primary_niche[["Cit"]] = "Gastrointestinal tract"
+gram[["Cit"]] = "Gram negative"
+intestinal[["Cit"]] = "Intestinal"
 # Enterobacter species
 species_name[["Esp"]] = "Enterobacter spp"
 display_name[["Esp"]] = "italic('Enterobacter')~'spp.'"
@@ -437,6 +509,8 @@ lower_length_threshold[["Esp"]] = 4000000
 upper_length_threshold[["Esp"]] = 6500000
 transformable[["Esp"]] = "Non-transformable"
 primary_niche[["Esp"]] = "Gastrointestinal tract"
+gram[["Esp"]] = "Gram negative"
+intestinal[["Esp"]] = "Intestinal"
 # Proteus species
 species_name[["Psp"]] = "Proteus spp"
 display_name[["Psp"]] = "italic('Proteus')~'spp.'"
@@ -445,6 +519,8 @@ lower_length_threshold[["Psp"]] = 3000000
 upper_length_threshold[["Psp"]] = 5000000
 transformable[["Psp"]] = "Non-transformable"
 primary_niche[["Psp"]] = "Gastrointestinal tract"
+gram[["Psp"]] = "Gram negative"
+intestinal[["Psp"]] = "Intestinal"
 # Serratia species
 species_name[["Ssp"]] = "Serratia spp"
 display_name[["Ssp"]] = "italic('Serratia')~'spp.'"
@@ -453,6 +529,8 @@ lower_length_threshold[["Ssp"]] = 4000000
 upper_length_threshold[["Ssp"]] = 6500000
 transformable[["Ssp"]] = "Non-transformable"
 primary_niche[["Ssp"]] = "Gastrointestinal tract"
+gram[["Ssp"]] = "Gram negative"
+intestinal[["Ssp"]] = "Intestinal"
 # S. aureus
 species_name[["Sau"]] = "Staphylococcus aureus"
 display_name[["Sau"]] = "italic('S. aureus')"
@@ -461,6 +539,8 @@ lower_length_threshold[["Sau"]] = 2000000
 upper_length_threshold[["Sau"]] = 4000000
 transformable[["Sau"]] = "Non-transformable"
 primary_niche[["Sau"]] = "Multiple"
+gram[["Sau"]] = "Gram positive"
+intestinal[["Sau"]] = "Non-intestinal"
 # K. pneumoniae
 species_name[["Kpn"]] = "Klebsiella pneumoniae"
 display_name[["Kpn"]] = "italic('K. pneumoniae')"
@@ -469,6 +549,8 @@ lower_length_threshold[["Kpn"]] = 4000000
 upper_length_threshold[["Kpn"]] = 7000000
 transformable[["Kpn"]] = "Non-transformable"
 primary_niche[["Kpn"]] = "Gastrointestinal tract"
+gram[["Kpn"]] = "Gram negative"
+intestinal[["Kpn"]] = "Intestinal"
 # S. pneumoniae
 species_name[["Spn"]] = "Streptococcus pneumoniae"
 display_name[["Spn"]] = "italic('S. pneumoniae')"
@@ -477,14 +559,18 @@ lower_length_threshold[["Spn"]] = 1500000
 upper_length_threshold[["Spn"]] = 3000000
 transformable[["Spn"]] = "Transformable"
 primary_niche[["Spn"]] = "Respiratory tract"
+gram[["Spn"]] = "Gram positive"
+intestinal[["Spn"]] = "Non-intestinal"
 # A. baumanii
-species_name[["Abau"]] = "Acinetobacter baumanii"
-display_name[["Abau"]] = "italic('A. baumanii')"
+species_name[["Abau"]] = "Acinetobacter baumannii"
+display_name[["Abau"]] = "italic('A. baumannii')"
 st_prefix[["Abau"]] = "Abau_Oxford"
 lower_length_threshold[["Abau"]] = 3000000
 upper_length_threshold[["Abau"]] = 5500000
 transformable[["Abau"]] = "Transformable"
 primary_niche[["Abau"]] = "Environmental"
+gram[["Abau"]] = "Gram negative"
+intestinal[["Abau"]] = "Non-intestinal"
 # P. aeruginosa
 species_name[["Pae"]] = "Pseudomonas aeruginosa"
 display_name[["Pae"]] = "italic('P. aeruginosa')"
@@ -493,6 +579,8 @@ lower_length_threshold[["Pae"]] = 5500000
 upper_length_threshold[["Pae"]] = 8500000
 transformable[["Pae"]] = "Transformable"
 primary_niche[["Pae"]] = "Environmental"
+gram[["Pae"]] = "Gram negative"
+intestinal[["Pae"]] = "Non-intestinal"
 # E. faecium
 species_name[["Efm"]] = "Enterococcus faecium"
 display_name[["Efm"]] = "italic('E. faecium')"
@@ -501,6 +589,8 @@ lower_length_threshold[["Efm"]] = 1500000
 upper_length_threshold[["Efm"]] = 4000000
 transformable[["Efm"]] = "Non-transformable"
 primary_niche[["Efm"]] = "Gastrointestinal tract"
+gram[["Efm"]] = "Gram positive"
+intestinal[["Efm"]] = "Intestinal"
 # S. agalactiae
 species_name[["Sag"]] = "Streptococcus agalactiae"
 display_name[["Sag"]] = "italic('S. agalactiae')"
@@ -509,6 +599,8 @@ lower_length_threshold[["Sag"]] = 1500000
 upper_length_threshold[["Sag"]] = 3000000
 transformable[["Sag"]] = "Non-transformable"
 primary_niche[["Sag"]] = "Multiple"
+gram[["Sag"]] = "Gram positive"
+intestinal[["Sag"]] = "Intestinal"
 # S. enterica
 species_name[["Sen"]] = "Salmonella enterica"
 display_name[["Sen"]] = "italic('S. enterica')"
@@ -517,6 +609,8 @@ lower_length_threshold[["Sen"]] = 3500000
 upper_length_threshold[["Sen"]] = 6000000
 transformable[["Sen"]] = "Non-transformable"
 primary_niche[["Sen"]] = "Gastrointestinal tract"
+gram[["Sen"]] = "Gram negative"
+intestinal[["Sen"]] = "Intestinal"
 # E. faecalis
 species_name[["Efs"]] = "Enterococcus faecalis"
 display_name[["Efs"]] = "italic('E. faecalis')"
@@ -525,6 +619,8 @@ lower_length_threshold[["Efs"]] = 2000000
 upper_length_threshold[["Efs"]] = 4000000
 transformable[["Efs"]] = "Non-transformable"
 primary_niche[["Efs"]] = "Gastrointestinal tract"
+gram[["Efs"]] = "Gram positive"
+intestinal[["Efs"]] = "Intestinal"
 # S. pyogenes
 species_name[["Spy"]] = "Streptococcus pyogenes"
 display_name[["Spy"]] = "italic('S. pyogenes')"
@@ -533,6 +629,8 @@ lower_length_threshold[["Spy"]] = 1000000
 upper_length_threshold[["Spy"]] = 2500000
 transformable[["Spy"]] = "Non-transformable"
 primary_niche[["Spy"]] = "Respiratory tract"
+gram[["Spy"]] = "Gram positive"
+intestinal[["Spy"]] = "Non-intestinal"
 # H. influenzae
 species_name[["Hflu"]] = "Haemophilus influenzae"
 display_name[["Hflu"]] = "italic('H. influenzae')"
@@ -541,6 +639,8 @@ lower_length_threshold[["Hflu"]] = 1000000
 upper_length_threshold[["Hflu"]] = 2500000
 transformable[["Hflu"]] = "Transformable"
 primary_niche[["Hflu"]] = "Respiratory tract"
+gram[["Hflu"]] = "Gram negative"
+intestinal[["Hflu"]] = "Non-intestinal"
 # M. morganii
 species_name[["Mmo"]] = "Morganella morganii"
 display_name[["Mmo"]] = "italic('M. morganii')"
@@ -549,6 +649,8 @@ lower_length_threshold[["Mmo"]] = 3000000
 upper_length_threshold[["Mmo"]] = 5000000
 transformable[["Mmo"]] = "Non-transformable"
 primary_niche[["Mmo"]] = "Gastrointestinal tract"
+gram[["Mmo"]] = "Gram negative"
+intestinal[["Mmo"]] = "Intestinal"
 # Neisseria species
 species_name[["Nsp"]] = "Neisseria spp"
 display_name[["Nsp"]] = "italic('Neisseria')~'spp.'"
@@ -556,7 +658,9 @@ st_prefix[["Nsp"]] = "Nsp"
 lower_length_threshold[["Nsp"]] = 1500000
 upper_length_threshold[["Nsp"]] = 3000000
 transformable[["Nsp"]] = "Transformable"
-primary_niche[["Nsp"]] = "Respiratory tract"
+primary_niche[["Nsp"]] = "Multiple"
+gram[["Nsp"]] = "Gram negative"
+intestinal[["Nsp"]] = "Non-intestinal"
 # Moraxella species
 species_name[["Msp"]] = "Moraxella catarrhalis"
 display_name[["Msp"]] = "italic('Moraxella')~'spp.'"
@@ -565,6 +669,8 @@ lower_length_threshold[["Msp"]] = 1000000
 upper_length_threshold[["Msp"]] = 3000000
 transformable[["Msp"]] = "Transformable"
 primary_niche[["Msp"]] = "Respiratory tract"
+gram[["Msp"]] = "Gram negative"
+intestinal[["Msp"]] = "Non-intestinal"
 # Campylobacter species
 species_name[["Cam"]] = "Campylobacter spp"
 display_name[["Cam"]] = "italic('Campylobacter')~'spp.'"
@@ -573,6 +679,8 @@ lower_length_threshold[["Cam"]] = 1000000
 upper_length_threshold[["Cam"]] = 3000000
 transformable[["Cam"]] = "Transformable"
 primary_niche[["Cam"]] = "Gastrointestinal tract"
+gram[["Cam"]] = "Gram negative"
+intestinal[["Cam"]] = "Intestinal"
 # Helicobacter pylori
 species_name[["Hpy"]] = "Helicobacter pylori"
 display_name[["Hpy"]] = "italic('H. pylori')"
@@ -581,6 +689,8 @@ lower_length_threshold[["Hpy"]] = 1000000
 upper_length_threshold[["Hpy"]] = 2500000
 transformable[["Hpy"]] = "Transformable"
 primary_niche[["Hpy"]] = "Gastrointestinal tract"
+gram[["Hpy"]] = "Gram negative"
+intestinal[["Hpy"]] = "Non-intestinal"
 # Vibrio cholerae
 species_name[["Vch"]] = "Vibrio cholerae"
 display_name[["Vch"]] = "italic('V. cholerae')"
@@ -589,6 +699,8 @@ lower_length_threshold[["Vch"]] = 3000000
 upper_length_threshold[["Vch"]] = 5000000
 transformable[["Vch"]] = "Transformable"
 primary_niche[["Vch"]] = "Environmental"
+gram[["Vch"]] = "Gram negative"
+intestinal[["Vch"]] = "Non-intestinal"
 # Bacillus subtilis
 species_name[["Bsu"]] = "Bacillus subtilis"
 display_name[["Bsu"]] = "italic('B. subtilis')"
@@ -597,6 +709,8 @@ lower_length_threshold[["Bsu"]] = 3000000
 upper_length_threshold[["Bsu"]] = 5500000
 transformable[["Bsu"]] = "Transformable"
 primary_niche[["Bsu"]] = "Environmental"
+gram[["Bsu"]] = "Gram positive"
+intestinal[["Bsu"]] = "Non-intestinal"
 
 ```
 
@@ -1568,7 +1682,7 @@ transformability_palette <- c(
       alpha = 0.2,
       fill = "black"
     ) +
-    ylab("Probability of diversification through recombination") +
+    ylab("Probability of diversification through homologous recombination") +
     xlab("Expected number of prophage in an isolate genome") +
     scale_shape_manual(values = niche_palette) +
     scale_colour_manual(values = transformability_palette,
@@ -1584,7 +1698,9 @@ transformability_palette <- c(
     ) +
     theme_bw() +
     theme(legend.position = "bottom",
-          legend.box = "vertical") +
+          legend.box = "vertical",
+          legend.spacing.y = unit(0.1,"cm"),
+          axis.title.y = element_text(hjust = 2.5)) +
     annotate(
       "text",
       x = 4,
@@ -1593,6 +1709,154 @@ transformability_palette <- c(
       hjust = 1.1, vjust = 1.5,
       parse = TRUE
     )
+)
+
+```
+
+``` {r Combine with the summary figure, fig.width = 8, fig.height = 11}
+
+summary_figure <-
+  magick::image_ggplot(
+    image_crop(
+      image_trim(
+        image_read_pdf("./summary_figure/recombination-conflict-summary.pdf",
+                       density = 600)
+      )
+    )
+  )
+
+cowplot::plot_grid(
+  plotlist = list(comparison_plot,
+                  summary_figure),
+  nrow = 2,
+  labels = c("A","B"),
+  rel_heights = c(0.5,0.5)
+)
+
+```
+
+# Formal test of ecology
+
+Here we formally test the associations between transformability, ecology, recombination and prophage counts:
+
+``` {r Plot by ecology, fig.height = 8, fig.width = 10}
+
+rec_by_gram_plot <-
+  plot_violin_kw(
+    data       = prophage_rec_df %>% 
+                  dplyr::left_join(
+                    enframe(gram) %>% 
+                      dplyr::mutate(Gram = unlist(value)),
+                    by = c("Species"="name")
+                  ),
+    x_var      = Gram,
+    y_var      = `Recombination probability`,
+    x_lab      = "Gram stain phenotype",
+    y_lab      = "Recombination probability",
+    hjust_amt = 1.5
+  )
+
+phage_by_gram_plot <-
+  plot_violin_kw(
+    data       = prophage_rec_df %>% 
+                  dplyr::left_join(
+                    enframe(gram) %>% 
+                      dplyr::mutate(Gram = unlist(value)),
+                    by = c("Species"="name")
+                  ),
+    x_var      = Gram,
+    y_var      = lambda_hat,
+    x_lab      = "Gram stain phenotype",
+    y_lab      = "Prophage per isolate",
+    hjust_amt = 3.5
+  )
+
+rec_by_transformability_plot <-
+  plot_violin_kw(
+    data       = prophage_rec_df,
+    x_var      = Transformability,
+    y_var      = `Recombination probability`,
+    x_lab      = "Transformability",
+    y_lab      = "Recombination probability",
+    hjust_amt = 1.25
+  )
+
+prophage_by_transformability_plot <-
+  plot_violin_kw(
+    data       = prophage_rec_df,
+    x_var      = Transformability,
+    y_var      = lambda_hat,
+    x_lab      = "Transformability",
+    y_lab      = "Prophage per isolate",
+    hjust_amt = 1.5
+  )
+
+rec_by_ecology_plot <-
+  plot_violin_kw(
+    data       = prophage_rec_df %>% 
+                  dplyr::left_join(
+                    enframe(intestinal) %>% 
+                      dplyr::mutate(Intestinal = unlist(value)),
+                    by = c("Species"="name")
+                  ),
+    x_var      = Intestinal,
+    y_var      = `Recombination probability`,
+    x_lab      = "Association with intestinal tract",
+    y_lab      = "Recombination probability",
+    hjust_amt = 1.5
+  )
+
+phage_by_ecology_plot <-
+  plot_violin_kw(
+    data       = prophage_rec_df %>% 
+                  dplyr::left_join(
+                    enframe(intestinal) %>% 
+                      dplyr::mutate(Intestinal = unlist(value)),
+                    by = c("Species"="name")
+                  ),
+    x_var      = Intestinal,
+    y_var      = lambda_hat,
+    x_lab      = "Association with intestinal tract",
+    y_lab      = "Prophage per isolate",
+    hjust_amt = 3.5
+  )
+
+composite_plots <-
+  cowplot::plot_grid(
+    plotlist = list(
+      rec_by_transformability_plot + theme(legend.position = "none"),
+      prophage_by_transformability_plot + theme(legend.position = "none"),
+      rec_by_ecology_plot + theme(legend.position = "none"),
+      phage_by_ecology_plot + theme(legend.position = "none"),
+      rec_by_gram_plot + theme(legend.position = "none"),
+      phage_by_gram_plot + theme(legend.position = "none")
+    ),
+    nrow = 3,
+    ncol = 2,
+    labels = "AUTO"
+  )
+
+comparison_legend <-
+  get_plot_component(phage_by_ecology_plot +
+                       theme(legend.position = "bottom") +
+                          guides(
+                            colour = guide_legend(title = "Transformability",
+                              nrow = 1),
+                            shape  = guide_legend(title = "Niche",
+                              nrow = 1)
+                          ),
+                     'guide-box-bottom',
+                     return_all = TRUE)
+
+(comparison_plot <-
+  cowplot::plot_grid(
+    plotlist = list(
+      composite_plots,
+      comparison_legend
+    ),
+    nrow = 2,
+    rel_heights = c(0.95,0.05)
+  )
 )
 
 ```
@@ -1658,7 +1922,9 @@ qpcr_df <-
   dplyr::mutate(qPCR = qPCR/1.25)
 
 (qpcr_plot <-
-  ggplot(qpcr_df,
+  ggplot(qpcr_df %>% 
+           # Remove replicate with mislabelled CSP
+           dplyr::filter(Replicate != "3rd"),
          aes(x = DNA,
              y = qPCR,
              colour = `Experimental conditions`,
@@ -1748,7 +2014,7 @@ spontaneous_start_end_df <-
     dplyr::filter(DNA == "99% pneumococcal")
 
 # Plot fold changes
-replicate_palette <- c(16,17,18,3,7,8,10)
+replicate_palette <- c(16,17,15,3,7,8,10)
 names(replicate_palette) = as.character(1:7)
 (fold_change_plot <-
   ggplot(spontaneous_start_end_df,
@@ -1877,7 +2143,7 @@ bottom_plots <-
 
 Now plot the control DNase data:
 
-``` {r Plot DNase control data, fig.width = 6, fig.height = 4}
+``` {r Plot DNase control data, fig.width = 8, fig.height = 6}
 
 dnase_control_df <-
   read_csv("./experimental_data/DnaseI_control.csv") %>% 
@@ -1938,13 +2204,13 @@ ggplot(dnase_control_df,
   theme(strip.background = element_blank())
 
 ```
+
 To understand the origins of the exogenous DNA that is not added to the media, we plot the concentration of *rpoA*:
 
 ``` {r Plot rpoA concentrations, fig.width = 12, fig.height = 6}
 
 (rpoA_plot <-
   ggplot(qpcr_df %>% 
-           #dplyr::filter(`Experimental conditions` == "Control") %>% 
            dplyr::filter(RMV8_MGE == "phi*'RMV8'") %>% 
            dplyr::filter(!is.na(rpoA)) %>% 
            dplyr::mutate(DNA = paste0("'",DNA,"'")) %>% 
@@ -1965,7 +2231,7 @@ To understand the origins of the exogenous DNA that is not added to the media, w
     scale_colour_manual(values = competence_palette,
                         aesthetics = c("fill","colour")) +
     scale_y_continuous(trans = "log10") +
-    ylab(expression(atop(italic(rpoA)~'copies per'~mu*'l','culture supernatant'))) +
+    ylab(expression(italic(rpoA)~'copies per'~mu*'l culture supernatant')) +
     facet_grid(.~DNA,
                labeller = label_parsed) +
     xlab("Timepoint") +
