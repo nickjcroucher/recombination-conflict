@@ -1729,7 +1729,7 @@ cowplot::plot_grid(
   plotlist = list(comparison_plot,
                   summary_figure),
   nrow = 2,
-  labels = c("A","B"),
+  labels = c("a","b"),
   rel_heights = c(0.5,0.5)
 )
 
@@ -1739,7 +1739,7 @@ cowplot::plot_grid(
 
 Here we formally test the associations between transformability, ecology, recombination and prophage counts:
 
-``` {r Plot by ecology, fig.height = 8, fig.width = 10}
+``` {r Plot by ecology, fig.height = 8, fig.width = 8}
 
 rec_by_gram_plot <-
   plot_violin_kw(
@@ -1833,20 +1833,23 @@ composite_plots <-
     ),
     nrow = 3,
     ncol = 2,
-    labels = "AUTO"
+    labels = "auto"
   )
 
 comparison_legend <-
-  get_plot_component(phage_by_ecology_plot +
-                       theme(legend.position = "bottom") +
-                          guides(
-                            colour = guide_legend(title = "Transformability",
-                              nrow = 1),
-                            shape  = guide_legend(title = "Niche",
-                              nrow = 1)
-                          ),
-                     'guide-box-bottom',
-                     return_all = TRUE)
+  get_plot_component(
+    phage_by_ecology_plot +
+      theme(
+        legend.position = "bottom",
+        legend.box      = "vertical"  # stack colour and shape legends
+      ) +
+      guides(
+        colour = guide_legend(title = "Transformability"),
+        shape  = guide_legend(title = "Niche")
+      ),
+    'guide-box-bottom',
+    return_all = TRUE
+  )
 
 (comparison_plot <-
   cowplot::plot_grid(
@@ -1855,7 +1858,7 @@ comparison_legend <-
       comparison_legend
     ),
     nrow = 2,
-    rel_heights = c(0.95,0.05)
+    rel_heights = c(0.90,0.1)
   )
 )
 
@@ -2118,7 +2121,7 @@ bottom_right_plot <-
                                        theme(legend.position = "none"),
                                      legend_plot),
                                      nrow = 1,
-                                     labels = c("C","")
+                                     labels = c("c","")
                      )
 
 bottom_plots <-
@@ -2126,7 +2129,7 @@ bottom_plots <-
                                        theme(legend.position = "none",
                                              axis.title.y = element_text(hjust =  -250)),
                                      bottom_right_plot),
-                     labels = c("B",""),
+                     labels = c("b",""),
                      nrow = 1,
                      rel_widths = c(0.5,0.5))
 
@@ -2134,7 +2137,7 @@ bottom_plots <-
   cowplot::plot_grid(plotlist = list(qpcr_plot +
                                        theme(legend.position = "none"),
                                      bottom_plots),
-                     labels = c("A",""),
+                     labels = c("a",""),
                      nrow = 2,
                      rel_heights = c(1.5,1))
 )
