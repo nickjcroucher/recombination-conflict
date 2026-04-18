@@ -1729,7 +1729,7 @@ cowplot::plot_grid(
   plotlist = list(comparison_plot,
                   summary_figure),
   nrow = 2,
-  labels = c("a","b"),
+  labels = c("A","B"),
   rel_heights = c(0.5,0.5)
 )
 
@@ -1833,7 +1833,7 @@ composite_plots <-
     ),
     nrow = 3,
     ncol = 2,
-    labels = "auto"
+    labels = "AUTO"
   )
 
 comparison_legend <-
@@ -2121,15 +2121,15 @@ bottom_right_plot <-
                                        theme(legend.position = "none"),
                                      legend_plot),
                                      nrow = 1,
-                                     labels = c("c","")
+                                     labels = c("C","")
                      )
 
 bottom_plots <-
   cowplot::plot_grid(plotlist = list(transformation_plot +
                                        theme(legend.position = "none",
-                                             axis.title.y = element_text(hjust =  -250)),
+                                             axis.title.y = element_text(hjust =  2.5)),
                                      bottom_right_plot),
-                     labels = c("b",""),
+                     labels = c("B",""),
                      nrow = 1,
                      rel_widths = c(0.5,0.5))
 
@@ -2137,7 +2137,7 @@ bottom_plots <-
   cowplot::plot_grid(plotlist = list(qpcr_plot +
                                        theme(legend.position = "none"),
                                      bottom_plots),
-                     labels = c("a",""),
+                     labels = c("A",""),
                      nrow = 2,
                      rel_heights = c(1.5,1))
 )
