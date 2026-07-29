@@ -25,6 +25,8 @@ library(cowplot)
 library(fitdistrplus)
 library(magick)
 library(rlang)
+library(archive)
+library(see)
 
 position_dodge <- function(width = NULL, preserve = "total") {
   ggproto(NULL, PositionDodge,
@@ -898,7 +900,6 @@ rec_prob_df <-
 
 combined_rec_output_df <-
   rec_prob_df %>% 
-    dplyr::left_join(rec_modelling_df, by = "Species") %>% 
     dplyr::left_join(rho_m_df, by = "Species")
 
 ggplot(combined_rec_output_df,
@@ -1541,6 +1542,414 @@ Two groups of bacteria exhibited a substantial deviation from the unimodal distr
 
 These were excluded from the subsequent comparison, to ensure the MLST and prophage data both corresponded to homogeneously behaving populations of isolates.
 
+## Identify genomes for geNomad analysis
+
+Taking the same set of complete genome accession codes, we select up to 200 Biosample IDs for each species in which the replicons' total length matches that expected for a genome:
+
+``` {r Find biosamples of suitable size, eval = FALSE}
+
+set.seed(42)
+
+# Read all .accessions files into a single dataframe
+complete_accessions_df <-
+  # Gather information on accessions
+  list.files(
+    path       = "./genomad_analysis/genome_accessions",
+    pattern    = "\\.accessions$",
+    full.names = TRUE
+  ) |>
+  set_names() |>
+  map(read_tsv, 
+      col_names     = TRUE, 
+      col_types     = cols(.default = col_character()),   # read ALL cols as character
+      show_col_types = FALSE) |>
+  list_rbind(names_to = "filepath") |>
+  dplyr::mutate(
+    species = str_extract(filepath, "([^/]+)(?=_nuccore_complete\\.accessions$)")
+  ) |>
+  dplyr::select(species, everything(), -filepath) %>% 
+  # Get rid of duplicates
+  dplyr::group_by(resolved_accession) %>% 
+  dplyr::mutate(accession_count = n()) %>% 
+  dplyr::ungroup() %>% 
+  dplyr::filter(accession_count == 1) %>% 
+  # Now check on total length
+  dplyr::inner_join(read.table("./genomad_analysis/genome_accessions/complete_replicon_lengths.tsv",
+                               header = TRUE),
+                    by = c("resolved_accession")) %>% 
+  dplyr::group_by(biosample) %>% 
+  dplyr::mutate(Total_length = sum(length)) %>% 
+  dplyr::ungroup() %>% 
+  # Filter by total length
+    dplyr::left_join(
+      enframe(lower_length_threshold) %>%
+            tidyr::unnest(value) %>% 
+            dplyr::rename(Lower = value) %>% 
+        dplyr::left_join(
+        enframe(upper_length_threshold) %>%
+            tidyr::unnest(value) %>% 
+            dplyr::rename(Upper = value)
+        ) %>%
+        dplyr::left_join(enframe(species_name) %>%
+                           tidyr::unnest(value) %>% 
+                           dplyr::rename(species = value),
+                             by = "name") %>%
+        dplyr::left_join(enframe(display_name) %>%
+                           tidyr::unnest(value) %>% 
+                           dplyr::rename(display = value),
+                             by = "name") %>% 
+        dplyr::mutate(species = gsub(" ","_",species)),
+        by = "species"
+      ) %>% 
+  dplyr::filter(Total_length > Lower & Total_length < Upper) |>
+  # Mark selected biosamples
+  # Step 1: Sample up to 200 unique biosamples per species
+  dplyr::group_by(species) |>
+  dplyr::mutate(
+    selected_biosample = biosample %in% sample(
+      unique(biosample), 
+      size = min(200, n_distinct(biosample))  # take all if fewer than 200
+    )
+  ) |>
+  dplyr::ungroup() |>
+  # Step 2: Mark all resolved_accessions belonging to selected biosamples
+  dplyr::mutate(
+    selected_biosample = dplyr::if_else(selected_biosample, "Selected", "Unselected")
+  ) %>% 
+  # Step 3: Flag WGS shotgun accessions (e.g. QWKQ00000000.2)
+  dplyr::mutate(
+    is_wgs = str_detect(
+      resolved_accession,
+      "^[A-Z]{4,8}\\d*0{4,}(\\.\\d+)?$"   # 4-6 letters, digits ending in 4+ zeros, optional version
+    )
+  ) |>
+  # Step 4: Flag biosample as WGS if ANY of its accessions are WGS
+  dplyr::group_by(species, biosample) |>
+  dplyr::mutate(
+    wgs_biosample = any(is_wgs)
+  ) |>
+  dplyr::ungroup() |>
+  # Step 5: Unselect WGS biosamples that were selected
+  dplyr::mutate(
+    selected_biosample = dplyr::if_else(
+      wgs_biosample & selected_biosample == "Selected",
+      "Unselected",
+      selected_biosample
+    )
+  ) |>
+  # Step 6: For each species, top up from non-WGS unselected biosamples
+  dplyr::group_by(species) |>
+  dplyr::mutate(
+    selected_biosample = {
+      # How many selected biosamples do we currently have?
+      n_currently_selected <- n_distinct(biosample[selected_biosample == "Selected"])
+
+      # How many do we need to top up?
+      n_needed <- max(0, 200 - n_currently_selected)
+
+      # Pool of unselected, non-WGS biosamples to draw replacements from
+      replacement_pool <- unique(biosample[
+        selected_biosample == "Unselected" & !wgs_biosample
+      ])
+
+      # Sample replacements (up to n_needed, or all available if fewer)
+      replacements <- if (length(replacement_pool) > 0 && n_needed > 0) {
+        sample(replacement_pool, size = min(n_needed, length(replacement_pool)))
+      } else {
+        character(0)
+      }
+
+      # Mark ALL accessions in replacement biosamples as Selected
+      dplyr::if_else(
+        biosample %in% replacements,
+        "Selected",
+        selected_biosample
+      )
+    }
+  ) |>
+  # Step 7: Propagate selection to ALL accessions in each selected biosample
+  dplyr::group_by(species, biosample) |>
+  dplyr::mutate(
+    selected_biosample = dplyr::if_else(
+      any(selected_biosample == "Selected"),
+      "Selected",
+      "Unselected"
+    )
+  ) |>
+  dplyr::ungroup()
+
+# Write output to enable selection
+write.csv(complete_accessions_df %>% 
+            dplyr::filter(selected_biosample == "Selected") %>% 
+            dplyr::mutate(Path = paste0(species,"/fasta/",resolved_accession,".fasta")) %>% 
+            dplyr::pull(Path),
+          file = "./genomad_analysis/accession_code_selection.csv",
+          quote = FALSE,
+          col.names = FALSE,
+          row.names = FALSE)
+
+write.csv(complete_accessions_df,
+          file = gzfile("./genomad_analysis/accession_code_info.csv.gz"),
+          quote = TRUE,
+          col.names = FALSE,
+          row.names = FALSE)
+
+```
+
+We plot the sizes of these replicons to check they are representative of the species:
+
+``` {r Plot selected genome sizes, fig.width = 10, fig.height = 10}
+
+# Read processed file
+complete_accessions_df <-
+  read_csv(gzfile("./genomad_analysis/accession_code_info.csv.gz")) %>% 
+    dplyr::mutate(no_version_accession = str_remove(resolved_accession, "\\.\\d+$"))
+
+# Plot relative sizes
+ggplot(complete_accessions_df,
+       aes(x = selected_biosample,
+           y = length)) +
+  geom_violin() +
+  facet_wrap(~display) +
+  theme_bw()
+
+```
+
+``` {bash, eval = FALSE}
+
+mkdir genomad_run
+for f in $(cat accession_code_selection.csv); do cp $f genomad_run; done
+cd genomad_run
+module load PaM/environment
+module load genomad/1.12.0
+
+declare -i N; N=1; for FASTA in *fasta; do echo "module load PaM/environment;module load genomad/1.12.0;genomad end-to-end --threads 4 --conservative ${FASTA} ${FASTA%.fasta} /data/pam/software/genomad/genomad_db/genomad_db/" > genomad_run.$N; chmod +x ./genomad_run.$N; N=($N+1); done
+MAX_JOB=`echo $N-1 | bc`
+bsub -J geNomad[1-$MAX_JOB] -n 4 -M 24000 -q normal -R 'select[mem>24000] rusage[mem=24000] span[hosts=1]' -o genomad.%I.o -e genome.%I.e ./genomad_run.\${LSB_JOBINDEX}
+
+```
+
+Identify prophage densities in species:
+
+``` {r Prophage counts from geNomad}
+
+genomad_phage_df <-
+  read.table(file = "./genomad_analysis/genomad_virus_summary.tsv",
+             comment.char = "",
+             header = TRUE,
+             sep = "\t") %>%
+  dplyr::mutate(no_version_accession = str_remove(accession, "\\.\\d+$")) %>% 
+  dplyr::filter(no_version_accession %in% complete_accessions_df$no_version_accession) %>%   dplyr::mutate(Classification =
+                   dplyr::case_when(
+                     is.na(length) ~ NA_character_,
+                     grepl("Caudoviricetes",taxonomy) ~ "Caudoviricetes",
+                     grepl("Inoviridae",taxonomy) ~ "Inoviridae",
+                     grepl("Vinavirales",taxonomy) ~ "Vinavirales",
+                     TRUE ~ "Other"
+                   )
+                ) %>% 
+  dplyr::left_join(
+    read.table("./genomad_analysis/genomad_virus_amidase_lysozyme_counts.tsv",
+               header = TRUE) %>% 
+      dplyr::select(-accession),
+    by = "seq_name"
+  ) %>% 
+  dplyr::mutate(Amidase = dplyr::if_else(total_count > 0,"Lytic amidase genes present","No lytic amidase gene detected"))
+
+# Threshold for identifying funtional phage
+genomad_phage_protein_threshold <- 8
+
+ggplot(genomad_phage_df %>% 
+         dplyr::filter(!is.na(length)),
+       aes(x = n_hallmarks)) +
+  geom_histogram(fill = "blue") +
+  facet_grid(Amidase~Classification) +
+  geom_vline(xintercept = genomad_phage_protein_threshold, colour = "red", linetype = 2) +
+  xlab("Number of hallmark prophage proteins") +
+  ylab("Count") +
+  theme_bw() +
+  theme(strip.background = element_blank())
+
+```
+
+
+``` {r Plot distribution by species}
+
+genomad_phage_by_species_df <-
+  complete_accessions_df %>% 
+    dplyr::filter(selected_biosample == "Selected") %>% 
+    dplyr::left_join(
+      genomad_phage_df %>% 
+        dplyr::mutate(phage_detected = dplyr::if_else(!is.na(length) & 
+                                                      grepl("Caudoviricetes",taxonomy) 
+                                                      & n_hallmarks > genomad_phage_protein_threshold 
+                                                      & topology == "Provirus",1,0)) %>% 
+        dplyr::filter(!is.na(phage_detected)) %>% 
+        dplyr::group_by(no_version_accession) %>% 
+        dplyr::summarise(phage_count = sum(phage_detected)) %>% 
+        dplyr::ungroup(),
+      by = "no_version_accession"
+    ) %>% 
+    dplyr::mutate(phage_count = dplyr::if_else(is.na(phage_count),0,phage_count)) %>% 
+    dplyr::filter(!grepl("000000",no_version_accession)) %>% 
+    dplyr::group_by(biosample,species,display) %>% 
+    dplyr::summarise(total_phage_count = sum(phage_count)) %>% 
+    dplyr::ungroup() %>% 
+    # To enable later table joining
+    dplyr::mutate(species = gsub("_"," ",species))
+
+# Plot fitted distributions against observed prophage counts
+ggplot() +
+  # Observed probabilities as bars
+  geom_bar(
+    data = genomad_phage_by_species_df,
+    aes(x = total_phage_count),
+    fill = "blue",
+    color = "blue",
+    width = 0.8
+  ) +
+  facet_wrap(~display,
+             scales = "free_y",
+             labeller = label_parsed) +
+  labs(
+    x = "Total phage count per sample",
+    y = "Proportion"
+  ) +
+  theme_bw() +
+  theme(strip.background = element_blank(),
+        legend.position = "bottom")
+
+```
+
+Fit Poisson distributions to the geNomad data:
+
+``` {r Fit Poisson statistics to geNomad data}
+
+# Fit statistical distributions to prophage count data for each species
+fits_per_species <- genomad_phage_by_species_df %>%
+  group_by(species) %>%
+  summarise(data = list(total_phage_count), .groups = "drop") %>%
+  mutate(
+    fit_pois = map(data, \(x) {
+      x <- unlist(x)
+
+      # Edge case: all zeros (or empty, if you want to guard that too)
+      if (length(x) == 0 || all(x == 0)) {
+        # Return a minimal "fit-like" list
+        list(
+          estimate = c(lambda = 0),
+          ci = matrix(
+            c(0, 0),
+            nrow = 1,
+            dimnames = list("lambda", c("2.5 %", "97.5 %"))
+          )
+        )
+      } else {
+        # Normal fit
+        fit <- suppressWarnings(fitdist(x, "pois", method = "mle"))
+        ci  <- confint(fit)  # Wald CI
+        list(
+          estimate = fit$estimate,
+          ci = ci
+        )
+      }
+    })
+  )
+
+# Extract fit information
+pois_params <- fits_per_species %>%
+  dplyr::transmute(
+    species,
+    lambda = map_dbl(fit_pois, ~.x$estimate[["lambda"]])
+  )
+
+# Extract confidence intervals
+alpha <- 0.05
+
+pois_ci <- genomad_phage_by_species_df %>%
+  dplyr::group_by(species) %>%
+  dplyr::summarise(
+    n = dplyr::n(),
+    S = sum(total_phage_count, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  dplyr::mutate(
+    lambda_hat = S / n,
+    lambda_lwr = if_else(
+      S == 0,
+      0,
+      0.5 * qchisq(alpha / 2, df = 2 * S) / n
+    ),
+    lambda_upr = 0.5 * qchisq(1 - alpha / 2, df = 2 * (S + 1)) / n
+  ) %>%
+  dplyr::select(species, lambda_hat, lambda_lwr, lambda_upr)
+
+# Calculate probabilities
+count_grid <- tibble(total_phage_count = 0:max(filtered_prophage_per_sample_df$total_phage_count))
+fitted_df <-
+  pois_params %>% 
+    dplyr::select(species, lambda) %>%
+    tidyr::crossing(count_grid) %>%
+    dplyr::mutate(
+        dist = "Poisson",
+        fitted_prob = dpois(total_phage_count, lambda)
+    ) %>% 
+    dplyr::left_join(
+      enframe(species_name) %>% 
+        tidyr::unnest(value) %>%
+        dplyr::rename(species = value),
+      by = "species"
+    ) %>% 
+    dplyr::left_join(
+      enframe(display_name) %>% 
+        tidyr::unnest(value) %>% 
+        dplyr::rename(display = value),
+      by = "name"
+    )
+
+# Plot fitted distributions against observed prophage counts
+ggplot() +
+  # Observed probabilities as bars
+  geom_col(
+    data = genomad_phage_by_species_df %>% 
+            # Calculate observed frequencies
+            dplyr::group_by(species) %>% 
+            dplyr::mutate(Total = n()) %>% 
+            dplyr::ungroup() %>% 
+            dplyr::group_by(species,total_phage_count) %>% 
+            dplyr::mutate(Obs_total = n()) %>%
+            dplyr::ungroup() %>% 
+            dplyr::mutate(obs_prob = Obs_total/Total) %>% 
+            dplyr::select(species,total_phage_count,obs_prob,display,total_phage_count) %>% 
+            dplyr::distinct(),
+    aes(x = total_phage_count, y = obs_prob),
+    fill = "blue",
+    color = "blue",
+    width = 0.8
+  ) +
+  # Fitted distributions as lines
+  geom_line(
+    data = fitted_df,
+    aes(x = total_phage_count,
+        y = fitted_prob),
+    size = 0.5,
+    linetype = 2,
+    colour = "red"
+  ) +
+  facet_wrap(~display,
+             scales = "free_y",
+             labeller = label_parsed) +
+  labs(
+    x = "Total phage count per sample",
+    y = "Proportion",
+    color = "Distribution"
+  ) +
+  theme_bw() +
+  theme(strip.background = element_blank(),
+        legend.position = "bottom")
+        
+```
+
 # Compare prophage density and recombination rate
 
 Model the relationship between the density of prophage in genomes and rates of core genome recombination:
@@ -1549,6 +1958,7 @@ Model the relationship between the density of prophage in genomes and rates of c
 
 # Excluded species
 excluded_species <- c("Esp","Psp")
+excluded_species <- NULL
 
 # Combine prophage density with homologous recombination
 prophage_rec_df <-
@@ -1569,11 +1979,8 @@ prophage_rec_df <-
                        ),
                      by = "Species") %>% 
     dplyr::ungroup() %>% 
-    dplyr::left_join(filtered_prophage_per_sample_df %>% 
-                      dplyr::group_by(species) %>% 
-                      dplyr::summarise(mean_prophage = mean(total_phage_count)) %>% 
-                      dplyr::ungroup(),
-                     by = c("species_name" = "species")) %>% 
+    # dplyr::left_join(fitted_df,
+    #                  by = c("species_name" = "species")) %>% 
     dplyr::left_join(pois_ci,
                      by = c("species_name" = "species")) %>% 
     # Add transformable status
@@ -1633,8 +2040,8 @@ rec_prophage_model_predictions <- as_tibble(emm_rec) %>%
 ###
 
 # Extract p value
-mod_sum<-summary(rec_prophage_model)
-p_val  <- mod_sum$coefficients$cond["lambda_hat", "Pr(>|z|)"]
+mod_sum <- summary(rec_prophage_model)
+p_val <- mod_sum$coefficients$cond["lambda_hat", "Pr(>|z|)"]
 p_label <- paste0("italic(p) == ", signif(p_val, 3))
 
 # Define palettes
