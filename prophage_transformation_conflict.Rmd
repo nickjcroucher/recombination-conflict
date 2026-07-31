@@ -26,6 +26,8 @@ library(fitdistrplus)
 library(magick)
 library(rlang)
 library(archive)
+library(rstatix)
+library(ggpubr)
 library(see)
 
 position_dodge <- function(width = NULL, preserve = "total") {
@@ -132,6 +134,25 @@ pos_dodge <- function(df, width, n = NULL) {
   
   df
 }
+
+# Define palettes
+niche_palette <- c(
+    "Environmental" = 8,
+    "Gastrointestinal tract" = 16,
+    "Respiratory tract" = 1,
+    "Multiple" = 5
+)
+  
+transformability_palette <- c(
+    "Transformable" = "cornflowerblue",
+    "Non-transformable" = "purple"
+)
+  
+```
+
+## Genetic analysis functions
+
+``` {r Genetic analysis functions}
 
 generate_mst_from_mlst <- function(mlst_df) {
   
@@ -346,8 +367,7 @@ plot_violin_kw <- function(x_var,
                            colour_var = Transformability,
                            shape_var  = Niche,
                            x_lab = NULL,
-                           y_lab = NULL,
-                           hjust_amt = 0) {
+                           y_lab = NULL) {
 
   # Convert input names to quosures
   x_quo   <- enquo(x_var)
@@ -396,12 +416,590 @@ plot_violin_kw <- function(x_var,
     theme_bw() +
     theme(panel.grid = element_blank(),
           axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
-          axis.title.y = element_text(hjust = hjust_amt))
+          axis.title.y = element_text(hjust = 0.5),
+          plot.margin = margin(t = 5.5, r = 5.5, b = 5.5, l = 15))
 
   if (!is.null(x_lab)) p <- p + xlab(x_lab)
   if (!is.null(y_lab)) p <- p + ylab(y_lab)
 
   p
+}
+
+# ---- Unified mobile element schema ------------------------------------------
+# Expected output columns:
+# Species, Accession, Genome_length_bp, Element_bp, Element_count,
+# Element_type, Detector, Density_bp_per_Mbp
+
+standardise_mobile_df <- function(df,
+                                  species_col,
+                                  accession_col,
+                                  genome_len_col,
+                                  element_bp_col = NULL,
+                                  element_count_col = NULL,
+                                  element_type = c("prophage","plasmid","inoviridae"),
+                                  detector = c("PHASTER","geNomad")) {
+
+  element_type <- match.arg(element_type)
+  detector <- match.arg(detector)
+
+  out <- df %>%
+    dplyr::transmute(
+      Species = .data[[species_col]],
+      Accession = .data[[accession_col]],
+      Genome_length_bp = as.numeric(.data[[genome_len_col]]),
+      Element_bp = if (!is.null(element_bp_col)) as.numeric(.data[[element_bp_col]]) else NA_real_,
+      Element_count = if (!is.null(element_count_col)) as.numeric(.data[[element_count_col]]) else NA_real_
+    ) %>%
+    dplyr::mutate(
+      Element_type = element_type,
+      Detector = detector
+    )
+
+  # If bp missing but count present, keep bp as NA (don't invent lengths)
+  out %>%
+    dplyr::mutate(
+      Density_bp_per_Mbp = (Element_bp / Genome_length_bp) * 1e6
+    )
+}
+
+# Build one long table from all sources
+build_mobile_element_table <- function(phaster_prophage_df = NULL,
+                                       genomad_prophage_df = NULL,
+                                       plasmid_df = NULL,
+                                       inoviridae_df = NULL) {
+  dplyr::bind_rows(
+    phaster_prophage_df,
+    genomad_prophage_df,
+    plasmid_df,
+    inoviridae_df
+  ) %>%
+    dplyr::filter(!is.na(Species), !is.na(Accession), !is.na(Genome_length_bp))
+}
+
+plot_observed_vs_poisson <- function(observed_data,
+                                     poisson_summary_data,
+                                     # column names
+                                     count_col = "count",
+                                     species_col = "species",
+                                     display_col = "display",
+                                     lambda_col = "lambda_hat",
+                                     detector_col = "detector",
+                                     element_type_col = "element_type",
+                                     class_col = "class",
+                                     # filter values
+                                     detector_value = NULL,
+                                     element_type_value = NULL,
+                                     class_value = NULL,
+                                     # plotting options
+                                     x_label = "Count per sample",
+                                     facet_scales = "free_y",
+                                     bar_fill = "blue",
+                                     bar_colour = "blue",
+                                     line_colour = "red",
+                                     max_count = NULL) {
+
+  # ---- checks ----
+  obs_needed <- c(count_col, species_col, display_col, detector_col, element_type_col)
+  sum_needed <- c(species_col, display_col, lambda_col, detector_col, element_type_col)
+
+  miss_obs <- setdiff(obs_needed, names(observed_data))
+  miss_sum <- setdiff(sum_needed, names(poisson_summary_data))
+
+  if (length(miss_obs) > 0) stop("Observed data missing: ", paste(miss_obs, collapse = ", "))
+  if (length(miss_sum) > 0) stop("Poisson summary data missing: ", paste(miss_sum, collapse = ", "))
+
+  if (!is.null(class_value)) {
+    if (!(class_col %in% names(observed_data))) stop("Observed data missing class column: ", class_col)
+    if (!(class_col %in% names(poisson_summary_data))) stop("Poisson summary data missing class column: ", class_col)
+  }
+
+  # ---- filters ----
+  obs_f <- observed_data
+  sum_f <- poisson_summary_data
+
+  if (!is.null(detector_value)) {
+    obs_f <- obs_f %>% dplyr::filter(.data[[detector_col]] == detector_value)
+    sum_f <- sum_f %>% dplyr::filter(.data[[detector_col]] == detector_value)
+  }
+  if (!is.null(element_type_value)) {
+    obs_f <- obs_f %>% dplyr::filter(.data[[element_type_col]] == element_type_value)
+    sum_f <- sum_f %>% dplyr::filter(.data[[element_type_col]] == element_type_value)
+  }
+  if (!is.null(class_value)) {
+    obs_f <- obs_f %>% dplyr::filter(.data[[class_col]] == class_value)
+    sum_f <- sum_f %>% dplyr::filter(.data[[class_col]] == class_value)
+  }
+
+  # overlap species
+  common_species <- intersect(unique(obs_f[[species_col]]), unique(sum_f[[species_col]]))
+  obs_f <- obs_f %>% dplyr::filter(.data[[species_col]] %in% common_species)
+  sum_f <- sum_f %>% dplyr::filter(.data[[species_col]] %in% common_species)
+
+  if (nrow(obs_f) == 0) stop("No observed rows after filtering.")
+  if (nrow(sum_f) == 0) stop("No summary rows after filtering.")
+
+  # ---- compute observed probabilities internally ----
+  observed_prob_df <- obs_f %>%
+    dplyr::group_by(.data[[species_col]], .data[[display_col]]) %>%
+    dplyr::mutate(.Total = dplyr::n()) %>%
+    dplyr::ungroup() %>%
+    dplyr::group_by(.data[[species_col]], .data[[display_col]], .data[[count_col]], .Total) %>%
+    dplyr::summarise(.Obs_total = dplyr::n(), .groups = "drop") %>%
+    dplyr::mutate(obs_prob = .Obs_total / .Total)
+
+  # ---- fitted probabilities from lambda ----
+  if (is.null(max_count)) max_count <- max(obs_f[[count_col]], na.rm = TRUE)
+  count_grid <- tibble::tibble(.count_tmp = 0:max_count)
+
+  fitted_data <- sum_f %>%
+    dplyr::select(
+      .species_tmp = dplyr::all_of(species_col),
+      .display_tmp = dplyr::all_of(display_col),
+      .lambda_tmp  = dplyr::all_of(lambda_col)
+    ) %>%
+    dplyr::distinct() %>%
+    tidyr::crossing(count_grid) %>%
+    dplyr::mutate(fitted_prob = stats::dpois(.count_tmp, .lambda_tmp))
+
+  names(fitted_data)[names(fitted_data) == ".display_tmp"] <- display_col
+
+  # ---- plot ----
+  p <- ggplot2::ggplot() +
+    ggplot2::geom_col(
+      data = observed_prob_df,
+      ggplot2::aes(x = .data[[count_col]], y = obs_prob),
+      fill = bar_fill, color = bar_colour, width = 0.8
+    ) +
+    ggplot2::geom_line(
+      data = fitted_data,
+      ggplot2::aes(x = .count_tmp, y = fitted_prob),
+      linewidth = 0.5, linetype = 2, colour = line_colour
+    ) +
+    ggplot2::facet_wrap(
+      stats::as.formula(paste0("~", display_col)),
+      scales = facet_scales,
+      labeller = ggplot2::label_parsed
+    ) +
+    ggplot2::scale_x_continuous(
+      breaks = function(x) seq(floor(min(x, na.rm = TRUE)),
+                             ceiling(max(x, na.rm = TRUE)),
+                             by = 1),
+      minor_breaks = NULL
+    ) +
+    ggplot2::labs(x = x_label, y = "Observed probability") +
+    ggplot2::theme_bw() +
+    ggplot2::theme(strip.background = ggplot2::element_blank(),
+                   legend.position = "none")
+
+  list(
+    plot = p,
+    observed_prob = observed_prob_df,
+    fitted_data = fitted_data
+  )
+}
+
+make_r2_plotmath_label <- function(r2_marg = NA_real_,
+                                   r2_cond = NA_real_,
+                                   r2_generic = NA_real_,
+                                   r2_generic_name = NA_character_,
+                                   digits = 3) {
+  fmt <- function(x) format(signif(x, digits), trim = TRUE, scientific = FALSE)
+
+  if (!is.na(r2_marg) && !is.na(r2_cond)) {
+    return(paste0(
+      "italic(R)^2[m] == ", fmt(r2_marg),
+      "*'; '*italic(R)^2[c] == ", fmt(r2_cond)
+    ))
+  }
+
+  if (!is.na(r2_generic)) {
+    nm <- ifelse(is.na(r2_generic_name) || r2_generic_name == "", "generic", r2_generic_name)
+    subscript <- dplyr::case_when(
+      grepl("ferrari", nm, ignore.case = TRUE) ~ "Ferrari",
+      grepl("nakagawa", nm, ignore.case = TRUE) ~ "Nakagawa",
+      grepl("tjur", nm, ignore.case = TRUE) ~ "Tjur",
+      TRUE ~ "generic"
+    )
+    return(paste0("{italic(R)^2}[", subscript, "] == ", fmt(r2_generic)))
+  }
+
+  "italic(R)^2 == NA"
+}
+
+plot_rec_vs_element_model <- function(model_fit,
+                                      plot_df,
+                                      detector_value = NULL,
+                                      element_type_value = NULL,
+                                      class_value = NULL,
+                                      detector_col = "detector",
+                                      element_type_col = "element_type",
+                                      class_col = "class",
+                                      x_var = "lambda_hat",
+                                      y_var = "Recombination probability",
+                                      y_lwr_col = "asymp.LCL",
+                                      y_upr_col = "asymp.UCL",
+                                      x_lwr_col = "lambda_lwr",
+                                      x_upr_col = "lambda_upr",
+                                      label_col = "display_name",
+                                      colour_col = "Transformability",
+                                      shape_col = "Niche",
+                                      x_lab = "Expected number of elements per isolate genome",
+                                      y_lab = "Probability of diversification through homologous recombination",
+                                      n_grid = 200) {
+  
+  df <- plot_df
+
+  # Optional filters
+  if (!is.null(detector_value)) {
+    if (!(detector_col %in% names(df))) stop("Missing detector column: ", detector_col)
+    df <- df %>% dplyr::filter(.data[[detector_col]] == detector_value)
+  }
+  if (!is.null(element_type_value)) {
+    if (!(element_type_col %in% names(df))) stop("Missing element_type column: ", element_type_col)
+    df <- df %>% dplyr::filter(.data[[element_type_col]] == element_type_value)
+  }
+  if (!is.null(class_value)) {
+    if (!(class_col %in% names(df))) stop("Missing class column: ", class_col)
+    df <- df %>% dplyr::filter(.data[[class_col]] == class_value)
+  }
+
+  df <- df %>% dplyr::filter(!is.na(.data[[x_var]]), !is.na(.data[[y_var]]))
+  if (nrow(df) == 0) stop("No rows left after filtering.")
+
+  # Prediction grid
+  newdata_rec <- df %>%
+    dplyr::summarise(min_mean = 0,
+                     max_mean = max(.data[[x_upr_col]][.data[[x_upr_col]] < Inf], na.rm = TRUE)) %>%
+    { tibble::tibble(!!x_var := seq(.$min_mean, .$max_mean, length.out = n_grid)) }
+
+  emm_rec <- emmeans::emmeans(
+    model_fit,
+    specs = stats::as.formula(paste0("~", x_var)),
+    at    = setNames(list(newdata_rec[[x_var]]), x_var),
+    type  = "response"
+  )
+
+  pred_df <- tibble::as_tibble(emm_rec) %>%
+    dplyr::rename(
+      prob_fit = response,
+      prob_se  = SE,
+      prob_lwr = asymp.LCL,
+      prob_upr = asymp.UCL
+    )
+
+  # p-value
+  mod_sum <- summary(model_fit)
+  p_val <- mod_sum$coefficients$cond[x_var, "Pr(>|z|)"]
+  p_label <- paste0("italic(p) == ", signif(p_val, 3))
+
+  # R2 extraction (supports both generic and mixed-model outputs)
+  r2_obj <- performance::r2(model_fit)
+
+  r2_marg <- NA_real_
+  r2_cond <- NA_real_
+  r2_generic <- NA_real_
+  r2_name <- NA_character_
+
+  # mixed-model style
+  if (!is.null(r2_obj$R2_marginal) && length(r2_obj$R2_marginal) > 0) {
+    r2_marg <- suppressWarnings(as.numeric(r2_obj$R2_marginal[1]))
+  }
+  if (!is.null(r2_obj$R2_conditional) && length(r2_obj$R2_conditional) > 0) {
+    r2_cond <- suppressWarnings(as.numeric(r2_obj$R2_conditional[1]))
+  }
+
+  # generic style (your case: Ferrari's R2)
+  if (!is.null(r2_obj$R2) && length(r2_obj$R2) > 0) {
+    r2_generic <- suppressWarnings(as.numeric(r2_obj$R2[1]))
+    r2_name <- names(r2_obj$R2)[1]
+    if (is.null(r2_name) || is.na(r2_name) || r2_name == "") r2_name <- "R2"
+  }
+
+  r2_label <- make_r2_plotmath_label(
+    r2_marg = r2_marg,
+    r2_cond = r2_cond,
+    r2_generic = r2_generic,
+    r2_generic_name = r2_name
+  )
+  
+  # Force scalar character to avoid annotate() type issues
+  r2_label <- as.character(r2_label)[1]
+  p_label  <- as.character(p_label)[1]
+  
+  # Build plot
+  p <- ggplot2::ggplot(
+    df,
+    ggplot2::aes(
+      x = .data[[x_var]],
+      y = .data[[y_var]],
+      colour = .data[[colour_col]],
+      shape = .data[[shape_col]],
+      label = .data[[label_col]]
+    )
+  ) +
+    ggplot2::geom_point() +
+    ggplot2::geom_errorbar(
+    ggplot2::aes(
+      x = .data[[x_var]],
+      ymin = .data[[y_lwr_col]],
+      ymax = .data[[y_upr_col]]
+      ),
+      alpha = 0.5
+    ) +
+    ggplot2::geom_errorbarh(
+      ggplot2::aes(
+        y = .data[[y_var]],
+        xmin = .data[[x_lwr_col]],
+        xmax = .data[[x_upr_col]]
+      ),
+      alpha = 0.5
+    ) +
+    ggplot2::geom_line(data = pred_df, ggplot2::aes(x = .data[[x_var]], y = prob_fit),
+                       inherit.aes = FALSE, color = "black", linewidth = 1, alpha = 0.75) +
+    ggplot2::geom_ribbon(data = pred_df, ggplot2::aes(x = .data[[x_var]], ymin = prob_lwr, ymax = prob_upr),
+                         inherit.aes = FALSE, alpha = 0.2, fill = "black") +
+    ggrepel::geom_label_repel(size = 3, force_pull = 0.5, parse = TRUE) +
+    scale_shape_manual(values = niche_palette) +
+    scale_colour_manual(values = transformability_palette,
+                        aesthetics = c("colour","fill")) +
+    ggplot2::labs(x = x_lab, y = y_lab) +
+    ggplot2::theme_bw() +
+    ggplot2::annotate("text",
+                      x = stats::quantile(df[[x_var]], 0.95, na.rm = TRUE),
+                      y = stats::quantile(df[[y_var]], 0.95, na.rm = TRUE),
+                      label = p_label, parse = TRUE, hjust = 1) +
+    ggplot2::annotate(
+      "text",
+      x = stats::quantile(df[[x_var]], 0.95, na.rm = TRUE),
+      y = stats::quantile(df[[y_var]], 0.88, na.rm = TRUE),
+      label = r2_label,
+      parse = TRUE,
+      hjust = 1
+    ) +
+    theme(legend.position = "bottom")
+
+  list(
+    plot = p,
+    filtered_df = df,
+    predictions = pred_df,
+    p_value = p_val,
+    r2_marginal = r2_marg,
+    r2_conditional = r2_cond,
+    r2_generic = r2_generic,
+    r2_generic_name = r2_name
+  )
+}
+
+# Exact Poisson CI for rate per isolate
+poisson_rate_ci_exact <- function(k, n, conf.level = 0.95) {
+  alpha <- 1 - conf.level
+
+  if (is.na(k) || is.na(n) || n <= 0) {
+    return(c(lambda = NA_real_, lwr = NA_real_, upr = NA_real_))
+  }
+
+  lambda_hat <- k / n
+
+  if (k == 0) {
+    lwr <- 0
+    upr <- -log(alpha) / n
+  } else {
+    lwr <- 0.5 * stats::qchisq(alpha / 2, df = 2 * k) / n
+    upr <- 0.5 * stats::qchisq(1 - alpha / 2, df = 2 * (k + 1)) / n
+  }
+
+  c(lambda = lambda_hat, lwr = lwr, upr = upr)
+}
+
+fit_poisson_by_species <- function(df, conf.level = 0.95) {
+  df %>%
+    dplyr::group_by(species, display, detector, element_type) %>%
+    dplyr::group_modify(~{
+      dat <- .x
+
+      n <- nrow(dat)
+      k <- sum(dat$count, na.rm = TRUE)
+
+      ci <- poisson_rate_ci_exact(k = k, n = n, conf.level = conf.level)
+
+      tibble::tibble(
+        n_isolates = n,
+        k_total = k,
+        lambda_hat = unname(ci["lambda"]),
+        lambda_lwr = unname(ci["lwr"]),
+        lambda_upr = unname(ci["upr"]),
+        mean_empirical = mean(dat$count, na.rm = TRUE),
+        var_empirical = stats::var(dat$count, na.rm = TRUE)
+      )
+    }) %>%
+    dplyr::ungroup()
+}
+
+fit_beta_model <- function(in_df, element = NULL, detector_method = NULL) {
+
+  df <- in_df %>%
+    dplyr::filter(detector == detector_method, element_type == element) %>%
+    dplyr::filter(!is.na(`Recombination probability`), !is.na(lambda_hat))
+
+  # Check rows
+  if (nrow(df) == 0) {
+    stop("No rows after filtering. Check detector/element values and case.")
+  }
+
+  # Beta regression requires 0 < y < 1
+  y <- df$`Recombination probability`
+  if (any(y <= 0 | y >= 1, na.rm = TRUE)) {
+    # squeeze into open interval (Smithson & Verkuilen style)
+    n <- length(y)
+    df <- df %>%
+      dplyr::mutate(`Recombination probability` =
+        ((`Recombination probability` * (n - 1)) + 0.5) / n
+      )
+  }
+
+  # Fit with tryCatch to avoid hard crash
+  mod <- tryCatch(
+    glmmTMB::glmmTMB(
+      `Recombination probability` ~ lambda_hat,
+      data = df,
+      ziformula = ~0,
+      dispformula = ~1,
+      family = glmmTMB::beta_family(link = "logit")
+    ),
+    error = function(e) {
+      stop("Model fit failed: ", conditionMessage(e))
+    }
+  )
+
+  return(mod)
+}
+
+plot_ecology_panel <- function(in_df,
+                               detector_choice,
+                               element_choice,
+                               y_element_col = "lambda_hat",
+                               y_rec_col = "Recombination probability") {
+
+  # Build lookup tables with `species` key
+  gram_df <- enframe(gram) %>%
+    tidyr::unnest(value) %>%
+    dplyr::rename(species = value, Gram = name)
+
+  intestinal_df <- enframe(intestinal) %>%
+    tidyr::unnest(value) %>%
+    dplyr::rename(species = value, Intestinal = name)
+
+  # NOTE: your named vectors are key=name (code), value=label.
+  # For joins by species binomial, invert appropriately:
+  gram_df <- enframe(gram) %>%
+    dplyr::mutate(code = name, Gram = unlist(value)) %>%
+    dplyr::left_join(
+      enframe(species_name) %>% dplyr::rename(code = name, species = value),
+      by = "code"
+    ) %>%
+    dplyr::select(species, Gram) %>% 
+    dplyr::mutate(species = unlist(species))
+
+  intestinal_df <- enframe(intestinal) %>%
+    dplyr::mutate(code = name, Intestinal = unlist(value)) %>%
+    dplyr::left_join(
+      enframe(species_name) %>% dplyr::rename(code = name, species = value),
+      by = "code"
+    ) %>%
+    dplyr::select(species, Intestinal) %>% 
+    dplyr::mutate(species = unlist(species))
+
+  plot_df <- in_df %>%
+    dplyr::filter(detector == detector_choice, element_type == element_choice) %>%
+    dplyr::left_join(gram_df, by = "species") %>%
+    dplyr::left_join(intestinal_df, by = "species")
+
+  element_label <- paste0(stringr::str_to_title(element_choice), " per isolate")
+
+  rec_by_gram_plot <-
+    plot_violin_kw(
+      data = plot_df,
+      x_var = Gram,
+      y_var = .data[[y_rec_col]],
+      x_lab = "Gram stain phenotype",
+      y_lab = "Recombination probability"
+    )
+
+  element_by_gram_plot <-
+    plot_violin_kw(
+      data = plot_df,
+      x_var = Gram,
+      y_var = .data[[y_element_col]],
+      x_lab = "Gram stain phenotype",
+      y_lab = element_label
+    )
+
+  rec_by_transformability_plot <-
+    plot_violin_kw(
+      data = plot_df,
+      x_var = Transformability,
+      y_var = .data[[y_rec_col]],
+      x_lab = "Transformability",
+      y_lab = "Recombination probability"
+    )
+
+  element_by_transformability_plot <-
+    plot_violin_kw(
+      data = plot_df,
+      x_var = Transformability,
+      y_var = .data[[y_element_col]],
+      x_lab = "Transformability",
+      y_lab = element_label
+    )
+
+  rec_by_ecology_plot <-
+    plot_violin_kw(
+      data = plot_df,
+      x_var = Intestinal,
+      y_var = .data[[y_rec_col]],
+      x_lab = "Association with intestinal tract",
+      y_lab = "Recombination probability"
+    )
+
+  element_by_ecology_plot <-
+    plot_violin_kw(
+      data = plot_df,
+      x_var = Intestinal,
+      y_var = .data[[y_element_col]],
+      x_lab = "Association with intestinal tract",
+      y_lab = element_label
+    )
+
+  composite_plots <- cowplot::plot_grid(
+    plotlist = list(
+      rec_by_transformability_plot + ggplot2::theme(legend.position = "none"),
+      element_by_transformability_plot + ggplot2::theme(legend.position = "none"),
+      rec_by_ecology_plot + ggplot2::theme(legend.position = "none"),
+      element_by_ecology_plot + ggplot2::theme(legend.position = "none"),
+      rec_by_gram_plot + ggplot2::theme(legend.position = "none"),
+      element_by_gram_plot + ggplot2::theme(legend.position = "none")
+    ),
+    nrow = 3, ncol = 2, labels = "AUTO"
+  )
+
+  comparison_legend <- cowplot::get_plot_component(
+    element_by_ecology_plot +
+      ggplot2::theme(legend.position = "bottom", legend.box = "vertical") +
+      ggplot2::guides(
+        colour = ggplot2::guide_legend(title = "Transformability"),
+        shape  = ggplot2::guide_legend(title = "Niche")
+      ),
+    "guide-box-bottom",
+    return_all = TRUE
+  )
+
+  final_plot <- cowplot::plot_grid(
+    plotlist = list(composite_plots, comparison_legend),
+    nrow = 2,
+    rel_heights = c(0.90, 0.1)
+  )
+
+  list(plot = final_plot, data = plot_df)
 }
 
 ```
@@ -491,7 +1089,7 @@ lower_length_threshold[["Eco"]] = 4000000
 upper_length_threshold[["Eco"]] = 6500000
 transformable[["Eco"]] = "Non-transformable"
 primary_niche[["Eco"]] = "Gastrointestinal tract"
-gram[["Eco"]] = "Gram negative"
+gram[["Eco"]] = "Diderm"
 intestinal[["Eco"]] = "Intestinal"
 # Citrobacter species
 species_name[["Cit"]] = "Citrobacter spp"
@@ -501,7 +1099,7 @@ lower_length_threshold[["Cit"]] = 4000000
 upper_length_threshold[["Cit"]] = 6500000
 transformable[["Cit"]] = "Non-transformable"
 primary_niche[["Cit"]] = "Gastrointestinal tract"
-gram[["Cit"]] = "Gram negative"
+gram[["Cit"]] = "Diderm"
 intestinal[["Cit"]] = "Intestinal"
 # Enterobacter species
 species_name[["Esp"]] = "Enterobacter spp"
@@ -511,7 +1109,7 @@ lower_length_threshold[["Esp"]] = 4000000
 upper_length_threshold[["Esp"]] = 6500000
 transformable[["Esp"]] = "Non-transformable"
 primary_niche[["Esp"]] = "Gastrointestinal tract"
-gram[["Esp"]] = "Gram negative"
+gram[["Esp"]] = "Diderm"
 intestinal[["Esp"]] = "Intestinal"
 # Proteus species
 species_name[["Psp"]] = "Proteus spp"
@@ -521,7 +1119,7 @@ lower_length_threshold[["Psp"]] = 3000000
 upper_length_threshold[["Psp"]] = 5000000
 transformable[["Psp"]] = "Non-transformable"
 primary_niche[["Psp"]] = "Gastrointestinal tract"
-gram[["Psp"]] = "Gram negative"
+gram[["Psp"]] = "Diderm"
 intestinal[["Psp"]] = "Intestinal"
 # Serratia species
 species_name[["Ssp"]] = "Serratia spp"
@@ -531,7 +1129,7 @@ lower_length_threshold[["Ssp"]] = 4000000
 upper_length_threshold[["Ssp"]] = 6500000
 transformable[["Ssp"]] = "Non-transformable"
 primary_niche[["Ssp"]] = "Gastrointestinal tract"
-gram[["Ssp"]] = "Gram negative"
+gram[["Ssp"]] = "Diderm"
 intestinal[["Ssp"]] = "Intestinal"
 # S. aureus
 species_name[["Sau"]] = "Staphylococcus aureus"
@@ -541,7 +1139,7 @@ lower_length_threshold[["Sau"]] = 2000000
 upper_length_threshold[["Sau"]] = 4000000
 transformable[["Sau"]] = "Non-transformable"
 primary_niche[["Sau"]] = "Multiple"
-gram[["Sau"]] = "Gram positive"
+gram[["Sau"]] = "Monoderm"
 intestinal[["Sau"]] = "Non-intestinal"
 # K. pneumoniae
 species_name[["Kpn"]] = "Klebsiella pneumoniae"
@@ -551,7 +1149,7 @@ lower_length_threshold[["Kpn"]] = 4000000
 upper_length_threshold[["Kpn"]] = 7000000
 transformable[["Kpn"]] = "Non-transformable"
 primary_niche[["Kpn"]] = "Gastrointestinal tract"
-gram[["Kpn"]] = "Gram negative"
+gram[["Kpn"]] = "Diderm"
 intestinal[["Kpn"]] = "Intestinal"
 # S. pneumoniae
 species_name[["Spn"]] = "Streptococcus pneumoniae"
@@ -561,7 +1159,7 @@ lower_length_threshold[["Spn"]] = 1500000
 upper_length_threshold[["Spn"]] = 3000000
 transformable[["Spn"]] = "Transformable"
 primary_niche[["Spn"]] = "Respiratory tract"
-gram[["Spn"]] = "Gram positive"
+gram[["Spn"]] = "Monoderm"
 intestinal[["Spn"]] = "Non-intestinal"
 # A. baumanii
 species_name[["Abau"]] = "Acinetobacter baumannii"
@@ -571,7 +1169,7 @@ lower_length_threshold[["Abau"]] = 3000000
 upper_length_threshold[["Abau"]] = 5500000
 transformable[["Abau"]] = "Transformable"
 primary_niche[["Abau"]] = "Environmental"
-gram[["Abau"]] = "Gram negative"
+gram[["Abau"]] = "Diderm"
 intestinal[["Abau"]] = "Non-intestinal"
 # P. aeruginosa
 species_name[["Pae"]] = "Pseudomonas aeruginosa"
@@ -581,7 +1179,7 @@ lower_length_threshold[["Pae"]] = 5500000
 upper_length_threshold[["Pae"]] = 8500000
 transformable[["Pae"]] = "Transformable"
 primary_niche[["Pae"]] = "Environmental"
-gram[["Pae"]] = "Gram negative"
+gram[["Pae"]] = "Diderm"
 intestinal[["Pae"]] = "Non-intestinal"
 # E. faecium
 species_name[["Efm"]] = "Enterococcus faecium"
@@ -591,7 +1189,7 @@ lower_length_threshold[["Efm"]] = 1500000
 upper_length_threshold[["Efm"]] = 4000000
 transformable[["Efm"]] = "Non-transformable"
 primary_niche[["Efm"]] = "Gastrointestinal tract"
-gram[["Efm"]] = "Gram positive"
+gram[["Efm"]] = "Monoderm"
 intestinal[["Efm"]] = "Intestinal"
 # S. agalactiae
 species_name[["Sag"]] = "Streptococcus agalactiae"
@@ -601,7 +1199,7 @@ lower_length_threshold[["Sag"]] = 1500000
 upper_length_threshold[["Sag"]] = 3000000
 transformable[["Sag"]] = "Non-transformable"
 primary_niche[["Sag"]] = "Multiple"
-gram[["Sag"]] = "Gram positive"
+gram[["Sag"]] = "Monoderm"
 intestinal[["Sag"]] = "Intestinal"
 # S. enterica
 species_name[["Sen"]] = "Salmonella enterica"
@@ -611,7 +1209,7 @@ lower_length_threshold[["Sen"]] = 3500000
 upper_length_threshold[["Sen"]] = 6000000
 transformable[["Sen"]] = "Non-transformable"
 primary_niche[["Sen"]] = "Gastrointestinal tract"
-gram[["Sen"]] = "Gram negative"
+gram[["Sen"]] = "Diderm"
 intestinal[["Sen"]] = "Intestinal"
 # E. faecalis
 species_name[["Efs"]] = "Enterococcus faecalis"
@@ -621,7 +1219,7 @@ lower_length_threshold[["Efs"]] = 2000000
 upper_length_threshold[["Efs"]] = 4000000
 transformable[["Efs"]] = "Non-transformable"
 primary_niche[["Efs"]] = "Gastrointestinal tract"
-gram[["Efs"]] = "Gram positive"
+gram[["Efs"]] = "Monoderm"
 intestinal[["Efs"]] = "Intestinal"
 # S. pyogenes
 species_name[["Spy"]] = "Streptococcus pyogenes"
@@ -631,7 +1229,7 @@ lower_length_threshold[["Spy"]] = 1000000
 upper_length_threshold[["Spy"]] = 2500000
 transformable[["Spy"]] = "Non-transformable"
 primary_niche[["Spy"]] = "Respiratory tract"
-gram[["Spy"]] = "Gram positive"
+gram[["Spy"]] = "Monoderm"
 intestinal[["Spy"]] = "Non-intestinal"
 # H. influenzae
 species_name[["Hflu"]] = "Haemophilus influenzae"
@@ -641,7 +1239,7 @@ lower_length_threshold[["Hflu"]] = 1000000
 upper_length_threshold[["Hflu"]] = 2500000
 transformable[["Hflu"]] = "Transformable"
 primary_niche[["Hflu"]] = "Respiratory tract"
-gram[["Hflu"]] = "Gram negative"
+gram[["Hflu"]] = "Diderm"
 intestinal[["Hflu"]] = "Non-intestinal"
 # M. morganii
 species_name[["Mmo"]] = "Morganella morganii"
@@ -651,7 +1249,7 @@ lower_length_threshold[["Mmo"]] = 3000000
 upper_length_threshold[["Mmo"]] = 5000000
 transformable[["Mmo"]] = "Non-transformable"
 primary_niche[["Mmo"]] = "Gastrointestinal tract"
-gram[["Mmo"]] = "Gram negative"
+gram[["Mmo"]] = "Diderm"
 intestinal[["Mmo"]] = "Intestinal"
 # Neisseria species
 species_name[["Nsp"]] = "Neisseria spp"
@@ -661,7 +1259,7 @@ lower_length_threshold[["Nsp"]] = 1500000
 upper_length_threshold[["Nsp"]] = 3000000
 transformable[["Nsp"]] = "Transformable"
 primary_niche[["Nsp"]] = "Multiple"
-gram[["Nsp"]] = "Gram negative"
+gram[["Nsp"]] = "Diderm"
 intestinal[["Nsp"]] = "Non-intestinal"
 # Moraxella species
 species_name[["Msp"]] = "Moraxella catarrhalis"
@@ -671,7 +1269,7 @@ lower_length_threshold[["Msp"]] = 1000000
 upper_length_threshold[["Msp"]] = 3000000
 transformable[["Msp"]] = "Transformable"
 primary_niche[["Msp"]] = "Respiratory tract"
-gram[["Msp"]] = "Gram negative"
+gram[["Msp"]] = "Diderm"
 intestinal[["Msp"]] = "Non-intestinal"
 # Campylobacter species
 species_name[["Cam"]] = "Campylobacter spp"
@@ -681,7 +1279,7 @@ lower_length_threshold[["Cam"]] = 1000000
 upper_length_threshold[["Cam"]] = 3000000
 transformable[["Cam"]] = "Transformable"
 primary_niche[["Cam"]] = "Gastrointestinal tract"
-gram[["Cam"]] = "Gram negative"
+gram[["Cam"]] = "Diderm"
 intestinal[["Cam"]] = "Intestinal"
 # Helicobacter pylori
 species_name[["Hpy"]] = "Helicobacter pylori"
@@ -691,7 +1289,7 @@ lower_length_threshold[["Hpy"]] = 1000000
 upper_length_threshold[["Hpy"]] = 2500000
 transformable[["Hpy"]] = "Transformable"
 primary_niche[["Hpy"]] = "Gastrointestinal tract"
-gram[["Hpy"]] = "Gram negative"
+gram[["Hpy"]] = "Diderm"
 intestinal[["Hpy"]] = "Non-intestinal"
 # Vibrio cholerae
 species_name[["Vch"]] = "Vibrio cholerae"
@@ -701,7 +1299,7 @@ lower_length_threshold[["Vch"]] = 3000000
 upper_length_threshold[["Vch"]] = 5000000
 transformable[["Vch"]] = "Transformable"
 primary_niche[["Vch"]] = "Environmental"
-gram[["Vch"]] = "Gram negative"
+gram[["Vch"]] = "Diderm"
 intestinal[["Vch"]] = "Non-intestinal"
 # Bacillus subtilis
 species_name[["Bsu"]] = "Bacillus subtilis"
@@ -711,12 +1309,12 @@ lower_length_threshold[["Bsu"]] = 3000000
 upper_length_threshold[["Bsu"]] = 5500000
 transformable[["Bsu"]] = "Transformable"
 primary_niche[["Bsu"]] = "Environmental"
-gram[["Bsu"]] = "Gram positive"
+gram[["Bsu"]] = "Monoderm"
 intestinal[["Bsu"]] = "Non-intestinal"
 
 ```
 
-## Calculate MSTs from MLST data
+### Calculate MSTs from MLST data
 
 ```{r Calculate MST, eval = FALSE}
 
@@ -767,6 +1365,8 @@ write_csv(
 
 ```
 
+### Calculate mismatches between SLVs
+
 ``` {r Calculate mismatches, eval = FALSE}
 
 mismatches <- list()
@@ -799,6 +1399,8 @@ write_csv(
 
 ```
 
+Plot number of mismatches between SLV diverged alleles:
+
 ``` {r Load mismatches and plot, fig.width = 8, fig.height = 8}
 
 mismatches_df <-
@@ -830,6 +1432,8 @@ ggplot(mismatches_df,
 
 ```
 
+### Calculate r/m statistics
+
 ``` {r Graph recombination}
 
 rho_m_df <-
@@ -854,6 +1458,8 @@ ggplot(rho_m_df,
   theme_bw()
 
 ```
+
+### Fit generalised linear mixed effects model of homologous recombination
 
 ``` {r Model the probability of changes occurring through recombination, fig.width = 8}
 
@@ -913,7 +1519,7 @@ ggplot(combined_rec_output_df,
 
 # Prophage data
 
-## Search for PHASTER data
+## Search for complete genomes from target sequences
 
 Searches run on 8/12/25. For multispecies datasets, the species were selected as the binomial names that were more common than the count of isolates within the genus with an undefined species name.
 
@@ -936,6 +1542,8 @@ cat Enterobacter*_nuccore_complete.txt > Enterobacter\ spp_nuccore_complete.txt
 cat Citrobacter*_nuccore_complete.txt > Citrobacter\ spp_nuccore_complete.txt
 
 ```
+
+## Search for PHASTER results
 
 ``` {r Parse complete sequences}
 
@@ -1015,6 +1623,8 @@ cd prophage
 ./get_phaster_ncbi_info.sh
 
 ```
+
+### Parse genome lengths
 
 ``` {r Parse genome lengths to identify complete sequences, fig.width = 8, fig.height = 10}
 
@@ -1308,6 +1918,8 @@ write_csv(all_results,
 
 ```
 
+### Identify thresholds for PHASTER prophage processing
+
 ``` {r Plot phaster outputs, fig.width = 8}
 
 # Read phaster summary
@@ -1343,6 +1955,8 @@ ggplot(all_results %>%
   theme(strip.background = element_blank())
 
 ```
+
+### Tabulate number of processed genomes
 
 ``` {r Tabulate number of samples per species}
 
@@ -1393,6 +2007,7 @@ sample_summary_df %>%
 
 ```
 
+### Distribution of prophage identified from PHASTER
 
 ``` {r Count prophage per genome, fig.height = 8, fig.width = 8}
 
@@ -1696,6 +2311,8 @@ write.csv(complete_accessions_df,
 
 ```
 
+### Filter by genome size
+
 We plot the sizes of these replicons to check they are representative of the species:
 
 ``` {r Plot selected genome sizes, fig.width = 10, fig.height = 10}
@@ -1729,17 +2346,26 @@ bsub -J geNomad[1-$MAX_JOB] -n 4 -M 24000 -q normal -R 'select[mem>24000] rusage
 
 ```
 
+### Identify thresholds for geNomad analysis
+
 Identify prophage densities in species:
 
 ``` {r Prophage counts from geNomad}
 
+# Threshold for identifying funtional phage
+genomad_Caudoviricetes_threshold <- 8
+genomad_Inoviridae_threshold <- 3
+
+# Process geNomad prophage output
 genomad_phage_df <-
   read.table(file = "./genomad_analysis/genomad_virus_summary.tsv",
              comment.char = "",
              header = TRUE,
              sep = "\t") %>%
   dplyr::mutate(no_version_accession = str_remove(accession, "\\.\\d+$")) %>% 
-  dplyr::filter(no_version_accession %in% complete_accessions_df$no_version_accession) %>%   dplyr::mutate(Classification =
+  dplyr::filter(no_version_accession %in% complete_accessions_df$no_version_accession) %>%
+  dplyr::filter(!grepl("000000", no_version_accession)) %>%
+  dplyr::mutate(Classification =
                    dplyr::case_when(
                      is.na(length) ~ NA_character_,
                      grepl("Caudoviricetes",taxonomy) ~ "Caudoviricetes",
@@ -1754,17 +2380,24 @@ genomad_phage_df <-
       dplyr::select(-accession),
     by = "seq_name"
   ) %>% 
-  dplyr::mutate(Amidase = dplyr::if_else(total_count > 0,"Lytic amidase genes present","No lytic amidase gene detected"))
+  dplyr::mutate(Amidase = dplyr::if_else(total_count > 0,"Lytic amidase genes present","No lytic amidase gene detected")) %>% 
+  dplyr::mutate(Threshold =
+                  dplyr::case_when(
+                    Classification == "Caudoviricetes" ~ genomad_Caudoviricetes_threshold,
+                    Classification == "Inoviridae" ~ genomad_Inoviridae_threshold,
+                    TRUE ~ NA_integer_
+                  )
+                )
 
-# Threshold for identifying funtional phage
-genomad_phage_protein_threshold <- 8
-
+# Plot functional information
 ggplot(genomad_phage_df %>% 
          dplyr::filter(!is.na(length)),
        aes(x = n_hallmarks)) +
   geom_histogram(fill = "blue") +
   facet_grid(Amidase~Classification) +
-  geom_vline(xintercept = genomad_phage_protein_threshold, colour = "red", linetype = 2) +
+  geom_vline(data = . %>% dplyr::select(Classification,Threshold) %>% dplyr::distinct(),
+             aes(xintercept = Threshold), colour = "red", linetype = 2) +
+  scale_y_log10() +
   xlab("Number of hallmark prophage proteins") +
   ylab("Count") +
   theme_bw() +
@@ -1772,41 +2405,55 @@ ggplot(genomad_phage_df %>%
 
 ```
 
+### Distribution of prophage per species
 
 ``` {r Plot distribution by species}
 
+# Define the classification universe once
+all_classifications <- genomad_phage_df %>%
+  dplyr::filter(!is.na(Classification)) %>%
+  dplyr::distinct(Classification)
+
+# Per-accession counts from geNomad
+genomad_counts_by_accession_class_df <-
+  genomad_phage_df %>%
+  dplyr::mutate(
+    phage_detected = dplyr::if_else(
+      !is.na(length) & !is.na(Threshold) &
+        n_hallmarks > Threshold &
+        topology == "Provirus",
+      1L, 0L
+    )
+  ) %>%
+  dplyr::filter(!is.na(no_version_accession), !is.na(Classification)) %>%
+  dplyr::group_by(no_version_accession, Classification) %>%
+  dplyr::summarise(phage_count = sum(phage_detected), .groups = "drop")
+
 genomad_phage_by_species_df <-
-  complete_accessions_df %>% 
-    dplyr::filter(selected_biosample == "Selected") %>% 
-    dplyr::left_join(
-      genomad_phage_df %>% 
-        dplyr::mutate(phage_detected = dplyr::if_else(!is.na(length) & 
-                                                      grepl("Caudoviricetes",taxonomy) 
-                                                      & n_hallmarks > genomad_phage_protein_threshold 
-                                                      & topology == "Provirus",1,0)) %>% 
-        dplyr::filter(!is.na(phage_detected)) %>% 
-        dplyr::group_by(no_version_accession) %>% 
-        dplyr::summarise(phage_count = sum(phage_detected)) %>% 
-        dplyr::ungroup(),
-      by = "no_version_accession"
-    ) %>% 
-    dplyr::mutate(phage_count = dplyr::if_else(is.na(phage_count),0,phage_count)) %>% 
-    dplyr::filter(!grepl("000000",no_version_accession)) %>% 
-    dplyr::group_by(biosample,species,display) %>% 
-    dplyr::summarise(total_phage_count = sum(phage_count)) %>% 
-    dplyr::ungroup() %>% 
-    # To enable later table joining
-    dplyr::mutate(species = gsub("_"," ",species))
+  complete_accessions_df %>%
+  dplyr::filter(selected_biosample == "Selected") %>%
+  dplyr::filter(!grepl("000000", no_version_accession)) %>%
+  dplyr::distinct(no_version_accession, biosample, species, display, Total_length) %>%
+  tidyr::crossing(all_classifications) %>%   # ensures every accession has every Classification
+  dplyr::left_join(
+    genomad_counts_by_accession_class_df,
+    by = c("no_version_accession", "Classification")
+  ) %>%
+  dplyr::mutate(phage_count = tidyr::replace_na(phage_count, 0L)) %>%
+  dplyr::group_by(biosample, species, display, Classification) %>%
+  dplyr::summarise(total_phage_count = sum(phage_count), .groups = "drop") %>%
+  dplyr::mutate(species = gsub("_", " ", species))
 
 # Plot fitted distributions against observed prophage counts
 ggplot() +
   # Observed probabilities as bars
   geom_bar(
     data = genomad_phage_by_species_df,
-    aes(x = total_phage_count),
-    fill = "blue",
-    color = "blue",
-    width = 0.8
+    aes(x = total_phage_count, fill = Classification),
+    #fill = "blue",
+    #color = "blue",
+    width = 0.8,
+    position = position_dodge(preserve = "single")
   ) +
   facet_wrap(~display,
              scales = "free_y",
@@ -1821,133 +2468,202 @@ ggplot() +
 
 ```
 
-Fit Poisson distributions to the geNomad data:
+### Analyse plasmids
 
-``` {r Fit Poisson statistics to geNomad data}
+``` {r Parse geNomad plasmid data}
 
-# Fit statistical distributions to prophage count data for each species
-fits_per_species <- genomad_phage_by_species_df %>%
-  group_by(species) %>%
-  summarise(data = list(total_phage_count), .groups = "drop") %>%
-  mutate(
-    fit_pois = map(data, \(x) {
-      x <- unlist(x)
+# Process geNomad prophage output
+genomad_plasmid_threshold <- 0
+genomad_plasmid_df <-
+  read.table(file = "./genomad_analysis/tmp_genomad_plasmid_summary.tsv",
+             comment.char = "",
+             header = TRUE,
+             sep = "\t") %>%
+  dplyr::mutate(no_version_accession = str_remove(accession, "\\.\\d+$")) %>% 
+  dplyr::filter(!grepl("000000", no_version_accession)) %>%
+  dplyr::filter(no_version_accession %in% complete_accessions_df$no_version_accession) %>%
+  dplyr::mutate(Threshold = genomad_plasmid_threshold)
 
-      # Edge case: all zeros (or empty, if you want to guard that too)
-      if (length(x) == 0 || all(x == 0)) {
-        # Return a minimal "fit-like" list
-        list(
-          estimate = c(lambda = 0),
-          ci = matrix(
-            c(0, 0),
-            nrow = 1,
-            dimnames = list("lambda", c("2.5 %", "97.5 %"))
-          )
-        )
-      } else {
-        # Normal fit
-        fit <- suppressWarnings(fitdist(x, "pois", method = "mle"))
-        ci  <- confint(fit)  # Wald CI
-        list(
-          estimate = fit$estimate,
-          ci = ci
-        )
-      }
-    })
-  )
+# Plot functional information
+ggplot(genomad_plasmid_df %>% 
+         dplyr::filter(!is.na(length)),
+       aes(x = n_hallmarks)) +
+  geom_histogram(fill = "blue", bins = 60) +
+  xlab("Number of hallmark plasmid proteins") +
+  ylab("Count") +
+  geom_vline(aes(xintercept = Threshold), colour = "red", linetype = 2) +
+  theme_bw() +
+  theme(strip.background = element_blank())
 
-# Extract fit information
-pois_params <- fits_per_species %>%
-  dplyr::transmute(
-    species,
-    lambda = map_dbl(fit_pois, ~.x$estimate[["lambda"]])
-  )
+```
 
-# Extract confidence intervals
-alpha <- 0.05
+``` {r Plot distribution of plasmids by species}
 
-pois_ci <- genomad_phage_by_species_df %>%
-  dplyr::group_by(species) %>%
-  dplyr::summarise(
-    n = dplyr::n(),
-    S = sum(total_phage_count, na.rm = TRUE),
-    .groups = "drop"
-  ) %>%
+# Per-accession counts from geNomad
+genomad_plasmid_counts_by_accession_class_df <-
+  genomad_plasmid_df %>%
   dplyr::mutate(
-    lambda_hat = S / n,
-    lambda_lwr = if_else(
-      S == 0,
-      0,
-      0.5 * qchisq(alpha / 2, df = 2 * S) / n
-    ),
-    lambda_upr = 0.5 * qchisq(1 - alpha / 2, df = 2 * (S + 1)) / n
-  ) %>%
-  dplyr::select(species, lambda_hat, lambda_lwr, lambda_upr)
-
-# Calculate probabilities
-count_grid <- tibble(total_phage_count = 0:max(filtered_prophage_per_sample_df$total_phage_count))
-fitted_df <-
-  pois_params %>% 
-    dplyr::select(species, lambda) %>%
-    tidyr::crossing(count_grid) %>%
-    dplyr::mutate(
-        dist = "Poisson",
-        fitted_prob = dpois(total_phage_count, lambda)
-    ) %>% 
-    dplyr::left_join(
-      enframe(species_name) %>% 
-        tidyr::unnest(value) %>%
-        dplyr::rename(species = value),
-      by = "species"
-    ) %>% 
-    dplyr::left_join(
-      enframe(display_name) %>% 
-        tidyr::unnest(value) %>% 
-        dplyr::rename(display = value),
-      by = "name"
+    plasmid_detected = dplyr::if_else(
+      !is.na(length) & !is.na(Threshold) &
+        n_hallmarks > Threshold,
+      1L, 0L
     )
+  ) %>%
+  dplyr::mutate(Classification = "plasmid") %>% 
+  dplyr::filter(!is.na(no_version_accession)) %>%
+  dplyr::group_by(no_version_accession, Classification) %>%
+  dplyr::summarise(plasmid_count = sum(plasmid_detected), .groups = "drop")
+
+all_plasmid_classifications <- "plasmid"
+
+genomad_plasmid_by_species_df <-
+  complete_accessions_df %>%
+  dplyr::filter(selected_biosample == "Selected") %>%
+  dplyr::filter(!grepl("000000", no_version_accession)) %>%
+  dplyr::distinct(no_version_accession, biosample, species, display, Total_length) %>%
+  tidyr::crossing(Classification = all_plasmid_classifications) %>%   # ensures every accession has every Classification
+  dplyr::left_join(
+    genomad_plasmid_counts_by_accession_class_df,
+    by = c("no_version_accession", "Classification")
+  ) %>%
+  dplyr::mutate(plasmid_count = tidyr::replace_na(plasmid_count, 0L)) %>%
+  dplyr::group_by(biosample, species, display, Classification) %>%
+  dplyr::summarise(total_plasmid_count = sum(plasmid_count), .groups = "drop") %>%
+  dplyr::mutate(species = gsub("_", " ", species))
 
 # Plot fitted distributions against observed prophage counts
 ggplot() +
   # Observed probabilities as bars
-  geom_col(
-    data = genomad_phage_by_species_df %>% 
-            # Calculate observed frequencies
-            dplyr::group_by(species) %>% 
-            dplyr::mutate(Total = n()) %>% 
-            dplyr::ungroup() %>% 
-            dplyr::group_by(species,total_phage_count) %>% 
-            dplyr::mutate(Obs_total = n()) %>%
-            dplyr::ungroup() %>% 
-            dplyr::mutate(obs_prob = Obs_total/Total) %>% 
-            dplyr::select(species,total_phage_count,obs_prob,display,total_phage_count) %>% 
-            dplyr::distinct(),
-    aes(x = total_phage_count, y = obs_prob),
+  geom_bar(
+    data = genomad_plasmid_by_species_df,
+    aes(x = total_plasmid_count),
     fill = "blue",
     color = "blue",
-    width = 0.8
-  ) +
-  # Fitted distributions as lines
-  geom_line(
-    data = fitted_df,
-    aes(x = total_phage_count,
-        y = fitted_prob),
-    size = 0.5,
-    linetype = 2,
-    colour = "red"
+    width = 0.8,
+    position = position_dodge(preserve = "single")
   ) +
   facet_wrap(~display,
              scales = "free_y",
              labeller = label_parsed) +
   labs(
     x = "Total phage count per sample",
-    y = "Proportion",
-    color = "Distribution"
+    y = "Proportion"
   ) +
   theme_bw() +
   theme(strip.background = element_blank(),
         legend.position = "bottom")
-        
+
+```
+
+## Analyse distributions across elements
+
+First, combine all the mobile element dataframes:
+
+``` {r Combine mobile elements and fit Poisson model}
+
+# PHASTER phage
+phaster_phage_counts_long <-
+  filtered_prophage_per_sample_df %>% 
+    dplyr::transmute(
+    biosample = BioSampleAccession,
+    species,
+    display,
+    element_type = "prophage",
+    count = as.integer(total_phage_count),
+    detector = "PHASTER"
+  )
+
+# geNomad phage
+genomad_phage_counts_long <-
+  genomad_phage_by_species_df %>%
+  dplyr::transmute(
+    biosample,
+    species,
+    display,
+    element_type = Classification,
+    count = as.integer(total_phage_count),
+    detector = "geNomad"
+  )
+
+# geNomad plasmid
+genomad_plasmid_counts_long <-
+  genomad_plasmid_by_species_df %>%
+  dplyr::transmute(
+    biosample,
+    species,
+    display,
+    element_type = Classification,
+    count = as.integer(total_plasmid_count),
+    detector = "geNomad"
+  )
+
+# Combine
+mobile_counts_long <-
+  dplyr::bind_rows(
+    genomad_phage_counts_long,
+    phaster_phage_counts_long,
+    genomad_plasmid_counts_long
+  )
+
+poisson_summary_df <-
+  fit_poisson_by_species(mobile_counts_long)
+
+```
+
+Poisson fit to prophage from PHASTER:
+
+``` {r Poisson fits to PHASTER data}
+
+plot_observed_vs_poisson(
+  observed_data = mobile_counts_long,
+  poisson_summary_data = poisson_summary_df,
+  detector_value = "PHASTER",
+  element_type_value = "prophage",
+  x_label = "PHASTER prophage count per sample"
+)$plot
+
+```
+
+Poisson fit to plasmid from geNomad:
+
+``` {r Poisson fits to geNomad plasmid data}
+
+plot_observed_vs_poisson(
+  observed_data = mobile_counts_long,
+  poisson_summary_data = poisson_summary_df,
+  detector_value = "geNomad",
+  element_type_value = "plasmid",
+  x_label = "geNomad plasmid count per sample"
+)$plot
+
+```
+
+Poisson fit to Caudoviricetes from geNomad:
+
+``` {r Poisson fits to geNomad Caudoviricetes data}
+
+plot_observed_vs_poisson(
+  observed_data = mobile_counts_long,
+  poisson_summary_data = poisson_summary_df,
+  detector_value = "geNomad",
+  element_type_value = "Caudoviricetes",
+  x_label = "geNomad Caudoviricetes count per sample"
+)$plot
+
+```
+
+Poisson fit to Inoviridae from geNomad:
+
+``` {r Poisson fits to geNomad Inoviridae data}
+
+plot_observed_vs_poisson(
+  observed_data = mobile_counts_long,
+  poisson_summary_data = poisson_summary_df,
+  detector_value = "geNomad",
+  element_type_value = "Inoviridae",
+  x_label = "geNomad Inoviridae count per sample"
+)$plot
+
 ```
 
 # Compare prophage density and recombination rate
@@ -1958,167 +2674,161 @@ Model the relationship between the density of prophage in genomes and rates of c
 
 # Excluded species
 excluded_species <- c("Esp","Psp")
-excluded_species <- NULL
 
 # Combine prophage density with homologous recombination
 prophage_rec_df <-
-  rec_prob_df %>% 
-    dplyr::rename(`Recombination probability` = prob) %>% 
-    dplyr::left_join(tibble::enframe(species_name) %>%
-                       tidyr::unnest(value) %>% 
-                       dplyr::rename(
-                         Species = name,
-                         species_name = value
-                       ),
-                     by = "Species") %>% 
-    dplyr::left_join(tibble::enframe(display_name) %>%
-                       tidyr::unnest(value) %>% 
-                       dplyr::rename(
-                         Species = name,
-                         display_name = value
-                       ),
-                     by = "Species") %>% 
-    dplyr::ungroup() %>% 
-    # dplyr::left_join(fitted_df,
-    #                  by = c("species_name" = "species")) %>% 
-    dplyr::left_join(pois_ci,
-                     by = c("species_name" = "species")) %>% 
-    # Add transformable status
-    dplyr::left_join(enframe(transformable) %>%
-                      tidyr::unnest(value) %>% 
-                      dplyr::rename(Transformability = value),
-                     by = c("Species" = "name")) %>% 
-    # Add ecological status
-    dplyr::left_join(enframe(primary_niche) %>%
-                      tidyr::unnest(value) %>% 
-                      dplyr::rename(Niche = value),
-                     by = c("Species" = "name")) %>% 
-    dplyr::filter(!(Species %in% excluded_species) & !is.na(species_name))
+  poisson_summary_df %>% 
+  dplyr::left_join(
+    rec_prob_df %>% 
+      dplyr::rename(`Recombination probability` = prob) %>% 
+      dplyr::left_join(tibble::enframe(species_name) %>%
+                         tidyr::unnest(value) %>% 
+                         dplyr::rename(
+                           Species = name,
+                           species_name = value
+                         ),
+                       by = "Species") %>% 
+      dplyr::left_join(tibble::enframe(display_name) %>%
+                         tidyr::unnest(value) %>% 
+                         dplyr::rename(
+                           Species = name,
+                           display_name = value
+                         ),
+                       by = "Species") %>% 
+      # Add transformable status
+      dplyr::left_join(enframe(transformable) %>%
+                        tidyr::unnest(value) %>% 
+                        dplyr::rename(Transformability = value),
+                       by = c("Species" = "name")) %>% 
+      # Add ecological status
+      dplyr::left_join(enframe(primary_niche) %>%
+                        tidyr::unnest(value) %>% 
+                        dplyr::rename(Niche = value),
+                       by = c("Species" = "name")),
+    by = c("species"="species_name")
+  ) %>% 
+  # Remove poor Poisson fits
+  dplyr::filter(!(Species %in% excluded_species & detector == "PHASTER"))
 
-# Fit model of recombination rate and prophage density
-rec_prophage_model <-
-  glmmTMB::glmmTMB(
-    `Recombination probability` ~ lambda_hat,
-    data = prophage_rec_df,
-    ziformula = ~0,
-    dispformula = ~1,
-    family = beta_family(link="logit")
-  )
+```
 
-performance::check_model(rec_prophage_model)
+## Fit model to PHASTER outputs
+
+``` {r Fit joint model to PHASTER data}
+
+# Fit model to PHASTER output
+phaster_model <-
+  fit_beta_model(prophage_rec_df,
+                 element = "prophage",
+                 detector_method = "PHASTER"
+                 )
+
+performance::check_model(phaster_model)
 
 ```
 
 Plot the data and model output together with bacterial species information:
 
-``` {r Plot rec phage model output, fig.width = 8, fig.height = 6}
+``` {r Plot rec phage model output PHASTER, fig.width = 8, fig.height = 6}
 
-# Create a grid of mean_prophage values over the observed range
-newdata_rec <- prophage_rec_df %>%
-  summarise(
-    min_mean = min(lambda_hat, na.rm = TRUE),
-    max_mean = max(lambda_hat, na.rm = TRUE)
-  ) %>%
-  { tibble(lambda_hat = seq(.$min_mean,.$max_mean, length.out = 200)) }
-
-emm_rec <- emmeans(
-  rec_prophage_model,
-  specs = ~ lambda_hat,
-  at    = list(lambda_hat = newdata_rec$lambda_hat),
-  type  = "response"   # back-transform from logit to probability
-)
-
-rec_prophage_model_predictions <- as_tibble(emm_rec) %>%
-  # emmeans returns columns: mean_prophage, response, SE, lower.CL, upper.CL
-  dplyr::rename(
-    prob_fit = response,
-    prob_se  = SE,
-    prob_lwr = asymp.LCL,
-    prob_upr = asymp.UCL
-  )
-
-###
-
-# Extract p value
-mod_sum <- summary(rec_prophage_model)
-p_val <- mod_sum$coefficients$cond["lambda_hat", "Pr(>|z|)"]
-p_label <- paste0("italic(p) == ", signif(p_val, 3))
-
-# Define palettes
-niche_palette <- c(
-  "Environmental" = 8,
-  "Gastrointestinal tract" = 16,
-  "Respiratory tract" = 1,
-  "Multiple" = 5
-)
-
-transformability_palette <- c(
-  "Transformable" = "cornflowerblue",
-  "Non-transformable" = "purple"
-)
-
-# Generate plot combining prophage and recombination data
-(comparison_plot <-
-  ggplot(prophage_rec_df,
-         aes(y = `Recombination probability`,
-             x = lambda_hat,
-             colour = Transformability,
-             shape = Niche,
-             label = display_name)) +
-    geom_point() +
-    geom_errorbar(aes(ymin = asymp.LCL,
-                      ymax = asymp.UCL),
-                  alpha = 0.5) +
-    geom_errorbarh(aes(xmin = lambda_lwr,
-                       xmax = lambda_upr),
-                  alpha = 0.5) +
-    # fitted model line
-    geom_line(
-      data = rec_prophage_model_predictions,
-      aes(x = lambda_hat, y = prob_fit),
-      inherit.aes = FALSE,
-      color = "black",
-      linewidth = 1,
-      alpha = 0.75
-    ) +
-    # confidence band for the fit
-    geom_ribbon(
-      data = rec_prophage_model_predictions,
-      aes(x = lambda_hat, ymin = prob_lwr, ymax = prob_upr),
-      inherit.aes = FALSE,
-      alpha = 0.2,
-      fill = "black"
-    ) +
-    ylab("Probability of diversification through homologous recombination") +
-    xlab("Expected number of prophage in an isolate genome") +
-    scale_shape_manual(values = niche_palette) +
-    scale_colour_manual(values = transformability_palette,
-                        aesthetics = c("colour","fill")) +
-    ggrepel::geom_label_repel(size = 3,
-                             force_pull = 0.5,
-                             parse = TRUE) +
-    guides(
-      colour = guide_legend(title = "Transformability",
-                            nrow = 1),
-      shape  = guide_legend(title = "Niche",
-                            nrow = 1)
-    ) +
-    theme_bw() +
-    theme(legend.position = "bottom",
-          legend.box = "vertical",
-          legend.spacing.y = unit(0.1,"cm"),
-          axis.title.y = element_text(hjust = 2.5)) +
-    annotate(
-      "text",
-      x = 4,
-      y = 0.7,
-      label = p_label,
-      hjust = 1.1, vjust = 1.5,
-      parse = TRUE
-    )
-)
+plot_rec_vs_element_model(
+  model_fit = phaster_model,
+  plot_df = prophage_rec_df,
+  detector_value = "PHASTER",
+  element_type_value = "prophage",
+  x_lab = "Expected number of PHASTER prophage per isolate"
+)$plot
 
 ```
+
+## Fit model to geNomad Caudoviricetes outputs
+
+``` {r Fit joint model to caudoviricetes geNomad data}
+
+# Fit model to PHASTER output
+genomad_caudoviricetes_model <-
+  fit_beta_model(prophage_rec_df,
+                 element = "Caudoviricetes",
+                 detector_method = "geNomad"
+                 )
+
+performance::check_model(genomad_caudoviricetes_model)
+
+```
+
+Plot the data and model output together with bacterial species information:
+
+``` {r Plot rec phage model output Caudoviricetes, fig.width = 8, fig.height = 6}
+
+plot_rec_vs_element_model(
+  model_fit = genomad_caudoviricetes_model,
+  plot_df = prophage_rec_df,
+  detector_value = "geNomad",
+  element_type_value = "Caudoviricetes",
+  x_lab = "Expected number of Caudoviricetes prophage per isolate"
+)$plot
+
+```
+
+## Fit model to geNomad Inoviridae outputs
+
+``` {r Fit joint model to inoviridae data}
+
+# Fit model to inoviridae output
+genomad_inoviridae_model <-
+  fit_beta_model(prophage_rec_df,
+                 element = "Inoviridae",
+                 detector_method = "geNomad"
+                 )
+
+performance::check_model(genomad_inoviridae_model)
+
+```
+
+Plot the data and model output together with bacterial species information:
+
+``` {r Plot rec phage model output Inoviridae, fig.width = 8, fig.height = 6}
+
+plot_rec_vs_element_model(
+  model_fit = genomad_inoviridae_model,
+  plot_df = prophage_rec_df,
+  detector_value = "geNomad",
+  element_type_value = "Inoviridae",
+  x_lab = "Expected number of Inoviridae prophage per isolate"
+)$plot
+
+```
+
+## Fit model to geNomad plasmid outputs
+
+``` {r Fit joint model to plasmid data}
+
+# Fit model to plasmid output
+genomad_plasmid_model <-
+  fit_beta_model(prophage_rec_df,
+                 element = "plasmid",
+                 detector_method = "geNomad"
+                 )
+
+performance::check_model(genomad_plasmid_model)
+
+```
+
+Plot the data and model output together with bacterial species information:
+
+``` {r Plot rec phage model output plasmids, fig.width = 8, fig.height = 6}
+
+plot_rec_vs_element_model(
+  model_fit = genomad_plasmid_model,
+  plot_df = prophage_rec_df,
+  detector_value = "geNomad",
+  element_type_value = "plasmid",
+  x_lab = "Expected number of plasmids per isolate"
+)$plot
+
+```
+
+## Make combined Figure 2
 
 ``` {r Combine with the summary figure, fig.width = 8, fig.height = 11}
 
@@ -2146,128 +2856,58 @@ cowplot::plot_grid(
 
 Here we formally test the associations between transformability, ecology, recombination and prophage counts:
 
-``` {r Plot by ecology, fig.height = 8, fig.width = 8}
+## Ecological comparison with PHASTER
 
-rec_by_gram_plot <-
-  plot_violin_kw(
-    data       = prophage_rec_df %>% 
-                  dplyr::left_join(
-                    enframe(gram) %>% 
-                      dplyr::mutate(Gram = unlist(value)),
-                    by = c("Species"="name")
-                  ),
-    x_var      = Gram,
-    y_var      = `Recombination probability`,
-    x_lab      = "Gram stain phenotype",
-    y_lab      = "Recombination probability",
-    hjust_amt = 1.5
-  )
+Plot ecological comparisons with PHASTER results:
 
-phage_by_gram_plot <-
-  plot_violin_kw(
-    data       = prophage_rec_df %>% 
-                  dplyr::left_join(
-                    enframe(gram) %>% 
-                      dplyr::mutate(Gram = unlist(value)),
-                    by = c("Species"="name")
-                  ),
-    x_var      = Gram,
-    y_var      = lambda_hat,
-    x_lab      = "Gram stain phenotype",
-    y_lab      = "Prophage per isolate",
-    hjust_amt = 3.5
-  )
+``` {r Ecological models - PHASTER, fig.height = 11, fig.width = 8}
 
-rec_by_transformability_plot <-
-  plot_violin_kw(
-    data       = prophage_rec_df,
-    x_var      = Transformability,
-    y_var      = `Recombination probability`,
-    x_lab      = "Transformability",
-    y_lab      = "Recombination probability",
-    hjust_amt = 1.25
-  )
+plot_ecology_panel(
+  in_df = prophage_rec_df,
+  detector_choice = "PHASTER",
+  element_choice = "prophage"
+)$plot
 
-prophage_by_transformability_plot <-
-  plot_violin_kw(
-    data       = prophage_rec_df,
-    x_var      = Transformability,
-    y_var      = lambda_hat,
-    x_lab      = "Transformability",
-    y_lab      = "Prophage per isolate",
-    hjust_amt = 1.5
-  )
+```
+## Ecological comparison of Caudoviricetes with geNomad
 
-rec_by_ecology_plot <-
-  plot_violin_kw(
-    data       = prophage_rec_df %>% 
-                  dplyr::left_join(
-                    enframe(intestinal) %>% 
-                      dplyr::mutate(Intestinal = unlist(value)),
-                    by = c("Species"="name")
-                  ),
-    x_var      = Intestinal,
-    y_var      = `Recombination probability`,
-    x_lab      = "Association with intestinal tract",
-    y_lab      = "Recombination probability",
-    hjust_amt = 1.5
-  )
+Plot ecological comparisons with geNomad results:
 
-phage_by_ecology_plot <-
-  plot_violin_kw(
-    data       = prophage_rec_df %>% 
-                  dplyr::left_join(
-                    enframe(intestinal) %>% 
-                      dplyr::mutate(Intestinal = unlist(value)),
-                    by = c("Species"="name")
-                  ),
-    x_var      = Intestinal,
-    y_var      = lambda_hat,
-    x_lab      = "Association with intestinal tract",
-    y_lab      = "Prophage per isolate",
-    hjust_amt = 3.5
-  )
+``` {r Ecological models - Caudoviricetes, fig.height = 11, fig.width = 8}
 
-composite_plots <-
-  cowplot::plot_grid(
-    plotlist = list(
-      rec_by_transformability_plot + theme(legend.position = "none"),
-      prophage_by_transformability_plot + theme(legend.position = "none"),
-      rec_by_ecology_plot + theme(legend.position = "none"),
-      phage_by_ecology_plot + theme(legend.position = "none"),
-      rec_by_gram_plot + theme(legend.position = "none"),
-      phage_by_gram_plot + theme(legend.position = "none")
-    ),
-    nrow = 3,
-    ncol = 2,
-    labels = "AUTO"
-  )
+plot_ecology_panel(
+  in_df = prophage_rec_df,
+  detector_choice = "geNomad",
+  element_choice = "Caudoviricetes"
+)$plot
 
-comparison_legend <-
-  get_plot_component(
-    phage_by_ecology_plot +
-      theme(
-        legend.position = "bottom",
-        legend.box      = "vertical"  # stack colour and shape legends
-      ) +
-      guides(
-        colour = guide_legend(title = "Transformability"),
-        shape  = guide_legend(title = "Niche")
-      ),
-    'guide-box-bottom',
-    return_all = TRUE
-  )
+```
 
-(comparison_plot <-
-  cowplot::plot_grid(
-    plotlist = list(
-      composite_plots,
-      comparison_legend
-    ),
-    nrow = 2,
-    rel_heights = c(0.90,0.1)
-  )
-)
+## Ecological comparison of Inoviridae with geNomad
+
+Plot ecological comparisons with geNomad results:
+
+``` {r Ecological models - Inoviridae, fig.height = 11, fig.width = 8}
+
+plot_ecology_panel(
+  in_df = prophage_rec_df,
+  detector_choice = "geNomad",
+  element_choice = "Inoviridae"
+)$plot
+
+```
+
+## Ecological comparison of plasmids with geNomad
+
+Plot ecological comparisons with geNomad results:
+
+``` {r Ecological models - plasmids, fig.height = 11, fig.width = 8}
+
+plot_ecology_panel(
+  in_df = prophage_rec_df,
+  detector_choice = "geNomad",
+  element_choice = "plasmid"
+)$plot
 
 ```
 
@@ -2275,7 +2915,7 @@ comparison_legend <-
 
 ## Plot qPCR data
 
-``` {r Plot qPCR data, fig.width = 8, fig.height = 6}
+``` {r Process qPCR data}
 
 competence_palette <- c(
   "Spontaneous competence" = "darkolivegreen3",
@@ -2329,12 +2969,108 @@ qpcr_df <-
   dplyr::filter(!is.na(qPCR)) %>% 
   dplyr::mutate(`Biological replicate` = as.character(Replicate)) %>% 
   # Adjust for 1.25 ul sampled volume
-  dplyr::mutate(qPCR = qPCR/1.25)
+  dplyr::mutate(qPCR = qPCR/1.25) %>% 
+  dplyr::mutate(DNA = factor(DNA,
+                             levels = c("1% pneumococcal", "10% pneumococcal", "50% pneumococcal", "90% pneumococcal", "99% pneumococcal",
+                                        "No CSP or DNA control", "CSP and DNase", "No DNA control")
+                             )
+                )
+
+```
+
+``` {r Test for significance for qPCR data}
+
+# Keep only DNA percentage conditions of interest
+dna_levels <- c("1% pneumococcal", "10% pneumococcal", "50% pneumococcal",
+                "90% pneumococcal", "99% pneumococcal")
+
+model_df <- qpcr_df %>%
+  dplyr::filter(
+    Replicate != "3rd" &  # your existing exclusion
+    DNA %in% dna_levels
+  ) %>%
+  dplyr::mutate(
+    DNA = factor(DNA, levels = dna_levels),   # 1% is reference
+    `Biological replicate` = factor(`Biological replicate`),
+    RMV8_MGE = factor(RMV8_MGE),
+    Timepoint = factor(Timepoint),
+    `Experimental conditions` = factor(`Experimental conditions`),
+    log_qPCR = log10(qPCR)
+  )
+
+# Nest by strata
+nested <- model_df %>%
+  group_by(RMV8_MGE, Timepoint, `Experimental conditions`) %>%
+  tidyr::nest()
+
+# Fit lmer per stratum
+fit_one <- function(dat) {
+  # random intercept for biological replicate
+  lmerTest::lmer(log_qPCR ~ DNA + (1 | `Biological replicate`), data = dat)
+}
+
+nested <- nested %>%
+  dplyr::mutate(
+    fit = purrr::map(data, fit_one),
+    emm = purrr::map(fit, ~ emmeans::emmeans(.x, ~ DNA)),
+    # compare each level vs ref (1%)
+    ctr = purrr::map(emm, ~ emmeans::contrast(.x, method = "trt.vs.ctrl", ref = 1)),
+    ctr_tbl = purrr::map(ctr, ~ as_tibble(summary(.x, infer = TRUE)))
+  )
+
+contrast_df <- nested %>%
+  dplyr::select(RMV8_MGE, Timepoint, `Experimental conditions`, ctr_tbl) %>%
+  unnest(ctr_tbl) %>%
+  # contrast labels like "10% ... - 1% ..."
+  dplyr::mutate(p.value = p.value) %>% 
+  mutate(
+    DNA_comp = stringr::str_extract(contrast, "^[^-]+") %>% stringr::str_trim(),
+    p.adj = p.adjust(p.value),  # replace with p.adjust if you want extra correction
+    sig = case_when(
+      p.adj <= 0.0001 ~ "****",
+      p.adj <= 0.001  ~ "***",
+      p.adj <= 0.01   ~ "**",
+      p.adj <= 0.05   ~ "*",
+      TRUE            ~ "ns"
+    )
+  )
+
+# Calculate annotation
+annot_df <- model_df %>%
+  group_by(RMV8_MGE, Timepoint, `Experimental conditions`, DNA) %>%
+  summarise(ymax = max(qPCR, na.rm = TRUE), .groups = "drop") %>%
+  left_join(
+    contrast_df %>%
+      dplyr::rename(DNA = DNA_comp) %>% 
+      dplyr::select(RMV8_MGE, Timepoint, `Experimental conditions`, DNA, sig),
+    by = c("RMV8_MGE", "Timepoint", "Experimental conditions","DNA")
+  ) %>%
+  mutate(
+    DNA = factor(DNA, levels = dna_levels),
+    y = ymax * 1.25
+  ) %>%
+  filter(!is.na(DNA), sig != "ns") %>% 
+  # y position - put everything at the top
+  dplyr::mutate(y = dplyr::if_else(`Experimental conditions`=="Induced competence",
+                                   max(qpcr_df$qPCR)*1.2,
+                                   max(qpcr_df$qPCR))*1.075) %>% 
+  dplyr::mutate(DNA = factor(DNA, levels = levels(qpcr_df$DNA)))
+
+
+```
+
+
+``` {r Plot qPCR data, fig.width = 8, fig.height = 6}
 
 (qpcr_plot <-
   ggplot(qpcr_df %>% 
            # Remove replicate with mislabelled CSP
-           dplyr::filter(Replicate != "3rd"),
+           dplyr::filter(Replicate != "3rd") %>%
+           dplyr::mutate(`Biological replicate` = dplyr::if_else(
+             `Biological replicate` == "4th",
+             "3rd",
+             `Biological replicate`)
+            ),
          aes(x = DNA,
              y = qPCR,
              colour = `Experimental conditions`,
@@ -2353,6 +3089,14 @@ qpcr_df <-
     facet_grid(RMV8_MGE~Timepoint,
                labeller = label_parsed) +
     xlab("Experimental conditions") +
+    geom_text(
+      data = annot_df %>% dplyr::mutate(qPCR = y, `Biological replicate` = "1st"),
+      #aes(x = DNA, y = y, label = sig, colour = `Experimental conditions`),
+      aes(label = sig),
+      inherit.aes = TRUE,
+      size = 5,
+      show.legend = FALSE
+    ) +
     theme_bw() +
     theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
           strip.background = element_blank())
@@ -2452,7 +3196,7 @@ names(replicate_palette) = as.character(1:7)
 
 Plot transformation data:
 
-``` {r Plot transformation data}
+``` {r Parse transformation data}
 
 transformation_df <-
   dplyr::bind_rows(
@@ -2488,30 +3232,95 @@ transformation_df <-
     dplyr::mutate(`Biological replicate` = as.character(row_number())) %>% 
     dplyr::ungroup()
 
-# Plot transformation data
-(transformation_plot <-
-  ggplot(transformation_df,
-         aes(x = DNA,
-             y = deletion_rates + 1e-8,
-             colour = `Experimental conditions`,
-             fill = `Experimental conditions`,
-             shape = `Biological replicate`,
-             group = interaction(mutants,`Experimental conditions`))) +
-    geom_violin(draw_quantiles = c(0.5),
-                position = position_dodge(preserve = "single"),
-                scale = "width",
-                alpha = 0.25) +
-    geom_point(position = position_jitterdodge()) +
-    ylab(expression(atop("Transformation efficiency","(transformants per cfu)")))+
-    scale_colour_manual(values = competence_palette,
-                        aesthetics = c("fill","colour")) +
-    scale_shape_manual(values = replicate_palette) +
-    scale_y_continuous(trans = "log10") +
-    xlab("Experimental conditions") +
-    geom_hline(yintercept = 1e-8, linetype = 3) +
-    theme_bw() +
-    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
-          strip.background = element_rect(fill = NA))
+```
+
+``` {r Test for significance differences with transformation data}
+
+analysis_df <- transformation_df %>%
+  dplyr::filter(`Experimental conditions` != "Control") %>%
+  dplyr::filter(DNA %in% dna_levels) %>%
+  dplyr::mutate(
+    DNA = factor(DNA, levels = dna_levels),
+    # optional log transform for plotting/interpretability
+    log_rate = log10(deletion_rates + 1e-8)
+  )
+
+# Wilcoxon tests vs reference (1%) within each condition
+wilcox_results <- analysis_df %>%
+  dplyr::group_by(`Experimental conditions`) %>%
+  rstatix::wilcox_test(
+    log_rate ~ DNA,
+    ref.group = "1% pneumococcal"
+  ) %>%
+  rstatix::adjust_pvalue(method = "holm") %>%
+  rstatix::add_significance("p.adj") %>%
+  dplyr::ungroup()
+
+print(wilcox_results)
+
+# y positions by condition x DNA for clean label placement
+y_pos_df <- analysis_df %>%
+  dplyr::mutate(y = max(deletion_rates + 1e-8, na.rm = TRUE) * 1.35)
+
+# Calculate annotation positions
+annot_df <- wilcox_results %>%
+  dplyr::mutate(
+    DNA = group2,              
+    ref = group1
+  ) %>%
+  dplyr::left_join(
+    y_pos_df,
+    by = c("Experimental conditions", "DNA")
+  ) %>%
+  dplyr::filter(!is.na(p.adj.signif), p.adj.signif != "ns") %>%
+  dplyr::mutate(label = p.adj.signif)
+
+```
+
+``` {r Plot transformation data}
+
+(transformation_plot <- ggplot(
+  transformation_df,
+  aes(
+    x = DNA,
+    y = deletion_rates + 1e-8,
+    colour = `Experimental conditions`,
+    fill = `Experimental conditions`,
+    shape = `Biological replicate`,
+    group = interaction(mutants, `Experimental conditions`)
+  )
+) +
+  geom_violin(
+    draw_quantiles = c(0.5),
+    position = position_dodge(preserve = "single"),
+    scale = "width",
+    alpha = 0.25
+  ) +
+  geom_point(position = position_jitterdodge()) +
+  ylab(expression(atop("Transformation efficiency", "(transformants per cfu)"))) +
+  scale_colour_manual(values = competence_palette, aesthetics = c("fill", "colour")) +
+  scale_shape_manual(values = replicate_palette) +
+  scale_y_continuous(trans = "log10") +
+  xlab("Experimental conditions") +
+  geom_hline(yintercept = 1e-8, linetype = 3) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+    strip.background = element_rect(fill = NA)
+  ) +
+  # significance labels (non-control only)
+  geom_text(
+    data = annot_df,
+    aes(
+      x = DNA,
+      y = y,
+      label = label,
+      colour = `Experimental conditions`
+    ),
+    inherit.aes = FALSE,
+    size = 5,
+    show.legend = FALSE
+  )
 )
 
 ```
@@ -2650,5 +3459,30 @@ To understand the origins of the exogenous DNA that is not added to the media, w
           strip.background = element_blank(),
           legend.position = "bottom")
 )
+
+```
+
+## Phage packaging analysis
+
+``` {bash, eval = FALSE}
+
+# Get reads mapping to prophage
+bwa index phiRMV8.dna
+bwa aln phiRMV8.dna ERR124314_1.fastq > ERR124314_1.sai
+bwa aln phiRMV8.dna ERR124314_2.fastq > ERR124314_2.sai
+bwa sampe phiRMV8.dna ERR124314_1.sai ERR124314_2.sai  ERR124314_1.fastq ERR124314_2.fastq > phiRMV8.sam
+samtools view -b -F 2308 phiRMV8.sam > phiRMV8.bam
+samtools fastq  phiRMV8.bam > phiRMV8.fastq
+# Install phageterm
+pip install poetry
+wget https://files.pythonhosted.org/packages/ef/89/50321c714580c79d431cd9eb12aa62dc49e6f44afbe4e3efae282c9138ff/phagetermvirome-4.3.tar.gz
+tar xfz phagetermvirome-4.3.tar.gz 
+cd phagetermvirome-4.3 
+poetry install
+export PYTHONPATH=/Users/ncrouche/Documents/Recombination/packaging/phagetermvirome-4.3
+# Run packaging analysis with phagetermvirome
+phageterm -r ../phiRMV8.dna -f ../phiRMV8.fastq
+# Was not able to determine cos/pac from this output
+
 
 ```
