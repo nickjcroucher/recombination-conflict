@@ -152,7 +152,7 @@ transformability_palette <- c(
 
 ## Genetic analysis functions
 
-``` {r Genetic analysis functions}
+``` {r Genetic analysis functions, echo = FALSE}
 
 generate_mst_from_mlst <- function(mlst_df) {
   
@@ -1461,7 +1461,7 @@ ggplot(rho_m_df,
 
 ### Fit generalised linear mixed effects model of homologous recombination
 
-``` {r Model the probability of changes occurring through recombination, fig.width = 8}
+``` {r Model the probability of changes occurring through recombination, fig.width = 8, fig.height = 8}
 
 rec_modelling_df <-
   mismatches_df %>% 
@@ -1956,57 +1956,6 @@ ggplot(all_results %>%
 
 ```
 
-### Tabulate number of processed genomes
-
-``` {r Tabulate number of samples per species}
-
-# Get summaries of MLST data
-st_counts_df <-
-  read_csv(file = "./MLST_data/st_counts.csv")
-
-# Combine summaries
-sample_summary_df <-
-  tibble::enframe(table(complete_sequences_df$species)) %>% 
-    dplyr::rename(`Complete replicons` = value) %>% 
-    dplyr::left_join(
-      tibble::enframe(table(phaster_complete_sequences_df$species)) %>% 
-        dplyr::rename(`PHASTER entries` = value),
-      by = "name"
-    ) %>% 
-    dplyr::left_join(
-      st_counts_df,
-      by = "name"
-    ) %>% 
-    dplyr::left_join(
-      as.data.frame(table(mismatches_df$Species)) %>% 
-        dplyr::rename(
-          name = Var1,
-          `Divergent genotypes` = Freq
-        ) %>% 
-        dplyr::left_join(enframe(species_name) %>% 
-                           tidyr::unnest(value),
-                         by = "name") %>% 
-        dplyr::mutate(name = value) %>% 
-        dplyr::select(-value),
-      by = "name"
-    ) %>% 
-    dplyr::left_join(
-      filtered_genome_df %>% 
-        dplyr::group_by(species) %>% 
-        dplyr::summarise(`Full-length genomes` = n_distinct(BioSampleAccession)) %>% 
-        dplyr::ungroup(),
-      by = c("name"="species")
-    ) %>% 
-    dplyr::rename(Species = name) %>% 
-    dplyr::select(Species,`Sequence types`,`Divergent genotypes`,`Complete replicons`,`PHASTER entries`,`Full-length genomes`)
-
-# Generate summary table
-sample_summary_df %>%
-  kable() %>%
-  kable_styling(bootstrap_options = "striped", full_width = FALSE)
-
-```
-
 ### Distribution of prophage identified from PHASTER
 
 ``` {r Count prophage per genome, fig.height = 8, fig.width = 8}
@@ -2407,7 +2356,7 @@ ggplot(genomad_phage_df %>%
 
 ### Distribution of prophage per species
 
-``` {r Plot distribution by species}
+``` {r Plot distribution by species, fig.width = 8, fig.height = 8}
 
 # Define the classification universe once
 all_classifications <- genomad_phage_df %>%
@@ -2497,7 +2446,7 @@ ggplot(genomad_plasmid_df %>%
 
 ```
 
-``` {r Plot distribution of plasmids by species}
+``` {r Plot distribution of plasmids by species, fig.width = 8, fig.height = 8}
 
 # Per-accession counts from geNomad
 genomad_plasmid_counts_by_accession_class_df <-
@@ -2612,7 +2561,7 @@ poisson_summary_df <-
 
 Poisson fit to prophage from PHASTER:
 
-``` {r Poisson fits to PHASTER data}
+``` {r Poisson fits to PHASTER data, fig.width = 8, fig.height = 8}
 
 plot_observed_vs_poisson(
   observed_data = mobile_counts_long,
@@ -2626,7 +2575,7 @@ plot_observed_vs_poisson(
 
 Poisson fit to plasmid from geNomad:
 
-``` {r Poisson fits to geNomad plasmid data}
+``` {r Poisson fits to geNomad plasmid data, fig.width = 8, fig.height = 8}
 
 plot_observed_vs_poisson(
   observed_data = mobile_counts_long,
@@ -2640,7 +2589,7 @@ plot_observed_vs_poisson(
 
 Poisson fit to Caudoviricetes from geNomad:
 
-``` {r Poisson fits to geNomad Caudoviricetes data}
+``` {r Poisson fits to geNomad Caudoviricetes data, fig.width = 8, fig.height = 8}
 
 plot_observed_vs_poisson(
   observed_data = mobile_counts_long,
@@ -2654,7 +2603,7 @@ plot_observed_vs_poisson(
 
 Poisson fit to Inoviridae from geNomad:
 
-``` {r Poisson fits to geNomad Inoviridae data}
+``` {r Poisson fits to geNomad Inoviridae data, fig.width = 8, fig.height = 8}
 
 plot_observed_vs_poisson(
   observed_data = mobile_counts_long,
@@ -2714,7 +2663,7 @@ prophage_rec_df <-
 
 ## Fit model to PHASTER outputs
 
-``` {r Fit joint model to PHASTER data}
+``` {r Fit joint model to PHASTER data, fig.width = 8, fig.height = 10}
 
 # Fit model to PHASTER output
 phaster_model <-
@@ -2729,21 +2678,23 @@ performance::check_model(phaster_model)
 
 Plot the data and model output together with bacterial species information:
 
-``` {r Plot rec phage model output PHASTER, fig.width = 8, fig.height = 6}
+``` {r Plot rec phage model output PHASTER, fig.width = 10, fig.height = 8}
 
-plot_rec_vs_element_model(
-  model_fit = phaster_model,
-  plot_df = prophage_rec_df,
-  detector_value = "PHASTER",
-  element_type_value = "prophage",
-  x_lab = "Expected number of PHASTER prophage per isolate"
-)$plot
+(phaster_comparison_plot <-
+  plot_rec_vs_element_model(
+    model_fit = phaster_model,
+    plot_df = prophage_rec_df,
+    detector_value = "PHASTER",
+    element_type_value = "prophage",
+    x_lab = "Expected number of PHASTER prophage per isolate"
+  )$plot
+)
 
 ```
 
 ## Fit model to geNomad Caudoviricetes outputs
 
-``` {r Fit joint model to caudoviricetes geNomad data}
+``` {r Fit joint model to caudoviricetes geNomad data, fig.width = 8, fig.height = 10}
 
 # Fit model to PHASTER output
 genomad_caudoviricetes_model <-
@@ -2758,21 +2709,25 @@ performance::check_model(genomad_caudoviricetes_model)
 
 Plot the data and model output together with bacterial species information:
 
-``` {r Plot rec phage model output Caudoviricetes, fig.width = 8, fig.height = 6}
+``` {r Plot rec phage model output Caudoviricetes, fig.width = 10, fig.height = 8}
 
-plot_rec_vs_element_model(
-  model_fit = genomad_caudoviricetes_model,
-  plot_df = prophage_rec_df,
-  detector_value = "geNomad",
-  element_type_value = "Caudoviricetes",
-  x_lab = "Expected number of Caudoviricetes prophage per isolate"
-)$plot
+(genomad_comparison_plot <-
+  plot_rec_vs_element_model(
+    model_fit = genomad_caudoviricetes_model,
+    plot_df = prophage_rec_df,
+    detector_value = "geNomad",
+    element_type_value = "Caudoviricetes",
+    x_lab = "Expected number of Caudoviricetes prophage per isolate"
+  )$plot
+)
+
+comparison_plot<-genomad_comparison_plot
 
 ```
 
 ## Fit model to geNomad Inoviridae outputs
 
-``` {r Fit joint model to inoviridae data}
+``` {r Fit joint model to inoviridae data, fig.width = 8, fig.height = 10}
 
 # Fit model to inoviridae output
 genomad_inoviridae_model <-
@@ -2787,21 +2742,23 @@ performance::check_model(genomad_inoviridae_model)
 
 Plot the data and model output together with bacterial species information:
 
-``` {r Plot rec phage model output Inoviridae, fig.width = 8, fig.height = 6}
+``` {r Plot rec phage model output Inoviridae, fig.width = 10, fig.height = 8}
 
-plot_rec_vs_element_model(
-  model_fit = genomad_inoviridae_model,
-  plot_df = prophage_rec_df,
-  detector_value = "geNomad",
-  element_type_value = "Inoviridae",
-  x_lab = "Expected number of Inoviridae prophage per isolate"
-)$plot
+(genomad_inoviridae_comparison_plot <-
+  plot_rec_vs_element_model(
+    model_fit = genomad_inoviridae_model,
+    plot_df = prophage_rec_df,
+    detector_value = "geNomad",
+    element_type_value = "Inoviridae",
+    x_lab = "Expected number of Inoviridae prophage per isolate"
+  )$plot
+)
 
 ```
 
 ## Fit model to geNomad plasmid outputs
 
-``` {r Fit joint model to plasmid data}
+``` {r Fit joint model to plasmid data, fig.width = 8, fig.height = 10}
 
 # Fit model to plasmid output
 genomad_plasmid_model <-
@@ -2816,21 +2773,23 @@ performance::check_model(genomad_plasmid_model)
 
 Plot the data and model output together with bacterial species information:
 
-``` {r Plot rec phage model output plasmids, fig.width = 8, fig.height = 6}
+``` {r Plot rec phage model output plasmids, fig.width = 10, fig.height = 8}
 
-plot_rec_vs_element_model(
-  model_fit = genomad_plasmid_model,
-  plot_df = prophage_rec_df,
-  detector_value = "geNomad",
-  element_type_value = "plasmid",
-  x_lab = "Expected number of plasmids per isolate"
-)$plot
+(genomad_plasmid_comparison_plot <-
+  plot_rec_vs_element_model(
+    model_fit = genomad_plasmid_model,
+    plot_df = prophage_rec_df,
+    detector_value = "geNomad",
+    element_type_value = "plasmid",
+    x_lab = "Expected number of plasmids per isolate"
+  )$plot
+)
 
 ```
 
 ## Make combined Figure 2
 
-``` {r Combine with the summary figure, fig.width = 8, fig.height = 11}
+``` {r Combine with the summary figure, fig.width = 10, fig.height = 14}
 
 summary_figure <-
   magick::image_ggplot(
@@ -2908,6 +2867,101 @@ plot_ecology_panel(
   detector_choice = "geNomad",
   element_choice = "plasmid"
 )$plot
+
+```
+
+## Tabulate number of processed genomes
+
+``` {r Tabulate number of samples per species}
+
+# Get summaries of MLST data
+st_counts_df <-
+  read_csv(file = "./MLST_data/st_counts.csv")
+
+# Combine summaries
+sample_summary_df <-
+  tibble::enframe(table(complete_sequences_df$species)) %>% 
+    dplyr::rename(`Complete replicons` = value) %>% 
+    dplyr::left_join(
+      tibble::enframe(table(phaster_complete_sequences_df$species)) %>% 
+        dplyr::rename(`PHASTER entries` = value),
+      by = "name"
+    ) %>% 
+    dplyr::left_join(
+      st_counts_df,
+      by = "name"
+    ) %>% 
+    dplyr::left_join(
+      as.data.frame(table(mismatches_df$Species)) %>% 
+        dplyr::rename(
+          name = Var1,
+          `Divergent genotypes` = Freq
+        ) %>% 
+        dplyr::left_join(enframe(species_name) %>% 
+                           tidyr::unnest(value),
+                         by = "name") %>% 
+        dplyr::mutate(name = value) %>% 
+        dplyr::select(-value),
+      by = "name"
+    ) %>% 
+    dplyr::left_join(
+      filtered_genome_df %>% 
+        dplyr::group_by(species) %>% 
+        dplyr::summarise(`Full-length genomes` = n_distinct(BioSampleAccession)) %>% 
+        dplyr::ungroup(),
+      by = c("name"="species")
+    ) %>% 
+    dplyr::rename(Species = name) %>% 
+    dplyr::rename(`Full-length genomes analysed with PHASTER` = `Full-length genomes`) %>% 
+    dplyr::select(Species,`Sequence types`,`Divergent genotypes`,`Complete replicons`,`PHASTER entries`,`Full-length genomes analysed with PHASTER`) %>% 
+  dplyr::left_join(
+    genomad_phage_by_species_df %>% 
+      dplyr::group_by(biosample) %>% 
+      dplyr::slice_head(n = 1) %>% 
+      dplyr::ungroup() %>% 
+      dplyr::group_by(species) %>% 
+      dplyr::summarise(`Full-length genomes analysed with geNomad` = n()) %>% 
+      dplyr::ungroup(),
+    by = c("Species"="species")
+  )
+
+# Generate summary table
+sample_summary_df %>%
+  kable() %>%
+  kable_styling(bootstrap_options = "striped", full_width = FALSE)
+
+```
+
+``` {r Write table of accessions}
+
+# PHASTER output
+write.csv(filtered_prophage_per_sample_df %>% 
+            dplyr::mutate(Classification = "Prophage") %>%
+            dplyr::select(BioSampleAccession,species,Classification,total_phage_count) %>% 
+            dplyr::rename(
+              Biosample = BioSampleAccession,
+              Species = species,
+              Prophage = Classification,
+              Count = total_phage_count
+            ),
+          file = "./prophage/PHASTER_summary.csv",
+          row.names = FALSE,
+          quote = FALSE
+)
+
+# geNomad output
+write.csv(genomad_phage_by_species_df %>% 
+            dplyr::select(biosample,species,Classification,total_phage_count) %>% 
+            dplyr::rename(
+              Biosample = biosample,
+              Species = species,
+              Prophage = Classification,
+              Count = total_phage_count
+            ),
+          file = "./prophage/geNomad_summary.csv",
+          row.names = FALSE,
+          quote = FALSE
+)
 
 ```
 
@@ -3036,7 +3090,7 @@ contrast_df <- nested %>%
   )
 
 # Calculate annotation
-annot_df <- model_df %>%
+mge_annot_df <- model_df %>%
   group_by(RMV8_MGE, Timepoint, `Experimental conditions`, DNA) %>%
   summarise(ymax = max(qPCR, na.rm = TRUE), .groups = "drop") %>%
   left_join(
@@ -3045,15 +3099,11 @@ annot_df <- model_df %>%
       dplyr::select(RMV8_MGE, Timepoint, `Experimental conditions`, DNA, sig),
     by = c("RMV8_MGE", "Timepoint", "Experimental conditions","DNA")
   ) %>%
-  mutate(
-    DNA = factor(DNA, levels = dna_levels),
-    y = ymax * 1.25
-  ) %>%
   filter(!is.na(DNA), sig != "ns") %>% 
   # y position - put everything at the top
   dplyr::mutate(y = dplyr::if_else(`Experimental conditions`=="Induced competence",
-                                   max(qpcr_df$qPCR)*1.2,
-                                   max(qpcr_df$qPCR))*1.075) %>% 
+                                   max(qpcr_df$qPCR)*1.4,
+                                   max(qpcr_df$qPCR))*1.2) %>% 
   dplyr::mutate(DNA = factor(DNA, levels = levels(qpcr_df$DNA)))
 
 
@@ -3090,7 +3140,7 @@ annot_df <- model_df %>%
                labeller = label_parsed) +
     xlab("Experimental conditions") +
     geom_text(
-      data = annot_df %>% dplyr::mutate(qPCR = y, `Biological replicate` = "1st"),
+      data = mge_annot_df %>% dplyr::mutate(qPCR = y, `Biological replicate` = "1st"),
       #aes(x = DNA, y = y, label = sig, colour = `Experimental conditions`),
       aes(label = sig),
       inherit.aes = TRUE,
@@ -3260,10 +3310,14 @@ print(wilcox_results)
 
 # y positions by condition x DNA for clean label placement
 y_pos_df <- analysis_df %>%
-  dplyr::mutate(y = max(deletion_rates + 1e-8, na.rm = TRUE) * 1.35)
+  dplyr::mutate(y = dplyr::if_else(`Experimental conditions` == "Induced competence",
+                max(deletion_rates, na.rm = TRUE) * 1.4,
+                max(deletion_rates, na.rm = TRUE) * 1.2
+                )
+)
 
 # Calculate annotation positions
-annot_df <- wilcox_results %>%
+transf_annot_df <- wilcox_results %>%
   dplyr::mutate(
     DNA = group2,              
     ref = group1
@@ -3310,7 +3364,7 @@ annot_df <- wilcox_results %>%
   ) +
   # significance labels (non-control only)
   geom_text(
-    data = annot_df,
+    data = transf_annot_df,
     aes(
       x = DNA,
       y = y,
@@ -3331,6 +3385,23 @@ Combine experimental data into a single figure:
 
 legend_plot <-
   cowplot::get_legend(transformation_plot)
+
+# Fix axes
+qpcr_plot <-
+  qpcr_plot +
+  scale_y_continuous(
+    trans = "log10",
+    expand = expansion(mult = c(0.025, 0.1))
+  )
+
+# Fix axes
+transformation_plot <-
+  transformation_plot +
+  scale_y_continuous(
+    trans = "log10",
+    expand = expansion(mult = c(0.025, 0.1))
+  )
+
 
 bottom_right_plot <-
   cowplot::plot_grid(plotlist = list(fold_change_plot +
