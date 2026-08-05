@@ -888,6 +888,21 @@ plot_ecology_panel <- function(in_df,
   intestinal_df <- enframe(intestinal) %>%
     tidyr::unnest(value) %>%
     dplyr::rename(species = value, Intestinal = name)
+  
+  # Identify nasopharyngeal pathogens
+  np_df <-
+    enframe(primary_niche) %>% 
+      tidyr::unnest(value) %>%
+      dplyr::rename(species = name) %>% 
+      dplyr::mutate(
+        Nasopharynx =
+          dplyr::case_when(
+            species %in% c("Spn","Hflu","Msp") ~ "Nasopharyngeal",
+            species %in% c("Sau","Nsp") ~ "Both",
+            TRUE ~ "Non-nasopharyngeal"
+          )
+      ) %>% 
+      dplyr::select(-value)
 
   # NOTE: your named vectors are key=name (code), value=label.
   # For joins by species binomial, invert appropriately:
@@ -909,10 +924,20 @@ plot_ecology_panel <- function(in_df,
     dplyr::select(species, Intestinal) %>% 
     dplyr::mutate(species = unlist(species))
 
+  nasopharyngeal_df <-
+    np_df %>% 
+      dplyr::rename(code = species) %>%
+      dplyr::left_join(
+        enframe(species_name) %>% dplyr::rename(code = name, species = value),
+        by = "code"
+      ) %>% 
+      dplyr::mutate(species = unlist(species))
+  
   plot_df <- in_df %>%
     dplyr::filter(detector == detector_choice, element_type == element_choice) %>%
     dplyr::left_join(gram_df, by = "species") %>%
-    dplyr::left_join(intestinal_df, by = "species")
+    dplyr::left_join(intestinal_df, by = "species") %>% 
+    dplyr::left_join(nasopharyngeal_df, by = "species") 
 
   element_label <- paste0(stringr::str_to_title(element_choice), " per isolate")
 
@@ -970,16 +995,36 @@ plot_ecology_panel <- function(in_df,
       y_lab = element_label
     )
 
+  rec_by_np_plot <-
+    plot_violin_kw(
+      data = plot_df %>% dplyr::filter(Nasopharynx!="Both"),
+      x_var = Nasopharynx,
+      y_var = .data[[y_rec_col]],
+      x_lab = "Association with nasopharynx",
+      y_lab = "Recombination probability"
+    )
+
+  element_by_np_plot <-
+    plot_violin_kw(
+      data = plot_df %>% dplyr::filter(Nasopharynx!="Both"),
+      x_var = Nasopharynx,
+      y_var = .data[[y_element_col]],
+      x_lab = "Association with nasopharynx",
+      y_lab = element_label
+    )
+  
   composite_plots <- cowplot::plot_grid(
     plotlist = list(
       rec_by_transformability_plot + ggplot2::theme(legend.position = "none"),
       element_by_transformability_plot + ggplot2::theme(legend.position = "none"),
       rec_by_ecology_plot + ggplot2::theme(legend.position = "none"),
       element_by_ecology_plot + ggplot2::theme(legend.position = "none"),
+      rec_by_np_plot + ggplot2::theme(legend.position = "none"),
+      element_by_np_plot + ggplot2::theme(legend.position = "none"),
       rec_by_gram_plot + ggplot2::theme(legend.position = "none"),
       element_by_gram_plot + ggplot2::theme(legend.position = "none")
     ),
-    nrow = 3, ncol = 2, labels = "AUTO"
+    nrow = 4, ncol = 2, labels = "AUTO"
   )
 
   comparison_legend <- cowplot::get_plot_component(
@@ -2289,9 +2334,36 @@ cd genomad_run
 module load PaM/environment
 module load genomad/1.12.0
 
-declare -i N; N=1; for FASTA in *fasta; do echo "module load PaM/environment;module load genomad/1.12.0;genomad end-to-end --threads 4 --conservative ${FASTA} ${FASTA%.fasta} /data/pam/software/genomad/genomad_db/genomad_db/" > genomad_run.$N; chmod +x ./genomad_run.$N; N=($N+1); done
+declare -i N; N=1; for FASTA in *fasta; do echo "module load PaM/environment;module load genomad/1.12.0;genomad end-to-end --threads 4 --conservative ${FASTA} ${FASTA%.fasta} c" > genomad_run.$N; chmod +x ./genomad_run.$N; N=($N+1); done
 MAX_JOB=`echo $N-1 | bc`
 bsub -J geNomad[1-$MAX_JOB] -n 4 -M 24000 -q normal -R 'select[mem>24000] rusage[mem=24000] span[hosts=1]' -o genomad.%I.o -e genome.%I.e ./genomad_run.\${LSB_JOBINDEX}
+
+```
+
+``` {r Check geNomad runs completed}
+
+geNomad_selected_accessions <-
+  complete_accessions_df %>% 
+    dplyr::filter(selected_biosample == "Selected") %>%
+    dplyr::mutate(no_version_accession = gsub('\\.[0-9]+$','',query_accession)) %>% 
+    dplyr::pull(no_version_accession)
+
+genomad_results_df <-
+  read.table(file = "./genomad_analysis/genomad_virus_summary.tsv",
+             comment.char = "",
+             header = TRUE,
+             sep = "\t") %>%
+  dplyr::mutate(no_version_accession = str_remove(accession, "\\.\\d+$")) %>% 
+  dplyr::filter(no_version_accession %in% complete_accessions_df$no_version_accession) %>%
+  dplyr::filter(!grepl("000000", no_version_accession))
+
+accessions_completed <- sum(geNomad_selected_accessions %in% genomad_results_df$no_version_accession)
+
+if (accessions_completed == length(geNomad_selected_accessions)) {
+  message("Runs completed")
+} else {
+  message("Missing runs")
+}
 
 ```
 
@@ -2302,18 +2374,12 @@ Identify prophage densities in species:
 ``` {r Prophage counts from geNomad}
 
 # Threshold for identifying funtional phage
-genomad_Caudoviricetes_threshold <- 8
+genomad_Caudoviricetes_threshold <- 9
 genomad_Inoviridae_threshold <- 3
 
 # Process geNomad prophage output
 genomad_phage_df <-
-  read.table(file = "./genomad_analysis/genomad_virus_summary.tsv",
-             comment.char = "",
-             header = TRUE,
-             sep = "\t") %>%
-  dplyr::mutate(no_version_accession = str_remove(accession, "\\.\\d+$")) %>% 
-  dplyr::filter(no_version_accession %in% complete_accessions_df$no_version_accession) %>%
-  dplyr::filter(!grepl("000000", no_version_accession)) %>%
+  genomad_results_df %>%
   dplyr::mutate(Classification =
                    dplyr::case_when(
                      is.na(length) ~ NA_character_,
@@ -2815,11 +2881,33 @@ cowplot::plot_grid(
 
 Here we formally test the associations between transformability, ecology, recombination and prophage counts:
 
+## Write out ecological information to table
+
+``` {r Ecological information table}
+
+ecological_df <-
+  enframe(primary_niche) %>% 
+    dplyr::mutate(value = unlist(value)) %>% 
+    dplyr::rename(Niche = value) %>% 
+    dplyr::mutate(Comment = 
+                    dplyr::case_when(
+                      name == "Sau" ~ "Found in nares, skin and gastrointestinal tract",
+                      name == "Sag" ~ "Found in gastrointestinal and genital tracts",
+                      name == "Nsp" ~ "Meningococci found in nasopharynx; gonococci found in the genital tract",
+                      name == "Hpy" ~ "Found in stomach",
+                      name == "Spy" ~ "Found in throat",
+                      name %in% c("Spn","Hflu","Mcat") ~ "Found in nasopharynx",
+                      TRUE ~ ""
+                    )
+                  )
+  
+```
+
 ## Ecological comparison with PHASTER
 
 Plot ecological comparisons with PHASTER results:
 
-``` {r Ecological models - PHASTER, fig.height = 11, fig.width = 8}
+``` {r Ecological models - PHASTER, fig.height = 12, fig.width = 8}
 
 plot_ecology_panel(
   in_df = prophage_rec_df,
@@ -2828,11 +2916,12 @@ plot_ecology_panel(
 )$plot
 
 ```
+
 ## Ecological comparison of Caudoviricetes with geNomad
 
 Plot ecological comparisons with geNomad results:
 
-``` {r Ecological models - Caudoviricetes, fig.height = 11, fig.width = 8}
+``` {r Ecological models - Caudoviricetes, fig.height = 12, fig.width = 8}
 
 plot_ecology_panel(
   in_df = prophage_rec_df,
@@ -2846,7 +2935,7 @@ plot_ecology_panel(
 
 Plot ecological comparisons with geNomad results:
 
-``` {r Ecological models - Inoviridae, fig.height = 11, fig.width = 8}
+``` {r Ecological models - Inoviridae, fig.height = 12, fig.width = 8}
 
 plot_ecology_panel(
   in_df = prophage_rec_df,
@@ -2932,17 +3021,20 @@ sample_summary_df %>%
 
 ```
 
+## Table of accessions for analysed genomes
+
 ``` {r Write table of accessions}
 
 # PHASTER output
-write.csv(filtered_prophage_per_sample_df %>% 
-            dplyr::mutate(Classification = "Prophage") %>%
-            dplyr::select(BioSampleAccession,species,Classification,total_phage_count) %>% 
+write.csv(filtered_genome_df %>%
+            dplyr::left_join(filtered_prophage_count_df,
+                             by = c("Accession" = "accession")) %>% 
+            dplyr::mutate(phage_count = dplyr::if_else(is.na(phage_count),0,phage_count)) %>% 
+            dplyr::select(BioSampleAccession,Accession,species,phage_count) %>% 
             dplyr::rename(
               Biosample = BioSampleAccession,
               Species = species,
-              Prophage = Classification,
-              Count = total_phage_count
+              `Prophage count` = phage_count
             ),
           file = "./prophage/PHASTER_summary.csv",
           row.names = FALSE,
@@ -2950,13 +3042,24 @@ write.csv(filtered_prophage_per_sample_df %>%
 )
 
 # geNomad output
-write.csv(genomad_phage_by_species_df %>% 
-            dplyr::select(biosample,species,Classification,total_phage_count) %>% 
+write.csv(complete_accessions_df %>%
+            dplyr::filter(selected_biosample == "Selected") %>%
+            dplyr::filter(!grepl("000000", no_version_accession)) %>%
+            dplyr::distinct(resolved_accession, no_version_accession, biosample, species) %>%
+            tidyr::crossing(all_classifications) %>%   # ensures every accession has every Classification
+            dplyr::left_join(
+              genomad_counts_by_accession_class_df,
+              by = c("no_version_accession", "Classification")
+            ) %>%
+            dplyr::filter(Classification == "Caudoviricetes") %>% 
+            dplyr::mutate(phage_count = tidyr::replace_na(phage_count, 0L)) %>% 
+            dplyr::select(biosample,resolved_accession,species,phage_count) %>% 
+            dplyr::mutate(species = gsub('_',' ',species)) %>% 
             dplyr::rename(
               Biosample = biosample,
+              Accession = resolved_accession,
               Species = species,
-              Prophage = Classification,
-              Count = total_phage_count
+              `Prophage count` = phage_count
             ),
           file = "./prophage/geNomad_summary.csv",
           row.names = FALSE,
@@ -2967,7 +3070,9 @@ write.csv(genomad_phage_by_species_df %>%
 
 # Experimental data
 
-## Plot qPCR data
+## Analyse qPCR data
+
+### Parse qPCR data
 
 ``` {r Process qPCR data}
 
@@ -3028,9 +3133,28 @@ qpcr_df <-
                              levels = c("1% pneumococcal", "10% pneumococcal", "50% pneumococcal", "90% pneumococcal", "99% pneumococcal",
                                         "No CSP or DNA control", "CSP and DNase", "No DNA control")
                              )
-                )
+                ) %>% 
+  dplyr::mutate(Locus = "attP") %>% 
+  # Remove replicate with mislabelled CSP that contains rpoA measurements
+  dplyr::group_by(`Experimental conditions`,DNA,Timepoint,MGE,`Biological replicate`) %>%
+  dplyr::mutate(.idx = row_number()) %>%
+  dplyr::ungroup() %>% 
+  dplyr::group_by(`Experimental conditions`,DNA,Timepoint,MGE,.idx) %>%
+  dplyr::arrange(`Biological replicate`, .by_group = TRUE) %>% 
+  tidyr::fill(rpoA, .direction = "down") %>% 
+  dplyr::ungroup() %>% 
+  dplyr::select(-.idx) %>% 
+  dplyr::filter(Replicate != "3rd") %>%
+  dplyr::mutate(`Biological replicate` = dplyr::if_else(
+    `Biological replicate` == "4th",
+    "3rd",
+    `Biological replicate`)
+  ) %>% 
+  dplyr::mutate(`Biological replicate` = factor(`Biological replicate`))
 
 ```
+
+### Calculate significance of differences between qPCR data
 
 ``` {r Test for significance for qPCR data}
 
@@ -3038,11 +3162,8 @@ qpcr_df <-
 dna_levels <- c("1% pneumococcal", "10% pneumococcal", "50% pneumococcal",
                 "90% pneumococcal", "99% pneumococcal")
 
-model_df <- qpcr_df %>%
-  dplyr::filter(
-    Replicate != "3rd" &  # your existing exclusion
-    DNA %in% dna_levels
-  ) %>%
+model_df <- qpcr_df %>% 
+  dplyr::filter(`Experimental conditions` != "Control") %>% 
   dplyr::mutate(
     DNA = factor(DNA, levels = dna_levels),   # 1% is reference
     `Biological replicate` = factor(`Biological replicate`),
@@ -3060,7 +3181,12 @@ nested <- model_df %>%
 # Fit lmer per stratum
 fit_one <- function(dat) {
   # random intercept for biological replicate
-  lmerTest::lmer(log_qPCR ~ DNA + (1 | `Biological replicate`), data = dat)
+  glmmTMB::glmmTMB(
+    log_qPCR ~ DNA + (1 | `Biological replicate`),
+    data = dat,
+    family = gaussian(),
+    ziformula = ~0
+  )
 }
 
 nested <- nested %>%
@@ -3074,20 +3200,15 @@ nested <- nested %>%
 
 contrast_df <- nested %>%
   dplyr::select(RMV8_MGE, Timepoint, `Experimental conditions`, ctr_tbl) %>%
-  unnest(ctr_tbl) %>%
-  # contrast labels like "10% ... - 1% ..."
-  dplyr::mutate(p.value = p.value) %>% 
-  mutate(
-    DNA_comp = stringr::str_extract(contrast, "^[^-]+") %>% stringr::str_trim(),
-    p.adj = p.adjust(p.value),  # replace with p.adjust if you want extra correction
-    sig = case_when(
-      p.adj <= 0.0001 ~ "****",
-      p.adj <= 0.001  ~ "***",
-      p.adj <= 0.01   ~ "**",
-      p.adj <= 0.05   ~ "*",
-      TRUE            ~ "ns"
-    )
-  )
+  tidyr::unnest(ctr_tbl) %>%
+  dplyr::mutate(
+    DNA_comp = stringr::str_extract(contrast, "^[^-]+") %>% stringr::str_trim()
+  ) %>%
+  # Adjust p-values WITHIN analysis groups (consistent with your wilcox pipeline idea)
+  dplyr::group_by(RMV8_MGE, Timepoint, `Experimental conditions`) %>%
+  dplyr::mutate(p.adj = p.adjust(p.value, method = "holm")) %>% 
+  rstatix::add_significance(p.col = "p.adj") %>% 
+  dplyr::ungroup()
 
 # Calculate annotation
 mge_annot_df <- model_df %>%
@@ -3096,10 +3217,10 @@ mge_annot_df <- model_df %>%
   left_join(
     contrast_df %>%
       dplyr::rename(DNA = DNA_comp) %>% 
-      dplyr::select(RMV8_MGE, Timepoint, `Experimental conditions`, DNA, sig),
+      dplyr::select(RMV8_MGE, Timepoint, `Experimental conditions`, DNA, p.adj.signif),
     by = c("RMV8_MGE", "Timepoint", "Experimental conditions","DNA")
   ) %>%
-  filter(!is.na(DNA), sig != "ns") %>% 
+  filter(!is.na(DNA), p.adj.signif != "ns") %>% 
   # y position - put everything at the top
   dplyr::mutate(y = dplyr::if_else(`Experimental conditions`=="Induced competence",
                                    max(qpcr_df$qPCR)*1.4,
@@ -3109,18 +3230,12 @@ mge_annot_df <- model_df %>%
 
 ```
 
+### Plot qPCR data
 
 ``` {r Plot qPCR data, fig.width = 8, fig.height = 6}
 
 (qpcr_plot <-
-  ggplot(qpcr_df %>% 
-           # Remove replicate with mislabelled CSP
-           dplyr::filter(Replicate != "3rd") %>%
-           dplyr::mutate(`Biological replicate` = dplyr::if_else(
-             `Biological replicate` == "4th",
-             "3rd",
-             `Biological replicate`)
-            ),
+  ggplot(qpcr_df,
          aes(x = DNA,
              y = qPCR,
              colour = `Experimental conditions`,
@@ -3141,8 +3256,7 @@ mge_annot_df <- model_df %>%
     xlab("Experimental conditions") +
     geom_text(
       data = mge_annot_df %>% dplyr::mutate(qPCR = y, `Biological replicate` = "1st"),
-      #aes(x = DNA, y = y, label = sig, colour = `Experimental conditions`),
-      aes(label = sig),
+      aes(label = p.adj.signif),
       inherit.aes = TRUE,
       size = 5,
       show.legend = FALSE
@@ -3153,6 +3267,8 @@ mge_annot_df <- model_df %>%
 )
 
 ```
+
+### Contrasts of 1% and 99% pneumococcal DNA experiments
 
 ``` {r Focus on change in spontaneous deletion}
 
@@ -3244,6 +3360,10 @@ names(replicate_palette) = as.character(1:7)
 
 ```
 
+## Analyse transformation data
+
+### Plot transformation data
+
 Plot transformation data:
 
 ``` {r Parse transformation data}
@@ -3284,6 +3404,8 @@ transformation_df <-
 
 ```
 
+### Calculate significance of differences between transformation data
+
 ``` {r Test for significance differences with transformation data}
 
 analysis_df <- transformation_df %>%
@@ -3305,8 +3427,6 @@ wilcox_results <- analysis_df %>%
   rstatix::adjust_pvalue(method = "holm") %>%
   rstatix::add_significance("p.adj") %>%
   dplyr::ungroup()
-
-print(wilcox_results)
 
 # y positions by condition x DNA for clean label placement
 y_pos_df <- analysis_df %>%
@@ -3330,6 +3450,8 @@ transf_annot_df <- wilcox_results %>%
   dplyr::mutate(label = p.adj.signif)
 
 ```
+
+### Plot transformation data
 
 ``` {r Plot transformation data}
 
@@ -3431,6 +3553,8 @@ bottom_plots <-
 
 ```
 
+## Control DNase data
+
 Now plot the control DNase data:
 
 ``` {r Plot DNase control data, fig.width = 8, fig.height = 6}
@@ -3495,6 +3619,167 @@ ggplot(dnase_control_df,
 
 ```
 
+## Validation with other mobile element loci
+
+``` {r Validate with other mobile element loci}
+
+condition_col_names <- c("Experimental conditions","DNA","Timepoint","Biological replicate","Locus","qPCR","RMV8_MGE")
+
+alternative_mge_loci_df <-
+  read.csv("./experimental_data/revision_qPCR_ISME.csv") %>% 
+  dplyr::mutate(DNA =
+                    dplyr::case_when(
+                      conditions == "CSP + 1% pneumococcal" ~ "1% pneumococcal",
+                      conditions == "CSP + 99% pneumococcal" ~ "99% pneumococcal",
+                      TRUE ~ conditions
+                    )
+    ) %>% 
+    dplyr::mutate(`Experimental conditions` =
+                    dplyr::case_when(
+                      grepl("control",conditions) ~ "Control",
+                      grepl('CSP +',conditions) ~ "Induced competence",
+                      TRUE ~ "Spontaneous competence"
+                    )
+    ) %>% 
+    dplyr::mutate(`Biological replicate` = replicates) %>% 
+    dplyr::mutate(
+      Timepoint =
+        dplyr::case_when(
+          Time == '2 hr' ~ "'2h post-subculture'",
+          Time == '4 hr' ~ "'4h post-subculture'"
+        )
+    ) %>%
+    #dplyr::select(`Experimental conditions`,DNA,Timepoint,`Biological replicate`) %>% 
+    tidyr::pivot_longer(cols = c('phage_reg',"PRCI_int","gyrA"),names_to = "Locus",values_to = "qPCR") %>%
+    dplyr::mutate(RMV8_MGE =
+                    dplyr::case_when(
+                      Locus == "phage_reg" ~ "phi*'RMV8'",
+                      Locus == "PRCI_int" ~ "'PRCI'[italic(malA)]",
+                      Locus == "gyrA" ~ "'Chromosome'"
+                    )
+                  ) %>% 
+    dplyr::mutate(qPCR = as.numeric(as.character(gsub(',','',qPCR)))) %>% 
+    dplyr::select(dplyr::all_of(condition_col_names)) %>% 
+    dplyr::bind_rows(
+      qpcr_df %>% 
+        dplyr::mutate(Locus = "attP") %>% 
+        tidyr::pivot_longer(
+          cols = c(qPCR, rpoA),
+          names_to = "measure",
+          values_to = "qPCR_new"
+        ) %>%
+        dplyr::mutate(
+          qPCR = qPCR_new,
+          Locus = if_else(measure == "rpoA", "rpoA", Locus),
+          RMV8_MGE = if_else(measure == "rpoA", "'Chromosome'", as.character(RMV8_MGE))
+        ) %>%
+        dplyr::select(-qPCR_new, -measure) %>%
+        dplyr::mutate(
+          RMV8_MGE = factor(RMV8_MGE),
+          `Biological replicate` = factor(`Biological replicate`)
+        ) %>%
+        dplyr::select(dplyr::all_of(condition_col_names)) %>%
+        dplyr::filter(DNA %in% c("1% pneumococcal","99% pneumococcal","No CSP or DNA control","No DNA control") & `Experimental conditions` %in% c("Control","Induced competence"))
+    )
+
+```
+
+``` {r Plot validation data}
+
+locus_palette <- c(
+  "attP" = "blue",
+  "gyrA" = "grey",
+  "rpoA" = "black",
+  "phage_reg" = "navy",
+  "PRCI_int" = "purple"
+)
+
+(qpcr_validation_plot <-
+  ggplot(alternative_mge_loci_df,
+         aes(x = DNA,
+             y = qPCR,
+             colour = Locus,
+             fill = Locus,
+             group = interaction(DNA,Locus),
+             shape = `Biological replicate`)) +
+    geom_violin(draw_quantiles = c(0.5),
+                position = position_dodge(preserve = "single"),
+                scale = "width",
+                alpha = 0.25) +
+    geom_point(position = position_jitterdodge()) +
+    scale_colour_manual(values = locus_palette,
+                        aesthetics = c("fill","colour")) +
+    scale_y_continuous(trans = "log10") +
+    ylab(expression(atop(italic(attP)~'sites per'~mu*'l','culture supernatant'))) +
+    facet_grid(RMV8_MGE~Timepoint,
+               labeller = label_parsed) +
+    xlab("Experimental conditions") +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+          strip.background = element_blank())
+)
+
+```
+
+## Plot the extracellular concentration of *attB* sites
+
+``` {r Plot attB sites}
+
+attB_df <-
+  read.csv(file = "./experimental_data/AD_undectable.csv") %>% 
+  dplyr::mutate(qPCR = dplyr::if_else(is.na(AD),0.01,AD)) %>% 
+  dplyr::mutate(DNA =
+                    dplyr::case_when(
+                      conditions == "CSP + 1% pneumococcal" ~ "1% pneumococcal",
+                      conditions == "CSP + 99% pneumococcal" ~ "99% pneumococcal",
+                      TRUE ~ conditions
+                    )
+    ) %>% 
+    dplyr::mutate(`Experimental conditions` =
+                    dplyr::case_when(
+                      grepl("control",conditions) ~ "Control",
+                      grepl('CSP +',conditions) ~ "Induced competence",
+                      TRUE ~ "Spontaneous competence"
+                    )
+    ) %>% 
+    dplyr::mutate(`Biological replicate` = replicates) %>% 
+    dplyr::mutate(
+      Timepoint =
+        dplyr::case_when(
+          Time == '2 hr' ~ "'2h post-subculture'",
+          Time == '4 hr' ~ "'4h post-subculture'"
+        )
+    ) %>%
+    dplyr::mutate(qPCR = as.numeric(as.character(gsub(',','',qPCR))))
+
+(attB_plot <-
+  ggplot(attB_df,
+         aes(x = DNA,
+             y = qPCR,
+             group = DNA,
+             shape = `Biological replicate`)) +
+    geom_violin(draw_quantiles = c(0.5),
+                position = position_dodge(preserve = "single"),
+                scale = "width",
+                alpha = 0.25) +
+    geom_point(position = position_jitterdodge()) +
+    scale_colour_manual(values = locus_palette,
+                        aesthetics = c("fill","colour")) +
+    scale_y_continuous(trans = "log10") +
+    ylab(expression(atop(italic(attB)~'sites per'~mu*'l','culture supernatant'))) +
+    facet_grid(~Timepoint,
+               labeller = label_parsed) +
+    xlab("Experimental conditions") +
+    geom_hline(yintercept = 0.01, linetype = 2) +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+          strip.background = element_blank())
+)
+
+```
+
+## Composition of exogenous DNA
+
 To understand the origins of the exogenous DNA that is not added to the media, we plot the concentration of *rpoA*:
 
 ``` {r Plot rpoA concentrations, fig.width = 12, fig.height = 6}
@@ -3537,23 +3822,45 @@ To understand the origins of the exogenous DNA that is not added to the media, w
 
 ``` {bash, eval = FALSE}
 
-# Get reads mapping to prophage
-bwa index phiRMV8.dna
-bwa aln phiRMV8.dna ERR124314_1.fastq > ERR124314_1.sai
-bwa aln phiRMV8.dna ERR124314_2.fastq > ERR124314_2.sai
-bwa sampe phiRMV8.dna ERR124314_1.sai ERR124314_2.sai  ERR124314_1.fastq ERR124314_2.fastq > phiRMV8.sam
-samtools view -b -F 2308 phiRMV8.sam > phiRMV8.bam
-samtools fastq  phiRMV8.bam > phiRMV8.fastq
 # Install phageterm
 pip install poetry
 wget https://files.pythonhosted.org/packages/ef/89/50321c714580c79d431cd9eb12aa62dc49e6f44afbe4e3efae282c9138ff/phagetermvirome-4.3.tar.gz
 tar xfz phagetermvirome-4.3.tar.gz 
 cd phagetermvirome-4.3 
 poetry install
-export PYTHONPATH=/Users/ncrouche/Documents/Recombination/packaging/phagetermvirome-4.3
-# Run packaging analysis with phagetermvirome
-phageterm -r ../phiRMV8.dna -f ../phiRMV8.fastq
-# Was not able to determine cos/pac from this output
-
+export PYTHONPATH=/Users/ncrouche/Documents/Recombination/packaging/phagetermvirome-4.3/phagetermvirome 
+# Mapping to full genome
+bwa index S_pneumoniae_RMV8_dominant.dna
+bwa aln S_pneumoniae_RMV8_dominant.dna ERR124314_1.fastq > ERR124314_1.sai
+bwa aln S_pneumoniae_RMV8_dominant.dna ERR124314_2.fastq > ERR124314_2.sai
+bwa sampe S_pneumoniae_RMV8_dominant.dna ERR124314_1.sai ERR124314_2.sai  ERR124314_1.fastq ERR124314_2.fastq > S_pneumoniae_RMV8_dominant.sam
+samtools view -b S_pneumoniae_RMV8_dominant.sam > S_pneumoniae_RMV8_dominant.bam
+rm S_pneumoniae_RMV8_dominant.sam
+sort S_pneumoniae_RMV8_dominant.bam > sorted.S_pneumoniae_RMV8_dominant.bam
+samtools index sorted.S_pneumoniae_RMV8_dominant.bam
+# Prophage analysis
+BAM="sorted.S_pneumoniae_RMV8_dominant.bam"
+REGION="S_pneumoniae_RMV8_dominant:25153-59080"
+MAPQ=20
+PREFIX="phiRMV8_region"
+samtools index -@ 4 "$BAM"
+samtools view -@ 4 -q $MAPQ -F 4 -F 256 -F 2048 "$BAM" "$REGION" | cut -f1 | sort -u > "${PREFIX}.qnames.txt"
+samtools view -@ 4 -h -N "${PREFIX}.qnames.txt" -b "$BAM" > "${PREFIX}.pairs.bam"
+samtools sort -@ 4 -n -o "${PREFIX}.pairs.name.bam" "${PREFIX}.pairs.bam"
+samtools fastq -@ 4 -1 "${PREFIX}_R1.fastq.gz" -2 "${PREFIX}_R2.fastq.gz" -s "${PREFIX}_singletons.fastq.gz" -0 /dev/null -n "${PREFIX}.pairs.name.bam"
+samtools faidx S_pneumoniae_RMV8_dominant.dna "S_pneumoniae_RMV8_dominant:25153-59080" > phiRMV8_region.fa
+phageterm -f ../phiRMV8_region_R1.fastq.gz -p ../phiRMV8_region_R2.fastq.gz -r ../phiRMV8_region.fa --report_title=phiRMV8_analysis
+# PRCI analysis
+BAM="sorted.S_pneumoniae_RMV8_dominant.bam"
+REGION="S_pneumoniae_RMV8_dominant:1997848-2010139"
+MAPQ=20
+PREFIX="PRCImalA_region"
+samtools index -@ 4 "$BAM"
+samtools view -@ 4 -q $MAPQ -F 4 -F 256 -F 2048 "$BAM" "$REGION" | cut -f1 | sort -u > "${PREFIX}.qnames.txt"
+samtools view -@ 4 -h -N "${PREFIX}.qnames.txt" -b "$BAM" > "${PREFIX}.pairs.bam"
+samtools sort -@ 4 -n -o "${PREFIX}.pairs.name.bam" "${PREFIX}.pairs.bam"
+samtools fastq -@ 4 -1 "${PREFIX}_R1.fastq.gz" -2 "${PREFIX}_R2.fastq.gz" -s "${PREFIX}_singletons.fastq.gz" -0 /dev/null -n "${PREFIX}.pairs.name.bam"
+samtools faidx S_pneumoniae_RMV8_dominant.dna "S_pneumoniae_RMV8_dominant:1997848-2010139" > PRCImalA_region.fa
+phageterm -f ../PRCImalA_region_R1.fastq.gz -p ../PRCImalA_region_R2.fastq.gz -r PRCImalA_region.fa  --report_title=PRCImalA_analysis
 
 ```
