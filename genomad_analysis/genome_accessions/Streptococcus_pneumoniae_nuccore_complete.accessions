@@ -1,0 +1,528 @@
+query_accession	resolved_accession	uid	biosample	taxid	title	resolved_from
+AE005672.3	AE005672.3	193804931	SAMN02604002	170187	Streptococcus pneumoniae TIGR4, complete genome	direct
+AE007317.1	AE007317.1	25307955	SAMN02603218	171101	Streptococcus pneumoniae R6, complete genome	direct
+AKVY00000000.1	AKVY00000000.1	392840996	SAMN02597080	170187	Streptococcus pneumoniae TIGR4, whole genome shotgun sequencing project	direct
+AKVY01000001.1	AKVY01000001.1	392840994	SAMN02597080	170187	Streptococcus pneumoniae TIGR4 chromosome, whole genome shotgun sequence	direct
+AP017971.1	AP017971.1	1134772663	SAMD00073590	1313	Streptococcus pneumoniae DNA, complete genome, strain: KK0981	direct
+AP018391.1	AP018391.1	1252002187	SAMD00096762	1313	Streptococcus pneumoniae MDRSPN001 DNA, complete genome	direct
+AP018936.1	AP018936.1	1489889596	SAMD00137663	1313	Streptococcus pneumoniae NU83127 DNA, complete genome	direct
+AP018937.1	AP018937.1	1489891749	SAMD00137664	1313	Streptococcus pneumoniae HU-OH DNA, complete genome	direct
+AP018938.1	AP018938.1	1489893785	SAMD00137665	1313	Streptococcus pneumoniae ATCC 49619 DNA, complete genome	direct
+AP019192.2	AP019192.2	1733275619	SAMD00110695	1313	Streptococcus pneumoniae ASP0581 DNA, complete genome	direct
+AP025936.1	AP025936.1	2426919755	SAMD00453553	1313	Streptococcus pneumoniae PZ900700617 DNA, complete genome	direct
+AP025937.1	AP025937.1	2426921765	SAMD00453554	1313	Streptococcus pneumoniae PZ900700792 DNA, complete genome	direct
+AP025938.1	AP025938.1	2426923790	SAMD00453556	1313	Streptococcus pneumoniae PZ900701057 DNA, complete genome	direct
+AP025939.1	AP025939.1	2426925826	SAMD00453558	1313	Streptococcus pneumoniae Utah_35B-24 DNA, complete genome	direct
+AP025940.1	AP025940.1	2426927831	SAMD00453552	1313	Streptococcus pneumoniae PZ900700204 DNA, complete genome	direct
+AP026914.1	AP026914.1	2529820305	SAMD00547688	1313	Streptococcus pneumoniae PZ900700003 DNA, complete genome	direct
+AP026915.1	AP026915.1	2529822375	SAMD00547689	1313	Streptococcus pneumoniae PZ900700005 DNA, complete genome	direct
+AP026916.1	AP026916.1	2529824448	SAMD00547690	1313	Streptococcus pneumoniae PZ900700006 DNA, complete genome	direct
+AP026917.1	AP026917.1	2529826711	SAMD00547691	1313	Streptococcus pneumoniae PZ900700007 DNA, complete genome	direct
+AP026918.1	AP026918.1	2529828791	SAMD00547692	1313	Streptococcus pneumoniae PZ900700009 DNA, complete genome	direct
+AP026919.1	AP026919.1	2529830879	SAMD00547693	1313	Streptococcus pneumoniae PZ900700012 DNA, complete genome	direct
+AP026920.1	AP026920.1	2529833032	SAMD00547694	1313	Streptococcus pneumoniae PZ900700014 DNA, complete genome	direct
+AP026921.1	AP026921.1	2529835273	SAMD00547695	1313	Streptococcus pneumoniae PZ900700027 DNA, complete genome	direct
+AP026922.1	AP026922.1	2529837438	SAMD00547696	1313	Streptococcus pneumoniae PZ900700038 DNA, complete genome	direct
+AP026923.1	AP026923.1	2529839665	SAMD00547697	1313	Streptococcus pneumoniae PZ900700054 DNA, complete genome	direct
+AP026924.1	AP026924.1	2529841782	SAMD00547698	1313	Streptococcus pneumoniae PZ900700063 DNA, complete genome	direct
+AP026925.1	AP026925.1	2529844024	SAMD00547699	1313	Streptococcus pneumoniae PZ900700097 DNA, complete genome	direct
+AP026926.1	AP026926.1	2529846130	SAMD00547700	1313	Streptococcus pneumoniae PZ900700119 DNA, complete genome	direct
+AP026927.1	AP026927.1	2529848378	SAMD00547701	1313	Streptococcus pneumoniae PZ900700178 DNA, complete genome	direct
+AP026928.1	AP026928.1	2529850456	SAMD00547702	1313	Streptococcus pneumoniae PZ900700406 DNA, complete genome	direct
+AP026929.1	AP026929.1	2529852549	SAMD00547703	1313	Streptococcus pneumoniae PZ900701114 DNA, complete genome	direct
+AP026930.1	AP026930.1	2529854625	SAMD00547704	1313	Streptococcus pneumoniae PZ900701208 DNA, complete genome	direct
+AP026931.1	AP026931.1	2529856653	SAMD00547705	1313	Streptococcus pneumoniae PZ900701541 DNA, complete genome	direct
+AP026932.1	AP026932.1	2529858741	SAMD00547706	1313	Streptococcus pneumoniae PZ900701549 DNA, complete genome	direct
+AP028601.1	AP028601.1	2563196195	SAMD00602882	1313	Streptococcus pneumoniae PF1 DNA, complete genome	direct
+AP028602.1	AP028602.1	2563198253	SAMD00602883	1313	Streptococcus pneumoniae PF2 DNA, complete genome	direct
+AP028603.1	AP028603.1	2563200286	SAMD00602884	1313	Streptococcus pneumoniae Pne2 DNA, complete genome	direct
+AP028604.1	AP028604.1	2563202519	SAMD00602885	1313	Streptococcus pneumoniae Pne3 DNA, complete genome	direct
+AP028605.1	AP028605.1	2563204755	SAMD00602886	1313	Streptococcus pneumoniae Pne4 DNA, complete genome	direct
+AP028606.1	AP028606.1	2563206818	SAMD00602887	1313	Streptococcus pneumoniae Sep1 DNA, complete genome	direct
+AP028607.1	AP028607.1	2563208909	SAMD00602888	1313	Streptococcus pneumoniae Sep2 DNA, complete genome	direct
+AP028608.1	AP028608.1	2563211068	SAMD00602889	1313	Streptococcus pneumoniae Sep3 DNA, complete genome	direct
+AP028609.1	AP028609.1	2563213090	SAMD00602890	1313	Streptococcus pneumoniae Sep4 DNA, complete genome	direct
+AP028610.1	AP028610.1	2563215194	SAMD00602891	1313	Streptococcus pneumoniae Sep5 DNA, complete genome	direct
+AP028611.1	AP028611.1	2563217259	SAMD00602892	1313	Streptococcus pneumoniae Sep6 DNA, complete genome	direct
+AP028612.1	AP028612.1	2563219501	SAMD00602892	1313	Streptococcus pneumoniae Sep6 plasmid pSep6 DNA, complete genome	direct
+AP028877.1	AP028877.1	2575245219	SAMD00638583	1313	Streptococcus pneumoniae 21P20 DNA, complete genome	direct
+AP031394.1	AP031394.1	2746290373	SAMD00622273	1313	Streptococcus pneumoniae 16P28 DNA, complete genome	direct
+AP031395.1	AP031395.1	2746292535	SAMD00622274	1313	Streptococcus pneumoniae 16P29 DNA, complete genome	direct
+CP000410.2	CP000410.2	1386469508	SAMN02604051	373153	Streptococcus pneumoniae D39, complete genome	direct
+CP000918.1	CP000918.1	225719968	SAMN02603446	488221	Streptococcus pneumoniae 70585, complete genome	direct
+CP000919.1	CP000919.1	225722171	SAMN02603444	488222	Streptococcus pneumoniae JJA, complete genome	direct
+CP000920.1	CP000920.1	225724295	SAMN02603445	488223	Streptococcus pneumoniae P1031, complete genome	direct
+CP000921.1	CP000921.1	225726369	SAMN02603443	487213	Streptococcus pneumoniae Taiwan19F-14, complete genome	direct
+CP000936.1	CP000936.1	168994879	SAMN02603442	487214	Streptococcus pneumoniae Hungary19A-6, complete genome	direct
+CP001033.1	CP001033.1	182628304	SAMN02603015	516950	Streptococcus pneumoniae CGSP14, complete genome	direct
+CP001845.1	CP001845.1	406368402	SAMN02299431	697283	Streptococcus pneumoniae gamPNI0373, complete genome	direct
+CP001993.1	CP001993.1	298237097	SAMN00002223	525381	Streptococcus pneumoniae TCH8431/19A, complete genome	direct
+CP002176.1	CP002176.1	306483213	SAMN02604004	189423	Streptococcus pneumoniae 670-6B, complete genome	direct
+CP003357.2	CP003357.2	909837468	SAMN02604071	1130804	Streptococcus pneumoniae ST556, complete genome	direct
+CP018136.1	CP018136.1	1112988118	SAMN05981365	1313	Streptococcus pneumoniae strain SP49, complete genome	direct
+CP018137.1	CP018137.1	1112990302	SAMN06009945	1313	Streptococcus pneumoniae strain SP61, complete genome	direct
+CP018138.1	CP018138.1	1112992328	SAMN06009955	1313	Streptococcus pneumoniae strain SP64, complete genome	direct
+CP018347.1	CP018347.1	1114629522	SAMN06109026	1313	Streptococcus pneumoniae strain SWU02 chromosome, complete genome	direct
+CP018838.1	CP018838.1	1298119045	SAMN06166933	1313	Streptococcus pneumoniae strain 11A chromosome, complete genome	direct
+CP019299.1	CP019299.1	1547602009	SAMN06233407	1313	Streptococcus pneumoniae strain HKU1-14 chromosome, complete genome	direct
+CP025076.1	CP025076.1	1297065126	SAMN08105887	1313	Streptococcus pneumoniae strain BHN97x chromosome, complete genome	direct
+CP025256.1	CP025256.1	1314832367	SAMN08155818	1313	Streptococcus pneumoniae Xen35, complete genome	direct
+CP026670.1	CP026670.1	1343871268	SAMN08501023	1313	Streptococcus pneumoniae strain 335 chromosome, complete genome	direct
+CP027540.1	CP027540.1	1360373285	SAMN04093378	1313	Streptococcus pneumoniae strain D39V chromosome, complete genome	direct
+CP031245.1	CP031245.1	1438634268	SAMN09704646	1313	Streptococcus pneumoniae strain M16808 chromosome, complete genome	direct
+CP031246.1	CP031246.1	1438634266	SAMN09704658	1313	Streptococcus pneumoniae strain M26368 chromosome, complete genome	direct
+CP031247.1	CP031247.1	1438629803	SAMN09704656	1313	Streptococcus pneumoniae strain M23734 chromosome, complete genome	direct
+CP031248.1	CP031248.1	1438634269	SAMN09704657	1313	Streptococcus pneumoniae strain M26365 chromosome, complete genome	direct
+CP035234.1	CP035234.1	2190822654	SAMN10734540	1313	Streptococcus pneumoniae strain TVO_1902277 chromosome, complete genome	direct
+CP035235.1	CP035235.1	2190825465	SAMN10734539	1313	Streptococcus pneumoniae strain TVO_1902276 chromosome, complete genome	direct
+CP035236.1	CP035236.1	2190828201	SAMN10734538	1313	Streptococcus pneumoniae strain TVO_1902282 chromosome, complete genome	direct
+CP035237.1	CP035237.1	2190830805	SAMN10734537	1313	Streptococcus pneumoniae strain TVO_Taiwan19F-14 chromosome, complete genome	direct
+CP035238.1	CP035238.1	2190833561	SAMN10734536	1313	Streptococcus pneumoniae strain TVO_D39 chromosome, complete genome	direct
+CP035239.1	CP035239.1	2190836175	SAMN10734535	1313	Streptococcus pneumoniae strain TVO_TIGR4 chromosome, complete genome	direct
+CP035241.1	CP035241.1	2190838822	SAMN10734533	1313	Streptococcus pneumoniae strain TVO_1901948 chromosome, complete genome	direct
+CP035242.1	CP035242.1	2190841309	SAMN10734532	1313	Streptococcus pneumoniae strain TVO_1901947 chromosome, complete genome	direct
+CP035243.1	CP035243.1	2190844020	SAMN10734531	1313	Streptococcus pneumoniae strain TVO_1901946 chromosome, complete genome	direct
+CP035244.1	CP035244.1	2190846770	SAMN10734530	1313	Streptococcus pneumoniae strain TVO_1901945 chromosome, complete genome	direct
+CP035245.1	CP035245.1	2190849279	SAMN10734529	1313	Streptococcus pneumoniae strain TVO_1901943 chromosome, complete genome	direct
+CP035246.1	CP035246.1	2190851817	SAMN10734528	1313	Streptococcus pneumoniae strain TVO_1901941 chromosome, complete genome	direct
+CP035247.1	CP035247.1	2190853743	SAMN10734527	1313	Streptococcus pneumoniae strain TVO_1901940 chromosome, complete genome	direct
+CP035248.1	CP035248.1	2190855667	SAMN10734526	1313	Streptococcus pneumoniae strain TVO_1901939 chromosome, complete genome	direct
+CP035249.1	CP035249.1	2190857652	SAMN10734525	1313	Streptococcus pneumoniae strain TVO_1901938 chromosome, complete genome	direct
+CP035251.1	CP035251.1	2190859679	SAMN10734523	1313	Streptococcus pneumoniae strain TVO_1901935 chromosome, complete genome	direct
+CP035252.1	CP035252.1	2190861672	SAMN10734522	1313	Streptococcus pneumoniae strain TVO_1901934 chromosome, complete genome	direct
+CP035254.1	CP035254.1	2190865830	SAMN10734520	1313	Streptococcus pneumoniae strain TVO_1901932 chromosome, complete genome	direct
+CP035256.1	CP035256.1	2190869927	SAMN10734518	1313	Streptococcus pneumoniae strain TVO_1901930 chromosome, complete genome	direct
+CP035257.1	CP035257.1	2190872088	SAMN10734517	1313	Streptococcus pneumoniae strain TVO_1901928 chromosome, complete genome	direct
+CP035258.1	CP035258.1	2190874161	SAMN10734516	1313	Streptococcus pneumoniae strain TVO_1901927 chromosome, complete genome	direct
+CP035259.1	CP035259.1	2190876170	SAMN10734515	1313	Streptococcus pneumoniae strain TVO_1901926 chromosome, complete genome	direct
+CP035260.1	CP035260.1	2190878127	SAMN10734514	1313	Streptococcus pneumoniae strain TVO_1901925 chromosome, complete genome	direct
+CP035261.1	CP035261.1	2190880043	SAMN10734513	1313	Streptococcus pneumoniae strain TVO_1901924 chromosome, complete genome	direct
+CP035262.1	CP035262.1	2190882079	SAMN10734512	1313	Streptococcus pneumoniae strain TVO_1901923 chromosome, complete genome	direct
+CP035263.1	CP035263.1	2190884070	SAMN10734511	1313	Streptococcus pneumoniae strain TVO_1901922 chromosome, complete genome	direct
+CP035264.1	CP035264.1	2190886113	SAMN10734510	1313	Streptococcus pneumoniae strain TVO_1901921 chromosome, complete genome	direct
+CP035265.1	CP035265.1	2190888179	SAMN10734509	1313	Streptococcus pneumoniae strain TVO_1901920 chromosome, complete genome	direct
+CP038251.1	CP038251.1	2190913286	SAMN10734565	1313	Streptococcus pneumoniae strain TVO_1901944 chromosome, complete genome	direct
+CP038252.1	CP038252.1	2190915273	SAMN10734563	1313	Streptococcus pneumoniae strain TVO_1901936 chromosome, complete genome	direct
+CP038253.1	CP038253.1	2190917366	SAMN10734562	1313	Streptococcus pneumoniae strain TVO_1901929 chromosome, complete genome	direct
+CP038808.1	CP038808.1	1733461154	SAMN11338705	1313	Streptococcus pneumoniae strain R6CIB17 chromosome, complete genome	direct
+CP045931.1	CP045931.1	1776204818	SAMN13191652	1313	Streptococcus pneumoniae strain AUSMDU00010538 chromosome, complete genome	direct
+CP046354.1	CP046354.1	1940505132	SAMN13321470	1313	Streptococcus pneumoniae strain 310 chromosome, complete genome	direct
+CP046355.1	CP046355.1	1940503080	SAMN13321471	1313	Streptococcus pneumoniae strain 475 chromosome, complete genome	direct
+CP046356.1	CP046356.1	1940501074	SAMN13321472	1313	Streptococcus pneumoniae strain 521 chromosome, complete genome	direct
+CP046357.1	CP046357.1	1940499073	SAMN13321473	1313	Streptococcus pneumoniae strain 525 chromosome, complete genome	direct
+CP046358.1	CP046358.1	1940497079	SAMN13321474	1313	Streptococcus pneumoniae strain 566 chromosome, complete genome	direct
+CP046359.1	CP046359.1	1940495108	SAMN13321476	1313	Streptococcus pneumoniae strain 573 chromosome, complete genome	direct
+CP046360.1	CP046360.1	1940493152	SAMN13321477	1313	Streptococcus pneumoniae strain 574 chromosome, complete genome	direct
+CP046379.1	CP046379.1	1940491149	SAMN13321475	1313	Streptococcus pneumoniae strain 563 chromosome, complete genome	direct
+CP050175.1	CP050175.1	1824008562	SAMN14380576	1313	Streptococcus pneumoniae strain PZ900701590 chromosome, complete genome	direct
+CP050176.1	CP050176.1	1824010599	SAMN14380576	1313	Streptococcus pneumoniae strain PZ900701590 plasmid unnamed, complete sequence	direct
+CP053210.1	CP053210.1	1840515662	SAMN14779717	1313	Streptococcus pneumoniae strain 6A-10 chromosome, complete genome	direct
+CP060156.1	CP060156.1	2207673993	SAMN15783364	1313	Streptococcus pneumoniae strain PZ900700608 chromosome, complete genome	direct
+CP061208.1	CP061208.1	2034610864	SAMN15858987	1313	Streptococcus pneumoniae strain D39_P0 chromosome, complete genome	direct
+CP063829.1	CP063829.1	1958638926	SAMN16580452	1313	Streptococcus pneumoniae strain 19A-ST320_99-176 chromosome, complete genome	direct
+CP071871.1	CP071871.1	2016297423	SAMN17602804	1313	Streptococcus pneumoniae strain BVJ1JL chromosome, complete genome	direct
+CP071916.1	CP071916.1	2175074632	SAMN18323756	1313	Streptococcus pneumoniae strain 19A-19087 chromosome, complete genome	direct
+CP071917.1	CP071917.1	2175067022	SAMN18323755	1313	Streptococcus pneumoniae strain 19A-19339 chromosome, complete genome	direct
+CP071918.1	CP071918.1	2175059982	SAMN18323757	1313	Streptococcus pneumoniae strain 19A-19343 chromosome, complete genome	direct
+CP076417.1	CP076417.1	3056268242	SAMN19573833	1313	Streptococcus pneumoniae strain S860 chromosome, complete genome	direct
+CP076418.1	CP076418.1	3056270122	SAMN19573832	1313	Streptococcus pneumoniae strain S857 chromosome, complete genome	direct
+CP076419.1	CP076419.1	3056275435	SAMN19573831	1313	Streptococcus pneumoniae strain S855 chromosome, complete genome	direct
+CP076420.1	CP076420.1	3056280744	SAMN19573830	1313	Streptococcus pneumoniae strain S854 chromosome, complete genome	direct
+CP076421.1	CP076421.1	3056282653	SAMN19573829	1313	Streptococcus pneumoniae strain S853 chromosome, complete genome	direct
+CP076422.1	CP076422.1	3056291425	SAMN19573828	1313	Streptococcus pneumoniae strain S845 chromosome, complete genome	direct
+CP076423.1	CP076423.1	3056298623	SAMN19573827	1313	Streptococcus pneumoniae strain S724 chromosome, complete genome	direct
+CP076424.1	CP076424.1	3056296760	SAMN19573826	1313	Streptococcus pneumoniae strain S591 chromosome, complete genome	direct
+CP076425.1	CP076425.1	3056320418	SAMN19573825	1313	Streptococcus pneumoniae strain S589 chromosome, complete genome	direct
+CP076426.1	CP076426.1	3056303974	SAMN19573824	1313	Streptococcus pneumoniae strain S580 chromosome, complete genome	direct
+CP076427.1	CP076427.1	3056309338	SAMN19573823	1313	Streptococcus pneumoniae strain S577 chromosome, complete genome	direct
+CP076428.1	CP076428.1	3056311251	SAMN19573822	1313	Streptococcus pneumoniae strain S542 chromosome, complete genome	direct
+CP076429.1	CP076429.1	3056316668	SAMN19573821	1313	Streptococcus pneumoniae strain S471 chromosome, complete genome	direct
+CP076430.1	CP076430.1	3056318561	SAMN19573820	1313	Streptococcus pneumoniae strain S617 chromosome, complete genome	direct
+CP076431.1	CP076431.1	3056331409	SAMN19573819	1313	Streptococcus pneumoniae strain PP9 chromosome, complete genome	direct
+CP076432.1	CP076432.1	3056329542	SAMN19573818	1313	Streptococcus pneumoniae strain PP6 chromosome, complete genome	direct
+CP076433.1	CP076433.1	3056327620	SAMN19573817	1313	Streptococcus pneumoniae strain PP3 chromosome, complete genome	direct
+CP076434.1	CP076434.1	3056325747	SAMN19573816	1313	Streptococcus pneumoniae strain PP14 chromosome, complete genome	direct
+CP076435.1	CP076435.1	3056337029	SAMN19573815	1313	Streptococcus pneumoniae strain PP13 chromosome, complete genome	direct
+CP076436.1	CP076436.1	3056338896	SAMN19573814	1313	Streptococcus pneumoniae strain PP12 chromosome, complete genome	direct
+CP076437.1	CP076437.1	3056340804	SAMN19573813	1313	Streptococcus pneumoniae strain PP11 chromosome, complete genome	direct
+CP079922.1	CP079922.1	2076474295	SAMN20327787	1313	Streptococcus pneumoniae strain R36A chromosome, complete genome	direct
+CP079923.1	CP079923.1	2076769889	SAMN20337307	1313	Streptococcus pneumoniae strain Rx1 chromosome, complete genome	direct
+CP082820.1	CP082820.1	2090855330	SAMN20982453	1313	Streptococcus pneumoniae strain SCAID PHRX1-2021 chromosome, complete genome	direct
+CP083627.1	CP083627.1	2099428720	SAMN21218864	1313	Streptococcus pneumoniae strain FDAARGOS_1508 chromosome, complete genome	direct
+CP089948.1	CP089948.1	2261444679	SAMN24060681	170187	Streptococcus pneumoniae TIGR4 chromosome, complete genome	direct
+CP089949.1	CP089949.1	2261446754	SAMN24060680	1313	Streptococcus pneumoniae strain SN75752 chromosome, complete genome	direct
+CP090881.1	CP090881.1	2195276697	SAMN08647280	1313	Streptococcus pneumoniae strain BR1268 chromosome, complete genome	direct
+CP090882.1	CP090882.1	2195278543	SAMN08647361	1313	Streptococcus pneumoniae strain CH2241 chromosome, complete genome	direct
+CP090883.1	CP090883.1	2195280437	SAMN08647548	1313	Streptococcus pneumoniae strain LE4448 chromosome, complete genome	direct
+CP090884.1	CP090884.1	2195282287	SAMN08647626	1313	Streptococcus pneumoniae strain MD5403 chromosome, complete genome	direct
+CP090885.1	CP090885.1	2195284136	SAMN08647706	1313	Streptococcus pneumoniae strain ND6401 chromosome, complete genome	direct
+CP090886.1	CP090886.1	2195286030	SAMN08647831	1313	Streptococcus pneumoniae strain NP7513 chromosome, complete genome	direct
+CP090887.1	CP090887.1	2195287917	SAMN08647838	1313	Streptococcus pneumoniae strain NP7536 chromosome, complete genome	direct
+CP090888.1	CP090888.1	2195289811	SAMN08647902	1313	Streptococcus pneumoniae strain PT8465 chromosome, complete genome	direct
+CP090889.1	CP090889.1	2195291673	SAMN08647378	1313	Streptococcus pneumoniae strain CH2439 chromosome, complete genome	direct
+CP091450.1	CP091450.1	2315204613	SAMN25149807	1313	Streptococcus pneumoniae strain 3641/15 chromosome, complete genome	direct
+CP091451.1	CP091451.1	2315206577	SAMN25149806	1313	Streptococcus pneumoniae strain 3238/09 chromosome, complete genome	direct
+CP096809.1	CP096809.1	2419164133	SAMN27647185	1313	Streptococcus pneumoniae strain SP007 chromosome, complete genome	direct
+CP099641.1	CP099641.1	2594646998	SAMN28929526	1313	Streptococcus pneumoniae strain ATCC 700671 chromosome, complete genome	direct
+CP102583.1	CP102583.1	2286514340	SAMN26566062	1313	Streptococcus pneumoniae strain D39Mega17545 chromosome, complete genome	direct
+CP107038.1	CP107038.1	2511975057	SAMN31139171	1313	Streptococcus pneumoniae strain BM6001 chromosome, complete genome	direct
+CP113114.1	CP113114.1	2381348844	SAMN31844607	1313	Streptococcus pneumoniae strain NP1 chromosome, complete genome	direct
+CP113115.1	CP113115.1	2381352248	SAMN31844858	1313	Streptococcus pneumoniae strain NP2 chromosome, complete genome	direct
+CP113266.1	CP113266.1	2388580803	SAMN31830494	1313	Streptococcus pneumoniae strain BC1 chromosome, complete genome	direct
+CP113267.1	CP113267.1	2388575311	SAMN31830702	1313	Streptococcus pneumoniae strain BC2 chromosome, complete genome	direct
+CP125291.1	CP125291.1	2506636435	SAMN35018717	1313	Streptococcus pneumoniae strain 105_Kz chromosome, complete genome	direct
+CP131706.1	CP131706.1	2720051705	SAMN36766248	1313	Streptococcus pneumoniae strain 2018N21-288 chromosome, complete genome	direct
+CP131707.1	CP131707.1	2720058434	SAMN36766247	1313	Streptococcus pneumoniae strain 2018C08-270 chromosome, complete genome	direct
+CP131708.1	CP131708.1	2720077553	SAMN36766246	1313	Streptococcus pneumoniae strain 2016C10-332 chromosome, complete genome	direct
+CP131709.1	CP131709.1	2720085105	SAMN36766245	1313	Streptococcus pneumoniae strain 2016S11-245 chromosome, complete genome	direct
+CP131710.1	CP131710.1	2720092412	SAMN36766244	1313	Streptococcus pneumoniae strain 2014S11-203 chromosome, complete genome	direct
+CP131711.1	CP131711.1	2720094388	SAMN36766243	1313	Streptococcus pneumoniae strain 2014C08-275 chromosome, complete genome	direct
+CP131712.1	CP131712.1	2720096314	SAMN36766242	1313	Streptococcus pneumoniae strain 2008C09-280 chromosome, complete genome	direct
+CP131713.1	CP131713.1	2720098301	SAMN36766241	1313	Streptococcus pneumoniae strain 2008C09-276 chromosome, complete genome	direct
+CP131714.1	CP131714.1	2720100276	SAMN36766240	1313	Streptococcus pneumoniae strain 2008C04-309 chromosome, complete genome	direct
+CP131715.1	CP131715.1	2720102253	SAMN36766239	1313	Streptococcus pneumoniae strain 2006C08-243 chromosome, complete genome	direct
+CP136899.1	CP136899.1	2605104891	SAMN37855267	1313	Streptococcus pneumoniae strain ST62 chromosome, complete genome	direct
+CP137099.1	CP137099.1	2609570892	SAMN37865683	1313	Streptococcus pneumoniae strain 20824-4 chromosome, complete genome	direct
+CP137100.1	CP137100.1	2609570889	SAMN37865682	1313	Streptococcus pneumoniae strain LYP chromosome, complete genome	direct
+CP137101.1	CP137101.1	2609570893	SAMN37865681	1313	Streptococcus pneumoniae strain 16P2012-2 chromosome, complete genome	direct
+CP137102.1	CP137102.1	2609570891	SAMN37865680	1313	Streptococcus pneumoniae strain 16H3071-2 chromosome, complete genome	direct
+CP137103.1	CP137103.1	2609570886	SAMN37865679	1313	Streptococcus pneumoniae strain 21334 chromosome, complete genome	direct
+CP137104.1	CP137104.1	2609570900	SAMN37865678	1313	Streptococcus pneumoniae strain LM chromosome, complete genome	direct
+CP137105.1	CP137105.1	2609570887	SAMN37865677	1313	Streptococcus pneumoniae strain 16H2092 chromosome, complete genome	direct
+CP137106.1	CP137106.1	2609570888	SAMN37865676	1313	Streptococcus pneumoniae strain 16P4028 chromosome, complete genome	direct
+CP137107.1	CP137107.1	2609570890	SAMN37865675	1313	Streptococcus pneumoniae strain 15H4024 chromosome, complete genome	direct
+CP137108.1	CP137108.1	2609570902	SAMN37865674	1313	Streptococcus pneumoniae strain OXT chromosome, complete genome	direct
+CP137109.1	CP137109.1	2609570901	SAMN37865673	1313	Streptococcus pneumoniae strain 11012 chromosome, complete genome	direct
+CP137110.1	CP137110.1	2609570895	SAMN37865672	1313	Streptococcus pneumoniae strain 16H2041 chromosome, complete genome	direct
+CP137111.1	CP137111.1	2609570896	SAMN37865671	1313	Streptococcus pneumoniae strain 17023 chromosome, complete genome	direct
+CP137112.1	CP137112.1	2609570894	SAMN37865670	1313	Streptococcus pneumoniae strain 02H2025 chromosome, complete genome	direct
+CP137113.1	CP137113.1	2609570899	SAMN37865669	1313	Streptococcus pneumoniae strain ZGX chromosome, complete genome	direct
+CP137114.1	CP137114.1	2609570897	SAMN37865668	1313	Streptococcus pneumoniae strain 15P3054 chromosome, complete genome	direct
+CP137115.1	CP137115.1	2609570898	SAMN37865667	1313	Streptococcus pneumoniae strain 20614-6 chromosome, complete genome	direct
+CP139860.1	CP139860.1	2636143929	SAMN38608486	1313	Streptococcus pneumoniae strain 21011 chromosome, complete genome	direct
+CP139861.1	CP139861.1	2636143930	SAMN38608497	1313	Streptococcus pneumoniae strain 16H2017-2 chromosome, complete genome	direct
+CP139862.1	CP139862.1	2636143931	SAMN38608520	1313	Streptococcus pneumoniae strain 05H0020-2 chromosome, complete genome	direct
+CP139863.1	CP139863.1	2636143932	SAMN38608524	1313	Streptococcus pneumoniae strain 15P2112 chromosome, complete genome	direct
+CP145437.1	CP145437.1	2695692441	SAMN21467761	1313	Streptococcus pneumoniae strain HAC 39-1996 chromosome, complete genome	direct
+CP147644.1	CP147644.1	3007207544	SAMN40299993	1313	Streptococcus pneumoniae strain K1544 chromosome, complete genome	direct
+CP148099.1	CP148099.1	3020072286	SAMN40299995	1313	Streptococcus pneumoniae strain LV2022 chromosome, complete genome	direct
+CP148100.1	CP148100.1	3020074139	SAMN40299995	1313	Streptococcus pneumoniae strain LV2022 plasmid unnamed, complete sequence	direct
+CP148101.1	CP148101.1	3007205626	SAMN40299994	1313	Mutant Streptococcus pneumoniae isolate K1544_delta_cps, complete genome	direct
+CP152418.1	CP152418.1	2804681355	SAMN41045349	1313	Streptococcus pneumoniae strain 20234287 chromosome, complete genome	direct
+CP154595.1	CP154595.1	2785723986	SAMN41136366	1313	Streptococcus pneumoniae strain serotype 4 chromosome, complete genome	direct
+CP154876.1	CP154876.1	2804677641	SAMN41043047	1313	Streptococcus pneumoniae strain 20155336 chromosome, complete genome	direct
+CP154877.1	CP154877.1	2804679527	SAMN41043309	1313	Streptococcus pneumoniae strain 20234295 chromosome, complete genome	direct
+CP155531.1	CP155531.1	2759643467	SAMN41056424	1313	Streptococcus pneumoniae strain SN36255 chromosome, complete genome	direct
+CP155532.1	CP155532.1	2759645968	SAMN41056425	1313	Streptococcus pneumoniae strain SP264 chromosome, complete genome	direct
+CP155533.1	CP155533.1	2759656823	SAMN41056430	1313	Streptococcus pneumoniae strain Spn1439-106 chromosome, complete genome	direct
+CP155534.1	CP155534.1	2759693865	SAMN41056431	1313	Streptococcus pneumoniae strain DCC1476 chromosome, complete genome	direct
+CP155535.1	CP155535.1	2759696624	SAMN41056432	1313	Streptococcus pneumoniae strain PJ755/1 chromosome, complete genome	direct
+CP155536.1	CP155536.1	2759699237	SAMN41056433	1313	Streptococcus pneumoniae strain M264-3 chromosome, complete genome	direct
+CP155537.1	CP155537.1	2759730926	SAMN41056436	1313	Streptococcus pneumoniae strain DP1322 chromosome, complete genome	direct
+CP155539.1	CP155539.1	2759735855	SAMN41056439	170187	Streptococcus pneumoniae TIGR4 chromosome, complete genome	direct
+CP156625.1	CP156625.1	2759654040	SAMN41056427	1313	Streptococcus pneumoniae strain TL7/1993 chromosome, complete genome	direct
+CP168260.1	CP168260.1	2796928550	SAMN43296922	1313	Streptococcus pneumoniae strain FC2 chromosome, complete genome	direct
+CP168299.1	CP168299.1	2797062064	SAMN43296889	1313	Streptococcus pneumoniae strain FC1 chromosome, complete genome	direct
+CP169564.1	CP169564.1	2805638034	SAMN43413908	1313	Streptococcus pneumoniae strain 6_2F1 chromosome, complete genome	direct
+CP173225.1	CP173225.1	2851416852	SAMN44604090	1313	Streptococcus pneumoniae strain 262 chromosome, complete genome	direct
+CP178339.1	CP178339.1	3070211992	SAMN46232259	1313	Streptococcus pneumoniae strain 20234456 chromosome, complete genome	direct
+CP185285.1	CP185285.1	2944418758	SAMN47436145	1313	Streptococcus pneumoniae strain 5141 chromosome, complete genome	direct
+CP199502.1	CP199502.1	3058713050	SAMN49764496	1313	Streptococcus pneumoniae strain TIGR4_10uM h180 1 chromosome, complete genome	direct
+CP199503.1	CP199503.1	3058712836	SAMN49764495	1313	Streptococcus pneumoniae strain TIGR4_DMSO control chromosome, complete genome	direct
+CP199504.1	CP199504.1	3058712840	SAMN49764495	1313	Streptococcus pneumoniae strain TIGR4_DMSO control plasmid unnamed	direct
+FM211187.1	FM211187.1	220673408	SAMEA1705947	561276	Streptococcus pneumoniae ATCC 700669 complete genome	direct
+FQ312027.1	FQ312027.1	301799149	SAMEA3138387	869215	Streptococcus pneumoniae OXC141 complete genome	direct
+FQ312029.1	FQ312029.1	301800973	SAMEA3138386	869216	Streptococcus pneumoniae INV200 genome	direct
+FQ312030.1	FQ312030.1	301793325	SAMEA3138388	869269	Streptococcus pneumoniae INV104 genome	direct
+FQ312039.1	FQ312039.1	301795359	SAMEA3138393	869311	Streptococcus pneumoniae SPN032672 draft genome	direct
+FQ312041.2	FQ312041.2	429322171	SAMEA3138391	869306	Streptococcus pneumoniae SPN994038 draft genome	direct
+FQ312043.1	FQ312043.1	301795362	SAMEA3138390	869304	Streptococcus pneumoniae SPN034183 draft genome	direct
+FQ312044.2	FQ312044.2	429320351	SAMEA3138392	869307	Streptococcus pneumoniae SPN994039 draft genome	direct
+FQ312045.1	FQ312045.1	301795364	SAMEA3138389	869303	Streptococcus pneumoniae SPN034156 draft genome	direct
+LN831051.1	LN831051.1	777228782	SAMEA2479568	1313	Streptococcus pneumoniae genome assembly NCTC7465, chromosome : 1	direct
+LN847353.1	LN847353.1	822603498	SAMEA3367470	1313	Streptococcus pneumoniae genome assembly S_pneumo_A66_v1, chromosome : I	direct
+LR129840.1	LR129840.1	1539176522	SAMEA5092020	1313	Streptococcus pneumoniae strain 4496 genome assembly, chromosome: 1	direct
+LR129841.1	LR129841.1	1539176523	SAMEA5092021	1313	Streptococcus pneumoniae strain 947 genome assembly, chromosome: 1	direct
+LR129843.1	LR129843.1	1539176524	SAMEA5092023	1313	Streptococcus pneumoniae strain 180-2 genome assembly, chromosome: 1	direct
+LR129844.1	LR129844.1	1539176525	SAMEA5092024	1313	Streptococcus pneumoniae strain 180-15 genome assembly, chromosome: 1	direct
+LR134294.1	LR134294.1	1539761707	SAMEA3679170	1313	Streptococcus pneumoniae strain NCTC12977 genome assembly, chromosome: 1	direct
+LR216050.1	LR216050.1	1578239783	SAMEA3431333	1313	Streptococcus pneumoniae isolate GPS_US_PATH396-sc-2296505 genome assembly, chromosome: 1	direct
+LR216060.1	LR216060.1	1578269167	SAMEA3713867	1313	Streptococcus pneumoniae strain 2245STDY6178787 genome assembly, chromosome: 1	direct
+LR216064.1	LR216064.1	1578281184	SAMEA3714520	1313	Streptococcus pneumoniae isolate 569492b0-41bd-11e5-998e-3c4a9275d6c6 genome assembly, chromosome: 1	direct
+LR216065.1	LR216065.1	1578283232	SAMEA3714487	1313	Streptococcus pneumoniae isolate 55896440-41bd-11e5-998e-3c4a9275d6c6 genome assembly, chromosome: 1	direct
+LR536843.1	LR536843.1	1601512971	SAMEA104035599	1313	Streptococcus pneumoniae isolate b04a6400-1f66-11e7-b93e-3c4a9275d6c8 genome assembly, chromosome: 1	direct
+LR595848.1	LR595848.1	1679569934	SAMEA5092022	1313	Streptococcus pneumoniae strain 4559 genome assembly, chromosome: 1	direct
+LR595849.1	LR595849.1	1679569935	SAMEA5092022	1313	Streptococcus pneumoniae strain 4559 genome assembly, plasmid: 2	direct
+LS483374.1	LS483374.1	1403373830	SAMEA3714884	1313	Streptococcus pneumoniae strain NCTC7466 genome assembly, chromosome: 1	direct
+LS483390.1	LS483390.1	1403408006	SAMEA3649044	1313	Streptococcus pneumoniae strain NCTC13276 genome assembly, chromosome: 1	direct
+LS483417.1	LS483417.1	1403472623	SAMEA3956100	1313	Streptococcus pneumoniae strain NCTC11902 genome assembly, chromosome: 1	direct
+LS483448.1	LS483448.1	1403546837	SAMEA104042953	1313	Streptococcus pneumoniae strain 4041STDY6836167 genome assembly, chromosome: 1	direct
+LS483449.1	LS483449.1	1403546838	SAMEA104042956	1313	Streptococcus pneumoniae strain 4041STDY6836170 genome assembly, chromosome: 1	direct
+LS483450.1	LS483450.1	1403546839	SAMEA4469815	1313	Streptococcus pneumoniae strain 4041STDY6583227 genome assembly, chromosome: 1	direct
+LS483451.1	LS483451.1	1403546840	SAMEA104042952	1313	Streptococcus pneumoniae strain 4041STDY6836166 genome assembly, chromosome: 1	direct
+LS483523.1	LS483523.1	1403730152	SAMEA104042955	1313	Streptococcus pneumoniae strain 4041STDY6836169 genome assembly, chromosome: 1	direct
+NC_003028.3	NC_003028.3	194172857	SAMN02604002	170187	Streptococcus pneumoniae TIGR4, complete sequence	direct
+NC_003098.1	NC_003098.1	15902044	SAMN02603218	171101	Streptococcus pneumoniae R6, complete sequence	direct
+NC_008533.2	NC_008533.2	1390955831	SAMN02604051	373153	Streptococcus pneumoniae D39, complete sequence	direct
+NC_010380.1	NC_010380.1	169832377	SAMN02603442	487214	Streptococcus pneumoniae Hungary19A-6, complete sequence	direct
+NC_010582.1	NC_010582.1	182682970	SAMN02603015	516950	Streptococcus pneumoniae CGSP14, complete sequence	direct
+NC_011900.1	NC_011900.1	221230948	SAMEA1705947	561276	Streptococcus pneumoniae ATCC 700669, complete sequence	direct
+NC_012466.1	NC_012466.1	225853611	SAMN02603444	488222	Streptococcus pneumoniae JJA, complete sequence	direct
+NC_012467.1	NC_012467.1	225855735	SAMN02603445	488223	Streptococcus pneumoniae P1031, complete sequence	direct
+NC_012468.1	NC_012468.1	225857809	SAMN02603446	488221	Streptococcus pneumoniae 70585, complete sequence	direct
+NC_012469.1	NC_012469.1	225860012	SAMN02603443	487213	Streptococcus pneumoniae Taiwan19F-14, complete sequence	direct
+NC_014251.1	NC_014251.1	298501502	SAMN00002223	525381	Streptococcus pneumoniae TCH8431/19A, complete sequence	direct
+NC_014498.1	NC_014498.1	307126151	SAMN02604004	189423	Streptococcus pneumoniae 670-6B, complete sequence	direct
+NC_017591.1	NC_017591.1	387625543	SAMEA3138388	869269	Streptococcus pneumoniae INV104, complete sequence	direct
+NC_017592.1	NC_017592.1	387756560	SAMEA3138387	869215	Streptococcus pneumoniae OXC141, complete sequence	direct
+NC_017593.1	NC_017593.1	387758384	SAMEA3138386	869216	Streptococcus pneumoniae INV200, complete sequence	direct
+NC_017769.2	NC_017769.2	920658213	SAMN02604071	1130804	Streptococcus pneumoniae ST556, complete sequence	direct
+NC_018630.1	NC_018630.1	410475457	SAMN02299431	697283	Streptococcus pneumoniae gamPNI0373, complete sequence	direct
+NC_021003.1	NC_021003.1	479134147	SAMEA3138393	869311	Streptococcus pneumoniae SPN032672, complete sequence	direct
+NC_021005.1	NC_021005.1	480530348	SAMEA3138392	869307	Streptococcus pneumoniae SPN994039, complete sequence	direct
+NC_021006.1	NC_021006.1	480532168	SAMEA3138389	869303	Streptococcus pneumoniae SPN034156, complete sequence	direct
+NC_021026.1	NC_021026.1	480533968	SAMEA3138391	869306	Streptococcus pneumoniae SPN994038, complete sequence	direct
+NC_021028.1	NC_021028.1	480535788	SAMEA3138390	869304	Streptococcus pneumoniae SPN034183, complete sequence	direct
+NZ_AKVY01000001.1	NZ_AKVY01000001.1	452723578	SAMN02597080	170187	Streptococcus pneumoniae TIGR4 chromosome, whole genome shotgun sequence	direct
+NZ_AP017971.1	NZ_AP017971.1	1246791448	SAMD00073590	1313	Streptococcus pneumoniae strain KK0981 chromosome, complete genome	direct
+NZ_AP018391.1	NZ_AP018391.1	1486674874	SAMD00096762	1313	Streptococcus pneumoniae strain MDRSPN001 chromosome, complete genome	direct
+NZ_AP018936.1	NZ_AP018936.1	1545271005	SAMD00137663	1313	Streptococcus pneumoniae strain NU83127 chromosome, complete genome	direct
+NZ_AP018937.1	NZ_AP018937.1	1545244768	SAMD00137664	1313	Streptococcus pneumoniae strain HU-OH chromosome, complete genome	direct
+NZ_AP018938.1	NZ_AP018938.1	1545305887	SAMD00137665	1313	Streptococcus pneumoniae strain ATCC 49619 chromosome, complete genome	direct
+NZ_AP019192.2	NZ_AP019192.2	1751996800	SAMD00110695	1313	Streptococcus pneumoniae strain ASP0581 chromosome, complete genome	direct
+NZ_AP025936.1	NZ_AP025936.1	2502875016	SAMD00453553	1313	Streptococcus pneumoniae strain PZ900700617 chromosome, complete genome	direct
+NZ_AP025937.1	NZ_AP025937.1	2502871163	SAMD00453554	1313	Streptococcus pneumoniae strain PZ900700792 chromosome, complete genome	direct
+NZ_AP025938.1	NZ_AP025938.1	2502877600	SAMD00453556	1313	Streptococcus pneumoniae strain PZ900701057 chromosome, complete genome	direct
+NZ_AP025939.1	NZ_AP025939.1	2502877263	SAMD00453558	1313	Streptococcus pneumoniae strain Utah_35B-24 chromosome, complete genome	direct
+NZ_AP025940.1	NZ_AP025940.1	2502871642	SAMD00453552	1313	Streptococcus pneumoniae strain PZ900700204 chromosome, complete genome	direct
+NZ_AP026914.1	NZ_AP026914.1	2612182331	SAMD00547688	1313	Streptococcus pneumoniae strain PZ900700003 chromosome, complete genome	direct
+NZ_AP026915.1	NZ_AP026915.1	2612292643	SAMD00547689	1313	Streptococcus pneumoniae strain PZ900700005 chromosome, complete genome	direct
+NZ_AP026916.1	NZ_AP026916.1	2612166951	SAMD00547690	1313	Streptococcus pneumoniae strain PZ900700006 chromosome, complete genome	direct
+NZ_AP026917.1	NZ_AP026917.1	2612170521	SAMD00547691	1313	Streptococcus pneumoniae strain PZ900700007 chromosome, complete genome	direct
+NZ_AP026918.1	NZ_AP026918.1	2612204999	SAMD00547692	1313	Streptococcus pneumoniae strain PZ900700009 chromosome, complete genome	direct
+NZ_AP026919.1	NZ_AP026919.1	2612201767	SAMD00547693	1313	Streptococcus pneumoniae strain PZ900700012 chromosome, complete genome	direct
+NZ_AP026920.1	NZ_AP026920.1	2612184934	SAMD00547694	1313	Streptococcus pneumoniae strain PZ900700014 chromosome, complete genome	direct
+NZ_AP026921.1	NZ_AP026921.1	2612796938	SAMD00547695	1313	Streptococcus pneumoniae strain PZ900700027 chromosome, complete genome	direct
+NZ_AP026922.1	NZ_AP026922.1	2612196224	SAMD00547696	1313	Streptococcus pneumoniae strain PZ900700038 chromosome, complete genome	direct
+NZ_AP026923.1	NZ_AP026923.1	2612206628	SAMD00547697	1313	Streptococcus pneumoniae strain PZ900700054 chromosome, complete genome	direct
+NZ_AP026924.1	NZ_AP026924.1	2612224850	SAMD00547698	1313	Streptococcus pneumoniae strain PZ900700063 chromosome, complete genome	direct
+NZ_AP026925.1	NZ_AP026925.1	2612187358	SAMD00547699	1313	Streptococcus pneumoniae strain PZ900700097 chromosome, complete genome	direct
+NZ_AP026926.1	NZ_AP026926.1	2612175521	SAMD00547700	1313	Streptococcus pneumoniae strain PZ900700119 chromosome, complete genome	direct
+NZ_AP026927.1	NZ_AP026927.1	2612200134	SAMD00547701	1313	Streptococcus pneumoniae strain PZ900700178 chromosome, complete genome	direct
+NZ_AP026928.1	NZ_AP026928.1	2612207800	SAMD00547702	1313	Streptococcus pneumoniae strain PZ900700406 chromosome, complete genome	direct
+NZ_AP026929.1	NZ_AP026929.1	2612198766	SAMD00547703	1313	Streptococcus pneumoniae strain PZ900701114 chromosome, complete genome	direct
+NZ_AP026930.1	NZ_AP026930.1	2612209042	SAMD00547704	1313	Streptococcus pneumoniae strain PZ900701208 chromosome, complete genome	direct
+NZ_AP026931.1	NZ_AP026931.1	2612179718	SAMD00547705	1313	Streptococcus pneumoniae strain PZ900701541 chromosome, complete genome	direct
+NZ_AP026932.1	NZ_AP026932.1	2612197588	SAMD00547706	1313	Streptococcus pneumoniae strain PZ900701549 chromosome, complete genome	direct
+NZ_AP028601.1	NZ_AP028601.1	2708223714	SAMD00602882	1313	Streptococcus pneumoniae strain PF1 chromosome, complete genome	direct
+NZ_AP028602.1	NZ_AP028602.1	2708223877	SAMD00602883	1313	Streptococcus pneumoniae strain PF2 chromosome, complete genome	direct
+NZ_AP028603.1	NZ_AP028603.1	2708223581	SAMD00602884	1313	Streptococcus pneumoniae strain Pne2 chromosome, complete genome	direct
+NZ_AP028604.1	NZ_AP028604.1	2708225591	SAMD00602885	1313	Streptococcus pneumoniae strain Pne3 chromosome, complete genome	direct
+NZ_AP028605.1	NZ_AP028605.1	2708225312	SAMD00602886	1313	Streptococcus pneumoniae strain Pne4 chromosome, complete genome	direct
+NZ_AP028606.1	NZ_AP028606.1	2708223889	SAMD00602887	1313	Streptococcus pneumoniae strain Sep1 chromosome, complete genome	direct
+NZ_AP028607.1	NZ_AP028607.1	2708223853	SAMD00602888	1313	Streptococcus pneumoniae strain Sep2 chromosome, complete genome	direct
+NZ_AP028608.1	NZ_AP028608.1	2708228507	SAMD00602889	1313	Streptococcus pneumoniae strain Sep3 chromosome, complete genome	direct
+NZ_AP028609.1	NZ_AP028609.1	2708227616	SAMD00602890	1313	Streptococcus pneumoniae strain Sep4 chromosome, complete genome	direct
+NZ_AP028610.1	NZ_AP028610.1	2708227900	SAMD00602891	1313	Streptococcus pneumoniae strain Sep5 chromosome, complete genome	direct
+NZ_AP028611.1	NZ_AP028611.1	2709316739	SAMD00602892	1313	Streptococcus pneumoniae strain Sep6 chromosome, complete genome	direct
+NZ_AP028612.1	NZ_AP028612.1	2709316909	SAMD00602892	1313	Streptococcus pneumoniae strain Sep6 plasmid pSep6, complete sequence	direct
+NZ_AP028877.1	NZ_AP028877.1	2708230160	SAMD00638583	1313	Streptococcus pneumoniae strain 21P20 chromosome, complete genome	direct
+NZ_AP031394.1	NZ_AP031394.1	2785119378	SAMD00622273	1313	Streptococcus pneumoniae strain 16P28 chromosome, complete genome	direct
+NZ_AP031395.1	NZ_AP031395.1	2785119376	SAMD00622274	1313	Streptococcus pneumoniae strain 16P29 chromosome, complete genome	direct
+NZ_CP018136.1	NZ_CP018136.1	1120312559	SAMN05981365	1313	Streptococcus pneumoniae strain SP49 chromosome, complete genome	direct
+NZ_CP018137.1	NZ_CP018137.1	1120211237	SAMN06009945	1313	Streptococcus pneumoniae strain SP61 chromosome, complete genome	direct
+NZ_CP018138.1	NZ_CP018138.1	1120322617	SAMN06009955	1313	Streptococcus pneumoniae strain SP64 chromosome, complete genome	direct
+NZ_CP018347.1	NZ_CP018347.1	1121073309	SAMN06109026	1313	Streptococcus pneumoniae strain SWU02 chromosome, complete genome	direct
+NZ_CP018838.1	NZ_CP018838.1	1302483397	SAMN06166933	1313	Streptococcus pneumoniae strain 11A chromosome, complete genome	direct
+NZ_CP019299.1	NZ_CP019299.1	1551182114	SAMN06233407	1313	Streptococcus pneumoniae strain HKU1-14 chromosome, complete genome	direct
+NZ_CP025076.1	NZ_CP025076.1	1302574121	SAMN08105887	1313	Streptococcus pneumoniae strain BHN97x chromosome, complete genome	direct
+NZ_CP025256.1	NZ_CP025256.1	1316433688	SAMN08155818	1313	Streptococcus pneumoniae strain Xen35 chromosome, complete genome	direct
+NZ_CP026670.1	NZ_CP026670.1	1352956104	SAMN08501023	1313	Streptococcus pneumoniae strain endophthalmitis isolate 335 chromosome, complete genome	direct
+NZ_CP027540.1	NZ_CP027540.1	1361062355	SAMN04093378	1313	Streptococcus pneumoniae strain D39V chromosome, complete genome	direct
+NZ_CP031245.1	NZ_CP031245.1	1441346688	SAMN09704646	1313	Streptococcus pneumoniae strain M16808 chromosome, complete genome	direct
+NZ_CP031246.1	NZ_CP031246.1	1441331453	SAMN09704658	1313	Streptococcus pneumoniae strain M26368 chromosome, complete genome	direct
+NZ_CP031247.1	NZ_CP031247.1	1441331501	SAMN09704656	1313	Streptococcus pneumoniae strain M23734 chromosome, complete genome	direct
+NZ_CP031248.1	NZ_CP031248.1	1441330703	SAMN09704657	1313	Streptococcus pneumoniae strain M26365 chromosome, complete genome	direct
+NZ_CP035234.1	NZ_CP035234.1	2192665083	SAMN10734540	1313	Streptococcus pneumoniae strain TVO_1902277 chromosome, complete genome	direct
+NZ_CP035235.1	NZ_CP035235.1	2192652852	SAMN10734539	1313	Streptococcus pneumoniae strain TVO_1902276 chromosome, complete genome	direct
+NZ_CP035236.1	NZ_CP035236.1	2192612378	SAMN10734538	1313	Streptococcus pneumoniae strain TVO_1902282 chromosome, complete genome	direct
+NZ_CP035237.1	NZ_CP035237.1	2192654639	SAMN10734537	1313	Streptococcus pneumoniae strain TVO_Taiwan19F-14 chromosome, complete genome	direct
+NZ_CP035238.1	NZ_CP035238.1	2192621328	SAMN10734536	1313	Streptococcus pneumoniae strain TVO_D39 chromosome, complete genome	direct
+NZ_CP035239.1	NZ_CP035239.1	2192665037	SAMN10734535	1313	Streptococcus pneumoniae strain TVO_TIGR4 chromosome, complete genome	direct
+NZ_CP035241.1	NZ_CP035241.1	2192625962	SAMN10734533	1313	Streptococcus pneumoniae strain TVO_1901948 chromosome, complete genome	direct
+NZ_CP035242.1	NZ_CP035242.1	2192621195	SAMN10734532	1313	Streptococcus pneumoniae strain TVO_1901947 chromosome, complete genome	direct
+NZ_CP035243.1	NZ_CP035243.1	2192622645	SAMN10734531	1313	Streptococcus pneumoniae strain TVO_1901946 chromosome, complete genome	direct
+NZ_CP035244.1	NZ_CP035244.1	2192621255	SAMN10734530	1313	Streptococcus pneumoniae strain TVO_1901945 chromosome, complete genome	direct
+NZ_CP035245.1	NZ_CP035245.1	2192652972	SAMN10734529	1313	Streptococcus pneumoniae strain TVO_1901943 chromosome, complete genome	direct
+NZ_CP035246.1	NZ_CP035246.1	2192625833	SAMN10734528	1313	Streptococcus pneumoniae strain TVO_1901941 chromosome, complete genome	direct
+NZ_CP035247.1	NZ_CP035247.1	2192644001	SAMN10734527	1313	Streptococcus pneumoniae strain TVO_1901940 chromosome, complete genome	direct
+NZ_CP035248.1	NZ_CP035248.1	2192617949	SAMN10734526	1313	Streptococcus pneumoniae strain TVO_1901939 chromosome, complete genome	direct
+NZ_CP035249.1	NZ_CP035249.1	2192615352	SAMN10734525	1313	Streptococcus pneumoniae strain TVO_1901938 chromosome, complete genome	direct
+NZ_CP035251.1	NZ_CP035251.1	2192618064	SAMN10734523	1313	Streptococcus pneumoniae strain TVO_1901935 chromosome, complete genome	direct
+NZ_CP035252.1	NZ_CP035252.1	2192650830	SAMN10734522	1313	Streptococcus pneumoniae strain TVO_1901934 chromosome, complete genome	direct
+NZ_CP035254.1	NZ_CP035254.1	2192654871	SAMN10734520	1313	Streptococcus pneumoniae strain TVO_1901932 chromosome, complete genome	direct
+NZ_CP035256.1	NZ_CP035256.1	2192626173	SAMN10734518	1313	Streptococcus pneumoniae strain TVO_1901930 chromosome, complete genome	direct
+NZ_CP035257.1	NZ_CP035257.1	2192625349	SAMN10734517	1313	Streptococcus pneumoniae strain TVO_1901928 chromosome, complete genome	direct
+NZ_CP035258.1	NZ_CP035258.1	2192642660	SAMN10734516	1313	Streptococcus pneumoniae strain TVO_1901927 chromosome, complete genome	direct
+NZ_CP035259.1	NZ_CP035259.1	2192649997	SAMN10734515	1313	Streptococcus pneumoniae strain TVO_1901926 chromosome, complete genome	direct
+NZ_CP035260.1	NZ_CP035260.1	2192652739	SAMN10734514	1313	Streptococcus pneumoniae strain TVO_1901925 chromosome, complete genome	direct
+NZ_CP035261.1	NZ_CP035261.1	2192643432	SAMN10734513	1313	Streptococcus pneumoniae strain TVO_1901924 chromosome, complete genome	direct
+NZ_CP035262.1	NZ_CP035262.1	2192647792	SAMN10734512	1313	Streptococcus pneumoniae strain TVO_1901923 chromosome, complete genome	direct
+NZ_CP035263.1	NZ_CP035263.1	2192617690	SAMN10734511	1313	Streptococcus pneumoniae strain TVO_1901922 chromosome, complete genome	direct
+NZ_CP035264.1	NZ_CP035264.1	2192612120	SAMN10734510	1313	Streptococcus pneumoniae strain TVO_1901921 chromosome, complete genome	direct
+NZ_CP035265.1	NZ_CP035265.1	2192627262	SAMN10734509	1313	Streptococcus pneumoniae strain TVO_1901920 chromosome, complete genome	direct
+NZ_CP038251.1	NZ_CP038251.1	2192651492	SAMN10734565	1313	Streptococcus pneumoniae strain TVO_1901944 chromosome, complete genome	direct
+NZ_CP038252.1	NZ_CP038252.1	2192615770	SAMN10734563	1313	Streptococcus pneumoniae strain TVO_1901936 chromosome, complete genome	direct
+NZ_CP038253.1	NZ_CP038253.1	2192624519	SAMN10734562	1313	Streptococcus pneumoniae strain TVO_1901929 chromosome, complete genome	direct
+NZ_CP038808.1	NZ_CP038808.1	1740684763	SAMN11338705	1313	Streptococcus pneumoniae strain R6CIB17 chromosome, complete genome	direct
+NZ_CP045931.1	NZ_CP045931.1	1776848355	SAMN13191652	1313	Streptococcus pneumoniae strain AUSMDU00010538 chromosome, complete genome	direct
+NZ_CP046354.1	NZ_CP046354.1	1941912116	SAMN13321470	1313	Streptococcus pneumoniae strain 310 chromosome, complete genome	direct
+NZ_CP046355.1	NZ_CP046355.1	1941912870	SAMN13321471	1313	Streptococcus pneumoniae strain 475 chromosome, complete genome	direct
+NZ_CP046356.1	NZ_CP046356.1	1941913453	SAMN13321472	1313	Streptococcus pneumoniae strain 521 chromosome, complete genome	direct
+NZ_CP046357.1	NZ_CP046357.1	1941913447	SAMN13321473	1313	Streptococcus pneumoniae strain 525 chromosome, complete genome	direct
+NZ_CP046358.1	NZ_CP046358.1	1941912888	SAMN13321474	1313	Streptococcus pneumoniae strain 566 chromosome, complete genome	direct
+NZ_CP046359.1	NZ_CP046359.1	1941937096	SAMN13321476	1313	Streptococcus pneumoniae strain 573 chromosome, complete genome	direct
+NZ_CP046360.1	NZ_CP046360.1	1941937171	SAMN13321477	1313	Streptococcus pneumoniae strain 574 chromosome, complete genome	direct
+NZ_CP046379.1	NZ_CP046379.1	1941913177	SAMN13321475	1313	Streptococcus pneumoniae strain 563 chromosome, complete genome	direct
+NZ_CP050175.1	NZ_CP050175.1	1824794074	SAMN14380576	1313	Streptococcus pneumoniae strain PZ900701590 chromosome, complete genome	direct
+NZ_CP050176.1	NZ_CP050176.1	1824794420	SAMN14380576	1313	Streptococcus pneumoniae strain PZ900701590 plasmid unnamed, complete sequence	direct
+NZ_CP053210.1	NZ_CP053210.1	1841197619	SAMN14779717	1313	Streptococcus pneumoniae strain 6A-10 chromosome, complete genome	direct
+NZ_CP060156.1	NZ_CP060156.1	2208215918	SAMN15783364	1313	Streptococcus pneumoniae strain PZ900700608 chromosome, complete genome	direct
+NZ_CP061208.1	NZ_CP061208.1	2036908687	SAMN15858987	1313	Streptococcus pneumoniae strain D39_P0 chromosome, complete genome	direct
+NZ_CP063829.1	NZ_CP063829.1	2302850538	SAMN16580452	1313	Streptococcus pneumoniae strain 19A-ST320_99-176 chromosome, complete genome	direct
+NZ_CP071871.1	NZ_CP071871.1	2017436711	SAMN17602804	1313	Streptococcus pneumoniae strain BVJ1JL chromosome, complete genome	direct
+NZ_CP071916.1	NZ_CP071916.1	2175970177	SAMN18323756	1313	Streptococcus pneumoniae strain 19A-19087 chromosome, complete genome	direct
+NZ_CP071917.1	NZ_CP071917.1	2176010980	SAMN18323755	1313	Streptococcus pneumoniae strain 19A-19339 chromosome, complete genome	direct
+NZ_CP071918.1	NZ_CP071918.1	2176039934	SAMN18323757	1313	Streptococcus pneumoniae strain 19A-19343 chromosome, complete genome	direct
+NZ_CP076417.1	NZ_CP076417.1	3057771167	SAMN19573833	1313	Streptococcus pneumoniae strain S860 chromosome, complete genome	direct
+NZ_CP076418.1	NZ_CP076418.1	3057771215	SAMN19573832	1313	Streptococcus pneumoniae strain S857 chromosome, complete genome	direct
+NZ_CP076419.1	NZ_CP076419.1	3057771095	SAMN19573831	1313	Streptococcus pneumoniae strain S855 chromosome, complete genome	direct
+NZ_CP076420.1	NZ_CP076420.1	3057771255	SAMN19573830	1313	Streptococcus pneumoniae strain S854 chromosome, complete genome	direct
+NZ_CP076421.1	NZ_CP076421.1	3057771133	SAMN19573829	1313	Streptococcus pneumoniae strain S853 chromosome, complete genome	direct
+NZ_CP076422.1	NZ_CP076422.1	3057771225	SAMN19573828	1313	Streptococcus pneumoniae strain S845 chromosome, complete genome	direct
+NZ_CP076423.1	NZ_CP076423.1	3057771164	SAMN19573827	1313	Streptococcus pneumoniae strain S724 chromosome, complete genome	direct
+NZ_CP076424.1	NZ_CP076424.1	3057771196	SAMN19573826	1313	Streptococcus pneumoniae strain S591 chromosome, complete genome	direct
+NZ_CP076425.1	NZ_CP076425.1	3057771130	SAMN19573825	1313	Streptococcus pneumoniae strain S589 chromosome, complete genome	direct
+NZ_CP076426.1	NZ_CP076426.1	3057771221	SAMN19573824	1313	Streptococcus pneumoniae strain S580 chromosome, complete genome	direct
+NZ_CP076427.1	NZ_CP076427.1	3057771257	SAMN19573823	1313	Streptococcus pneumoniae strain S577 chromosome, complete genome	direct
+NZ_CP076428.1	NZ_CP076428.1	3057771195	SAMN19573822	1313	Streptococcus pneumoniae strain S542 chromosome, complete genome	direct
+NZ_CP076429.1	NZ_CP076429.1	3057771229	SAMN19573821	1313	Streptococcus pneumoniae strain S471 chromosome, complete genome	direct
+NZ_CP076430.1	NZ_CP076430.1	3057771125	SAMN19573820	1313	Streptococcus pneumoniae strain S617 chromosome, complete genome	direct
+NZ_CP076431.1	NZ_CP076431.1	3057771201	SAMN19573819	1313	Streptococcus pneumoniae strain PP9 chromosome, complete genome	direct
+NZ_CP076432.1	NZ_CP076432.1	3057771157	SAMN19573818	1313	Streptococcus pneumoniae strain PP6 chromosome, complete genome	direct
+NZ_CP076433.1	NZ_CP076433.1	3057771302	SAMN19573817	1313	Streptococcus pneumoniae strain PP3 chromosome, complete genome	direct
+NZ_CP076434.1	NZ_CP076434.1	3057771121	SAMN19573816	1313	Streptococcus pneumoniae strain PP14 chromosome, complete genome	direct
+NZ_CP076435.1	NZ_CP076435.1	3057771088	SAMN19573815	1313	Streptococcus pneumoniae strain PP13 chromosome, complete genome	direct
+NZ_CP076436.1	NZ_CP076436.1	3057771193	SAMN19573814	1313	Streptococcus pneumoniae strain PP12 chromosome, complete genome	direct
+NZ_CP076437.1	NZ_CP076437.1	3057771253	SAMN19573813	1313	Streptococcus pneumoniae strain PP11 chromosome, complete genome	direct
+NZ_CP079922.1	NZ_CP079922.1	2077048737	SAMN20327787	1313	Streptococcus pneumoniae strain R36A chromosome, complete genome	direct
+NZ_CP079923.1	NZ_CP079923.1	2077277137	SAMN20337307	1313	Streptococcus pneumoniae strain Rx1 chromosome, complete genome	direct
+NZ_CP082820.1	NZ_CP082820.1	2091901519	SAMN20982453	1313	Streptococcus pneumoniae strain SCAID PHRX1-2021 chromosome, complete genome	direct
+NZ_CP083627.1	NZ_CP083627.1	2103600874	SAMN21218864	1313	Streptococcus pneumoniae strain FDAARGOS_1508 chromosome, complete genome	direct
+NZ_CP089948.1	NZ_CP089948.1	2263065923	SAMN24060681	170187	Streptococcus pneumoniae TIGR4 chromosome, complete genome	direct
+NZ_CP089949.1	NZ_CP089949.1	2263107376	SAMN24060680	1313	Streptococcus pneumoniae strain SN75752 chromosome, complete genome	direct
+NZ_CP090881.1	NZ_CP090881.1	2196791186	SAMN08647280	1313	Streptococcus pneumoniae strain BR1268 chromosome, complete genome	direct
+NZ_CP090882.1	NZ_CP090882.1	2196788222	SAMN08647361	1313	Streptococcus pneumoniae strain CH2241 chromosome, complete genome	direct
+NZ_CP090883.1	NZ_CP090883.1	2196819815	SAMN08647548	1313	Streptococcus pneumoniae strain LE4448 chromosome, complete genome	direct
+NZ_CP090884.1	NZ_CP090884.1	2196807732	SAMN08647626	1313	Streptococcus pneumoniae strain MD5403 chromosome, complete genome	direct
+NZ_CP090885.1	NZ_CP090885.1	2196794080	SAMN08647706	1313	Streptococcus pneumoniae strain ND6401 chromosome, complete genome	direct
+NZ_CP090886.1	NZ_CP090886.1	2196783963	SAMN08647831	1313	Streptococcus pneumoniae strain NP7513 chromosome, complete genome	direct
+NZ_CP090887.1	NZ_CP090887.1	2196791257	SAMN08647838	1313	Streptococcus pneumoniae strain NP7536 chromosome, complete genome	direct
+NZ_CP090888.1	NZ_CP090888.1	2196819769	SAMN08647902	1313	Streptococcus pneumoniae strain PT8465 chromosome, complete genome	direct
+NZ_CP090889.1	NZ_CP090889.1	2196809334	SAMN08647378	1313	Streptococcus pneumoniae strain CH2439 chromosome, complete genome	direct
+NZ_CP091450.1	NZ_CP091450.1	2316318500	SAMN25149807	1313	Streptococcus pneumoniae strain 3641/15 chromosome, complete genome	direct
+NZ_CP091451.1	NZ_CP091451.1	2316318516	SAMN25149806	1313	Streptococcus pneumoniae strain 3238/09 chromosome, complete genome	direct
+NZ_CP096809.1	NZ_CP096809.1	2419474025	SAMN27647185	1313	Streptococcus pneumoniae strain SP007 chromosome, complete genome	direct
+NZ_CP099641.1	NZ_CP099641.1	2595081315	SAMN28929526	1313	Streptococcus pneumoniae strain ATCC 700671 chromosome, complete genome	direct
+NZ_CP102583.1	NZ_CP102583.1	2287329442	SAMN26566062	1313	Streptococcus pneumoniae strain D39Mega17545 chromosome, complete genome	direct
+NZ_CP107038.1	NZ_CP107038.1	2512318390	SAMN31139171	1313	Streptococcus pneumoniae strain BM6001 chromosome, complete genome	direct
+NZ_CP113114.1	NZ_CP113114.1	2388360964	SAMN31844607	1313	Streptococcus pneumoniae strain NP1 chromosome, complete genome	direct
+NZ_CP113115.1	NZ_CP113115.1	2388644807	SAMN31844858	1313	Streptococcus pneumoniae strain NP2 chromosome, complete genome	direct
+NZ_CP113266.1	NZ_CP113266.1	2399541811	SAMN31830494	1313	Streptococcus pneumoniae strain BC1 chromosome, complete genome	direct
+NZ_CP113267.1	NZ_CP113267.1	2399492352	SAMN31830702	1313	Streptococcus pneumoniae strain BC2 chromosome, complete genome	direct
+NZ_CP125291.1	NZ_CP125291.1	2507198529	SAMN35018717	1313	Streptococcus pneumoniae strain 105_Kz chromosome, complete genome	direct
+NZ_CP131706.1	NZ_CP131706.1	2720582032	SAMN36766248	1313	Streptococcus pneumoniae strain 2018N21-288 chromosome, complete genome	direct
+NZ_CP131707.1	NZ_CP131707.1	2720635891	SAMN36766247	1313	Streptococcus pneumoniae strain 2018C08-270 chromosome, complete genome	direct
+NZ_CP131708.1	NZ_CP131708.1	2720558135	SAMN36766246	1313	Streptococcus pneumoniae strain 2016C10-332 chromosome, complete genome	direct
+NZ_CP131709.1	NZ_CP131709.1	2720620952	SAMN36766245	1313	Streptococcus pneumoniae strain 2016S11-245 chromosome, complete genome	direct
+NZ_CP131710.1	NZ_CP131710.1	2720585646	SAMN36766244	1313	Streptococcus pneumoniae strain 2014S11-203 chromosome, complete genome	direct
+NZ_CP131711.1	NZ_CP131711.1	2720636217	SAMN36766243	1313	Streptococcus pneumoniae strain 2014C08-275 chromosome, complete genome	direct
+NZ_CP131712.1	NZ_CP131712.1	2720610163	SAMN36766242	1313	Streptococcus pneumoniae strain 2008C09-280 chromosome, complete genome	direct
+NZ_CP131713.1	NZ_CP131713.1	2720585552	SAMN36766241	1313	Streptococcus pneumoniae strain 2008C09-276 chromosome, complete genome	direct
+NZ_CP131714.1	NZ_CP131714.1	2720635386	SAMN36766240	1313	Streptococcus pneumoniae strain 2008C04-309 chromosome, complete genome	direct
+NZ_CP131715.1	NZ_CP131715.1	2721391030	SAMN36766239	1313	Streptococcus pneumoniae strain 2006C08-243 chromosome, complete genome	direct
+NZ_CP136899.1	NZ_CP136899.1	2612254545	SAMN37855267	1313	Streptococcus pneumoniae strain ST62 chromosome, complete genome	direct
+NZ_CP137099.1	NZ_CP137099.1	2612625595	SAMN37865683	1313	Streptococcus pneumoniae strain 20824-4 chromosome, complete genome	direct
+NZ_CP137100.1	NZ_CP137100.1	2612770500	SAMN37865682	1313	Streptococcus pneumoniae strain LYP chromosome, complete genome	direct
+NZ_CP137101.1	NZ_CP137101.1	2612722320	SAMN37865681	1313	Streptococcus pneumoniae strain 16P2012-2 chromosome, complete genome	direct
+NZ_CP137102.1	NZ_CP137102.1	2612720805	SAMN37865680	1313	Streptococcus pneumoniae strain 16H3071-2 chromosome, complete genome	direct
+NZ_CP137103.1	NZ_CP137103.1	2612707826	SAMN37865679	1313	Streptococcus pneumoniae strain 21334 chromosome, complete genome	direct
+NZ_CP137104.1	NZ_CP137104.1	2612803962	SAMN37865678	1313	Streptococcus pneumoniae strain LM chromosome, complete genome	direct
+NZ_CP137105.1	NZ_CP137105.1	2612690481	SAMN37865677	1313	Streptococcus pneumoniae strain 16H2092 chromosome, complete genome	direct
+NZ_CP137106.1	NZ_CP137106.1	2612731270	SAMN37865676	1313	Streptococcus pneumoniae strain 16P4028 chromosome, complete genome	direct
+NZ_CP137107.1	NZ_CP137107.1	2612723056	SAMN37865675	1313	Streptococcus pneumoniae strain 15H4024 chromosome, complete genome	direct
+NZ_CP137108.1	NZ_CP137108.1	2612806144	SAMN37865674	1313	Streptococcus pneumoniae strain OXT chromosome, complete genome	direct
+NZ_CP137109.1	NZ_CP137109.1	2612805875	SAMN37865673	1313	Streptococcus pneumoniae strain 11012 chromosome, complete genome	direct
+NZ_CP137110.1	NZ_CP137110.1	2612771833	SAMN37865672	1313	Streptococcus pneumoniae strain 16H2041 chromosome, complete genome	direct
+NZ_CP137111.1	NZ_CP137111.1	2612755751	SAMN37865671	1313	Streptococcus pneumoniae strain 17023 chromosome, complete genome	direct
+NZ_CP137112.1	NZ_CP137112.1	2612628121	SAMN37865670	1313	Streptococcus pneumoniae strain 02H2025 chromosome, complete genome	direct
+NZ_CP137113.1	NZ_CP137113.1	2612807740	SAMN37865669	1313	Streptococcus pneumoniae strain ZGX chromosome, complete genome	direct
+NZ_CP137114.1	NZ_CP137114.1	2612722925	SAMN37865668	1313	Streptococcus pneumoniae strain 15P3054 chromosome, complete genome	direct
+NZ_CP137115.1	NZ_CP137115.1	2612760887	SAMN37865667	1313	Streptococcus pneumoniae strain 20614-6 chromosome, complete genome	direct
+NZ_CP139860.1	NZ_CP139860.1	2638029908	SAMN38608486	1313	Streptococcus pneumoniae strain 21011 chromosome, complete genome	direct
+NZ_CP139861.1	NZ_CP139861.1	2638023974	SAMN38608497	1313	Streptococcus pneumoniae strain 16H2017-2 chromosome, complete genome	direct
+NZ_CP139862.1	NZ_CP139862.1	2638030649	SAMN38608520	1313	Streptococcus pneumoniae strain 05H0020-2 chromosome, complete genome	direct
+NZ_CP139863.1	NZ_CP139863.1	2638028178	SAMN38608524	1313	Streptococcus pneumoniae strain 15P2112 chromosome, complete genome	direct
+NZ_CP145437.1	NZ_CP145437.1	2711050339	SAMN21467761	1313	Streptococcus pneumoniae strain HAC 39-1996 chromosome, complete genome	direct
+NZ_CP147644.1	NZ_CP147644.1	3008571529	SAMN40299993	1313	Streptococcus pneumoniae strain K1544 chromosome, complete genome	direct
+NZ_CP148099.1	NZ_CP148099.1	3020577504	SAMN40299995	1313	Streptococcus pneumoniae strain LV2022 chromosome, complete genome	direct
+NZ_CP148100.1	NZ_CP148100.1	3020577654	SAMN40299995	1313	Streptococcus pneumoniae strain LV2022 plasmid unnamed, complete sequence	direct
+NZ_CP148101.1	NZ_CP148101.1	3008558589	SAMN40299994	1313	Streptococcus pneumoniae isolate K1544_delta_cps chromosome, complete genome	direct
+NZ_CP152418.1	NZ_CP152418.1	2805245841	SAMN41045349	1313	Streptococcus pneumoniae strain 20234287 chromosome, complete genome	direct
+NZ_CP154595.1	NZ_CP154595.1	2786675575	SAMN41136366	1313	Streptococcus pneumoniae strain serotype 4 chromosome, complete genome	direct
+NZ_CP154876.1	NZ_CP154876.1	2805246151	SAMN41043047	1313	Streptococcus pneumoniae strain 20155336 chromosome, complete genome	direct
+NZ_CP154877.1	NZ_CP154877.1	2805246116	SAMN41043309	1313	Streptococcus pneumoniae strain 20234295 chromosome, complete genome	direct
+NZ_CP155531.1	NZ_CP155531.1	2766768821	SAMN41056424	1313	Streptococcus pneumoniae strain SN36255 chromosome, complete genome	direct
+NZ_CP155532.1	NZ_CP155532.1	2766796975	SAMN41056425	1313	Streptococcus pneumoniae strain SP264 chromosome, complete genome	direct
+NZ_CP155533.1	NZ_CP155533.1	2766849969	SAMN41056430	1313	Streptococcus pneumoniae strain Spn1439-106 chromosome, complete genome	direct
+NZ_CP155534.1	NZ_CP155534.1	2766793445	SAMN41056431	1313	Streptococcus pneumoniae strain DCC1476 chromosome, complete genome	direct
+NZ_CP155535.1	NZ_CP155535.1	2766737224	SAMN41056432	1313	Streptococcus pneumoniae strain PJ755/1 chromosome, complete genome	direct
+NZ_CP155536.1	NZ_CP155536.1	2766849269	SAMN41056433	1313	Streptococcus pneumoniae strain M264-3 chromosome, complete genome	direct
+NZ_CP155537.1	NZ_CP155537.1	2766770981	SAMN41056436	1313	Streptococcus pneumoniae strain DP1322 chromosome, complete genome	direct
+NZ_CP155539.1	NZ_CP155539.1	2766835106	SAMN41056439	170187	Streptococcus pneumoniae TIGR4 chromosome, complete genome	direct
+NZ_CP156625.1	NZ_CP156625.1	2766848508	SAMN41056427	1313	Streptococcus pneumoniae strain TL7/1993 chromosome, complete genome	direct
+NZ_CP168260.1	NZ_CP168260.1	2797160944	SAMN43296922	1313	Streptococcus pneumoniae strain FC2 chromosome, complete genome	direct
+NZ_CP168299.1	NZ_CP168299.1	2797165610	SAMN43296889	1313	Streptococcus pneumoniae strain FC1 chromosome, complete genome	direct
+NZ_CP169564.1	NZ_CP169564.1	2806074380	SAMN43413908	1313	Streptococcus pneumoniae strain 6_2F1 chromosome, complete genome	direct
+NZ_CP173225.1	NZ_CP173225.1	2858193418	SAMN44604090	1313	Streptococcus pneumoniae strain 262 chromosome, complete genome	direct
+NZ_CP178339.1	NZ_CP178339.1	3107040102	SAMN46232259	1313	Streptococcus pneumoniae strain 20234456 chromosome, complete genome	direct
+NZ_CP185285.1	NZ_CP185285.1	2948109914	SAMN47436145	1313	Streptococcus pneumoniae strain 5141 chromosome, complete genome	direct
+NZ_CP199502.1	NZ_CP199502.1	3061147592	SAMN49764496	1313	Streptococcus pneumoniae strain TIGR4_10uM h180 1 chromosome, complete genome	direct
+NZ_CP199503.1	NZ_CP199503.1	3061147439	SAMN49764495	1313	Streptococcus pneumoniae strain TIGR4_DMSO control chromosome, complete genome	direct
+NZ_CP199504.1	NZ_CP199504.1	3061147440	SAMN49764495	1313	Streptococcus pneumoniae strain TIGR4_DMSO control plasmid unnamed	direct
+NZ_LN831051.1	NZ_LN831051.1	983365893	SAMEA2479568	1313	Streptococcus pneumoniae strain NCTC7465 chromosome 1, complete sequence	direct
+NZ_LN847353.1	NZ_LN847353.1	920658149	SAMEA3367470	1313	Streptococcus pneumoniae strain A66 chromosome I	direct
+NZ_LR129840.1	NZ_LR129840.1	1553426150	SAMEA5092020	1313	Streptococcus pneumoniae strain 4496 isolate 4496 chromosome 1	direct
+NZ_LR129841.1	NZ_LR129841.1	1553426193	SAMEA5092021	1313	Streptococcus pneumoniae strain 947 isolate 947 chromosome 1	direct
+NZ_LR129843.1	NZ_LR129843.1	1553426950	SAMEA5092023	1313	Streptococcus pneumoniae strain 180-2 isolate 180-2 chromosome 1	direct
+NZ_LR129844.1	NZ_LR129844.1	1553426712	SAMEA5092024	1313	Streptococcus pneumoniae strain 180-15 isolate 180-15 chromosome 1	direct
+NZ_LR134294.1	NZ_LR134294.1	1545303768	SAMEA3679170	1313	Streptococcus pneumoniae strain NCTC12977 chromosome 1, complete sequence	direct
+NZ_LR216050.1	NZ_LR216050.1	1584383395	SAMEA3431333	1313	Streptococcus pneumoniae strain GPSC10 substr. ST2013 isolate GPS_US_PATH396-sc-2296505 chromosome 1	direct
+NZ_LR216060.1	NZ_LR216060.1	1584384397	SAMEA3713867	1313	Streptococcus pneumoniae strain GPSC47 substr. ST315 chromosome 1	direct
+NZ_LR216064.1	NZ_LR216064.1	1584386896	SAMEA3714520	1313	Streptococcus pneumoniae strain GPSC13 substr. ST473 isolate 569492b0-41bd-11e5-998e-3c4a9275d6c6 chromosome 1	direct
+NZ_LR216065.1	NZ_LR216065.1	1584396872	SAMEA3714487	1313	Streptococcus pneumoniae strain GPSC18 substr. ST13 isolate 55896440-41bd-11e5-998e-3c4a9275d6c6 chromosome 1	direct
+NZ_LR536843.1	NZ_LR536843.1	1604954862	SAMEA104035599	1313	Streptococcus pneumoniae strain GPSC55 substr. ST3774 isolate b04a6400-1f66-11e7-b93e-3c4a9275d6c8 chromosome 1	direct
+NZ_LR595848.1	NZ_LR595848.1	1690991135	SAMEA5092022	1313	Streptococcus pneumoniae strain 4559 isolate 4559 chromosome 1	direct
+NZ_LR595849.1	NZ_LR595849.1	1690991136	SAMEA5092022	1313	Streptococcus pneumoniae strain 4559 isolate 4559 plasmid 2	direct
+NZ_LS483374.1	NZ_LS483374.1	1409043429	SAMEA3714884	1313	Streptococcus pneumoniae strain NCTC7466 chromosome 1, complete sequence	direct
+NZ_LS483390.1	NZ_LS483390.1	1409011056	SAMEA3649044	1313	Streptococcus pneumoniae strain NCTC13276 chromosome 1, complete sequence	direct
+NZ_LS483417.1	NZ_LS483417.1	1409027049	SAMEA3956100	1313	Streptococcus pneumoniae strain NCTC11902 chromosome 1, complete sequence	direct
+NZ_LS483448.1	NZ_LS483448.1	1409042132	SAMEA104042953	1313	Streptococcus pneumoniae strain 4041STDY6836167 chromosome 1	direct
+NZ_LS483449.1	NZ_LS483449.1	1409024344	SAMEA104042956	1313	Streptococcus pneumoniae strain 4041STDY6836170 chromosome 1	direct
+NZ_LS483450.1	NZ_LS483450.1	1409031963	SAMEA4469815	1313	Streptococcus pneumoniae strain 4041STDY6583227 chromosome 1	direct
+NZ_LS483451.1	NZ_LS483451.1	1409041070	SAMEA104042952	1313	Streptococcus pneumoniae strain 4041STDY6836166 chromosome 1	direct
+NZ_LS483523.1	NZ_LS483523.1	1409019711	SAMEA104042955	1313	Streptococcus pneumoniae strain 4041STDY6836169 chromosome 1	direct
+NZ_OV904788.1	NZ_OV904788.1	2203303350	SAMEA4657913	1313	Streptococcus pneumoniae strain RMV7 isolate RMV7domi chromosome 1, complete sequence	direct
+NZ_OX244288.1	NZ_OX244288.1	2545881282	SAMEA1463109	1313	Streptococcus pneumoniae strain PT8105 isolate 2RLC4 chromosome 1, complete sequence	direct
+OV904788.1	OV904788.1	2200945023	SAMEA4657913	1313	Streptococcus pneumoniae strain RMV7 genome assembly, chromosome: 1	direct
+OX244288.1	OX244288.1	2276705654	SAMEA1463109	1313	Streptococcus pneumoniae strain PT8105 genome assembly, chromosome: 1	direct

@@ -1,0 +1,748 @@
+query_accession	resolved_accession	uid	biosample	taxid	title	resolved_from
+AE003852.1	AE003852.1	12057212	SAMN02603969	243277	Vibrio cholerae O1 biovar eltor str. N16961 chromosome I, complete sequence	direct
+AE003853.1	AE003853.1	12057213	SAMN02603969	243277	Vibrio cholerae O1 biovar eltor str. N16961 chromosome II, complete sequence	direct
+AKGH00000000.1	AKGH00000000.1	393210369	SAMN02470784	1093790	Vibrio cholerae H1, whole genome shotgun sequencing project	direct
+AKGH01000001.1	AKGH01000001.1	393210368	SAMN02470784	1093790	Vibrio cholerae H1 chromosome 1, whole genome shotgun sequence	direct
+AKGH01000002.1	AKGH01000002.1	393210367	SAMN02470784	1093790	Vibrio cholerae H1 chromosome 2, whole genome shotgun sequence	direct
+AP014524.1	AP014524.1	657184927	SAMD00061025	1420885	Vibrio cholerae MS6 DNA, complete genome, chromosome 1	direct
+AP014525.1	AP014525.1	657187532	SAMD00061025	1420885	Vibrio cholerae MS6 DNA, complete genome, chromosome 2	direct
+AP018677.1	AP018677.1	1390704858	SAMD00118470	666	Vibrio cholerae V060002 DNA, complete genome	direct
+AP024553.1	AP024553.1	2046371356	SAMD00290839	666	Vibrio cholerae IDH-03329 DNA, chromosome 1, complete sequence	direct
+AP024554.1	AP024554.1	2046371357	SAMD00290839	666	Vibrio cholerae IDH-03329 DNA, chromosome 2, complete sequence	direct
+AP024555.1	AP024555.1	2046371358	SAMD00290840	666	Vibrio cholerae IDH-03506 DNA, chromosome 1, complete sequence	direct
+AP024556.1	AP024556.1	2046371359	SAMD00290840	666	Vibrio cholerae IDH-03506 DNA, chromosome 2, complete sequence	direct
+AP024967.1	AP024967.1	2215582720	SAMD00323053	666	Vibrio cholerae V130003 DNA, chromosome 1, complete sequence	direct
+AP024968.1	AP024968.1	2215585458	SAMD00323053	666	Vibrio cholerae V130003 DNA, chromosome 2, complete sequence	direct
+AP028804.1	AP028804.1	2621717888	SAMD00637071	666	Vibrio cholerae VN152 DNA, chromosome 1, complete sequence	direct
+AP028805.1	AP028805.1	2621720366	SAMD00637071	666	Vibrio cholerae VN152 plasmid pVN152 DNA, complete sequence	direct
+AP028806.1	AP028806.1	2621720592	SAMD00637071	666	Vibrio cholerae VN152 DNA, chromosome 2, complete sequence	direct
+CM127143.1	CM127143.1	3059139032	SAMN50182397	666	Vibrio cholerae strain SU109 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM127144.1	CM127144.1	3059139027	SAMN50182397	666	Vibrio cholerae strain SU109 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129925.1	CM129925.1	3096784897	SAMN52838569	666	Vibrio cholerae strain S15G02 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129926.1	CM129926.1	3096784882	SAMN52838569	666	Vibrio cholerae strain S15G02 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129937.1	CM129937.1	3100617990	SAMN49797556	666	Vibrio cholerae strain NOVC14 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129938.1	CM129938.1	3100617989	SAMN49797556	666	Vibrio cholerae strain NOVC14 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129939.1	CM129939.1	3100619188	SAMN49797555	666	Vibrio cholerae strain NOVC13 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129940.1	CM129940.1	3100619180	SAMN49797555	666	Vibrio cholerae strain NOVC13 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129941.1	CM129941.1	3100621277	SAMN49797554	666	Vibrio cholerae strain NOVC12 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129942.1	CM129942.1	3100621270	SAMN49797554	666	Vibrio cholerae strain NOVC12 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129943.1	CM129943.1	3100621444	SAMN49797553	666	Vibrio cholerae strain NOVC11 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129944.1	CM129944.1	3100621435	SAMN49797553	666	Vibrio cholerae strain NOVC11 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129945.1	CM129945.1	3100621702	SAMN49797551	666	Vibrio cholerae strain NOVC09 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129946.1	CM129946.1	3100621701	SAMN49797551	666	Vibrio cholerae strain NOVC09 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129947.1	CM129947.1	3100621714	SAMN49797550	666	Vibrio cholerae strain NOVC08 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129948.1	CM129948.1	3100621713	SAMN49797550	666	Vibrio cholerae strain NOVC08 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129949.1	CM129949.1	3100621719	SAMN49797549	666	Vibrio cholerae strain NOVC07 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129950.1	CM129950.1	3100621718	SAMN49797549	666	Vibrio cholerae strain NOVC07 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129951.1	CM129951.1	3100621730	SAMN49797548	666	Vibrio cholerae strain NOVC06 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129952.1	CM129952.1	3100621729	SAMN49797548	666	Vibrio cholerae strain NOVC06 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129953.1	CM129953.1	3100621732	SAMN49797547	666	Vibrio cholerae strain NOVC05 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129954.1	CM129954.1	3100621731	SAMN49797547	666	Vibrio cholerae strain NOVC05 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129955.1	CM129955.1	3100621734	SAMN49797546	666	Vibrio cholerae strain NOVC04 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129956.1	CM129956.1	3100621733	SAMN49797546	666	Vibrio cholerae strain NOVC04 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129957.1	CM129957.1	3100621736	SAMN49797545	666	Vibrio cholerae strain NOVC03 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129958.1	CM129958.1	3100621735	SAMN49797545	666	Vibrio cholerae strain NOVC03 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129959.1	CM129959.1	3100621738	SAMN49797544	666	Vibrio cholerae strain NOVC02 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129960.1	CM129960.1	3100621737	SAMN49797544	666	Vibrio cholerae strain NOVC02 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CM129961.1	CM129961.1	3100621740	SAMN49797543	666	Vibrio cholerae strain NOVC01 chromosome 1, complete sequence, whole genome shotgun sequence	direct
+CM129962.1	CM129962.1	3100621739	SAMN49797543	666	Vibrio cholerae strain NOVC01 chromosome 2, complete sequence, whole genome shotgun sequence	direct
+CP000626.1	CP000626.1	146313784	SAMN02604040	345073	Vibrio cholerae O395 chromosome 2, complete sequence	direct
+CP000627.1	CP000627.1	146314918	SAMN02604040	345073	Vibrio cholerae O395 chromosome 1, complete sequence	direct
+CP001233.1	CP001233.1	227008125	SAMN02603897	579112	Vibrio cholerae M66-2 chromosome I, complete sequence	direct
+CP001234.1	CP001234.1	227010776	SAMN02603897	579112	Vibrio cholerae M66-2 chromosome II, complete sequence	direct
+CP001235.1	CP001235.1	227011820	SAMN02603898	345073	Vibrio cholerae O395 chromosome I, complete sequence	direct
+CP001236.1	CP001236.1	227014638	SAMN02603898	345073	Vibrio cholerae O395 chromosome II, complete sequence	direct
+CP001485.1	CP001485.1	229368777	SAMN02603569	593588	Vibrio cholerae MJ-1236 chromosome 1, complete sequence	direct
+CP001486.1	CP001486.1	229371548	SAMN02603569	593588	Vibrio cholerae MJ-1236 chromosome 2, complete sequence	direct
+CP003069.1	CP003069.1	356645562	SAMN00765529	914149	Vibrio cholerae O1 str. 2010EL-1786 chromosome 1, complete sequence	direct
+CP003070.1	CP003070.1	356648368	SAMN00765529	914149	Vibrio cholerae O1 str. 2010EL-1786 chromosome 2, complete sequence	direct
+CP003330.1	CP003330.1	378793418	SAMN02603415	1134456	Vibrio cholerae IEC224 chromosome I, complete sequence	direct
+CP003331.1	CP003331.1	378796054	SAMN02603415	1134456	Vibrio cholerae IEC224 chromosome II, complete sequence	direct
+CP006947.1	CP006947.1	939204655	SAMN04191514	1433144	Vibrio cholerae O1 str. KW3 chromosome I, complete sequence	direct
+CP006948.1	CP006948.1	939207326	SAMN04191514	1433144	Vibrio cholerae O1 str. KW3 chromosome II, complete sequence	direct
+CP007634.1	CP007634.1	695931389	SAMN02741837	666	Vibrio cholerae strain 2012EL-2176 chromosome 1, complete sequence	direct
+CP007635.1	CP007635.1	695934019	SAMN02741837	666	Vibrio cholerae strain 2012EL-2176 chromosome 2, complete sequence	direct
+CP007636.1	CP007636.1	695934953	SAMN02741837	666	Vibrio cholerae strain 2012EL-2176 plasmid, complete sequence	direct
+CP009041.1	CP009041.1	785751853	SAMN02928187	686	Vibrio cholerae O1 biovar El Tor strain FJ147 chromosome II, complete sequence	direct
+CP009042.1	CP009042.1	785752771	SAMN02928187	686	Vibrio cholerae O1 biovar El Tor strain FJ147 chromosome I, complete sequence	direct
+CP010811.1	CP010811.1	803436637	SAMN03248305	666	Vibrio cholerae strain 1154-74, complete genome	direct
+CP010812.1	CP010812.1	803440056	SAMN03248306	666	Vibrio cholerae strain 10432-62, complete genome	direct
+CP012997.1	CP012997.1	1092194748	SAMN03104885	666	Vibrio cholerae strain 2012Env-9 chromosome 1, complete sequence	direct
+CP012998.1	CP012998.1	1092195801	SAMN03104885	666	Vibrio cholerae strain 2012Env-9 chromosome 2, complete sequence	direct
+CP013013.1	CP013013.1	1092256890	SAMN04168691	666	Vibrio cholerae strain Env-390 chromosome 1, complete sequence	direct
+CP013014.1	CP013014.1	1092257946	SAMN04168691	666	Vibrio cholerae strain Env-390 chromosome 2, complete sequence	direct
+CP013301.1	CP013301.1	1109304825	SAMN04256432	666	Vibrio cholerae strain C5 chromosome 1, complete sequence	direct
+CP013302.1	CP013302.1	1109307505	SAMN04256432	666	Vibrio cholerae strain C5 chromosome 2, complete sequence	direct
+CP013303.1	CP013303.1	1109308686	SAMN04256434	666	Vibrio cholerae strain CRC711 chromosome 1, complete sequence	direct
+CP013304.1	CP013304.1	1109311363	SAMN04256434	666	Vibrio cholerae strain CRC711 chromosome 2, complete sequence	direct
+CP013305.1	CP013305.1	1109312431	SAMN04256433	666	Vibrio cholerae strain CRC1106 chromosome 1, complete sequence	direct
+CP013306.1	CP013306.1	1109315110	SAMN04256433	666	Vibrio cholerae strain CRC1106 chromosome 2, complete sequence	direct
+CP013307.1	CP013307.1	1109316272	SAMN04256436	666	Vibrio cholerae strain E506 chromosome 1, complete sequence	direct
+CP013308.1	CP013308.1	1109318910	SAMN04256436	666	Vibrio cholerae strain E506 chromosome 2, complete sequence	direct
+CP013309.1	CP013309.1	1109320020	SAMN04256439	666	Vibrio cholerae strain E1162 chromosome 1, complete sequence	direct
+CP013310.1	CP013310.1	1109322685	SAMN04256439	666	Vibrio cholerae strain E1162 chromosome 2, complete sequence	direct
+CP013311.1	CP013311.1	1109323729	SAMN04256440	666	Vibrio cholerae strain E1320, complete sequence	direct
+CP013312.1	CP013312.1	1109326264	SAMN04256440	666	Vibrio cholerae strain E1320 chromosome 2, complete sequence	direct
+CP013313.1	CP013313.1	1109327363	SAMN04256431	666	Vibrio cholerae strain E9120 chromosome 1, complete sequence	direct
+CP013314.1	CP013314.1	1109330009	SAMN04256431	666	Vibrio cholerae strain E9120 chromosome 2, complete sequence	direct
+CP013315.1	CP013315.1	1109331229	SAMN04256435	666	Vibrio cholerae strain M2140 chromosome 1, complete sequence	direct
+CP013316.1	CP013316.1	1109333812	SAMN04256435	666	Vibrio cholerae strain M2140 chromosome 2, complete sequence	direct
+CP013317.1	CP013317.1	1109334914	SAMN04256437	666	Vibrio cholerae strain NCTC5395 chromosome 1, complete sequence	direct
+CP013318.1	CP013318.1	1109337569	SAMN04256437	666	Vibrio cholerae strain NCTC5395 chromosome 2, complete sequence	direct
+CP013319.1	CP013319.1	1109338816	SAMN04256438	666	Vibrio cholerae strain NCTC9420 chromosome 1, complete sequence	direct
+CP013320.1	CP013320.1	1109341531	SAMN04256438	666	Vibrio cholerae strain NCTC9420 chromosome 2, complete sequence	direct
+CP016324.1	CP016324.1	1043202374	SAMN02943003	412614	Vibrio cholerae 2740-80 chromosome 1, complete sequence	direct
+CP016325.1	CP016325.1	1043205042	SAMN02943003	412614	Vibrio cholerae 2740-80 chromosome 2, complete sequence	direct
+CP016987.1	CP016987.1	1243873238	SAMN05567318	666	Vibrio cholerae strain FORC_055 chromosome 1, complete sequence	direct
+CP016988.1	CP016988.1	1243875936	SAMN05567318	666	Vibrio cholerae strain FORC_055 chromosome 2, complete sequence	direct
+CP020407.2	CP020407.2	1352481649	SAMN04875560	666	Vibrio cholerae strain FDAARGOS_223 chromosome 2, complete sequence	direct
+CP020408.2	CP020408.2	1352481727	SAMN04875560	666	Vibrio cholerae strain FDAARGOS_223 chromosome 1, complete sequence	direct
+CP024082.1	CP024082.1	1481859249	SAMN07684567	666	Vibrio cholerae strain FORC_073 chromosome 1, complete sequence	direct
+CP024083.1	CP024083.1	1481862109	SAMN07684567	666	Vibrio cholerae strain FORC_073 chromosome 2, complete sequence	direct
+CP024162.1	CP024162.1	1273856233	SAMN07821484	666	Vibrio cholerae strain E7946 chromosome 1, complete sequence	direct
+CP024163.1	CP024163.1	1273858972	SAMN07821484	666	Vibrio cholerae strain E7946 chromosome 2, complete sequence	direct
+CP024867.1	CP024867.1	1359090905	SAMN07974340	666	Vibrio cholerae strain A1552 chromosome I, complete sequence	direct
+CP024868.1	CP024868.1	1359093524	SAMN07974340	666	Vibrio cholerae strain A1552 chromosome II, complete sequence	direct
+CP025936.1	CP025936.1	1331668623	SAMN08323859	666	Vibrio cholerae strain A1552 chromosome 1, complete sequence	direct
+CP025937.1	CP025937.1	1331671413	SAMN08323859	666	Vibrio cholerae strain A1552 chromosome 2, complete sequence	direct
+CP026647.1	CP026647.1	1347578954	SAMN08472240	686	Vibrio cholerae O1 biovar El Tor strain HC1037 chromosome I, complete sequence	direct
+CP026648.1	CP026648.1	1347582149	SAMN08472240	686	Vibrio cholerae O1 biovar El Tor strain HC1037 chromosome II, complete sequence	direct
+CP028827.1	CP028827.1	1379582696	SAMN08822914	666	Vibrio cholerae strain N16961 chromosome 1, complete sequence	direct
+CP028828.1	CP028828.1	1379585272	SAMN08822914	666	Vibrio cholerae strain N16961 chromosome 2, complete sequence	direct
+CP028892.1	CP028892.1	1379586256	SAMN08813238	666	Vibrio cholerae strain Sa5Y chromosome 1, complete sequence	direct
+CP028893.1	CP028893.1	1379588824	SAMN08813238	666	Vibrio cholerae strain Sa5Y chromosome 2, complete sequence	direct
+CP028894.1	CP028894.1	1387699158	SAMN08896638	666	Vibrio cholerae strain A1552 chromosome 1, complete sequence	direct
+CP028895.1	CP028895.1	1387701794	SAMN08896638	666	Vibrio cholerae strain A1552 chromosome 2, complete sequence	direct
+CP033513.1	CP033513.1	1511400862	SAMN10364850	666	Vibrio cholerae strain E4 chromosome 2, complete sequence	direct
+CP033514.1	CP033514.1	1511401890	SAMN10364850	666	Vibrio cholerae strain E4 plasmid pVCR94, complete sequence	direct
+CP033515.1	CP033515.1	1511402099	SAMN10364850	666	Vibrio cholerae strain E4 chromosome 1, complete sequence	direct
+CP036499.1	CP036499.1	1586083348	SAMN11029208	666	Vibrio cholerae strain 20000 chromosome 1, complete sequence	direct
+CP036500.1	CP036500.1	1586085942	SAMN11029208	666	Vibrio cholerae strain 20000 chromosome 2, complete sequence	direct
+CP040171.1	CP040171.1	1877738794	SAMN11604374	666	Vibrio cholerae strain VC1374 plasmid pVC1374, complete sequence	direct
+CP040172.1	CP040172.1	1877738959	SAMN11604374	666	Vibrio cholerae strain VC1374 chromosome 1, complete sequence	direct
+CP040173.1	CP040173.1	1877741629	SAMN11604374	666	Vibrio cholerae strain VC1374 chromosome 2, complete sequence	direct
+CP042299.1	CP042299.1	1802537766	SAMN12136324	127906	Vibrio cholerae O1 strain AAS91 chromosome 1, complete sequence	direct
+CP042300.1	CP042300.1	1802540384	SAMN12136324	127906	Vibrio cholerae O1 strain AAS91 chromosome 2, complete sequence	direct
+CP043554.1	CP043554.1	1736646466	SAMN12572458	666	Vibrio cholerae strain RFB16 chromosome 1, complete sequence	direct
+CP043555.1	CP043555.1	1736649064	SAMN12572458	666	Vibrio cholerae strain RFB16 plasmid unnamed, complete sequence	direct
+CP043556.1	CP043556.1	1736649127	SAMN12572458	666	Vibrio cholerae strain RFB16 chromosome 2, complete sequence	direct
+CP045718.1	CP045718.1	1774237694	SAMN13166158	345073	Vibrio cholerae O395 chromosome 1, complete genome	direct
+CP045719.1	CP045719.1	1774238753	SAMN13166158	345073	Vibrio cholerae O395 chromosome 2, complete genome	direct
+CP046735.1	CP046735.1	1785416561	SAMN12648323	666	Vibrio cholerae strain 3528-08 chromosome 2, complete sequence	direct
+CP046736.1	CP046736.1	1785416562	SAMN12648323	666	Vibrio cholerae strain 3528-08 chromosome 1, complete sequence	direct
+CP046737.1	CP046737.1	1785416559	SAMN12648320	666	Vibrio cholerae strain 2015V-1126 chromosome 1, complete sequence	direct
+CP046738.1	CP046738.1	1785416560	SAMN12648320	666	Vibrio cholerae strain 2015V-1126 chromosome 2, complete sequence	direct
+CP046739.1	CP046739.1	1785416557	SAMN12648319	666	Vibrio cholerae strain 3566-06 chromosome 2, complete sequence	direct
+CP046740.1	CP046740.1	1785416558	SAMN12648319	666	Vibrio cholerae strain 3566-06 chromosome 1, complete sequence	direct
+CP046741.1	CP046741.1	1785416555	SAMN12648318	666	Vibrio cholerae strain 3523-03 chromosome 2, complete sequence	direct
+CP046742.1	CP046742.1	1785416556	SAMN12648318	666	Vibrio cholerae strain 3523-03 chromosome 1, complete sequence	direct
+CP046743.1	CP046743.1	1785416565	SAMN12648314	666	Vibrio cholerae strain 3569-08 chromosome 2, complete sequence	direct
+CP046744.1	CP046744.1	1785416566	SAMN12648314	666	Vibrio cholerae strain 3569-08 chromosome 1, complete sequence	direct
+CP046747.1	CP046747.1	1785416571	SAMN12648312	666	Vibrio cholerae strain 3541-04 chromosome 1, complete sequence	direct
+CP046748.1	CP046748.1	1785416574	SAMN12648312	666	Vibrio cholerae strain 3541-04 chromosome 2, complete sequence	direct
+CP046749.1	CP046749.1	1785416569	SAMN12648311	666	Vibrio cholerae strain 2015V-1118 chromosome 1, complete sequence	direct
+CP046750.1	CP046750.1	1785416570	SAMN12648311	666	Vibrio cholerae strain 2015V-1118 chromosome 2, complete sequence	direct
+CP046838.1	CP046838.1	1785416898	SAMN12648322	666	Vibrio cholerae strain 2011EL-1271 chromosome 2, complete sequence	direct
+CP046839.1	CP046839.1	1785416899	SAMN12648322	666	Vibrio cholerae strain 2011EL-1271 chromosome 1, complete sequence	direct
+CP046840.1	CP046840.1	1785416952	SAMN12648321	666	Vibrio cholerae strain F9993 chromosome 1, complete sequence	direct
+CP046841.1	CP046841.1	1785416953	SAMN12648321	666	Vibrio cholerae strain F9993 chromosome 2, complete sequence	direct
+CP046844.1	CP046844.1	1785416941	SAMN12648315	948564	Vibrio cholerae C6706 chromosome 1, complete sequence	direct
+CP046845.1	CP046845.1	1785416942	SAMN12648315	948564	Vibrio cholerae C6706 chromosome 2, complete sequence	direct
+CP047059.1	CP047059.1	1787541490	SAMN13613314	666	Vibrio cholerae isolate CTMA_1441 chromosome 1, complete sequence	direct
+CP047060.1	CP047060.1	1787544090	SAMN13613314	666	Vibrio cholerae isolate CTMA_1441 chromosome 2, complete sequence	direct
+CP047295.1	CP047295.1	1841353573	SAMN13734987	948564	Vibrio cholerae C6706 chromosome 1, complete sequence	direct
+CP047296.1	CP047296.1	1841356178	SAMN13734987	948564	Vibrio cholerae C6706 chromosome 2, complete sequence	direct
+CP047297.1	CP047297.1	1841349699	SAMN13734988	686	Vibrio cholerae O1 biovar El Tor strain C6709 chromosome 1, complete sequence	direct
+CP047298.1	CP047298.1	1841352326	SAMN13734988	686	Vibrio cholerae O1 biovar El Tor strain C6709 chromosome 2, complete sequence	direct
+CP047299.1	CP047299.1	1841345864	SAMN13734999	686	Vibrio cholerae O1 biovar El Tor strain P27459 chromosome 1, complete sequence	direct
+CP047300.1	CP047300.1	1841348454	SAMN13734999	686	Vibrio cholerae O1 biovar El Tor strain P27459 chromosome 2, complete sequence	direct
+CP047301.1	CP047301.1	1841342021	SAMN13735001	686	Vibrio cholerae O1 biovar El Tor strain DRC-193A chromosome 1, complete sequence	direct
+CP047302.1	CP047302.1	1841344669	SAMN13735001	686	Vibrio cholerae O1 biovar El Tor strain DRC-193A chromosome 2, complete sequence	direct
+CP047303.1	CP047303.1	1841338103	SAMN13734989	686	Vibrio cholerae O1 biovar El Tor strain E7946 chromosome 1, complete sequence	direct
+CP047304.1	CP047304.1	1841340789	SAMN13734989	686	Vibrio cholerae O1 biovar El Tor strain E7946 chromosome 2, complete sequence	direct
+CP047305.1	CP047305.1	2034570724	SAMN13736322	185332	Vibrio cholerae O37 strain ATCC 25872 chromosome 1, complete sequence	direct
+CP047306.1	CP047306.1	2034573248	SAMN13736322	185332	Vibrio cholerae O37 strain ATCC 25872 chromosome 2, complete sequence	direct
+CP053744.1	CP053744.1	1858831836	SAMN14944058	666	Vibrio cholerae strain SA3G chromosome 1, complete sequence	direct
+CP053745.1	CP053745.1	1858834451	SAMN14944058	666	Vibrio cholerae strain SA3G chromosome 2, complete sequence	direct
+CP053794.1	CP053794.1	1858882544	SAMN14944057	666	Vibrio cholerae strain W10G chromosome 1, complete sequence	direct
+CP053795.1	CP053795.1	1858885135	SAMN14944057	666	Vibrio cholerae strain W10G chromosome 2, complete sequence	direct
+CP053796.1	CP053796.1	1858878921	SAMN14944065	666	Vibrio cholerae strain SL4G chromosome 1, complete sequence	direct
+CP053797.1	CP053797.1	1858881469	SAMN14944065	666	Vibrio cholerae strain SL4G chromosome 2, complete sequence	direct
+CP053798.1	CP053798.1	1858875361	SAMN14944067	666	Vibrio cholerae strain SL5Y chromosome 1, complete sequence	direct
+CP053799.1	CP053799.1	1858877902	SAMN14944067	666	Vibrio cholerae strain SL5Y chromosome 2, complete sequence	direct
+CP053800.1	CP053800.1	1858871712	SAMN14944069	666	Vibrio cholerae strain SO5Y chromosome 1, complete sequence	direct
+CP053801.1	CP053801.1	1858874331	SAMN14944069	666	Vibrio cholerae strain SO5Y chromosome 2, complete sequence	direct
+CP053802.1	CP053802.1	1858867049	SAMN14944070	666	Vibrio cholerae strain L6G chromosome 1, complete sequence	direct
+CP053803.1	CP053803.1	1858869584	SAMN14944070	666	Vibrio cholerae strain L6G chromosome 2, complete sequence	direct
+CP053804.1	CP053804.1	1858862310	SAMN14944072	666	Vibrio cholerae strain SL6Y chromosome 1, complete sequence	direct
+CP053805.1	CP053805.1	1858864913	SAMN14944072	666	Vibrio cholerae strain SL6Y chromosome 2, complete sequence	direct
+CP053806.1	CP053806.1	1858858636	SAMN14944080	666	Vibrio cholerae strain SP6G chromosome 1, complete sequence	direct
+CP053807.1	CP053807.1	1858861166	SAMN14944080	666	Vibrio cholerae strain SP6G chromosome 2, complete sequence	direct
+CP053808.1	CP053808.1	1858855023	SAMN14944081	666	Vibrio cholerae strain SP7G chromosome 1, complete sequence	direct
+CP053809.1	CP053809.1	1858857461	SAMN14944081	666	Vibrio cholerae strain SP7G chromosome 2, complete sequence	direct
+CP053810.1	CP053810.1	1858850966	SAMN14944082	666	Vibrio cholerae strain W6G chromosome 1, complete sequence	direct
+CP053811.1	CP053811.1	1858853499	SAMN14944082	666	Vibrio cholerae strain W6G chromosome 2, complete sequence	direct
+CP053812.1	CP053812.1	1858854620	SAMN14944082	666	Vibrio cholerae strain W6G plasmid pW6G, complete sequence	direct
+CP053813.1	CP053813.1	1858846917	SAMN14944083	666	Vibrio cholerae strain W7G chromosome 1, complete sequence	direct
+CP053814.1	CP053814.1	1858849543	SAMN14944083	666	Vibrio cholerae strain W7G chromosome 2, complete sequence	direct
+CP053815.1	CP053815.1	1858850661	SAMN14944083	666	Vibrio cholerae strain W7G plasmid pW7G, complete sequence	direct
+CP053816.1	CP053816.1	1858839217	SAMN14944112	666	Vibrio cholerae strain SA7G chromosome 1, complete sequence	direct
+CP053817.1	CP053817.1	1858841780	SAMN14944112	666	Vibrio cholerae strain SA7G chromosome 2, complete sequence	direct
+CP053818.1	CP053818.1	1858842889	SAMN14944112	666	Vibrio cholerae strain SA7G plasmid pSA7G1, complete sequence	direct
+CP053819.1	CP053819.1	1858843007	SAMN14944112	666	Vibrio cholerae strain SA7G plasmid pSA7G2, complete sequence	direct
+CP053820.1	CP053820.1	1858835488	SAMN14944113	666	Vibrio cholerae strain SA10G chromosome 1, complete sequence	direct
+CP053821.1	CP053821.1	1858838047	SAMN14944113	666	Vibrio cholerae strain SA10G chromosome 2, complete sequence	direct
+CP053822.1	CP053822.1	1858843110	SAMN14944111	666	Vibrio cholerae strain E7G chromosome 1, complete sequence	direct
+CP053823.1	CP053823.1	1858845674	SAMN14944111	666	Vibrio cholerae strain E7G chromosome 2, complete sequence	direct
+CP053824.1	CP053824.1	1858846818	SAMN14944111	666	Vibrio cholerae strain E7G plasmid pE7G, complete sequence	direct
+CP063420.1	CP063420.1	1927712664	SAMN16483972	666	Vibrio cholerae strain VC_hf7 chromosome 1, complete sequence	direct
+CP063421.1	CP063421.1	1927712665	SAMN16483972	666	Vibrio cholerae strain VC_hf7 chromosome 2, complete sequence	direct
+CP063422.1	CP063422.1	1927712666	SAMN16483972	666	Vibrio cholerae strain VC_hf7 plasmid pICDC-VUN128_01, complete sequence	direct
+CP063423.1	CP063423.1	1927712667	SAMN16483972	666	Vibrio cholerae strain VC_hf7 plasmid pICDC-VUN128_02, complete sequence	direct
+CP064350.1	CP064350.1	1932138598	SAMN16705019	948564	Vibrio cholerae C6706 chromosome I, complete sequence	direct
+CP064351.1	CP064351.1	1932141177	SAMN16705019	948564	Vibrio cholerae C6706 chromosome II, complete sequence	direct
+CP072847.1	CP072847.1	2025708070	SAMN18636297	666	Vibrio cholerae strain A1552 chromosome 1, complete sequence	direct
+CP072848.1	CP072848.1	2025710778	SAMN18636297	666	Vibrio cholerae strain A1552 chromosome 2, complete sequence	direct
+CP072849.1	CP072849.1	2025712997	SAMN18642716	345072	Vibrio cholerae MO10 chromosome 1, complete sequence	direct
+CP072850.1	CP072850.1	2025715750	SAMN18642716	345072	Vibrio cholerae MO10 chromosome 2, complete sequence	direct
+CP077060.1	CP077060.1	2508484405	SAMN18296291	666	Vibrio cholerae strain MS84A chromosome I, complete sequence	direct
+CP077061.1	CP077061.1	2508486956	SAMN18296291	666	Vibrio cholerae strain MS84A chromosome II, complete sequence	direct
+CP080462.1	CP080462.1	2077325866	SAMN11287979	666	Vibrio cholerae strain ICDC-VC702 chromosome 1, complete sequence	direct
+CP080463.1	CP080463.1	2077325867	SAMN11287979	666	Vibrio cholerae strain ICDC-VC702 chromosome 2, complete sequence	direct
+CP080464.1	CP080464.1	2077325868	SAMN11287979	666	Vibrio cholerae strain ICDC-VC702 plasmid unnamed, complete sequence	direct
+CP080465.1	CP080465.1	2077325863	SAMN11287978	666	Vibrio cholerae strain ICDC-VC3741 chromosome 1, complete sequence	direct
+CP080466.1	CP080466.1	2077325864	SAMN11287978	666	Vibrio cholerae strain ICDC-VC3741 chromosome 2, complete sequence	direct
+CP090386.1	CP090386.1	2176107988	SAMN24501422	666	Vibrio cholerae strain GXFL1-4 chromosome 1, complete sequence	direct
+CP090387.1	CP090387.1	2176109310	SAMN24501422	666	Vibrio cholerae strain GXFL1-4 chromosome 2, complete sequence	direct
+CP090388.1	CP090388.1	2176111948	SAMN24501422	666	Vibrio cholerae strain GXFL1-4 plasmid unnamed1, complete sequence	direct
+CP090399.1	CP090399.1	2176086866	SAMN24592306	666	Vibrio cholerae strain PanChol chromosome 1, complete sequence	direct
+CP090400.1	CP090400.1	2176089546	SAMN24592306	666	Vibrio cholerae strain PanChol chromosome 2, complete sequence	direct
+CP095331.1	CP095331.1	3004111220	SAMN26198548	666	Vibrio cholerae strain 19MO03SH03-1 chromosome 1, complete sequence	direct
+CP095332.1	CP095332.1	3004113735	SAMN26198548	666	Vibrio cholerae strain 19MO03SH03-1 chromosome 2, complete sequence	direct
+CP102927.1	CP102927.1	2288974259	SAMN30329103	666	Vibrio cholerae strain N1252 chromosome 1, complete sequence	direct
+CP102928.1	CP102928.1	2288974260	SAMN30329103	666	Vibrio cholerae strain N1252 chromosome 2, complete sequence	direct
+CP104354.1	CP104354.1	2304773403	SAMN13878423	666	Vibrio cholerae strain PNUSAV001140 chromosome 1, complete sequence	direct
+CP104355.1	CP104355.1	2304775969	SAMN13878423	666	Vibrio cholerae strain PNUSAV001140 chromosome 2, complete sequence	direct
+CP104356.1	CP104356.1	2304787428	SAMN13878425	666	Vibrio cholerae strain PNUSAV001141 chromosome 1, complete sequence	direct
+CP104357.1	CP104357.1	2304789976	SAMN13878425	666	Vibrio cholerae strain PNUSAV001141 chromosome 2, complete sequence	direct
+CP110188.1	CP110188.1	2325655317	SAMN31210808	666	Vibrio cholerae strain E1 chromosome 1, complete sequence	direct
+CP110189.1	CP110189.1	2325657871	SAMN31210808	666	Vibrio cholerae strain E1 chromosome 2, complete sequence	direct
+CP132180.1	CP132180.1	2562510300	SAMN36815614	666	Vibrio cholerae strain DRC193A chromosome 1, complete sequence	direct
+CP132181.1	CP132181.1	2562512943	SAMN36815614	666	Vibrio cholerae strain DRC193A chromosome 2, complete sequence	direct
+CP132182.1	CP132182.1	2562523035	SAMN36815616	666	Vibrio cholerae strain DRC072 chromosome 1, complete sequence	direct
+CP132183.1	CP132183.1	2562525676	SAMN36815616	666	Vibrio cholerae strain DRC072 chromosome 2, complete sequence	direct
+CP132187.1	CP132187.1	2562519409	SAMN36815618	666	Vibrio cholerae strain DRC052 chromosome 1, complete sequence	direct
+CP132188.1	CP132188.1	2562522061	SAMN36815618	666	Vibrio cholerae strain DRC052 chromosome 2, complete sequence	direct
+CP132189.1	CP132189.1	2562526642	SAMN36815619	666	Vibrio cholerae strain DRC187 chromosome 2, complete sequence	direct
+CP132190.1	CP132190.1	2562527637	SAMN36815619	666	Vibrio cholerae strain DRC187 chromosome 1, complete sequence	direct
+CP133104.1	CP133104.1	3070258747	SAMN37016252	666	Vibrio cholerae strain CTMA_1861 chromosome I, complete sequence	direct
+CP133105.1	CP133105.1	3070261321	SAMN37016252	666	Vibrio cholerae strain CTMA_1861 chromosome II, complete sequence	direct
+CP134057.1	CP134057.1	2624783314	SAMN37265074	666	Vibrio cholerae strain VIC11-A chromosome 2, complete sequence	direct
+CP134058.1	CP134058.1	2624784268	SAMN37265074	666	Vibrio cholerae strain VIC11-A chromosome 1, complete sequence	direct
+CP134059.1	CP134059.1	2624786905	SAMN37265074	666	Vibrio cholerae strain VIC11-A plasmid pVIC11-A, complete sequence	direct
+CP134060.1	CP134060.1	2624787067	SAMN37265073	666	Vibrio cholerae strain CMUL 009 chromosome 1, complete sequence	direct
+CP134061.1	CP134061.1	2624789688	SAMN37265073	666	Vibrio cholerae strain CMUL 009 chromosome 2, complete sequence	direct
+CP137091.1	CP137091.1	2609712835	SAMN37852906	666	Vibrio cholerae strain DL4211 chromosome 1, complete sequence	direct
+CP137092.1	CP137092.1	2609715463	SAMN37852906	666	Vibrio cholerae strain DL4211 chromosome 2, complete sequence	direct
+CP137135.1	CP137135.1	2609804108	SAMN37879645	345076	Vibrio cholerae V52 chromosome 1, complete sequence	direct
+CP137136.1	CP137136.1	2609806834	SAMN37879645	345076	Vibrio cholerae V52 chromosome 2, complete sequence	direct
+CP142014.1	CP142014.1	2729054970	SAMN39200978	666	Vibrio cholerae strain LK-18 chromosome 1, complete sequence	direct
+CP142015.1	CP142015.1	2729057446	SAMN39200978	666	Vibrio cholerae strain LK-18 chromosome 2, complete sequence	direct
+CP147726.1	CP147726.1	2770582401	SAMN40377900	666	Vibrio cholerae strain CNCTC 6536 chromosome 1, complete sequence	direct
+CP147727.1	CP147727.1	2770584987	SAMN40377900	666	Vibrio cholerae strain CNCTC 6536 chromosome 2, complete sequence	direct
+CP152070.1	CP152070.1	2751000647	SAMN40456655	666	Vibrio cholerae strain Sudan_2019_18 chromosome 2, complete sequence	direct
+CP152071.1	CP152071.1	2751001725	SAMN40456655	666	Vibrio cholerae strain Sudan_2019_18 chromosome 1, complete sequence	direct
+CP157384.1	CP157384.1	2889346037	SAMN41299324	948564	Vibrio cholerae C6706 chromosome 1, complete sequence	direct
+CP157385.1	CP157385.1	2889346038	SAMN41299324	948564	Vibrio cholerae C6706 chromosome 2, complete sequence	direct
+CP158974.1	CP158974.1	2813007907	SAMN41920291	666	Vibrio cholerae strain CNRVC240027 chromosome 1, complete sequence	direct
+CP158975.1	CP158975.1	2813010532	SAMN41920291	666	Vibrio cholerae strain CNRVC240027 chromosome 2, complete sequence	direct
+CP158976.1	CP158976.1	2813011477	SAMN41920291	666	Vibrio cholerae strain CNRVC240027 plasmid pCNRVC240027, complete sequence	direct
+CP159790.1	CP159790.1	2754646362	SAMN42189331	666	Vibrio cholerae strain MAK757 chromosome 1, complete sequence	direct
+CP159791.1	CP159791.1	2754648840	SAMN42189331	666	Vibrio cholerae strain MAK757 chromosome 2, complete sequence	direct
+CP161854.1	CP161854.1	2774658866	SAMN42000381	666	Vibrio cholerae strain C3616 chromosome 1, complete sequence	direct
+CP161855.1	CP161855.1	2774661477	SAMN42000381	666	Vibrio cholerae strain C3616 chromosome 2, complete sequence	direct
+CP161856.1	CP161856.1	2774662360	SAMN42000381	666	Vibrio cholerae strain C3616 plasmid pA, complete sequence	direct
+CP171656.1	CP171656.1	2838436501	SAMN34993721	666	Vibrio cholerae strain M820 chromosome 1, complete sequence	direct
+CP171657.1	CP171657.1	2838436502	SAMN34993721	666	Vibrio cholerae strain M820 chromosome 2, complete sequence	direct
+CP171658.1	CP171658.1	2838436509	SAMN34993718	666	Vibrio cholerae strain M819 chromosome 1, complete sequence	direct
+CP171659.1	CP171659.1	2838436510	SAMN34993718	666	Vibrio cholerae strain M819 chromosome 2, complete sequence	direct
+CP171660.1	CP171660.1	2838436519	SAMN34993717	666	Vibrio cholerae strain M818 chromosome 1, complete sequence	direct
+CP171661.1	CP171661.1	2838436520	SAMN34993717	666	Vibrio cholerae strain M818 chromosome 2, complete sequence	direct
+CP171662.1	CP171662.1	2838436521	SAMN34993715	666	Vibrio cholerae strain M814 chromosome 1, complete sequence	direct
+CP171663.1	CP171663.1	2838436522	SAMN34993715	666	Vibrio cholerae strain M814 chromosome 2, complete sequence	direct
+CP171664.1	CP171664.1	2838436503	SAMN34993714	666	Vibrio cholerae strain M813 chromosome 1, complete sequence	direct
+CP171665.1	CP171665.1	2838436504	SAMN34993714	666	Vibrio cholerae strain M813 chromosome 2, complete sequence	direct
+CP171666.1	CP171666.1	2838436511	SAMN34993712	666	Vibrio cholerae strain M811 chromosome 1, complete sequence	direct
+CP171667.1	CP171667.1	2838436512	SAMN34993712	666	Vibrio cholerae strain M811 chromosome 2, complete sequence	direct
+CP171668.1	CP171668.1	2838436497	SAMN34993711	666	Vibrio cholerae strain M810 chromosome 1, complete sequence	direct
+CP171669.1	CP171669.1	2838436498	SAMN34993711	666	Vibrio cholerae strain M810 chromosome 2, complete sequence	direct
+CP171670.1	CP171670.1	2838436505	SAMN34993710	666	Vibrio cholerae strain M809 chromosome 1, complete sequence	direct
+CP171671.1	CP171671.1	2838436506	SAMN34993710	666	Vibrio cholerae strain M809 chromosome 2, complete sequence	direct
+CP171672.1	CP171672.1	2838436499	SAMN34993708	666	Vibrio cholerae strain M808 chromosome 1, complete sequence	direct
+CP171673.1	CP171673.1	2838436500	SAMN34993708	666	Vibrio cholerae strain M808 chromosome 2, complete sequence	direct
+CP171674.1	CP171674.1	2838436495	SAMN34993707	666	Vibrio cholerae strain M807 chromosome 1, complete sequence	direct
+CP171675.1	CP171675.1	2838436496	SAMN34993707	666	Vibrio cholerae strain M807 chromosome 2, complete sequence	direct
+CP171676.1	CP171676.1	2838436517	SAMN34993705	666	Vibrio cholerae strain CRC1106 chromosome 1, complete sequence	direct
+CP171677.1	CP171677.1	2838436518	SAMN34993705	666	Vibrio cholerae strain CRC1106 chromosome 2, complete sequence	direct
+CP171678.1	CP171678.1	2838436507	SAMN34993704	666	Vibrio cholerae strain M805 chromosome 1, complete sequence	direct
+CP171679.1	CP171679.1	2838436508	SAMN34993704	666	Vibrio cholerae strain M805 chromosome 2, complete sequence	direct
+CP171680.1	CP171680.1	2838436523	SAMN34993703	666	Vibrio cholerae strain M804 chromosome 1, complete sequence	direct
+CP171681.1	CP171681.1	2838436524	SAMN34993703	666	Vibrio cholerae strain M804 chromosome 2, complete sequence	direct
+CP171682.1	CP171682.1	2838436515	SAMN34993702	666	Vibrio cholerae strain M803 chromosome 1, complete sequence	direct
+CP171683.1	CP171683.1	2838436516	SAMN34993702	666	Vibrio cholerae strain M803 chromosome 2, complete sequence	direct
+CP171684.1	CP171684.1	2838436513	SAMN34993720	666	Vibrio cholerae strain M795 chromosome 1, complete sequence	direct
+CP171685.1	CP171685.1	2838436514	SAMN34993720	666	Vibrio cholerae strain M795 chromosome 2, complete sequence	direct
+CP171686.1	CP171686.1	2838436525	SAMN34993706	666	Vibrio cholerae strain M686 chromosome 1, complete sequence	direct
+CP171687.1	CP171687.1	2838436526	SAMN34993706	666	Vibrio cholerae strain M686 chromosome 2, complete sequence	direct
+CP171688.1	CP171688.1	2838436527	SAMN34993709	666	Vibrio cholerae strain M647 chromosome 1, complete sequence	direct
+CP171689.1	CP171689.1	2838436528	SAMN34993709	666	Vibrio cholerae strain M647 chromosome 2, complete sequence	direct
+CP172323.1	CP172323.1	2844376952	SAMN34993716	666	Vibrio cholerae strain M815 chromosome 1, complete sequence	direct
+CP172324.1	CP172324.1	2844376953	SAMN34993716	666	Vibrio cholerae strain M815 chromosome 2, complete sequence	direct
+CP172325.1	CP172325.1	2844382202	SAMN34993713	666	Vibrio cholerae strain M812 chromosome 1, complete sequence	direct
+CP172326.1	CP172326.1	2844382203	SAMN34993713	666	Vibrio cholerae strain M812 chromosome 2, complete sequence	direct
+CP172327.1	CP172327.1	2844382205	SAMN34993719	666	Vibrio cholerae strain M650 chromosome 1, complete sequence	direct
+CP172328.1	CP172328.1	2844382206	SAMN34993719	666	Vibrio cholerae strain M650 chromosome 2, complete sequence	direct
+CP173026.1	CP173026.1	2850930681	SAMN44524177	666	Vibrio cholerae strain SPH 24-01 chromosome 1, complete sequence	direct
+CP173027.1	CP173027.1	2850933139	SAMN44524177	666	Vibrio cholerae strain SPH 24-01 chromosome 2, complete sequence	direct
+CP173265.1	CP173265.1	2851493456	SAMN34993723	666	Vibrio cholerae strain M714 chromosome 1, complete sequence	direct
+CP173266.1	CP173266.1	2851493457	SAMN34993723	666	Vibrio cholerae strain M714 chromosome 2, complete sequence	direct
+CP173267.1	CP173267.1	2851493458	SAMN34993723	666	Vibrio cholerae strain M714 plasmid pM714, complete sequence	direct
+CP173268.1	CP173268.1	2851493459	SAMN34993722	666	Vibrio cholerae strain M646 chromosome 1, complete sequence	direct
+CP173269.1	CP173269.1	2851493460	SAMN34993722	666	Vibrio cholerae strain M646 chromosome 2, complete sequence	direct
+CP173270.1	CP173270.1	2851493461	SAMN34993722	666	Vibrio cholerae strain M646 plasmid pM646, complete sequence	direct
+CP175806.1	CP175806.1	2869869154	SAMN45093038	666	Vibrio cholerae strain N19-2759 chromosome 1, complete sequence	direct
+CP175807.1	CP175807.1	2869871815	SAMN45093038	666	Vibrio cholerae strain N19-2759 chromosome 2, complete sequence	direct
+CP178387.1	CP178387.1	2894520120	SAMN46279253	666	Vibrio cholerae isolate CTMA_1842 chromosome 1, complete sequence	direct
+CP178388.1	CP178388.1	2894522621	SAMN46279253	666	Vibrio cholerae isolate CTMA_1842 chromosome 2, complete sequence	direct
+CP184803.1	CP184803.1	2945964090	SAMN37453706	666	Vibrio cholerae strain vc962760 chromosome 1, complete sequence	direct
+CP184804.1	CP184804.1	2945966676	SAMN37453706	666	Vibrio cholerae strain vc962760 chromosome 2, complete sequence	direct
+CP184805.1	CP184805.1	2945960206	SAMN37722528	666	Vibrio cholerae strain 973360 chromosome 1, complete sequence	direct
+CP184806.1	CP184806.1	2945962681	SAMN37722528	666	Vibrio cholerae strain 973360 chromosome 2, complete sequence	direct
+CP184807.1	CP184807.1	2945956585	SAMN37722527	666	Vibrio cholerae strain 964015 chromosome 1, complete sequence	direct
+CP184808.1	CP184808.1	2945957486	SAMN37722527	666	Vibrio cholerae strain 964015 chromosome 2, complete sequence	direct
+CP184809.1	CP184809.1	2945952648	SAMN38197351	666	Vibrio cholerae strain 978823 chromosome 1, complete sequence	direct
+CP184810.1	CP184810.1	2945953614	SAMN38197351	666	Vibrio cholerae strain 978823 chromosome 2, complete sequence	direct
+CP191367.1	CP191367.1	2979973219	SAMN48439641	666	Vibrio cholerae strain GD25VC001 chromosome 1, complete sequence	direct
+CP191368.1	CP191368.1	2979975880	SAMN48439641	666	Vibrio cholerae strain GD25VC001 chromosome 2, complete sequence	direct
+CP194674.1	CP194674.1	3006183247	SAMN44771345	666	Vibrio cholerae strain MLK181 chromosome 1, complete sequence	direct
+CP194675.1	CP194675.1	3006185877	SAMN44771345	666	Vibrio cholerae strain MLK181 chromosome 2, complete sequence	direct
+CP194676.1	CP194676.1	3006186829	SAMN44771345	666	Vibrio cholerae strain MLK181 plasmid pVCMLK181, complete sequence	direct
+CP196621.1	CP196621.1	3038603716	SAMN49713707	666	Vibrio cholerae strain classical A103 chromosome 1, complete sequence	direct
+CP196622.1	CP196622.1	3038606347	SAMN49713707	666	Vibrio cholerae strain classical A103 chromosome 2, complete sequence	direct
+CP196623.1	CP196623.1	3038600069	SAMN49713706	666	Vibrio cholerae strain classical 569B chromosome 1, complete sequence	direct
+CP196624.1	CP196624.1	3038602694	SAMN49713706	666	Vibrio cholerae strain classical 569B chromosome 2, complete sequence	direct
+CP196625.1	CP196625.1	3035918201	SAMN49713705	666	Vibrio cholerae strain classical O395 chromosome 1, complete sequence	direct
+CP196626.1	CP196626.1	3035920830	SAMN49713705	666	Vibrio cholerae strain classical O395 chromosome 2, complete sequence	direct
+JBQWLZ000000000.1	JBQWLZ000000000.1	3058344505	SAMN50182397	666	Vibrio cholerae strain SU109, whole genome shotgun sequencing project	direct
+JBRTTN000000000.1	JBRTTN000000000.1	3096706329	SAMN52838569	666	Vibrio cholerae strain S15G02, whole genome shotgun sequencing project	direct
+JBRUSS000000000.1	JBRUSS000000000.1	3100604406	SAMN49797543	666	Vibrio cholerae strain NOVC01, whole genome shotgun sequencing project	direct
+JBRUST000000000.1	JBRUST000000000.1	3100604417	SAMN49797544	666	Vibrio cholerae strain NOVC02, whole genome shotgun sequencing project	direct
+JBRUSU000000000.1	JBRUSU000000000.1	3100604400	SAMN49797545	666	Vibrio cholerae strain NOVC03, whole genome shotgun sequencing project	direct
+JBRUSV000000000.1	JBRUSV000000000.1	3100604413	SAMN49797546	666	Vibrio cholerae strain NOVC04, whole genome shotgun sequencing project	direct
+JBRUSW000000000.1	JBRUSW000000000.1	3100604396	SAMN49797547	666	Vibrio cholerae strain NOVC05, whole genome shotgun sequencing project	direct
+JBRUSX000000000.1	JBRUSX000000000.1	3100604412	SAMN49797548	666	Vibrio cholerae strain NOVC06, whole genome shotgun sequencing project	direct
+JBRUSY000000000.1	JBRUSY000000000.1	3100604404	SAMN49797549	666	Vibrio cholerae strain NOVC07, whole genome shotgun sequencing project	direct
+JBRUSZ000000000.1	JBRUSZ000000000.1	3100604419	SAMN49797550	666	Vibrio cholerae strain NOVC08, whole genome shotgun sequencing project	direct
+JBRUTA000000000.1	JBRUTA000000000.1	3100604411	SAMN49797551	666	Vibrio cholerae strain NOVC09, whole genome shotgun sequencing project	direct
+JBRUTB000000000.1	JBRUTB000000000.1	3100604415	SAMN49797553	666	Vibrio cholerae strain NOVC11, whole genome shotgun sequencing project	direct
+JBRUTC000000000.1	JBRUTC000000000.1	3100604401	SAMN49797554	666	Vibrio cholerae strain NOVC12, whole genome shotgun sequencing project	direct
+JBRUTD000000000.1	JBRUTD000000000.1	3100604416	SAMN49797555	666	Vibrio cholerae strain NOVC13, whole genome shotgun sequencing project	direct
+JBRUTE000000000.1	JBRUTE000000000.1	3100604399	SAMN49797556	666	Vibrio cholerae strain NOVC14, whole genome shotgun sequencing project	direct
+LT897797.1	LT897797.1	1315685090	SAMEA104115281	666	Vibrio cholerae isolate Vibrio cholerae str. BC1071 genome assembly, chromosome: I	direct
+LT897798.1	LT897798.1	1315687653	SAMEA104115281	666	Vibrio cholerae isolate Vibrio cholerae str. BC1071 genome assembly, chromosome: II	direct
+LT906614.1	LT906614.1	1728914759	SAMEA104223503	243277	Vibrio cholerae O1 biovar El Tor str. N16961 genome assembly, chromosome: 1	direct
+LT906615.1	LT906615.1	1728914760	SAMEA104223503	243277	Vibrio cholerae O1 biovar El Tor str. N16961 genome assembly, chromosome: 2	direct
+LT907989.1	LT907989.1	1248821479	SAMEA889328	666	Vibrio cholerae strain A19 genome assembly, chromosome: 1	direct
+LT907990.1	LT907990.1	1248821480	SAMEA889328	666	Vibrio cholerae strain A19 genome assembly, chromosome: 2	direct
+LT992486.1	LT992486.1	1373834606	SAMEA4374366	666	Vibrio cholerae strain 4295STDY6534216 genome assembly, chromosome: 1	direct
+LT992487.1	LT992487.1	1373837255	SAMEA4374366	666	Vibrio cholerae strain 4295STDY6534216 genome assembly, chromosome: 2	direct
+LT992488.1	LT992488.1	1373838198	SAMEA4374367	666	Vibrio cholerae strain 4295STDY6534232 genome assembly, chromosome: 1	direct
+LT992489.1	LT992489.1	1373840846	SAMEA4374367	666	Vibrio cholerae strain 4295STDY6534232 genome assembly, chromosome: 2	direct
+LT992490.1	LT992490.1	1829779336	SAMEA4374365	666	Vibrio cholerae strain 4295STDY6534200 genome assembly, chromosome: 1	direct
+LT992491.1	LT992491.1	1751363405	SAMEA4374365	666	Vibrio cholerae strain 4295STDY6534200 genome assembly, chromosome: 2	direct
+LT992492.1	LT992492.1	1373841789	SAMEA4374368	666	Vibrio cholerae strain 4295STDY6534248 genome assembly, chromosome: 1	direct
+LT992493.1	LT992493.1	1373844648	SAMEA4374368	666	Vibrio cholerae strain 4295STDY6534248 genome assembly, chromosome: 2	direct
+NC_002505.1	NC_002505.1	15640032	SAMN02603969	243277	Vibrio cholerae O1 biovar El Tor str. N16961 chromosome I, complete sequence	direct
+NC_002506.1	NC_002506.1	15600771	SAMN02603969	243277	Vibrio cholerae O1 biovar El Tor str. N16961 chromosome II, complete sequence	direct
+NC_009456.1	NC_009456.1	147671401	SAMN02604040	345073	Vibrio cholerae O395 chromosome 2, complete sequence	direct
+NC_009457.1	NC_009457.1	147673035	SAMN02604040	345073	Vibrio cholerae O395 chromosome 1, complete sequence	direct
+NC_012578.1	NC_012578.1	227080237	SAMN02603897	579112	Vibrio cholerae M66-2 chromosome I, complete sequence	direct
+NC_012580.1	NC_012580.1	227811634	SAMN02603897	579112	Vibrio cholerae M66-2 chromosome II, complete sequence	direct
+NC_012582.1	NC_012582.1	227116370	SAMN02603898	345073	Vibrio cholerae O395 chromosome I, complete sequence	direct
+NC_012583.1	NC_012583.1	227119188	SAMN02603898	345073	Vibrio cholerae O395 chromosome II, complete sequence	direct
+NC_012667.1	NC_012667.1	229605062	SAMN02603569	593588	Vibrio cholerae MJ-1236 chromosome 2, complete sequence	direct
+NC_012668.1	NC_012668.1	229606122	SAMN02603569	593588	Vibrio cholerae MJ-1236 chromosome 1, complete sequence	direct
+NC_016445.1	NC_016445.1	360034408	SAMN00765529	914149	Vibrio cholerae O1 str. 2010EL-1786 chromosome 1, complete sequence	direct
+NC_016446.1	NC_016446.1	360037214	SAMN00765529	914149	Vibrio cholerae O1 str. 2010EL-1786 chromosome 2, complete sequence	direct
+NC_016944.1	NC_016944.1	379739908	SAMN02603415	1134456	Vibrio cholerae IEC224 chromosome I, complete sequence	direct
+NC_016945.1	NC_016945.1	379743460	SAMN02603415	1134456	Vibrio cholerae IEC224 chromosome II, complete sequence	direct
+NZ_AKGH01000001.1	NZ_AKGH01000001.1	452722814	SAMN02470784	1093790	Vibrio cholerae H1 chromosome 1, whole genome shotgun sequence	direct
+NZ_AKGH01000002.1	NZ_AKGH01000002.1	452722815	SAMN02470784	1093790	Vibrio cholerae H1 chromosome 2, whole genome shotgun sequence	direct
+NZ_AP014524.1	NZ_AP014524.1	751581975	SAMD00061025	1420885	Vibrio cholerae MS6 chromosome 1, complete sequence	direct
+NZ_AP014525.1	NZ_AP014525.1	751583904	SAMD00061025	1420885	Vibrio cholerae MS6 chromosome 2, complete sequence	direct
+NZ_AP018677.1	NZ_AP018677.1	1478073951	SAMD00118470	666	Vibrio cholerae strain V060002 chromosome, complete genome	direct
+NZ_AP024553.1	NZ_AP024553.1	2084176383	SAMD00290839	666	Vibrio cholerae strain IDH-03329 chromosome 1, complete sequence	direct
+NZ_AP024554.1	NZ_AP024554.1	2084176384	SAMD00290839	666	Vibrio cholerae strain IDH-03329 chromosome 2, complete sequence	direct
+NZ_AP024555.1	NZ_AP024555.1	2084182370	SAMD00290840	666	Vibrio cholerae strain IDH-03506 chromosome 1, complete sequence	direct
+NZ_AP024556.1	NZ_AP024556.1	2084182371	SAMD00290840	666	Vibrio cholerae strain IDH-03506 chromosome 2, complete sequence	direct
+NZ_AP024967.1	NZ_AP024967.1	2233971083	SAMD00323053	666	Vibrio cholerae strain V130003 chromosome 1, complete sequence	direct
+NZ_AP024968.1	NZ_AP024968.1	2233971136	SAMD00323053	666	Vibrio cholerae strain V130003 chromosome 2, complete sequence	direct
+NZ_AP028804.1	NZ_AP028804.1	2713995311	SAMD00637071	666	Vibrio cholerae strain VN152 chromosome 1, complete sequence	direct
+NZ_AP028805.1	NZ_AP028805.1	2713995312	SAMD00637071	666	Vibrio cholerae strain VN152 plasmid pVN152, complete sequence	direct
+NZ_AP028806.1	NZ_AP028806.1	2713995313	SAMD00637071	666	Vibrio cholerae strain VN152 chromosome 2, complete sequence	direct
+NZ_CM127143.1	NZ_CM127143.1	3061059022	SAMN50182397	666	Vibrio cholerae strain SU109 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM127144.1	NZ_CM127144.1	3061059023	SAMN50182397	666	Vibrio cholerae strain SU109 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129925.1	NZ_CM129925.1	3110409005	SAMN52838569	666	Vibrio cholerae strain S15G02 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129926.1	NZ_CM129926.1	3110410074	SAMN52838569	666	Vibrio cholerae strain S15G02 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129937.1	NZ_CM129937.1	3110808241	SAMN49797556	666	Vibrio cholerae strain NOVC14 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129938.1	NZ_CM129938.1	3110808242	SAMN49797556	666	Vibrio cholerae strain NOVC14 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129939.1	NZ_CM129939.1	3110807287	SAMN49797555	666	Vibrio cholerae strain NOVC13 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129940.1	NZ_CM129940.1	3110807288	SAMN49797555	666	Vibrio cholerae strain NOVC13 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129941.1	NZ_CM129941.1	3110815695	SAMN49797554	666	Vibrio cholerae strain NOVC12 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129942.1	NZ_CM129942.1	3110815696	SAMN49797554	666	Vibrio cholerae strain NOVC12 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129943.1	NZ_CM129943.1	3110819825	SAMN49797553	666	Vibrio cholerae strain NOVC11 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129944.1	NZ_CM129944.1	3110819826	SAMN49797553	666	Vibrio cholerae strain NOVC11 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129945.1	NZ_CM129945.1	3110807107	SAMN49797551	666	Vibrio cholerae strain NOVC09 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129946.1	NZ_CM129946.1	3110807108	SAMN49797551	666	Vibrio cholerae strain NOVC09 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129947.1	NZ_CM129947.1	3110808436	SAMN49797550	666	Vibrio cholerae strain NOVC08 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129948.1	NZ_CM129948.1	3110808437	SAMN49797550	666	Vibrio cholerae strain NOVC08 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129949.1	NZ_CM129949.1	3110808425	SAMN49797549	666	Vibrio cholerae strain NOVC07 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129950.1	NZ_CM129950.1	3110808426	SAMN49797549	666	Vibrio cholerae strain NOVC07 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129951.1	NZ_CM129951.1	3110807866	SAMN49797548	666	Vibrio cholerae strain NOVC06 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129952.1	NZ_CM129952.1	3110807867	SAMN49797548	666	Vibrio cholerae strain NOVC06 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129953.1	NZ_CM129953.1	3110821707	SAMN49797547	666	Vibrio cholerae strain NOVC05 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129954.1	NZ_CM129954.1	3110821708	SAMN49797547	666	Vibrio cholerae strain NOVC05 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129955.1	NZ_CM129955.1	3110814719	SAMN49797546	666	Vibrio cholerae strain NOVC04 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129956.1	NZ_CM129956.1	3110814721	SAMN49797546	666	Vibrio cholerae strain NOVC04 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129957.1	NZ_CM129957.1	3110807957	SAMN49797545	666	Vibrio cholerae strain NOVC03 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129958.1	NZ_CM129958.1	3110807958	SAMN49797545	666	Vibrio cholerae strain NOVC03 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129959.1	NZ_CM129959.1	3110808358	SAMN49797544	666	Vibrio cholerae strain NOVC02 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129960.1	NZ_CM129960.1	3110808359	SAMN49797544	666	Vibrio cholerae strain NOVC02 chromosome 2, whole genome shotgun sequence	direct
+NZ_CM129961.1	NZ_CM129961.1	3110821196	SAMN49797543	666	Vibrio cholerae strain NOVC01 chromosome 1, whole genome shotgun sequence	direct
+NZ_CM129962.1	NZ_CM129962.1	3110821197	SAMN49797543	666	Vibrio cholerae strain NOVC01 chromosome 2, whole genome shotgun sequence	direct
+NZ_CP006947.1	NZ_CP006947.1	951140427	SAMN04191514	1433144	Vibrio cholerae O1 str. KW3 chromosome I, complete sequence	direct
+NZ_CP006948.1	NZ_CP006948.1	951140428	SAMN04191514	1433144	Vibrio cholerae O1 str. KW3 chromosome II, complete sequence	direct
+NZ_CP007634.1	NZ_CP007634.1	749293670	SAMN02741837	666	Vibrio cholerae strain 2012EL-2176 chromosome 1, complete sequence	direct
+NZ_CP007635.1	NZ_CP007635.1	749293683	SAMN02741837	666	Vibrio cholerae strain 2012EL-2176 chromosome 2, complete sequence	direct
+NZ_CP007636.1	NZ_CP007636.1	749293690	SAMN02741837	666	Vibrio cholerae strain 2012EL-2176 plasmid unnamed, complete sequence	direct
+NZ_CP009041.1	NZ_CP009041.1	796467065	SAMN02928187	686	Vibrio cholerae O1 biovar El Tor strain FJ147 chromosome II, complete sequence	direct
+NZ_CP009042.1	NZ_CP009042.1	796471733	SAMN02928187	686	Vibrio cholerae O1 biovar El Tor strain FJ147 chromosome I, complete sequence	direct
+NZ_CP010811.1	NZ_CP010811.1	806407376	SAMN03248305	666	Vibrio cholerae strain 1154-74 chromosome, complete genome	direct
+NZ_CP010812.1	NZ_CP010812.1	806464118	SAMN03248306	666	Vibrio cholerae strain 10432-62 chromosome, complete genome	direct
+NZ_CP012997.1	NZ_CP012997.1	1093962572	SAMN03104885	666	Vibrio cholerae strain 2012Env-9 chromosome 1, complete sequence	direct
+NZ_CP012998.1	NZ_CP012998.1	1093962573	SAMN03104885	666	Vibrio cholerae strain 2012Env-9 chromosome 2, complete sequence	direct
+NZ_CP013013.1	NZ_CP013013.1	1093982095	SAMN04168691	666	Vibrio cholerae strain Env-390 chromosome 1, complete sequence	direct
+NZ_CP013014.1	NZ_CP013014.1	1093982252	SAMN04168691	666	Vibrio cholerae strain Env-390 chromosome 2, complete sequence	direct
+NZ_CP013301.1	NZ_CP013301.1	1110695808	SAMN04256432	666	Vibrio cholerae strain C5 chromosome 1, complete sequence	direct
+NZ_CP013302.1	NZ_CP013302.1	1110695809	SAMN04256432	666	Vibrio cholerae strain C5 chromosome 2, complete sequence	direct
+NZ_CP013303.1	NZ_CP013303.1	1110682061	SAMN04256434	666	Vibrio cholerae strain CRC711 chromosome 1, complete sequence	direct
+NZ_CP013304.1	NZ_CP013304.1	1110682118	SAMN04256434	666	Vibrio cholerae strain CRC711 chromosome 2, complete sequence	direct
+NZ_CP013305.1	NZ_CP013305.1	1110693308	SAMN04256433	666	Vibrio cholerae strain CRC1106 chromosome 1, complete sequence	direct
+NZ_CP013306.1	NZ_CP013306.1	1110693309	SAMN04256433	666	Vibrio cholerae strain CRC1106 chromosome 2, complete sequence	direct
+NZ_CP013307.1	NZ_CP013307.1	1169181357	SAMN04256436	666	Vibrio cholerae strain E506 chromosome 1, complete sequence	direct
+NZ_CP013308.1	NZ_CP013308.1	1169181358	SAMN04256436	666	Vibrio cholerae strain E506 chromosome 2, complete sequence	direct
+NZ_CP013309.1	NZ_CP013309.1	1110695814	SAMN04256439	666	Vibrio cholerae strain E1162 chromosome 1, complete sequence	direct
+NZ_CP013310.1	NZ_CP013310.1	1110695815	SAMN04256439	666	Vibrio cholerae strain E1162 chromosome 2, complete sequence	direct
+NZ_CP013311.1	NZ_CP013311.1	1110693379	SAMN04256440	666	Vibrio cholerae strain E1320 chromosome, complete genome	direct
+NZ_CP013312.1	NZ_CP013312.1	1110693380	SAMN04256440	666	Vibrio cholerae strain E1320 chromosome 2, complete sequence	direct
+NZ_CP013313.1	NZ_CP013313.1	1110691602	SAMN04256431	666	Vibrio cholerae strain E9120 chromosome 1, complete sequence	direct
+NZ_CP013314.1	NZ_CP013314.1	1110691603	SAMN04256431	666	Vibrio cholerae strain E9120 chromosome 2, complete sequence	direct
+NZ_CP013315.1	NZ_CP013315.1	1110693653	SAMN04256435	666	Vibrio cholerae strain M2140 chromosome 1, complete sequence	direct
+NZ_CP013316.1	NZ_CP013316.1	1110693654	SAMN04256435	666	Vibrio cholerae strain M2140 chromosome 2, complete sequence	direct
+NZ_CP013317.1	NZ_CP013317.1	1110693395	SAMN04256437	666	Vibrio cholerae strain NCTC5395 chromosome 1, complete sequence	direct
+NZ_CP013318.1	NZ_CP013318.1	1110693396	SAMN04256437	666	Vibrio cholerae strain NCTC5395 chromosome 2, complete sequence	direct
+NZ_CP013319.1	NZ_CP013319.1	1110693630	SAMN04256438	666	Vibrio cholerae strain NCTC9420 chromosome 1, complete sequence	direct
+NZ_CP013320.1	NZ_CP013320.1	1110693631	SAMN04256438	666	Vibrio cholerae strain NCTC9420 chromosome 2, complete sequence	direct
+NZ_CP016324.1	NZ_CP016324.1	1043351791	SAMN02943003	412614	Vibrio cholerae 2740-80 chromosome 1, complete sequence	direct
+NZ_CP016325.1	NZ_CP016325.1	1043351792	SAMN02943003	412614	Vibrio cholerae 2740-80 chromosome 2, complete sequence	direct
+NZ_CP016987.1	NZ_CP016987.1	1244531528	SAMN05567318	666	Vibrio cholerae strain FORC_055 isolate MFDS chromosome 1, complete sequence	direct
+NZ_CP016988.1	NZ_CP016988.1	1244531529	SAMN05567318	666	Vibrio cholerae strain FORC_055 isolate MFDS chromosome 2, complete sequence	direct
+NZ_CP020407.2	NZ_CP020407.2	1355896309	SAMN04875560	666	Vibrio cholerae strain FDAARGOS_223 chromosome 2, complete sequence	direct
+NZ_CP020408.2	NZ_CP020408.2	1355896483	SAMN04875560	666	Vibrio cholerae strain FDAARGOS_223 chromosome 1, complete sequence	direct
+NZ_CP024082.1	NZ_CP024082.1	1482731116	SAMN07684567	666	Vibrio cholerae strain FORC_073 chromosome 1, complete sequence	direct
+NZ_CP024083.1	NZ_CP024083.1	1482731121	SAMN07684567	666	Vibrio cholerae strain FORC_073 chromosome 2, complete sequence	direct
+NZ_CP024162.1	NZ_CP024162.1	1274477268	SAMN07821484	666	Vibrio cholerae strain E7946 chromosome 1, complete sequence	direct
+NZ_CP024163.1	NZ_CP024163.1	1274477269	SAMN07821484	666	Vibrio cholerae strain E7946 chromosome 2, complete sequence	direct
+NZ_CP024867.1	NZ_CP024867.1	1360740179	SAMN07974340	666	Vibrio cholerae strain A1552 chromosome I, complete sequence	direct
+NZ_CP024868.1	NZ_CP024868.1	1360740180	SAMN07974340	666	Vibrio cholerae strain A1552 chromosome II, complete sequence	direct
+NZ_CP025936.1	NZ_CP025936.1	1333381612	SAMN08323859	666	Vibrio cholerae strain A1552 chromosome 1, complete sequence	direct
+NZ_CP025937.1	NZ_CP025937.1	1333381613	SAMN08323859	666	Vibrio cholerae strain A1552 chromosome 2, complete sequence	direct
+NZ_CP026647.1	NZ_CP026647.1	1352911925	SAMN08472240	686	Vibrio cholerae O1 biovar El Tor strain HC1037 chromosome I, complete sequence	direct
+NZ_CP026648.1	NZ_CP026648.1	1352911937	SAMN08472240	686	Vibrio cholerae O1 biovar El Tor strain HC1037 chromosome II, complete sequence	direct
+NZ_CP028827.1	NZ_CP028827.1	1383064851	SAMN08822914	666	Vibrio cholerae strain N16961 chromosome 1, complete sequence	direct
+NZ_CP028828.1	NZ_CP028828.1	1383064852	SAMN08822914	666	Vibrio cholerae strain N16961 chromosome 2, complete sequence	direct
+NZ_CP028892.1	NZ_CP028892.1	1383060520	SAMN08813238	666	Vibrio cholerae strain Sa5Y chromosome 1, complete sequence	direct
+NZ_CP028893.1	NZ_CP028893.1	1383060521	SAMN08813238	666	Vibrio cholerae strain Sa5Y chromosome 2, complete sequence	direct
+NZ_CP028894.1	NZ_CP028894.1	1388160422	SAMN08896638	666	Vibrio cholerae strain A1552 chromosome 1, complete sequence	direct
+NZ_CP028895.1	NZ_CP028895.1	1388160423	SAMN08896638	666	Vibrio cholerae strain A1552 chromosome 2, complete sequence	direct
+NZ_CP033513.1	NZ_CP033513.1	1511677483	SAMN10364850	666	Vibrio cholerae strain E4 chromosome 2, complete sequence	direct
+NZ_CP033514.1	NZ_CP033514.1	1511677484	SAMN10364850	666	Vibrio cholerae strain E4 plasmid pVCR94, complete sequence	direct
+NZ_CP033515.1	NZ_CP033515.1	1511677485	SAMN10364850	666	Vibrio cholerae strain E4 chromosome 1, complete sequence	direct
+NZ_CP036499.1	NZ_CP036499.1	1590065787	SAMN11029208	666	Vibrio cholerae strain 20000 chromosome 1, complete sequence	direct
+NZ_CP036500.1	NZ_CP036500.1	1590065829	SAMN11029208	666	Vibrio cholerae strain 20000 chromosome 2, complete sequence	direct
+NZ_CP040171.1	NZ_CP040171.1	1878865430	SAMN11604374	666	Vibrio cholerae strain VC1374 plasmid pVC1374, complete sequence	direct
+NZ_CP040172.1	NZ_CP040172.1	1878865431	SAMN11604374	666	Vibrio cholerae strain VC1374 chromosome 1, complete sequence	direct
+NZ_CP040173.1	NZ_CP040173.1	1878865434	SAMN11604374	666	Vibrio cholerae strain VC1374 chromosome 2, complete sequence	direct
+NZ_CP042299.1	NZ_CP042299.1	1802801326	SAMN12136324	127906	Vibrio cholerae O1 strain AAS91 chromosome 1, complete sequence	direct
+NZ_CP042300.1	NZ_CP042300.1	1802801418	SAMN12136324	127906	Vibrio cholerae O1 strain AAS91 chromosome 2, complete sequence	direct
+NZ_CP043554.1	NZ_CP043554.1	1741166712	SAMN12572458	666	Vibrio cholerae strain RFB16 chromosome 1, complete sequence	direct
+NZ_CP043555.1	NZ_CP043555.1	1741166713	SAMN12572458	666	Vibrio cholerae strain RFB16 plasmid unnamed, complete sequence	direct
+NZ_CP043556.1	NZ_CP043556.1	1741166714	SAMN12572458	666	Vibrio cholerae strain RFB16 chromosome 2, complete sequence	direct
+NZ_CP045718.1	NZ_CP045718.1	1774264598	SAMN13166158	345073	Vibrio cholerae O395 substr. TCP2 chromosome 2, complete sequence	direct
+NZ_CP045719.1	NZ_CP045719.1	1774264599	SAMN13166158	345073	Vibrio cholerae O395 substr. TCP2 chromosome, complete genome	direct
+NZ_CP046735.1	NZ_CP046735.1	1788969202	SAMN12648323	666	Vibrio cholerae strain 3528-08 chromosome 2, complete sequence	direct
+NZ_CP046736.1	NZ_CP046736.1	1788969203	SAMN12648323	666	Vibrio cholerae strain 3528-08 chromosome 1, complete sequence	direct
+NZ_CP046737.1	NZ_CP046737.1	1788993387	SAMN12648320	666	Vibrio cholerae strain 2015V-1126 chromosome 1, complete sequence	direct
+NZ_CP046738.1	NZ_CP046738.1	1788993491	SAMN12648320	666	Vibrio cholerae strain 2015V-1126 chromosome 2, complete sequence	direct
+NZ_CP046739.1	NZ_CP046739.1	1788969548	SAMN12648319	666	Vibrio cholerae strain 3566-06 chromosome 2, complete sequence	direct
+NZ_CP046740.1	NZ_CP046740.1	1788969549	SAMN12648319	666	Vibrio cholerae strain 3566-06 chromosome 1, complete sequence	direct
+NZ_CP046741.1	NZ_CP046741.1	1788994001	SAMN12648318	666	Vibrio cholerae strain 3523-03 chromosome 2, complete sequence	direct
+NZ_CP046742.1	NZ_CP046742.1	1788994009	SAMN12648318	666	Vibrio cholerae strain 3523-03 chromosome 1, complete sequence	direct
+NZ_CP046743.1	NZ_CP046743.1	1789019824	SAMN12648314	666	Vibrio cholerae strain 3569-08 chromosome 2, complete sequence	direct
+NZ_CP046744.1	NZ_CP046744.1	1789019922	SAMN12648314	666	Vibrio cholerae strain 3569-08 chromosome 1, complete sequence	direct
+NZ_CP046747.1	NZ_CP046747.1	1788996425	SAMN12648312	666	Vibrio cholerae strain 3541-04 chromosome 1, complete sequence	direct
+NZ_CP046748.1	NZ_CP046748.1	1788996426	SAMN12648312	666	Vibrio cholerae strain 3541-04 chromosome 2, complete sequence	direct
+NZ_CP046749.1	NZ_CP046749.1	1788996432	SAMN12648311	666	Vibrio cholerae strain 2015V-1118 chromosome 1, complete sequence	direct
+NZ_CP046750.1	NZ_CP046750.1	1788996446	SAMN12648311	666	Vibrio cholerae strain 2015V-1118 chromosome 2, complete sequence	direct
+NZ_CP046838.1	NZ_CP046838.1	1789011890	SAMN12648322	666	Vibrio cholerae strain 2011EL-1271 chromosome 2, complete sequence	direct
+NZ_CP046839.1	NZ_CP046839.1	1789011891	SAMN12648322	666	Vibrio cholerae strain 2011EL-1271 chromosome 1, complete sequence	direct
+NZ_CP046840.1	NZ_CP046840.1	1789005470	SAMN12648321	666	Vibrio cholerae strain F9993 chromosome 1, complete sequence	direct
+NZ_CP046841.1	NZ_CP046841.1	1789005484	SAMN12648321	666	Vibrio cholerae strain F9993 chromosome 2, complete sequence	direct
+NZ_CP046844.1	NZ_CP046844.1	1789032877	SAMN12648315	948564	Vibrio cholerae C6706 chromosome 1, complete sequence	direct
+NZ_CP046845.1	NZ_CP046845.1	1789032898	SAMN12648315	948564	Vibrio cholerae C6706 chromosome 2, complete sequence	direct
+NZ_CP047059.1	NZ_CP047059.1	1797822644	SAMN13613314	666	Vibrio cholerae isolate CTMA_1441 chromosome 1, complete sequence	direct
+NZ_CP047060.1	NZ_CP047060.1	1797822866	SAMN13613314	666	Vibrio cholerae isolate CTMA_1441 chromosome 2, complete sequence	direct
+NZ_CP047295.1	NZ_CP047295.1	1841960649	SAMN13734987	948564	Vibrio cholerae C6706 chromosome 1, complete sequence	direct
+NZ_CP047296.1	NZ_CP047296.1	1841960685	SAMN13734987	948564	Vibrio cholerae C6706 chromosome 2, complete sequence	direct
+NZ_CP047297.1	NZ_CP047297.1	1841959099	SAMN13734988	686	Vibrio cholerae O1 biovar El Tor strain C6709 chromosome 1, complete sequence	direct
+NZ_CP047298.1	NZ_CP047298.1	1841959216	SAMN13734988	686	Vibrio cholerae O1 biovar El Tor strain C6709 chromosome 2, complete sequence	direct
+NZ_CP047299.1	NZ_CP047299.1	1841959227	SAMN13734999	686	Vibrio cholerae O1 biovar El Tor strain P27459 chromosome 1, complete sequence	direct
+NZ_CP047300.1	NZ_CP047300.1	1841959228	SAMN13734999	686	Vibrio cholerae O1 biovar El Tor strain P27459 chromosome 2, complete sequence	direct
+NZ_CP047301.1	NZ_CP047301.1	1841960711	SAMN13735001	686	Vibrio cholerae O1 biovar El Tor strain DRC-193A chromosome 1, complete sequence	direct
+NZ_CP047302.1	NZ_CP047302.1	1841960712	SAMN13735001	686	Vibrio cholerae O1 biovar El Tor strain DRC-193A chromosome 2, complete sequence	direct
+NZ_CP047303.1	NZ_CP047303.1	1841960646	SAMN13734989	686	Vibrio cholerae O1 biovar El Tor strain E7946 chromosome 1, complete sequence	direct
+NZ_CP047304.1	NZ_CP047304.1	1841960647	SAMN13734989	686	Vibrio cholerae O1 biovar El Tor strain E7946 chromosome 2, complete sequence	direct
+NZ_CP047305.1	NZ_CP047305.1	2036921853	SAMN13736322	185332	Vibrio cholerae O37 strain ATCC 25872 chromosome 1, complete sequence	direct
+NZ_CP047306.1	NZ_CP047306.1	2036921854	SAMN13736322	185332	Vibrio cholerae O37 strain ATCC 25872 chromosome 2, complete sequence	direct
+NZ_CP053744.1	NZ_CP053744.1	1859576932	SAMN14944058	666	Vibrio cholerae strain SA3G chromosome 1, complete sequence	direct
+NZ_CP053745.1	NZ_CP053745.1	1859576933	SAMN14944058	666	Vibrio cholerae strain SA3G chromosome 2, complete sequence	direct
+NZ_CP053794.1	NZ_CP053794.1	1859561087	SAMN14944057	666	Vibrio cholerae strain W10G chromosome 1, complete sequence	direct
+NZ_CP053795.1	NZ_CP053795.1	1859561221	SAMN14944057	666	Vibrio cholerae strain W10G chromosome 2, complete sequence	direct
+NZ_CP053796.1	NZ_CP053796.1	1859578515	SAMN14944065	666	Vibrio cholerae strain SL4G chromosome 1, complete sequence	direct
+NZ_CP053797.1	NZ_CP053797.1	1859578516	SAMN14944065	666	Vibrio cholerae strain SL4G chromosome 2, complete sequence	direct
+NZ_CP053798.1	NZ_CP053798.1	1859560770	SAMN14944067	666	Vibrio cholerae strain SL5Y chromosome 1, complete sequence	direct
+NZ_CP053799.1	NZ_CP053799.1	1859560771	SAMN14944067	666	Vibrio cholerae strain SL5Y chromosome 2, complete sequence	direct
+NZ_CP053800.1	NZ_CP053800.1	1859562939	SAMN14944069	666	Vibrio cholerae strain SO5Y chromosome 1, complete sequence	direct
+NZ_CP053801.1	NZ_CP053801.1	1859563037	SAMN14944069	666	Vibrio cholerae strain SO5Y chromosome 2, complete sequence	direct
+NZ_CP053802.1	NZ_CP053802.1	1859575870	SAMN14944070	666	Vibrio cholerae strain L6G chromosome 1, complete sequence	direct
+NZ_CP053803.1	NZ_CP053803.1	1859575871	SAMN14944070	666	Vibrio cholerae strain L6G chromosome 2, complete sequence	direct
+NZ_CP053804.1	NZ_CP053804.1	1859558124	SAMN14944072	666	Vibrio cholerae strain SL6Y chromosome 1, complete sequence	direct
+NZ_CP053805.1	NZ_CP053805.1	1859558390	SAMN14944072	666	Vibrio cholerae strain SL6Y chromosome 2, complete sequence	direct
+NZ_CP053806.1	NZ_CP053806.1	1859569640	SAMN14944080	666	Vibrio cholerae strain SP6G chromosome 1, complete sequence	direct
+NZ_CP053807.1	NZ_CP053807.1	1859569641	SAMN14944080	666	Vibrio cholerae strain SP6G chromosome 2, complete sequence	direct
+NZ_CP053808.1	NZ_CP053808.1	1859570237	SAMN14944081	666	Vibrio cholerae strain SP7G chromosome 1, complete sequence	direct
+NZ_CP053809.1	NZ_CP053809.1	1859570238	SAMN14944081	666	Vibrio cholerae strain SP7G chromosome 2, complete sequence	direct
+NZ_CP053810.1	NZ_CP053810.1	1859574671	SAMN14944082	666	Vibrio cholerae strain W6G chromosome 1, complete sequence	direct
+NZ_CP053811.1	NZ_CP053811.1	1859574672	SAMN14944082	666	Vibrio cholerae strain W6G chromosome 2, complete sequence	direct
+NZ_CP053812.1	NZ_CP053812.1	1859574673	SAMN14944082	666	Vibrio cholerae strain W6G plasmid pW6G, complete sequence	direct
+NZ_CP053813.1	NZ_CP053813.1	1859577164	SAMN14944083	666	Vibrio cholerae strain W7G chromosome 1, complete sequence	direct
+NZ_CP053814.1	NZ_CP053814.1	1859577165	SAMN14944083	666	Vibrio cholerae strain W7G chromosome 2, complete sequence	direct
+NZ_CP053815.1	NZ_CP053815.1	1859577167	SAMN14944083	666	Vibrio cholerae strain W7G plasmid pW7G, complete sequence	direct
+NZ_CP053816.1	NZ_CP053816.1	1859575135	SAMN14944112	666	Vibrio cholerae strain SA7G chromosome 1, complete sequence	direct
+NZ_CP053817.1	NZ_CP053817.1	1859575136	SAMN14944112	666	Vibrio cholerae strain SA7G chromosome 2, complete sequence	direct
+NZ_CP053818.1	NZ_CP053818.1	1859575137	SAMN14944112	666	Vibrio cholerae strain SA7G plasmid pSA7G1, complete sequence	direct
+NZ_CP053819.1	NZ_CP053819.1	1859575138	SAMN14944112	666	Vibrio cholerae strain SA7G plasmid pSA7G2, complete sequence	direct
+NZ_CP053820.1	NZ_CP053820.1	1859573854	SAMN14944113	666	Vibrio cholerae strain SA10G chromosome 1, complete sequence	direct
+NZ_CP053821.1	NZ_CP053821.1	1859573855	SAMN14944113	666	Vibrio cholerae strain SA10G chromosome 2, complete sequence	direct
+NZ_CP053822.1	NZ_CP053822.1	1859575015	SAMN14944111	666	Vibrio cholerae strain E7G chromosome 1, complete sequence	direct
+NZ_CP053823.1	NZ_CP053823.1	1859575016	SAMN14944111	666	Vibrio cholerae strain E7G chromosome 2, complete sequence	direct
+NZ_CP053824.1	NZ_CP053824.1	1859575017	SAMN14944111	666	Vibrio cholerae strain E7G plasmid pE7G, complete sequence	direct
+NZ_CP063420.1	NZ_CP063420.1	1928269640	SAMN16483972	666	Vibrio cholerae strain VC_hf7 chromosome 1, complete sequence	direct
+NZ_CP063421.1	NZ_CP063421.1	1928270181	SAMN16483972	666	Vibrio cholerae strain VC_hf7 chromosome 2, complete sequence	direct
+NZ_CP063422.1	NZ_CP063422.1	1928270365	SAMN16483972	666	Vibrio cholerae strain VC_hf7 plasmid pICDC-VUN128_01, complete sequence	direct
+NZ_CP063423.1	NZ_CP063423.1	1928270370	SAMN16483972	666	Vibrio cholerae strain VC_hf7 plasmid pICDC-VUN128_02, complete sequence	direct
+NZ_CP064350.1	NZ_CP064350.1	1932947117	SAMN16705019	948564	Vibrio cholerae C6706 chromosome I, complete sequence	direct
+NZ_CP064351.1	NZ_CP064351.1	1932947118	SAMN16705019	948564	Vibrio cholerae C6706 chromosome II, complete sequence	direct
+NZ_CP072847.1	NZ_CP072847.1	2026823684	SAMN18636297	666	Vibrio cholerae strain A1552 chromosome 1, complete sequence	direct
+NZ_CP072848.1	NZ_CP072848.1	2026824328	SAMN18636297	666	Vibrio cholerae strain A1552 chromosome 2, complete sequence	direct
+NZ_CP072849.1	NZ_CP072849.1	2026831757	SAMN18642716	345072	Vibrio cholerae MO10 chromosome 1, complete sequence	direct
+NZ_CP072850.1	NZ_CP072850.1	2026832116	SAMN18642716	345072	Vibrio cholerae MO10 chromosome 2, complete sequence	direct
+NZ_CP077060.1	NZ_CP077060.1	2509372557	SAMN18296291	666	Vibrio cholerae strain MS84A chromosome I, complete sequence	direct
+NZ_CP077061.1	NZ_CP077061.1	2509372559	SAMN18296291	666	Vibrio cholerae strain MS84A chromosome II, complete sequence	direct
+NZ_CP080462.1	NZ_CP080462.1	2077363373	SAMN11287979	666	Vibrio cholerae strain ICDC-VC702 chromosome 1, complete sequence	direct
+NZ_CP080463.1	NZ_CP080463.1	2077363374	SAMN11287979	666	Vibrio cholerae strain ICDC-VC702 chromosome 2, complete sequence	direct
+NZ_CP080464.1	NZ_CP080464.1	2077363375	SAMN11287979	666	Vibrio cholerae strain ICDC-VC702 plasmid unnamed, complete sequence	direct
+NZ_CP080465.1	NZ_CP080465.1	2077358772	SAMN11287978	666	Vibrio cholerae strain ICDC-VC3741 chromosome 1, complete sequence	direct
+NZ_CP080466.1	NZ_CP080466.1	2077358773	SAMN11287978	666	Vibrio cholerae strain ICDC-VC3741 chromosome 2, complete sequence	direct
+NZ_CP090386.1	NZ_CP090386.1	2176842234	SAMN24501422	666	Vibrio cholerae strain GXFL1-4 chromosome 1, complete sequence	direct
+NZ_CP090387.1	NZ_CP090387.1	2176842238	SAMN24501422	666	Vibrio cholerae strain GXFL1-4 chromosome 2, complete sequence	direct
+NZ_CP090388.1	NZ_CP090388.1	2176842241	SAMN24501422	666	Vibrio cholerae strain GXFL1-4 plasmid unnamed1, complete sequence	direct
+NZ_CP090399.1	NZ_CP090399.1	2176818229	SAMN24592306	666	Vibrio cholerae strain PanChol chromosome 1, complete sequence	direct
+NZ_CP090400.1	NZ_CP090400.1	2176818522	SAMN24592306	666	Vibrio cholerae strain PanChol chromosome 2, complete sequence	direct
+NZ_CP095331.1	NZ_CP095331.1	3004870223	SAMN26198548	666	Vibrio cholerae strain 19MO03SH03-1 chromosome 1, complete sequence	direct
+NZ_CP095332.1	NZ_CP095332.1	3004870413	SAMN26198548	666	Vibrio cholerae strain 19MO03SH03-1 chromosome 2, complete sequence	direct
+NZ_CP102927.1	NZ_CP102927.1	2289229755	SAMN30329103	666	Vibrio cholerae strain N1252 chromosome 1, complete sequence	direct
+NZ_CP102928.1	NZ_CP102928.1	2289229756	SAMN30329103	666	Vibrio cholerae strain N1252 chromosome 2, complete sequence	direct
+NZ_CP104354.1	NZ_CP104354.1	2306570496	SAMN13878423	666	Vibrio cholerae strain PNUSAV001140 chromosome 1, complete sequence	direct
+NZ_CP104355.1	NZ_CP104355.1	2306570558	SAMN13878423	666	Vibrio cholerae strain PNUSAV001140 chromosome 2, complete sequence	direct
+NZ_CP104356.1	NZ_CP104356.1	2306555207	SAMN13878425	666	Vibrio cholerae strain PNUSAV001141 chromosome 1, complete sequence	direct
+NZ_CP104357.1	NZ_CP104357.1	2306555380	SAMN13878425	666	Vibrio cholerae strain PNUSAV001141 chromosome 2, complete sequence	direct
+NZ_CP110188.1	NZ_CP110188.1	2327106757	SAMN31210808	666	Vibrio cholerae strain E1 chromosome 1, complete sequence	direct
+NZ_CP110189.1	NZ_CP110189.1	2327107400	SAMN31210808	666	Vibrio cholerae strain E1 chromosome 2, complete sequence	direct
+NZ_CP132180.1	NZ_CP132180.1	2563289104	SAMN36815614	666	Vibrio cholerae strain DRC193A chromosome 1, complete sequence	direct
+NZ_CP132181.1	NZ_CP132181.1	2563289105	SAMN36815614	666	Vibrio cholerae strain DRC193A chromosome 2, complete sequence	direct
+NZ_CP132182.1	NZ_CP132182.1	2563313534	SAMN36815616	666	Vibrio cholerae strain DRC072 chromosome 2, complete sequence	direct
+NZ_CP132183.1	NZ_CP132183.1	2563313535	SAMN36815616	666	Vibrio cholerae strain DRC072 chromosome 1, complete sequence	direct
+NZ_CP132187.1	NZ_CP132187.1	2563300716	SAMN36815618	666	Vibrio cholerae strain DRC052 chromosome 1, complete sequence	direct
+NZ_CP132188.1	NZ_CP132188.1	2563300717	SAMN36815618	666	Vibrio cholerae strain DRC052 chromosome 2, complete sequence	direct
+NZ_CP132189.1	NZ_CP132189.1	2563240271	SAMN36815619	666	Vibrio cholerae strain DRC187 chromosome 2, complete sequence	direct
+NZ_CP132190.1	NZ_CP132190.1	2563240272	SAMN36815619	666	Vibrio cholerae strain DRC187 chromosome 1, complete sequence	direct
+NZ_CP133104.1	NZ_CP133104.1	3107005700	SAMN37016252	666	Vibrio cholerae strain CTMA_1861 chromosome I, complete sequence	direct
+NZ_CP133105.1	NZ_CP133105.1	3107005739	SAMN37016252	666	Vibrio cholerae strain CTMA_1861 chromosome II, complete sequence	direct
+NZ_CP134057.1	NZ_CP134057.1	2625424545	SAMN37265074	666	Vibrio cholerae strain VIC11-A chromosome 2, complete sequence	direct
+NZ_CP134058.1	NZ_CP134058.1	2625424546	SAMN37265074	666	Vibrio cholerae strain VIC11-A chromosome 1, complete sequence	direct
+NZ_CP134059.1	NZ_CP134059.1	2625424547	SAMN37265074	666	Vibrio cholerae strain VIC11-A plasmid pVIC11-A, complete sequence	direct
+NZ_CP134060.1	NZ_CP134060.1	2625419363	SAMN37265073	666	Vibrio cholerae strain CMUL 009 chromosome 1, complete sequence	direct
+NZ_CP134061.1	NZ_CP134061.1	2625419364	SAMN37265073	666	Vibrio cholerae strain CMUL 009 chromosome 2, complete sequence	direct
+NZ_CP137091.1	NZ_CP137091.1	2865826546	SAMN37852906	666	Vibrio cholerae strain DL4211 chromosome 1, complete sequence	direct
+NZ_CP137092.1	NZ_CP137092.1	2865826547	SAMN37852906	666	Vibrio cholerae strain DL4211 chromosome 2, complete sequence	direct
+NZ_CP137135.1	NZ_CP137135.1	2865831920	SAMN37879645	345076	Vibrio cholerae V52 chromosome 1, complete sequence	direct
+NZ_CP137136.1	NZ_CP137136.1	2865831921	SAMN37879645	345076	Vibrio cholerae V52 chromosome 2, complete sequence	direct
+NZ_CP142014.1	NZ_CP142014.1	2731562129	SAMN39200978	666	Vibrio cholerae strain LK-18 chromosome 1, complete sequence	direct
+NZ_CP142015.1	NZ_CP142015.1	2731562136	SAMN39200978	666	Vibrio cholerae strain LK-18 chromosome 2, complete sequence	direct
+NZ_CP147726.1	NZ_CP147726.1	2771029679	SAMN40377900	666	Vibrio cholerae strain CNCTC 6536 chromosome 1, complete sequence	direct
+NZ_CP147727.1	NZ_CP147727.1	2771029734	SAMN40377900	666	Vibrio cholerae strain CNCTC 6536 chromosome 2, complete sequence	direct
+NZ_CP152070.1	NZ_CP152070.1	2752077133	SAMN40456655	666	Vibrio cholerae strain Sudan_2019_18 chromosome 2, complete sequence	direct
+NZ_CP152071.1	NZ_CP152071.1	2752077142	SAMN40456655	666	Vibrio cholerae strain Sudan_2019_18 chromosome 1, complete sequence	direct
+NZ_CP157384.1	NZ_CP157384.1	2890043959	SAMN41299324	948564	Vibrio cholerae C6706 chromosome 1, complete sequence	direct
+NZ_CP157385.1	NZ_CP157385.1	2890044062	SAMN41299324	948564	Vibrio cholerae C6706 chromosome 2, complete sequence	direct
+NZ_CP158974.1	NZ_CP158974.1	2829590623	SAMN41920291	666	Vibrio cholerae strain CNRVC240027 chromosome 1, complete sequence	direct
+NZ_CP158975.1	NZ_CP158975.1	2829590878	SAMN41920291	666	Vibrio cholerae strain CNRVC240027 chromosome 2, complete sequence	direct
+NZ_CP158976.1	NZ_CP158976.1	2829590961	SAMN41920291	666	Vibrio cholerae strain CNRVC240027 plasmid pCNRVC240027, complete sequence	direct
+NZ_CP159790.1	NZ_CP159790.1	2755717910	SAMN42189331	666	Vibrio cholerae strain MAK757 chromosome 1, complete sequence	direct
+NZ_CP159791.1	NZ_CP159791.1	2755717911	SAMN42189331	666	Vibrio cholerae strain MAK757 chromosome 2, complete sequence	direct
+NZ_CP161854.1	NZ_CP161854.1	2776512503	SAMN42000381	666	Vibrio cholerae strain C3616 chromosome 1, complete sequence	direct
+NZ_CP161855.1	NZ_CP161855.1	2776512648	SAMN42000381	666	Vibrio cholerae strain C3616 chromosome 2, complete sequence	direct
+NZ_CP161856.1	NZ_CP161856.1	2776512704	SAMN42000381	666	Vibrio cholerae strain C3616 plasmid pA, complete sequence	direct
+NZ_CP171656.1	NZ_CP171656.1	2839518220	SAMN34993721	666	Vibrio cholerae strain M820 chromosome 1, complete sequence	direct
+NZ_CP171657.1	NZ_CP171657.1	2839518293	SAMN34993721	666	Vibrio cholerae strain M820 chromosome 2, complete sequence	direct
+NZ_CP171658.1	NZ_CP171658.1	2840779792	SAMN34993718	666	Vibrio cholerae strain M819 chromosome 1, complete sequence	direct
+NZ_CP171659.1	NZ_CP171659.1	2840779814	SAMN34993718	666	Vibrio cholerae strain M819 chromosome 2, complete sequence	direct
+NZ_CP171660.1	NZ_CP171660.1	2840770260	SAMN34993717	666	Vibrio cholerae strain M818 chromosome 1, complete sequence	direct
+NZ_CP171661.1	NZ_CP171661.1	2840770327	SAMN34993717	666	Vibrio cholerae strain M818 chromosome 2, complete sequence	direct
+NZ_CP171662.1	NZ_CP171662.1	2840779772	SAMN34993715	666	Vibrio cholerae strain M814 chromosome 1, complete sequence	direct
+NZ_CP171663.1	NZ_CP171663.1	2840779776	SAMN34993715	666	Vibrio cholerae strain M814 chromosome 2, complete sequence	direct
+NZ_CP171664.1	NZ_CP171664.1	2840770498	SAMN34993714	666	Vibrio cholerae strain M813 chromosome 1, complete sequence	direct
+NZ_CP171665.1	NZ_CP171665.1	2840770523	SAMN34993714	666	Vibrio cholerae strain M813 chromosome 2, complete sequence	direct
+NZ_CP171666.1	NZ_CP171666.1	2840779010	SAMN34993712	666	Vibrio cholerae strain M811 chromosome 1, complete sequence	direct
+NZ_CP171667.1	NZ_CP171667.1	2840779030	SAMN34993712	666	Vibrio cholerae strain M811 chromosome 2, complete sequence	direct
+NZ_CP171668.1	NZ_CP171668.1	2840778791	SAMN34993711	666	Vibrio cholerae strain M810 chromosome 1, complete sequence	direct
+NZ_CP171669.1	NZ_CP171669.1	2840778797	SAMN34993711	666	Vibrio cholerae strain M810 chromosome 2, complete sequence	direct
+NZ_CP171670.1	NZ_CP171670.1	2840776944	SAMN34993710	666	Vibrio cholerae strain M809 chromosome 1, complete sequence	direct
+NZ_CP171671.1	NZ_CP171671.1	2840776977	SAMN34993710	666	Vibrio cholerae strain M809 chromosome 2, complete sequence	direct
+NZ_CP171672.1	NZ_CP171672.1	2840777393	SAMN34993708	666	Vibrio cholerae strain M808 chromosome 1, complete sequence	direct
+NZ_CP171673.1	NZ_CP171673.1	2840777486	SAMN34993708	666	Vibrio cholerae strain M808 chromosome 2, complete sequence	direct
+NZ_CP171674.1	NZ_CP171674.1	2840764559	SAMN34993707	666	Vibrio cholerae strain M807 chromosome 1, complete sequence	direct
+NZ_CP171675.1	NZ_CP171675.1	2840764560	SAMN34993707	666	Vibrio cholerae strain M807 chromosome 2, complete sequence	direct
+NZ_CP171676.1	NZ_CP171676.1	2840777115	SAMN34993705	666	Vibrio cholerae strain CRC1106 chromosome 1, complete sequence	direct
+NZ_CP171677.1	NZ_CP171677.1	2840777225	SAMN34993705	666	Vibrio cholerae strain CRC1106 chromosome 2, complete sequence	direct
+NZ_CP171678.1	NZ_CP171678.1	2840763069	SAMN34993704	666	Vibrio cholerae strain M805 chromosome 1, complete sequence	direct
+NZ_CP171679.1	NZ_CP171679.1	2840763070	SAMN34993704	666	Vibrio cholerae strain M805 chromosome 2, complete sequence	direct
+NZ_CP171680.1	NZ_CP171680.1	2840778765	SAMN34993703	666	Vibrio cholerae strain M804 chromosome 1, complete sequence	direct
+NZ_CP171681.1	NZ_CP171681.1	2840778775	SAMN34993703	666	Vibrio cholerae strain M804 chromosome 2, complete sequence	direct
+NZ_CP171682.1	NZ_CP171682.1	2840763222	SAMN34993702	666	Vibrio cholerae strain M803 chromosome 1, complete sequence	direct
+NZ_CP171683.1	NZ_CP171683.1	2840763223	SAMN34993702	666	Vibrio cholerae strain M803 chromosome 2, complete sequence	direct
+NZ_CP171684.1	NZ_CP171684.1	2840763217	SAMN34993720	666	Vibrio cholerae strain M795 chromosome 1, complete sequence	direct
+NZ_CP171685.1	NZ_CP171685.1	2840763218	SAMN34993720	666	Vibrio cholerae strain M795 chromosome 2, complete sequence	direct
+NZ_CP171686.1	NZ_CP171686.1	2840764572	SAMN34993706	666	Vibrio cholerae strain M686 chromosome 1, complete sequence	direct
+NZ_CP171687.1	NZ_CP171687.1	2840764573	SAMN34993706	666	Vibrio cholerae strain M686 chromosome 2, complete sequence	direct
+NZ_CP171688.1	NZ_CP171688.1	2840769050	SAMN34993709	666	Vibrio cholerae strain M647 chromosome 1, complete sequence	direct
+NZ_CP171689.1	NZ_CP171689.1	2840769094	SAMN34993709	666	Vibrio cholerae strain M647 chromosome 2, complete sequence	direct
+NZ_CP172323.1	NZ_CP172323.1	2848533323	SAMN34993716	666	Vibrio cholerae strain M815 chromosome 1, complete sequence	direct
+NZ_CP172324.1	NZ_CP172324.1	2848533607	SAMN34993716	666	Vibrio cholerae strain M815 chromosome 2, complete sequence	direct
+NZ_CP172325.1	NZ_CP172325.1	2848535277	SAMN34993713	666	Vibrio cholerae strain M812 chromosome 1, complete sequence	direct
+NZ_CP172326.1	NZ_CP172326.1	2848535538	SAMN34993713	666	Vibrio cholerae strain M812 chromosome 2, complete sequence	direct
+NZ_CP172327.1	NZ_CP172327.1	2848534537	SAMN34993719	666	Vibrio cholerae strain M650 chromosome 1, complete sequence	direct
+NZ_CP172328.1	NZ_CP172328.1	2848534792	SAMN34993719	666	Vibrio cholerae strain M650 chromosome 2, complete sequence	direct
+NZ_CP173026.1	NZ_CP173026.1	2858101976	SAMN44524177	666	Vibrio cholerae strain SPH 24-01 chromosome 1, complete sequence	direct
+NZ_CP173027.1	NZ_CP173027.1	2858101978	SAMN44524177	666	Vibrio cholerae strain SPH 24-01 chromosome 2, complete sequence	direct
+NZ_CP173265.1	NZ_CP173265.1	2858612157	SAMN34993723	666	Vibrio cholerae strain M714 chromosome 1, complete sequence	direct
+NZ_CP173266.1	NZ_CP173266.1	2858612158	SAMN34993723	666	Vibrio cholerae strain M714 chromosome 2, complete sequence	direct
+NZ_CP173267.1	NZ_CP173267.1	2858612159	SAMN34993723	666	Vibrio cholerae strain M714 plasmid pM714, complete sequence	direct
+NZ_CP173268.1	NZ_CP173268.1	2858605783	SAMN34993722	666	Vibrio cholerae strain M646 chromosome 1, complete sequence	direct
+NZ_CP173269.1	NZ_CP173269.1	2858605784	SAMN34993722	666	Vibrio cholerae strain M646 chromosome 2, complete sequence	direct
+NZ_CP173270.1	NZ_CP173270.1	2858605785	SAMN34993722	666	Vibrio cholerae strain M646 plasmid pM646, complete sequence	direct
+NZ_CP175806.1	NZ_CP175806.1	2870723459	SAMN45093038	666	Vibrio cholerae strain N19-2759 chromosome 1, complete sequence	direct
+NZ_CP175807.1	NZ_CP175807.1	2870723460	SAMN45093038	666	Vibrio cholerae strain N19-2759 chromosome 2, complete sequence	direct
+NZ_CP178387.1	NZ_CP178387.1	2895137991	SAMN46279253	666	Vibrio cholerae isolate CTMA_1842 chromosome 1, complete sequence	direct
+NZ_CP178388.1	NZ_CP178388.1	2895137992	SAMN46279253	666	Vibrio cholerae isolate CTMA_1842 chromosome 2, complete sequence	direct
+NZ_CP184803.1	NZ_CP184803.1	2948108485	SAMN37453706	666	Vibrio cholerae strain vc962760 chromosome 1, complete sequence	direct
+NZ_CP184804.1	NZ_CP184804.1	2948108486	SAMN37453706	666	Vibrio cholerae strain vc962760 chromosome 2, complete sequence	direct
+NZ_CP184805.1	NZ_CP184805.1	2948110051	SAMN37722528	666	Vibrio cholerae strain 973360 chromosome 1, complete sequence	direct
+NZ_CP184806.1	NZ_CP184806.1	2948110052	SAMN37722528	666	Vibrio cholerae strain 973360 chromosome 2, complete sequence	direct
+NZ_CP184807.1	NZ_CP184807.1	2948087042	SAMN37722527	666	Vibrio cholerae strain 964015 chromosome 1, complete sequence	direct
+NZ_CP184808.1	NZ_CP184808.1	2948087104	SAMN37722527	666	Vibrio cholerae strain 964015 chromosome 2, complete sequence	direct
+NZ_CP184809.1	NZ_CP184809.1	2948099265	SAMN38197351	666	Vibrio cholerae strain 978823 chromosome 1, complete sequence	direct
+NZ_CP184810.1	NZ_CP184810.1	2948099300	SAMN38197351	666	Vibrio cholerae strain 978823 chromosome 2, complete sequence	direct
+NZ_CP191367.1	NZ_CP191367.1	2986112385	SAMN48439641	666	Vibrio cholerae strain GD25VC001 chromosome 1, complete sequence	direct
+NZ_CP191368.1	NZ_CP191368.1	2986112584	SAMN48439641	666	Vibrio cholerae strain GD25VC001 chromosome 2, complete sequence	direct
+NZ_CP194674.1	NZ_CP194674.1	3007924904	SAMN44771345	666	Vibrio cholerae strain MLK181 chromosome 1, complete sequence	direct
+NZ_CP194675.1	NZ_CP194675.1	3007925054	SAMN44771345	666	Vibrio cholerae strain MLK181 chromosome 2, complete sequence	direct
+NZ_CP194676.1	NZ_CP194676.1	3007925106	SAMN44771345	666	Vibrio cholerae strain MLK181 plasmid pVCMLK181, complete sequence	direct
+NZ_CP196621.1	NZ_CP196621.1	3039031922	SAMN49713707	666	Vibrio cholerae strain classical A103 chromosome 1, complete sequence	direct
+NZ_CP196622.1	NZ_CP196622.1	3039031977	SAMN49713707	666	Vibrio cholerae strain classical A103 chromosome 2, complete sequence	direct
+NZ_CP196623.1	NZ_CP196623.1	3039067878	SAMN49713706	666	Vibrio cholerae strain classical 569B chromosome 1, complete sequence	direct
+NZ_CP196624.1	NZ_CP196624.1	3039067916	SAMN49713706	666	Vibrio cholerae strain classical 569B chromosome 2, complete sequence	direct
+NZ_CP196625.1	NZ_CP196625.1	3053795746	SAMN49713705	666	Vibrio cholerae strain classical 0395 chromosome 1, complete sequence	direct
+NZ_CP196626.1	NZ_CP196626.1	3053795780	SAMN49713705	666	Vibrio cholerae strain classical 0395 chromosome 2, complete sequence	direct
+NZ_JBRUSS010000003.1	NZ_JBRUSS010000003.1	3110821198	SAMN49797543	666	Vibrio cholerae strain NOVC01 plasmid unnamed1, whole genome shotgun sequence	direct
+NZ_JBRUSS010000004.1	NZ_JBRUSS010000004.1	3110821199	SAMN49797543	666	Vibrio cholerae strain NOVC01 plasmid unnamed2, whole genome shotgun sequence	direct
+NZ_JBRUSS010000005.1	NZ_JBRUSS010000005.1	3110821200	SAMN49797543	666	Vibrio cholerae strain NOVC01 plasmid unnamed3, whole genome shotgun sequence	direct
+NZ_JBRUSS010000006.1	NZ_JBRUSS010000006.1	3110821201	SAMN49797543	666	Vibrio cholerae strain NOVC01 plasmid unnamed4, whole genome shotgun sequence	direct
+NZ_JBRUST010000003.1	NZ_JBRUST010000003.1	3110808360	SAMN49797544	666	Vibrio cholerae strain NOVC02 plasmid unnamed1, whole genome shotgun sequence	direct
+NZ_JBRUST010000004.1	NZ_JBRUST010000004.1	3110808361	SAMN49797544	666	Vibrio cholerae strain NOVC02 plasmid unnamed2, whole genome shotgun sequence	direct
+NZ_JBRUST010000005.1	NZ_JBRUST010000005.1	3110808362	SAMN49797544	666	Vibrio cholerae strain NOVC02 plasmid unnamed3, whole genome shotgun sequence	direct
+NZ_JBRUSU010000003.1	NZ_JBRUSU010000003.1	3110807959	SAMN49797545	666	Vibrio cholerae strain NOVC03 plasmid unnamed1, whole genome shotgun sequence	direct
+NZ_JBRUSU010000004.1	NZ_JBRUSU010000004.1	3110807960	SAMN49797545	666	Vibrio cholerae strain NOVC03 plasmid unnamed2, whole genome shotgun sequence	direct
+NZ_JBRUSU010000005.1	NZ_JBRUSU010000005.1	3110807961	SAMN49797545	666	Vibrio cholerae strain NOVC03 plasmid unnamed3, whole genome shotgun sequence	direct
+NZ_JBRUSU010000006.1	NZ_JBRUSU010000006.1	3110807962	SAMN49797545	666	Vibrio cholerae strain NOVC03 plasmid unnamed4, whole genome shotgun sequence	direct
+NZ_JBRUSV010000003.1	NZ_JBRUSV010000003.1	3110814722	SAMN49797546	666	Vibrio cholerae strain NOVC04 plasmid unnamed1, whole genome shotgun sequence	direct
+NZ_JBRUSV010000004.1	NZ_JBRUSV010000004.1	3110814723	SAMN49797546	666	Vibrio cholerae strain NOVC04 plasmid unnamed2, whole genome shotgun sequence	direct
+NZ_JBRUSV010000005.1	NZ_JBRUSV010000005.1	3110814724	SAMN49797546	666	Vibrio cholerae strain NOVC04 plasmid unnamed3, whole genome shotgun sequence	direct
+NZ_JBRUSV010000006.1	NZ_JBRUSV010000006.1	3110814725	SAMN49797546	666	Vibrio cholerae strain NOVC04 plasmid unnamed4, whole genome shotgun sequence	direct
+NZ_JBRUSV010000007.1	NZ_JBRUSV010000007.1	3110814726	SAMN49797546	666	Vibrio cholerae strain NOVC04 plasmid unnamed5, whole genome shotgun sequence	direct
+NZ_JBRUSW010000003.1	NZ_JBRUSW010000003.1	3110821709	SAMN49797547	666	Vibrio cholerae strain NOVC05 plasmid unnamed1, whole genome shotgun sequence	direct
+NZ_JBRUSW010000004.1	NZ_JBRUSW010000004.1	3110821710	SAMN49797547	666	Vibrio cholerae strain NOVC05 plasmid unnamed2, whole genome shotgun sequence	direct
+NZ_JBRUSW010000005.1	NZ_JBRUSW010000005.1	3110821711	SAMN49797547	666	Vibrio cholerae strain NOVC05 plasmid unnamed3, whole genome shotgun sequence	direct
+NZ_JBRUSY010000003.1	NZ_JBRUSY010000003.1	3110808427	SAMN49797549	666	Vibrio cholerae strain NOVC07 plasmid unnamed1, whole genome shotgun sequence	direct
+NZ_JBRUSY010000004.1	NZ_JBRUSY010000004.1	3110808428	SAMN49797549	666	Vibrio cholerae strain NOVC07 plasmid unnamed2, whole genome shotgun sequence	direct
+NZ_JBRUSZ010000003.1	NZ_JBRUSZ010000003.1	3110808438	SAMN49797550	666	Vibrio cholerae strain NOVC08 plasmid unnamed1, whole genome shotgun sequence	direct
+NZ_JBRUTA010000003.1	NZ_JBRUTA010000003.1	3110807109	SAMN49797551	666	Vibrio cholerae strain NOVC09 plasmid unnamed1, whole genome shotgun sequence	direct
+NZ_JBRUTC010000003.1	NZ_JBRUTC010000003.1	3110815697	SAMN49797554	666	Vibrio cholerae strain NOVC12 plasmid unnamed1, whole genome shotgun sequence	direct
+NZ_JBRUTC010000004.1	NZ_JBRUTC010000004.1	3110815698	SAMN49797554	666	Vibrio cholerae strain NOVC12 plasmid unnamed2, whole genome shotgun sequence	direct
+NZ_JBRUTC010000005.1	NZ_JBRUTC010000005.1	3110815699	SAMN49797554	666	Vibrio cholerae strain NOVC12 plasmid unnamed3, whole genome shotgun sequence	direct
+NZ_JBRUTC010000006.1	NZ_JBRUTC010000006.1	3110815700	SAMN49797554	666	Vibrio cholerae strain NOVC12 plasmid unnamed4, whole genome shotgun sequence	direct
+NZ_LT897797.1	NZ_LT897797.1	1317309948	SAMEA104115281	666	Vibrio cholerae isolate Vibrio cholerae str. BC1071 chromosome I, complete sequence	direct
+NZ_LT897798.1	NZ_LT897798.1	1317310509	SAMEA104115281	666	Vibrio cholerae isolate Vibrio cholerae str. BC1071 chromosome II, complete sequence	direct
+NZ_LT906614.1	NZ_LT906614.1	1731345976	SAMEA104223503	243277	Vibrio cholerae O1 biovar El Tor str. N16961 chromosome 1	direct
+NZ_LT906615.1	NZ_LT906615.1	1731345977	SAMEA104223503	243277	Vibrio cholerae O1 biovar El Tor str. N16961 chromosome 2	direct
+NZ_LT907989.1	NZ_LT907989.1	1254103432	SAMEA889328	666	Vibrio cholerae strain A19 chromosome 1	direct
+NZ_LT907990.1	NZ_LT907990.1	1254103433	SAMEA889328	666	Vibrio cholerae strain A19 chromosome 2	direct
+NZ_LT992486.1	NZ_LT992486.1	1387955169	SAMEA4374366	666	Vibrio cholerae strain 4295STDY6534216 chromosome 1, complete sequence	direct
+NZ_LT992487.1	NZ_LT992487.1	1387955279	SAMEA4374366	666	Vibrio cholerae strain 4295STDY6534216 chromosome 2, complete sequence	direct
+NZ_LT992488.1	NZ_LT992488.1	1387925452	SAMEA4374367	666	Vibrio cholerae strain 4295STDY6534232 chromosome 1, complete sequence	direct
+NZ_LT992489.1	NZ_LT992489.1	1387925453	SAMEA4374367	666	Vibrio cholerae strain 4295STDY6534232 chromosome 2, complete sequence	direct
+NZ_LT992490.1	NZ_LT992490.1	1856158636	SAMEA4374365	666	Vibrio cholerae strain 4295STDY6534200 chromosome 1, complete sequence	direct
+NZ_LT992491.1	NZ_LT992491.1	1856158637	SAMEA4374365	666	Vibrio cholerae strain 4295STDY6534200 chromosome 2, complete sequence	direct
+NZ_LT992492.1	NZ_LT992492.1	1387972319	SAMEA4374368	666	Vibrio cholerae strain 4295STDY6534248 chromosome 1, complete sequence	direct
+NZ_LT992493.1	NZ_LT992493.1	1387972320	SAMEA4374368	666	Vibrio cholerae strain 4295STDY6534248 chromosome 2, complete sequence	direct
+NZ_OW443147.1	NZ_OW443147.1	2311618047	SAMEA9995373	666	Vibrio cholerae strain CNRVC190243 isolate YE-NCPHL-19014-PI chromosome 1	direct
+NZ_OW443148.1	NZ_OW443148.1	2311618138	SAMEA9995373	666	Vibrio cholerae strain CNRVC190243 isolate YE-NCPHL-19014-PI chromosome 2	direct
+NZ_OW443149.1	NZ_OW443149.1	2311618166	SAMEA9995373	666	Vibrio cholerae strain CNRVC190243 isolate YE-NCPHL-19014-PI plasmid 3	direct
+NZ_OW443150.1	NZ_OW443150.1	2311652264	SAMEA9995352	666	Vibrio cholerae strain CNRVC190247 isolate YE-NCPHL-18035-PI chromosome 1	direct
+NZ_OW443151.1	NZ_OW443151.1	2311652270	SAMEA9995352	666	Vibrio cholerae strain CNRVC190247 isolate YE-NCPHL-18035-PI chromosome 2	direct
+OW443147.1	OW443147.1	2306463434	SAMEA9995373	666	Vibrio cholerae strain CNRVC190243 genome assembly, chromosome: 1	direct
+OW443148.1	OW443148.1	2306466137	SAMEA9995373	666	Vibrio cholerae strain CNRVC190243 genome assembly, chromosome: 2	direct
+OW443149.1	OW443149.1	2306467093	SAMEA9995373	666	Vibrio cholerae strain CNRVC190243 genome assembly, plasmid: 3	direct
+OW443150.1	OW443150.1	2306467286	SAMEA9995352	666	Vibrio cholerae strain CNRVC190247 genome assembly, chromosome: 1	direct
+OW443151.1	OW443151.1	2306470018	SAMEA9995352	666	Vibrio cholerae strain CNRVC190247 genome assembly, chromosome: 2	direct

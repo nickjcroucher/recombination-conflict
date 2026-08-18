@@ -1,0 +1,1187 @@
+query_accession	resolved_accession	uid	biosample	taxid	title	resolved_from
+AE004969.1	AE004969.1	59717368	SAMN02604088	242231	Neisseria gonorrhoeae FA 1090, complete genome	direct
+AP018377.1	AP018377.1	1536886212	SAMD00092833	485	Neisseria gonorrhoeae FC428 DNA, complete genome	direct
+AP018378.1	AP018378.1	1536888429	SAMD00092833	485	Neisseria gonorrhoeae plasmid pConjugative FC428 DNA, complete genome	direct
+AP018379.1	AP018379.1	1536888475	SAMD00092833	485	Neisseria gonorrhoeae plasmid pCryptic FC428 DNA, complete genome	direct
+AP018380.1	AP018380.1	1536888484	SAMD00092833	485	Neisseria gonorrhoeae plasmid pBlaTEM FC428 DNA, complete genome	direct
+AP018381.1	AP018381.1	1536888493	SAMD00092837	485	Neisseria gonorrhoeae FC460 DNA, complete genome	direct
+AP018382.1	AP018382.1	1536890709	SAMD00092837	485	Neisseria gonorrhoeae plasmid pConjugative FC460 DNA, complete genome	direct
+AP018383.1	AP018383.1	1536890755	SAMD00092837	485	Neisseria gonorrhoeae plasmid pCryptic FC460 DNA, complete genome	direct
+AP018384.1	AP018384.1	1536890764	SAMD00092837	485	Neisseria gonorrhoeae plasmid pBlaTEM FC460 DNA, complete genome	direct
+AP018385.1	AP018385.1	1536890772	SAMD00092841	485	Neisseria gonorrhoeae FC498 DNA, complete genome	direct
+AP018386.1	AP018386.1	1536892990	SAMD00092841	485	Neisseria gonorrhoeae plasmid pConjugative FC498 DNA, complete genome	direct
+AP018387.1	AP018387.1	1536893036	SAMD00092841	485	Neisseria gonorrhoeae plasmid pCryptic FC498 DNA, complete genome	direct
+AP019853.2	AP019853.2	1798105855	SAMD00179626	485	Neisseria gonorrhoeae SS3160 DNA, complete genome	direct
+AP019854.1	AP019854.1	1711614963	SAMD00179626	485	Neisseria gonorrhoeae SS3160 plasmid pConjugative DNA, complete genome	direct
+AP019855.1	AP019855.1	1711615014	SAMD00179626	485	Neisseria gonorrhoeae SS3160 plasmid pCryptic DNA, complete genome	direct
+AP023067.1	AP023067.1	1836654902	SAMD00217347	485	Neisseria gonorrhoeae TUM19853 DNA, complete genome	direct
+AP023068.1	AP023068.1	1836657105	SAMD00217347	485	Neisseria gonorrhoeae TUM19853 plasmid pMTY19853 DNA, complete genome	direct
+AP023069.1	AP023069.1	1836657113	SAMD00217348	485	Neisseria gonorrhoeae TUM19854 DNA, complete genome	direct
+AP023070.1	AP023070.1	1836659273	SAMD00217348	485	Neisseria gonorrhoeae TUM19854 plasmid pMTY19854 DNA, complete genome	direct
+AP023071.1	AP023071.1	1836659281	SAMD00220608	485	Neisseria gonorrhoeae TUM15748 DNA, complete genome	direct
+AP023072.1	AP023072.1	1836661562	SAMD00220608	485	Neisseria gonorrhoeae TUM15748 plasmid pMTY15748 DNA, complete genome	direct
+AP023073.1	AP023073.1	1836661570	SAMD00220609	485	Neisseria gonorrhoeae TUM15753 DNA, complete genome	direct
+AP023074.1	AP023074.1	1836663784	SAMD00220609	485	Neisseria gonorrhoeae TUM15753 plasmid pMTY15753 DNA, complete genome	direct
+AP023075.1	AP023075.1	1836663792	SAMD00220610	485	Neisseria gonorrhoeae TUM16691 DNA, complete genome	direct
+AP023076.1	AP023076.1	1836665949	SAMD00220610	485	Neisseria gonorrhoeae TUM16691 plasmid pMTY16691 DNA, complete genome	direct
+AP024155.1	AP024155.1	1931075951	SAMD00257605	485	Neisseria gonorrhoeae TUM 19855 DNA, complete genome	direct
+AP024156.1	AP024156.1	1931078107	SAMD00257605	485	Neisseria gonorrhoeae TUM 19855 plasmid pMYT19855 DNA, complete genome	direct
+CM132214.1	CM132214.1	3117043498	SAMN53242160	485	Neisseria gonorrhoeae strain 4664 chromosome, complete sequence, whole genome shotgun sequence	direct
+CP001050.1	CP001050.1	193932879	SAMN02603475	521006	Neisseria gonorrhoeae NCCP11945, complete genome	direct
+CP001051.1	CP001051.1	193935628	SAMN02603475	521006	Neisseria gonorrhoeae NCCP11945 plasmid pNGK, complete sequence	direct
+CP003909.1	CP003909.1	537637238	SAMN02596923	528354	Neisseria gonorrhoeae MS11, complete genome	direct
+CP003910.1	CP003910.1	537637812	SAMN02596923	528354	Neisseria gonorrhoeae MS11 plasmid, complete sequence	direct
+CP003974.1	CP003974.1	1133376558	SAMN02380725	1247414	Neisseria gonorrhoeae NG-k51.05, complete sequence	direct
+CP003975.1	CP003975.1	1133378752	SAMN02380725	1247414	Neisseria gonorrhoeae NG-k51.05 plasmid pNG-k51.05, complete sequence	direct
+CP012026.1	CP012026.1	870660842	SAMN03459415	485	Neisseria gonorrhoeae strain FA19, complete genome	direct
+CP012027.1	CP012027.1	870663310	SAMN03459416	485	Neisseria gonorrhoeae strain FA6140, complete genome	direct
+CP012028.1	CP012028.1	870665722	SAMN03459417	485	Neisseria gonorrhoeae strain 35/02, complete genome	direct
+CP016015.1	CP016015.1	1035871046	SAMN04233132	485	Neisseria gonorrhoeae strain 32867, complete genome	direct
+CP016016.1	CP016016.1	1035873558	SAMN05210135	485	Neisseria gonorrhoeae strain 34530, complete genome	direct
+CP016017.1	CP016017.1	1035876061	SAMN05210257	485	Neisseria gonorrhoeae strain 34769, complete genome	direct
+CP019466.1	CP019466.1	1227290979	SAMN06251593	485	Neisseria gonorrhoeae strain RIVM0610 chromosome, complete genome	direct
+CP019467.1	CP019467.1	1227293296	SAMN06251594	485	Neisseria gonorrhoeae strain RIVM0640 chromosome, complete genome	direct
+CP020415.2	CP020415.2	1348155935	SAMN04875541	485	Neisseria gonorrhoeae strain FDAARGOS_204 chromosome, complete genome	direct
+CP020416.2	CP020416.2	1352481896	SAMN04875542	485	Neisseria gonorrhoeae strain FDAARGOS_205 plasmid unnamed1, complete sequence	direct
+CP020417.1	CP020417.1	1169360728	SAMN04875542	485	Neisseria gonorrhoeae strain FDAARGOS_205 plasmid unnamed2, complete sequence	direct
+CP020418.2	CP020418.2	1352481899	SAMN04875542	485	Neisseria gonorrhoeae strain FDAARGOS_205 chromosome, complete genome	direct
+CP020419.2	CP020419.2	1348159742	SAMN04875544	485	Neisseria gonorrhoeae strain FDAARGOS_207 chromosome, complete genome	direct
+CP032398.2	CP032398.2	1708136855	SAMN10035124	485	Neisseria gonorrhoeae strain TFG-A2 chromosome, complete genome	direct
+CP032399.1	CP032399.1	1587102182	SAMN10035124	485	Neisseria gonorrhoeae strain TFG-A2 plasmid pTFGA2, complete sequence	direct
+CP032428.1	CP032428.1	1587102193	SAMN10031335	485	Neisseria gonorrhoeae strain TFG-B2 plasmid pTFGB2, complete sequence	direct
+CP032429.2	CP032429.2	1710406842	SAMN10031335	485	Neisseria gonorrhoeae strain TFG-B2 chromosome, complete genome	direct
+CP034016.1	CP034016.1	1526068982	SAMN10395918	485	Neisseria gonorrhoeae strain FQ84 chromosome, complete genome	direct
+CP034017.1	CP034017.1	1526071281	SAMN10395918	485	Neisseria gonorrhoeae strain FQ84 plasmid unnamed, complete sequence	direct
+CP034018.1	CP034018.1	1526085098	SAMN10395914	485	Neisseria gonorrhoeae strain FQ82 chromosome, complete genome	direct
+CP034019.1	CP034019.1	1526087393	SAMN10395914	485	Neisseria gonorrhoeae strain FQ82 plasmid unnamed, complete sequence	direct
+CP034020.1	CP034020.1	1526082802	SAMN10395915	485	Neisseria gonorrhoeae strain FQ48 chromosome, complete genome	direct
+CP034021.1	CP034021.1	1526085087	SAMN10395915	485	Neisseria gonorrhoeae strain FQ48 plasmid unnamed, complete sequence	direct
+CP034022.1	CP034022.1	1526071292	SAMN10395916	485	Neisseria gonorrhoeae strain FQ36 chromosome, complete genome	direct
+CP034023.1	CP034023.1	1526073568	SAMN10395916	485	Neisseria gonorrhoeae strain FQ36 plasmid unnamed, complete sequence	direct
+CP034024.1	CP034024.1	1526073579	SAMN10395917	485	Neisseria gonorrhoeae strain FQ35 chromosome, complete genome	direct
+CP034025.1	CP034025.1	1526075874	SAMN10395917	485	Neisseria gonorrhoeae strain FQ35 plasmid unnamed, complete sequence	direct
+CP034026.1	CP034026.1	1526080494	SAMN10396003	485	Neisseria gonorrhoeae strain FQ20 chromosome, complete genome	direct
+CP034027.1	CP034027.1	1526082791	SAMN10396003	485	Neisseria gonorrhoeae strain FQ20 plasmid unnamed, complete sequence	direct
+CP034028.1	CP034028.1	1526075885	SAMN10396000	485	Neisseria gonorrhoeae strain FQ04 chromosome, complete genome	direct
+CP034029.1	CP034029.1	1526078183	SAMN10396000	485	Neisseria gonorrhoeae strain FQ04 plasmid unnamed, complete sequence	direct
+CP034030.1	CP034030.1	1526078194	SAMN10395999	485	Neisseria gonorrhoeae strain FQ02 chromosome, complete genome	direct
+CP034031.1	CP034031.1	1526080483	SAMN10395999	485	Neisseria gonorrhoeae strain FQ02 plasmid unnamed, complete sequence	direct
+CP034032.1	CP034032.1	1526091544	SAMN10395998	485	Neisseria gonorrhoeae strain FQ01 chromosome, complete genome	direct
+CP034033.1	CP034033.1	1526093801	SAMN10395998	485	Neisseria gonorrhoeae strain FQ01 plasmid unnamed1, complete sequence	direct
+CP034034.1	CP034034.1	1526093846	SAMN10395998	485	Neisseria gonorrhoeae strain FQ01 plasmid unnamed2, complete sequence	direct
+CP041585.1	CP041585.1	1706514765	SAMN12252293	485	Neisseria gonorrhoeae strain NJ1711654 chromosome, complete genome	direct
+CP043812.1	CP043812.1	1817997238	SAMN12676040	485	Neisseria gonorrhoeae strain NG290 chromosome, complete genome	direct
+CP043813.1	CP043813.1	1817999464	SAMN12676040	485	Neisseria gonorrhoeae strain NG290 plasmid p1, complete sequence	direct
+CP043814.1	CP043814.1	1817999513	SAMN12676040	485	Neisseria gonorrhoeae strain NG290 plasmid p2, complete sequence	direct
+CP043815.1	CP043815.1	1817999521	SAMN12676040	485	Neisseria gonorrhoeae strain NG290 plasmid p3, complete sequence	direct
+CP043816.1	CP043816.1	1817994943	SAMN12676039	485	Neisseria gonorrhoeae strain NG251 chromosome, complete genome	direct
+CP043817.1	CP043817.1	1817997161	SAMN12676039	485	Neisseria gonorrhoeae strain NG251 plasmid p1, complete sequence	direct
+CP043818.1	CP043818.1	1817997209	SAMN12676039	485	Neisseria gonorrhoeae strain NG251 plasmid p2, complete sequence	direct
+CP043819.1	CP043819.1	1817997216	SAMN12676039	485	Neisseria gonorrhoeae strain NG251 plasmid p3, complete sequence	direct
+CP043871.1	CP043871.1	1817999539	SAMN12676038	485	Neisseria gonorrhoeae strain NG196 chromosome, complete genome	direct
+CP043872.1	CP043872.1	1818001759	SAMN12676038	485	Neisseria gonorrhoeae strain NG196 plasmid p1, complete sequence	direct
+CP043873.1	CP043873.1	1818001806	SAMN12676038	485	Neisseria gonorrhoeae strain NG196 plasmid p2, complete sequence	direct
+CP043874.1	CP043874.1	1818001813	SAMN12676038	485	Neisseria gonorrhoeae strain NG196 plasmid p3, complete sequence	direct
+CP045707.1	CP045707.1	2050177709	SAMN13151449	485	Neisseria gonorrhoeae strain NG250 chromosome, complete genome	direct
+CP045708.1	CP045708.1	2050179769	SAMN13151449	485	Neisseria gonorrhoeae strain NG250 plasmid p1, complete sequence	direct
+CP045709.1	CP045709.1	2050179821	SAMN13151449	485	Neisseria gonorrhoeae strain NG250 plasmid p2, complete sequence	direct
+CP045710.1	CP045710.1	2050179827	SAMN13151449	485	Neisseria gonorrhoeae strain NG250 plasmid p3, complete sequence	direct
+CP045832.1	CP045832.1	1774444784	SAMN10920452	485	Neisseria gonorrhoeae strain AUSMDU00010541 chromosome, complete genome	direct
+CP045833.1	CP045833.1	1774446828	SAMN10920452	485	Neisseria gonorrhoeae strain AUSMDU00010541 plasmid pAUSMDU00010541_01, complete sequence	direct
+CP045834.1	CP045834.1	1774446877	SAMN10920452	485	Neisseria gonorrhoeae strain AUSMDU00010541 plasmid pAUSMDU00010541_02, complete sequence	direct
+CP048246.1	CP048246.1	2246618816	SAMN13812696	485	Neisseria gonorrhoeae strain CT602 chromosome, complete genome	direct
+CP048247.1	CP048247.1	2246620771	SAMN13812696	485	Neisseria gonorrhoeae strain CT602 plasmid unnamed1, complete sequence	direct
+CP048248.1	CP048248.1	2246620817	SAMN13812696	485	Neisseria gonorrhoeae strain CT602 plasmid unnamed2, complete sequence	direct
+CP048249.1	CP048249.1	2246620824	SAMN13812696	485	Neisseria gonorrhoeae strain CT602 plasmid unnamed3, complete sequence	direct
+CP048250.1	CP048250.1	2246616787	SAMN13812695	485	Neisseria gonorrhoeae strain CT532 chromosome, complete genome	direct
+CP048251.1	CP048251.1	2246618739	SAMN13812695	485	Neisseria gonorrhoeae strain CT532 plasmid unnamed1, complete sequence	direct
+CP048252.1	CP048252.1	2246618788	SAMN13812695	485	Neisseria gonorrhoeae strain CT532 plasmid unnamed2, complete sequence	direct
+CP048253.1	CP048253.1	2246618795	SAMN13812695	485	Neisseria gonorrhoeae strain CT532 plasmid unnamed3, complete sequence	direct
+CP048254.1	CP048254.1	2246614784	SAMN13812694	485	Neisseria gonorrhoeae strain CT530 chromosome, complete genome	direct
+CP048255.1	CP048255.1	2246616718	SAMN13812694	485	Neisseria gonorrhoeae strain CT530 plasmid unnamed1, complete sequence	direct
+CP048256.1	CP048256.1	2246616767	SAMN13812694	485	Neisseria gonorrhoeae strain CT530 plasmid unnamed2, complete sequence	direct
+CP048257.1	CP048257.1	2246616774	SAMN13812694	485	Neisseria gonorrhoeae strain CT530 plasmid unnamed3, complete sequence	direct
+CP048893.1	CP048893.1	1971345088	SAMN14117309	485	Neisseria gonorrhoeae strain SRRSH240 chromosome, complete genome	direct
+CP048894.1	CP048894.1	1971345099	SAMN14117309	485	Neisseria gonorrhoeae strain SRRSH240 plasmid unnamed1, complete sequence	direct
+CP048895.1	CP048895.1	1971345103	SAMN14117309	485	Neisseria gonorrhoeae strain SRRSH240 plasmid unnamed2, complete sequence	direct
+CP048896.1	CP048896.1	1971346709	SAMN14116992	485	Neisseria gonorrhoeae strain SRRSH229 chromosome, complete genome	direct
+CP048897.1	CP048897.1	1971346716	SAMN14116992	485	Neisseria gonorrhoeae strain SRRSH229 plasmid unnamed1, complete sequence	direct
+CP048898.1	CP048898.1	1971346721	SAMN14116992	485	Neisseria gonorrhoeae strain SRRSH229 plasmid unnamed2, complete sequence	direct
+CP048899.1	CP048899.1	1971357455	SAMN14116991	485	Neisseria gonorrhoeae strain SRRSH214 chromosome, complete genome	direct
+CP048900.1	CP048900.1	1971357456	SAMN14116991	485	Neisseria gonorrhoeae strain SRRSH214 plasmid unnamed1, complete sequence	direct
+CP048901.1	CP048901.1	1971357457	SAMN14116991	485	Neisseria gonorrhoeae strain SRRSH214 plasmid unnamed2, complete sequence	direct
+CP048902.1	CP048902.1	1971360626	SAMN14116990	485	Neisseria gonorrhoeae strain SRRSH207 chromosome, complete genome	direct
+CP048903.1	CP048903.1	1971360635	SAMN14116990	485	Neisseria gonorrhoeae strain SRRSH207 plasmid unnamed1, complete sequence	direct
+CP048904.1	CP048904.1	1971360641	SAMN14116990	485	Neisseria gonorrhoeae strain SRRSH207 plasmid unnamed2, complete sequence	direct
+CP048905.1	CP048905.1	1971362092	SAMN14116989	485	Neisseria gonorrhoeae strain SRRSH205 chromosome, complete genome	direct
+CP048906.1	CP048906.1	1971362102	SAMN14116989	485	Neisseria gonorrhoeae strain SRRSH205 plasmid unnamed1, complete sequence	direct
+CP048907.1	CP048907.1	1971362107	SAMN14116989	485	Neisseria gonorrhoeae strain SRRSH205 plasmid unnamed2, complete sequence	direct
+CP048908.1	CP048908.1	1971374582	SAMN14116987	485	Neisseria gonorrhoeae strain SRRSH203 chromosome, complete genome	direct
+CP048909.1	CP048909.1	1971374593	SAMN14116987	485	Neisseria gonorrhoeae strain SRRSH203 plasmid unnamed1, complete sequence	direct
+CP048910.1	CP048910.1	1971374598	SAMN14116987	485	Neisseria gonorrhoeae strain SRRSH203 plasmid unnamed2, complete sequence	direct
+CP048911.1	CP048911.1	1971372415	SAMN14116988	485	Neisseria gonorrhoeae strain SRRSH204 chromosome, complete genome	direct
+CP048912.1	CP048912.1	1971372427	SAMN14116988	485	Neisseria gonorrhoeae strain SRRSH204 plasmid unnamed1, complete sequence	direct
+CP048913.1	CP048913.1	1971372433	SAMN14116988	485	Neisseria gonorrhoeae strain SRRSH204 plasmid unnamed2, complete sequence	direct
+CP048929.1	CP048929.1	2073942982	SAMN14131123	485	Neisseria gonorrhoeae strain CT213 chromosome, complete genome	direct
+CP048930.1	CP048930.1	2073944960	SAMN14131123	485	Neisseria gonorrhoeae strain CT213 plasmid unnamed1, complete sequence	direct
+CP048931.1	CP048931.1	2073945009	SAMN14131123	485	Neisseria gonorrhoeae strain CT213 plasmid unnamed2, complete sequence	direct
+CP048932.1	CP048932.1	2073945016	SAMN14131123	485	Neisseria gonorrhoeae strain CT213 plasmid unnamed3, complete sequence	direct
+CP050505.1	CP050505.1	1907744334	SAMN14433815	485	Neisseria gonorrhoeae strain BJ16148 chromosome, complete genome	direct
+CP050930.1	CP050930.1	2232801333	SAMN13151448	485	Neisseria gonorrhoeae strain NG211 chromosome, complete genome	direct
+CP050931.1	CP050931.1	2232803379	SAMN13151448	485	Neisseria gonorrhoeae strain NG211 plasmid p1, complete sequence	direct
+CP050932.1	CP050932.1	2232803427	SAMN13151448	485	Neisseria gonorrhoeae strain NG211 plasmid p2, complete sequence	direct
+CP050933.1	CP050933.1	2232803435	SAMN13151448	485	Neisseria gonorrhoeae strain NG211 plasmid p3, complete sequence	direct
+CP068761.1	CP068761.1	1969468628	SAMN17393045	485	Neisseria gonorrhoeae strain 20181204 chromosome, complete genome	direct
+CP068762.1	CP068762.1	1969470619	SAMN17393045	485	Neisseria gonorrhoeae strain 20181204 plasmid unnamed1, complete sequence	direct
+CP068763.1	CP068763.1	1969470667	SAMN17393045	485	Neisseria gonorrhoeae strain 20181204 plasmid unnamed2, complete sequence	direct
+CP068764.1	CP068764.1	1969470673	SAMN17393045	485	Neisseria gonorrhoeae strain 20181204 plasmid unnamed3, complete sequence	direct
+CP078113.1	CP078113.1	2067038394	SAMN19998461	485	Neisseria gonorrhoeae strain O2D156 chromosome, complete genome	direct
+CP078114.1	CP078114.1	2067054620	SAMN19998460	485	Neisseria gonorrhoeae strain 98D159 chromosome, complete genome	direct
+CP078115.1	CP078115.1	2067047359	SAMN19998459	485	Neisseria gonorrhoeae strain O1G1370 chromosome, complete genome	direct
+CP078116.1	CP078116.1	2067045392	SAMN19998458	485	Neisseria gonorrhoeae strain 88G285 chromosome, complete genome	direct
+CP078117.1	CP078117.1	2067052644	SAMN19998457	485	Neisseria gonorrhoeae strain SK92679 chromosome, complete genome	direct
+CP078118.1	CP078118.1	2067056618	SAMN19998456	485	Neisseria gonorrhoeae strain MS11 chromosome, complete genome	direct
+CP078119.1	CP078119.1	2067040363	SAMN19998455	485	Neisseria gonorrhoeae strain 1291 chromosome, complete genome	direct
+CP097846.1	CP097846.1	2257652838	SAMN28560617	485	Neisseria gonorrhoeae strain AT159 chromosome, complete genome	direct
+CP097847.1	CP097847.1	2257654892	SAMN28560617	485	Neisseria gonorrhoeae strain AT159 plasmid pConj, complete sequence	direct
+CP097848.1	CP097848.1	2257654939	SAMN28560617	485	Neisseria gonorrhoeae strain AT159 plasmid pCryptic, complete sequence	direct
+CP098458.1	CP098458.1	2320183022	SAMN28830140	485	Neisseria gonorrhoeae strain 10588 chromosome, complete genome	direct
+CP098459.1	CP098459.1	2320185043	SAMN28830140	485	Neisseria gonorrhoeae strain 10588 plasmid pJD1, complete sequence	direct
+CP098460.1	CP098460.1	2301163694	SAMN28834904	485	Neisseria gonorrhoeae strain 10814 chromosome, complete genome	direct
+CP098461.1	CP098461.1	2301165737	SAMN28834904	485	Neisseria gonorrhoeae strain 10814 plasmid pJD1, complete sequence	direct
+CP098462.1	CP098462.1	2301165996	SAMN28835168	485	Neisseria gonorrhoeae strain 9460 chromosome, complete genome	direct
+CP098463.1	CP098463.1	2301168039	SAMN28835168	485	Neisseria gonorrhoeae strain 9460 plasmid pJD1, complete sequence	direct
+CP098464.2	CP098464.2	2319113438	SAMN28835821	485	Neisseria gonorrhoeae strain 10269 chromosome, complete genome	direct
+CP098465.2	CP098465.2	2319113493	SAMN28835821	485	Neisseria gonorrhoeae strain 10269 plasmid pJD1, complete sequence	direct
+CP098466.2	CP098466.2	2314321440	SAMN28835880	485	Neisseria gonorrhoeae strain 10720 chromosome, complete genome	direct
+CP098467.2	CP098467.2	2314321480	SAMN28835880	485	Neisseria gonorrhoeae strain 10720 plasmid pJD1, complete sequence	direct
+CP098468.2	CP098468.2	2314333558	SAMN28835919	485	Neisseria gonorrhoeae strain 10328 chromosome, complete genome	direct
+CP098469.2	CP098469.2	2314333604	SAMN28835919	485	Neisseria gonorrhoeae strain 10328 plasmid pJD1, complete sequence	direct
+CP098470.2	CP098470.2	2314333826	SAMN28836998	485	Neisseria gonorrhoeae strain 10792 chromosome, complete genome	direct
+CP098471.2	CP098471.2	2314333896	SAMN28836998	485	Neisseria gonorrhoeae strain 10792 plasmid pJD1, complete sequence	direct
+CP098472.2	CP098472.2	2319114135	SAMN28837864	485	Neisseria gonorrhoeae strain 10612 chromosome, complete genome	direct
+CP098473.2	CP098473.2	2319114229	SAMN28837864	485	Neisseria gonorrhoeae strain 10612 plasmid pJD1, complete sequence	direct
+CP098474.1	CP098474.1	2320185053	SAMN28833726	485	Neisseria gonorrhoeae strain 10239 chromosome, complete genome	direct
+CP098475.1	CP098475.1	2320187069	SAMN28833726	485	Neisseria gonorrhoeae strain 10239 plasmid pJD1, complete sequence	direct
+CP098503.2	CP098503.2	2314335809	SAMN28858863	485	Neisseria gonorrhoeae strain 10268 chromosome, complete genome	direct
+CP098504.2	CP098504.2	2314335858	SAMN28858863	485	Neisseria gonorrhoeae strain 10268 plasmid pJD1, complete sequence	direct
+CP098505.2	CP098505.2	2314336155	SAMN28859049	485	Neisseria gonorrhoeae strain 10536 chromosome, complete genome	direct
+CP098506.2	CP098506.2	2314336238	SAMN28859049	485	Neisseria gonorrhoeae strain 10536 plasmid pJD1, complete sequence	direct
+CP098532.2	CP098532.2	2314336386	SAMN28869552	485	Neisseria gonorrhoeae strain 10537 chromosome, complete genome	direct
+CP098533.2	CP098533.2	2314336426	SAMN28869552	485	Neisseria gonorrhoeae strain 10537 plasmid pJD1, complete sequence	direct
+CP098534.2	CP098534.2	2314336840	SAMN28869554	485	Neisseria gonorrhoeae strain 10525 chromosome, complete genome	direct
+CP098535.2	CP098535.2	2314336958	SAMN28869554	485	Neisseria gonorrhoeae strain 10525 plasmid pJD1, complete sequence	direct
+CP098536.1	CP098536.1	2301191400	SAMN28869592	485	Neisseria gonorrhoeae strain 10771 chromosome, complete genome	direct
+CP098537.1	CP098537.1	2301193445	SAMN28869592	485	Neisseria gonorrhoeae strain 10771 plasmid pJD1, complete sequence	direct
+CP098538.2	CP098538.2	2314299764	SAMN28870224	485	Neisseria gonorrhoeae strain ATCC 49226 chromosome, complete genome	direct
+CP098539.1	CP098539.1	2301196362	SAMN28870224	485	Neisseria gonorrhoeae strain ATCC 49226 plasmid pJD1, complete sequence	direct
+CP098542.2	CP098542.2	2319113339	SAMN28871626	485	Neisseria gonorrhoeae strain 10704 chromosome, complete genome	direct
+CP098543.2	CP098543.2	2319113427	SAMN28871626	485	Neisseria gonorrhoeae strain 10704 plasmid pJD1, complete sequence	direct
+CP098544.1	CP098544.1	2301219626	SAMN28871644	485	Neisseria gonorrhoeae strain 10296 chromosome, complete genome	direct
+CP098545.1	CP098545.1	2301224882	SAMN28871644	485	Neisseria gonorrhoeae strain 10296 plasmid pJD1, complete sequence	direct
+CP098546.2	CP098546.2	2314332348	SAMN28871698	485	Neisseria gonorrhoeae strain 9126 chromosome, complete genome	direct
+CP098547.2	CP098547.2	2314332419	SAMN28871698	485	Neisseria gonorrhoeae strain 9126 plasmid pJD1, complete sequence	direct
+CP098548.2	CP098548.2	2314320436	SAMN28871700	485	Neisseria gonorrhoeae strain 9343 chromosome, complete genome	direct
+CP098549.2	CP098549.2	2314320604	SAMN28871700	485	Neisseria gonorrhoeae strain 9343 plasmid pJD1, complete sequence	direct
+CP104546.2	CP104546.2	2322414693	SAMN28859053	485	Neisseria gonorrhoeae strain 9035 chromosome, complete genome	direct
+CP104547.2	CP104547.2	2322414725	SAMN28859053	485	Neisseria gonorrhoeae strain 9035 plasmid pJD1, complete sequence	direct
+CP104548.2	CP104548.2	2319114049	SAMN28859076	485	Neisseria gonorrhoeae strain 10538 chromosome, complete genome	direct
+CP104549.2	CP104549.2	2319114104	SAMN28859076	485	Neisseria gonorrhoeae strain 10538 plasmid pJD1, complete sequence	direct
+CP106749.1	CP106749.1	2315040331	SAMN28858607	485	Neisseria gonorrhoeae strain 10723 chromosome, complete genome	direct
+CP106750.1	CP106750.1	2315042351	SAMN28858607	485	Neisseria gonorrhoeae strain 10723 plasmid pJD1, complete sequence	direct
+CP106765.1	CP106765.1	2315414547	SAMN22599447	485	Neisseria gonorrhoeae strain 10500 chromosome, complete genome	direct
+CP106766.1	CP106766.1	2315416596	SAMN22599447	485	Neisseria gonorrhoeae strain 10500 plasmid pjD1, complete sequence	direct
+CP106767.1	CP106767.1	2315416638	SAMN22599455	485	Neisseria gonorrhoeae strain 10610 chromosome, complete genome	direct
+CP106768.1	CP106768.1	2315418700	SAMN22599455	485	Neisseria gonorrhoeae strain 10610 plasmid pJD1, complete sequence	direct
+CP106769.1	CP106769.1	2315381554	SAMN22599711	485	Neisseria gonorrhoeae strain 10524 chromosome, complete genome	direct
+CP106770.1	CP106770.1	2315383614	SAMN22599711	485	Neisseria gonorrhoeae strain 10524 plasmid pJD1, complete sequence	direct
+CP106771.1	CP106771.1	2315375409	SAMN22599488	485	Neisseria gonorrhoeae strain 10531 chromosome, complete genome	direct
+CP106772.1	CP106772.1	2315375410	SAMN22599488	485	Neisseria gonorrhoeae strain 10531 plasmid pJD1, complete sequence	direct
+CP106773.1	CP106773.1	2315379527	SAMN22600865	485	Neisseria gonorrhoeae strain 10562 chromosome, complete genome	direct
+CP106774.1	CP106774.1	2315381544	SAMN22600865	485	Neisseria gonorrhoeae strain 10562 plasmid pJD1, complete sequence	direct
+CP106775.1	CP106775.1	2315377466	SAMN22600584	485	Neisseria gonorrhoeae strain 10702 chromosome, complete genome	direct
+CP106776.1	CP106776.1	2315379516	SAMN22600584	485	Neisseria gonorrhoeae strain 10702 plasmid pJD1, complete sequence	direct
+CP106777.1	CP106777.1	2315420743	SAMN22600590	485	Neisseria gonorrhoeae strain 10727 chromosome, complete genome	direct
+CP106778.1	CP106778.1	2315422764	SAMN22600590	485	Neisseria gonorrhoeae strain 10727 plasmid pConjugative, complete sequence	direct
+CP106779.1	CP106779.1	2315422810	SAMN22600590	485	Neisseria gonorrhoeae strain 10727 plasmid pJD1, complete sequence	direct
+CP106780.1	CP106780.1	2315375411	SAMN22600605	485	Neisseria gonorrhoeae strain 10794 chromosome, complete genome	direct
+CP106781.1	CP106781.1	2315377456	SAMN22600605	485	Neisseria gonorrhoeae strain 10794 plasmid pJD1, complete sequence	direct
+CP106782.1	CP106782.1	2315373369	SAMN22600608	485	Neisseria gonorrhoeae strain 10795 chromosome, complete genome	direct
+CP106783.1	CP106783.1	2315375399	SAMN22600608	485	Neisseria gonorrhoeae strain 10795 plasmid pJD1, complete sequence	direct
+CP106789.1	CP106789.1	2315418712	SAMN22600315	485	Neisseria gonorrhoeae strain 10638 chromosome, complete genome	direct
+CP106790.1	CP106790.1	2315420733	SAMN22600315	485	Neisseria gonorrhoeae strain 10638 plasmid pJD1, complete sequence	direct
+CP106801.1	CP106801.1	2315126544	SAMN31014135	485	Neisseria gonorrhoeae strain 10744 chromosome, complete genome	direct
+CP106802.1	CP106802.1	2315128585	SAMN31014135	485	Neisseria gonorrhoeae strain 10744 plasmid pJD1, complete sequence	direct
+CP106803.1	CP106803.1	2315130635	SAMN31014148	485	Neisseria gonorrhoeae strain 10819 chromosome, complete genome	direct
+CP106804.1	CP106804.1	2315132676	SAMN31014148	485	Neisseria gonorrhoeae strain 10819 plasmid pJD1, complete sequence	direct
+CP106805.1	CP106805.1	2315128596	SAMN31014963	485	Neisseria gonorrhoeae strain 10743 chromosome, complete genome	direct
+CP106806.1	CP106806.1	2315130624	SAMN31014963	485	Neisseria gonorrhoeae strain 10743 plasmid pJD1, complete sequence	direct
+CP106807.1	CP106807.1	2315138382	SAMN31014981	485	Neisseria gonorrhoeae strain 10736 chromosome, complete genome	direct
+CP106808.1	CP106808.1	2315140414	SAMN31014981	485	Neisseria gonorrhoeae strain 10736 plasmid pJD1, complete sequence	direct
+CP106809.1	CP106809.1	2315132687	SAMN31014987	485	Neisseria gonorrhoeae strain 10708 chromosome, complete genome	direct
+CP106810.1	CP106810.1	2315134733	SAMN31014987	485	Neisseria gonorrhoeae strain 10708 plasmid pJD1, complete sequence	direct
+CP106811.1	CP106811.1	2315140425	SAMN31014989	485	Neisseria gonorrhoeae strain 10531 chromosome, complete genome	direct
+CP106812.1	CP106812.1	2315142474	SAMN31014989	485	Neisseria gonorrhoeae strain 10531 plasmid pJD1, complete sequence	direct
+CP106813.1	CP106813.1	2315152303	SAMN31014998	485	Neisseria gonorrhoeae strain 9431 chromosome, complete genome	direct
+CP106814.1	CP106814.1	2315154341	SAMN31014998	485	Neisseria gonorrhoeae strain 9431 plasmid pJD1, complete sequence	direct
+CP106815.1	CP106815.1	2315142485	SAMN31015000	485	Neisseria gonorrhoeae strain 10562 chromosome, complete genome	direct
+CP106816.1	CP106816.1	2315144522	SAMN31015000	485	Neisseria gonorrhoeae strain 10562 plasmid pJD1, complete sequence	direct
+CP106817.1	CP106817.1	2315371321	SAMN22600672	485	Neisseria gonorrhoeae strain 10574 chromosome, complete genome	direct
+CP106818.1	CP106818.1	2315373359	SAMN22600672	485	Neisseria gonorrhoeae strain 10574 plasmid pJD1, complete sequence	direct
+CP106819.1	CP106819.1	2315422820	SAMN22600892	485	Neisseria gonorrhoeae strain 10791 chromosome, complete genome	direct
+CP106820.1	CP106820.1	2315424857	SAMN22600892	485	Neisseria gonorrhoeae strain 10791 plasmid pJD1, complete sequence	direct
+CP106821.1	CP106821.1	2315424867	SAMN28869590	485	Neisseria gonorrhoeae strain 10529 chromosome, complete genome	direct
+CP106822.1	CP106822.1	2315426905	SAMN28869590	485	Neisseria gonorrhoeae strain 10529 plasmid pConjugative, complete sequence	direct
+CP106823.1	CP106823.1	2315426951	SAMN28869590	485	Neisseria gonorrhoeae strain 10529 plasmid pJD1, complete sequence	direct
+CP106824.1	CP106824.1	2315426962	SAMN28859080	485	Neisseria gonorrhoeae strain 9399 chromosome, complete genome	direct
+CP106825.1	CP106825.1	2315429018	SAMN28859080	485	Neisseria gonorrhoeae strain 9399 plasmid pJD1, complete sequence	direct
+CP106826.1	CP106826.1	2315429029	SAMN28871631	485	Neisseria gonorrhoeae strain 9464 chromosome, complete genome	direct
+CP106827.1	CP106827.1	2315431066	SAMN28871631	485	Neisseria gonorrhoeae strain 9464 plasmid pJD1, complete sequence	direct
+CP106918.1	CP106918.1	2328618995	SAMN28871636	485	Neisseria gonorrhoeae strain 9071 chromosome, complete genome	direct
+CP106919.1	CP106919.1	2328621131	SAMN28871636	485	Neisseria gonorrhoeae strain 9071 plasmid pConjugative, complete sequence	direct
+CP106920.1	CP106920.1	2328621177	SAMN28871636	485	Neisseria gonorrhoeae strain 9071 plasmid pJD1, complete sequence	direct
+CP106921.1	CP106921.1	2328623242	SAMN28858852	485	Neisseria gonorrhoeae strain 10272 chromosome, complete genome	direct
+CP106922.1	CP106922.1	2328625285	SAMN28858852	485	Neisseria gonorrhoeae strain 10272 plasmid pJD1, complete sequence	direct
+CP107223.1	CP107223.1	2319100375	SAMN31203372	485	Neisseria gonorrhoeae strain H035 chromosome, complete genome	direct
+CP107224.1	CP107224.1	2319102362	SAMN31203372	485	Neisseria gonorrhoeae strain H035 plasmid pjD1, complete sequence	direct
+CP107264.1	CP107264.1	2328621190	SAMN28869504	485	Neisseria gonorrhoeae strain 10231 chromosome, complete genome	direct
+CP107265.1	CP107265.1	2328623232	SAMN28869504	485	Neisseria gonorrhoeae strain 10231 plasmid pJD1, complete sequence	direct
+CP107266.1	CP107266.1	2328625296	SAMN28869553	485	Neisseria gonorrhoeae strain 9112 chromosome, complete genome	direct
+CP107267.1	CP107267.1	2328627356	SAMN28869553	485	Neisseria gonorrhoeae strain 9112 plasmid pJD1, complete sequence	direct
+CP107270.1	CP107270.1	2320537976	SAMN31165854	485	Neisseria gonorrhoeae strain 1081168 chromosome, complete genome	direct
+CP107271.1	CP107271.1	2320540032	SAMN31165853	485	Neisseria gonorrhoeae strain 1123850 chromosome, complete genome	direct
+CP107272.1	CP107272.1	2320542083	SAMN31165852	485	Neisseria gonorrhoeae strain 1130991 chromosome, complete genome	direct
+CP107274.1	CP107274.1	2320544131	SAMN31165850	485	Neisseria gonorrhoeae strain 1145734 chromosome, complete genome	direct
+CP115654.1	CP115654.1	2428472747	SAMN31428011	485	Neisseria gonorrhoeae strain FA1090 N-1-60 chromosome, complete genome	direct
+CP115655.1	CP115655.1	2428474718	SAMN31428011	485	Neisseria gonorrhoeae strain FA1090 N-1-60 plasmid unnamed, complete sequence	direct
+CP115904.1	CP115904.1	2429035046	SAMN31428012	485	Neisseria gonorrhoeae strain MS11 HL-1-22 chromosome, complete genome	direct
+CP115905.1	CP115905.1	2429037115	SAMN31428012	485	Neisseria gonorrhoeae strain MS11 HL-1-22 plasmid pMS11VD300_01, complete sequence	direct
+CP116342.1	CP116342.1	2440653945	SAMN32765978	485	Neisseria gonorrhoeae strain SE690. chromosome, complete genome	direct
+CP116343.1	CP116343.1	2440655919	SAMN32765978	485	Neisseria gonorrhoeae strain SE690. plasmid pConj, complete sequence	direct
+CP116344.2	CP116344.2	2442710605	SAMN32765978	485	Neisseria gonorrhoeae strain SE690. plasmid pCryptic, complete sequence	direct
+CP116345.1	CP116345.1	2440655970	SAMN32765978	485	Neisseria gonorrhoeae strain SE690. plasmid pbla.AU, complete sequence	direct
+CP119139.1	CP119139.1	2465163747	SAMN33482240	485	Neisseria gonorrhoeae strain 2022NG-0076 chromosome, complete genome	direct
+CP119140.1	CP119140.1	2465163887	SAMN33482240	485	Neisseria gonorrhoeae strain 2022NG-0076 plasmid p2022NG-0076_1, complete sequence	direct
+CP119141.1	CP119141.1	2465161351	SAMN33482239	485	Neisseria gonorrhoeae strain 2022NG-0032 chromosome, complete genome	direct
+CP119142.1	CP119142.1	2465161521	SAMN33482239	485	Neisseria gonorrhoeae strain 2022NG-0032 plasmid p2022NG-0032_1, complete sequence	direct
+CP130889.1	CP130889.1	2557993991	SAMN32487327	485	Neisseria gonorrhoeae strain NJ209649 chromosome, complete genome	direct
+CP130890.1	CP130890.1	2557998074	SAMN32487326	485	Neisseria gonorrhoeae strain NJ208756 chromosome, complete genome	direct
+CP130891.1	CP130891.1	2557996036	SAMN32487325	485	Neisseria gonorrhoeae strain NJ208430 chromosome, complete genome	direct
+CP130892.1	CP130892.1	2558014514	SAMN32487324	485	Neisseria gonorrhoeae strain NJ204705 chromosome, complete genome	direct
+CP130893.1	CP130893.1	2558004304	SAMN32487323	485	Neisseria gonorrhoeae strain NJ1914646 chromosome, complete genome	direct
+CP130894.1	CP130894.1	2558012470	SAMN32487322	485	Neisseria gonorrhoeae strain NJ1914215 chromosome, complete genome	direct
+CP130895.1	CP130895.1	2558008393	SAMN32487321	485	Neisseria gonorrhoeae strain NJ1913940 chromosome, complete genome	direct
+CP130896.1	CP130896.1	2558010436	SAMN32487320	485	Neisseria gonorrhoeae strain NJ1911400 chromosome, complete genome	direct
+CP130897.1	CP130897.1	2558006345	SAMN32487319	485	Neisseria gonorrhoeae strain NJ197542 chromosome, complete genome	direct
+CP130898.1	CP130898.1	2558016576	SAMN32487318	485	Neisseria gonorrhoeae strain NJ196610 chromosome, complete genome	direct
+CP130899.1	CP130899.1	2558018616	SAMN32487317	485	Neisseria gonorrhoeae strain NJ195417 chromosome, complete genome	direct
+CP131616.1	CP131616.1	2720001964	SAMN36766274	485	Neisseria gonorrhoeae strain 2020C08-294 chromosome, complete genome	direct
+CP131617.1	CP131617.1	2720004041	SAMN36766274	485	Neisseria gonorrhoeae strain 2020C08-294 plasmid p2020C08-294-1, complete sequence	direct
+CP131618.1	CP131618.1	2720004090	SAMN36766274	485	Neisseria gonorrhoeae strain 2020C08-294 plasmid p2020C08-294-2, complete sequence	direct
+CP131619.1	CP131619.1	2720004097	SAMN36766274	485	Neisseria gonorrhoeae strain 2020C08-294 plasmid p2020C08-294-3, complete sequence	direct
+CP131620.1	CP131620.1	2720004109	SAMN36766273	485	Neisseria gonorrhoeae strain 2020N08-318 chromosome, complete genome	direct
+CP131621.1	CP131621.1	2720006157	SAMN36766273	485	Neisseria gonorrhoeae strain 2020N08-318 plasmid p2020N08-318-1, complete sequence	direct
+CP131622.1	CP131622.1	2720010376	SAMN36766272	485	Neisseria gonorrhoeae strain 2020N07-265 chromosome, complete genome	direct
+CP131623.1	CP131623.1	2720012383	SAMN36766272	485	Neisseria gonorrhoeae strain 2020N07-265 plasmid p2020N07-265-1, complete sequence	direct
+CP131624.1	CP131624.1	2720012432	SAMN36766272	485	Neisseria gonorrhoeae strain 2020N07-265 plasmid p2020N07-265-2, complete sequence	direct
+CP131625.1	CP131625.1	2720012439	SAMN36766272	485	Neisseria gonorrhoeae strain 2020N07-265 plasmid p2020N07-265-3, complete sequence	direct
+CP131626.1	CP131626.1	2720012453	SAMN36766271	485	Neisseria gonorrhoeae strain 2020S05-258 chromosome, complete genome	direct
+CP131627.1	CP131627.1	2720014512	SAMN36766271	485	Neisseria gonorrhoeae strain 2020S05-258 plasmid p2020S05-258-1, complete sequence	direct
+CP131628.1	CP131628.1	2720014561	SAMN36766271	485	Neisseria gonorrhoeae strain 2020S05-258 plasmid p2020S05-258-2, complete sequence	direct
+CP131629.1	CP131629.1	2720014567	SAMN36766271	485	Neisseria gonorrhoeae strain 2020S05-258 plasmid p2020S05-258-3, complete sequence	direct
+CP131630.1	CP131630.1	2720014577	SAMN36766270	485	Neisseria gonorrhoeae strain 2018C07-301 chromosome, complete genome	direct
+CP131631.1	CP131631.1	2720016644	SAMN36766270	485	Neisseria gonorrhoeae strain 2018C07-301 plasmid p2018C07-301-1, complete sequence	direct
+CP131632.1	CP131632.1	2720016659	SAMN36766269	485	Neisseria gonorrhoeae strain 2018S05-288 chromosome, complete genome	direct
+CP131633.1	CP131633.1	2720018658	SAMN36766269	485	Neisseria gonorrhoeae strain 2018S05-288 plasmid p2018S05-288-1, complete sequence	direct
+CP131634.1	CP131634.1	2720018706	SAMN36766269	485	Neisseria gonorrhoeae strain 2018S05-288 plasmid p2018S05-288-2, complete sequence	direct
+CP131635.1	CP131635.1	2720018713	SAMN36766269	485	Neisseria gonorrhoeae strain 2018S05-288 plasmid p2018S05-288-3, complete sequence	direct
+CP131636.1	CP131636.1	2720018726	SAMN36766268	485	Neisseria gonorrhoeae strain 2016E02-233 chromosome, complete genome	direct
+CP131637.1	CP131637.1	2720020791	SAMN36766268	485	Neisseria gonorrhoeae strain 2016E02-233 plasmid p2016E02-233-1, complete sequence	direct
+CP131638.1	CP131638.1	2720022856	SAMN36766267	485	Neisseria gonorrhoeae strain 2014E02-242 chromosome, complete genome	direct
+CP131639.1	CP131639.1	2720024918	SAMN36766267	485	Neisseria gonorrhoeae strain 2014E02-242 plasmid p2014E02-242-1, complete sequence	direct
+CP131640.1	CP131640.1	2720024964	SAMN36766267	485	Neisseria gonorrhoeae strain 2014E02-242 plasmid p2014E02-242-2, complete sequence	direct
+CP131641.1	CP131641.1	2720020802	SAMN36766266	485	Neisseria gonorrhoeae strain 2010C02-038 chromosome, complete genome	direct
+CP131642.1	CP131642.1	2720022786	SAMN36766266	485	Neisseria gonorrhoeae strain 2010C02-038 plasmid p2010C02-038-1, complete sequence	direct
+CP131643.1	CP131643.1	2720022834	SAMN36766266	485	Neisseria gonorrhoeae strain 2010C02-038 plasmid p2010C02-038-2, complete sequence	direct
+CP131644.1	CP131644.1	2720022841	SAMN36766266	485	Neisseria gonorrhoeae strain 2010C02-038 plasmid p2010C02-038-3, complete sequence	direct
+CP131645.1	CP131645.1	2720025004	SAMN36766265	485	Neisseria gonorrhoeae strain 2004S05-027 chromosome, complete genome	direct
+CP131646.1	CP131646.1	2720027091	SAMN36766265	485	Neisseria gonorrhoeae strain 2004S05-027 plasmid p2004S05-027-1, complete sequence	direct
+CP131647.1	CP131647.1	2720027141	SAMN36766265	485	Neisseria gonorrhoeae strain 2004S05-027 plasmid p2004S05-027-2, complete sequence	direct
+CP131648.1	CP131648.1	2720027150	SAMN36766265	485	Neisseria gonorrhoeae strain 2004S05-027 plasmid p2004S05-027-3, complete sequence	direct
+CP138339.1	CP138339.1	2621736296	SAMN38152951	485	Neisseria gonorrhoeae strain TH2288 chromosome, complete genome	direct
+CP138340.1	CP138340.1	2621738319	SAMN38152951	485	Neisseria gonorrhoeae strain TH2288 plasmid pCryptic, complete sequence	direct
+CP138341.1	CP138341.1	2621738330	SAMN38152951	485	Neisseria gonorrhoeae strain TH2288 plasmid pConj, complete sequence	direct
+CP138342.1	CP138342.1	2621738384	SAMN38152950	485	Neisseria gonorrhoeae strain TH1713 chromosome, complete genome	direct
+CP138343.1	CP138343.1	2621740403	SAMN38152950	485	Neisseria gonorrhoeae strain TH1713 plasmid pCryptic, complete sequence	direct
+CP138344.1	CP138344.1	2621740414	SAMN38152950	485	Neisseria gonorrhoeae strain TH1713 plasmid pConj, complete sequence	direct
+CP145015.1	CP145015.1	2750724687	SAMN39556062	485	Neisseria gonorrhoeae strain WHO_Z_2024 chromosome, complete genome	direct
+CP145016.1	CP145016.1	2750726721	SAMN39556062	485	Neisseria gonorrhoeae strain WHO_Z_2024 plasmid pCryptic, complete sequence	direct
+CP145017.1	CP145017.1	2750728795	SAMN39556061	485	Neisseria gonorrhoeae strain WHO_Y_2024 chromosome, complete genome	direct
+CP145018.1	CP145018.1	2750730824	SAMN39556061	485	Neisseria gonorrhoeae strain WHO_Y_2024 plasmid pCryptic, complete sequence	direct
+CP145019.1	CP145019.1	2750717331	SAMN39556060	485	Neisseria gonorrhoeae strain WHO_X_2024 chromosome, complete genome	direct
+CP145020.1	CP145020.1	2750719293	SAMN39556060	485	Neisseria gonorrhoeae strain WHO_X_2024 plasmid pCryptic, complete sequence	direct
+CP145021.1	CP145021.1	2750726734	SAMN39556059	485	Neisseria gonorrhoeae strain WHO_V_2024 chromosome, complete genome	direct
+CP145022.1	CP145022.1	2750728774	SAMN39556059	485	Neisseria gonorrhoeae strain WHO_V_2024 plasmid pBla, complete sequence	direct
+CP145023.1	CP145023.1	2750728783	SAMN39556059	485	Neisseria gonorrhoeae strain WHO_V_2024 plasmid pCryptic, complete sequence	direct
+CP145024.1	CP145024.1	2750730869	SAMN39556058	485	Neisseria gonorrhoeae strain WHO_U_2024 chromosome, complete genome	direct
+CP145025.1	CP145025.1	2750732908	SAMN39556058	485	Neisseria gonorrhoeae strain WHO_U_2024 plasmid pCryptic, complete sequence	direct
+CP145026.1	CP145026.1	2750732938	SAMN39556057	485	Neisseria gonorrhoeae strain WHO_S2_2024 chromosome, complete genome	direct
+CP145027.1	CP145027.1	2750734903	SAMN39556057	485	Neisseria gonorrhoeae strain WHO_S2_2024 plasmid pCryptic, complete sequence	direct
+CP145028.1	CP145028.1	2750738950	SAMN39556056	485	Neisseria gonorrhoeae strain WHO_R_2024 chromosome, complete genome	direct
+CP145029.1	CP145029.1	2750740971	SAMN39556056	485	Neisseria gonorrhoeae strain WHO_R_2024 plasmid pBla, complete sequence	direct
+CP145030.1	CP145030.1	2750740981	SAMN39556056	485	Neisseria gonorrhoeae strain WHO_R_2024 plasmid pConj, complete sequence	direct
+CP145031.1	CP145031.1	2750741027	SAMN39556056	485	Neisseria gonorrhoeae strain WHO_R_2024 plasmid pCryptic, complete sequence	direct
+CP145032.1	CP145032.1	2750734922	SAMN39556055	485	Neisseria gonorrhoeae strain WHO_Q_2024 chromosome, complete genome	direct
+CP145033.1	CP145033.1	2750736888	SAMN39556055	485	Neisseria gonorrhoeae strain WHO_Q_2024 plasmid pConj, complete sequence	direct
+CP145034.1	CP145034.1	2750736936	SAMN39556055	485	Neisseria gonorrhoeae strain WHO_Q_2024 plasmid pCryptic, complete sequence	direct
+CP145035.1	CP145035.1	2750736975	SAMN39556054	485	Neisseria gonorrhoeae strain WHO_P_2024 chromosome, complete genome	direct
+CP145036.1	CP145036.1	2750738937	SAMN39556054	485	Neisseria gonorrhoeae strain WHO_P_2024 plasmid pCryptic, complete sequence	direct
+CP145037.1	CP145037.1	2750741056	SAMN39556053	485	Neisseria gonorrhoeae strain WHO_O_2024 chromosome, complete genome	direct
+CP145038.1	CP145038.1	2750743029	SAMN39556053	485	Neisseria gonorrhoeae strain WHO_O_2024 plasmid pBla, complete sequence	direct
+CP145039.1	CP145039.1	2750743036	SAMN39556053	485	Neisseria gonorrhoeae strain WHO_O_2024 plasmid pConj, complete sequence	direct
+CP145040.1	CP145040.1	2750743082	SAMN39556053	485	Neisseria gonorrhoeae strain WHO_O_2024 plasmid pCryptic, complete sequence	direct
+CP145041.1	CP145041.1	2750747140	SAMN39556052	485	Neisseria gonorrhoeae strain WHO_M_2024 chromosome, complete genome	direct
+CP145042.1	CP145042.1	2750749124	SAMN39556052	485	Neisseria gonorrhoeae strain WHO_M_2024 plasmid pBla, complete sequence	direct
+CP145043.1	CP145043.1	2750749131	SAMN39556052	485	Neisseria gonorrhoeae strain WHO_M_2024 plasmid pConj, complete sequence	direct
+CP145044.1	CP145044.1	2750749176	SAMN39556052	485	Neisseria gonorrhoeae strain WHO_M_2024 plasmid pCryptic, complete sequence	direct
+CP145045.1	CP145045.1	2750745093	SAMN39556051	485	Neisseria gonorrhoeae strain WHO_L_2024 chromosome, complete genome	direct
+CP145046.1	CP145046.1	2750747049	SAMN39556051	485	Neisseria gonorrhoeae strain WHO_L_2024 plasmid pConj, complete sequence	direct
+CP145047.1	CP145047.1	2750747095	SAMN39556051	485	Neisseria gonorrhoeae strain WHO_L_2024 plasmid pCryptic, complete sequence	direct
+CP145048.1	CP145048.1	2750743121	SAMN39556050	485	Neisseria gonorrhoeae strain WHO_K_2024 chromosome, complete genome	direct
+CP145049.1	CP145049.1	2750745074	SAMN39556050	485	Neisseria gonorrhoeae strain WHO_K_2024 plasmid pCryptic, complete sequence	direct
+CP145050.1	CP145050.1	2750749249	SAMN39556049	485	Neisseria gonorrhoeae strain WHO_H_2024 chromosome, complete genome	direct
+CP145051.1	CP145051.1	2750751289	SAMN39556049	485	Neisseria gonorrhoeae strain WHO_H_2024 plasmid pCryptic, complete sequence	direct
+CP145052.1	CP145052.1	2750755436	SAMN39556048	485	Neisseria gonorrhoeae strain WHO_F_2024 chromosome, complete genome	direct
+CP145053.1	CP145053.1	2750753401	SAMN39556047	485	Neisseria gonorrhoeae strain WHO_beta_2024 chromosome, complete genome	direct
+CP145054.1	CP145054.1	2750755348	SAMN39556047	485	Neisseria gonorrhoeae strain WHO_beta_2024 plasmid pBla, complete sequence	direct
+CP145055.1	CP145055.1	2750755355	SAMN39556047	485	Neisseria gonorrhoeae strain WHO_beta_2024 plasmid pConj, complete sequence	direct
+CP145056.1	CP145056.1	2750755406	SAMN39556047	485	Neisseria gonorrhoeae strain WHO_beta_2024 plasmid pCryptic, complete sequence	direct
+CP145057.1	CP145057.1	2750751331	SAMN39556046	485	Neisseria gonorrhoeae strain WHO_alpha_2024 chromosome, complete genome	direct
+CP145058.1	CP145058.1	2750753367	SAMN39556046	485	Neisseria gonorrhoeae strain WHO_alpha_2024 plasmid pCryptic, complete sequence	direct
+CP145059.1	CP145059.1	2750761989	SAMN39556045	485	Neisseria gonorrhoeae strain WHO_W_2024 chromosome, complete genome	direct
+CP145060.1	CP145060.1	2750764029	SAMN39556045	485	Neisseria gonorrhoeae strain WHO_W_2024 plasmid pConj, complete sequence	direct
+CP145061.1	CP145061.1	2750764075	SAMN39556045	485	Neisseria gonorrhoeae strain WHO_W_2024 plasmid pCryptic, complete sequence	direct
+CP145062.1	CP145062.1	2750759849	SAMN39556044	485	Neisseria gonorrhoeae strain WHO_T_2024 chromosome, complete genome	direct
+CP145063.1	CP145063.1	2750761896	SAMN39556044	485	Neisseria gonorrhoeae strain WHO_T_2024 plasmid pCryptic, complete sequence	direct
+CP145064.1	CP145064.1	2750757612	SAMN39556043	485	Neisseria gonorrhoeae strain WHO_S_2024 chromosome, complete genome	direct
+CP145065.1	CP145065.1	2750759638	SAMN39556043	485	Neisseria gonorrhoeae strain WHO_S_2024 plasmid pConj, complete sequence	direct
+CP145066.1	CP145066.1	2750759684	SAMN39556043	485	Neisseria gonorrhoeae strain WHO_S_2024 plasmid pCryptic, complete sequence	direct
+CP145067.1	CP145067.1	2750764130	SAMN39556042	485	Neisseria gonorrhoeae strain WHO_N_2024 chromosome, complete genome	direct
+CP145068.1	CP145068.1	2750766096	SAMN39556042	485	Neisseria gonorrhoeae strain WHO_N_2024 plasmid pBla, complete sequence	direct
+CP145069.1	CP145069.1	2750766105	SAMN39556042	485	Neisseria gonorrhoeae strain WHO_N_2024 plasmid pConj, complete sequence	direct
+CP145070.1	CP145070.1	2750766155	SAMN39556042	485	Neisseria gonorrhoeae strain WHO_N_2024 plasmid pCryptic, complete sequence	direct
+CP145071.1	CP145071.1	2750768204	SAMN39556041	485	Neisseria gonorrhoeae strain WHO_J_2024 chromosome, complete genome	direct
+CP145072.1	CP145072.1	2750770157	SAMN39556041	485	Neisseria gonorrhoeae strain WHO_J_2024 plasmid pBla, complete sequence	direct
+CP145073.1	CP145073.1	2750770166	SAMN39556041	485	Neisseria gonorrhoeae strain WHO_J_2024 plasmid pCryptic, complete sequence	direct
+CP145074.1	CP145074.1	2750773312	SAMN39556040	485	Neisseria gonorrhoeae strain WHO_I_2024 chromosome, complete genome	direct
+CP145075.1	CP145075.1	2750775281	SAMN39556040	485	Neisseria gonorrhoeae strain WHO_I_2024 plasmid pConj, complete sequence	direct
+CP145076.1	CP145076.1	2750775327	SAMN39556040	485	Neisseria gonorrhoeae strain WHO_I_2024 plasmid pCryptic, complete sequence	direct
+CP145077.1	CP145077.1	2750770235	SAMN39556039	485	Neisseria gonorrhoeae strain WHO_G_2024 chromosome, complete genome	direct
+CP145078.1	CP145078.1	2750772195	SAMN39556039	485	Neisseria gonorrhoeae strain WHO_G_2024 plasmid pConj, complete sequence	direct
+CP145079.1	CP145079.1	2750772243	SAMN39556039	485	Neisseria gonorrhoeae strain WHO_G_2024 plasmid pCryptic, complete sequence	direct
+CP145080.1	CP145080.1	2750775398	SAMN39556038	485	Neisseria gonorrhoeae strain WHO_E_2024 chromosome, complete genome	direct
+CP145081.1	CP145081.1	2750777408	SAMN39556038	485	Neisseria gonorrhoeae strain WHO_E_2024 plasmid pBla, complete sequence	direct
+CP145082.1	CP145082.1	2750777415	SAMN39556038	485	Neisseria gonorrhoeae strain WHO_E_2024 plasmid pCryptic, complete sequence	direct
+CP145083.1	CP145083.1	2750784726	SAMN39556037	485	Neisseria gonorrhoeae strain WHO_D_2024 chromosome, complete genome	direct
+CP145084.1	CP145084.1	2750786713	SAMN39556037	485	Neisseria gonorrhoeae strain WHO_D_2024 plasmid pConj, complete sequence	direct
+CP145085.1	CP145085.1	2750786759	SAMN39556037	485	Neisseria gonorrhoeae strain WHO_D_2024 plasmid pCryptic, complete sequence	direct
+CP145086.1	CP145086.1	2750778505	SAMN39556036	485	Neisseria gonorrhoeae strain WHO_C_2024 chromosome, complete genome	direct
+CP145087.1	CP145087.1	2750780472	SAMN39556036	485	Neisseria gonorrhoeae strain WHO_C_2024 plasmid pCryptic, complete sequence	direct
+CP145088.1	CP145088.1	2750782579	SAMN39556035	485	Neisseria gonorrhoeae strain WHO_B_2024 chromosome, complete genome	direct
+CP145089.1	CP145089.1	2750784611	SAMN39556035	485	Neisseria gonorrhoeae strain WHO_B_2024 plasmid pCryptic, complete sequence	direct
+CP145090.1	CP145090.1	2750788856	SAMN39556034	485	Neisseria gonorrhoeae strain WHO_A_2024 chromosome, complete genome	direct
+CP173226.1	CP173226.1	2851416853	SAMN44604098	485	Neisseria gonorrhoeae strain NCTC 8375 [B 5025] chromosome, complete genome	direct
+CP181245.1	CP181245.1	2913944311	SAMN46163080	485	Neisseria gonorrhoeae strain LNP 16626 chromosome, complete genome	direct
+CP195874.1	CP195874.1	3028552520	SAMN49914557	485	Neisseria gonorrhoeae strain JS-23-24 chromosome 1, complete sequence	direct
+CP195875.1	CP195875.1	3028554609	SAMN49914557	485	Neisseria gonorrhoeae strain JS-23-24 plasmid pJS-23-24_1, complete sequence	direct
+CP195876.1	CP195876.1	3028554659	SAMN49914557	485	Neisseria gonorrhoeae strain JS-23-24 plasmid pJS-23-24_2, complete sequence	direct
+CP195877.1	CP195877.1	3028554670	SAMN49914557	485	Neisseria gonorrhoeae strain JS-23-24 plasmid pJS-23-24_3, complete sequence	direct
+CP196627.1	CP196627.1	3035935458	SAMN49530532	485	Neisseria gonorrhoeae strain SRRSH-634 chromosome, complete genome	direct
+CP196628.1	CP196628.1	3035937473	SAMN49530532	485	Neisseria gonorrhoeae strain SRRSH-634 plasmid unnamed, complete sequence	direct
+CP196629.1	CP196629.1	3035937521	SAMN49531572	485	Neisseria gonorrhoeae strain SRRSH-772 chromosome, complete genome	direct
+CP196630.1	CP196630.1	3035939550	SAMN49531572	485	Neisseria gonorrhoeae strain SRRSH-772 plasmid unnamed	direct
+CP196635.1	CP196635.1	3035939597	SAMN49530829	485	Neisseria gonorrhoeae strain SRRSH-762 chromosome, complete genome	direct
+CP196636.1	CP196636.1	3035941605	SAMN49530829	485	Neisseria gonorrhoeae strain SRRSH-762 plasmid unnamed	direct
+JBSJED000000000.1	JBSJED000000000.1	3116668496	SAMN53242160	485	Neisseria gonorrhoeae strain 4664, whole genome shotgun sequencing project	direct
+LR134358.1	LR134358.1	1539994643	SAMEA4364223	485	Neisseria gonorrhoeae strain NCTC13484 genome assembly, chromosome: 1	direct
+LT591897.1	LT591897.1	1066403326	SAMEA2448460	485	Neisseria gonorrhoeae strain WHO F genome assembly, chromosome: 1	direct
+LT591898.1	LT591898.1	1066405678	SAMEA2448461	485	Neisseria gonorrhoeae strain WHO G genome assembly, chromosome: 1	direct
+LT591899.1	LT591899.1	1066407873	SAMEA2448461	485	Neisseria gonorrhoeae strain WHO G genome assembly, plasmid: 2	direct
+LT591900.1	LT591900.1	1066407920	SAMEA2448461	485	Neisseria gonorrhoeae strain WHO G genome assembly, plasmid: 3	direct
+LT591901.1	LT591901.1	1066407929	SAMEA2448463	485	Neisseria gonorrhoeae strain WHO L genome assembly, chromosome: 1	direct
+LT591902.1	LT591902.1	1066410146	SAMEA2448463	485	Neisseria gonorrhoeae strain WHO L genome assembly, plasmid: 2	direct
+LT591903.1	LT591903.1	1066410192	SAMEA2448463	485	Neisseria gonorrhoeae strain WHO L genome assembly, plasmid: 3	direct
+LT591904.1	LT591904.1	1066410201	SAMEA2448464	485	Neisseria gonorrhoeae strain WHO M genome assembly, chromosome: 1	direct
+LT591905.1	LT591905.1	1066412399	SAMEA2448464	485	Neisseria gonorrhoeae strain WHO M genome assembly, plasmid: 2	direct
+LT591906.1	LT591906.1	1066412407	SAMEA2448464	485	Neisseria gonorrhoeae strain WHO M genome assembly, plasmid: 3	direct
+LT591907.1	LT591907.1	1066412453	SAMEA2448464	485	Neisseria gonorrhoeae strain WHO M genome assembly, plasmid: 4	direct
+LT591908.1	LT591908.1	1066412462	SAMEA2448462	485	Neisseria gonorrhoeae strain WHO K genome assembly, chromosome: 1	direct
+LT591909.1	LT591909.1	1066414659	SAMEA2448462	485	Neisseria gonorrhoeae strain WHO K genome assembly, plasmid: 2	direct
+LT591910.1	LT591910.1	1066414668	SAMEA2448465	485	Neisseria gonorrhoeae strain WHO N genome assembly, chromosome: 1	direct
+LT591911.1	LT591911.1	1066416864	SAMEA2448465	485	Neisseria gonorrhoeae strain WHO N genome assembly, plasmid: 2	direct
+LT591912.1	LT591912.1	1066416874	SAMEA2448465	485	Neisseria gonorrhoeae strain WHO N genome assembly, plasmid: 3	direct
+LT591913.1	LT591913.1	1066416921	SAMEA2448465	485	Neisseria gonorrhoeae strain WHO N genome assembly, plasmid: 4	direct
+LT592146.1	LT592146.1	1066416930	SAMEA2448466	485	Neisseria gonorrhoeae strain WHO O genome assembly, chromosome: 1	direct
+LT592147.1	LT592147.1	1066419136	SAMEA2448466	485	Neisseria gonorrhoeae strain WHO O genome assembly, plasmid: 2	direct
+LT592148.1	LT592148.1	1066419144	SAMEA2448466	485	Neisseria gonorrhoeae strain WHO O genome assembly, plasmid: 3	direct
+LT592149.1	LT592149.1	1066419190	SAMEA2448466	485	Neisseria gonorrhoeae strain WHO O genome assembly, plasmid: 4	direct
+LT592150.1	LT592150.1	1066419199	SAMEA2796328	485	Neisseria gonorrhoeae strain WHO_V genome assembly, chromosome: 1	direct
+LT592151.1	LT592151.1	1066421417	SAMEA2796328	485	Neisseria gonorrhoeae strain WHO_V genome assembly, plasmid: 2	direct
+LT592152.1	LT592152.1	1066421427	SAMEA2796328	485	Neisseria gonorrhoeae strain WHO_V genome assembly, plasmid: 3	direct
+LT592153.1	LT592153.1	1066421436	SAMEA2796326	485	Neisseria gonorrhoeae strain WHO_Z genome assembly, chromosome: 1	direct
+LT592154.1	LT592154.1	1066423705	SAMEA2796326	485	Neisseria gonorrhoeae strain WHO_Z genome assembly, plasmid: 2	direct
+LT592155.1	LT592155.1	1066423714	SAMEA2448468	485	Neisseria gonorrhoeae strain WHO_X genome assembly, chromosome: 1	direct
+LT592156.1	LT592156.1	1066425910	SAMEA2448468	485	Neisseria gonorrhoeae strain WHO_X genome assembly, plasmid: 2	direct
+LT592157.1	LT592157.1	1066425919	SAMEA2448467	485	Neisseria gonorrhoeae strain WHO P genome assembly, chromosome: 1	direct
+LT592158.1	LT592158.1	1066428120	SAMEA2448467	485	Neisseria gonorrhoeae strain WHO P genome assembly, plasmid: 2	direct
+LT592159.1	LT592159.1	1066428129	SAMEA2796327	485	Neisseria gonorrhoeae strain WHO_U genome assembly, chromosome: 1	direct
+LT592160.1	LT592160.1	1066430349	SAMEA2796327	485	Neisseria gonorrhoeae strain WHO_U genome assembly, plasmid: 2	direct
+LT592161.1	LT592161.1	1066430358	SAMEA2448469	485	Neisseria gonorrhoeae strain WHO_Y genome assembly, chromosome: 1	direct
+LT592162.1	LT592162.1	1066432634	SAMEA2448469	485	Neisseria gonorrhoeae strain WHO_Y genome assembly, plasmid: 2	direct
+LT592163.1	LT592163.1	1066432643	SAMEA2448470	485	Neisseria gonorrhoeae strain WHO_W genome assembly, chromosome: 1	direct
+LT592164.1	LT592164.1	1066434903	SAMEA2448470	485	Neisseria gonorrhoeae strain WHO_W genome assembly, plasmid: 2	direct
+LT592165.1	LT592165.1	1066434949	SAMEA2448470	485	Neisseria gonorrhoeae strain WHO_W genome assembly, plasmid: 3	direct
+LT906437.1	LT906437.1	1231662897	SAMEA4076765	485	Neisseria gonorrhoeae strain NCTC13799 genome assembly, chromosome: 1	direct
+LT906440.1	LT906440.1	1231671109	SAMEA4076741	485	Neisseria gonorrhoeae strain NCTC13798 genome assembly, chromosome: 1	direct
+LT906472.1	LT906472.1	1231757882	SAMEA4076768	485	Neisseria gonorrhoeae strain NCTC13800 genome assembly, chromosome: 1	direct
+NC_002946.2	NC_002946.2	59800473	SAMN02604088	242231	Neisseria gonorrhoeae FA 1090, complete sequence	direct
+NC_011034.1	NC_011034.1	194097576	SAMN02603475	521006	Neisseria gonorrhoeae NCCP11945 plasmid pNGK, complete sequence	direct
+NC_011035.1	NC_011035.1	194097589	SAMN02603475	521006	Neisseria gonorrhoeae NCCP11945, complete sequence	direct
+NC_022240.1	NC_022240.1	538320713	SAMN02596923	528354	Neisseria gonorrhoeae MS11, complete sequence	direct
+NC_022243.1	NC_022243.1	538323496	SAMN02596923	528354	Neisseria gonorrhoeae MS11 plasmid unnamed, complete sequence	direct
+NZ_AP018377.1	NZ_AP018377.1	1553050164	SAMD00092833	485	Neisseria gonorrhoeae strain FC428 chromosome, complete genome	direct
+NZ_AP018378.1	NZ_AP018378.1	1553050248	SAMD00092833	485	Neisseria gonorrhoeae strain FC428 plasmid pConjugative, complete sequence	direct
+NZ_AP018379.1	NZ_AP018379.1	1553050254	SAMD00092833	485	Neisseria gonorrhoeae strain FC428 plasmid pCryptic, complete sequence	direct
+NZ_AP018380.1	NZ_AP018380.1	1553050259	SAMD00092833	485	Neisseria gonorrhoeae strain FC428 plasmid pBlaTEM, complete sequence	direct
+NZ_AP018381.1	NZ_AP018381.1	1553154778	SAMD00092837	485	Neisseria gonorrhoeae strain FC460 chromosome, complete genome	direct
+NZ_AP018382.1	NZ_AP018382.1	1553154779	SAMD00092837	485	Neisseria gonorrhoeae strain FC460 plasmid pConjugative, complete sequence	direct
+NZ_AP018383.1	NZ_AP018383.1	1553154780	SAMD00092837	485	Neisseria gonorrhoeae strain FC460 plasmid pCryptic, complete sequence	direct
+NZ_AP018384.1	NZ_AP018384.1	1553154781	SAMD00092837	485	Neisseria gonorrhoeae strain FC460 plasmid pBlaTEM, complete sequence	direct
+NZ_AP018385.1	NZ_AP018385.1	1552999548	SAMD00092841	485	Neisseria gonorrhoeae strain FC498 chromosome, complete genome	direct
+NZ_AP018386.1	NZ_AP018386.1	1552999856	SAMD00092841	485	Neisseria gonorrhoeae strain FC498 plasmid pConjugative, complete sequence	direct
+NZ_AP018387.1	NZ_AP018387.1	1552999859	SAMD00092841	485	Neisseria gonorrhoeae strain FC498 plasmid pCryptic, complete sequence	direct
+NZ_AP019853.2	NZ_AP019853.2	1859772442	SAMD00179626	485	Neisseria gonorrhoeae strain SS3160 chromosome, complete genome	direct
+NZ_AP019854.1	NZ_AP019854.1	1728398845	SAMD00179626	485	Neisseria gonorrhoeae strain SS3160 plasmid pConjugative, complete sequence	direct
+NZ_AP019855.1	NZ_AP019855.1	1728398846	SAMD00179626	485	Neisseria gonorrhoeae strain SS3160 plasmid pCryptic, complete sequence	direct
+NZ_AP023067.1	NZ_AP023067.1	1848792903	SAMD00217347	485	Neisseria gonorrhoeae strain TUM19853 chromosome, complete genome	direct
+NZ_AP023068.1	NZ_AP023068.1	1848792904	SAMD00217347	485	Neisseria gonorrhoeae strain TUM19853 plasmid pMTY19853, complete sequence	direct
+NZ_AP023069.1	NZ_AP023069.1	1848798785	SAMD00217348	485	Neisseria gonorrhoeae strain TUM19854 chromosome, complete genome	direct
+NZ_AP023070.1	NZ_AP023070.1	1848798786	SAMD00217348	485	Neisseria gonorrhoeae strain TUM19854 plasmid pMTY19854, complete sequence	direct
+NZ_AP023071.1	NZ_AP023071.1	1848795733	SAMD00220608	485	Neisseria gonorrhoeae strain TUM15748 chromosome, complete genome	direct
+NZ_AP023072.1	NZ_AP023072.1	1848795735	SAMD00220608	485	Neisseria gonorrhoeae strain TUM15748 plasmid pMTY15748, complete sequence	direct
+NZ_AP023073.1	NZ_AP023073.1	1848791444	SAMD00220609	485	Neisseria gonorrhoeae strain TUM15753 chromosome, complete genome	direct
+NZ_AP023074.1	NZ_AP023074.1	1848791469	SAMD00220609	485	Neisseria gonorrhoeae strain TUM15753 plasmid pMTY15753, complete sequence	direct
+NZ_AP023075.1	NZ_AP023075.1	1848794169	SAMD00220610	485	Neisseria gonorrhoeae strain TUM16691 chromosome, complete genome	direct
+NZ_AP023076.1	NZ_AP023076.1	1848794207	SAMD00220610	485	Neisseria gonorrhoeae strain TUM16691 plasmid pMTY16691, complete sequence	direct
+NZ_AP024155.1	NZ_AP024155.1	1957570115	SAMD00257605	485	Neisseria gonorrhoeae strain TUM 19855 chromosome, complete genome	direct
+NZ_AP024156.1	NZ_AP024156.1	1957570116	SAMD00257605	485	Neisseria gonorrhoeae strain TUM 19855 plasmid pMYT19855, complete sequence	direct
+NZ_CM132214.1	NZ_CM132214.1	3123848429	SAMN53242160	485	Neisseria gonorrhoeae strain 4664 chromosome, whole genome shotgun sequence	direct
+NZ_CP003974.1	NZ_CP003974.1	1606906764	SAMN02380725	1247414	Neisseria gonorrhoeae NG-k51.05 chromosome, complete genome	direct
+NZ_CP003975.1	NZ_CP003975.1	1606906765	SAMN02380725	1247414	Neisseria gonorrhoeae NG-k51.05 plasmid pNG-k51.05, complete sequence	direct
+NZ_CP012026.1	NZ_CP012026.1	873889719	SAMN03459415	485	Neisseria gonorrhoeae strain FA19 chromosome, complete genome	direct
+NZ_CP012027.1	NZ_CP012027.1	873862953	SAMN03459416	485	Neisseria gonorrhoeae strain FA6140 chromosome, complete genome	direct
+NZ_CP012028.1	NZ_CP012028.1	873890312	SAMN03459417	485	Neisseria gonorrhoeae strain 35/02 chromosome, complete genome	direct
+NZ_CP016015.1	NZ_CP016015.1	1036092324	SAMN04233132	485	Neisseria gonorrhoeae strain 32867 chromosome, complete genome	direct
+NZ_CP016016.1	NZ_CP016016.1	1036091263	SAMN05210135	485	Neisseria gonorrhoeae strain 34530 chromosome, complete genome	direct
+NZ_CP016017.1	NZ_CP016017.1	1036099588	SAMN05210257	485	Neisseria gonorrhoeae strain 34769 chromosome, complete genome	direct
+NZ_CP019466.1	NZ_CP019466.1	1477284577	SAMN06251593	485	Neisseria gonorrhoeae strain RIVM0610 chromosome, complete genome	direct
+NZ_CP019467.1	NZ_CP019467.1	1477285727	SAMN06251594	485	Neisseria gonorrhoeae strain RIVM0640 chromosome, complete genome	direct
+NZ_CP020415.2	NZ_CP020415.2	1355984269	SAMN04875541	485	Neisseria gonorrhoeae strain FDAARGOS_204 chromosome, complete genome	direct
+NZ_CP020416.2	NZ_CP020416.2	1355857826	SAMN04875542	485	Neisseria gonorrhoeae strain FDAARGOS_205 plasmid unnamed1, complete sequence	direct
+NZ_CP020417.1	NZ_CP020417.1	1176462507	SAMN04875542	485	Neisseria gonorrhoeae strain FDAARGOS_205 plasmid unnamed2, complete sequence	direct
+NZ_CP020418.2	NZ_CP020418.2	1355857919	SAMN04875542	485	Neisseria gonorrhoeae strain FDAARGOS_205 chromosome, complete genome	direct
+NZ_CP020419.2	NZ_CP020419.2	1356470688	SAMN04875544	485	Neisseria gonorrhoeae strain FDAARGOS_207 chromosome, complete genome	direct
+NZ_CP032398.2	NZ_CP032398.2	1729850876	SAMN10035124	485	Neisseria gonorrhoeae strain TFG-A2 chromosome, complete genome	direct
+NZ_CP032399.1	NZ_CP032399.1	1605363711	SAMN10035124	485	Neisseria gonorrhoeae strain TFG-A2 plasmid pTFGA2, complete sequence	direct
+NZ_CP032428.1	NZ_CP032428.1	1605363780	SAMN10031335	485	Neisseria gonorrhoeae strain TFG-B2 plasmid pTFGB2, complete sequence	direct
+NZ_CP032429.2	NZ_CP032429.2	1729872813	SAMN10031335	485	Neisseria gonorrhoeae strain TFG-B2 chromosome, complete genome	direct
+NZ_CP034016.1	NZ_CP034016.1	1526695101	SAMN10395918	485	Neisseria gonorrhoeae strain FQ84 chromosome, complete genome	direct
+NZ_CP034017.1	NZ_CP034017.1	1526695102	SAMN10395918	485	Neisseria gonorrhoeae strain FQ84 plasmid unnamed, complete sequence	direct
+NZ_CP034018.1	NZ_CP034018.1	1527161137	SAMN10395914	485	Neisseria gonorrhoeae strain FQ82 chromosome, complete genome	direct
+NZ_CP034019.1	NZ_CP034019.1	1527161138	SAMN10395914	485	Neisseria gonorrhoeae strain FQ82 plasmid unnamed, complete sequence	direct
+NZ_CP034020.1	NZ_CP034020.1	1531267116	SAMN10395915	485	Neisseria gonorrhoeae strain FQ48 chromosome, complete genome	direct
+NZ_CP034021.1	NZ_CP034021.1	1531267117	SAMN10395915	485	Neisseria gonorrhoeae strain FQ48 plasmid unnamed, complete sequence	direct
+NZ_CP034022.1	NZ_CP034022.1	1526695178	SAMN10395916	485	Neisseria gonorrhoeae strain FQ36 chromosome, complete genome	direct
+NZ_CP034023.1	NZ_CP034023.1	1526695179	SAMN10395916	485	Neisseria gonorrhoeae strain FQ36 plasmid unnamed, complete sequence	direct
+NZ_CP034024.1	NZ_CP034024.1	1527161082	SAMN10395917	485	Neisseria gonorrhoeae strain FQ35 chromosome, complete genome	direct
+NZ_CP034025.1	NZ_CP034025.1	1527161083	SAMN10395917	485	Neisseria gonorrhoeae strain FQ35 plasmid unnamed, complete sequence	direct
+NZ_CP034026.1	NZ_CP034026.1	1527147163	SAMN10396003	485	Neisseria gonorrhoeae strain FQ20 chromosome, complete genome	direct
+NZ_CP034027.1	NZ_CP034027.1	1527147164	SAMN10396003	485	Neisseria gonorrhoeae strain FQ20 plasmid unnamed, complete sequence	direct
+NZ_CP034028.1	NZ_CP034028.1	1526695129	SAMN10396000	485	Neisseria gonorrhoeae strain FQ04 chromosome, complete genome	direct
+NZ_CP034029.1	NZ_CP034029.1	1526695130	SAMN10396000	485	Neisseria gonorrhoeae strain FQ04 plasmid unnamed, complete sequence	direct
+NZ_CP034030.1	NZ_CP034030.1	1527152345	SAMN10395999	485	Neisseria gonorrhoeae strain FQ02 chromosome, complete genome	direct
+NZ_CP034031.1	NZ_CP034031.1	1527152346	SAMN10395999	485	Neisseria gonorrhoeae strain FQ02 plasmid unnamed, complete sequence	direct
+NZ_CP034032.1	NZ_CP034032.1	1527167414	SAMN10395998	485	Neisseria gonorrhoeae strain FQ01 chromosome, complete genome	direct
+NZ_CP034033.1	NZ_CP034033.1	1527167415	SAMN10395998	485	Neisseria gonorrhoeae strain FQ01 plasmid unnamed1, complete sequence	direct
+NZ_CP034034.1	NZ_CP034034.1	1527167416	SAMN10395998	485	Neisseria gonorrhoeae strain FQ01 plasmid unnamed2, complete sequence	direct
+NZ_CP041585.1	NZ_CP041585.1	1712917863	SAMN12252293	485	Neisseria gonorrhoeae strain NJ1711654 chromosome, complete genome	direct
+NZ_CP043812.1	NZ_CP043812.1	1818734910	SAMN12676040	485	Neisseria gonorrhoeae strain NG290 chromosome, complete genome	direct
+NZ_CP043813.1	NZ_CP043813.1	1818734912	SAMN12676040	485	Neisseria gonorrhoeae strain NG290 plasmid p1, complete sequence	direct
+NZ_CP043814.1	NZ_CP043814.1	1818734913	SAMN12676040	485	Neisseria gonorrhoeae strain NG290 plasmid p2, complete sequence	direct
+NZ_CP043815.1	NZ_CP043815.1	1818734914	SAMN12676040	485	Neisseria gonorrhoeae strain NG290 plasmid p3, complete sequence	direct
+NZ_CP043816.1	NZ_CP043816.1	1818733662	SAMN12676039	485	Neisseria gonorrhoeae strain NG251 chromosome, complete genome	direct
+NZ_CP043817.1	NZ_CP043817.1	1818733663	SAMN12676039	485	Neisseria gonorrhoeae strain NG251 plasmid p1, complete sequence	direct
+NZ_CP043818.1	NZ_CP043818.1	1818733664	SAMN12676039	485	Neisseria gonorrhoeae strain NG251 plasmid p2, complete sequence	direct
+NZ_CP043819.1	NZ_CP043819.1	1818733665	SAMN12676039	485	Neisseria gonorrhoeae strain NG251 plasmid p3, complete sequence	direct
+NZ_CP043871.1	NZ_CP043871.1	1818732817	SAMN12676038	485	Neisseria gonorrhoeae strain NG196 chromosome, complete genome	direct
+NZ_CP043872.1	NZ_CP043872.1	1818732833	SAMN12676038	485	Neisseria gonorrhoeae strain NG196 plasmid p1, complete sequence	direct
+NZ_CP043873.1	NZ_CP043873.1	1818732836	SAMN12676038	485	Neisseria gonorrhoeae strain NG196 plasmid p2, complete sequence	direct
+NZ_CP043874.1	NZ_CP043874.1	1818732838	SAMN12676038	485	Neisseria gonorrhoeae strain NG196 plasmid p3, complete sequence	direct
+NZ_CP045707.1	NZ_CP045707.1	2051225791	SAMN13151449	485	Neisseria gonorrhoeae strain NG250 chromosome, complete genome	direct
+NZ_CP045708.1	NZ_CP045708.1	2051225876	SAMN13151449	485	Neisseria gonorrhoeae strain NG250 plasmid p1, complete sequence	direct
+NZ_CP045709.1	NZ_CP045709.1	2051225880	SAMN13151449	485	Neisseria gonorrhoeae strain NG250 plasmid p2, complete sequence	direct
+NZ_CP045710.1	NZ_CP045710.1	2051225887	SAMN13151449	485	Neisseria gonorrhoeae strain NG250 plasmid p3, complete sequence	direct
+NZ_CP045832.1	NZ_CP045832.1	1775574677	SAMN10920452	485	Neisseria gonorrhoeae strain AUSMDU00010541 chromosome, complete genome	direct
+NZ_CP045833.1	NZ_CP045833.1	1775574678	SAMN10920452	485	Neisseria gonorrhoeae strain AUSMDU00010541 plasmid pAUSMDU00010541_01, complete sequence	direct
+NZ_CP045834.1	NZ_CP045834.1	1775574679	SAMN10920452	485	Neisseria gonorrhoeae strain AUSMDU00010541 plasmid pAUSMDU00010541_02, complete sequence	direct
+NZ_CP048246.1	NZ_CP048246.1	2247452204	SAMN13812696	485	Neisseria gonorrhoeae strain CT602 chromosome, complete genome	direct
+NZ_CP048247.1	NZ_CP048247.1	2247452205	SAMN13812696	485	Neisseria gonorrhoeae strain CT602 plasmid unnamed1, complete sequence	direct
+NZ_CP048248.1	NZ_CP048248.1	2247452206	SAMN13812696	485	Neisseria gonorrhoeae strain CT602 plasmid unnamed2, complete sequence	direct
+NZ_CP048249.1	NZ_CP048249.1	2247452207	SAMN13812696	485	Neisseria gonorrhoeae strain CT602 plasmid unnamed3, complete sequence	direct
+NZ_CP048250.1	NZ_CP048250.1	2247447956	SAMN13812695	485	Neisseria gonorrhoeae strain CT532 chromosome, complete genome	direct
+NZ_CP048251.1	NZ_CP048251.1	2247447957	SAMN13812695	485	Neisseria gonorrhoeae strain CT532 plasmid unnamed1, complete sequence	direct
+NZ_CP048252.1	NZ_CP048252.1	2247447958	SAMN13812695	485	Neisseria gonorrhoeae strain CT532 plasmid unnamed2, complete sequence	direct
+NZ_CP048253.1	NZ_CP048253.1	2247447959	SAMN13812695	485	Neisseria gonorrhoeae strain CT532 plasmid unnamed3, complete sequence	direct
+NZ_CP048254.1	NZ_CP048254.1	2247447357	SAMN13812694	485	Neisseria gonorrhoeae strain CT530 chromosome, complete genome	direct
+NZ_CP048255.1	NZ_CP048255.1	2247447358	SAMN13812694	485	Neisseria gonorrhoeae strain CT530 plasmid unnamed1, complete sequence	direct
+NZ_CP048256.1	NZ_CP048256.1	2247447359	SAMN13812694	485	Neisseria gonorrhoeae strain CT530 plasmid unnamed2, complete sequence	direct
+NZ_CP048257.1	NZ_CP048257.1	2247447360	SAMN13812694	485	Neisseria gonorrhoeae strain CT530 plasmid unnamed3, complete sequence	direct
+NZ_CP048893.1	NZ_CP048893.1	1980900779	SAMN14117309	485	Neisseria gonorrhoeae strain SRRSH240 chromosome, complete genome	direct
+NZ_CP048894.1	NZ_CP048894.1	1980900818	SAMN14117309	485	Neisseria gonorrhoeae strain SRRSH240 plasmid unnamed1, complete sequence	direct
+NZ_CP048895.1	NZ_CP048895.1	1980900824	SAMN14117309	485	Neisseria gonorrhoeae strain SRRSH240 plasmid unnamed2, complete sequence	direct
+NZ_CP048896.1	NZ_CP048896.1	1980901178	SAMN14116992	485	Neisseria gonorrhoeae strain SRRSH229 chromosome, complete genome	direct
+NZ_CP048897.1	NZ_CP048897.1	1980901245	SAMN14116992	485	Neisseria gonorrhoeae strain SRRSH229 plasmid unnamed1, complete sequence	direct
+NZ_CP048898.1	NZ_CP048898.1	1980901246	SAMN14116992	485	Neisseria gonorrhoeae strain SRRSH229 plasmid unnamed2, complete sequence	direct
+NZ_CP048899.1	NZ_CP048899.1	1980755060	SAMN14116991	485	Neisseria gonorrhoeae strain SRRSH214 chromosome, complete genome	direct
+NZ_CP048900.1	NZ_CP048900.1	1980755130	SAMN14116991	485	Neisseria gonorrhoeae strain SRRSH214 plasmid unnamed1, complete sequence	direct
+NZ_CP048901.1	NZ_CP048901.1	1980755135	SAMN14116991	485	Neisseria gonorrhoeae strain SRRSH214 plasmid unnamed2, complete sequence	direct
+NZ_CP048902.1	NZ_CP048902.1	1980663816	SAMN14116990	485	Neisseria gonorrhoeae strain SRRSH207 chromosome, complete genome	direct
+NZ_CP048903.1	NZ_CP048903.1	1980663894	SAMN14116990	485	Neisseria gonorrhoeae strain SRRSH207 plasmid unnamed1, complete sequence	direct
+NZ_CP048904.1	NZ_CP048904.1	1980663901	SAMN14116990	485	Neisseria gonorrhoeae strain SRRSH207 plasmid unnamed2, complete sequence	direct
+NZ_CP048905.1	NZ_CP048905.1	1980783580	SAMN14116989	485	Neisseria gonorrhoeae strain SRRSH205 chromosome, complete genome	direct
+NZ_CP048906.1	NZ_CP048906.1	1980783620	SAMN14116989	485	Neisseria gonorrhoeae strain SRRSH205 plasmid unnamed1, complete sequence	direct
+NZ_CP048907.1	NZ_CP048907.1	1980783623	SAMN14116989	485	Neisseria gonorrhoeae strain SRRSH205 plasmid unnamed2, complete sequence	direct
+NZ_CP048908.1	NZ_CP048908.1	1980902115	SAMN14116987	485	Neisseria gonorrhoeae strain SRRSH203 chromosome, complete genome	direct
+NZ_CP048909.1	NZ_CP048909.1	1980902181	SAMN14116987	485	Neisseria gonorrhoeae strain SRRSH203 plasmid unnamed1, complete sequence	direct
+NZ_CP048910.1	NZ_CP048910.1	1980902193	SAMN14116987	485	Neisseria gonorrhoeae strain SRRSH203 plasmid unnamed2, complete sequence	direct
+NZ_CP048911.1	NZ_CP048911.1	1980901627	SAMN14116988	485	Neisseria gonorrhoeae strain SRRSH204 chromosome, complete genome	direct
+NZ_CP048912.1	NZ_CP048912.1	1980901718	SAMN14116988	485	Neisseria gonorrhoeae strain SRRSH204 plasmid unnamed1, complete sequence	direct
+NZ_CP048913.1	NZ_CP048913.1	1980901737	SAMN14116988	485	Neisseria gonorrhoeae strain SRRSH204 plasmid unnamed2, complete sequence	direct
+NZ_CP048929.1	NZ_CP048929.1	2074443666	SAMN14131123	485	Neisseria gonorrhoeae strain CT213 chromosome, complete genome	direct
+NZ_CP048930.1	NZ_CP048930.1	2074443818	SAMN14131123	485	Neisseria gonorrhoeae strain CT213 plasmid unnamed1, complete sequence	direct
+NZ_CP048931.1	NZ_CP048931.1	2074443823	SAMN14131123	485	Neisseria gonorrhoeae strain CT213 plasmid unnamed2, complete sequence	direct
+NZ_CP048932.1	NZ_CP048932.1	2074443828	SAMN14131123	485	Neisseria gonorrhoeae strain CT213 plasmid unnamed3, complete sequence	direct
+NZ_CP050505.1	NZ_CP050505.1	1909910695	SAMN14433815	485	Neisseria gonorrhoeae strain BJ16148 chromosome, complete genome	direct
+NZ_CP050930.1	NZ_CP050930.1	2233983407	SAMN13151448	485	Neisseria gonorrhoeae strain NG211 chromosome, complete genome	direct
+NZ_CP050931.1	NZ_CP050931.1	2233983528	SAMN13151448	485	Neisseria gonorrhoeae strain NG211 plasmid p1, complete sequence	direct
+NZ_CP050932.1	NZ_CP050932.1	2233983531	SAMN13151448	485	Neisseria gonorrhoeae strain NG211 plasmid p2, complete sequence	direct
+NZ_CP050933.1	NZ_CP050933.1	2233983535	SAMN13151448	485	Neisseria gonorrhoeae strain NG211 plasmid p3, complete sequence	direct
+NZ_CP068761.1	NZ_CP068761.1	1969942132	SAMN17393045	485	Neisseria gonorrhoeae strain 20181204 chromosome, complete genome	direct
+NZ_CP068762.1	NZ_CP068762.1	1969942276	SAMN17393045	485	Neisseria gonorrhoeae strain 20181204 plasmid unnamed1, complete sequence	direct
+NZ_CP068763.1	NZ_CP068763.1	1969942283	SAMN17393045	485	Neisseria gonorrhoeae strain 20181204 plasmid unnamed2, complete sequence	direct
+NZ_CP068764.1	NZ_CP068764.1	1969942286	SAMN17393045	485	Neisseria gonorrhoeae strain 20181204 plasmid unnamed3, complete sequence	direct
+NZ_CP078113.1	NZ_CP078113.1	2068358185	SAMN19998461	485	Neisseria gonorrhoeae strain O2D156 chromosome, complete genome	direct
+NZ_CP078114.1	NZ_CP078114.1	2068314786	SAMN19998460	485	Neisseria gonorrhoeae strain 98D159 chromosome, complete genome	direct
+NZ_CP078115.1	NZ_CP078115.1	2068259809	SAMN19998459	485	Neisseria gonorrhoeae strain O1G1370 chromosome, complete genome	direct
+NZ_CP078116.1	NZ_CP078116.1	2068260653	SAMN19998458	485	Neisseria gonorrhoeae strain 88G285 chromosome, complete genome	direct
+NZ_CP078117.1	NZ_CP078117.1	2068261696	SAMN19998457	485	Neisseria gonorrhoeae strain SK92679 chromosome, complete genome	direct
+NZ_CP078118.1	NZ_CP078118.1	2068262559	SAMN19998456	485	Neisseria gonorrhoeae strain MS11 chromosome, complete genome	direct
+NZ_CP078119.1	NZ_CP078119.1	2068146890	SAMN19998455	485	Neisseria gonorrhoeae strain 1291 chromosome, complete genome	direct
+NZ_CP097846.1	NZ_CP097846.1	2258462506	SAMN28560617	485	Neisseria gonorrhoeae strain AT159 chromosome, complete genome	direct
+NZ_CP097847.1	NZ_CP097847.1	2258462519	SAMN28560617	485	Neisseria gonorrhoeae strain AT159 plasmid pConj, complete sequence	direct
+NZ_CP097848.1	NZ_CP097848.1	2258462520	SAMN28560617	485	Neisseria gonorrhoeae strain AT159 plasmid pCryptic, complete sequence	direct
+NZ_CP098458.1	NZ_CP098458.1	2320645762	SAMN28830140	485	Neisseria gonorrhoeae strain 10588 chromosome, complete genome	direct
+NZ_CP098459.1	NZ_CP098459.1	2320645763	SAMN28830140	485	Neisseria gonorrhoeae strain 10588 plasmid pJD1, complete sequence	direct
+NZ_CP098460.1	NZ_CP098460.1	2303603575	SAMN28834904	485	Neisseria gonorrhoeae strain 10814 chromosome, complete genome	direct
+NZ_CP098461.1	NZ_CP098461.1	2303603577	SAMN28834904	485	Neisseria gonorrhoeae strain 10814 plasmid pJD1, complete sequence	direct
+NZ_CP098462.1	NZ_CP098462.1	2303616209	SAMN28835168	485	Neisseria gonorrhoeae strain 9460 chromosome, complete genome	direct
+NZ_CP098463.1	NZ_CP098463.1	2303616212	SAMN28835168	485	Neisseria gonorrhoeae strain 9460 plasmid pJD1, complete sequence	direct
+NZ_CP098464.1	NZ_CP098464.1	2388314558	SAMN28835821	485	Neisseria gonorrhoeae strain 10269 chromosome, complete genome	direct
+NZ_CP098465.1	NZ_CP098465.1	2388314619	SAMN28835821	485	Neisseria gonorrhoeae strain 10269 plasmid pJD1, complete sequence	direct
+NZ_CP098466.1	NZ_CP098466.1	2318887527	SAMN28835880	485	Neisseria gonorrhoeae strain 10720 chromosome, complete genome	direct
+NZ_CP098467.1	NZ_CP098467.1	2318887528	SAMN28835880	485	Neisseria gonorrhoeae strain 10720 plasmid pJD1, complete sequence	direct
+NZ_CP098468.2	NZ_CP098468.2	2318887532	SAMN28835919	485	Neisseria gonorrhoeae strain 10328 chromosome, complete genome	direct
+NZ_CP098469.2	NZ_CP098469.2	2318887533	SAMN28835919	485	Neisseria gonorrhoeae strain 10328 plasmid pJD1, complete sequence	direct
+NZ_CP098470.2	NZ_CP098470.2	2318892442	SAMN28836998	485	Neisseria gonorrhoeae strain 10792 chromosome, complete genome	direct
+NZ_CP098471.2	NZ_CP098471.2	2318892443	SAMN28836998	485	Neisseria gonorrhoeae strain 10792 plasmid pJD1, complete sequence	direct
+NZ_CP098472.1	NZ_CP098472.1	2388343082	SAMN28837864	485	Neisseria gonorrhoeae strain 10612 chromosome, complete genome	direct
+NZ_CP098473.1	NZ_CP098473.1	2388343152	SAMN28837864	485	Neisseria gonorrhoeae strain 10612 plasmid pJD1, complete sequence	direct
+NZ_CP098474.1	NZ_CP098474.1	2320645629	SAMN28833726	485	Neisseria gonorrhoeae strain 10239 chromosome, complete genome	direct
+NZ_CP098475.1	NZ_CP098475.1	2320645630	SAMN28833726	485	Neisseria gonorrhoeae strain 10239 plasmid pJD1, complete sequence	direct
+NZ_CP098503.2	NZ_CP098503.2	2318898963	SAMN28858863	485	Neisseria gonorrhoeae strain 10268 chromosome, complete genome	direct
+NZ_CP098504.2	NZ_CP098504.2	2318898964	SAMN28858863	485	Neisseria gonorrhoeae strain 10268 plasmid pJD1, complete sequence	direct
+NZ_CP098505.2	NZ_CP098505.2	2318890847	SAMN28859049	485	Neisseria gonorrhoeae strain 10536 chromosome, complete genome	direct
+NZ_CP098506.2	NZ_CP098506.2	2318890848	SAMN28859049	485	Neisseria gonorrhoeae strain 10536 plasmid pJD1, complete sequence	direct
+NZ_CP098532.2	NZ_CP098532.2	2318890790	SAMN28869552	485	Neisseria gonorrhoeae strain 10537 chromosome, complete genome	direct
+NZ_CP098533.2	NZ_CP098533.2	2318890791	SAMN28869552	485	Neisseria gonorrhoeae strain 10537 plasmid pJD1, complete sequence	direct
+NZ_CP098534.1	NZ_CP098534.1	2318892463	SAMN28869554	485	Neisseria gonorrhoeae strain 10525 chromosome, complete genome	direct
+NZ_CP098535.1	NZ_CP098535.1	2318892464	SAMN28869554	485	Neisseria gonorrhoeae strain 10525 plasmid pJD1, complete sequence	direct
+NZ_CP098536.1	NZ_CP098536.1	2303693819	SAMN28869592	485	Neisseria gonorrhoeae strain 10771 chromosome, complete genome	direct
+NZ_CP098537.1	NZ_CP098537.1	2303693828	SAMN28869592	485	Neisseria gonorrhoeae strain 10771 plasmid pJD1, complete sequence	direct
+NZ_CP098538.2	NZ_CP098538.2	2318887452	SAMN28870224	485	Neisseria gonorrhoeae strain ATCC 49226 chromosome, complete genome	direct
+NZ_CP098539.1	NZ_CP098539.1	2303693617	SAMN28870224	485	Neisseria gonorrhoeae strain ATCC 49226 plasmid pJD1, complete sequence	direct
+NZ_CP098542.1	NZ_CP098542.1	2388204243	SAMN28871626	485	Neisseria gonorrhoeae strain 10704 chromosome, complete genome	direct
+NZ_CP098543.1	NZ_CP098543.1	2388204557	SAMN28871626	485	Neisseria gonorrhoeae strain 10704 plasmid pJD1, complete sequence	direct
+NZ_CP098544.1	NZ_CP098544.1	2303614342	SAMN28871644	485	Neisseria gonorrhoeae strain 10296 chromosome, complete genome	direct
+NZ_CP098545.1	NZ_CP098545.1	2303614343	SAMN28871644	485	Neisseria gonorrhoeae strain 10296 plasmid pJD1, complete sequence	direct
+NZ_CP098546.2	NZ_CP098546.2	2318887456	SAMN28871698	485	Neisseria gonorrhoeae strain 9126 chromosome, complete genome	direct
+NZ_CP098547.2	NZ_CP098547.2	2318887457	SAMN28871698	485	Neisseria gonorrhoeae strain 9126 plasmid pJD1, complete sequence	direct
+NZ_CP098548.2	NZ_CP098548.2	2318892447	SAMN28871700	485	Neisseria gonorrhoeae strain 9343 chromosome, complete genome	direct
+NZ_CP098549.2	NZ_CP098549.2	2318892448	SAMN28871700	485	Neisseria gonorrhoeae strain 9343 plasmid pJD1, complete sequence	direct
+NZ_CP104546.2	NZ_CP104546.2	2388443214	SAMN28859053	485	Neisseria gonorrhoeae strain 9035 chromosome, complete genome	direct
+NZ_CP104547.2	NZ_CP104547.2	2388443334	SAMN28859053	485	Neisseria gonorrhoeae strain 9035 plasmid pJD1, complete sequence	direct
+NZ_CP104548.2	NZ_CP104548.2	2388269323	SAMN28859076	485	Neisseria gonorrhoeae strain 10538 chromosome, complete genome	direct
+NZ_CP104549.2	NZ_CP104549.2	2388269452	SAMN28859076	485	Neisseria gonorrhoeae strain 10538 plasmid pJD1, complete sequence	direct
+NZ_CP106749.1	NZ_CP106749.1	2315794993	SAMN28858607	485	Neisseria gonorrhoeae strain 10723 chromosome, complete genome	direct
+NZ_CP106750.1	NZ_CP106750.1	2315794994	SAMN28858607	485	Neisseria gonorrhoeae strain 10723 plasmid pJD1, complete sequence	direct
+NZ_CP106765.1	NZ_CP106765.1	2316064697	SAMN22599447	485	Neisseria gonorrhoeae strain 10500 chromosome, complete genome	direct
+NZ_CP106766.1	NZ_CP106766.1	2316064703	SAMN22599447	485	Neisseria gonorrhoeae strain 10500 plasmid pjD1, complete sequence	direct
+NZ_CP106767.1	NZ_CP106767.1	2316063434	SAMN22599455	485	Neisseria gonorrhoeae strain 10610 chromosome, complete genome	direct
+NZ_CP106768.1	NZ_CP106768.1	2316063436	SAMN22599455	485	Neisseria gonorrhoeae strain 10610 plasmid pJD1, complete sequence	direct
+NZ_CP106769.1	NZ_CP106769.1	2316075942	SAMN22599711	485	Neisseria gonorrhoeae strain 10524 chromosome, complete genome	direct
+NZ_CP106770.1	NZ_CP106770.1	2316075990	SAMN22599711	485	Neisseria gonorrhoeae strain 10524 plasmid pJD1, complete sequence	direct
+NZ_CP106771.1	NZ_CP106771.1	2316083519	SAMN22599488	485	Neisseria gonorrhoeae strain 10531 chromosome, complete genome	direct
+NZ_CP106772.1	NZ_CP106772.1	2316083521	SAMN22599488	485	Neisseria gonorrhoeae strain 10531 plasmid pJD1, complete sequence	direct
+NZ_CP106773.1	NZ_CP106773.1	2316075802	SAMN22600865	485	Neisseria gonorrhoeae strain 10562 chromosome, complete genome	direct
+NZ_CP106774.1	NZ_CP106774.1	2316075832	SAMN22600865	485	Neisseria gonorrhoeae strain 10562 plasmid pJD1, complete sequence	direct
+NZ_CP106775.1	NZ_CP106775.1	2316063349	SAMN22600584	485	Neisseria gonorrhoeae strain 10702 chromosome, complete genome	direct
+NZ_CP106776.1	NZ_CP106776.1	2316063350	SAMN22600584	485	Neisseria gonorrhoeae strain 10702 plasmid pJD1, complete sequence	direct
+NZ_CP106777.1	NZ_CP106777.1	2316076523	SAMN22600590	485	Neisseria gonorrhoeae strain 10727 chromosome, complete genome	direct
+NZ_CP106778.1	NZ_CP106778.1	2316076578	SAMN22600590	485	Neisseria gonorrhoeae strain 10727 plasmid pConjugative, complete sequence	direct
+NZ_CP106779.1	NZ_CP106779.1	2316076582	SAMN22600590	485	Neisseria gonorrhoeae strain 10727 plasmid pJD1, complete sequence	direct
+NZ_CP106780.1	NZ_CP106780.1	2316059191	SAMN22600605	485	Neisseria gonorrhoeae strain 10794 chromosome, complete genome	direct
+NZ_CP106781.1	NZ_CP106781.1	2316059192	SAMN22600605	485	Neisseria gonorrhoeae strain 10794 plasmid pJD1, complete sequence	direct
+NZ_CP106782.1	NZ_CP106782.1	2316059198	SAMN22600608	485	Neisseria gonorrhoeae strain 10795 chromosome, complete genome	direct
+NZ_CP106783.1	NZ_CP106783.1	2316059199	SAMN22600608	485	Neisseria gonorrhoeae strain 10795 plasmid pJD1, complete sequence	direct
+NZ_CP106789.1	NZ_CP106789.1	2316060800	SAMN22600315	485	Neisseria gonorrhoeae strain 10638 chromosome, complete genome	direct
+NZ_CP106790.1	NZ_CP106790.1	2316060801	SAMN22600315	485	Neisseria gonorrhoeae strain 10638 plasmid pJD1, complete sequence	direct
+NZ_CP106801.1	NZ_CP106801.1	2316063383	SAMN31014135	485	Neisseria gonorrhoeae strain 10744 chromosome, complete genome	direct
+NZ_CP106802.1	NZ_CP106802.1	2316063384	SAMN31014135	485	Neisseria gonorrhoeae strain 10744 plasmid pJD1, complete sequence	direct
+NZ_CP106803.1	NZ_CP106803.1	2316060790	SAMN31014148	485	Neisseria gonorrhoeae strain 10819 chromosome, complete genome	direct
+NZ_CP106804.1	NZ_CP106804.1	2316060791	SAMN31014148	485	Neisseria gonorrhoeae strain 10819 plasmid pJD1, complete sequence	direct
+NZ_CP106805.1	NZ_CP106805.1	2316059264	SAMN31014963	485	Neisseria gonorrhoeae strain 10743 chromosome, complete genome	direct
+NZ_CP106806.1	NZ_CP106806.1	2316059265	SAMN31014963	485	Neisseria gonorrhoeae strain 10743 plasmid pJD1, complete sequence	direct
+NZ_CP106807.1	NZ_CP106807.1	2316080680	SAMN31014981	485	Neisseria gonorrhoeae strain 10736 chromosome, complete genome	direct
+NZ_CP106808.1	NZ_CP106808.1	2316080687	SAMN31014981	485	Neisseria gonorrhoeae strain 10736 plasmid pJD1, complete sequence	direct
+NZ_CP106809.1	NZ_CP106809.1	2316077113	SAMN31014987	485	Neisseria gonorrhoeae strain 10708 chromosome, complete genome	direct
+NZ_CP106810.1	NZ_CP106810.1	2316077165	SAMN31014987	485	Neisseria gonorrhoeae strain 10708 plasmid pJD1, complete sequence	direct
+NZ_CP106811.1	NZ_CP106811.1	2316063370	SAMN31014989	485	Neisseria gonorrhoeae strain 10531 chromosome, complete genome	direct
+NZ_CP106812.1	NZ_CP106812.1	2316063371	SAMN31014989	485	Neisseria gonorrhoeae strain 10531 plasmid pJD1, complete sequence	direct
+NZ_CP106813.1	NZ_CP106813.1	2316059296	SAMN31014998	485	Neisseria gonorrhoeae strain 9431 chromosome, complete genome	direct
+NZ_CP106814.1	NZ_CP106814.1	2316059297	SAMN31014998	485	Neisseria gonorrhoeae strain 9431 plasmid pJD1, complete sequence	direct
+NZ_CP106815.1	NZ_CP106815.1	2316060598	SAMN31015000	485	Neisseria gonorrhoeae strain 10562 chromosome, complete genome	direct
+NZ_CP106816.1	NZ_CP106816.1	2316060599	SAMN31015000	485	Neisseria gonorrhoeae strain 10562 plasmid pJD1, complete sequence	direct
+NZ_CP106817.1	NZ_CP106817.1	2316080568	SAMN22600672	485	Neisseria gonorrhoeae strain 10574 chromosome, complete genome	direct
+NZ_CP106818.1	NZ_CP106818.1	2316080574	SAMN22600672	485	Neisseria gonorrhoeae strain 10574 plasmid pJD1, complete sequence	direct
+NZ_CP106819.1	NZ_CP106819.1	2316076784	SAMN22600892	485	Neisseria gonorrhoeae strain 10791 chromosome, complete genome	direct
+NZ_CP106820.1	NZ_CP106820.1	2316076831	SAMN22600892	485	Neisseria gonorrhoeae strain 10791 plasmid pJD1, complete sequence	direct
+NZ_CP106821.1	NZ_CP106821.1	2316075699	SAMN28869590	485	Neisseria gonorrhoeae strain 10529 chromosome, complete genome	direct
+NZ_CP106822.1	NZ_CP106822.1	2316075714	SAMN28869590	485	Neisseria gonorrhoeae strain 10529 plasmid pConjugative, complete sequence	direct
+NZ_CP106823.1	NZ_CP106823.1	2316075715	SAMN28869590	485	Neisseria gonorrhoeae strain 10529 plasmid pJD1, complete sequence	direct
+NZ_CP106824.1	NZ_CP106824.1	2316063361	SAMN28859080	485	Neisseria gonorrhoeae strain 9399 chromosome, complete genome	direct
+NZ_CP106825.1	NZ_CP106825.1	2316063362	SAMN28859080	485	Neisseria gonorrhoeae strain 9399 plasmid pJD1, complete sequence	direct
+NZ_CP106826.1	NZ_CP106826.1	2316083013	SAMN28871631	485	Neisseria gonorrhoeae strain 9464 chromosome, complete genome	direct
+NZ_CP106827.1	NZ_CP106827.1	2316083065	SAMN28871631	485	Neisseria gonorrhoeae strain 9464 plasmid pJD1, complete sequence	direct
+NZ_CP106918.1	NZ_CP106918.1	2329341836	SAMN28871636	485	Neisseria gonorrhoeae strain 9071 chromosome, complete genome	direct
+NZ_CP106919.1	NZ_CP106919.1	2329341837	SAMN28871636	485	Neisseria gonorrhoeae strain 9071 plasmid pConjugative, complete sequence	direct
+NZ_CP106920.1	NZ_CP106920.1	2329341838	SAMN28871636	485	Neisseria gonorrhoeae strain 9071 plasmid pJD1, complete sequence	direct
+NZ_CP106921.1	NZ_CP106921.1	2329322092	SAMN28858852	485	Neisseria gonorrhoeae strain 10272 chromosome, complete genome	direct
+NZ_CP106922.1	NZ_CP106922.1	2329322093	SAMN28858852	485	Neisseria gonorrhoeae strain 10272 plasmid pJD1, complete sequence	direct
+NZ_CP107223.1	NZ_CP107223.1	2320420784	SAMN31203372	485	Neisseria gonorrhoeae strain H035 chromosome, complete genome	direct
+NZ_CP107224.1	NZ_CP107224.1	2320420803	SAMN31203372	485	Neisseria gonorrhoeae strain H035 plasmid pjD1, complete sequence	direct
+NZ_CP107264.1	NZ_CP107264.1	2329294393	SAMN28869504	485	Neisseria gonorrhoeae strain 10231 chromosome, complete genome	direct
+NZ_CP107265.1	NZ_CP107265.1	2329294530	SAMN28869504	485	Neisseria gonorrhoeae strain 10231 plasmid pJD1, complete sequence	direct
+NZ_CP107266.1	NZ_CP107266.1	2329313200	SAMN28869553	485	Neisseria gonorrhoeae strain 9112 chromosome, complete genome	direct
+NZ_CP107267.1	NZ_CP107267.1	2329313227	SAMN28869553	485	Neisseria gonorrhoeae strain 9112 plasmid pJD1, complete sequence	direct
+NZ_CP107270.1	NZ_CP107270.1	2321034559	SAMN31165854	485	Neisseria gonorrhoeae strain 1081168 chromosome, complete genome	direct
+NZ_CP107271.1	NZ_CP107271.1	2321076962	SAMN31165853	485	Neisseria gonorrhoeae strain 1123850 chromosome, complete genome	direct
+NZ_CP107272.1	NZ_CP107272.1	2321067055	SAMN31165852	485	Neisseria gonorrhoeae strain 1130991 chromosome, complete genome	direct
+NZ_CP107274.1	NZ_CP107274.1	2321045566	SAMN31165850	485	Neisseria gonorrhoeae strain 1145734 chromosome, complete genome	direct
+NZ_CP115654.1	NZ_CP115654.1	2428652260	SAMN31428011	485	Neisseria gonorrhoeae strain FA1090 N-1-60 chromosome, complete genome	direct
+NZ_CP115655.1	NZ_CP115655.1	2428652261	SAMN31428011	485	Neisseria gonorrhoeae strain FA1090 N-1-60 plasmid unnamed, complete sequence	direct
+NZ_CP115904.1	NZ_CP115904.1	2429361040	SAMN31428012	485	Neisseria gonorrhoeae strain MS11 HL-1-22 chromosome, complete genome	direct
+NZ_CP115905.1	NZ_CP115905.1	2429361041	SAMN31428012	485	Neisseria gonorrhoeae strain MS11 HL-1-22 plasmid pMS11VD300_01, complete sequence	direct
+NZ_CP116342.1	NZ_CP116342.1	2441014005	SAMN32765978	485	Neisseria gonorrhoeae strain SE690. chromosome, complete genome	direct
+NZ_CP116343.1	NZ_CP116343.1	2441014009	SAMN32765978	485	Neisseria gonorrhoeae strain SE690. plasmid pConj, complete sequence	direct
+NZ_CP116344.2	NZ_CP116344.2	2447869540	SAMN32765978	485	Neisseria gonorrhoeae strain SE690. plasmid pCryptic, complete sequence	direct
+NZ_CP116345.1	NZ_CP116345.1	2441014011	SAMN32765978	485	Neisseria gonorrhoeae strain SE690. plasmid pbla.AU, complete sequence	direct
+NZ_CP119139.1	NZ_CP119139.1	2468559735	SAMN33482240	485	Neisseria gonorrhoeae strain 2022NG-0076 chromosome, complete genome	direct
+NZ_CP119140.1	NZ_CP119140.1	2468559829	SAMN33482240	485	Neisseria gonorrhoeae strain 2022NG-0076 plasmid p2022NG-0076_1, complete sequence	direct
+NZ_CP119141.1	NZ_CP119141.1	2468564723	SAMN33482239	485	Neisseria gonorrhoeae strain 2022NG-0032 chromosome, complete genome	direct
+NZ_CP119142.1	NZ_CP119142.1	2468564800	SAMN33482239	485	Neisseria gonorrhoeae strain 2022NG-0032 plasmid p2022NG-0032_1, complete sequence	direct
+NZ_CP130889.1	NZ_CP130889.1	2559318033	SAMN32487327	485	Neisseria gonorrhoeae strain NJ209649 chromosome, complete genome	direct
+NZ_CP130890.1	NZ_CP130890.1	2559318057	SAMN32487326	485	Neisseria gonorrhoeae strain NJ208756 chromosome, complete genome	direct
+NZ_CP130891.1	NZ_CP130891.1	2559316082	SAMN32487325	485	Neisseria gonorrhoeae strain NJ208430 chromosome, complete genome	direct
+NZ_CP130892.1	NZ_CP130892.1	2559316162	SAMN32487324	485	Neisseria gonorrhoeae strain NJ204705 chromosome, complete genome	direct
+NZ_CP130893.1	NZ_CP130893.1	2559307193	SAMN32487323	485	Neisseria gonorrhoeae strain NJ1914646 chromosome, complete genome	direct
+NZ_CP130894.1	NZ_CP130894.1	2559307346	SAMN32487322	485	Neisseria gonorrhoeae strain NJ1914215 chromosome, complete genome	direct
+NZ_CP130895.1	NZ_CP130895.1	2559316196	SAMN32487321	485	Neisseria gonorrhoeae strain NJ1913940 chromosome, complete genome	direct
+NZ_CP130896.1	NZ_CP130896.1	2559307377	SAMN32487320	485	Neisseria gonorrhoeae strain NJ1911400 chromosome, complete genome	direct
+NZ_CP130897.1	NZ_CP130897.1	2559324690	SAMN32487319	485	Neisseria gonorrhoeae strain NJ197542 chromosome, complete genome	direct
+NZ_CP130898.1	NZ_CP130898.1	2559318066	SAMN32487318	485	Neisseria gonorrhoeae strain NJ196610 chromosome, complete genome	direct
+NZ_CP130899.1	NZ_CP130899.1	2559316206	SAMN32487317	485	Neisseria gonorrhoeae strain NJ195417 chromosome, complete genome	direct
+NZ_CP131616.1	NZ_CP131616.1	2720585745	SAMN36766274	485	Neisseria gonorrhoeae strain 2020C08-294 chromosome, complete genome	direct
+NZ_CP131617.1	NZ_CP131617.1	2720585749	SAMN36766274	485	Neisseria gonorrhoeae strain 2020C08-294 plasmid p2020C08-294-1, complete sequence	direct
+NZ_CP131618.1	NZ_CP131618.1	2720585750	SAMN36766274	485	Neisseria gonorrhoeae strain 2020C08-294 plasmid p2020C08-294-2, complete sequence	direct
+NZ_CP131619.1	NZ_CP131619.1	2720585751	SAMN36766274	485	Neisseria gonorrhoeae strain 2020C08-294 plasmid p2020C08-294-3, complete sequence	direct
+NZ_CP131620.1	NZ_CP131620.1	2720566485	SAMN36766273	485	Neisseria gonorrhoeae strain 2020N08-318 chromosome, complete genome	direct
+NZ_CP131621.1	NZ_CP131621.1	2720566487	SAMN36766273	485	Neisseria gonorrhoeae strain 2020N08-318 plasmid p2020N08-318-1, complete sequence	direct
+NZ_CP131622.1	NZ_CP131622.1	2720585523	SAMN36766272	485	Neisseria gonorrhoeae strain 2020N07-265 chromosome, complete genome	direct
+NZ_CP131623.1	NZ_CP131623.1	2720585532	SAMN36766272	485	Neisseria gonorrhoeae strain 2020N07-265 plasmid p2020N07-265-1, complete sequence	direct
+NZ_CP131624.1	NZ_CP131624.1	2720585533	SAMN36766272	485	Neisseria gonorrhoeae strain 2020N07-265 plasmid p2020N07-265-2, complete sequence	direct
+NZ_CP131625.1	NZ_CP131625.1	2720585534	SAMN36766272	485	Neisseria gonorrhoeae strain 2020N07-265 plasmid p2020N07-265-3, complete sequence	direct
+NZ_CP131626.1	NZ_CP131626.1	2720625771	SAMN36766271	485	Neisseria gonorrhoeae strain 2020S05-258 chromosome, complete genome	direct
+NZ_CP131627.1	NZ_CP131627.1	2720625878	SAMN36766271	485	Neisseria gonorrhoeae strain 2020S05-258 plasmid p2020S05-258-1, complete sequence	direct
+NZ_CP131628.1	NZ_CP131628.1	2720625883	SAMN36766271	485	Neisseria gonorrhoeae strain 2020S05-258 plasmid p2020S05-258-2, complete sequence	direct
+NZ_CP131629.1	NZ_CP131629.1	2720625887	SAMN36766271	485	Neisseria gonorrhoeae strain 2020S05-258 plasmid p2020S05-258-3, complete sequence	direct
+NZ_CP131630.1	NZ_CP131630.1	2720633222	SAMN36766270	485	Neisseria gonorrhoeae strain 2018C07-301 chromosome, complete genome	direct
+NZ_CP131631.1	NZ_CP131631.1	2720633223	SAMN36766270	485	Neisseria gonorrhoeae strain 2018C07-301 plasmid p2018C07-301-1, complete sequence	direct
+NZ_CP131632.1	NZ_CP131632.1	2720581289	SAMN36766269	485	Neisseria gonorrhoeae strain 2018S05-288 chromosome, complete genome	direct
+NZ_CP131633.1	NZ_CP131633.1	2720581299	SAMN36766269	485	Neisseria gonorrhoeae strain 2018S05-288 plasmid p2018S05-288-1, complete sequence	direct
+NZ_CP131634.1	NZ_CP131634.1	2720581300	SAMN36766269	485	Neisseria gonorrhoeae strain 2018S05-288 plasmid p2018S05-288-2, complete sequence	direct
+NZ_CP131635.1	NZ_CP131635.1	2720581301	SAMN36766269	485	Neisseria gonorrhoeae strain 2018S05-288 plasmid p2018S05-288-3, complete sequence	direct
+NZ_CP131636.1	NZ_CP131636.1	2720581051	SAMN36766268	485	Neisseria gonorrhoeae strain 2016E02-233 chromosome, complete genome	direct
+NZ_CP131637.1	NZ_CP131637.1	2720581054	SAMN36766268	485	Neisseria gonorrhoeae strain 2016E02-233 plasmid p2016E02-233-1, complete sequence	direct
+NZ_CP131638.1	NZ_CP131638.1	2720585661	SAMN36766267	485	Neisseria gonorrhoeae strain 2014E02-242 chromosome, complete genome	direct
+NZ_CP131639.1	NZ_CP131639.1	2720585666	SAMN36766267	485	Neisseria gonorrhoeae strain 2014E02-242 plasmid p2014E02-242-1, complete sequence	direct
+NZ_CP131640.1	NZ_CP131640.1	2720585667	SAMN36766267	485	Neisseria gonorrhoeae strain 2014E02-242 plasmid p2014E02-242-2, complete sequence	direct
+NZ_CP131641.1	NZ_CP131641.1	2720609614	SAMN36766266	485	Neisseria gonorrhoeae strain 2010C02-038 chromosome, complete genome	direct
+NZ_CP131642.1	NZ_CP131642.1	2720609634	SAMN36766266	485	Neisseria gonorrhoeae strain 2010C02-038 plasmid p2010C02-038-1, complete sequence	direct
+NZ_CP131643.1	NZ_CP131643.1	2720609638	SAMN36766266	485	Neisseria gonorrhoeae strain 2010C02-038 plasmid p2010C02-038-2, complete sequence	direct
+NZ_CP131644.1	NZ_CP131644.1	2720609641	SAMN36766266	485	Neisseria gonorrhoeae strain 2010C02-038 plasmid p2010C02-038-3, complete sequence	direct
+NZ_CP131645.1	NZ_CP131645.1	2720566463	SAMN36766265	485	Neisseria gonorrhoeae strain 2004S05-027 chromosome, complete genome	direct
+NZ_CP131646.1	NZ_CP131646.1	2720566466	SAMN36766265	485	Neisseria gonorrhoeae strain 2004S05-027 plasmid p2004S05-027-1, complete sequence	direct
+NZ_CP131647.1	NZ_CP131647.1	2720566467	SAMN36766265	485	Neisseria gonorrhoeae strain 2004S05-027 plasmid p2004S05-027-2, complete sequence	direct
+NZ_CP131648.1	NZ_CP131648.1	2720566468	SAMN36766265	485	Neisseria gonorrhoeae strain 2004S05-027 plasmid p2004S05-027-3, complete sequence	direct
+NZ_CP138339.1	NZ_CP138339.1	2622154922	SAMN38152951	485	Neisseria gonorrhoeae strain TH2288 chromosome, complete genome	direct
+NZ_CP138340.1	NZ_CP138340.1	2622154925	SAMN38152951	485	Neisseria gonorrhoeae strain TH2288 plasmid pCryptic, complete sequence	direct
+NZ_CP138341.1	NZ_CP138341.1	2622154926	SAMN38152951	485	Neisseria gonorrhoeae strain TH2288 plasmid pConj, complete sequence	direct
+NZ_CP138342.1	NZ_CP138342.1	2622154936	SAMN38152950	485	Neisseria gonorrhoeae strain TH1713 chromosome, complete genome	direct
+NZ_CP138343.1	NZ_CP138343.1	2622154939	SAMN38152950	485	Neisseria gonorrhoeae strain TH1713 plasmid pCryptic, complete sequence	direct
+NZ_CP138344.1	NZ_CP138344.1	2622154940	SAMN38152950	485	Neisseria gonorrhoeae strain TH1713 plasmid pConj, complete sequence	direct
+NZ_CP145015.1	NZ_CP145015.1	2750991558	SAMN39556062	485	Neisseria gonorrhoeae strain WHO_Z_2024 chromosome, complete genome	direct
+NZ_CP145016.1	NZ_CP145016.1	2750991559	SAMN39556062	485	Neisseria gonorrhoeae strain WHO_Z_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145017.1	NZ_CP145017.1	2750991592	SAMN39556061	485	Neisseria gonorrhoeae strain WHO_Y_2024 chromosome, complete genome	direct
+NZ_CP145018.1	NZ_CP145018.1	2750991593	SAMN39556061	485	Neisseria gonorrhoeae strain WHO_Y_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145019.1	NZ_CP145019.1	2750991601	SAMN39556060	485	Neisseria gonorrhoeae strain WHO_X_2024 chromosome, complete genome	direct
+NZ_CP145020.1	NZ_CP145020.1	2750991602	SAMN39556060	485	Neisseria gonorrhoeae strain WHO_X_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145021.1	NZ_CP145021.1	2750991603	SAMN39556059	485	Neisseria gonorrhoeae strain WHO_V_2024 chromosome, complete genome	direct
+NZ_CP145022.1	NZ_CP145022.1	2750991604	SAMN39556059	485	Neisseria gonorrhoeae strain WHO_V_2024 plasmid pBla, complete sequence	direct
+NZ_CP145023.1	NZ_CP145023.1	2750991605	SAMN39556059	485	Neisseria gonorrhoeae strain WHO_V_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145024.1	NZ_CP145024.1	2750991608	SAMN39556058	485	Neisseria gonorrhoeae strain WHO_U_2024 chromosome, complete genome	direct
+NZ_CP145025.1	NZ_CP145025.1	2750991609	SAMN39556058	485	Neisseria gonorrhoeae strain WHO_U_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145026.1	NZ_CP145026.1	2750991633	SAMN39556057	485	Neisseria gonorrhoeae strain WHO_S2_2024 chromosome, complete genome	direct
+NZ_CP145027.1	NZ_CP145027.1	2750991634	SAMN39556057	485	Neisseria gonorrhoeae strain WHO_S2_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145028.1	NZ_CP145028.1	2751046567	SAMN39556056	485	Neisseria gonorrhoeae strain WHO_R_2024 chromosome, complete genome	direct
+NZ_CP145029.1	NZ_CP145029.1	2751046623	SAMN39556056	485	Neisseria gonorrhoeae strain WHO_R_2024 plasmid pBla, complete sequence	direct
+NZ_CP145030.1	NZ_CP145030.1	2751046628	SAMN39556056	485	Neisseria gonorrhoeae strain WHO_R_2024 plasmid pConj, complete sequence	direct
+NZ_CP145031.1	NZ_CP145031.1	2751046631	SAMN39556056	485	Neisseria gonorrhoeae strain WHO_R_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145032.1	NZ_CP145032.1	2751037563	SAMN39556055	485	Neisseria gonorrhoeae strain WHO_Q_2024 chromosome, complete genome	direct
+NZ_CP145033.1	NZ_CP145033.1	2751037565	SAMN39556055	485	Neisseria gonorrhoeae strain WHO_Q_2024 plasmid pConj, complete sequence	direct
+NZ_CP145034.1	NZ_CP145034.1	2751037566	SAMN39556055	485	Neisseria gonorrhoeae strain WHO_Q_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145035.1	NZ_CP145035.1	2751029561	SAMN39556054	485	Neisseria gonorrhoeae strain WHO_P_2024 chromosome, complete genome	direct
+NZ_CP145036.1	NZ_CP145036.1	2751029608	SAMN39556054	485	Neisseria gonorrhoeae strain WHO_P_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145037.1	NZ_CP145037.1	2751099731	SAMN39556053	485	Neisseria gonorrhoeae strain WHO_O_2024 chromosome, complete genome	direct
+NZ_CP145038.1	NZ_CP145038.1	2751099788	SAMN39556053	485	Neisseria gonorrhoeae strain WHO_O_2024 plasmid pBla, complete sequence	direct
+NZ_CP145039.1	NZ_CP145039.1	2751099793	SAMN39556053	485	Neisseria gonorrhoeae strain WHO_O_2024 plasmid pConj, complete sequence	direct
+NZ_CP145040.1	NZ_CP145040.1	2751099796	SAMN39556053	485	Neisseria gonorrhoeae strain WHO_O_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145041.1	NZ_CP145041.1	2751040123	SAMN39556052	485	Neisseria gonorrhoeae strain WHO_M_2024 chromosome, complete genome	direct
+NZ_CP145042.1	NZ_CP145042.1	2751040161	SAMN39556052	485	Neisseria gonorrhoeae strain WHO_M_2024 plasmid pBla, complete sequence	direct
+NZ_CP145043.1	NZ_CP145043.1	2751040165	SAMN39556052	485	Neisseria gonorrhoeae strain WHO_M_2024 plasmid pConj, complete sequence	direct
+NZ_CP145044.1	NZ_CP145044.1	2751040168	SAMN39556052	485	Neisseria gonorrhoeae strain WHO_M_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145045.1	NZ_CP145045.1	2751027079	SAMN39556051	485	Neisseria gonorrhoeae strain WHO_L_2024 chromosome, complete genome	direct
+NZ_CP145046.1	NZ_CP145046.1	2751027132	SAMN39556051	485	Neisseria gonorrhoeae strain WHO_L_2024 plasmid pConj, complete sequence	direct
+NZ_CP145047.1	NZ_CP145047.1	2751027137	SAMN39556051	485	Neisseria gonorrhoeae strain WHO_L_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145048.1	NZ_CP145048.1	2751020279	SAMN39556050	485	Neisseria gonorrhoeae strain WHO_K_2024 chromosome, complete genome	direct
+NZ_CP145049.1	NZ_CP145049.1	2751020315	SAMN39556050	485	Neisseria gonorrhoeae strain WHO_K_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145050.1	NZ_CP145050.1	2751057001	SAMN39556049	485	Neisseria gonorrhoeae strain WHO_H_2024 chromosome, complete genome	direct
+NZ_CP145051.1	NZ_CP145051.1	2751057017	SAMN39556049	485	Neisseria gonorrhoeae strain WHO_H_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145052.1	NZ_CP145052.1	2751019802	SAMN39556048	485	Neisseria gonorrhoeae strain WHO_F_2024 chromosome, complete genome	direct
+NZ_CP145053.1	NZ_CP145053.1	2751100758	SAMN39556047	485	Neisseria gonorrhoeae strain WHO_beta_2024 chromosome, complete genome	direct
+NZ_CP145054.1	NZ_CP145054.1	2751100867	SAMN39556047	485	Neisseria gonorrhoeae strain WHO_beta_2024 plasmid pBla, complete sequence	direct
+NZ_CP145055.1	NZ_CP145055.1	2751100875	SAMN39556047	485	Neisseria gonorrhoeae strain WHO_beta_2024 plasmid pConj, complete sequence	direct
+NZ_CP145056.1	NZ_CP145056.1	2751100882	SAMN39556047	485	Neisseria gonorrhoeae strain WHO_beta_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145057.1	NZ_CP145057.1	2751046956	SAMN39556046	485	Neisseria gonorrhoeae strain WHO_alpha_2024 chromosome, complete genome	direct
+NZ_CP145058.1	NZ_CP145058.1	2751047011	SAMN39556046	485	Neisseria gonorrhoeae strain WHO_alpha_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145059.1	NZ_CP145059.1	2751100113	SAMN39556045	485	Neisseria gonorrhoeae strain WHO_W_2024 chromosome, complete genome	direct
+NZ_CP145060.1	NZ_CP145060.1	2751100192	SAMN39556045	485	Neisseria gonorrhoeae strain WHO_W_2024 plasmid pConj, complete sequence	direct
+NZ_CP145061.1	NZ_CP145061.1	2751100199	SAMN39556045	485	Neisseria gonorrhoeae strain WHO_W_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145062.1	NZ_CP145062.1	2751037682	SAMN39556044	485	Neisseria gonorrhoeae strain WHO_T_2024 chromosome, complete genome	direct
+NZ_CP145063.1	NZ_CP145063.1	2751037684	SAMN39556044	485	Neisseria gonorrhoeae strain WHO_T_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145064.1	NZ_CP145064.1	2751110746	SAMN39556043	485	Neisseria gonorrhoeae strain WHO_S_2024 chromosome, complete genome	direct
+NZ_CP145065.1	NZ_CP145065.1	2751110798	SAMN39556043	485	Neisseria gonorrhoeae strain WHO_S_2024 plasmid pConj, complete sequence	direct
+NZ_CP145066.1	NZ_CP145066.1	2751110801	SAMN39556043	485	Neisseria gonorrhoeae strain WHO_S_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145067.1	NZ_CP145067.1	2751108051	SAMN39556042	485	Neisseria gonorrhoeae strain WHO_N_2024 chromosome, complete genome	direct
+NZ_CP145068.1	NZ_CP145068.1	2751108137	SAMN39556042	485	Neisseria gonorrhoeae strain WHO_N_2024 plasmid pBla, complete sequence	direct
+NZ_CP145069.1	NZ_CP145069.1	2751108144	SAMN39556042	485	Neisseria gonorrhoeae strain WHO_N_2024 plasmid pConj, complete sequence	direct
+NZ_CP145070.1	NZ_CP145070.1	2751108149	SAMN39556042	485	Neisseria gonorrhoeae strain WHO_N_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145071.1	NZ_CP145071.1	2751486851	SAMN39556041	485	Neisseria gonorrhoeae strain WHO_J_2024 chromosome, complete genome	direct
+NZ_CP145072.1	NZ_CP145072.1	2751486909	SAMN39556041	485	Neisseria gonorrhoeae strain WHO_J_2024 plasmid pBla, complete sequence	direct
+NZ_CP145073.1	NZ_CP145073.1	2751486912	SAMN39556041	485	Neisseria gonorrhoeae strain WHO_J_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145074.1	NZ_CP145074.1	2751787750	SAMN39556040	485	Neisseria gonorrhoeae strain WHO_I_2024 chromosome, complete genome	direct
+NZ_CP145075.1	NZ_CP145075.1	2751787783	SAMN39556040	485	Neisseria gonorrhoeae strain WHO_I_2024 plasmid pConj, complete sequence	direct
+NZ_CP145076.1	NZ_CP145076.1	2751787787	SAMN39556040	485	Neisseria gonorrhoeae strain WHO_I_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145077.1	NZ_CP145077.1	2751790771	SAMN39556039	485	Neisseria gonorrhoeae strain WHO_G_2024 chromosome, complete genome	direct
+NZ_CP145078.1	NZ_CP145078.1	2751790773	SAMN39556039	485	Neisseria gonorrhoeae strain WHO_G_2024 plasmid pConj, complete sequence	direct
+NZ_CP145079.1	NZ_CP145079.1	2751790774	SAMN39556039	485	Neisseria gonorrhoeae strain WHO_G_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145080.1	NZ_CP145080.1	2751787949	SAMN39556038	485	Neisseria gonorrhoeae strain WHO_E_2024 chromosome, complete genome	direct
+NZ_CP145081.1	NZ_CP145081.1	2751787953	SAMN39556038	485	Neisseria gonorrhoeae strain WHO_E_2024 plasmid pBla, complete sequence	direct
+NZ_CP145082.1	NZ_CP145082.1	2751787954	SAMN39556038	485	Neisseria gonorrhoeae strain WHO_E_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145083.1	NZ_CP145083.1	2751790741	SAMN39556037	485	Neisseria gonorrhoeae strain WHO_D_2024 chromosome, complete genome	direct
+NZ_CP145084.1	NZ_CP145084.1	2751790745	SAMN39556037	485	Neisseria gonorrhoeae strain WHO_D_2024 plasmid pConj, complete sequence	direct
+NZ_CP145085.1	NZ_CP145085.1	2751790746	SAMN39556037	485	Neisseria gonorrhoeae strain WHO_D_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145086.1	NZ_CP145086.1	2751787406	SAMN39556036	485	Neisseria gonorrhoeae strain WHO_C_2024 chromosome, complete genome	direct
+NZ_CP145087.1	NZ_CP145087.1	2751787448	SAMN39556036	485	Neisseria gonorrhoeae strain WHO_C_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145088.1	NZ_CP145088.1	2751786155	SAMN39556035	485	Neisseria gonorrhoeae strain WHO_B_2024 chromosome, complete genome	direct
+NZ_CP145089.1	NZ_CP145089.1	2751786166	SAMN39556035	485	Neisseria gonorrhoeae strain WHO_B_2024 plasmid pCryptic, complete sequence	direct
+NZ_CP145090.1	NZ_CP145090.1	2751796263	SAMN39556034	485	Neisseria gonorrhoeae strain WHO_A_2024 chromosome, complete genome	direct
+NZ_CP173226.1	NZ_CP173226.1	2858208108	SAMN44604098	485	Neisseria gonorrhoeae strain NCTC 8375 [B 5025] chromosome, complete genome	direct
+NZ_CP181245.1	NZ_CP181245.1	2915653976	SAMN46163080	485	Neisseria gonorrhoeae strain LNP 16626 chromosome, complete genome	direct
+NZ_CP195874.1	NZ_CP195874.1	3031629608	SAMN49914557	485	Neisseria gonorrhoeae strain JS-23-24 chromosome 1, complete sequence	direct
+NZ_CP195875.1	NZ_CP195875.1	3031629621	SAMN49914557	485	Neisseria gonorrhoeae strain JS-23-24 plasmid pJS-23-24_1, complete sequence	direct
+NZ_CP195876.1	NZ_CP195876.1	3031629622	SAMN49914557	485	Neisseria gonorrhoeae strain JS-23-24 plasmid pJS-23-24_2, complete sequence	direct
+NZ_CP195877.1	NZ_CP195877.1	3031629624	SAMN49914557	485	Neisseria gonorrhoeae strain JS-23-24 plasmid pJS-23-24_3, complete sequence	direct
+NZ_CP196627.1	NZ_CP196627.1	3036779773	SAMN49530532	485	Neisseria gonorrhoeae strain SRRSH-634 chromosome, complete genome	direct
+NZ_CP196628.1	NZ_CP196628.1	3036779782	SAMN49530532	485	Neisseria gonorrhoeae strain SRRSH-634 plasmid unnamed, complete sequence	direct
+NZ_CP196629.1	NZ_CP196629.1	3036771682	SAMN49531572	485	Neisseria gonorrhoeae strain SRRSH-772 chromosome, complete genome	direct
+NZ_CP196630.1	NZ_CP196630.1	3036771700	SAMN49531572	485	Neisseria gonorrhoeae strain SRRSH-772 plasmid unnamed	direct
+NZ_CP196635.1	NZ_CP196635.1	3036778285	SAMN49530829	485	Neisseria gonorrhoeae strain SRRSH-762 chromosome, complete genome	direct
+NZ_CP196636.1	NZ_CP196636.1	3036778296	SAMN49530829	485	Neisseria gonorrhoeae strain SRRSH-762 plasmid unnamed	direct
+NZ_JBSJED010000001.1	NZ_JBSJED010000001.1	3123848455	SAMN53242160	485	Neisseria gonorrhoeae strain 4664 plasmid pNG32-01, whole genome shotgun sequence	direct
+NZ_LR134358.1	NZ_LR134358.1	1545140759	SAMEA4364223	485	Neisseria gonorrhoeae strain NCTC13484 chromosome 1, complete sequence	direct
+NZ_LT591897.1	NZ_LT591897.1	1718600283	SAMEA2448460	485	Neisseria gonorrhoeae strain WHO F chromosome 1, complete sequence	direct
+NZ_LT591898.1	NZ_LT591898.1	1718603086	SAMEA2448461	485	Neisseria gonorrhoeae strain WHO G chromosome 1, complete sequence	direct
+NZ_LT591899.1	NZ_LT591899.1	1718603087	SAMEA2448461	485	Neisseria gonorrhoeae strain WHO G plasmid 2, complete sequence	direct
+NZ_LT591900.1	NZ_LT591900.1	1718603088	SAMEA2448461	485	Neisseria gonorrhoeae strain WHO G plasmid 3, complete sequence	direct
+NZ_LT591901.1	NZ_LT591901.1	1718562855	SAMEA2448463	485	Neisseria gonorrhoeae strain WHO L chromosome 1, complete sequence	direct
+NZ_LT591902.1	NZ_LT591902.1	1718562950	SAMEA2448463	485	Neisseria gonorrhoeae strain WHO L plasmid 2, complete sequence	direct
+NZ_LT591903.1	NZ_LT591903.1	1718562956	SAMEA2448463	485	Neisseria gonorrhoeae strain WHO L plasmid 3, complete sequence	direct
+NZ_LT591904.1	NZ_LT591904.1	1655186942	SAMEA2448464	485	Neisseria gonorrhoeae strain WHO M chromosome 1, complete sequence	direct
+NZ_LT591905.1	NZ_LT591905.1	1655186944	SAMEA2448464	485	Neisseria gonorrhoeae strain WHO M plasmid 2, complete sequence	direct
+NZ_LT591906.1	NZ_LT591906.1	1655186945	SAMEA2448464	485	Neisseria gonorrhoeae strain WHO M plasmid 3, complete sequence	direct
+NZ_LT591907.1	NZ_LT591907.1	1655186946	SAMEA2448464	485	Neisseria gonorrhoeae strain WHO M plasmid 4, complete sequence	direct
+NZ_LT591908.1	NZ_LT591908.1	1655186939	SAMEA2448462	485	Neisseria gonorrhoeae strain WHO K chromosome 1, complete sequence	direct
+NZ_LT591909.1	NZ_LT591909.1	1655186940	SAMEA2448462	485	Neisseria gonorrhoeae strain WHO K plasmid 2, complete sequence	direct
+NZ_LT591910.1	NZ_LT591910.1	1718490504	SAMEA2448465	485	Neisseria gonorrhoeae strain WHO N chromosome 1, complete sequence	direct
+NZ_LT591911.1	NZ_LT591911.1	1718490505	SAMEA2448465	485	Neisseria gonorrhoeae strain WHO N plasmid 2, complete sequence	direct
+NZ_LT591912.1	NZ_LT591912.1	1718490506	SAMEA2448465	485	Neisseria gonorrhoeae strain WHO N plasmid 3, complete sequence	direct
+NZ_LT591913.1	NZ_LT591913.1	1718490507	SAMEA2448465	485	Neisseria gonorrhoeae strain WHO N plasmid 4, complete sequence	direct
+NZ_LT592146.1	NZ_LT592146.1	1655183693	SAMEA2448466	485	Neisseria gonorrhoeae strain WHO O chromosome 1, complete sequence	direct
+NZ_LT592147.1	NZ_LT592147.1	1655183694	SAMEA2448466	485	Neisseria gonorrhoeae strain WHO O plasmid 2, complete sequence	direct
+NZ_LT592148.1	NZ_LT592148.1	1655183695	SAMEA2448466	485	Neisseria gonorrhoeae strain WHO O plasmid 3, complete sequence	direct
+NZ_LT592149.1	NZ_LT592149.1	1655183696	SAMEA2448466	485	Neisseria gonorrhoeae strain WHO O plasmid 4, complete sequence	direct
+NZ_LT592150.1	NZ_LT592150.1	1655186954	SAMEA2796328	485	Neisseria gonorrhoeae strain WHO_V chromosome 1, complete sequence	direct
+NZ_LT592151.1	NZ_LT592151.1	1655186955	SAMEA2796328	485	Neisseria gonorrhoeae strain WHO_V plasmid 2, complete sequence	direct
+NZ_LT592152.1	NZ_LT592152.1	1655186956	SAMEA2796328	485	Neisseria gonorrhoeae strain WHO_V plasmid 3, complete sequence	direct
+NZ_LT592153.1	NZ_LT592153.1	1718450499	SAMEA2796326	485	Neisseria gonorrhoeae strain WHO_Z chromosome 1, complete sequence	direct
+NZ_LT592154.1	NZ_LT592154.1	1718450521	SAMEA2796326	485	Neisseria gonorrhoeae strain WHO_Z plasmid 2, complete sequence	direct
+NZ_LT592155.1	NZ_LT592155.1	1655183653	SAMEA2448468	485	Neisseria gonorrhoeae strain WHO_X chromosome 1, complete sequence	direct
+NZ_LT592156.1	NZ_LT592156.1	1655183654	SAMEA2448468	485	Neisseria gonorrhoeae strain WHO_X plasmid 2, complete sequence	direct
+NZ_LT592157.1	NZ_LT592157.1	1718491683	SAMEA2448467	485	Neisseria gonorrhoeae strain WHO P chromosome 1, complete sequence	direct
+NZ_LT592158.1	NZ_LT592158.1	1718491746	SAMEA2448467	485	Neisseria gonorrhoeae strain WHO P plasmid 2, complete sequence	direct
+NZ_LT592159.1	NZ_LT592159.1	1655183684	SAMEA2796327	485	Neisseria gonorrhoeae strain WHO_U chromosome 1, complete sequence	direct
+NZ_LT592160.1	NZ_LT592160.1	1655183687	SAMEA2796327	485	Neisseria gonorrhoeae strain WHO_U plasmid 2, complete sequence	direct
+NZ_LT592161.1	NZ_LT592161.1	1718561309	SAMEA2448469	485	Neisseria gonorrhoeae strain WHO_Y chromosome 1, complete sequence	direct
+NZ_LT592162.1	NZ_LT592162.1	1718561405	SAMEA2448469	485	Neisseria gonorrhoeae strain WHO_Y plasmid 2, complete sequence	direct
+NZ_LT592163.1	NZ_LT592163.1	1718601977	SAMEA2448470	485	Neisseria gonorrhoeae strain WHO_W chromosome 1, complete sequence	direct
+NZ_LT592164.1	NZ_LT592164.1	1718602074	SAMEA2448470	485	Neisseria gonorrhoeae strain WHO_W plasmid 2, complete sequence	direct
+NZ_LT592165.1	NZ_LT592165.1	1718602080	SAMEA2448470	485	Neisseria gonorrhoeae strain WHO_W plasmid 3, complete sequence	direct
+NZ_LT906437.1	NZ_LT906437.1	1237036575	SAMEA4076765	485	Neisseria gonorrhoeae strain NCTC13799 chromosome 1, complete sequence	direct
+NZ_LT906440.1	NZ_LT906440.1	1237062103	SAMEA4076741	485	Neisseria gonorrhoeae strain NCTC13798 chromosome 1, complete sequence	direct
+NZ_LT906472.1	NZ_LT906472.1	1236925492	SAMEA4076768	485	Neisseria gonorrhoeae strain NCTC13800 chromosome 1, complete sequence	direct
+NZ_OZ004876.1	NZ_OZ004876.1	2709298079	SAMEA115102863	485	Neisseria gonorrhoeae isolate 632_2023 chromosome 1, complete sequence	direct
+NZ_OZ004877.1	NZ_OZ004877.1	2709298266	SAMEA115102863	485	Neisseria gonorrhoeae isolate 632_2023 plasmid 2, complete sequence	direct
+NZ_OZ004878.1	NZ_OZ004878.1	2709298267	SAMEA115102863	485	Neisseria gonorrhoeae isolate 632_2023 plasmid 3, complete sequence	direct
+NZ_OZ197910.1	OZ197910.1	2842154204	SAMEA116302675	485	Neisseria gonorrhoeae isolate SGC-24-001 genome assembly, chromosome: contig1	alias:OZ197910.1
+NZ_OZ197911.1	OZ197911.1	2842154205	SAMEA116302675	485	Neisseria gonorrhoeae isolate SGC-24-001 genome assembly, plasmid: contig2	alias:OZ197911.1
+NZ_OZ197912.1	OZ197912.1	2842154206	SAMEA116302675	485	Neisseria gonorrhoeae isolate SGC-24-001 genome assembly, plasmid: contig3	alias:OZ197912.1
+NZ_OZ197913.1	OZ197913.1	2842154207	SAMEA116302675	485	Neisseria gonorrhoeae isolate SGC-24-001 genome assembly, plasmid: contig4	alias:OZ197913.1
+OZ004876.1	OZ004876.1	2663325293	SAMEA115102863	485	Neisseria gonorrhoeae isolate 632_2023 genome assembly, chromosome: 1	direct
+OZ004877.1	OZ004877.1	2663325294	SAMEA115102863	485	Neisseria gonorrhoeae isolate 632_2023 genome assembly, plasmid: 2	direct
+OZ004878.1	OZ004878.1	2663325295	SAMEA115102863	485	Neisseria gonorrhoeae isolate 632_2023 genome assembly, plasmid: 3	direct
+OZ197910.1	OZ197910.1	2842154204	SAMEA116302675	485	Neisseria gonorrhoeae isolate SGC-24-001 genome assembly, chromosome: contig1	direct
+OZ197911.1	OZ197911.1	2842154205	SAMEA116302675	485	Neisseria gonorrhoeae isolate SGC-24-001 genome assembly, plasmid: contig2	direct
+OZ197912.1	OZ197912.1	2842154206	SAMEA116302675	485	Neisseria gonorrhoeae isolate SGC-24-001 genome assembly, plasmid: contig3	direct
+OZ197913.1	OZ197913.1	2842154207	SAMEA116302675	485	Neisseria gonorrhoeae isolate SGC-24-001 genome assembly, plasmid: contig4	direct
+AE002098.2	AE002098.2	66731897	SAMN02603997	122586	Neisseria meningitidis MC58, complete genome	direct
+AL157959.1	AL157959.1	30407145	SAMEA1705949	122587	Neisseria meningitidis serogroup A strain Z2491 complete genome	direct
+AM421808.1	AM421808.1	120865607	SAMEA1705939	272831	Neisseria meningitidis serogroup C FAM18 complete genome	direct
+AM889136.1	AM889136.1	254667570	SAMEA3138289	662598	Neisseria meningitidis alpha14 complete genome	direct
+AP024489.1	AP024489.1	1995282511	SAMD00246645	487	Neisseria meningitidis NIID777 DNA, complete genome	direct
+CP000381.1	CP000381.1	161594571	SAMN02603605	374833	Neisseria meningitidis 053442, complete genome	direct
+CP001561.1	CP001561.1	308388224	SAMN02603384	630588	Neisseria meningitidis alpha710, complete genome	direct
+CP002419.1	CP002419.1	325197306	SAMN02604201	935599	Neisseria meningitidis G2136, complete genome	direct
+CP002420.1	CP002420.1	325199235	SAMN02604200	909420	Neisseria meningitidis H44/76, complete genome	direct
+CP002421.1	CP002421.1	325201197	SAMN02604198	935591	Neisseria meningitidis M01-240149, complete genome	direct
+CP002422.1	CP002422.1	325203134	SAMN02604196	935588	Neisseria meningitidis M01-240355, complete genome	direct
+CP002423.1	CP002423.1	325205106	SAMN02604199	935593	Neisseria meningitidis M04-240196, complete genome	direct
+CP002424.1	CP002424.1	325207054	SAMN02604197	935589	Neisseria meningitidis NZ-05/33, complete genome	direct
+CP007524.1	CP007524.1	610425456	SAMN02709031	487	Neisseria meningitidis strain 510612, complete genome	direct
+CP007667.1	CP007667.1	837359514	SAMN02595590	487	Neisseria meningitidis strain B6116/77, complete genome	direct
+CP007668.1	CP007668.1	837361516	SAMN02595591	935590	Neisseria meningitidis M0579, complete genome	direct
+CP009418.1	CP009418.1	730569312	SAMN03020302	487	Neisseria meningitidis strain NM3686, complete genome	direct
+CP009419.1	CP009419.1	730571813	SAMN03020254	1095685	Neisseria meningitidis M7124, complete genome	direct
+CP009420.1	CP009420.1	730574337	SAMN03020600	487	Neisseria meningitidis strain NM3682, complete genome	direct
+CP009421.1	CP009421.1	730576903	SAMN03022885	487	Neisseria meningitidis strain NM3683, complete genome	direct
+CP012391.1	CP012391.1	1049062117	SAMN03944749	487	Neisseria meningitidis strain DE8669, complete genome	direct
+CP012392.1	CP012392.1	1049064265	SAMN03944748	487	Neisseria meningitidis strain DE10444, complete genome	direct
+CP012393.1	CP012393.1	1049066331	SAMN03944750	487	Neisseria meningitidis strain DE8555, complete genome	direct
+CP012394.1	CP012394.1	1049068447	SAMN03944751	487	Neisseria meningitidis strain WUE2121, complete genome	direct
+CP012694.1	CP012694.1	1072782256	SAMN04023208	487	Neisseria meningitidis strain 331401, complete genome	direct
+CP015886.1	CP015886.1	1137304163	SAMN04321475	487	Neisseria meningitidis strain 38277 chromosome, complete genome	direct
+CP016627.1	CP016627.1	1049092638	SAMN04883376	487	Neisseria meningitidis strain M22718 chromosome, complete genome	direct
+CP016644.1	CP016644.1	1049094726	SAMN04883365	487	Neisseria meningitidis strain M07162, complete genome	direct
+CP016645.1	CP016645.1	1049096837	SAMN04883372	487	Neisseria meningitidis strain M12752, complete genome	direct
+CP016646.1	CP016646.1	1049098922	SAMN04883393	487	Neisseria meningitidis strain M22819, complete genome	direct
+CP016647.1	CP016647.1	1049101018	SAMN04883391	487	Neisseria meningitidis strain M22809, complete genome	direct
+CP016648.1	CP016648.1	1049103119	SAMN04883371	487	Neisseria meningitidis strain M09293, complete genome	direct
+CP016649.1	CP016649.1	1049105194	SAMN04883374	487	Neisseria meningitidis strain M22189, complete genome	direct
+CP016650.1	CP016650.1	1049107274	SAMN04883361	487	Neisseria meningitidis strain M07149, complete genome	direct
+CP016651.1	CP016651.1	1049109357	SAMN04883450	487	Neisseria meningitidis strain M25474, complete genome	direct
+CP016652.1	CP016652.1	1049111438	SAMN04883369	487	Neisseria meningitidis strain M08001, complete genome	direct
+CP016653.1	CP016653.1	1049113514	SAMN04883381	487	Neisseria meningitidis strain M22748, complete genome	direct
+CP016654.1	CP016654.1	1049115582	SAMN04883392	487	Neisseria meningitidis strain M22811, complete genome	direct
+CP016655.1	CP016655.1	1049117689	SAMN04883385	487	Neisseria meningitidis strain M22772, complete genome	direct
+CP016656.1	CP016656.1	1049119775	SAMN04883384	487	Neisseria meningitidis strain M22769, complete genome	direct
+CP016657.1	CP016657.1	1049121848	SAMN04883379	487	Neisseria meningitidis strain M22745, complete genome	direct
+CP016658.1	CP016658.1	1049123925	SAMN04883405	487	Neisseria meningitidis strain M24730, complete genome	direct
+CP016659.1	CP016659.1	1049126012	SAMN04883389	487	Neisseria meningitidis strain M22801, complete genome	direct
+CP016660.1	CP016660.1	1049128092	SAMN04883390	487	Neisseria meningitidis strain M22804, complete genome	direct
+CP016661.1	CP016661.1	1049130189	SAMN04883437	487	Neisseria meningitidis strain M25438, complete genome	direct
+CP016662.1	CP016662.1	1049132266	SAMN04883396	487	Neisseria meningitidis strain M23413, complete genome	direct
+CP016663.1	CP016663.1	1049134352	SAMN04883377	487	Neisseria meningitidis strain M22722, complete genome	direct
+CP016664.1	CP016664.1	1049136434	SAMN04883408	487	Neisseria meningitidis strain M25070, complete genome	direct
+CP016665.1	CP016665.1	1049138506	SAMN04883370	487	Neisseria meningitidis strain M09261, complete genome	direct
+CP016666.1	CP016666.1	1049140566	SAMN04883441	487	Neisseria meningitidis strain M25462, complete genome	direct
+CP016667.1	CP016667.1	1049142645	SAMN04883452	487	Neisseria meningitidis strain M27559, complete genome	direct
+CP016668.1	CP016668.1	1049144728	SAMN04883448	487	Neisseria meningitidis strain M25472, complete genome	direct
+CP016669.1	CP016669.1	1049146802	SAMN04883382	487	Neisseria meningitidis strain M22759, complete genome	direct
+CP016670.1	CP016670.1	1049148872	SAMN04883421	487	Neisseria meningitidis strain M25087, complete genome	direct
+CP016671.1	CP016671.1	1049150949	SAMN04883386	487	Neisseria meningitidis strain M22783, complete genome	direct
+CP016672.1	CP016672.1	1049153042	SAMN04883395	487	Neisseria meningitidis strain M22828, complete genome	direct
+CP016673.1	CP016673.1	1049155136	SAMN04883440	487	Neisseria meningitidis strain M25459, complete genome	direct
+CP016674.1	CP016674.1	1049157214	SAMN04883373	487	Neisseria meningitidis strain M22160, complete genome	direct
+CP016675.1	CP016675.1	1049159293	SAMN04883364	487	Neisseria meningitidis strain M07161, complete genome	direct
+CP016676.1	CP016676.1	1049161369	SAMN04883451	487	Neisseria meningitidis strain M25476, complete genome	direct
+CP016677.1	CP016677.1	1049163442	SAMN04883439	487	Neisseria meningitidis strain M25456, complete genome	direct
+CP016678.1	CP016678.1	1049165515	SAMN04883430	487	Neisseria meningitidis strain M25419, complete genome	direct
+CP016679.1	CP016679.1	1049167622	SAMN04883378	487	Neisseria meningitidis strain M22740, complete genome	direct
+CP016680.1	CP016680.1	1049169702	SAMN04883394	487	Neisseria meningitidis strain M22822, complete genome	direct
+CP016681.1	CP016681.1	1049171829	SAMN04883368	487	Neisseria meningitidis strain M08000, complete genome	direct
+CP016682.1	CP016682.1	1049173905	SAMN04883402	487	Neisseria meningitidis strain M24705, complete genome	direct
+CP016683.1	CP016683.1	1049175999	SAMN04883375	487	Neisseria meningitidis strain M22191, complete genome	direct
+CP016684.1	CP016684.1	1048072322	SAMN03203069	487	Neisseria meningitidis strain L91543, complete genome	direct
+CP017257.1	CP017257.1	1171862115	SAMN05560575	487	Neisseria meningitidis strain COL-201504-11 chromosome, complete genome	direct
+CP018907.1	CP018907.1	1338051035	SAMN06144986	487	Neisseria meningitidis strain M21273, complete genome	direct
+CP020401.2	CP020401.2	1351575287	SAMN04875551	487	Neisseria meningitidis strain FDAARGOS_214 chromosome, complete genome	direct
+CP020402.2	CP020402.2	1348096639	SAMN04875552	487	Neisseria meningitidis strain FDAARGOS_215 chromosome, complete genome	direct
+CP020420.2	CP020420.2	1348162821	SAMN04875546	487	Neisseria meningitidis strain FDAARGOS_209 chromosome, complete genome	direct
+CP020421.2	CP020421.2	1351587774	SAMN04875547	487	Neisseria meningitidis strain FDAARGOS_210 chromosome, complete genome	direct
+CP020422.2	CP020422.2	1348192134	SAMN04875548	487	Neisseria meningitidis strain FDAARGOS_211 chromosome, complete genome	direct
+CP020423.2	CP020423.2	1351588194	SAMN04875549	487	Neisseria meningitidis strain FDAARGOS_212 chromosome, complete genome	direct
+CP021516.1	CP021516.1	1735560437	SAMN07137416	487	Neisseria meningitidis strain 14-563 chromosome, complete genome	direct
+CP021518.1	CP021518.1	1735566905	SAMN07137412	487	Neisseria meningitidis strain 12-176 chromosome, complete genome	direct
+CP021519.1	CP021519.1	1735569056	SAMN07137411	487	Neisseria meningitidis strain 11-14 chromosome, complete genome	direct
+CP021520.1	CP021520.1	1735583694	SAMN07137410	487	Neisseria meningitidis strain 11-7 chromosome, complete genome	direct
+CP021521.1	CP021521.1	1735602351	SAMN07137409	487	Neisseria meningitidis strain 09-292 chromosome, complete genome	direct
+CP021522.1	CP021522.1	1735607830	SAMN07137408	487	Neisseria meningitidis strain 06-178 chromosome, complete genome	direct
+CP021523.1	CP021523.1	1735612721	SAMN07137407	487	Neisseria meningitidis strain 98-182 chromosome, complete genome	direct
+CP021723.1	CP021723.1	1735562594	SAMN07137415	487	Neisseria meningitidis strain 13-600 chromosome, complete genome	direct
+CP021724.1	CP021724.1	1735564753	SAMN07137414	487	Neisseria meningitidis strain 12-330 chromosome, complete genome	direct
+CP021725.1	CP021725.1	1735614881	SAMN07137406	487	Neisseria meningitidis strain 95-134 chromosome, complete genome	direct
+CP023814.1	CP023814.1	1259317594	SAMN07615714	487	Neisseria meningitidis strain M26417 chromosome, complete genome	direct
+CP030814.1	CP030814.1	1935877142	SAMN09429014	487	Neisseria meningitidis strain 16-579 chromosome, complete genome	direct
+CP030816.1	CP030816.1	1935864190	SAMN09429012	487	Neisseria meningitidis strain 16-92 chromosome, complete genome	direct
+CP030823.1	CP030823.1	1935801772	SAMN09429005	487	Neisseria meningitidis strain 14-627 chromosome, complete genome	direct
+CP030825.1	CP030825.1	1935791917	SAMN09429003	487	Neisseria meningitidis strain 12-208 chromosome, complete genome	direct
+CP031324.1	CP031324.1	1442649927	SAMN09704702	487	Neisseria meningitidis strain M23347 chromosome, complete genome	direct
+CP031326.1	CP031326.1	1442649920	SAMN09704682	487	Neisseria meningitidis strain M21374 chromosome, complete genome	direct
+CP031328.1	CP031328.1	1442649924	SAMN09704671	487	Neisseria meningitidis strain M18755 chromosome, complete genome	direct
+CP031329.1	CP031329.1	1442649925	SAMN09704694	487	Neisseria meningitidis strain M22425 chromosome, complete genome	direct
+CP031330.1	CP031330.1	1442649918	SAMN09704690	487	Neisseria meningitidis strain M21955 chromosome, complete genome	direct
+CP031331.1	CP031331.1	1442649923	SAMN09704706	487	Neisseria meningitidis strain M26263 chromosome, complete genome	direct
+CP031333.1	CP031333.1	1442649926	SAMN09704670	487	Neisseria meningitidis strain M18727 chromosome, complete genome	direct
+CP031334.1	CP031334.1	1442649922	SAMN09704693	487	Neisseria meningitidis strain M22293 chromosome, complete genome	direct
+CP031335.1	CP031335.1	1442649919	SAMN09704705	487	Neisseria meningitidis strain M25964 chromosome, complete genome	direct
+CP031336.1	CP031336.1	1442649917	SAMN09704687	487	Neisseria meningitidis strain M21717 chromosome, complete genome	direct
+CP045960.1	CP045960.1	1776208340	SAMN13191641	487	Neisseria meningitidis strain AUSMDU00005726 chromosome, complete genome	direct
+CP045961.1	CP045961.1	1776233207	SAMN13191640	487	Neisseria meningitidis strain AUSMDU00010537 chromosome, complete genome	direct
+CP060280.1	CP060280.1	1896721427	SAMN15813653	487	Neisseria meningitidis strain LNP24198 chromosome, complete genome	direct
+CP064367.1	CP064367.1	2221283935	SAMN14078801	487	Neisseria meningitidis strain PartJ-Nmeningitidis-RM8376 chromosome, complete genome	direct
+CP065653.1	CP065653.1	1943121298	SAMN13450444	487	Neisseria meningitidis strain FDAARGOS_914 chromosome, complete genome	direct
+CP077603.1	CP077603.1	2058660174	SAMN19789151	487	Neisseria meningitidis strain S4 chromosome, complete genome	direct
+CP079941.1	CP079941.1	2072793668	SAMN20308719	487	Neisseria meningitidis strain C311 chromosome, complete genome	direct
+CP096117.1	CP096117.1	2802079565	SAMN27655701	487	Neisseria meningitidis strain DFS-1910310016 chromosome, complete genome	direct
+CP136807.1	CP136807.1	2727577644	SAMN37851227	1172206	Neisseria meningitidis NMB chromosome, complete genome	direct
+CP137529.1	CP137529.1	2727577645	SAMN37851750	487	Neisseria meningitidis strain EXNM666 chromosome, complete genome	direct
+CP137530.1	CP137530.1	2727577646	SAMN37851751	487	Neisseria meningitidis strain EXNM678 chromosome, complete genome	direct
+CP137531.1	CP137531.1	2727581471	SAMN37851752	487	Neisseria meningitidis strain EXNM741 chromosome, complete genome	direct
+CP141618.1	CP141618.1	2999952121	SAMN38924147	487	Neisseria meningitidis strain SL-21-03 chromosome, complete genome	direct
+CP141619.1	CP141619.1	2999954139	SAMN38924147	487	Neisseria meningitidis strain SL-21-03 plasmid pSL-21-03-1, complete sequence	direct
+CP141620.1	CP141620.1	2999955209	SAMN38924146	487	Neisseria meningitidis strain SL-20-10 chromosome, complete genome	direct
+CP141621.1	CP141621.1	2999962716	SAMN38924145	487	Neisseria meningitidis strain NX-23-21 chromosome, complete genome	direct
+CP141622.1	CP141622.1	2999964731	SAMN38924145	487	Neisseria meningitidis strain NX-23-21 plasmid pNX-23-21, complete sequence	direct
+CP141623.1	CP141623.1	2999966781	SAMN38924144	487	Neisseria meningitidis strain NX-21-82 chromosome, complete genome	direct
+CP141624.1	CP141624.1	2999969239	SAMN38924143	487	Neisseria meningitidis strain NX-21-17 chromosome, complete genome	direct
+CP185855.1	CP185855.1	2946907193	SAMN47379534	487	Neisseria meningitidis strain C230102 chromosome, complete genome	direct
+CP185858.1	CP185858.1	2946987122	SAMN47379564	487	Neisseria meningitidis strain X230103 chromosome, complete genome	direct
+CP197439.1	CP197439.1	3045719109	SAMN50577966	487	Neisseria meningitidis strain QH02 chromosome, complete genome	direct
+CP197440.1	CP197440.1	3045687359	SAMN50577968	487	Neisseria meningitidis strain QH04 chromosome, complete genome	direct
+CP197441.1	CP197441.1	3045706432	SAMN50577969	487	Neisseria meningitidis strain QH05 chromosome, complete genome	direct
+CP197442.1	CP197442.1	3045685435	SAMN50577970	487	Neisseria meningitidis strain QH06 chromosome, complete genome	direct
+CP197443.1	CP197443.1	3045715257	SAMN50577972	487	Neisseria meningitidis strain QH08 chromosome, complete genome	direct
+CP197444.1	CP197444.1	3045708391	SAMN50577973	487	Neisseria meningitidis strain QH09 chromosome, complete genome	direct
+CP197445.1	CP197445.1	3045674141	SAMN50577974	487	Neisseria meningitidis strain QH10 chromosome, complete genome	direct
+CP197446.1	CP197446.1	3045717188	SAMN50577975	487	Neisseria meningitidis strain QH11 chromosome, complete genome	direct
+CP197447.1	CP197447.1	3045697195	SAMN50577976	487	Neisseria meningitidis strain QH12 chromosome, complete genome	direct
+CP197448.1	CP197448.1	3045710310	SAMN50577977	487	Neisseria meningitidis strain QH13 chromosome, complete genome	direct
+CP197449.1	CP197449.1	3045721031	SAMN50577965	487	Neisseria meningitidis strain QH01 chromosome, complete genome	direct
+CP197450.1	CP197450.1	3045668659	SAMN50577967	487	Neisseria meningitidis strain QH03 chromosome, complete genome	direct
+CP197451.1	CP197451.1	3045722952	SAMN50577971	487	Neisseria meningitidis strain QH07 chromosome, complete genome	direct
+FM999788.1	FM999788.1	261391559	SAMEA2272745	604162	Neisseria meningitidis 8013, complete genome	direct
+FR774048.1	FR774048.1	319409534	SAMEA2272690	942513	Neisseria meningitidis WUE 2594 complete genome	direct
+LR134522.1	LR134522.1	1540267326	SAMEA104307687	487	Neisseria meningitidis strain NCTC3372 genome assembly, chromosome: 1	direct
+LR134525.1	LR134525.1	1540272469	SAMEA104307683	487	Neisseria meningitidis strain NCTC10025 genome assembly, chromosome: 1	direct
+LR134526.1	LR134526.1	1540274541	SAMEA104307689	487	Neisseria meningitidis strain NCTC10026 genome assembly, chromosome: 1	direct
+LR134528.1	LR134528.1	1540278352	SAMEA104307690	487	Neisseria meningitidis strain NCTC12163 genome assembly, chromosome: 1	direct
+NC_003112.2	NC_003112.2	77358697	SAMN02603997	122586	Neisseria meningitidis MC58, complete sequence	direct
+NC_003116.1	NC_003116.1	15793034	SAMEA1705949	122587	Neisseria meningitidis Z2491, complete sequence	direct
+NC_008767.1	NC_008767.1	121633901	SAMEA1705939	272831	Neisseria meningitidis FAM18, complete sequence	direct
+NC_010120.1	NC_010120.1	161869018	SAMN02603605	374833	Neisseria meningitidis 053442, complete sequence	direct
+NC_013016.1	NC_013016.1	254804028	SAMEA3138289	662598	Neisseria meningitidis alpha14, complete sequence	direct
+NC_017501.1	NC_017501.1	385323172	SAMEA2272745	604162	Neisseria meningitidis 8013, complete sequence	direct
+NC_017505.1	NC_017505.1	385327372	SAMN02603384	630588	Neisseria meningitidis alpha710, complete sequence	direct
+NC_017512.1	NC_017512.1	385337120	SAMEA2272690	942513	Neisseria meningitidis WUE 2594, complete sequence	direct
+NC_017513.1	NC_017513.1	385339062	SAMN02604201	935599	Neisseria meningitidis G2136, complete sequence	direct
+NC_017514.1	NC_017514.1	385340991	SAMN02604198	935591	Neisseria meningitidis M01-240149, complete sequence	direct
+NC_017515.1	NC_017515.1	385850283	SAMN02604199	935593	Neisseria meningitidis M04-240196, complete sequence	direct
+NC_017516.1	NC_017516.1	385852231	SAMN02604200	909420	Neisseria meningitidis H44/76, complete sequence	direct
+NC_017517.1	NC_017517.1	385854193	SAMN02604196	935588	Neisseria meningitidis M01-240355, complete sequence	direct
+NC_017518.1	NC_017518.1	385856165	SAMN02604197	935589	Neisseria meningitidis NZ-05/33, complete sequence	direct
+NZ_AP024489.1	NZ_AP024489.1	2006028800	SAMD00246645	487	Neisseria meningitidis strain NIID777 chromosome, complete genome	direct
+NZ_CP007524.1	NZ_CP007524.1	752782300	SAMN02709031	487	Neisseria meningitidis strain 510612 chromosome, complete genome	direct
+NZ_CP007667.1	NZ_CP007667.1	846209513	SAMN02595590	487	Neisseria meningitidis strain B6116/77 chromosome, complete genome	direct
+NZ_CP007668.1	NZ_CP007668.1	846210234	SAMN02595591	935590	Neisseria meningitidis M0579 chromosome, complete genome	direct
+NZ_CP009418.1	NZ_CP009418.1	752776058	SAMN03020302	487	Neisseria meningitidis strain NM3686 chromosome, complete genome	direct
+NZ_CP009419.1	NZ_CP009419.1	752776231	SAMN03020254	1095685	Neisseria meningitidis M7124 chromosome, complete genome	direct
+NZ_CP009420.1	NZ_CP009420.1	752776209	SAMN03020600	487	Neisseria meningitidis strain NM3682 chromosome, complete genome	direct
+NZ_CP009421.1	NZ_CP009421.1	752776252	SAMN03022885	487	Neisseria meningitidis strain NM3683 chromosome, complete genome	direct
+NZ_CP012391.1	NZ_CP012391.1	1049331680	SAMN03944749	487	Neisseria meningitidis strain DE8669 chromosome, complete genome	direct
+NZ_CP012392.1	NZ_CP012392.1	1049330220	SAMN03944748	487	Neisseria meningitidis strain DE10444 chromosome, complete genome	direct
+NZ_CP012393.1	NZ_CP012393.1	1049310403	SAMN03944750	487	Neisseria meningitidis strain DE8555 chromosome, complete genome	direct
+NZ_CP012394.1	NZ_CP012394.1	1049332081	SAMN03944751	487	Neisseria meningitidis strain WUE2121 chromosome, complete genome	direct
+NZ_CP012694.1	NZ_CP012694.1	1073034068	SAMN04023208	487	Neisseria meningitidis strain 331401 chromosome, complete genome	direct
+NZ_CP015886.1	NZ_CP015886.1	1164621632	SAMN04321475	487	Neisseria meningitidis strain 38277 chromosome, complete genome	direct
+NZ_CP016627.1	NZ_CP016627.1	1049332086	SAMN04883376	487	Neisseria meningitidis strain M22718 chromosome, complete genome	direct
+NZ_CP016644.1	NZ_CP016644.1	1049330162	SAMN04883365	487	Neisseria meningitidis strain M07162 chromosome, complete genome	direct
+NZ_CP016645.1	NZ_CP016645.1	1049330259	SAMN04883372	487	Neisseria meningitidis strain M12752 chromosome, complete genome	direct
+NZ_CP016646.1	NZ_CP016646.1	1049332040	SAMN04883393	487	Neisseria meningitidis strain M22819 chromosome, complete genome	direct
+NZ_CP016647.1	NZ_CP016647.1	1049331809	SAMN04883391	487	Neisseria meningitidis strain M22809 chromosome, complete genome	direct
+NZ_CP016648.1	NZ_CP016648.1	1049331876	SAMN04883371	487	Neisseria meningitidis strain M09293 chromosome, complete genome	direct
+NZ_CP016649.1	NZ_CP016649.1	1049310366	SAMN04883374	487	Neisseria meningitidis strain M22189 chromosome, complete genome	direct
+NZ_CP016650.1	NZ_CP016650.1	1049330222	SAMN04883361	487	Neisseria meningitidis strain M07149 chromosome, complete genome	direct
+NZ_CP016651.1	NZ_CP016651.1	1049329889	SAMN04883450	487	Neisseria meningitidis strain M25474 chromosome, complete genome	direct
+NZ_CP016652.1	NZ_CP016652.1	1049332194	SAMN04883369	487	Neisseria meningitidis strain M08001 chromosome, complete genome	direct
+NZ_CP016653.1	NZ_CP016653.1	1049309297	SAMN04883381	487	Neisseria meningitidis strain M22748 chromosome, complete genome	direct
+NZ_CP016654.1	NZ_CP016654.1	1049310461	SAMN04883392	487	Neisseria meningitidis strain M22811 chromosome, complete genome	direct
+NZ_CP016655.1	NZ_CP016655.1	1049349156	SAMN04883385	487	Neisseria meningitidis strain M22772 chromosome, complete genome	direct
+NZ_CP016656.1	NZ_CP016656.1	1049331882	SAMN04883384	487	Neisseria meningitidis strain M22769 chromosome, complete genome	direct
+NZ_CP016657.1	NZ_CP016657.1	1049331883	SAMN04883379	487	Neisseria meningitidis strain M22745 chromosome, complete genome	direct
+NZ_CP016658.1	NZ_CP016658.1	1049309319	SAMN04883405	487	Neisseria meningitidis strain M24730 chromosome, complete genome	direct
+NZ_CP016659.1	NZ_CP016659.1	1049332097	SAMN04883389	487	Neisseria meningitidis strain M22801 chromosome, complete genome	direct
+NZ_CP016660.1	NZ_CP016660.1	1049332147	SAMN04883390	487	Neisseria meningitidis strain M22804 chromosome, complete genome	direct
+NZ_CP016661.1	NZ_CP016661.1	1049332115	SAMN04883437	487	Neisseria meningitidis strain M25438 chromosome, complete genome	direct
+NZ_CP016662.1	NZ_CP016662.1	1049329706	SAMN04883396	487	Neisseria meningitidis strain M23413 chromosome, complete genome	direct
+NZ_CP016663.1	NZ_CP016663.1	1049332152	SAMN04883377	487	Neisseria meningitidis strain M22722 chromosome, complete genome	direct
+NZ_CP016664.1	NZ_CP016664.1	1049330227	SAMN04883408	487	Neisseria meningitidis strain M25070 chromosome, complete genome	direct
+NZ_CP016665.1	NZ_CP016665.1	1049310342	SAMN04883370	487	Neisseria meningitidis strain M09261 chromosome, complete genome	direct
+NZ_CP016666.1	NZ_CP016666.1	1049310480	SAMN04883441	487	Neisseria meningitidis strain M25462 chromosome, complete genome	direct
+NZ_CP016667.1	NZ_CP016667.1	1049328345	SAMN04883452	487	Neisseria meningitidis strain M27559 chromosome, complete genome	direct
+NZ_CP016668.1	NZ_CP016668.1	1049329838	SAMN04883448	487	Neisseria meningitidis strain M25472 chromosome, complete genome	direct
+NZ_CP016669.1	NZ_CP016669.1	1049330240	SAMN04883382	487	Neisseria meningitidis strain M22759 chromosome, complete genome	direct
+NZ_CP016670.1	NZ_CP016670.1	1049329895	SAMN04883421	487	Neisseria meningitidis strain M25087 chromosome, complete genome	direct
+NZ_CP016671.1	NZ_CP016671.1	1049328824	SAMN04883386	487	Neisseria meningitidis strain M22783 chromosome, complete genome	direct
+NZ_CP016672.1	NZ_CP016672.1	1049332128	SAMN04883395	487	Neisseria meningitidis strain M22828 chromosome, complete genome	direct
+NZ_CP016673.1	NZ_CP016673.1	1049332153	SAMN04883440	487	Neisseria meningitidis strain M25459 chromosome, complete genome	direct
+NZ_CP016674.1	NZ_CP016674.1	1049330249	SAMN04883373	487	Neisseria meningitidis strain M22160 chromosome, complete genome	direct
+NZ_CP016675.1	NZ_CP016675.1	1049330142	SAMN04883364	487	Neisseria meningitidis strain M07161 chromosome, complete genome	direct
+NZ_CP016676.1	NZ_CP016676.1	1049332196	SAMN04883451	487	Neisseria meningitidis strain M25476 chromosome, complete genome	direct
+NZ_CP016677.1	NZ_CP016677.1	1049332129	SAMN04883439	487	Neisseria meningitidis strain M25456 chromosome, complete genome	direct
+NZ_CP016678.1	NZ_CP016678.1	1049332190	SAMN04883430	487	Neisseria meningitidis strain M25419 chromosome, complete genome	direct
+NZ_CP016679.1	NZ_CP016679.1	1049330252	SAMN04883378	487	Neisseria meningitidis strain M22740 chromosome, complete genome	direct
+NZ_CP016680.1	NZ_CP016680.1	1049330151	SAMN04883394	487	Neisseria meningitidis strain M22822 chromosome, complete genome	direct
+NZ_CP016681.1	NZ_CP016681.1	1049310483	SAMN04883368	487	Neisseria meningitidis strain M08000 chromosome, complete genome	direct
+NZ_CP016682.1	NZ_CP016682.1	1049329880	SAMN04883402	487	Neisseria meningitidis strain M24705 chromosome, complete genome	direct
+NZ_CP016683.1	NZ_CP016683.1	1049331648	SAMN04883375	487	Neisseria meningitidis strain M22191 chromosome, complete genome	direct
+NZ_CP016684.1	NZ_CP016684.1	1049017979	SAMN03203069	487	Neisseria meningitidis strain L91543 chromosome, complete genome	direct
+NZ_CP017257.1	NZ_CP017257.1	1172505985	SAMN05560575	487	Neisseria meningitidis strain COL-201504-11 chromosome, complete genome	direct
+NZ_CP018907.1	NZ_CP018907.1	1353404978	SAMN06144986	487	Neisseria meningitidis strain M21273 chromosome, complete genome	direct
+NZ_CP020401.2	NZ_CP020401.2	1355913052	SAMN04875551	487	Neisseria meningitidis strain FDAARGOS_214 chromosome, complete genome	direct
+NZ_CP020402.2	NZ_CP020402.2	1356001595	SAMN04875552	487	Neisseria meningitidis strain FDAARGOS_215 chromosome, complete genome	direct
+NZ_CP020420.2	NZ_CP020420.2	1355973931	SAMN04875546	487	Neisseria meningitidis strain FDAARGOS_209 chromosome, complete genome	direct
+NZ_CP020421.2	NZ_CP020421.2	1355464161	SAMN04875547	487	Neisseria meningitidis strain FDAARGOS_210 chromosome, complete genome	direct
+NZ_CP020422.2	NZ_CP020422.2	1356472025	SAMN04875548	487	Neisseria meningitidis strain FDAARGOS_211 chromosome, complete genome	direct
+NZ_CP020423.2	NZ_CP020423.2	1355452445	SAMN04875549	487	Neisseria meningitidis strain FDAARGOS_212 chromosome, complete genome	direct
+NZ_CP021516.1	NZ_CP021516.1	1740925924	SAMN07137416	487	Neisseria meningitidis strain 14-563 chromosome, complete genome	direct
+NZ_CP021518.1	NZ_CP021518.1	1740855094	SAMN07137412	487	Neisseria meningitidis strain 12-176 chromosome, complete genome	direct
+NZ_CP021519.1	NZ_CP021519.1	1741043891	SAMN07137411	487	Neisseria meningitidis strain 11-14 chromosome, complete genome	direct
+NZ_CP021520.1	NZ_CP021520.1	1740999380	SAMN07137410	487	Neisseria meningitidis strain 11-7 chromosome, complete genome	direct
+NZ_CP021521.1	NZ_CP021521.1	1740927449	SAMN07137409	487	Neisseria meningitidis strain 09-292 chromosome, complete genome	direct
+NZ_CP021522.1	NZ_CP021522.1	1740927778	SAMN07137408	487	Neisseria meningitidis strain 06-178 chromosome, complete genome	direct
+NZ_CP021523.1	NZ_CP021523.1	1740863058	SAMN07137407	487	Neisseria meningitidis strain 98-182 chromosome, complete genome	direct
+NZ_CP021723.1	NZ_CP021723.1	1741000061	SAMN07137415	487	Neisseria meningitidis strain 13-600 chromosome, complete genome	direct
+NZ_CP021724.1	NZ_CP021724.1	1740999454	SAMN07137414	487	Neisseria meningitidis strain 12-330 chromosome, complete genome	direct
+NZ_CP021725.1	NZ_CP021725.1	1741044087	SAMN07137406	487	Neisseria meningitidis strain 95-134 chromosome, complete genome	direct
+NZ_CP023814.1	NZ_CP023814.1	1267182718	SAMN07615714	487	Neisseria meningitidis strain M26417 chromosome, complete genome	direct
+NZ_CP030814.1	NZ_CP030814.1	1937594108	SAMN09429014	487	Neisseria meningitidis strain 16-579 chromosome, complete genome	direct
+NZ_CP030816.1	NZ_CP030816.1	1937599812	SAMN09429012	487	Neisseria meningitidis strain 16-92 chromosome, complete genome	direct
+NZ_CP030823.1	NZ_CP030823.1	1937597974	SAMN09429005	487	Neisseria meningitidis strain 14-627 chromosome, complete genome	direct
+NZ_CP030825.1	NZ_CP030825.1	1937599577	SAMN09429003	487	Neisseria meningitidis strain 12-208 chromosome, complete genome	direct
+NZ_CP031324.1	NZ_CP031324.1	1444228264	SAMN09704702	487	Neisseria meningitidis strain M23347 chromosome, complete genome	direct
+NZ_CP031326.1	NZ_CP031326.1	1444188345	SAMN09704682	487	Neisseria meningitidis strain M21374 chromosome, complete genome	direct
+NZ_CP031328.1	NZ_CP031328.1	1444112751	SAMN09704671	487	Neisseria meningitidis strain M18755 chromosome, complete genome	direct
+NZ_CP031329.1	NZ_CP031329.1	1444082541	SAMN09704694	487	Neisseria meningitidis strain M22425 chromosome, complete genome	direct
+NZ_CP031330.1	NZ_CP031330.1	1444225172	SAMN09704690	487	Neisseria meningitidis strain M21955 chromosome, complete genome	direct
+NZ_CP031331.1	NZ_CP031331.1	1444167995	SAMN09704706	487	Neisseria meningitidis strain M26263 chromosome, complete genome	direct
+NZ_CP031333.1	NZ_CP031333.1	1444193162	SAMN09704670	487	Neisseria meningitidis strain M18727 chromosome, complete genome	direct
+NZ_CP031334.1	NZ_CP031334.1	1444219910	SAMN09704693	487	Neisseria meningitidis strain M22293 chromosome, complete genome	direct
+NZ_CP031335.1	NZ_CP031335.1	1444189137	SAMN09704705	487	Neisseria meningitidis strain M25964 chromosome, complete genome	direct
+NZ_CP031336.1	NZ_CP031336.1	1443926375	SAMN09704687	487	Neisseria meningitidis strain M21717 chromosome, complete genome	direct
+NZ_CP045960.1	NZ_CP045960.1	1776848758	SAMN13191641	487	Neisseria meningitidis strain AUSMDU00005726 chromosome, complete genome	direct
+NZ_CP045961.1	NZ_CP045961.1	1776843392	SAMN13191640	487	Neisseria meningitidis strain AUSMDU00010537 chromosome, complete genome	direct
+NZ_CP060280.1	NZ_CP060280.1	1897058491	SAMN15813653	487	Neisseria meningitidis strain LNP24198 chromosome, complete genome	direct
+NZ_CP064367.1	NZ_CP064367.1	2222843223	SAMN14078801	487	Neisseria meningitidis strain PartJ-Nmeningitidis-RM8376 chromosome, complete genome	direct
+NZ_CP065653.1	NZ_CP065653.1	1944945877	SAMN13450444	487	Neisseria meningitidis strain FDAARGOS_914 chromosome, complete genome	direct
+NZ_CP077603.1	NZ_CP077603.1	2059187216	SAMN19789151	487	Neisseria meningitidis strain S4 chromosome, complete genome	direct
+NZ_CP079941.1	NZ_CP079941.1	2073859399	SAMN20308719	487	Neisseria meningitidis strain C311 chromosome, complete genome	direct
+NZ_CP096117.1	NZ_CP096117.1	2802755639	SAMN27655701	487	Neisseria meningitidis strain DFS-1910310016 chromosome, complete genome	direct
+NZ_CP136807.1	NZ_CP136807.1	2728358850	SAMN37851227	1172206	Neisseria meningitidis NMB chromosome, complete genome	direct
+NZ_CP137529.1	NZ_CP137529.1	2728368588	SAMN37851750	487	Neisseria meningitidis strain EXNM666 chromosome, complete genome	direct
+NZ_CP137530.1	NZ_CP137530.1	2728318173	SAMN37851751	487	Neisseria meningitidis strain EXNM678 chromosome, complete genome	direct
+NZ_CP137531.1	NZ_CP137531.1	2728310571	SAMN37851752	487	Neisseria meningitidis strain EXNM741 chromosome, complete genome	direct
+NZ_CP141618.1	NZ_CP141618.1	3002510563	SAMN38924147	487	Neisseria meningitidis strain SL-21-03 chromosome, complete genome	direct
+NZ_CP141619.1	NZ_CP141619.1	3002510633	SAMN38924147	487	Neisseria meningitidis strain SL-21-03 plasmid pSL-21-03-1, complete sequence	direct
+NZ_CP141620.1	NZ_CP141620.1	3002573818	SAMN38924146	487	Neisseria meningitidis strain SL-20-10 chromosome, complete genome	direct
+NZ_CP141621.1	NZ_CP141621.1	3002631844	SAMN38924145	487	Neisseria meningitidis strain NX-23-21 chromosome, complete genome	direct
+NZ_CP141622.1	NZ_CP141622.1	3002631947	SAMN38924145	487	Neisseria meningitidis strain NX-23-21 plasmid pNX-23-21, complete sequence	direct
+NZ_CP141623.1	NZ_CP141623.1	3002542921	SAMN38924144	487	Neisseria meningitidis strain NX-21-82 chromosome, complete genome	direct
+NZ_CP141624.1	NZ_CP141624.1	3002503702	SAMN38924143	487	Neisseria meningitidis strain NX-21-17 chromosome, complete genome	direct
+NZ_CP185855.1	NZ_CP185855.1	2949218630	SAMN47379534	487	Neisseria meningitidis strain C230102 chromosome, complete genome	direct
+NZ_CP185858.1	NZ_CP185858.1	2949463603	SAMN47379564	487	Neisseria meningitidis strain X230103 chromosome, complete genome	direct
+NZ_CP197439.1	NZ_CP197439.1	3047380584	SAMN50577966	487	Neisseria meningitidis strain QH02 chromosome, complete genome	direct
+NZ_CP197440.1	NZ_CP197440.1	3047462657	SAMN50577968	487	Neisseria meningitidis strain QH04 chromosome, complete genome	direct
+NZ_CP197441.1	NZ_CP197441.1	3047462671	SAMN50577969	487	Neisseria meningitidis strain QH05 chromosome, complete genome	direct
+NZ_CP197442.1	NZ_CP197442.1	3047453206	SAMN50577970	487	Neisseria meningitidis strain QH06 chromosome, complete genome	direct
+NZ_CP197443.1	NZ_CP197443.1	3047462680	SAMN50577972	487	Neisseria meningitidis strain QH08 chromosome, complete genome	direct
+NZ_CP197444.1	NZ_CP197444.1	3047383861	SAMN50577973	487	Neisseria meningitidis strain QH09 chromosome, complete genome	direct
+NZ_CP197445.1	NZ_CP197445.1	3047462916	SAMN50577974	487	Neisseria meningitidis strain QH10 chromosome, complete genome	direct
+NZ_CP197446.1	NZ_CP197446.1	3047462648	SAMN50577975	487	Neisseria meningitidis strain QH11 chromosome, complete genome	direct
+NZ_CP197447.1	NZ_CP197447.1	3047462920	SAMN50577976	487	Neisseria meningitidis strain QH12 chromosome, complete genome	direct
+NZ_CP197448.1	NZ_CP197448.1	3047453852	SAMN50577977	487	Neisseria meningitidis strain QH13 chromosome, complete genome	direct
+NZ_CP197449.1	NZ_CP197449.1	3047380581	SAMN50577965	487	Neisseria meningitidis strain QH01 chromosome, complete genome	direct
+NZ_CP197450.1	NZ_CP197450.1	3047462924	SAMN50577967	487	Neisseria meningitidis strain QH03 chromosome, complete genome	direct
+NZ_CP197451.1	NZ_CP197451.1	3047462913	SAMN50577971	487	Neisseria meningitidis strain QH07 chromosome, complete genome	direct
+NZ_LR134522.1	NZ_LR134522.1	1545200131	SAMEA104307687	487	Neisseria meningitidis strain NCTC3372 chromosome 1, complete sequence	direct
+NZ_LR134525.1	LR134525.1	1540272469	SAMEA104307683	487	Neisseria meningitidis strain NCTC10025 genome assembly, chromosome: 1	alias:LR134525.1
+NZ_LR134526.1	NZ_LR134526.1	1545245320	SAMEA104307689	487	Neisseria meningitidis strain NCTC10026 chromosome 1, complete sequence	direct
+NZ_LR134528.1	NZ_LR134528.1	1545244587	SAMEA104307690	487	Neisseria meningitidis strain NCTC12163 chromosome 1, complete sequence	direct

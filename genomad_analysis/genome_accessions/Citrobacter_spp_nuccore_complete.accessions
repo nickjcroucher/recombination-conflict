@@ -1,0 +1,1435 @@
+query_accession	resolved_accession	uid	biosample	taxid	title	resolved_from
+AP026940.1	AP026940.1	2320640045	SAMD00515064	546	Citrobacter freundii CF20-4P-1 DNA, complete genome	direct
+AP026941.1	AP026941.1	2320644595	SAMD00515064	546	Citrobacter freundii CF20-4P-1 plasmid pCF20-4P-1-1 DNA, complete sequence	direct
+AP026942.1	AP026942.1	2320644943	SAMD00515064	546	Citrobacter freundii CF20-4P-1 plasmid pCF20-4P-1-2 DNA, complete sequence	direct
+AP026943.1	AP026943.1	2320645120	SAMD00515064	546	Citrobacter freundii CF20-4P-1 plasmid pCF20-4P-1-3 DNA, complete sequence	direct
+AP026944.1	AP026944.1	2320645246	SAMD00515064	546	Citrobacter freundii CF20-4P-1 plasmid pCF20-4P-1-4 DNA, complete sequence	direct
+AP028314.1	AP028314.1	2615983229	SAMD00622803	546	Citrobacter freundii OIPH-N330 DNA, complete genome	direct
+AP028315.1	AP028315.1	2615988655	SAMD00622803	546	Citrobacter freundii OIPH-N330 plasmid pN330-1 DNA, complete sequence	direct
+AP028316.1	AP028316.1	2615989090	SAMD00622803	546	Citrobacter freundii OIPH-N330 plasmid pN330-2 DNA, complete sequence	direct
+AP028317.1	AP028317.1	2615990191	SAMD00622804	546	Citrobacter freundii OIPH-N354 DNA, complete genome	direct
+AP028318.1	AP028318.1	2615995544	SAMD00622804	546	Citrobacter freundii OIPH-N354 plasmid pN354-1 DNA, complete sequence	direct
+AP028319.1	AP028319.1	2615995966	SAMD00622804	546	Citrobacter freundii OIPH-N354 plasmid pN354-2 DNA, complete sequence	direct
+CM129628.1	CM129628.1	3070189936	SAMN50449480	546	Citrobacter freundii strain 91_KPC2_Oxa-48_1024 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM129629.1	CM129629.1	3070189937	SAMN50449478	546	Citrobacter freundii strain 91_KPC2_Oxa-48_0325a chromosome, complete sequence, whole genome shotgun sequence	direct
+CM129630.1	CM129630.1	3070189938	SAMN50449477	546	Citrobacter freundii strain 91_KPC2_Oxa-48_0924 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM129631.1	CM129631.1	3070189939	SAMN50449475	546	Citrobacter freundii strain 91_KPCOxa48_0324 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM129778.1	CM129778.1	3071705968	SAMN10435572	546	Citrobacter freundii strain CB00028 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM130063.1	CM130063.1	3103822472	SAMN52951556	546	Citrobacter freundii strain MAS5905 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM132284.1	NZ_CM132284.1	3124147098	SAMN51335551	546	Citrobacter freundii strain 16AR1712 chromosome, whole genome shotgun sequence	alias:NZ_CM132284.1
+CM133240.1	CM133240.1	3131806469	SAMN53363810	546	Citrobacter freundii strain WDS chromosome, complete sequence, whole genome shotgun sequence	direct
+CP011603.1	CP011603.1	828939380	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-1916, complete sequence	direct
+CP011604.1	CP011604.1	828939384	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-3223, complete sequence	direct
+CP011605.1	CP011605.1	828939390	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-3820, complete sequence	direct
+CP011606.1	CP011606.1	828939395	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-4310, complete sequence	direct
+CP011607.1	CP011607.1	828939401	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-4938, complete sequence	direct
+CP011608.1	CP011608.1	828939407	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pKPC_CAV1321-45, complete sequence	direct
+CP011609.1	CP011609.1	828939458	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-71, complete sequence	direct
+CP011610.1	CP011610.1	828939549	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-135, complete sequence	direct
+CP011611.1	CP011611.1	828939693	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pKPC_CAV1321-244, complete sequence	direct
+CP011612.1	CP011612.1	828940051	SAMN03733741	546	Citrobacter freundii strain CAV1321, complete genome	direct
+CP011651.1	CP011651.1	828982636	SAMN03733754	546	Citrobacter freundii strain CAV1741 plasmid pCAV1741-1916, complete sequence	direct
+CP011652.1	CP011652.1	828982639	SAMN03733754	546	Citrobacter freundii strain CAV1741 plasmid pCAV1741-3223, complete sequence	direct
+CP011653.1	CP011653.1	828982645	SAMN03733754	546	Citrobacter freundii strain CAV1741 plasmid pCAV1741-16, complete sequence	direct
+CP011654.1	CP011654.1	828982668	SAMN03733754	546	Citrobacter freundii strain CAV1741 plasmid pCAV1741-101, complete sequence	direct
+CP011655.1	CP011655.1	828982776	SAMN03733754	546	Citrobacter freundii strain CAV1741 plasmid pCAV1741-110, complete sequence	direct
+CP011656.1	CP011656.1	828982914	SAMN03733754	546	Citrobacter freundii strain CAV1741 plasmid pKPC_CAV1741, complete sequence	direct
+CP011657.1	CP011657.1	828983113	SAMN03733754	546	Citrobacter freundii strain CAV1741, complete genome	direct
+CP016762.1	CP016762.1	1050862732	SAMN05464624	546	Citrobacter freundii strain B38, complete sequence	direct
+CP016763.1	CP016763.1	1050862341	SAMN05464624	546	Citrobacter freundii strain B38 plasmid pOZ172, complete sequence	direct
+CP016764.1	CP016764.1	1050862454	SAMN05464624	546	Citrobacter freundii strain B38 plasmid pOZ181, complete sequence	direct
+CP016765.1	CP016765.1	1050867607	SAMN05464624	546	Citrobacter freundii strain B38 plasmid pOZ182, complete sequence	direct
+CP016952.1	CP016952.1	1061489863	SAMN05570461	546	Citrobacter freundii strain SL151 chromosome, complete genome	direct
+CP017058.1	CP017058.1	1061494498	SAMN05570461	546	Citrobacter freundii strain SL151 plasmid unnamed1, complete sequence	direct
+CP017059.1	CP017059.1	1061494762	SAMN05570461	546	Citrobacter freundii strain SL151 plasmid unnamed2, complete sequence	direct
+CP022151.1	CP022151.1	1213435705	SAMN07260758	546	Citrobacter freundii strain 705SK3 chromosome, complete genome	direct
+CP022152.1	CP022152.1	1213440668	SAMN07260758	546	Citrobacter freundii strain 705SK3 plasmid p705SK3_1, complete sequence	direct
+CP022153.1	CP022153.1	1213440996	SAMN07260758	546	Citrobacter freundii strain 705SK3 plasmid p705SK3_2, complete sequence	direct
+CP022273.1	CP022273.1	1214731596	SAMN07280739	546	Citrobacter freundii strain 18-1 chromosome, complete genome	direct
+CP022274.1	CP022274.1	1214736398	SAMN07280739	546	Citrobacter freundii strain 18-1 plasmid pA18-1, complete sequence	direct
+CP022275.1	CP022275.1	1214736570	SAMN07280739	546	Citrobacter freundii strain 18-1 plasmid pBKPC18-1, complete sequence	direct
+CP022276.1	CP022276.1	1214736718	SAMN07280739	546	Citrobacter freundii strain 18-1 plasmid pCKPC18-1, complete sequence	direct
+CP022277.1	CP022277.1	1214736767	SAMN07280739	546	Citrobacter freundii strain 18-1 plasmid pD18-1, complete sequence	direct
+CP024672.1	CP024672.1	1491999929	SAMN07729552	546	Citrobacter freundii strain HM38 chromosome, complete genome	direct
+CP024673.1	CP024673.1	1491995148	SAMN07729551	546	Citrobacter freundii strain UMH19 chromosome, complete genome	direct
+CP024674.1	CP024674.1	1491999862	SAMN07729551	546	Citrobacter freundii strain UMH19 plasmid pUMH19, complete sequence	direct
+CP024677.1	CP024677.1	1491980971	SAMN07729548	546	Citrobacter freundii strain UMH16 chromosome, complete genome	direct
+CP024678.1	CP024678.1	1491985862	SAMN07729548	546	Citrobacter freundii strain UMH16 plasmid pUMH16, complete sequence	direct
+CP024679.1	CP024679.1	1491975918	SAMN07729547	546	Citrobacter freundii strain UMH15 chromosome, complete genome	direct
+CP024680.1	NZ_CP024680.1	1493909211	SAMN07729546	546	Citrobacter freundii strain UMH14 chromosome, complete genome	alias:NZ_CP024680.1
+CP024681.1	NZ_CP024681.1	1493909239	SAMN07729546	546	Citrobacter freundii strain UMH14 plasmid pUMH14_1, complete sequence	alias:NZ_CP024681.1
+CP024682.1	CP024682.1	1491975834	SAMN07729546	546	Citrobacter freundii strain UMH14 plasmid pUMH14_2, complete sequence	direct
+CP024683.1	CP024683.1	1491966634	SAMN07729545	546	Citrobacter freundii strain UMH13 chromosome, complete genome	direct
+CP024881.1	CP024881.1	1279993343	SAMN04014863	546	Citrobacter freundii strain AR_0022, complete genome	direct
+CP024882.1	CP024882.1	1279997916	SAMN04014863	546	Citrobacter freundii strain AR_0022 plasmid unitig_1_pilon, complete sequence	direct
+CP026056.1	CP026056.1	1336530499	SAMN02934525	546	Citrobacter freundii strain FDAARGOS_73 chromosome, complete genome	direct
+CP026057.1	CP026057.1	1336535242	SAMN02934525	546	Citrobacter freundii strain FDAARGOS_73 plasmid unnamed1, complete sequence	direct
+CP026058.1	CP026058.1	1336535317	SAMN02934525	546	Citrobacter freundii strain FDAARGOS_73 plasmid unnamed2, complete sequence	direct
+CP032179.1	CP032179.1	1476633840	NA	NA	NA	direct
+CP032180.1	CP032180.1	1476634122	SAMN04014957	546	Citrobacter freundii strain AR_0116 plasmid unnamed2, complete sequence	direct
+CP032181.1	CP032181.1	1476634269	SAMN04014957	546	Citrobacter freundii strain AR_0116 plasmid unnamed3, complete sequence	direct
+CP032182.1	CP032182.1	1476634363	SAMN04014957	546	Citrobacter freundii strain AR_0116 plasmid unnamed4, complete sequence	direct
+CP032183.1	CP032183.1	1476634428	SAMN04014957	546	Citrobacter freundii strain AR_0116 plasmid unnamed5, complete sequence	direct
+CP032184.1	CP032184.1	1476634579	SAMN04014957	546	Citrobacter freundii strain AR_0116 chromosome, complete genome	direct
+CP033742.1	CP033742.1	1518953630	SAMN10163243	546	Citrobacter freundii strain FDAARGOS_550 chromosome, complete genome	direct
+CP033743.1	CP033743.1	1518976571	NA	NA	NA	direct
+CP033744.1	NZ_CP033744.1	1520496619	SAMN10163242	546	Citrobacter freundii strain FDAARGOS_549 chromosome, complete genome	alias:NZ_CP033744.1
+CP035276.1	CP035276.1	1561314388	SAMN10754625	546	Citrobacter freundii strain R17 chromosome, complete genome	direct
+CP035277.1	CP035277.1	1561319158	SAMN10754625	546	Citrobacter freundii strain R17 plasmid pCFR17_1, complete sequence	direct
+CP037734.1	CP037734.1	1590069069	SAMN11055879	546	Citrobacter freundii strain CAV1857 chromosome, complete genome	direct
+CP037735.1	CP037735.1	1590073872	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pCAV1857-208, complete sequence	direct
+CP037736.1	CP037736.1	1590074152	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pCAV1857-105, complete sequence	direct
+CP037737.1	CP037737.1	1590074277	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pKPC_CAV1857-85, complete sequence	direct
+CP037738.1	CP037738.1	1590074384	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pCAV1857-47, complete sequence	direct
+CP037739.1	CP037739.1	1590074450	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pKPC_CAV1857-43, complete sequence	direct
+CP037740.1	CP037740.1	1590074498	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pCAV1857-3223, complete sequence	direct
+CP037741.1	CP037741.1	1590074506	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pCAV1857-1916, complete sequence	direct
+CP038653.1	CP038653.1	1775822065	SAMN11287982	546	Citrobacter freundii strain 154 chromosome, complete genome	direct
+CP038654.1	CP038654.1	1775826939	SAMN11287982	546	Citrobacter freundii strain 154 plasmid p154_1, complete sequence	direct
+CP038655.1	CP038655.1	1775827256	SAMN11287982	546	Citrobacter freundii strain 154 plasmid p154_2, complete sequence	direct
+CP038656.1	CP038656.1	1775827263	SAMN11288321	546	Citrobacter freundii strain 565 chromosome, complete genome	direct
+CP038657.1	CP038657.1	1775832217	SAMN11288321	546	Citrobacter freundii strain 565 plasmid p565_1, complete sequence	direct
+CP038658.1	CP038658.1	1775832490	SAMN11288343	546	Citrobacter freundii strain 680 chromosome, complete genome	direct
+CP038659.1	CP038659.1	1775837411	SAMN11288343	546	Citrobacter freundii strain 680 plasmid p680_1, complete sequence	direct
+CP038660.1	CP038660.1	1775837844	SAMN11288343	546	Citrobacter freundii strain 680 plasmid p680_2, complete sequence	direct
+CP040696.1	CP040696.1	1678174928	SAMN11845725	546	Citrobacter freundii strain R47 plasmid pR47-309, complete sequence	direct
+CP040697.1	CP040697.1	1678175254	SAMN11845725	546	Citrobacter freundii strain R47 plasmid pR47-54, complete sequence	direct
+CP040698.1	CP040698.1	1678175325	SAMN11845725	546	Citrobacter freundii strain R47 chromosome R47, complete sequence	direct
+CP042478.1	CP042478.1	1758899915	SAMN12289284	546	Citrobacter freundii strain C50 chromosome, complete genome	direct
+CP042479.1	CP042479.1	1758905259	SAMN12289284	546	Citrobacter freundii strain C50 plasmid pC50_001, complete sequence	direct
+CP042480.1	CP042480.1	1758905691	SAMN12289284	546	Citrobacter freundii strain C50 plasmid pC50_002, complete sequence	direct
+CP042517.1	CP042517.1	1758913899	SAMN12289346	546	Citrobacter freundii strain E33 chromosome, complete genome	direct
+CP042518.1	CP042518.1	1758919297	SAMN12289346	546	Citrobacter freundii strain E33 plasmid pE33_001, complete sequence	direct
+CP042519.1	NZ_CP042519.1	1762069862	SAMN12289346	546	Citrobacter freundii strain E33 plasmid pE33_002, complete sequence	alias:NZ_CP042519.1
+CP042524.1	CP042524.1	1758989199	SAMN12289395	546	Citrobacter freundii strain E11 chromosome, complete genome	direct
+CP042525.1	CP042525.1	1758994053	SAMN12289395	546	Citrobacter freundii strain E11 plasmid pE11_001, complete sequence	direct
+CP042526.1	CP042526.1	1758994411	SAMN12289395	546	Citrobacter freundii strain E11 plasmid pE11_002, complete sequence	direct
+CP042527.1	CP042527.1	1758994530	SAMN12289395	546	not circularized	direct
+CP042528.1	CP042528.1	1758994557	SAMN12289395	546	Citrobacter freundii strain E11 plasmid pE11_004, complete sequence	direct
+CP042529.1	CP042529.1	1758994567	SAMN12289395	546	Citrobacter freundii strain E11 plasmid pE11_005, complete sequence	direct
+CP042534.1	CP042534.1	1759011974	SAMN12289332	546	Citrobacter freundii strain E51 chromosome, complete genome	direct
+CP042535.1	CP042535.1	1759016837	SAMN12289332	546	Citrobacter freundii strain E51 plasmid pE51_001, complete sequence	direct
+CP042536.1	CP042536.1	1759017209	SAMN12289332	546	Citrobacter freundii strain E51 plasmid pE51_002, complete sequence	direct
+CP042537.1	CP042537.1	1759017397	SAMN12289332	546	Citrobacter freundii strain E51 plasmid pE51_003, complete sequence	direct
+CP042538.1	CP042538.1	1759017514	SAMN12289332	546	Citrobacter freundii strain E51 plasmid pE51_004, complete sequence	direct
+CP042539.1	CP042539.1	1759017524	SAMN12289332	546	Citrobacter freundii strain E51 plasmid pE51_005, complete sequence	direct
+CP045726.1	CP045726.1	1995541047	SAMN13140889	546	Citrobacter freundii strain zone4 chromosome, complete genome	direct
+CP045727.1	CP045727.1	1995545546	SAMN13140889	546	Citrobacter freundii strain zone4 plasmid pACV-OXA-48, complete sequence	direct
+CP046502.1	NZ_CP046502.1	1867114727	SAMN13412315	546	Citrobacter freundii strain 111 chromosome, complete genome	alias:NZ_CP046502.1
+CP046503.1	CP046503.1	1865481596	SAMN13412315	546	Citrobacter freundii strain 111 plasmid unnamed1, complete sequence	direct
+CP046504.1	CP046504.1	1865481939	SAMN13412315	546	Citrobacter freundii strain 111 plasmid unnamed2, complete sequence	direct
+CP046505.1	CP046505.1	1865482060	SAMN13412315	546	Citrobacter freundii strain 111 plasmid unnamed3, complete sequence	direct
+CP046506.1	CP046506.1	1865482119	SAMN13412315	546	Citrobacter freundii strain 111 plasmid unnamed4, complete sequence	direct
+CP047269.1	CP047269.1	1908373012	SAMN11505996	546	Citrobacter freundii strain N16-03880 chromosome, complete genome	direct
+CP047270.1	CP047270.1	1908377953	SAMN11505996	546	Citrobacter freundii strain N16-03880 plasmid pCf3880, complete sequence	direct
+CP047273.1	CP047273.1	1890430088	SAMN11506022	546	Citrobacter freundii strain N18-04078 chromosome, complete genome	direct
+CP047274.1	CP047274.1	1890434969	SAMN11506022	546	Citrobacter freundii strain N18-04078 plasmid pCf4078, complete sequence	direct
+CP047275.1	CP047275.1	1890424942	SAMN11506036	546	Citrobacter freundii strain N18-04085 chromosome, complete genome	direct
+CP047276.1	CP047276.1	1890429769	SAMN11506036	546	Citrobacter freundii strain N18-04085 plasmid pCf4085, complete sequence	direct
+CP047279.1	CP047279.1	1890405027	SAMN11506077	546	Citrobacter freundii strain N18-04128 chromosome, complete genome	direct
+CP047280.1	CP047280.1	1890409830	SAMN11506077	546	Citrobacter freundii strain N18-04128 plasmid pCf4128, complete sequence	direct
+CP047307.1	CP047307.1	1796070913	SAMN13282750	546	Citrobacter freundii strain L75 chromosome, complete genome	direct
+CP047308.1	CP047308.1	1796075588	SAMN13282750	546	Citrobacter freundii strain L75 plasmid pCf75, complete sequence	direct
+CP047309.1	CP047309.1	1796075757	SAMN13282750	546	Citrobacter freundii strain L75 plasmid pCf76, complete sequence	direct
+CP048382.1	CP048382.1	1806841634	SAMN13951913	546	Citrobacter freundii strain 62 chromosome, complete genome	direct
+CP048383.1	CP048383.1	1806845948	SAMN13951913	546	Citrobacter freundii strain 62 plasmid p6_A, complete sequence	direct
+CP048384.1	CP048384.1	1806846189	SAMN13951913	546	Citrobacter freundii strain 62 plasmid p6_B, complete sequence	direct
+CP048385.1	CP048385.1	1806846403	SAMN13951913	546	Citrobacter freundii strain 62 plasmid p6_C, complete sequence	direct
+CP048416.1	CP048416.1	1841764915	SAMN13978991	546	Citrobacter freundii strain CitB chromosome, complete genome	direct
+CP048417.1	CP048417.1	1841769305	SAMN13978991	546	Citrobacter freundii strain CitB plasmid pA_CitB, complete sequence	direct
+CP048418.1	CP048418.1	1841769435	SAMN13978991	546	Citrobacter freundii strain CitB plasmid pB_CitB, complete sequence	direct
+CP049015.1	CP049015.1	1818835183	SAMN14128751	1006003	Citrobacter freundii ATCC 8090 = MTCC 1658 = NBRC 12681 strain ATCC 8090 chromosome, complete genome	direct
+CP054278.1	CP054278.1	1888362621	SAMN15086848	546	Citrobacter freundii strain IDR1900015725-01-02 chromosome, complete genome	direct
+CP054279.1	CP054279.1	1888367194	SAMN15086848	546	Citrobacter freundii strain IDR1900015725-01-02 plasmid p4C141, complete sequence	direct
+CP054280.1	CP054280.1	1888367327	SAMN15086848	546	Citrobacter freundii strain IDR1900015725-01-02 plasmid p4C109, complete sequence	direct
+CP054281.1	CP054281.1	1888367433	SAMN15086848	546	Citrobacter freundii strain IDR1900015725-01-02 plasmid p4C12, complete sequence	direct
+CP054294.1	CP054294.1	1888382225	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 chromosome, complete genome	direct
+CP054295.1	CP054295.1	1888386837	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 plasmid p1C157, complete sequence	direct
+CP054296.1	CP054296.1	1888386988	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 plasmid p1C73, complete sequence	direct
+CP054297.1	CP054297.1	1888387056	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 plasmid p1C44, complete sequence	direct
+CP054298.1	NZ_CP054298.1	1890108331	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 plasmid p1C9, complete sequence	alias:NZ_CP054298.1
+CP054299.1	CP054299.1	1888387110	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 plasmid p1C4, complete sequence	direct
+CP054300.1	CP054300.1	1888387115	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 plasmid p1C2, complete sequence	direct
+CP055247.1	CP055247.1	1861270058	SAMN13737474	546	Citrobacter freundii strain ZY198 chromosome, complete genome	direct
+CP055248.1	CP055248.1	1861274633	SAMN13737474	546	Citrobacter freundii strain ZY198 plasmid pZY-1, complete sequence	direct
+CP055249.1	CP055249.1	1861274730	SAMN13737474	546	Citrobacter freundii strain ZY198 plasmid pZY-2, complete sequence	direct
+CP055250.1	CP055250.1	1861274893	SAMN13737474	546	Citrobacter freundii strain ZY198 plasmid pZY-NDM1, complete sequence	direct
+CP055421.1	CP055421.1	1878816615	SAMN15148721	546	Citrobacter freundii strain RHBSTW-00862 chromosome, complete genome	direct
+CP055422.1	CP055422.1	1878821208	SAMN15148721	546	Citrobacter freundii strain RHBSTW-00862 plasmid pRHBSTW-00862_2, complete sequence	direct
+CP055423.1	CP055423.1	1878821549	SAMN15148721	546	Citrobacter freundii strain RHBSTW-00862 plasmid unnamed	direct
+CP055424.1	CP055424.1	1878821602	SAMN15148721	546	Citrobacter freundii strain RHBSTW-00862 plasmid pRHBSTW-00862_4, complete sequence	direct
+CP055425.1	CP055425.1	1878821619	SAMN15148721	546	Citrobacter freundii strain RHBSTW-00862 plasmid pRHBSTW-00862_5, complete sequence	direct
+CP055582.1	CP055582.1	1878660634	NA	NA	NA	direct
+CP055583.1	CP055583.1	1878665383	SAMN15148491	546	Citrobacter freundii strain RHBSTW-00110 plasmid pRHBSTW-00110_2, complete sequence	direct
+CP055584.1	CP055584.1	1878665734	SAMN15148491	546	Citrobacter freundii strain RHBSTW-00110 plasmid pRHBSTW-00110_3, complete sequence	direct
+CP055585.1	CP055585.1	1878665792	SAMN15148491	546	Citrobacter freundii strain RHBSTW-00110 plasmid unnamed	direct
+CP055586.1	CP055586.1	1878665848	SAMN15148491	546	Citrobacter freundii strain RHBSTW-00110 plasmid pRHBSTW-00110_5, complete sequence	direct
+CP055587.1	CP055587.1	1878665866	SAMN15148491	546	Citrobacter freundii strain RHBSTW-00110 plasmid pRHBSTW-00110_6, complete sequence	direct
+CP055588.1	CP055588.1	1878650504	SAMN15148477	546	Citrobacter freundii strain RHBSTW-00084 chromosome, complete genome	direct
+CP055589.1	CP055589.1	1878655156	SAMN15148477	546	Citrobacter freundii strain RHBSTW-00084 plasmid pRHBSTW-00084_2, complete sequence	direct
+CP055590.1	CP055590.1	1878655501	SAMN15148477	546	Citrobacter freundii strain RHBSTW-00084 plasmid unnamed	direct
+CP055591.1	CP055591.1	1878655554	SAMN15148477	546	Citrobacter freundii strain RHBSTW-00084 plasmid pRHBSTW-00084_4, complete sequence	direct
+CP055592.1	CP055592.1	1878655571	SAMN15148477	546	Citrobacter freundii strain RHBSTW-00084 plasmid pRHBSTW-00084_5, complete sequence	direct
+CP056181.1	CP056181.1	1880585902	SAMN15148768	546	Citrobacter freundii strain RHBSTW-01016 chromosome, complete genome	direct
+CP056182.1	CP056182.1	1880590545	SAMN15148768	546	Citrobacter freundii strain RHBSTW-01016 plasmid pRHBSTW-01016_2, complete sequence	direct
+CP056183.1	CP056183.1	1880590859	SAMN15148768	546	Citrobacter freundii strain RHBSTW-01016 plasmid pRHBSTW-01016_3, complete sequence	direct
+CP056184.1	CP056184.1	1880590866	SAMN15148768	546	Citrobacter freundii strain RHBSTW-01016 plasmid pRHBSTW-01016_4, complete sequence	direct
+CP056208.1	CP056208.1	1880551593	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 chromosome, complete genome	direct
+CP056209.1	CP056209.1	1880556011	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_2, complete sequence	direct
+CP056210.1	CP056210.1	1880556328	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_3, complete sequence	direct
+CP056211.1	CP056211.1	1880556424	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_4, complete sequence	direct
+CP056212.1	CP056212.1	1880556477	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_5, complete sequence	direct
+CP056213.1	CP056213.1	1880556494	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_6, complete sequence	direct
+CP056214.1	CP056214.1	1880556506	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_7, complete sequence	direct
+CP056215.1	CP056215.1	1880556515	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_8, complete sequence	direct
+CP056232.1	CP056232.1	1879651301	SAMN15148753	546	Citrobacter freundii strain RHBSTW-00965 chromosome, complete genome	direct
+CP056233.1	CP056233.1	1879655993	SAMN15148753	546	Citrobacter freundii strain RHBSTW-00965 plasmid pRHBSTW-00965_2, complete sequence	direct
+CP056234.1	CP056234.1	1879656356	SAMN15148753	546	Citrobacter freundii strain RHBSTW-00965 plasmid pRHBSTW-00965_3, complete sequence	direct
+CP056235.1	CP056235.1	1879656365	SAMN15148750	546	Citrobacter freundii strain RHBSTW-00942 chromosome, complete genome	direct
+CP056236.1	CP056236.1	1879661230	SAMN15148750	546	Citrobacter freundii strain RHBSTW-00942 plasmid pRHBSTW-00942_2, complete sequence	direct
+CP056238.1	CP056238.1	1879665967	SAMN15148747	546	Citrobacter freundii strain RHBSTW-00935 chromosome, complete genome	direct
+CP056239.1	CP056239.1	1879670633	SAMN15148747	546	Citrobacter freundii strain RHBSTW-00935 plasmid pRHBSTW-00935_2, complete sequence	direct
+CP056240.1	CP056240.1	1879670820	SAMN15148747	546	Citrobacter freundii strain RHBSTW-00935 plasmid pRHBSTW-00935_3, complete sequence	direct
+CP056241.1	CP056241.1	1879670950	SAMN15148747	546	Citrobacter freundii strain RHBSTW-00935 plasmid pRHBSTW-00935_4, complete sequence	direct
+CP056245.1	CP056245.1	1879688903	SAMN15148742	546	Citrobacter freundii strain RHBSTW-00915 chromosome, complete genome	direct
+CP056246.1	CP056246.1	1879693519	SAMN15148742	546	Citrobacter freundii strain RHBSTW-00915 plasmid pRHBSTW-00915_2, complete sequence	direct
+CP056247.1	CP056247.1	1879693702	SAMN15148742	546	Citrobacter freundii strain RHBSTW-00915 plasmid pRHBSTW-00915_3, complete sequence	direct
+CP056256.1	CP056256.1	1879707849	SAMN15148736	546	Citrobacter freundii strain RHBSTW-00902 chromosome, complete genome	direct
+CP056257.1	CP056257.1	1879712523	SAMN15148736	546	Citrobacter freundii strain RHBSTW-00902 plasmid pRHBSTW-00902_2, complete sequence	direct
+CP056258.1	CP056258.1	1879712710	SAMN15148736	546	Citrobacter freundii strain RHBSTW-00902 plasmid pRHBSTW-00902_3, complete sequence	direct
+CP056259.1	CP056259.1	1879712840	SAMN15148736	546	Citrobacter freundii strain RHBSTW-00902 plasmid pRHBSTW-00902_4, complete sequence	direct
+CP056314.1	CP056314.1	1879812730	SAMN15148707	546	Citrobacter freundii strain RHBSTW-00830 chromosome, complete genome	direct
+CP056336.1	CP056336.1	1879958146	SAMN15148687	546	Citrobacter freundii strain RHBSTW-00697 chromosome, complete genome	direct
+CP056337.1	CP056337.1	1879962795	SAMN15148687	546	Citrobacter freundii strain RHBSTW-00697 plasmid pRHBSTW-00697_2, complete sequence	direct
+CP056338.1	CP056338.1	1879963142	SAMN15148687	546	Citrobacter freundii strain RHBSTW-00697 plasmid pRHBSTW-00697_3, complete sequence	direct
+CP056339.1	CP056339.1	1879963265	SAMN15148687	546	Citrobacter freundii strain RHBSTW-00697 plasmid pRHBSTW-00697_4, complete sequence	direct
+CP056340.1	CP056340.1	1879963285	SAMN15148687	546	Citrobacter freundii strain RHBSTW-00697 plasmid pRHBSTW-00697_5, complete sequence	direct
+CP056365.1	CP056365.1	1879978703	SAMN15148674	546	Citrobacter freundii strain RHBSTW-00658 chromosome, complete genome	direct
+CP056366.1	CP056366.1	1879983340	SAMN15148674	546	Citrobacter freundii strain RHBSTW-00658 plasmid pRHBSTW-00658_2, complete sequence	direct
+CP056367.1	CP056367.1	1879983434	SAMN15148674	546	Citrobacter freundii strain RHBSTW-00658 plasmid pRHBSTW-00658_3, complete sequence	direct
+CP056368.1	CP056368.1	1879983446	SAMN15148674	546	Citrobacter freundii strain RHBSTW-00658 plasmid pRHBSTW-00658_4, complete sequence	direct
+CP056369.1	CP056369.1	1879983456	SAMN15148674	546	Citrobacter freundii strain RHBSTW-00658 plasmid pRHBSTW-00658_5, complete sequence	direct
+CP056451.1	CP056451.1	1880514541	SAMN15148638	546	Citrobacter freundii strain RHBSTW-00502 chromosome, complete genome	direct
+CP056452.1	NA	NA	NA	NA	NA	no_uid
+CP056466.1	CP056466.1	1880233081	SAMN15148631	546	Citrobacter freundii strain RHBSTW-00486 chromosome, complete genome	direct
+CP056467.1	CP056467.1	1880237730	SAMN15148631	546	Citrobacter freundii strain RHBSTW-00486 plasmid pRHBSTW-00486_2, complete sequence	direct
+CP056468.1	CP056468.1	1880237781	SAMN15148631	546	Citrobacter freundii strain RHBSTW-00486 plasmid pRHBSTW-00486_3, complete sequence	direct
+CP056469.1	CP056469.1	1880237787	SAMN15148631	546	Citrobacter freundii strain RHBSTW-00486 plasmid pRHBSTW-00486_4, complete sequence	direct
+CP056505.1	CP056505.1	1880227956	SAMN15148618	546	Citrobacter freundii strain RHBSTW-00449 chromosome, complete genome	direct
+CP056506.1	CP056506.1	1880232811	SAMN15148618	546	Citrobacter freundii strain RHBSTW-00449 plasmid pRHBSTW-00449_2, complete sequence	direct
+CP056507.1	CP056507.1	1880232960	SAMN15148618	546	Citrobacter freundii strain RHBSTW-00449 plasmid pRHBSTW-00449_3, complete sequence	direct
+CP056527.1	CP056527.1	1880237790	SAMN15148611	546	Citrobacter freundii strain RHBSTW-00435 chromosome, complete genome	direct
+CP056528.1	CP056528.1	1880237791	SAMN15148611	546	Citrobacter freundii strain RHBSTW-00435 plasmid pRHBSTW-00435_2, complete sequence	direct
+CP056529.1	CP056529.1	1880237792	SAMN15148611	546	Citrobacter freundii strain RHBSTW-00435 plasmid pRHBSTW-00435_3, complete sequence	direct
+CP056573.1	CP056573.1	1880013895	SAMN15148595	546	Citrobacter freundii strain RHBSTW-00370 chromosome, complete genome	direct
+CP056574.1	CP056574.1	1880018660	SAMN15148595	546	Citrobacter freundii strain RHBSTW-00370 plasmid pRHBSTW-00370_2, complete sequence	direct
+CP056575.1	CP056575.1	1880018947	SAMN15148595	546	Citrobacter freundii strain RHBSTW-00370 plasmid pRHBSTW-00370_3, complete sequence	direct
+CP056576.1	CP056576.1	1880019100	SAMN15148595	546	Citrobacter freundii strain RHBSTW-00370 plasmid pRHBSTW-00370_4, complete sequence	direct
+CP056577.1	CP056577.1	1880019225	SAMN15148595	546	Citrobacter freundii strain RHBSTW-00370 plasmid pRHBSTW-00370_5, complete sequence	direct
+CP056592.1	CP056592.1	1880288744	SAMN15148588	546	Citrobacter freundii strain RHBSTW-00350 chromosome, complete genome	direct
+CP056593.1	CP056593.1	1880293358	SAMN15148588	546	Citrobacter freundii strain RHBSTW-00350 plasmid pRHBSTW-00350_2, complete sequence	direct
+CP056595.1	CP056595.1	1880293413	SAMN15148584	546	Citrobacter freundii strain RHBSTW-00342 chromosome, complete genome	direct
+CP056596.1	CP056596.1	1880298034	SAMN15148584	546	Citrobacter freundii strain RHBSTW-00342 plasmid pRHBSTW-00342_2, complete sequence	direct
+CP056622.1	CP056622.1	1880470341	SAMN15148568	546	Citrobacter freundii strain RHBSTW-00310 chromosome, complete genome	direct
+CP056623.1	NZ_CP056623.1	1911197490	SAMN15148568	546	Citrobacter freundii strain RHBSTW-00310 plasmid pRHBSTW-00310_2, complete sequence	alias:NZ_CP056623.1
+CP056624.1	CP056624.1	1880475358	SAMN15148568	546	Citrobacter freundii strain RHBSTW-00310 plasmid pRHBSTW-00310_3, complete sequence	direct
+CP056635.1	CP056635.1	1880045823	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 chromosome, complete genome	direct
+CP056636.1	CP056636.1	1880050576	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 plasmid pRHBSTW-00302_2, complete sequence	direct
+CP056637.1	CP056637.1	1880050816	NA	NA	NA	direct
+CP056638.1	CP056638.1	1880050949	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 plasmid pRHBSTW-00302_4, complete sequence	direct
+CP056639.1	CP056639.1	1880051054	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 plasmid pRHBSTW-00302_5, complete sequence	direct
+CP056640.1	CP056640.1	1880051109	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 plasmid pRHBSTW-00302_6, complete sequence	direct
+CP056641.1	CP056641.1	1880051123	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 plasmid pRHBSTW-00302_7, complete sequence	direct
+CP056653.1	CP056653.1	1880436222	SAMN15148543	546	Citrobacter freundii strain RHBSTW-00214 chromosome, complete genome	direct
+CP056654.1	CP056654.1	1880440880	SAMN15148543	546	Citrobacter freundii strain RHBSTW-00214 plasmid pRHBSTW-00214_2, complete sequence	direct
+CP056809.1	CP056809.1	1880716079	SAMN15148520	546	Citrobacter freundii strain RHBSTW-00162 chromosome, complete genome	direct
+CP056827.1	CP056827.1	1880740090	SAMN15148506	546	Citrobacter freundii strain RHBSTW-00135 chromosome, complete genome	direct
+CP056828.1	CP056828.1	1880744829	SAMN15148506	546	Citrobacter freundii strain RHBSTW-00135 plasmid pRHBSTW-00135_2, complete sequence	direct
+CP056829.1	CP056829.1	1880745133	SAMN15148506	546	Citrobacter freundii strain RHBSTW-00135 plasmid pRHBSTW-00135_3, complete sequence	direct
+CP056839.1	CP056839.1	1880755540	SAMN15148500	546	Citrobacter freundii strain RHBSTW-00126 chromosome, complete genome	direct
+CP056840.1	CP056840.1	1880760043	SAMN15148500	546	Citrobacter freundii strain RHBSTW-00126 plasmid pRHBSTW-00126_2, complete sequence	direct
+CP056841.1	CP056841.1	1880760110	SAMN15148500	546	Citrobacter freundii strain RHBSTW-00126 plasmid pRHBSTW-00126_3, complete sequence	direct
+CP056852.1	CP056852.1	1880773899	SAMN15148495	546	Citrobacter freundii strain RHBSTW-00119 chromosome, complete genome	direct
+CP056853.1	CP056853.1	1880778457	SAMN15148495	546	Citrobacter freundii strain RHBSTW-00119 plasmid pRHBSTW-00119_2, complete sequence	direct
+CP057864.1	CP057864.1	1882325931	SAMN15148085	546	Citrobacter freundii strain RHB12-C19 chromosome, complete genome	direct
+CP057865.1	CP057865.1	1882330407	SAMN15148085	546	Citrobacter freundii strain RHB12-C19 plasmid pRHB12-C19_2, complete sequence	direct
+CP058318.1	CP058318.1	1865326416	SAMN15394190	546	Citrobacter freundii strain M92 chromosome, complete genome	direct
+CP058319.1	CP058319.1	1865331434	SAMN15394190	546	Citrobacter freundii strain M92 plasmid pM92-1, complete sequence	direct
+CP058320.1	CP058320.1	1865331763	SAMN15394190	546	Citrobacter freundii strain M92 plasmid pM92-KPC2, complete sequence	direct
+CP059427.1	CP059427.1	1881797050	NA	NA	NA	direct
+CP059428.1	CP059428.1	1881801684	SAMN15589939	546	Citrobacter freundii strain CIFR51929 plasmid p51929, complete sequence	direct
+CP059429.1	CP059429.1	1881801798	SAMN15589939	546	Citrobacter freundii strain CIFR51929 plasmid p51929_MCR_VIM, complete sequence	direct
+CP059849.1	CP059849.1	2210168428	SAMN15694748	546	Citrobacter freundii strain 3863 chromosome, complete genome	direct
+CP059850.1	CP059850.1	2210172987	SAMN15694748	546	Citrobacter freundii strain 3863 plasmid pCF3863_tetX, complete sequence	direct
+CP070538.1	CP070538.1	1994018184	SAMN16933277	546	Citrobacter freundii strain CF48846 plasmid p48846_KPC, complete sequence	direct
+CP070539.1	CP070539.1	1994018270	SAMN16933277	546	Citrobacter freundii strain CF48846 plasmid p48846_IncHI2, complete sequence	direct
+CP070540.1	CP070540.1	1994018530	SAMN16933277	546	Citrobacter freundii strain CF48846 plasmid p48846_IncFII, complete sequence	direct
+CP070541.1	CP070541.1	1994018644	NA	NA	NA	direct
+CP070542.1	CP070542.1	1994018699	SAMN16933277	546	Citrobacter freundii strain CF48846 plasmid p48846_2, complete sequence	direct
+CP070543.1	CP070543.1	1994018704	SAMN16933277	546	Citrobacter freundii strain CF48846 plasmid p48846_1, complete sequence	direct
+CP070544.1	CP070544.1	1994018770	NA	NA	NA	direct
+CP070545.1	CP070545.1	1994023342	SAMN16933282	546	Citrobacter freundii strain CF49969 plasmid p49969_KPC, complete sequence	direct
+CP070546.1	CP070546.1	1994023626	SAMN16933282	546	Citrobacter freundii strain CF49969 plasmid p49969_IncFIB, complete sequence	direct
+CP070547.1	CP070547.1	1994023752	SAMN16933282	546	Citrobacter freundii strain CF49969 plasmid p49969_2, complete sequence	direct
+CP070548.1	CP070548.1	1994023756	SAMN16933282	546	Citrobacter freundii strain CF49969 plasmid p49969_1, complete sequence	direct
+CP070549.1	CP070549.1	1994023826	NA	NA	NA	direct
+CP070554.1	CP070554.1	1994033721	SAMN16933285	546	Citrobacter freundii strain CF50935 plasmid p50935_KPC, complete sequence	direct
+CP070555.1	CP070555.1	1994033788	SAMN16933285	546	Citrobacter freundii strain CF50935 plasmid p50935_IncHI2, complete sequence	direct
+CP070556.1	CP070556.1	1994034051	SAMN16933285	546	Citrobacter freundii strain CF50935 plasmid p50935_IncFII, complete sequence	direct
+CP070557.1	CP070557.1	1994034166	SAMN16933285	546	Citrobacter freundii strain CF50935 plasmid p50935_IncC, complete sequence	direct
+CP070558.1	CP070558.1	1994034347	SAMN16933285	546	Citrobacter freundii strain CF50935 plasmid p50935_1, complete sequence	direct
+CP070559.1	CP070559.1	1994034372	SAMN16933285	546	Citrobacter freundii strain CF50935 chromosome, complete genome	direct
+CP071265.1	CP071265.1	2246658857	SAMN18062620	546	Citrobacter freundii strain MEI002 chromosome, complete genome	direct
+CP071266.1	CP071266.1	2246663347	SAMN18062620	546	Citrobacter freundii strain MEI002 plasmid p1_pMV-OXA-48, complete sequence	direct
+CP071267.1	CP071267.1	2246663425	SAMN18062620	546	Citrobacter freundii strain MEI002 plasmid p2, complete sequence	direct
+CP071268.1	CP071268.1	2246663472	SAMN18062620	546	Citrobacter freundii strain MEI002 plasmid p3, complete sequence	direct
+CP071269.1	CP071269.1	2246663478	SAMN18062620	546	Citrobacter freundii strain MEI002 plasmid p4, complete sequence	direct
+CP071270.1	CP071270.1	2246663482	SAMN18062620	546	Citrobacter freundii strain MEI002 plasmid p5_Col(pHAD28), complete sequence	direct
+CP085726.1	CP085726.1	2126601865	SAMN22377426	546	Citrobacter freundii strain 56415CZ chromosome, complete genome	direct
+CP085727.1	CP085727.1	2126606411	SAMN22377426	546	Citrobacter freundii strain 56415CZ plasmid p56415CZ_MCR_9, complete sequence	direct
+CP085728.1	CP085728.1	2126606678	SAMN22377426	546	Citrobacter freundii strain 56415CZ plasmid p56415CZ_VIM, complete sequence	direct
+CP086287.1	CP086287.1	2130620367	SAMN21601121	546	Citrobacter freundii strain DY2010 chromosome, complete genome	direct
+CP086288.1	CP086288.1	2130625072	SAMN21601121	546	Citrobacter freundii strain DY2010 plasmid unnamed1, complete sequence	direct
+CP086289.1	CP086289.1	2130625185	SAMN21601121	546	Citrobacter freundii strain DY2010 plasmid unnamed2, complete sequence	direct
+CP086290.1	CP086290.1	2130625243	SAMN21601121	546	Citrobacter freundii strain DY2010 plasmid unnamed3, complete sequence	direct
+CP092463.1	CP092463.1	2239427748	SAMN24404972	546	Citrobacter freundii strain Cf7308 chromosome, complete genome	direct
+CP092464.1	CP092464.1	2239432459	SAMN24404972	546	Citrobacter freundii strain Cf7308 plasmid pCf7308, complete sequence	direct
+CP092465.1	CP092465.1	2239432816	SAMN24404972	546	Citrobacter freundii strain Cf7308 plasmid pNDM-Cf7308, complete sequence	direct
+CP092493.1	CP092493.1	2201067396	SAMN26087385	546	Citrobacter freundii strain SCLZS47 chromosome, complete genome	direct
+CP092494.1	NZ_CP092494.1	2203206290	SAMN26087385	546	Citrobacter freundii strain SCLZS47 plasmid pKPC2_SCLZS47, complete sequence	alias:NZ_CP092494.1
+CP092495.1	CP092495.1	2201072270	SAMN26087385	546	Citrobacter freundii strain SCLZS47 plasmid pNDM1_SCLZS47, complete sequence	direct
+CP092496.1	CP092496.1	2201072335	SAMN26087385	546	Citrobacter freundii strain SCLZS47 plasmid pOXA1_SCLZS47, complete sequence	direct
+CP096921.1	CP096921.1	2422085589	SAMN28016853	546	Citrobacter freundii strain NY2385 chromosome, complete genome	direct
+CP096922.1	CP096922.1	2422090169	SAMN28016853	546	Citrobacter freundii strain NY2385 plasmid pNY2385-IMP, complete sequence	direct
+CP097106.1	CP097106.1	2236767164	SAMN28095538	546	Citrobacter freundii strain GMU8049 plasmid unnamed, complete sequence	direct
+CP097107.1	CP097107.1	2236768005	SAMN28095538	546	Citrobacter freundii strain GMU8049 chromosome, complete genome	direct
+CP098330.1	CP098330.1	2249824709	SAMN28680541	546	Citrobacter freundii strain 59174 chromosome, complete genome	direct
+CP098331.1	CP098331.1	2249829588	SAMN28680541	546	Citrobacter freundii strain 59174 plasmid p59174-43.6, complete sequence	direct
+CP098332.1	CP098332.1	2249829633	SAMN28680541	546	Citrobacter freundii strain 59174 plasmid p59174-57.6, complete sequence	direct
+CP098333.1	CP098333.1	2249829707	SAMN28680541	546	Citrobacter freundii strain 59174 plasmid p59174-80.5, complete sequence	direct
+CP098334.1	CP098334.1	2249829779	SAMN28680541	546	Citrobacter freundii strain 59174 plasmid p59174-171.4, complete sequence	direct
+CP099037.1	CP099037.1	2485221106	SAMN15488679	546	Citrobacter freundii strain RHB44-SO-C05 chromosome, complete genome	direct
+CP099128.1	CP099128.1	2484989644	SAMN15488611	546	Citrobacter freundii strain RHB31-E4-C06 chromosome, complete genome	direct
+CP099217.1	CP099217.1	2484784129	SAMN15488551	546	Citrobacter freundii strain RHB16-SO-C03 chromosome, complete genome	direct
+CP099218.1	CP099218.1	2484788899	SAMN15488551	546	Citrobacter freundii strain RHB16-SO-C03 plasmid unnamed1, complete sequence	direct
+CP099219.1	CP099219.1	2484789159	SAMN15488551	546	Citrobacter freundii strain RHB16-SO-C03 plasmid unnamed2, complete sequence	direct
+CP099291.1	CP099291.1	2484629082	SAMN15488495	546	Citrobacter freundii strain RHB03-E1-C03 chromosome, complete genome	direct
+CP099292.1	CP099292.1	2484633714	SAMN15488495	546	Citrobacter freundii strain RHB03-E1-C03 plasmid unnamed1, complete sequence	direct
+CP099293.1	CP099293.1	2484633771	SAMN15488495	546	Citrobacter freundii strain RHB03-E1-C03 plasmid unnamed2, complete sequence	direct
+CP099298.1	CP099298.1	2484601280	NA	NA	NA	direct
+CP099303.1	CP099303.1	2484587772	SAMN15488480	546	Citrobacter freundii strain RHB02-E1-C01 chromosome, complete genome	direct
+CP103365.1	CP103365.1	2293283642	SAMN30470988	546	Citrobacter freundii strain 140542 chromosome, complete genome	direct
+CP103366.1	NZ_CP103366.1	2293727007	SAMN30470988	546	Citrobacter freundii strain 140542 plasmid pNDM1_140542, complete sequence	alias:NZ_CP103366.1
+CP103367.1	CP103367.1	2293288478	SAMN30470988	546	Citrobacter freundii strain 140542 plasmid pOXA1041_140542, complete sequence	direct
+CP103368.1	CP103368.1	2293288582	SAMN30470988	546	Citrobacter freundii strain 140542 plasmid p1_140542, complete sequence	direct
+CP103369.1	CP103369.1	2293288968	SAMN30470988	546	Citrobacter freundii strain 140542 plasmid p2_140542, complete sequence	direct
+CP103370.1	CP103370.1	2293289017	SAMN30470988	546	Citrobacter freundii strain 140542 plasmid p3_140542, complete sequence	direct
+CP110775.1	CP110775.1	2504060754	SAMN31656063	546	Citrobacter freundii strain Cf-Emp chromosome, complete genome	direct
+CP110776.1	CP110776.1	2504065943	SAMN31656063	546	Citrobacter freundii strain Cf-Emp plasmid pCf-VIM, complete sequence	direct
+CP110777.1	CP110777.1	2504066186	SAMN31656063	546	Citrobacter freundii strain Cf-Emp plasmid pCf-unmd3, complete sequence	direct
+CP110778.1	CP110778.1	2504066320	SAMN31656063	546	Citrobacter freundii strain Cf-Emp plasmid pCf-KPC, complete sequence	direct
+CP110779.1	NZ_CP110779.1	2509394600	NA	NA	NA	alias:NZ_CP110779.1
+CP110780.1	CP110780.1	2504066552	SAMN31656063	546	Citrobacter freundii strain Cf-Emp plasmid pCf-OXA, complete sequence	direct
+CP110781.1	CP110781.1	2504066624	SAMN31656063	546	Citrobacter freundii strain Cf-Emp plasmid pCf-unmd7, complete sequence	direct
+CP110890.1	CP110890.1	2331117202	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-4, complete sequence	direct
+CP110891.1	CP110891.1	2331117248	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-1, complete sequence	direct
+CP110892.1	CP110892.1	2331117514	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-2, complete sequence	direct
+CP110893.1	CP110893.1	2331117738	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-5, complete sequence	direct
+CP110894.1	CP110894.1	2331117769	SAMN31693425	546	Citrobacter freundii strain CF1807 chromosome, complete genome	direct
+CP110895.1	CP110895.1	2331122582	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-6, complete sequence	direct
+CP110896.1	CP110896.1	2331122598	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-3, complete sequence	direct
+CP110897.1	CP110897.1	2331122713	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-8, complete sequence	direct
+CP110898.1	CP110898.1	2331122725	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-7, complete sequence	direct
+CP110899.1	CP110899.1	2331122735	SAMN31693662	546	Citrobacter freundii strain CF2206 plasmid pCF2206-2, complete sequence	direct
+CP110900.1	CP110900.1	2331122829	SAMN31693662	546	Citrobacter freundii strain CF2206 chromosome, complete genome	direct
+CP110901.1	CP110901.1	2331127616	SAMN31693662	546	Citrobacter freundii strain CF2206 plasmid pCF2206-6, complete sequence	direct
+CP110902.1	CP110902.1	2331127628	SAMN31693662	546	Citrobacter freundii strain CF2206 plasmid pCF2206-7, complete sequence	direct
+CP110903.1	CP110903.1	2331127634	SAMN31693662	546	Citrobacter freundii strain CF2206 plasmid pCF2206-3, complete sequence	direct
+CP110904.1	CP110904.1	2331127679	SAMN31693662	546	Citrobacter freundii strain CF2206 plasmid pCF2206-1, complete sequence	direct
+CP110905.1	CP110905.1	2331127995	SAMN31693662	546	Citrobacter freundii strain CF2206 plasmid pCF2206-5, complete sequence	direct
+CP110906.1	CP110906.1	2331128003	NA	NA	NA	direct
+CP110907.1	CP110907.1	2331128035	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-5, complete sequence	direct
+CP110908.1	CP110908.1	2331128080	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-2, complete sequence	direct
+CP110909.1	CP110909.1	2331128219	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-6, complete sequence	direct
+CP110910.1	CP110910.1	2331128250	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-8, complete sequence	direct
+CP110911.1	CP110911.1	2331128262	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-1, complete sequence	direct
+CP110912.1	CP110912.1	2331128528	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-7, complete sequence	direct
+CP110913.1	CP110913.1	2331128538	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-3, complete sequence	direct
+CP110914.1	CP110914.1	2331128632	SAMN31693747	546	Citrobacter freundii strain CFA1707 chromosome, complete genome	direct
+CP110915.1	CP110915.1	2331133438	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-4, complete sequence	direct
+CP113784.1	CP113784.1	2414072104	SAMN31929640	546	Citrobacter freundii strain CFSAN077772 chromosome, complete genome	direct
+CP113785.1	CP113785.1	2414076676	SAMN31929640	546	Citrobacter freundii strain CFSAN077772 plasmid pCFSAN077772, complete sequence	direct
+CP114564.1	CP114564.1	2417089842	SAMN32252807	546	Citrobacter freundii strain 2953647 chromosome, complete genome	direct
+CP114565.1	CP114565.1	2417094507	SAMN32252807	546	Citrobacter freundii strain 2953647 plasmid unnamed1, complete sequence	direct
+CP114566.1	CP114566.1	2417094877	SAMN32252807	546	Citrobacter freundii strain 2953647 plasmid unnamed2, complete sequence	direct
+CP114567.1	CP114567.1	2417095122	SAMN32252807	546	Citrobacter freundii strain 2953647 plasmid unnamed3, complete sequence	direct
+CP114568.1	CP114568.1	2417095248	SAMN32252807	546	Citrobacter freundii strain 2953647 plasmid unnamed4, complete sequence	direct
+CP114569.1	CP114569.1	2417095378	SAMN32252807	546	Citrobacter freundii strain 2953647 plasmid unnamed5, complete sequence	direct
+CP114570.1	CP114570.1	2417095476	SAMN32252807	546	Citrobacter freundii strain 2953647 plasmid unnamed6, complete sequence	direct
+CP115129.1	CP115129.1	2419355347	SAMN22334928	546	Citrobacter freundii strain 2021CK-01443 chromosome, complete genome	direct
+CP115130.1	CP115130.1	2419360423	SAMN22334928	546	Citrobacter freundii strain 2021CK-01443 plasmid unnamed1, complete sequence	direct
+CP115131.1	CP115131.1	2419360542	SAMN22334928	546	Citrobacter freundii strain 2021CK-01443 plasmid unnamed2, complete sequence	direct
+CP115132.1	CP115132.1	2419360606	SAMN22334928	546	Citrobacter freundii strain 2021CK-01443 plasmid unnamed3, complete sequence	direct
+CP115614.1	CP115614.1	2428410991	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 chromosome, complete genome	direct
+CP115615.1	CP115615.1	2428415654	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 plasmid unnamed1, complete sequence	direct
+CP115616.1	CP115616.1	2428416023	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 plasmid unnamed2, complete sequence	direct
+CP115617.1	CP115617.1	2428416268	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 plasmid unnamed3, complete sequence	direct
+CP115618.1	CP115618.1	2428416398	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 plasmid unnamed4, complete sequence	direct
+CP115619.1	CP115619.1	2428416495	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 plasmid unnamed5, complete sequence	direct
+CP115620.1	CP115620.1	2428416541	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 plasmid unnamed6, complete sequence	direct
+CP117475.1	CP117475.1	2593277512	SAMN33169384	546	Citrobacter freundii strain BC73 chromosome, complete genome	direct
+CP117476.1	CP117476.1	2593282283	SAMN33169384	546	Citrobacter freundii strain BC73 plasmid pCFBC1, complete sequence	direct
+CP117477.1	CP117477.1	2593282406	SAMN33169384	546	Citrobacter freundii strain BC73 plasmid pCFBC2, complete sequence	direct
+CP117478.1	CP117478.1	2593282480	NA	NA	NA	direct
+CP119048.1	CP119048.1	2510882095	SAMN33408659	546	Citrobacter freundii strain 26019 chromosome, complete genome	direct
+CP119049.1	CP119049.1	2510886922	SAMN33408659	546	Citrobacter freundii strain 26019 plasmid p26019-1, complete sequence	direct
+CP119050.1	CP119050.1	2510887079	SAMN33408659	546	Citrobacter freundii strain 26019 plasmid p26019-2, complete sequence	direct
+CP119051.1	CP119051.1	2510887350	SAMN33408659	546	Citrobacter freundii strain 26019 plasmid p26019-3, complete sequence	direct
+CP119052.1	CP119052.1	2510887389	SAMN33408659	546	Citrobacter freundii strain 26019 plasmid p26019-4, complete sequence	direct
+CP119165.1	CP119165.1	2510887475	SAMN33434147	546	Citrobacter freundii strain 2075 chromosome, complete genome	direct
+CP119166.1	CP119166.1	2510892124	SAMN33434147	546	Citrobacter freundii strain 2075 plasmid p2075-1, complete sequence	direct
+CP119167.1	CP119167.1	2510892168	SAMN33434147	546	Citrobacter freundii strain 2075 plasmid p2075-2, complete sequence	direct
+CP119168.1	CP119168.1	2510892261	SAMN33434147	546	Citrobacter freundii strain 2075 plasmid pCfr_tK-N, complete sequence	direct
+CP124809.1	CP124809.1	2504714284	SAMN14640085	546	Citrobacter freundii strain CF13 chromosome, complete genome	direct
+CP124810.1	CP124810.1	2504719004	SAMN14640085	546	Citrobacter freundii strain CF13 plasmid pOXA-48, complete sequence	direct
+CP124811.1	CP124811.1	2504719088	SAMN14640085	546	Citrobacter freundii strain CF13 plasmid unnamed1, complete sequence	direct
+CP124812.1	CP124812.1	2504719122	SAMN14640085	546	Citrobacter freundii strain CF13 plasmid unnamed2, complete sequence	direct
+CP124813.1	CP124813.1	2504698628	SAMN14640084	546	Citrobacter freundii strain CF12 chromosome, complete genome	direct
+CP124814.1	CP124814.1	2504703328	SAMN14640084	546	Citrobacter freundii strain CF12 plasmid pOXA-48, complete sequence	direct
+CP124815.1	CP124815.1	2504703412	SAMN14640084	546	Citrobacter freundii strain CF12 plasmid unnamed1, complete sequence	direct
+CP124816.1	CP124816.1	2504703468	SAMN14640084	546	Citrobacter freundii strain CF12 plasmid unnamed2, complete sequence	direct
+CP124817.1	CP124817.1	2504703502	SAMN14640084	546	Citrobacter freundii strain CF12 plasmid unnamed3, complete sequence	direct
+CP124818.1	CP124818.1	2504703509	SAMN14640084	546	Citrobacter freundii strain CF12 plasmid unnamed4, complete sequence	direct
+CP125310.1	CP125310.1	2507114339	SAMN34580837	546	Citrobacter freundii strain CF5125 chromosome, complete genome	direct
+CP125311.1	CP125311.1	2507119253	SAMN34580837	546	Citrobacter freundii strain CF5125 plasmid pCF5125-1, complete sequence	direct
+CP125312.1	CP125312.1	2507119384	SAMN34580837	546	Citrobacter freundii strain CF5125 plasmid pCF5125-2, complete sequence	direct
+CP125313.1	CP125313.1	2507119488	SAMN34580837	546	Citrobacter freundii strain CF5125 plasmid pCF5125-3, complete sequence	direct
+CP125314.1	CP125314.1	2507119583	SAMN34580837	546	Citrobacter freundii strain CF5125 plasmid pCF5125-4, complete sequence	direct
+CP126536.1	CP126536.1	2514406121	SAMN35332011	546	Citrobacter freundii strain CRNMS1 chromosome, complete genome	direct
+CP126537.1	CP126537.1	2514411135	SAMN35332011	546	Citrobacter freundii strain CRNMS1 plasmid pblaNDM5-S1, complete sequence	direct
+CP126538.1	CP126538.1	2514411363	SAMN35332011	546	Citrobacter freundii strain CRNMS1 plasmid pCRNMS1-P3, complete sequence	direct
+CP126623.1	CP126623.1	2727985835	SAMN35344983	546	Citrobacter freundii strain C11 chromosome, complete genome	direct
+CP126624.1	CP126624.1	2727990354	SAMN35344983	546	Citrobacter freundii strain C11 plasmid unnamed, complete sequence	direct
+CP126882.1	CP126882.1	2528441206	SAMN28016853	546	Citrobacter freundii strain NY2385 plasmid pNY2385-2, complete sequence	direct
+CP126883.1	CP126883.1	2528441207	SAMN28016853	546	Citrobacter freundii strain NY2385 plasmid pNY2385-KPC, complete sequence	direct
+CP128207.1	CP128207.1	2954621197	SAMN35301134	546	Citrobacter freundii strain WYM chromosome, complete genome	direct
+CP128208.1	CP128208.1	2954625956	SAMN35301134	546	Citrobacter freundii strain WYM plasmid pC.f_WYM_1, complete sequence	direct
+CP128209.1	CP128209.1	2954626254	SAMN35301134	546	Citrobacter freundii strain WYM plasmid pC.f_WYM_2, complete sequence	direct
+CP128210.1	CP128210.1	2954626353	SAMN35301134	546	Citrobacter freundii strain WYM plasmid pC.f_WYM_3, complete sequence	direct
+CP128211.1	CP128211.1	2954626457	SAMN35301134	546	Citrobacter freundii strain WYM plasmid pC.f_WYM_4, complete sequence	direct
+CP128212.1	CP128212.1	2954626531	SAMN35301134	546	Citrobacter freundii strain WYM plasmid pC.f_WYM_5, complete sequence	direct
+CP128213.1	CP128213.1	2954626551	SAMN35301134	546	Citrobacter freundii strain WYM plasmid pC.f_WYM_6, complete sequence	direct
+CP133848.1	CP133848.1	2576814849	SAMN37200065	546	Citrobacter freundii strain CF2 plasmid unnamed2, complete sequence	direct
+CP133849.1	CP133849.1	2576815174	SAMN37200065	546	Citrobacter freundii strain CF2 plasmid pCF2_OXA48, complete sequence	direct
+CP133850.1	CP133850.1	2576815258	SAMN37200065	546	Citrobacter freundii strain CF2 plasmid unnamed3, complete sequence	direct
+CP133851.1	CP133851.1	2576815263	SAMN37200065	546	Citrobacter freundii strain CF2 plasmid unnamed1, complete sequence	direct
+CP133852.1	CP133852.1	2576815294	SAMN37200065	546	Citrobacter freundii strain CF2 chromosome, complete genome	direct
+CP135450.1	CP135450.1	2587907950	SAMN37529183	546	Citrobacter freundii strain isolateL chromosome, complete genome	direct
+CP135451.1	CP135451.1	2587912579	SAMN37529183	546	Citrobacter freundii strain isolateL plasmid pIsolateL_A, complete sequence	direct
+CP135452.1	CP135452.1	2587912874	SAMN37529183	546	Citrobacter freundii strain isolateL plasmid pIsolateL_B, complete sequence	direct
+CP135453.1	CP135453.1	2587912957	SAMN37529183	546	Citrobacter freundii strain isolateL plasmid pIsolateL_C, complete sequence	direct
+CP135465.1	CP135465.1	2587868263	SAMN37529179	546	Citrobacter freundii strain isolateH chromosome, complete genome	direct
+CP135466.1	CP135466.1	2587872817	SAMN37529179	546	Citrobacter freundii strain isolateH plasmid pIsolateH_A, complete sequence	direct
+CP135467.1	CP135467.1	2587872978	SAMN37529179	546	Citrobacter freundii strain isolateH plasmid pIsolateH_B, complete sequence	direct
+CP135468.1	CP135468.1	2587873060	SAMN37529179	546	Citrobacter freundii strain isolateH plasmid pIsolateH_C, complete sequence	direct
+CP135469.1	CP135469.1	2587863241	SAMN37529178	546	Citrobacter freundii strain isolateG chromosome, complete genome	direct
+CP135470.1	CP135470.1	2587867811	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_A, complete sequence	direct
+CP135471.1	CP135471.1	2587868018	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_B, complete sequence	direct
+CP135472.1	CP135472.1	2587868148	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_C, complete sequence	direct
+CP135473.1	CP135473.1	2587868204	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_D, complete sequence	direct
+CP135474.1	CP135474.1	2587868251	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_E, complete sequence	direct
+CP135622.1	CP135622.1	2588965045	SAMN37553760	546	Citrobacter freundii strain 202212 chromosome, complete genome	direct
+CP135623.1	CP135623.1	2588969791	SAMN37553760	546	Citrobacter freundii strain 202212 plasmid pA-NDM-202212, complete sequence	direct
+CP135624.1	CP135624.1	2588970125	SAMN37553760	546	Citrobacter freundii strain 202212 plasmid pB-KPC-202212, complete sequence	direct
+CP135625.1	CP135625.1	2588970280	SAMN37553760	546	Citrobacter freundii strain 202212 plasmid pC-202212, complete sequence	direct
+CP136047.1	CP136047.1	2591097364	SAMN37599210	546	Citrobacter freundii strain CPO20180081 chromosome, complete genome	direct
+CP136048.1	CP136048.1	2591102001	SAMN37599210	546	Citrobacter freundii strain CPO20180081 plasmid pCPO20180081_1, complete sequence	direct
+CP136049.1	CP136049.1	2591102241	SAMN37599210	546	Citrobacter freundii strain CPO20180081 plasmid pCPO20180081_2, complete sequence	direct
+CP136050.1	CP136050.1	2591102419	SAMN37599210	546	Citrobacter freundii strain CPO20180081 plasmid pCPO20180081_3, complete sequence	direct
+CP137116.1	CP137116.1	2609585917	SAMN37878025	546	Citrobacter freundii strain F2119 plasmid pF2119-3, complete sequence	direct
+CP137117.1	CP137117.1	2609585994	SAMN37878025	546	Citrobacter freundii strain F2119 chromosome, complete genome	direct
+CP137118.1	CP137118.1	2609590720	SAMN37878025	546	Citrobacter freundii strain F2119 plasmid pF2119-IMP, complete sequence	direct
+CP137119.1	CP137119.1	2609590887	SAMN37878025	546	Citrobacter freundii strain F2119 plasmid pF2119-1, complete sequence	direct
+CP137120.1	CP137120.1	2609591108	SAMN37878025	546	Citrobacter freundii strain F2119 plasmid pF2119-4, complete sequence	direct
+CP137121.1	CP137121.1	2609580856	SAMN37878029	546	Citrobacter freundii strain F3021 plasmid pF3021-5, complete sequence	direct
+CP137122.1	CP137122.1	2609580860	SAMN37878029	546	Citrobacter freundii strain F3021 plasmid pF3021-IMP, complete sequence	direct
+CP137123.1	CP137123.1	2609580916	SAMN37878029	546	Citrobacter freundii strain F3021 chromosome, complete genome	direct
+CP137124.1	CP137124.1	2609585738	SAMN37878029	546	Citrobacter freundii strain F3021 plasmid pF3021-NDM, complete sequence	direct
+CP137125.1	CP137125.1	2609585803	SAMN37878029	546	Citrobacter freundii strain F3021 plasmid pF3021-1, complete sequence	direct
+CP137126.1	CP137126.1	2609585911	SAMN37878029	546	Citrobacter freundii strain F3021 plasmid pF3021-4, complete sequence	direct
+CP137127.1	CP137127.1	2609591114	SAMN37878049	546	Citrobacter freundii strain F3121 plasmid pF3121-IMP, complete sequence	direct
+CP137128.1	CP137128.1	2609591170	SAMN37878049	546	Citrobacter freundii strain F3121 chromosome, complete genome	direct
+CP137129.1	CP137129.1	2609595991	SAMN37878049	546	Citrobacter freundii strain F3121 plasmid pF3121-NDM, complete sequence	direct
+CP137130.1	CP137130.1	2609596056	SAMN37878049	546	Citrobacter freundii strain F3121 plasmid pF3121-1, complete sequence	direct
+CP137131.1	CP137131.1	2609596161	SAMN37878049	546	Citrobacter freundii strain F3121 plasmid pF3121-4, complete sequence	direct
+CP137132.1	CP137132.1	2609607491	SAMN37878257	546	Citrobacter freundii strain F3419 plasmid pF3419-NDM, complete sequence	direct
+CP137133.1	CP137133.1	2609607717	SAMN37878257	546	Citrobacter freundii strain F3419 chromosome, complete genome	direct
+CP137173.1	CP137173.1	2609994479	SAMN37932926	546	Citrobacter freundii strain F3517 plasmid pF3517-5, complete sequence	direct
+CP137174.1	CP137174.1	2609994486	SAMN37932926	546	Citrobacter freundii strain F3517 plasmid pF3517-3, complete sequence	direct
+CP137175.1	CP137175.1	2609994972	SAMN37932926	546	Citrobacter freundii strain F3517 chromosome, complete genome	direct
+CP137176.1	CP137176.1	2609999934	SAMN37932926	546	Citrobacter freundii strain F3517 plasmid pF3517-NDM, complete sequence	direct
+CP137177.1	CP137177.1	2610000011	SAMN37932926	546	Citrobacter freundii strain F3517 plasmid pF3517-1, complete sequence	direct
+CP137178.1	CP137178.1	2610000152	SAMN37932926	546	Citrobacter freundii strain F3517 plasmid pF3517-4, complete sequence	direct
+CP137179.1	CP137179.1	2609965082	SAMN37933137	546	Citrobacter freundii strain F4321 chromosome, complete genome	direct
+CP137180.1	CP137180.1	2609969817	SAMN37933137	546	Citrobacter freundii strain F4321 plasmid pF4321-KPC, complete sequence	direct
+CP137181.1	CP137181.1	2609969992	SAMN37933137	546	Citrobacter freundii strain F4321 plasmid pF4321-2, complete sequence	direct
+CP137182.1	CP137182.1	2609980595	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-5, complete sequence	direct
+CP137183.1	CP137183.1	2609981097	SAMN37933681	546	Citrobacter freundii strain F1917 chromosome, complete genome	direct
+CP137184.1	CP137184.1	2609985961	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-7, complete sequence	direct
+CP137185.1	CP137185.1	2609985973	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-6, complete sequence	direct
+CP137186.1	CP137186.1	2609985986	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-NDM, complete sequence	direct
+CP137187.1	CP137187.1	2609986052	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-10, complete sequence	direct
+CP137188.1	CP137188.1	2609986073	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-2, complete sequence	direct
+CP137189.1	CP137189.1	2609986216	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-3, complete sequence	direct
+CP137190.1	CP137190.1	2609986291	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-9, complete sequence	direct
+CP137191.1	CP137191.1	2609986296	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-8, complete sequence	direct
+CP137192.1	CP137192.1	2609986303	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-11, complete sequence	direct
+CP137193.1	CP137193.1	2609986345	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-1, complete sequence	direct
+CP137194.1	CP137194.1	2609971984	SAMN37934525	546	Citrobacter freundii strain F2021 plasmid pF2021-2, complete sequence	direct
+CP137195.1	CP137195.1	2609972477	SAMN37934525	546	Citrobacter freundii strain F2021 chromosome, complete genome	direct
+CP137196.1	CP137196.1	2609977227	SAMN37934525	546	Citrobacter freundii strain F2021 plasmid pF2021-3, complete sequence	direct
+CP137197.1	CP137197.1	2609977244	SAMN37934525	546	Citrobacter freundii strain F2021 plasmid pF2021-NDM, complete sequence	direct
+CP137198.1	CP137198.1	2609977353	SAMN37934525	546	Citrobacter freundii strain F2021 plasmid pF2021-4, complete sequence	direct
+CP137199.1	CP137199.1	2610008289	SAMN37935181	546	Citrobacter freundii strain F3221 plasmid pF3221-3, complete sequence	direct
+CP137200.1	CP137200.1	2610008384	SAMN37935181	546	Citrobacter freundii strain F3221 plasmid pF3221-2, complete sequence	direct
+CP137201.1	CP137201.1	2610008982	SAMN37935181	546	Citrobacter freundii strain F3221 chromosome, complete genome	direct
+CP137202.1	CP137202.1	2610013840	SAMN37935181	546	Citrobacter freundii strain F3221 plasmid pF3221-NDM, complete sequence	direct
+CP137203.1	CP137203.1	2609988368	SAMN37934872	546	Citrobacter freundii strain F2613 chromosome, complete genome	direct
+CP137204.1	CP137204.1	2609992981	SAMN37934872	546	Citrobacter freundii strain F2613 plasmid pF2613-NDM, complete sequence	direct
+CP137205.1	CP137205.1	2610001250	SAMN37935182	546	Citrobacter freundii strain F3321 plasmid pF3321-IMP, complete sequence	direct
+CP137206.1	CP137206.1	2610001282	SAMN37935182	546	Citrobacter freundii strain F3321 plasmid pF3321-1, complete sequence	direct
+CP137207.1	CP137207.1	2610001761	SAMN37935182	546	Citrobacter freundii strain F3321 chromosome, complete genome	direct
+CP137703.1	CP137703.1	2618303910	SAMN37709339	546	Mutant Citrobacter freundii isolate FELIX_MS689, complete genome	direct
+CP137704.1	CP137704.1	2618308469	SAMN37709339	546	Mutant Citrobacter freundii isolate FELIX_MS689 plasmid pCfFELIX689.1, complete sequence	direct
+CP137717.1	CP137717.1	2618299350	SAMN37709340	546	Mutant Citrobacter freundii isolate FELIX_MS690, complete genome	direct
+CP139745.1	CP139745.1	2634482201	SAMN37931207	546	Mutant Citrobacter freundii isolate FELIX_MS432, complete genome	direct
+CP139849.1	CP139849.1	2636179746	SAMN38610813	546	Citrobacter freundii strain UKJ86 plasmid pUKJ86_1, complete sequence	direct
+CP139850.1	CP139850.1	2636180129	SAMN38610813	546	Citrobacter freundii strain UKJ86 chromosome, complete genome	direct
+CP139851.1	CP139851.1	2636184552	SAMN38610813	546	Citrobacter freundii strain UKJ86 plasmid pUKJ86_2	direct
+CP139852.1	CP139852.1	2636184558	SAMN38610813	546	Citrobacter freundii strain UKJ86 plasmid pUKJ86_3	direct
+CP141252.1	CP141252.1	2707312049	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_F, complete sequence	direct
+CP141253.1	CP141253.1	2707312050	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_G, complete sequence	direct
+CP141645.1	CP141645.1	2647792822	SAMN38983828	546	Citrobacter freundii strain NFYY328 chromosome, complete genome	direct
+CP141646.1	CP141646.1	2647797469	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-1, complete sequence	direct
+CP141647.1	CP141647.1	2647797819	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-2, complete sequence	direct
+CP141648.1	CP141648.1	2647797967	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-3, complete sequence	direct
+CP141649.1	CP141649.1	2647798090	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-4, complete sequence	direct
+CP141650.1	CP141650.1	2647798162	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-5, complete sequence	direct
+CP141651.1	CP141651.1	2647798220	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-6, complete sequence	direct
+CP141652.1	CP141652.1	2647798231	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-7, complete sequence	direct
+CP141653.1	CP141653.1	2647798236	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-8, complete sequence	direct
+CP142904.1	CP142904.1	2663907250	SAMN39499919	546	Citrobacter freundii strain B18196 chromosome, complete genome	direct
+CP142905.1	CP142905.1	2663912048	SAMN39499919	546	Citrobacter freundii strain B18196 plasmid pB18196_1, complete sequence	direct
+CP142906.1	CP142906.1	2663912251	SAMN39499919	546	Citrobacter freundii strain B18196 plasmid pB18196_2, complete sequence	direct
+CP142907.1	CP142907.1	2663912702	NA	NA	NA	direct
+CP142908.1	CP142908.1	2663912744	SAMN39499919	546	Citrobacter freundii strain B18196 plasmid pB18196_4, complete sequence	direct
+CP142909.1	CP142909.1	2663912755	SAMN39499919	546	Citrobacter freundii strain B18196 plasmid pB18196_5, complete sequence	direct
+CP144725.1	CP144725.1	2676271817	SAMN39435378	546	Citrobacter freundii strain CI190083 chromosome, complete genome	direct
+CP144726.1	CP144726.1	2676276509	NA	NA	NA	direct
+CP144727.1	CP144727.1	2676276607	SAMN39435378	546	Citrobacter freundii strain CI190083 plasmid pCI190083_2, complete sequence	direct
+CP144728.1	CP144728.1	2676276648	SAMN39435378	546	Citrobacter freundii strain CI190083 plasmid pCI190083_3	direct
+CP144729.1	CP144729.1	2676276673	SAMN39435378	546	Citrobacter freundii strain CI190083 plasmid pCI190083_4	direct
+CP145665.1	NZ_CP145665.1	2711012004	SAMN33052304	546	Citrobacter freundii strain S1-CHI-03-B chromosome, complete genome	alias:NZ_CP145665.1
+CP145666.1	CP145666.1	2688396198	SAMN33052304	546	Citrobacter freundii strain S1-CHI-03-B plasmid p1-S1-CHI-03-B, complete sequence	direct
+CP145667.1	CP145667.1	2688396494	SAMN33052304	546	Citrobacter freundii strain S1-CHI-03-B plasmid p2-S1-CHI-03-B, complete sequence	direct
+CP149135.1	CP149135.1	2704028674	SAMN40298374	546	Mutant Citrobacter freundii isolate FELIX_MS426, complete genome	direct
+CP150622.1	CP150622.1	2713755825	SAMN40453084	546	Citrobacter freundii strain C17 chromosome, complete genome	direct
+CP150623.1	NZ_CP150623.1	2714508440	SAMN40453084	546	Citrobacter freundii strain C17 plasmid IncHI2A, complete sequence	alias:NZ_CP150623.1
+CP150624.1	CP150624.1	2713760879	SAMN40453084	546	Citrobacter freundii strain C17 plasmid IncA, complete sequence	direct
+CP150625.1	CP150625.1	2713761040	SAMN40453084	546	Citrobacter freundii strain C17 plasmid IncF, complete sequence	direct
+CP150626.1	CP150626.1	2713761154	SAMN40453084	546	Citrobacter freundii strain C17 plasmid IncX3, complete sequence	direct
+CP150627.1	CP150627.1	2713761212	SAMN40453084	546	Citrobacter freundii strain C17 plasmid unnamed	direct
+CP151202.1	CP151202.1	2717280405	SAMN23449392	546	Citrobacter freundii strain CFTMDU chromosome, complete genome	direct
+CP151203.1	CP151203.1	2717285178	SAMN23449392	546	Citrobacter freundii strain CFTMDU plasmid p1_CFTMDU, complete sequence	direct
+CP151204.1	CP151204.1	2717285525	SAMN23449392	546	Citrobacter freundii strain CFTMDU plasmid p2_CFTMDU, complete sequence	direct
+CP151205.1	CP151205.1	2717285758	SAMN23449392	546	Citrobacter freundii strain CFTMDU plasmid p3_CFTMDU, complete sequence	direct
+CP151206.1	CP151206.1	2717285898	SAMN23449392	546	Citrobacter freundii strain CFTMDU plasmid p4_CFTMDU, complete sequence	direct
+CP151207.1	CP151207.1	2717285957	SAMN23449392	546	Citrobacter freundii strain CFTMDU plasmid p5_CFTMDU, complete sequence	direct
+CP151208.1	CP151208.1	2717285999	SAMN23449392	546	Citrobacter freundii strain CFTMDU plasmid p6_CFTMDU, complete sequence	direct
+CP151860.1	CP151860.1	2721415253	SAMN40574029	546	Citrobacter freundii strain MO_AK867 chromosome, complete genome	direct
+CP151861.1	CP151861.1	2721419656	SAMN40574029	546	Citrobacter freundii strain MO_AK867 plasmid pKPC2_CFR867, complete sequence	direct
+CP151862.1	CP151862.1	2721419911	SAMN40574029	546	Citrobacter freundii strain MO_AK867 plasmid unnamed2, complete sequence	direct
+CP151863.1	CP151863.1	2721420275	SAMN40574029	546	Citrobacter freundii strain MO_AK867 plasmid pVIM1_CFR867	direct
+CP151864.1	CP151864.1	2721420463	SAMN40574029	546	Citrobacter freundii strain MO_AK867 plasmid pfosA3_CFR867, complete sequence	direct
+CP151865.1	CP151865.1	2721420827	SAMN40574029	546	Citrobacter freundii strain MO_AK867 plasmid unnamed3, complete sequence	direct
+CP151866.1	CP151866.1	2721420970	SAMN40574029	546	Citrobacter freundii strain MO_AK867 plasmid unnamed1	direct
+CP154587.1	CP154587.1	2727586047	SAMN41129895	546	Citrobacter freundii strain NFYY361 chromosome, complete genome	direct
+CP154588.1	CP154588.1	2727590860	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-1, complete sequence	direct
+CP154589.1	CP154589.1	2727591219	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-2, complete sequence	direct
+CP154590.1	CP154590.1	2727591354	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-3, complete sequence	direct
+CP154591.1	CP154591.1	2727591468	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-4, complete sequence	direct
+CP154592.1	CP154592.1	2727591533	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-5, complete sequence	direct
+CP154593.1	CP154593.1	2727591540	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-6, complete sequence	direct
+CP154594.1	CP154594.1	2727591544	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-7, complete sequence	direct
+CP155122.1	CP155122.1	2732381220	SAMN41219942	546	Citrobacter freundii strain C61969 chromosome, complete genome	direct
+CP155123.1	CP155123.1	2732385954	SAMN41219942	546	Citrobacter freundii strain C61969 plasmid pC61969-NDM, complete sequence	direct
+CP158491.1	CP158491.1	2991823242	SAMN41826320	546	Citrobacter freundii strain WF1033 chromosome, complete genome	direct
+CP158492.1	CP158492.1	2991823243	SAMN41826320	546	Citrobacter freundii strain WF1033 plasmid pWF1033-Int1, complete sequence	direct
+CP158493.1	CP158493.1	2991823244	SAMN41826320	546	Citrobacter freundii strain WF1033 plasmid pWF1033-KPC-IMP, complete sequence	direct
+CP158494.1	CP158494.1	2991823245	SAMN41826320	546	Citrobacter freundii strain WF1033 plasmid pWF1033-NDM, complete sequence	direct
+CP158495.1	CP158495.1	2991823246	SAMN41826320	546	Citrobacter freundii strain WF1033 plasmid pWF1033-5, complete sequence	direct
+CP161897.1	CP161897.1	2863505416	SAMN42439697	546	Citrobacter freundii strain C275 chromosome, complete genome	direct
+CP161898.1	CP161898.1	2863505417	NA	NA	NA	direct
+CP161899.1	CP161899.1	2863505418	SAMN42439697	546	Citrobacter freundii strain C275 plasmid pC2075-2, complete sequence	direct
+CP161900.1	CP161900.1	2863505419	SAMN42439697	546	Citrobacter freundii strain C275 plasmid pC2075-3, complete sequence	direct
+CP162039.1	CP162039.1	2776997296	SAMN42431289	546	Citrobacter freundii strain Cf_Goe_204579-1 chromosome, complete genome	direct
+CP162040.1	CP162040.1	2777001837	SAMN42431289	546	Citrobacter freundii strain Cf_Goe_204579-1 plasmid p382_Cf_Goe_204579-1, complete sequence	direct
+CP162041.1	CP162041.1	2777002229	SAMN42431289	546	Citrobacter freundii strain Cf_Goe_204579-1 plasmid p5_Cf_Goe_204579-1, complete sequence	direct
+CP162975.1	CP162975.1	2781792316	SAMN42440413	546	Citrobacter freundii strain CXW215 chromosome, complete genome	direct
+CP162976.1	CP162976.1	2781797006	SAMN42440413	546	Citrobacter freundii strain CXW215 plasmid pCXW215_1, complete sequence	direct
+CP162977.1	CP162977.1	2781797383	NA	NA	NA	direct
+CP162978.1	NA	NA	NA	NA	NA	no_uid
+CP162979.1	CP162979.1	2781797544	SAMN42440413	546	Citrobacter freundii strain CXW215 plasmid pCXW215_4, complete sequence	direct
+CP162980.1	CP162980.1	2781797565	SAMN42440413	546	Citrobacter freundii strain CXW215 plasmid pCXW215_5, complete sequence	direct
+CP162981.1	CP162981.1	2781797570	SAMN42440413	546	Citrobacter freundii strain CXW215 plasmid pCXW215_6, complete sequence	direct
+CP162982.1	CP162982.1	2781766057	SAMN42440412	546	Citrobacter freundii strain CXW213 chromosome, complete genome	direct
+CP162983.1	CP162983.1	2781770870	SAMN42440412	546	Citrobacter freundii strain CXW213 plasmid pCXW213_1, complete sequence	direct
+CP162984.1	CP162984.1	2781770943	SAMN42440412	546	Citrobacter freundii strain CXW213 plasmid pCXW213_2, complete sequence	direct
+CP162985.1	CP162985.1	2781771002	SAMN42440412	546	Citrobacter freundii strain CXW213 plasmid pCXW213_3, complete sequence	direct
+CP162986.1	CP162986.1	2781771007	SAMN42440412	546	Citrobacter freundii strain CXW213 plasmid pCXW213_4, complete sequence	direct
+CP163076.1	CP163076.1	2781867338	SAMN42440395	546	Citrobacter freundii strain W115 chromosome, complete genome	direct
+CP163077.1	NZ_CP163077.1	2783064560	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_1, complete sequence	alias:NZ_CP163077.1
+CP163078.1	CP163078.1	2781872280	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_2, complete sequence	direct
+CP163079.1	CP163079.1	2781872393	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_3, complete sequence	direct
+CP163080.1	CP163080.1	2781872486	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_4, complete sequence	direct
+CP163081.1	CP163081.1	2781872546	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_5, complete sequence	direct
+CP163082.1	CP163082.1	2781872590	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_6, complete sequence	direct
+CP163083.1	CP163083.1	2781872598	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_7, complete sequence	direct
+CP165768.1	CP165768.1	2785368504	SAMN43010778	546	Citrobacter freundii strain FAHZZU8106 chromosome, complete genome	direct
+CP165769.1	CP165769.1	2785373154	SAMN43010778	546	Citrobacter freundii strain FAHZZU8106 plasmid pFAHZZU8106-VIM-TEM, complete sequence	direct
+CP165770.1	CP165770.1	2785373338	SAMN43010778	546	Citrobacter freundii strain FAHZZU8106 plasmid unnamed1, complete sequence	direct
+CP165771.1	CP165771.1	2785373362	SAMN43010778	546	Citrobacter freundii strain FAHZZU8106 plasmid pFAHZZU8106-KPC, complete sequence	direct
+CP165772.1	CP165772.1	2785373430	SAMN43010778	546	Citrobacter freundii strain FAHZZU8106 plasmid unnamed2, complete sequence	direct
+CP165773.1	CP165773.1	2785373509	SAMN43010778	546	Citrobacter freundii strain FAHZZU8106 plasmid unnamed3, complete sequence	direct
+CP175808.1	CP175808.1	2869876677	SAMN45046479	546	Citrobacter freundii strain 27-C chromosome, complete genome	direct
+CP181672.1	CP181672.1	2970146366	SAMN42539994	546	Citrobacter freundii strain A31575 chromosome, complete genome	direct
+CP181673.1	CP181673.1	2970150884	SAMN42539994	546	Citrobacter freundii strain A31575 plasmid p1_A31575, complete sequence	direct
+CP181674.1	CP181674.1	2970151129	SAMN42539994	546	Citrobacter freundii strain A31575 plasmid p2_A31575, complete sequence	direct
+CP181957.1	CP181957.1	2969774444	SAMN42539184	546	Citrobacter freundii strain A27547 chromosome, complete genome	direct
+CP181958.1	CP181958.1	2969779173	SAMN42539184	546	Citrobacter freundii strain A27547 plasmid p1_A27547, complete sequence	direct
+CP181959.1	CP181959.1	2969779179	SAMN42539184	546	Citrobacter freundii strain A27547 plasmid p2_A27547, complete sequence	direct
+CP181960.1	CP181960.1	2969779187	SAMN42539184	546	Citrobacter freundii strain A27547 plasmid p3_A27547, complete sequence	direct
+CP182926.1	CP182926.1	2922105435	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 chromosome, complete genome	direct
+CP182927.1	CP182927.1	2922110080	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 plasmid pFAHZZU6636-1, complete sequence	direct
+CP182928.1	CP182928.1	2922110204	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 plasmid pFAHZZU6636-2, complete sequence	direct
+CP182929.1	CP182929.1	2922110303	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 plasmid p6636X3-NDM-5, complete sequence	direct
+CP182930.1	CP182930.1	2922110368	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 plasmid pFAHZZU6636-3, complete sequence	direct
+CP182931.1	CP182931.1	2922110417	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 plasmid unnamed1	direct
+CP182932.1	CP182932.1	2922110426	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 plasmid unnamed2	direct
+CP186042.1	CP186042.1	2951762167	SAMN47329967	546	Citrobacter freundii strain T1001 chromosome, complete genome	direct
+CP186043.1	CP186043.1	2951762173	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-KPC, complete sequence	direct
+CP186044.1	CP186044.1	2951762175	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-NDM, complete sequence	direct
+CP186045.1	CP186045.1	2951762176	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-NR1, complete sequence	direct
+CP186046.1	CP186046.1	2951762178	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-NR2, complete sequence	direct
+CP186047.1	CP186047.1	2951762180	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-NR3, complete sequence	direct
+CP186048.1	CP186048.1	2951762181	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-NR4, complete sequence	direct
+CP186049.1	CP186049.1	2951762183	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-NR5, complete sequence	direct
+CP186050.1	CP186050.1	2951762184	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-armA, complete sequence	direct
+CP187118.1	CP187118.1	2955869031	SAMN47823672	546	Citrobacter freundii strain M21 chromosome, complete genome	direct
+CP187119.1	CP187119.1	2955873933	SAMN47823672	546	Citrobacter freundii strain M21 plasmid pM21-1, complete sequence	direct
+CP187120.1	CP187120.1	2955874004	SAMN47823672	546	Citrobacter freundii strain M21 plasmid pM21-2, complete sequence	direct
+CP187121.1	CP187121.1	2955874093	SAMN47823672	546	Citrobacter freundii strain M21 plasmid pM21-3, complete sequence	direct
+CP194345.1	CP194345.1	2994852514	SAMN48762826	546	Citrobacter freundii strain SM-3 chromosome, complete genome	direct
+CP194919.1	CP194919.1	3003656793	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 chromosome, complete genome	direct
+CP194920.1	CP194920.1	3003661742	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed1, complete sequence	direct
+CP194921.1	CP194921.1	3003662098	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed2, complete sequence	direct
+CP194922.1	CP194922.1	3003662318	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed3, complete sequence	direct
+CP194923.1	CP194923.1	3003662553	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed4, complete sequence	direct
+CP194924.1	CP194924.1	3003662689	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed5, complete sequence	direct
+CP194925.1	CP194925.1	3003662813	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed6, complete sequence	direct
+CP194926.1	CP194926.1	3003662883	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed7	direct
+CP197381.1	CP197381.1	3045509883	SAMN50229541	546	Citrobacter freundii strain 2025-PB01 chromosome, complete genome	direct
+CP199762.1	CP199762.1	3061762838	SAMN51164848	546	Citrobacter freundii strain 2025-PB03 chromosome, complete genome	direct
+CP199763.1	CP199763.1	3061762837	SAMN51164389	546	Citrobacter freundii strain 2025-PB02 chromosome, complete genome	direct
+CP199779.1	CP199779.1	3061749902	SAMN51178349	546	Citrobacter freundii strain 2025-PB04 chromosome, complete genome	direct
+JADVJF000000000.2	JADVJF000000000.2	3071705756	SAMN10435572	546	Citrobacter freundii strain CB00028, whole genome shotgun sequencing project	direct
+JBRAWB000000000.1	JBRAWB000000000.1	3117326737	SAMN51335551	546	Citrobacter freundii strain 16AR1712, whole genome shotgun sequencing project	direct
+JBREXQ000000000.1	JBREXQ000000000.1	3070181230	SAMN50449480	546	Citrobacter freundii strain 91_KPC2_Oxa-48_1024, whole genome shotgun sequencing project	direct
+JBREXR000000000.1	JBREXR000000000.1	3070181258	SAMN50449478	546	Citrobacter freundii strain 91_KPC2_Oxa-48_0325a, whole genome shotgun sequencing project	direct
+JBREXS000000000.1	JBREXS000000000.1	3070181240	SAMN50449477	546	Citrobacter freundii strain 91_KPC2_Oxa-48_0924, whole genome shotgun sequencing project	direct
+JBREXT000000000.1	JBREXT000000000.1	3070181236	SAMN50449475	546	Citrobacter freundii strain 91_KPCOxa48_0324, whole genome shotgun sequencing project	direct
+JBRYYE000000000.1	JBRYYE000000000.1	3103822451	SAMN52951556	546	Citrobacter freundii strain MAS5905, whole genome shotgun sequencing project	direct
+JBSWZL000000000.1	JBSWZL000000000.1	3131362522	SAMN53363810	546	Citrobacter freundii strain WDS, whole genome shotgun sequencing project	direct
+LR881934.1	LR881934.1	1963663423	SAMEA7313125	546	Citrobacter freundii strain PSV genome assembly, chromosome: PSV	direct
+LR881935.1	LR881935.1	1963668599	SAMEA7313125	546	Citrobacter freundii strain PSV genome assembly, plasmid: pPSV	direct
+LR890181.1	LR890181.1	1927383598	SAMEA3357462	546	Citrobacter freundii isolate MSB1_1H-sc-2280393 genome assembly, chromosome: 1	direct
+LR890182.1	LR890182.1	1927383599	SAMEA3357462	546	Citrobacter freundii isolate MSB1_1H-sc-2280393 genome assembly, plasmid: 2	direct
+LR890183.1	LR890183.1	1927383600	SAMEA3357462	546	Citrobacter freundii isolate MSB1_1H-sc-2280393 genome assembly, plasmid: 3	direct
+LS992175.1	LS992175.1	1563727796	SAMEA4830817	546	Citrobacter freundii isolate Citrobacter freundii str. E2614 genome assembly, chromosome: 1	direct
+LS992176.1	LS992176.1	1563732889	SAMEA4830817	546	Citrobacter freundii isolate Citrobacter freundii str. E2614 genome assembly, plasmid: 2	direct
+LS992177.1	LS992177.1	1563733056	SAMEA4830817	546	Citrobacter freundii isolate Citrobacter freundii str. E2614 genome assembly, plasmid: 3	direct
+LS992178.1	LS992178.1	1563733145	SAMEA4830817	546	Citrobacter freundii isolate Citrobacter freundii str. E2614 genome assembly, plasmid: 4	direct
+LS992179.1	LS992179.1	1563733167	NA	NA	NA	direct
+LS992183.1	LS992183.1	1563738851	SAMEA4830818	546	Citrobacter freundii isolate Citrobacter freundii str. U2785 genome assembly, chromosome: 1	direct
+LS992184.1	LS992184.1	1563744020	SAMEA4830818	546	Citrobacter freundii isolate Citrobacter freundii str. U2785 genome assembly, plasmid: 2	direct
+MF344582.1	MF344582.1	1344495741	SAMN28016853	546	Citrobacter freundii strain NY2385 plasmid pNY2385-HI2, complete sequence	direct
+NZ_AP026940.1	NZ_AP026940.1	2326818241	SAMD00515064	546	Citrobacter freundii strain CF20-4P-1 isolate gut contents of Mastacembelus chromosome, complete genome	direct
+NZ_AP026941.1	NZ_AP026941.1	2326818242	SAMD00515064	546	Citrobacter freundii strain CF20-4P-1 isolate gut contents of Mastacembelus plasmid pCF20-4P-1-1, complete sequence	direct
+NZ_AP026942.1	NZ_AP026942.1	2326818243	SAMD00515064	546	Citrobacter freundii strain CF20-4P-1 isolate gut contents of Mastacembelus plasmid pCF20-4P-1-2, complete sequence	direct
+NZ_AP026943.1	NZ_AP026943.1	2326818244	SAMD00515064	546	Citrobacter freundii strain CF20-4P-1 isolate gut contents of Mastacembelus plasmid pCF20-4P-1-3, complete sequence	direct
+NZ_AP026944.1	NZ_AP026944.1	2326818245	SAMD00515064	546	Citrobacter freundii strain CF20-4P-1 isolate gut contents of Mastacembelus plasmid pCF20-4P-1-4, complete sequence	direct
+NZ_AP028314.1	NZ_AP028314.1	2709333752	SAMD00622803	546	Citrobacter freundii strain OIPH-N330 chromosome, complete genome	direct
+NZ_AP028315.1	NZ_AP028315.1	2709333773	SAMD00622803	546	Citrobacter freundii strain OIPH-N330 plasmid pN330-1, complete sequence	direct
+NZ_AP028316.1	NZ_AP028316.1	2709333775	SAMD00622803	546	Citrobacter freundii strain OIPH-N330 plasmid pN330-2, complete sequence	direct
+NZ_AP028317.1	NZ_AP028317.1	2709337086	SAMD00622804	546	Citrobacter freundii strain OIPH-N354 chromosome, complete genome	direct
+NZ_AP028318.1	NZ_AP028318.1	2709337090	SAMD00622804	546	Citrobacter freundii strain OIPH-N354 plasmid pN354-1, complete sequence	direct
+NZ_AP028319.1	NZ_AP028319.1	2709337100	SAMD00622804	546	Citrobacter freundii strain OIPH-N354 plasmid pN354-2, complete sequence	direct
+NZ_CM129628.1	NZ_CM129628.1	3106809907	SAMN50449480	546	Citrobacter freundii strain 91_KPC2_Oxa-48_1024 chromosome, whole genome shotgun sequence	direct
+NZ_CM129629.1	NZ_CM129629.1	3106810673	SAMN50449478	546	Citrobacter freundii strain 91_KPC2_Oxa-48_0325a chromosome, whole genome shotgun sequence	direct
+NZ_CM129630.1	NZ_CM129630.1	3106817218	SAMN50449477	546	Citrobacter freundii strain 91_KPC2_Oxa-48_0924 chromosome, whole genome shotgun sequence	direct
+NZ_CM129631.1	NZ_CM129631.1	3106809920	SAMN50449475	546	Citrobacter freundii strain 91_KPCOxa48_0324 chromosome, whole genome shotgun sequence	direct
+NZ_CM129778.1	NZ_CM129778.1	3107071183	SAMN10435572	546	Citrobacter freundii strain CB00028 chromosome, whole genome shotgun sequence	direct
+NZ_CM130063.1	NZ_CM130063.1	3111421697	SAMN52951556	546	Citrobacter freundii strain MAS5905 chromosome, whole genome shotgun sequence	direct
+NZ_CM132284.1	NZ_CM132284.1	3124147098	SAMN51335551	546	Citrobacter freundii strain 16AR1712 chromosome, whole genome shotgun sequence	direct
+NZ_CM133240.1	NZ_CM133240.1	3132801978	SAMN53363810	546	Citrobacter freundii strain WDS chromosome, whole genome shotgun sequence	direct
+NZ_CP011603.1	NZ_CP011603.1	836556387	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-1916, complete sequence	direct
+NZ_CP011604.1	NZ_CP011604.1	836556388	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-3223, complete sequence	direct
+NZ_CP011605.1	NZ_CP011605.1	836556389	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-3820, complete sequence	direct
+NZ_CP011606.1	NZ_CP011606.1	836556390	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-4310, complete sequence	direct
+NZ_CP011607.1	NZ_CP011607.1	836556391	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-4938, complete sequence	direct
+NZ_CP011608.1	NZ_CP011608.1	836556392	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pKPC_CAV1321-45, complete sequence	direct
+NZ_CP011609.1	NZ_CP011609.1	836556394	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-71, complete sequence	direct
+NZ_CP011610.1	NZ_CP011610.1	836556395	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pCAV1321-135, complete sequence	direct
+NZ_CP011611.1	NZ_CP011611.1	836556397	SAMN03733741	546	Citrobacter freundii strain CAV1321 plasmid pKPC_CAV1321-244, complete sequence	direct
+NZ_CP011612.1	NZ_CP011612.1	836556426	SAMN03733741	546	Citrobacter freundii strain CAV1321 chromosome, complete genome	direct
+NZ_CP011651.1	NZ_CP011651.1	836563785	SAMN03733754	546	Citrobacter freundii strain CAV1741 plasmid pCAV1741-1916, complete sequence	direct
+NZ_CP011652.1	NZ_CP011652.1	836563787	SAMN03733754	546	Citrobacter freundii strain CAV1741 plasmid pCAV1741-3223, complete sequence	direct
+NZ_CP011653.1	NZ_CP011653.1	836563789	SAMN03733754	546	Citrobacter freundii strain CAV1741 plasmid pCAV1741-16, complete sequence	direct
+NZ_CP011654.1	NZ_CP011654.1	836563791	SAMN03733754	546	Citrobacter freundii strain CAV1741 plasmid pCAV1741-101, complete sequence	direct
+NZ_CP011655.1	NZ_CP011655.1	836563792	SAMN03733754	546	Citrobacter freundii strain CAV1741 plasmid pCAV1741-110, complete sequence	direct
+NZ_CP011656.1	NZ_CP011656.1	836563793	SAMN03733754	546	Citrobacter freundii strain CAV1741 plasmid pKPC_CAV1741, complete sequence	direct
+NZ_CP011657.1	NZ_CP011657.1	836563795	SAMN03733754	546	Citrobacter freundii strain CAV1741 chromosome, complete genome	direct
+NZ_CP016762.1	NZ_CP016762.1	1051745477	SAMN05464624	546	Citrobacter freundii strain B38 chromosome, complete genome	direct
+NZ_CP016763.1	NZ_CP016763.1	1051745478	SAMN05464624	546	Citrobacter freundii strain B38 plasmid pOZ172, complete sequence	direct
+NZ_CP016764.1	NZ_CP016764.1	1051745479	SAMN05464624	546	Citrobacter freundii strain B38 plasmid pOZ181, complete sequence	direct
+NZ_CP016765.1	NZ_CP016765.1	1051745480	SAMN05464624	546	Citrobacter freundii strain B38 plasmid pOZ182, complete sequence	direct
+NZ_CP016952.1	NZ_CP016952.1	1061913597	SAMN05570461	546	Citrobacter freundii strain SL151 chromosome, complete genome	direct
+NZ_CP017058.1	NZ_CP017058.1	1061913598	SAMN05570461	546	Citrobacter freundii strain SL151 plasmid unnamed1, complete sequence	direct
+NZ_CP017059.1	NZ_CP017059.1	1061913599	NA	NA	NA	direct
+NZ_CP022151.1	NZ_CP022151.1	1214085444	SAMN07260758	546	Citrobacter freundii strain 705SK3 chromosome, complete genome	direct
+NZ_CP022152.1	NZ_CP022152.1	1214086073	SAMN07260758	546	Citrobacter freundii strain 705SK3 plasmid p705SK3_1, complete sequence	direct
+NZ_CP022153.1	NZ_CP022153.1	1214086108	SAMN07260758	546	Citrobacter freundii strain 705SK3 plasmid p705SK3_2, complete sequence	direct
+NZ_CP022273.1	NZ_CP022273.1	1214893040	SAMN07280739	546	Citrobacter freundii strain 18-1 chromosome, complete genome	direct
+NZ_CP022274.1	NZ_CP022274.1	1214893041	SAMN07280739	546	Citrobacter freundii strain 18-1 plasmid pA18-1, complete sequence	direct
+NZ_CP022275.1	NZ_CP022275.1	1214893042	SAMN07280739	546	Citrobacter freundii strain 18-1 plasmid pBKPC18-1, complete sequence	direct
+NZ_CP022276.1	NZ_CP022276.1	1214893043	SAMN07280739	546	Citrobacter freundii strain 18-1 plasmid pCKPC18-1, complete sequence	direct
+NZ_CP022277.1	NZ_CP022277.1	1214893044	SAMN07280739	546	Citrobacter freundii strain 18-1 plasmid pD18-1, complete sequence	direct
+NZ_CP024672.1	NZ_CP024672.1	1493856774	SAMN07729552	546	Citrobacter freundii strain HM38 chromosome, complete genome	direct
+NZ_CP024673.1	NZ_CP024673.1	1493903426	SAMN07729551	546	Citrobacter freundii strain UMH19 chromosome, complete genome	direct
+NZ_CP024674.1	NZ_CP024674.1	1493903427	SAMN07729551	546	Citrobacter freundii strain UMH19 plasmid pUMH19, complete sequence	direct
+NZ_CP024677.1	NZ_CP024677.1	1493921751	SAMN07729548	546	Citrobacter freundii strain UMH16 chromosome, complete genome	direct
+NZ_CP024678.1	NZ_CP024678.1	1493921879	SAMN07729548	546	Citrobacter freundii strain UMH16 plasmid pUMH16, complete sequence	direct
+NZ_CP024679.1	NZ_CP024679.1	1493872063	SAMN07729547	546	Citrobacter freundii strain UMH15 chromosome, complete genome	direct
+NZ_CP024680.1	NZ_CP024680.1	1493909211	SAMN07729546	546	Citrobacter freundii strain UMH14 chromosome, complete genome	direct
+NZ_CP024681.1	NZ_CP024681.1	1493909239	SAMN07729546	546	Citrobacter freundii strain UMH14 plasmid pUMH14_1, complete sequence	direct
+NZ_CP024682.1	NZ_CP024682.1	1493909244	SAMN07729546	546	Citrobacter freundii strain UMH14 plasmid pUMH14_2, complete sequence	direct
+NZ_CP024683.1	NZ_CP024683.1	1493903972	SAMN07729545	546	Citrobacter freundii strain UMH13 chromosome, complete genome	direct
+NZ_CP024881.1	NZ_CP024881.1	1280957018	SAMN04014863	546	Citrobacter freundii strain AR_0022 chromosome, complete genome	direct
+NZ_CP024882.1	NZ_CP024882.1	1280957019	SAMN04014863	546	Citrobacter freundii strain AR_0022 plasmid unitig_1_pilon, complete sequence	direct
+NZ_CP026056.1	NZ_CP026056.1	1337937131	SAMN02934525	546	Citrobacter freundii strain FDAARGOS_73 chromosome, complete genome	direct
+NZ_CP026057.1	NZ_CP026057.1	1337937132	SAMN02934525	546	Citrobacter freundii strain FDAARGOS_73 plasmid unnamed1, complete sequence	direct
+NZ_CP026058.1	NZ_CP026058.1	1337937133	SAMN02934525	546	Citrobacter freundii strain FDAARGOS_73 plasmid unnamed2, complete sequence	direct
+NZ_CP032179.1	NZ_CP032179.1	1477663195	SAMN04014957	546	Citrobacter freundii strain AR_0116 plasmid unnamed1, complete sequence	direct
+NZ_CP032180.1	NZ_CP032180.1	1477663299	SAMN04014957	546	Citrobacter freundii strain AR_0116 plasmid unnamed2, complete sequence	direct
+NZ_CP032181.1	NZ_CP032181.1	1477663367	SAMN04014957	546	Citrobacter freundii strain AR_0116 plasmid unnamed3, complete sequence	direct
+NZ_CP032182.1	NZ_CP032182.1	1477663421	SAMN04014957	546	Citrobacter freundii strain AR_0116 plasmid unnamed4, complete sequence	direct
+NZ_CP032183.1	NZ_CP032183.1	1477663487	SAMN04014957	546	Citrobacter freundii strain AR_0116 plasmid unnamed5, complete sequence	direct
+NZ_CP032184.1	NZ_CP032184.1	1477664522	SAMN04014957	546	Citrobacter freundii strain AR_0116 chromosome, complete genome	direct
+NZ_CP033742.1	NZ_CP033742.1	1520646918	SAMN10163243	546	Citrobacter freundii strain FDAARGOS_550 chromosome, complete genome	direct
+NZ_CP033743.1	NZ_CP033743.1	1520496333	SAMN10163242	546	Citrobacter freundii strain FDAARGOS_549 plasmid unnamed, complete sequence	direct
+NZ_CP033744.1	NZ_CP033744.1	1520496619	SAMN10163242	546	Citrobacter freundii strain FDAARGOS_549 chromosome, complete genome	direct
+NZ_CP035276.1	NZ_CP035276.1	1562337430	SAMN10754625	546	Citrobacter freundii strain R17 chromosome, complete genome	direct
+NZ_CP035277.1	NZ_CP035277.1	1562337431	SAMN10754625	546	Citrobacter freundii strain R17 plasmid pCFR17_1, complete sequence	direct
+NZ_CP037734.1	NZ_CP037734.1	1592014796	SAMN11055879	546	Citrobacter freundii strain CAV1857 chromosome, complete genome	direct
+NZ_CP037735.1	NZ_CP037735.1	1592014797	NA	NA	NA	direct
+NZ_CP037736.1	NZ_CP037736.1	1592014798	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pCAV1857-105, complete sequence	direct
+NZ_CP037737.1	NZ_CP037737.1	1592014799	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pKPC_CAV1857-85, complete sequence	direct
+NZ_CP037738.1	NZ_CP037738.1	1592014800	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pCAV1857-47, complete sequence	direct
+NZ_CP037739.1	CP037739.1	1590074450	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pKPC_CAV1857-43, complete sequence	alias:CP037739.1
+NZ_CP037740.1	NZ_CP037740.1	1592014802	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pCAV1857-3223, complete sequence	direct
+NZ_CP037741.1	NZ_CP037741.1	1592014803	SAMN11055879	546	Citrobacter freundii strain CAV1857 plasmid pCAV1857-1916, complete sequence	direct
+NZ_CP038653.1	NZ_CP038653.1	1776196695	SAMN11287982	546	Citrobacter freundii strain 154 chromosome, complete genome	direct
+NZ_CP038654.1	NZ_CP038654.1	1776196698	SAMN11287982	546	Citrobacter freundii strain 154 plasmid p154_1, complete sequence	direct
+NZ_CP038655.1	NZ_CP038655.1	1776196699	SAMN11287982	546	Citrobacter freundii strain 154 plasmid p154_2, complete sequence	direct
+NZ_CP038656.1	NZ_CP038656.1	1776196712	SAMN11288321	546	Citrobacter freundii strain 565 chromosome, complete genome	direct
+NZ_CP038657.1	NZ_CP038657.1	1776196713	SAMN11288321	546	Citrobacter freundii strain 565 plasmid p565_1, complete sequence	direct
+NZ_CP038658.1	NZ_CP038658.1	1776194225	SAMN11288343	546	Citrobacter freundii strain 680 chromosome, complete genome	direct
+NZ_CP038659.1	NZ_CP038659.1	1776194226	SAMN11288343	546	Citrobacter freundii strain 680 plasmid p680_1, complete sequence	direct
+NZ_CP038660.1	NZ_CP038660.1	1776194227	NA	NA	NA	direct
+NZ_CP040696.1	NZ_CP040696.1	1679252451	SAMN11845725	546	Citrobacter freundii strain R47 plasmid pR47-309, complete sequence	direct
+NZ_CP040697.1	NZ_CP040697.1	1679252452	SAMN11845725	546	Citrobacter freundii strain R47 plasmid pR47-54, complete sequence	direct
+NZ_CP040698.1	NZ_CP040698.1	1679252453	SAMN11845725	546	Citrobacter freundii strain R47 chromosome R47, complete sequence	direct
+NZ_CP042478.1	NZ_CP042478.1	1761853754	SAMN12289284	546	Citrobacter freundii strain C50 chromosome, complete genome	direct
+NZ_CP042479.1	NZ_CP042479.1	1761853755	SAMN12289284	546	Citrobacter freundii strain C50 plasmid pC50_001, complete sequence	direct
+NZ_CP042480.1	NZ_CP042480.1	1761853756	SAMN12289284	546	Citrobacter freundii strain C50 plasmid pC50_002, complete sequence	direct
+NZ_CP042517.1	NZ_CP042517.1	1762069860	SAMN12289346	546	Citrobacter freundii strain E33 chromosome, complete genome	direct
+NZ_CP042518.1	NZ_CP042518.1	1762069861	SAMN12289346	546	Citrobacter freundii strain E33 plasmid pE33_001, complete sequence	direct
+NZ_CP042519.1	NZ_CP042519.1	1762069862	SAMN12289346	546	Citrobacter freundii strain E33 plasmid pE33_002, complete sequence	direct
+NZ_CP042524.1	NZ_CP042524.1	1828890134	SAMN12289395	546	Citrobacter freundii strain E11 chromosome, complete genome	direct
+NZ_CP042525.1	NZ_CP042525.1	1828890287	SAMN12289395	546	Citrobacter freundii strain E11 plasmid pE11_001, complete sequence	direct
+NZ_CP042526.1	NZ_CP042526.1	1828890322	SAMN12289395	546	Citrobacter freundii strain E11 plasmid pE11_002, complete sequence	direct
+NZ_CP042527.1	NZ_CP042527.1	1828890344	SAMN12289395	546	Citrobacter freundii strain E11 plasmid pE11_003, complete sequence	direct
+NZ_CP042528.1	NZ_CP042528.1	1828890350	SAMN12289395	546	Citrobacter freundii strain E11 plasmid pE11_004, complete sequence	direct
+NZ_CP042529.1	NZ_CP042529.1	1828890356	SAMN12289395	546	Citrobacter freundii strain E11 plasmid pE11_005, complete sequence	direct
+NZ_CP042534.1	NZ_CP042534.1	1848494211	SAMN12289332	546	Citrobacter freundii strain E51 chromosome, complete genome	direct
+NZ_CP042535.1	NZ_CP042535.1	1848494212	SAMN12289332	546	Citrobacter freundii strain E51 plasmid pE51_001, complete sequence	direct
+NZ_CP042536.1	NZ_CP042536.1	1848494213	SAMN12289332	546	Citrobacter freundii strain E51 plasmid pE51_002, complete sequence	direct
+NZ_CP042537.1	NZ_CP042537.1	1848494214	SAMN12289332	546	Citrobacter freundii strain E51 plasmid pE51_003, complete sequence	direct
+NZ_CP042538.1	NZ_CP042538.1	1848494215	SAMN12289332	546	Citrobacter freundii strain E51 plasmid pE51_004, complete sequence	direct
+NZ_CP042539.1	NZ_CP042539.1	1848494216	SAMN12289332	546	Citrobacter freundii strain E51 plasmid pE51_005, complete sequence	direct
+NZ_CP045726.1	NZ_CP045726.1	1996228845	SAMN13140889	546	Citrobacter freundii strain zone4 chromosome, complete genome	direct
+NZ_CP045727.1	NZ_CP045727.1	1996228846	SAMN13140889	546	Citrobacter freundii strain zone4 plasmid pACV-OXA-48, complete sequence	direct
+NZ_CP046502.1	NZ_CP046502.1	1867114727	SAMN13412315	546	Citrobacter freundii strain 111 chromosome, complete genome	direct
+NZ_CP046503.1	NZ_CP046503.1	1867114728	SAMN13412315	546	Citrobacter freundii strain 111 plasmid unnamed1, complete sequence	direct
+NZ_CP046504.1	NZ_CP046504.1	1867114729	SAMN13412315	546	Citrobacter freundii strain 111 plasmid unnamed2, complete sequence	direct
+NZ_CP046505.1	NZ_CP046505.1	1867114730	SAMN13412315	546	Citrobacter freundii strain 111 plasmid unnamed3, complete sequence	direct
+NZ_CP046506.1	NZ_CP046506.1	1867114731	SAMN13412315	546	Citrobacter freundii strain 111 plasmid unnamed4, complete sequence	direct
+NZ_CP047269.1	NZ_CP047269.1	1910186670	SAMN11505996	546	Citrobacter freundii strain N16-03880 chromosome, complete genome	direct
+NZ_CP047270.1	NZ_CP047270.1	1910186671	SAMN11505996	546	Citrobacter freundii strain N16-03880 plasmid pCf3880, complete sequence	direct
+NZ_CP047273.1	NZ_CP047273.1	1890750090	SAMN11506022	546	Citrobacter freundii strain N18-04078 chromosome, complete genome	direct
+NZ_CP047274.1	NZ_CP047274.1	1890750092	SAMN11506022	546	Citrobacter freundii strain N18-04078 plasmid pCf4078, complete sequence	direct
+NZ_CP047275.1	NZ_CP047275.1	1890748971	SAMN11506036	546	Citrobacter freundii strain N18-04085 chromosome, complete genome	direct
+NZ_CP047276.1	NZ_CP047276.1	1890748972	SAMN11506036	546	Citrobacter freundii strain N18-04085 plasmid pCf4085, complete sequence	direct
+NZ_CP047279.1	NZ_CP047279.1	1890750140	SAMN11506077	546	Citrobacter freundii strain N18-04128 chromosome, complete genome	direct
+NZ_CP047280.1	NZ_CP047280.1	1890750141	SAMN11506077	546	Citrobacter freundii strain N18-04128 plasmid pCf4128, complete sequence	direct
+NZ_CP047307.1	NZ_CP047307.1	1797930584	SAMN13282750	546	Citrobacter freundii strain L75 chromosome, complete genome	direct
+NZ_CP047308.1	NZ_CP047308.1	1797930585	SAMN13282750	546	Citrobacter freundii strain L75 plasmid pCf75, complete sequence	direct
+NZ_CP047309.1	NZ_CP047309.1	1797930586	SAMN13282750	546	Citrobacter freundii strain L75 plasmid pCf76, complete sequence	direct
+NZ_CP048382.1	NZ_CP048382.1	1811155394	SAMN13951913	546	Citrobacter freundii strain 62 chromosome, complete genome	direct
+NZ_CP048383.1	NZ_CP048383.1	1811155410	SAMN13951913	546	Citrobacter freundii strain 62 plasmid p6_A, complete sequence	direct
+NZ_CP048384.1	NZ_CP048384.1	1811155415	SAMN13951913	546	Citrobacter freundii strain 62 plasmid p6_B, complete sequence	direct
+NZ_CP048385.1	NZ_CP048385.1	1811155421	SAMN13951913	546	Citrobacter freundii strain 62 plasmid p6_C, complete sequence	direct
+NZ_CP048416.1	NZ_CP048416.1	1843467498	SAMN13978991	546	Citrobacter freundii strain CitB chromosome, complete genome	direct
+NZ_CP048417.1	CP048417.1	1841769305	NA	NA	NA	alias:CP048417.1
+NZ_CP048418.1	NZ_CP048418.1	1843467500	SAMN13978991	546	Citrobacter freundii strain CitB plasmid pB_CitB, complete sequence	direct
+NZ_CP049015.1	NZ_CP049015.1	1819237025	SAMN14128751	1006003	Citrobacter freundii ATCC 8090 = MTCC 1658 = NBRC 12681 strain ATCC 8090 chromosome, complete genome	direct
+NZ_CP054278.1	NZ_CP054278.1	1890099566	SAMN15086848	546	Citrobacter freundii strain IDR1900015725-01-02 chromosome, complete genome	direct
+NZ_CP054279.1	NZ_CP054279.1	1890099567	SAMN15086848	546	Citrobacter freundii strain IDR1900015725-01-02 plasmid p4C141, complete sequence	direct
+NZ_CP054280.1	NZ_CP054280.1	1890099568	SAMN15086848	546	Citrobacter freundii strain IDR1900015725-01-02 plasmid p4C109, complete sequence	direct
+NZ_CP054281.1	NZ_CP054281.1	1890099569	SAMN15086848	546	Citrobacter freundii strain IDR1900015725-01-02 plasmid p4C12, complete sequence	direct
+NZ_CP054294.1	NZ_CP054294.1	1890108327	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 chromosome, complete genome	direct
+NZ_CP054295.1	NZ_CP054295.1	1890108328	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 plasmid p1C157, complete sequence	direct
+NZ_CP054296.1	NZ_CP054296.1	1890108329	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 plasmid p1C73, complete sequence	direct
+NZ_CP054297.1	NZ_CP054297.1	1890108330	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 plasmid p1C44, complete sequence	direct
+NZ_CP054298.1	NZ_CP054298.1	1890108331	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 plasmid p1C9, complete sequence	direct
+NZ_CP054299.1	NZ_CP054299.1	1890108332	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 plasmid p1C4, complete sequence	direct
+NZ_CP054300.1	NZ_CP054300.1	1890108333	SAMN15086845	546	Citrobacter freundii strain IDR1800045912-01-00 plasmid p1C2, complete sequence	direct
+NZ_CP055247.1	NZ_CP055247.1	1862152579	SAMN13737474	546	Citrobacter freundii strain ZY198 chromosome, complete genome	direct
+NZ_CP055248.1	NZ_CP055248.1	1862152581	NA	NA	NA	direct
+NZ_CP055249.1	NZ_CP055249.1	1862152582	SAMN13737474	546	Citrobacter freundii strain ZY198 plasmid pZY-2, complete sequence	direct
+NZ_CP055250.1	NZ_CP055250.1	1862152583	SAMN13737474	546	Citrobacter freundii strain ZY198 plasmid pZY-NDM1, complete sequence	direct
+NZ_CP055421.1	NZ_CP055421.1	1883370324	SAMN15148721	546	Citrobacter freundii strain RHBSTW-00862 chromosome, complete genome	direct
+NZ_CP055422.1	NZ_CP055422.1	1883370413	SAMN15148721	546	Citrobacter freundii strain RHBSTW-00862 plasmid pRHBSTW-00862_2, complete sequence	direct
+NZ_CP055423.1	NZ_CP055423.1	1883370428	SAMN15148721	546	Citrobacter freundii strain RHBSTW-00862 plasmid unnamed	direct
+NZ_CP055424.1	NZ_CP055424.1	1883370429	SAMN15148721	546	Citrobacter freundii strain RHBSTW-00862 plasmid pRHBSTW-00862_4, complete sequence	direct
+NZ_CP055425.1	NZ_CP055425.1	1883370430	SAMN15148721	546	Citrobacter freundii strain RHBSTW-00862 plasmid pRHBSTW-00862_5, complete sequence	direct
+NZ_CP055582.1	NZ_CP055582.1	1883359569	SAMN15148491	546	Citrobacter freundii strain RHBSTW-00110 chromosome, complete genome	direct
+NZ_CP055583.1	NZ_CP055583.1	1883359693	SAMN15148491	546	Citrobacter freundii strain RHBSTW-00110 plasmid pRHBSTW-00110_2, complete sequence	direct
+NZ_CP055584.1	NZ_CP055584.1	1883359696	SAMN15148491	546	Citrobacter freundii strain RHBSTW-00110 plasmid pRHBSTW-00110_3, complete sequence	direct
+NZ_CP055585.1	NZ_CP055585.1	1883359698	SAMN15148491	546	Citrobacter freundii strain RHBSTW-00110 plasmid unnamed	direct
+NZ_CP055586.1	NZ_CP055586.1	1883359700	SAMN15148491	546	Citrobacter freundii strain RHBSTW-00110 plasmid pRHBSTW-00110_5, complete sequence	direct
+NZ_CP055587.1	NZ_CP055587.1	1883359701	SAMN15148491	546	Citrobacter freundii strain RHBSTW-00110 plasmid pRHBSTW-00110_6, complete sequence	direct
+NZ_CP055588.1	NZ_CP055588.1	1883359804	SAMN15148477	546	Citrobacter freundii strain RHBSTW-00084 chromosome, complete genome	direct
+NZ_CP055589.1	NZ_CP055589.1	1883359820	SAMN15148477	546	Citrobacter freundii strain RHBSTW-00084 plasmid pRHBSTW-00084_2, complete sequence	direct
+NZ_CP055590.1	NZ_CP055590.1	1883359822	SAMN15148477	546	Citrobacter freundii strain RHBSTW-00084 plasmid unnamed	direct
+NZ_CP055591.1	NZ_CP055591.1	1883359823	SAMN15148477	546	Citrobacter freundii strain RHBSTW-00084 plasmid pRHBSTW-00084_4, complete sequence	direct
+NZ_CP055592.1	NZ_CP055592.1	1883359825	SAMN15148477	546	Citrobacter freundii strain RHBSTW-00084 plasmid pRHBSTW-00084_5, complete sequence	direct
+NZ_CP056181.1	NZ_CP056181.1	1884136664	SAMN15148768	546	Citrobacter freundii strain RHBSTW-01016 chromosome, complete genome	direct
+NZ_CP056182.1	NZ_CP056182.1	1884136665	SAMN15148768	546	Citrobacter freundii strain RHBSTW-01016 plasmid pRHBSTW-01016_2, complete sequence	direct
+NZ_CP056183.1	NZ_CP056183.1	1884136666	SAMN15148768	546	Citrobacter freundii strain RHBSTW-01016 plasmid pRHBSTW-01016_3, complete sequence	direct
+NZ_CP056184.1	NZ_CP056184.1	1884136667	SAMN15148768	546	Citrobacter freundii strain RHBSTW-01016 plasmid pRHBSTW-01016_4, complete sequence	direct
+NZ_CP056208.1	NZ_CP056208.1	1884119344	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 chromosome, complete genome	direct
+NZ_CP056209.1	NZ_CP056209.1	1884119345	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_2, complete sequence	direct
+NZ_CP056210.1	NZ_CP056210.1	1884119346	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_3, complete sequence	direct
+NZ_CP056211.1	NZ_CP056211.1	1884119347	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_4, complete sequence	direct
+NZ_CP056212.1	NZ_CP056212.1	1884119348	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_5, complete sequence	direct
+NZ_CP056213.1	NZ_CP056213.1	1884119349	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_6, complete sequence	direct
+NZ_CP056214.1	NZ_CP056214.1	1884119350	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_7, complete sequence	direct
+NZ_CP056215.1	NZ_CP056215.1	1884119351	SAMN15148761	546	Citrobacter freundii strain RHBSTW-00985 plasmid pRHBSTW-00985_8, complete sequence	direct
+NZ_CP056232.1	NZ_CP056232.1	1883904619	SAMN15148753	546	Citrobacter freundii strain RHBSTW-00965 chromosome, complete genome	direct
+NZ_CP056233.1	NZ_CP056233.1	1883904620	SAMN15148753	546	Citrobacter freundii strain RHBSTW-00965 plasmid pRHBSTW-00965_2, complete sequence	direct
+NZ_CP056234.1	NZ_CP056234.1	1883904621	SAMN15148753	546	Citrobacter freundii strain RHBSTW-00965 plasmid pRHBSTW-00965_3, complete sequence	direct
+NZ_CP056235.1	NZ_CP056235.1	1911254423	SAMN15148750	546	Citrobacter freundii strain RHBSTW-00942 chromosome, complete genome	direct
+NZ_CP056236.1	NZ_CP056236.1	1911254424	SAMN15148750	546	Citrobacter freundii strain RHBSTW-00942 plasmid pRHBSTW-00942_2, complete sequence	direct
+NZ_CP056238.1	NZ_CP056238.1	1883895632	SAMN15148747	546	Citrobacter freundii strain RHBSTW-00935 chromosome, complete genome	direct
+NZ_CP056239.1	NZ_CP056239.1	1883895633	SAMN15148747	546	Citrobacter freundii strain RHBSTW-00935 plasmid pRHBSTW-00935_2, complete sequence	direct
+NZ_CP056240.1	NZ_CP056240.1	1883895634	SAMN15148747	546	Citrobacter freundii strain RHBSTW-00935 plasmid pRHBSTW-00935_3, complete sequence	direct
+NZ_CP056241.1	NZ_CP056241.1	1883895635	SAMN15148747	546	Citrobacter freundii strain RHBSTW-00935 plasmid pRHBSTW-00935_4, complete sequence	direct
+NZ_CP056245.1	NZ_CP056245.1	1883905836	SAMN15148742	546	Citrobacter freundii strain RHBSTW-00915 chromosome, complete genome	direct
+NZ_CP056246.1	NZ_CP056246.1	1883905837	SAMN15148742	546	Citrobacter freundii strain RHBSTW-00915 plasmid pRHBSTW-00915_2, complete sequence	direct
+NZ_CP056247.1	NZ_CP056247.1	1883905838	SAMN15148742	546	Citrobacter freundii strain RHBSTW-00915 plasmid pRHBSTW-00915_3, complete sequence	direct
+NZ_CP056256.1	NZ_CP056256.1	1883969522	SAMN15148736	546	Citrobacter freundii strain RHBSTW-00902 chromosome, complete genome	direct
+NZ_CP056257.1	NZ_CP056257.1	1883969523	SAMN15148736	546	Citrobacter freundii strain RHBSTW-00902 plasmid pRHBSTW-00902_2, complete sequence	direct
+NZ_CP056258.1	NZ_CP056258.1	1883969524	SAMN15148736	546	Citrobacter freundii strain RHBSTW-00902 plasmid pRHBSTW-00902_3, complete sequence	direct
+NZ_CP056259.1	NZ_CP056259.1	1883969525	SAMN15148736	546	Citrobacter freundii strain RHBSTW-00902 plasmid pRHBSTW-00902_4, complete sequence	direct
+NZ_CP056314.1	NZ_CP056314.1	1883917414	SAMN15148707	546	Citrobacter freundii strain RHBSTW-00830 chromosome, complete genome	direct
+NZ_CP056336.1	NZ_CP056336.1	1883981142	SAMN15148687	546	Citrobacter freundii strain RHBSTW-00697 chromosome, complete genome	direct
+NZ_CP056337.1	NZ_CP056337.1	1883981143	SAMN15148687	546	Citrobacter freundii strain RHBSTW-00697 plasmid pRHBSTW-00697_2, complete sequence	direct
+NZ_CP056338.1	NZ_CP056338.1	1883981144	NA	NA	NA	direct
+NZ_CP056339.1	NZ_CP056339.1	1883981145	SAMN15148687	546	Citrobacter freundii strain RHBSTW-00697 plasmid pRHBSTW-00697_4, complete sequence	direct
+NZ_CP056340.1	NZ_CP056340.1	1883981146	SAMN15148687	546	Citrobacter freundii strain RHBSTW-00697 plasmid pRHBSTW-00697_5, complete sequence	direct
+NZ_CP056365.1	NZ_CP056365.1	1883975992	SAMN15148674	546	Citrobacter freundii strain RHBSTW-00658 chromosome, complete genome	direct
+NZ_CP056366.1	NZ_CP056366.1	1883975993	SAMN15148674	546	Citrobacter freundii strain RHBSTW-00658 plasmid pRHBSTW-00658_2, complete sequence	direct
+NZ_CP056367.1	NZ_CP056367.1	1883975994	SAMN15148674	546	Citrobacter freundii strain RHBSTW-00658 plasmid pRHBSTW-00658_3, complete sequence	direct
+NZ_CP056368.1	NZ_CP056368.1	1883975995	SAMN15148674	546	Citrobacter freundii strain RHBSTW-00658 plasmid pRHBSTW-00658_4, complete sequence	direct
+NZ_CP056369.1	NZ_CP056369.1	1883975996	SAMN15148674	546	Citrobacter freundii strain RHBSTW-00658 plasmid pRHBSTW-00658_5, complete sequence	direct
+NZ_CP056451.1	NZ_CP056451.1	1884090266	SAMN15148638	546	Citrobacter freundii strain RHBSTW-00502 chromosome, complete genome	direct
+NZ_CP056452.1	NZ_CP056452.1	1884090267	SAMN15148638	546	Citrobacter freundii strain RHBSTW-00502 plasmid pRHBSTW-00502_2, complete sequence	direct
+NZ_CP056466.1	NZ_CP056466.1	1883975915	SAMN15148631	546	Citrobacter freundii strain RHBSTW-00486 chromosome, complete genome	direct
+NZ_CP056467.1	CP056467.1	1880237730	SAMN15148631	546	Citrobacter freundii strain RHBSTW-00486 plasmid pRHBSTW-00486_2, complete sequence	alias:CP056467.1
+NZ_CP056468.1	NZ_CP056468.1	1883975918	SAMN15148631	546	Citrobacter freundii strain RHBSTW-00486 plasmid pRHBSTW-00486_3, complete sequence	direct
+NZ_CP056469.1	NZ_CP056469.1	1883975919	SAMN15148631	546	Citrobacter freundii strain RHBSTW-00486 plasmid pRHBSTW-00486_4, complete sequence	direct
+NZ_CP056505.1	NZ_CP056505.1	1883916878	SAMN15148618	546	Citrobacter freundii strain RHBSTW-00449 chromosome, complete genome	direct
+NZ_CP056506.1	NZ_CP056506.1	1883916879	SAMN15148618	546	Citrobacter freundii strain RHBSTW-00449 plasmid pRHBSTW-00449_2, complete sequence	direct
+NZ_CP056507.1	NZ_CP056507.1	1883916880	SAMN15148618	546	Citrobacter freundii strain RHBSTW-00449 plasmid pRHBSTW-00449_3, complete sequence	direct
+NZ_CP056527.1	NZ_CP056527.1	1883981981	SAMN15148611	546	Citrobacter freundii strain RHBSTW-00435 chromosome, complete genome	direct
+NZ_CP056528.1	NZ_CP056528.1	1883981984	SAMN15148611	546	Citrobacter freundii strain RHBSTW-00435 plasmid pRHBSTW-00435_2, complete sequence	direct
+NZ_CP056529.1	NZ_CP056529.1	1883981985	SAMN15148611	546	Citrobacter freundii strain RHBSTW-00435 plasmid pRHBSTW-00435_3, complete sequence	direct
+NZ_CP056573.1	NZ_CP056573.1	1883981545	SAMN15148595	546	Citrobacter freundii strain RHBSTW-00370 chromosome, complete genome	direct
+NZ_CP056574.1	NZ_CP056574.1	1883981546	SAMN15148595	546	Citrobacter freundii strain RHBSTW-00370 plasmid pRHBSTW-00370_2, complete sequence	direct
+NZ_CP056575.1	NZ_CP056575.1	1883981547	SAMN15148595	546	Citrobacter freundii strain RHBSTW-00370 plasmid pRHBSTW-00370_3, complete sequence	direct
+NZ_CP056576.1	NZ_CP056576.1	1883981548	SAMN15148595	546	Citrobacter freundii strain RHBSTW-00370 plasmid pRHBSTW-00370_4, complete sequence	direct
+NZ_CP056577.1	NZ_CP056577.1	1883981549	SAMN15148595	546	Citrobacter freundii strain RHBSTW-00370 plasmid pRHBSTW-00370_5, complete sequence	direct
+NZ_CP056592.1	NZ_CP056592.1	1883990488	SAMN15148588	546	Citrobacter freundii strain RHBSTW-00350 chromosome, complete genome	direct
+NZ_CP056593.1	NZ_CP056593.1	1883990489	SAMN15148588	546	Citrobacter freundii strain RHBSTW-00350 plasmid pRHBSTW-00350_2, complete sequence	direct
+NZ_CP056595.1	NZ_CP056595.1	1883986288	SAMN15148584	546	Citrobacter freundii strain RHBSTW-00342 chromosome, complete genome	direct
+NZ_CP056596.1	NZ_CP056596.1	1883986289	SAMN15148584	546	Citrobacter freundii strain RHBSTW-00342 plasmid pRHBSTW-00342_2, complete sequence	direct
+NZ_CP056622.1	NZ_CP056622.1	1911197349	SAMN15148568	546	Citrobacter freundii strain RHBSTW-00310 chromosome, complete genome	direct
+NZ_CP056623.1	NZ_CP056623.1	1911197490	SAMN15148568	546	Citrobacter freundii strain RHBSTW-00310 plasmid pRHBSTW-00310_2, complete sequence	direct
+NZ_CP056624.1	NZ_CP056624.1	1911197530	SAMN15148568	546	Citrobacter freundii strain RHBSTW-00310 plasmid pRHBSTW-00310_3, complete sequence	direct
+NZ_CP056635.1	NZ_CP056635.1	1883990240	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 chromosome, complete genome	direct
+NZ_CP056636.1	NZ_CP056636.1	1883990265	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 plasmid pRHBSTW-00302_2, complete sequence	direct
+NZ_CP056637.1	NZ_CP056637.1	1883990272	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 plasmid pRHBSTW-00302_3, complete sequence	direct
+NZ_CP056638.1	NZ_CP056638.1	1883990274	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 plasmid pRHBSTW-00302_4, complete sequence	direct
+NZ_CP056639.1	NZ_CP056639.1	1883990275	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 plasmid pRHBSTW-00302_5, complete sequence	direct
+NZ_CP056640.1	NZ_CP056640.1	1883990276	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 plasmid pRHBSTW-00302_6, complete sequence	direct
+NZ_CP056641.1	NZ_CP056641.1	1883990277	SAMN15148564	546	Citrobacter freundii strain RHBSTW-00302 plasmid pRHBSTW-00302_7, complete sequence	direct
+NZ_CP056653.1	NZ_CP056653.1	1884121481	SAMN15148543	546	Citrobacter freundii strain RHBSTW-00214 chromosome, complete genome	direct
+NZ_CP056654.1	NZ_CP056654.1	1884121530	SAMN15148543	546	Citrobacter freundii strain RHBSTW-00214 plasmid pRHBSTW-00214_2, complete sequence	direct
+NZ_CP056809.1	NZ_CP056809.1	1884130767	SAMN15148520	546	Citrobacter freundii strain RHBSTW-00162 chromosome, complete genome	direct
+NZ_CP056827.1	NZ_CP056827.1	1884134279	SAMN15148506	546	Citrobacter freundii strain RHBSTW-00135 chromosome, complete genome	direct
+NZ_CP056828.1	NZ_CP056828.1	1884134280	SAMN15148506	546	Citrobacter freundii strain RHBSTW-00135 plasmid pRHBSTW-00135_2, complete sequence	direct
+NZ_CP056829.1	NZ_CP056829.1	1884134281	SAMN15148506	546	Citrobacter freundii strain RHBSTW-00135 plasmid pRHBSTW-00135_3, complete sequence	direct
+NZ_CP056839.1	NZ_CP056839.1	1884116831	SAMN15148500	546	Citrobacter freundii strain RHBSTW-00126 chromosome, complete genome	direct
+NZ_CP056840.1	NZ_CP056840.1	1884116930	SAMN15148500	546	Citrobacter freundii strain RHBSTW-00126 plasmid pRHBSTW-00126_2, complete sequence	direct
+NZ_CP056841.1	NZ_CP056841.1	1884116941	SAMN15148500	546	Citrobacter freundii strain RHBSTW-00126 plasmid pRHBSTW-00126_3, complete sequence	direct
+NZ_CP056852.1	NZ_CP056852.1	1884137725	SAMN15148495	546	Citrobacter freundii strain RHBSTW-00119 chromosome, complete genome	direct
+NZ_CP056853.1	NZ_CP056853.1	1884137767	SAMN15148495	546	Citrobacter freundii strain RHBSTW-00119 plasmid pRHBSTW-00119_2, complete sequence	direct
+NZ_CP057864.1	NZ_CP057864.1	1885860091	SAMN15148085	546	Citrobacter freundii strain RHB12-C19 chromosome, complete genome	direct
+NZ_CP057865.1	NZ_CP057865.1	1885860093	SAMN15148085	546	Citrobacter freundii strain RHB12-C19 plasmid pRHB12-C19_2, complete sequence	direct
+NZ_CP058318.1	NZ_CP058318.1	1866056818	SAMN15394190	546	Citrobacter freundii strain M92 chromosome, complete genome	direct
+NZ_CP058319.1	NZ_CP058319.1	1866056998	SAMN15394190	546	Citrobacter freundii strain M92 plasmid pM92-1, complete sequence	direct
+NZ_CP058320.1	CP058320.1	1865331763	SAMN15394190	546	Citrobacter freundii strain M92 plasmid pM92-KPC2, complete sequence	alias:CP058320.1
+NZ_CP059427.1	NZ_CP059427.1	1911124447	SAMN15589939	546	Citrobacter freundii strain CIFR51929 chromosome, complete genome	direct
+NZ_CP059428.1	CP059428.1	1881801684	SAMN15589939	546	Citrobacter freundii strain CIFR51929 plasmid p51929, complete sequence	alias:CP059428.1
+NZ_CP059429.1	NZ_CP059429.1	1911124627	SAMN15589939	546	Citrobacter freundii strain CIFR51929 plasmid p51929_MCR_VIM, complete sequence	direct
+NZ_CP059849.1	CP059849.1	2210168428	SAMN15694748	546	Citrobacter freundii strain 3863 chromosome, complete genome	alias:CP059849.1
+NZ_CP059850.1	NZ_CP059850.1	2211882267	SAMN15694748	546	Citrobacter freundii strain 3863 plasmid pCF3863_tetX, complete sequence	direct
+NZ_CP070538.1	NZ_CP070538.1	1995219601	SAMN16933277	546	Citrobacter freundii strain CF48846 plasmid p48846_KPC, complete sequence	direct
+NZ_CP070539.1	NZ_CP070539.1	1995219602	SAMN16933277	546	Citrobacter freundii strain CF48846 plasmid p48846_IncHI2, complete sequence	direct
+NZ_CP070540.1	NZ_CP070540.1	1995219603	SAMN16933277	546	Citrobacter freundii strain CF48846 plasmid p48846_IncFII, complete sequence	direct
+NZ_CP070541.1	NZ_CP070541.1	1995219604	SAMN16933277	546	Citrobacter freundii strain CF48846 plasmid p48846_IncC	direct
+NZ_CP070542.1	NZ_CP070542.1	1995219605	SAMN16933277	546	Citrobacter freundii strain CF48846 plasmid p48846_2, complete sequence	direct
+NZ_CP070543.1	NZ_CP070543.1	1995219606	SAMN16933277	546	Citrobacter freundii strain CF48846 plasmid p48846_1, complete sequence	direct
+NZ_CP070544.1	NZ_CP070544.1	1995219607	SAMN16933277	546	Citrobacter freundii strain CF48846 chromosome, complete genome	direct
+NZ_CP070545.1	NZ_CP070545.1	1995205516	SAMN16933282	546	Citrobacter freundii strain CF49969 plasmid p49969_KPC, complete sequence	direct
+NZ_CP070546.1	NZ_CP070546.1	1995205530	SAMN16933282	546	Citrobacter freundii strain CF49969 plasmid p49969_IncFIB, complete sequence	direct
+NZ_CP070547.1	CP070547.1	1994023752	SAMN16933282	546	Citrobacter freundii strain CF49969 plasmid p49969_2, complete sequence	alias:CP070547.1
+NZ_CP070548.1	NZ_CP070548.1	1995205549	SAMN16933282	546	Citrobacter freundii strain CF49969 plasmid p49969_1, complete sequence	direct
+NZ_CP070549.1	NZ_CP070549.1	1995205643	SAMN16933282	546	Citrobacter freundii strain CF49969 chromosome, complete genome	direct
+NZ_CP070554.1	NZ_CP070554.1	1995174982	SAMN16933285	546	Citrobacter freundii strain CF50935 plasmid p50935_KPC, complete sequence	direct
+NZ_CP070555.1	NZ_CP070555.1	1995174983	SAMN16933285	546	Citrobacter freundii strain CF50935 plasmid p50935_IncHI2, complete sequence	direct
+NZ_CP070556.1	NZ_CP070556.1	1995174984	SAMN16933285	546	Citrobacter freundii strain CF50935 plasmid p50935_IncFII, complete sequence	direct
+NZ_CP070557.1	NZ_CP070557.1	1995174985	SAMN16933285	546	Citrobacter freundii strain CF50935 plasmid p50935_IncC, complete sequence	direct
+NZ_CP070558.1	NZ_CP070558.1	1995174986	SAMN16933285	546	Citrobacter freundii strain CF50935 plasmid p50935_1, complete sequence	direct
+NZ_CP070559.1	NZ_CP070559.1	1995175113	SAMN16933285	546	Citrobacter freundii strain CF50935 chromosome, complete genome	direct
+NZ_CP071265.1	NZ_CP071265.1	2247473226	SAMN18062620	546	Citrobacter freundii strain MEI002 chromosome, complete genome	direct
+NZ_CP071266.1	NZ_CP071266.1	2247473227	SAMN18062620	546	Citrobacter freundii strain MEI002 plasmid p1_pMV-OXA-48, complete sequence	direct
+NZ_CP071267.1	NZ_CP071267.1	2247473228	SAMN18062620	546	Citrobacter freundii strain MEI002 plasmid p2, complete sequence	direct
+NZ_CP071268.1	NZ_CP071268.1	2247473229	SAMN18062620	546	Citrobacter freundii strain MEI002 plasmid p3, complete sequence	direct
+NZ_CP071269.1	NZ_CP071269.1	2247473230	SAMN18062620	546	Citrobacter freundii strain MEI002 plasmid p4, complete sequence	direct
+NZ_CP071270.1	NZ_CP071270.1	2247473231	SAMN18062620	546	Citrobacter freundii strain MEI002 plasmid p5_Col(pHAD28), complete sequence	direct
+NZ_CP085726.1	NZ_CP085726.1	2128005040	SAMN22377426	546	Citrobacter freundii strain 56415CZ chromosome, complete genome	direct
+NZ_CP085727.1	NZ_CP085727.1	2128005077	SAMN22377426	546	Citrobacter freundii strain 56415CZ plasmid p56415CZ_MCR_9, complete sequence	direct
+NZ_CP085728.1	NZ_CP085728.1	2128005085	SAMN22377426	546	Citrobacter freundii strain 56415CZ plasmid p56415CZ_VIM, complete sequence	direct
+NZ_CP086287.1	NZ_CP086287.1	2131114345	SAMN21601121	546	Citrobacter freundii strain DY2010 chromosome, complete genome	direct
+NZ_CP086288.1	NZ_CP086288.1	2131114391	SAMN21601121	546	Citrobacter freundii strain DY2010 plasmid unnamed1, complete sequence	direct
+NZ_CP086289.1	NZ_CP086289.1	2131114394	SAMN21601121	546	Citrobacter freundii strain DY2010 plasmid unnamed2, complete sequence	direct
+NZ_CP086290.1	NZ_CP086290.1	2131114399	SAMN21601121	546	Citrobacter freundii strain DY2010 plasmid unnamed3, complete sequence	direct
+NZ_CP092463.1	NZ_CP092463.1	2240346065	SAMN24404972	546	Citrobacter freundii strain Cf7308 chromosome, complete genome	direct
+NZ_CP092464.1	NZ_CP092464.1	2240346072	SAMN24404972	546	Citrobacter freundii strain Cf7308 plasmid unnamed1, complete sequence	direct
+NZ_CP092465.1	CP092465.1	2239432816	SAMN24404972	546	Citrobacter freundii strain Cf7308 plasmid pNDM-Cf7308, complete sequence	alias:CP092465.1
+NZ_CP092493.1	NZ_CP092493.1	2203206267	SAMN26087385	546	Citrobacter freundii strain SCLZS47 chromosome, complete genome	direct
+NZ_CP092494.1	NZ_CP092494.1	2203206290	SAMN26087385	546	Citrobacter freundii strain SCLZS47 plasmid pKPC2_SCLZS47, complete sequence	direct
+NZ_CP092495.1	NZ_CP092495.1	2203206292	SAMN26087385	546	Citrobacter freundii strain SCLZS47 plasmid pNDM1_SCLZS47, complete sequence	direct
+NZ_CP092496.1	NZ_CP092496.1	2203206295	SAMN26087385	546	Citrobacter freundii strain SCLZS47 plasmid pOXA1_SCLZS47, complete sequence	direct
+NZ_CP096921.1	NZ_CP096921.1	2426294856	SAMN28016853	546	Citrobacter freundii strain NY2385 chromosome, complete genome	direct
+NZ_CP096922.1	NZ_CP096922.1	2426295331	SAMN28016853	546	Citrobacter freundii strain NY2385 plasmid pNY2385-IMP, complete sequence	direct
+NZ_CP097106.1	NZ_CP097106.1	2238155274	SAMN28095538	546	Citrobacter freundii strain GMU8049 plasmid unnamed, complete sequence	direct
+NZ_CP097107.1	NZ_CP097107.1	2238155275	SAMN28095538	546	Citrobacter freundii strain GMU8049 chromosome, complete genome	direct
+NZ_CP098330.1	NZ_CP098330.1	2250344546	SAMN28680541	546	Citrobacter freundii strain 59174 chromosome, complete genome	direct
+NZ_CP098331.1	NZ_CP098331.1	2250344682	SAMN28680541	546	Citrobacter freundii strain 59174 plasmid p59174-43.6, complete sequence	direct
+NZ_CP098332.1	NZ_CP098332.1	2250344691	SAMN28680541	546	Citrobacter freundii strain 59174 plasmid p59174-57.6, complete sequence	direct
+NZ_CP098333.1	NZ_CP098333.1	2250344724	SAMN28680541	546	Citrobacter freundii strain 59174 plasmid p59174-80.5, complete sequence	direct
+NZ_CP098334.1	NZ_CP098334.1	2250344758	SAMN28680541	546	Citrobacter freundii strain 59174 plasmid p59174-171.4, complete sequence	direct
+NZ_CP099037.1	NZ_CP099037.1	2487233845	SAMN15488679	546	Citrobacter freundii strain RHB44-SO-C05 chromosome, complete genome	direct
+NZ_CP099128.1	NZ_CP099128.1	2487233550	SAMN15488611	546	Citrobacter freundii strain RHB31-E4-C06 chromosome, complete genome	direct
+NZ_CP099217.1	NZ_CP099217.1	2487225172	SAMN15488551	546	Citrobacter freundii strain RHB16-SO-C03 chromosome, complete genome	direct
+NZ_CP099218.1	NZ_CP099218.1	2487225174	SAMN15488551	546	Citrobacter freundii strain RHB16-SO-C03 plasmid unnamed1, complete sequence	direct
+NZ_CP099219.1	NZ_CP099219.1	2487225175	SAMN15488551	546	Citrobacter freundii strain RHB16-SO-C03 plasmid unnamed2, complete sequence	direct
+NZ_CP099291.1	NZ_CP099291.1	2487216435	SAMN15488495	546	Citrobacter freundii strain RHB03-E1-C03 chromosome, complete genome	direct
+NZ_CP099292.1	NZ_CP099292.1	2487216479	SAMN15488495	546	Citrobacter freundii strain RHB03-E1-C03 plasmid unnamed1, complete sequence	direct
+NZ_CP099293.1	NZ_CP099293.1	2487216480	SAMN15488495	546	Citrobacter freundii strain RHB03-E1-C03 plasmid unnamed2, complete sequence	direct
+NZ_CP099298.1	NZ_CP099298.1	2487228832	SAMN15488484	546	Citrobacter freundii strain RHB02-E3-C01 chromosome, complete genome	direct
+NZ_CP099303.1	NZ_CP099303.1	2487217829	SAMN15488480	546	Citrobacter freundii strain RHB02-E1-C01 chromosome, complete genome	direct
+NZ_CP103365.1	NZ_CP103365.1	2293726949	SAMN30470988	546	Citrobacter freundii strain 140542 chromosome, complete genome	direct
+NZ_CP103366.1	NZ_CP103366.1	2293727007	SAMN30470988	546	Citrobacter freundii strain 140542 plasmid pNDM1_140542, complete sequence	direct
+NZ_CP103367.1	NZ_CP103367.1	2293727013	SAMN30470988	546	Citrobacter freundii strain 140542 plasmid pOXA1041_140542, complete sequence	direct
+NZ_CP103368.1	NZ_CP103368.1	2293727046	SAMN30470988	546	Citrobacter freundii strain 140542 plasmid p1_140542, complete sequence	direct
+NZ_CP103369.1	NZ_CP103369.1	2293727081	SAMN30470988	546	Citrobacter freundii strain 140542 plasmid p2_140542, complete sequence	direct
+NZ_CP103370.1	NZ_CP103370.1	2293727094	SAMN30470988	546	Citrobacter freundii strain 140542 plasmid p3_140542, complete sequence	direct
+NZ_CP110775.1	NZ_CP110775.1	2509394135	SAMN31656063	546	Citrobacter freundii strain Cf-Emp chromosome, complete genome	direct
+NZ_CP110776.1	NZ_CP110776.1	2509394519	SAMN31656063	546	Citrobacter freundii strain Cf-Emp plasmid pCf-VIM, complete sequence	direct
+NZ_CP110777.1	NZ_CP110777.1	2509394553	SAMN31656063	546	Citrobacter freundii strain Cf-Emp plasmid pCf-unmd3, complete sequence	direct
+NZ_CP110778.1	NZ_CP110778.1	2509394577	SAMN31656063	546	Citrobacter freundii strain Cf-Emp plasmid pCf-KPC, complete sequence	direct
+NZ_CP110779.1	NZ_CP110779.1	2509394600	SAMN31656063	546	Citrobacter freundii strain Cf-Emp plasmid pCf-N3, complete sequence	direct
+NZ_CP110780.1	NZ_CP110780.1	2509394626	SAMN31656063	546	Citrobacter freundii strain Cf-Emp plasmid pCf-OXA, complete sequence	direct
+NZ_CP110781.1	NZ_CP110781.1	2509394633	SAMN31656063	546	Citrobacter freundii strain Cf-Emp plasmid pCf-unmd7, complete sequence	direct
+NZ_CP110890.1	NZ_CP110890.1	2339513522	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-4, complete sequence	direct
+NZ_CP110891.1	NZ_CP110891.1	2339513552	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-1, complete sequence	direct
+NZ_CP110892.1	NZ_CP110892.1	2339513606	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-2, complete sequence	direct
+NZ_CP110893.1	NZ_CP110893.1	2339513643	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-5, complete sequence	direct
+NZ_CP110894.1	NZ_CP110894.1	2339513930	SAMN31693425	546	Citrobacter freundii strain CF1807 chromosome, complete genome	direct
+NZ_CP110895.1	NZ_CP110895.1	2339514471	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-6, complete sequence	direct
+NZ_CP110896.1	NZ_CP110896.1	2339514488	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-3, complete sequence	direct
+NZ_CP110897.1	NZ_CP110897.1	2339514498	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-8, complete sequence	direct
+NZ_CP110898.1	NZ_CP110898.1	2339514505	SAMN31693425	546	Citrobacter freundii strain CF1807 plasmid pCF1807-7, complete sequence	direct
+NZ_CP110899.1	NZ_CP110899.1	2339626584	SAMN31693662	546	Citrobacter freundii strain CF2206 plasmid pCF2206-2, complete sequence	direct
+NZ_CP110900.1	NZ_CP110900.1	2339626901	SAMN31693662	546	Citrobacter freundii strain CF2206 chromosome, complete genome	direct
+NZ_CP110901.1	NZ_CP110901.1	2339627116	NA	NA	NA	direct
+NZ_CP110902.1	NZ_CP110902.1	2339627120	SAMN31693662	546	Citrobacter freundii strain CF2206 plasmid pCF2206-7, complete sequence	direct
+NZ_CP110903.1	NZ_CP110903.1	2339627137	SAMN31693662	546	Citrobacter freundii strain CF2206 plasmid pCF2206-3, complete sequence	direct
+NZ_CP110904.1	NZ_CP110904.1	2339627177	SAMN31693662	546	Citrobacter freundii strain CF2206 plasmid pCF2206-1, complete sequence	direct
+NZ_CP110905.1	NZ_CP110905.1	2339627222	SAMN31693662	546	Citrobacter freundii strain CF2206 plasmid pCF2206-5, complete sequence	direct
+NZ_CP110906.1	NZ_CP110906.1	2339627238	SAMN31693662	546	Citrobacter freundii strain CF2206 plasmid pCF2206-4, complete sequence	direct
+NZ_CP110907.1	NZ_CP110907.1	2339668450	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-5, complete sequence	direct
+NZ_CP110908.1	NZ_CP110908.1	2339668485	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-2, complete sequence	direct
+NZ_CP110909.1	NZ_CP110909.1	2339668515	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-6, complete sequence	direct
+NZ_CP110910.1	NZ_CP110910.1	2339668520	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-8, complete sequence	direct
+NZ_CP110911.1	NZ_CP110911.1	2339668563	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-1, complete sequence	direct
+NZ_CP110912.1	NZ_CP110912.1	2339668582	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-7, complete sequence	direct
+NZ_CP110913.1	NZ_CP110913.1	2339668618	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-3, complete sequence	direct
+NZ_CP110914.1	NZ_CP110914.1	2339669208	SAMN31693747	546	Citrobacter freundii strain CFA1707 chromosome, complete genome	direct
+NZ_CP110915.1	NZ_CP110915.1	2339669479	SAMN31693747	546	Citrobacter freundii strain CFA1707 plasmid pCFA1707-4, complete sequence	direct
+NZ_CP113784.1	NZ_CP113784.1	2415130407	SAMN31929640	546	Citrobacter freundii strain CFSAN077772 chromosome, complete genome	direct
+NZ_CP113785.1	NZ_CP113785.1	2415130527	SAMN31929640	546	Citrobacter freundii strain CFSAN077772 plasmid pCFSAN077772, complete sequence	direct
+NZ_CP114564.1	NZ_CP114564.1	2417812459	SAMN32252807	546	Citrobacter freundii strain 2953647 chromosome, complete genome	direct
+NZ_CP114565.1	NZ_CP114565.1	2417812511	SAMN32252807	546	Citrobacter freundii strain 2953647 plasmid unnamed1, complete sequence	direct
+NZ_CP114566.1	NZ_CP114566.1	2417812522	SAMN32252807	546	Citrobacter freundii strain 2953647 plasmid unnamed2, complete sequence	direct
+NZ_CP114567.1	NZ_CP114567.1	2417812526	SAMN32252807	546	Citrobacter freundii strain 2953647 plasmid unnamed3, complete sequence	direct
+NZ_CP114568.1	NZ_CP114568.1	2417812535	SAMN32252807	546	Citrobacter freundii strain 2953647 plasmid unnamed4, complete sequence	direct
+NZ_CP114569.1	NZ_CP114569.1	2417812543	SAMN32252807	546	Citrobacter freundii strain 2953647 plasmid unnamed5, complete sequence	direct
+NZ_CP114570.1	NZ_CP114570.1	2417812547	SAMN32252807	546	Citrobacter freundii strain 2953647 plasmid unnamed6, complete sequence	direct
+NZ_CP115129.1	NZ_CP115129.1	2660325958	SAMN22334928	546	Citrobacter freundii strain 2021CK-01443 chromosome, complete genome	direct
+NZ_CP115130.1	NZ_CP115130.1	2660325959	SAMN22334928	546	Citrobacter freundii strain 2021CK-01443 plasmid unnamed1, complete sequence	direct
+NZ_CP115131.1	NZ_CP115131.1	2660325960	SAMN22334928	546	Citrobacter freundii strain 2021CK-01443 plasmid unnamed2, complete sequence	direct
+NZ_CP115132.1	NZ_CP115132.1	2660325961	SAMN22334928	546	Citrobacter freundii strain 2021CK-01443 plasmid unnamed3, complete sequence	direct
+NZ_CP115614.1	NZ_CP115614.1	2660327263	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 chromosome, complete genome	direct
+NZ_CP115615.1	NZ_CP115615.1	2660327266	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 plasmid unnamed1, complete sequence	direct
+NZ_CP115616.1	NZ_CP115616.1	2660327267	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 plasmid unnamed2, complete sequence	direct
+NZ_CP115617.1	NZ_CP115617.1	2660327268	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 plasmid unnamed3, complete sequence	direct
+NZ_CP115618.1	NZ_CP115618.1	2660327269	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 plasmid unnamed4, complete sequence	direct
+NZ_CP115619.1	NZ_CP115619.1	2660327270	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 plasmid unnamed5, complete sequence	direct
+NZ_CP115620.1	NZ_CP115620.1	2660327271	SAMN29151494	546	Citrobacter freundii strain 2022CK-00369 plasmid unnamed6, complete sequence	direct
+NZ_CP117475.1	NZ_CP117475.1	2594764599	SAMN33169384	546	Citrobacter freundii strain BC73 chromosome, complete genome	direct
+NZ_CP117476.1	NZ_CP117476.1	2594767424	SAMN33169384	546	Citrobacter freundii strain BC73 plasmid pCFBC1, complete sequence	direct
+NZ_CP117477.1	NZ_CP117477.1	2594767425	SAMN33169384	546	Citrobacter freundii strain BC73 plasmid pCFBC2, complete sequence	direct
+NZ_CP117478.1	NZ_CP117478.1	2594767426	SAMN33169384	546	Citrobacter freundii strain BC73 plasmid pCFBC3, complete sequence	direct
+NZ_CP119048.1	NZ_CP119048.1	2511566484	SAMN33408659	546	Citrobacter freundii strain 26019 chromosome, complete genome	direct
+NZ_CP119049.1	NZ_CP119049.1	2511566485	SAMN33408659	546	Citrobacter freundii strain 26019 plasmid p26019-1, complete sequence	direct
+NZ_CP119050.1	NZ_CP119050.1	2511566486	SAMN33408659	546	Citrobacter freundii strain 26019 plasmid p26019-2, complete sequence	direct
+NZ_CP119051.1	NZ_CP119051.1	2511566487	NA	NA	NA	direct
+NZ_CP119052.1	NZ_CP119052.1	2511566488	SAMN33408659	546	Citrobacter freundii strain 26019 plasmid p26019-4, complete sequence	direct
+NZ_CP119165.1	NZ_CP119165.1	2511566687	SAMN33434147	546	Citrobacter freundii strain 2075 chromosome, complete genome	direct
+NZ_CP119166.1	NZ_CP119166.1	2511566688	SAMN33434147	546	Citrobacter freundii strain 2075 plasmid p2075-1, complete sequence	direct
+NZ_CP119167.1	NZ_CP119167.1	2511566689	SAMN33434147	546	Citrobacter freundii strain 2075 plasmid p2075-2, complete sequence	direct
+NZ_CP119168.1	NZ_CP119168.1	2511566690	SAMN33434147	546	Citrobacter freundii strain 2075 plasmid pCfr_tK-N, complete sequence	direct
+NZ_CP124809.1	NZ_CP124809.1	2505788211	SAMN14640085	546	Citrobacter freundii strain CF13 chromosome, complete genome	direct
+NZ_CP124810.1	NZ_CP124810.1	2505788218	SAMN14640085	546	Citrobacter freundii strain CF13 plasmid pOXA-48, complete sequence	direct
+NZ_CP124811.1	NZ_CP124811.1	2505788219	SAMN14640085	546	Citrobacter freundii strain CF13 plasmid unnamed1, complete sequence	direct
+NZ_CP124812.1	NZ_CP124812.1	2505788221	SAMN14640085	546	Citrobacter freundii strain CF13 plasmid unnamed2, complete sequence	direct
+NZ_CP124813.1	NZ_CP124813.1	2505781424	SAMN14640084	546	Citrobacter freundii strain CF12 chromosome, complete genome	direct
+NZ_CP124814.1	NZ_CP124814.1	2505781431	SAMN14640084	546	Citrobacter freundii strain CF12 plasmid pOXA-48, complete sequence	direct
+NZ_CP124815.1	NZ_CP124815.1	2505781434	SAMN14640084	546	Citrobacter freundii strain CF12 plasmid unnamed1, complete sequence	direct
+NZ_CP124816.1	NZ_CP124816.1	2505781435	SAMN14640084	546	Citrobacter freundii strain CF12 plasmid unnamed2, complete sequence	direct
+NZ_CP124817.1	NZ_CP124817.1	2505781436	SAMN14640084	546	Citrobacter freundii strain CF12 plasmid unnamed3, complete sequence	direct
+NZ_CP124818.1	NZ_CP124818.1	2505781437	SAMN14640084	546	Citrobacter freundii strain CF12 plasmid unnamed4, complete sequence	direct
+NZ_CP125310.1	NZ_CP125310.1	2508027077	SAMN34580837	546	Citrobacter freundii strain CF5125 chromosome, complete genome	direct
+NZ_CP125311.1	NZ_CP125311.1	2508027081	SAMN34580837	546	Citrobacter freundii strain CF5125 plasmid pCF5125-1, complete sequence	direct
+NZ_CP125312.1	NZ_CP125312.1	2508027082	SAMN34580837	546	Citrobacter freundii strain CF5125 plasmid pCF5125-2, complete sequence	direct
+NZ_CP125313.1	NZ_CP125313.1	2508027083	SAMN34580837	546	Citrobacter freundii strain CF5125 plasmid pCF5125-3, complete sequence	direct
+NZ_CP125314.1	NZ_CP125314.1	2508027085	SAMN34580837	546	Citrobacter freundii strain CF5125 plasmid pCF5125-4, complete sequence	direct
+NZ_CP126536.1	NZ_CP126536.1	2515225547	SAMN35332011	546	Citrobacter freundii strain CRNMS1 chromosome, complete genome	direct
+NZ_CP126537.1	NZ_CP126537.1	2515225548	SAMN35332011	546	Citrobacter freundii strain CRNMS1 plasmid pblaNDM5-S1, complete sequence	direct
+NZ_CP126538.1	NZ_CP126538.1	2515225549	SAMN35332011	546	Citrobacter freundii strain CRNMS1 plasmid pCRNMS1-P3, complete sequence	direct
+NZ_CP126623.1	NZ_CP126623.1	2728807660	SAMN35344983	546	Citrobacter freundii strain C11 chromosome, complete genome	direct
+NZ_CP126624.1	NZ_CP126624.1	2728807682	SAMN35344983	546	Citrobacter freundii strain C11 plasmid unnamed, complete sequence	direct
+NZ_CP126882.1	NZ_CP126882.1	2532975157	SAMN28016853	546	Citrobacter freundii strain NY2385 plasmid pNY2385-2, complete sequence	direct
+NZ_CP126883.1	NZ_CP126883.1	2532975162	SAMN28016853	546	Citrobacter freundii strain NY2385 plasmid pNY2385-KPC, complete sequence	direct
+NZ_CP128207.1	NZ_CP128207.1	2955991547	SAMN35301134	546	Citrobacter freundii strain WYM chromosome, complete genome	direct
+NZ_CP128208.1	NZ_CP128208.1	2955991550	SAMN35301134	546	Citrobacter freundii strain WYM plasmid pC.f_WYM_1, complete sequence	direct
+NZ_CP128209.1	NZ_CP128209.1	2955991551	SAMN35301134	546	Citrobacter freundii strain WYM plasmid pC.f_WYM_2, complete sequence	direct
+NZ_CP128210.1	NZ_CP128210.1	2955991552	SAMN35301134	546	Citrobacter freundii strain WYM plasmid pC.f_WYM_3, complete sequence	direct
+NZ_CP128211.1	NZ_CP128211.1	2955991553	SAMN35301134	546	Citrobacter freundii strain WYM plasmid pC.f_WYM_4, complete sequence	direct
+NZ_CP128212.1	NZ_CP128212.1	2955991554	SAMN35301134	546	Citrobacter freundii strain WYM plasmid pC.f_WYM_5, complete sequence	direct
+NZ_CP128213.1	NZ_CP128213.1	2955991555	SAMN35301134	546	Citrobacter freundii strain WYM plasmid pC.f_WYM_6, complete sequence	direct
+NZ_CP133848.1	NZ_CP133848.1	2660326359	SAMN37200065	546	Citrobacter freundii strain CF2 plasmid unnamed2, complete sequence	direct
+NZ_CP133849.1	NZ_CP133849.1	2660326360	SAMN37200065	546	Citrobacter freundii strain CF2 plasmid pCF2_OXA48, complete sequence	direct
+NZ_CP133850.1	NZ_CP133850.1	2660326361	SAMN37200065	546	Citrobacter freundii strain CF2 plasmid unnamed3, complete sequence	direct
+NZ_CP133851.1	NZ_CP133851.1	2660326362	SAMN37200065	546	Citrobacter freundii strain CF2 plasmid unnamed1, complete sequence	direct
+NZ_CP133852.1	NZ_CP133852.1	2660326363	SAMN37200065	546	Citrobacter freundii strain CF2 chromosome, complete genome	direct
+NZ_CP135450.1	NZ_CP135450.1	2590633092	SAMN37529183	546	Citrobacter freundii strain isolateL chromosome, complete genome	direct
+NZ_CP135451.1	NZ_CP135451.1	2590633237	SAMN37529183	546	Citrobacter freundii strain isolateL plasmid pIsolateL_A, complete sequence	direct
+NZ_CP135452.1	NZ_CP135452.1	2590633261	SAMN37529183	546	Citrobacter freundii strain isolateL plasmid pIsolateL_B, complete sequence	direct
+NZ_CP135453.1	NZ_CP135453.1	2590633264	SAMN37529183	546	Citrobacter freundii strain isolateL plasmid pIsolateL_C, complete sequence	direct
+NZ_CP135465.1	NZ_CP135465.1	2590624753	SAMN37529179	546	Citrobacter freundii strain isolateH chromosome, complete genome	direct
+NZ_CP135466.1	NZ_CP135466.1	2590624841	SAMN37529179	546	Citrobacter freundii strain isolateH plasmid pIsolateH_A, complete sequence	direct
+NZ_CP135467.1	NZ_CP135467.1	2590624842	SAMN37529179	546	Citrobacter freundii strain isolateH plasmid pIsolateH_B, complete sequence	direct
+NZ_CP135468.1	NZ_CP135468.1	2590624871	SAMN37529179	546	Citrobacter freundii strain isolateH plasmid pIsolateH_C, complete sequence	direct
+NZ_CP135469.1	NZ_CP135469.1	2590640289	SAMN37529178	546	Citrobacter freundii strain isolateG chromosome, complete genome	direct
+NZ_CP135470.1	NZ_CP135470.1	2590640299	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_A, complete sequence	direct
+NZ_CP135471.1	NZ_CP135471.1	2590640300	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_B, complete sequence	direct
+NZ_CP135472.1	NZ_CP135472.1	2590640301	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_C, complete sequence	direct
+NZ_CP135473.1	NZ_CP135473.1	2590640302	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_D, complete sequence	direct
+NZ_CP135474.1	NZ_CP135474.1	2590640303	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_E, complete sequence	direct
+NZ_CP135622.1	NZ_CP135622.1	2660327253	SAMN37553760	546	Citrobacter freundii strain 202212 chromosome, complete genome	direct
+NZ_CP135623.1	NZ_CP135623.1	2660327254	SAMN37553760	546	Citrobacter freundii strain 202212 plasmid pA-NDM-202212, complete sequence	direct
+NZ_CP135624.1	NZ_CP135624.1	2660327255	SAMN37553760	546	Citrobacter freundii strain 202212 plasmid pB-KPC-202212, complete sequence	direct
+NZ_CP135625.1	NZ_CP135625.1	2660327256	SAMN37553760	546	Citrobacter freundii strain 202212 plasmid pC-202212, complete sequence	direct
+NZ_CP136047.1	NZ_CP136047.1	2660327207	SAMN37599210	546	Citrobacter freundii strain CPO20180081 chromosome, complete genome	direct
+NZ_CP136048.1	NZ_CP136048.1	2660327209	SAMN37599210	546	Citrobacter freundii strain CPO20180081 plasmid pCPO20180081_1, complete sequence	direct
+NZ_CP136049.1	NZ_CP136049.1	2660327210	SAMN37599210	546	Citrobacter freundii strain CPO20180081 plasmid pCPO20180081_2, complete sequence	direct
+NZ_CP136050.1	NZ_CP136050.1	2660327211	SAMN37599210	546	Citrobacter freundii strain CPO20180081 plasmid pCPO20180081_3, complete sequence	direct
+NZ_CP137116.1	NZ_CP137116.1	2612737301	SAMN37878025	546	Citrobacter freundii strain F2119 plasmid pF2119-3, complete sequence	direct
+NZ_CP137117.1	NZ_CP137117.1	2612737530	SAMN37878025	546	Citrobacter freundii strain F2119 chromosome, complete genome	direct
+NZ_CP137118.1	NZ_CP137118.1	2612737933	SAMN37878025	546	Citrobacter freundii strain F2119 plasmid pF2119-IMP, complete sequence	direct
+NZ_CP137119.1	NZ_CP137119.1	2612737983	SAMN37878025	546	Citrobacter freundii strain F2119 plasmid pF2119-1, complete sequence	direct
+NZ_CP137120.1	NZ_CP137120.1	2612738010	SAMN37878025	546	Citrobacter freundii strain F2119 plasmid pF2119-4, complete sequence	direct
+NZ_CP137121.1	NZ_CP137121.1	2612801033	SAMN37878029	546	Citrobacter freundii strain F3021 plasmid pF3021-5, complete sequence	direct
+NZ_CP137122.1	NZ_CP137122.1	2612801047	SAMN37878029	546	Citrobacter freundii strain F3021 plasmid pF3021-IMP, complete sequence	direct
+NZ_CP137123.1	NZ_CP137123.1	2612801262	SAMN37878029	546	Citrobacter freundii strain F3021 chromosome, complete genome	direct
+NZ_CP137124.1	NZ_CP137124.1	2612801436	SAMN37878029	546	Citrobacter freundii strain F3021 plasmid pF3021-NDM, complete sequence	direct
+NZ_CP137125.1	NZ_CP137125.1	2612801455	SAMN37878029	546	Citrobacter freundii strain F3021 plasmid pF3021-1, complete sequence	direct
+NZ_CP137126.1	NZ_CP137126.1	2612801463	SAMN37878029	546	Citrobacter freundii strain F3021 plasmid pF3021-4, complete sequence	direct
+NZ_CP137127.1	NZ_CP137127.1	2612821961	SAMN37878049	546	Citrobacter freundii strain F3121 plasmid pF3121-IMP, complete sequence	direct
+NZ_CP137128.1	NZ_CP137128.1	2612822235	SAMN37878049	546	Citrobacter freundii strain F3121 chromosome, complete genome	direct
+NZ_CP137129.1	NZ_CP137129.1	2612822431	SAMN37878049	546	Citrobacter freundii strain F3121 plasmid pF3121-NDM, complete sequence	direct
+NZ_CP137130.1	NZ_CP137130.1	2612822457	SAMN37878049	546	Citrobacter freundii strain F3121 plasmid pF3121-1, complete sequence	direct
+NZ_CP137131.1	NZ_CP137131.1	2612822466	SAMN37878049	546	Citrobacter freundii strain F3121 plasmid pF3121-4, complete sequence	direct
+NZ_CP137132.1	NZ_CP137132.1	2612899674	SAMN37878257	546	Citrobacter freundii strain F3419 plasmid pF3419-NDM, complete sequence	direct
+NZ_CP137133.1	NZ_CP137133.1	2612899675	SAMN37878257	546	Citrobacter freundii strain F3419 chromosome, complete genome	direct
+NZ_CP137173.1	NZ_CP137173.1	2622752810	SAMN37932926	546	Citrobacter freundii strain F3517 plasmid pF3517-5, complete sequence	direct
+NZ_CP137174.1	NZ_CP137174.1	2622752823	SAMN37932926	546	Citrobacter freundii strain F3517 plasmid pF3517-3, complete sequence	direct
+NZ_CP137175.1	NZ_CP137175.1	2665651103	SAMN37932926	546	Citrobacter freundii strain F3517 chromosome, complete genome	direct
+NZ_CP137176.1	NZ_CP137176.1	2622753035	SAMN37932926	546	Citrobacter freundii strain F3517 plasmid pF3517-NDM, complete sequence	direct
+NZ_CP137177.1	NZ_CP137177.1	2622753034	SAMN37932926	546	Citrobacter freundii strain F3517 plasmid pF3517-1, complete sequence	direct
+NZ_CP137178.1	NZ_CP137178.1	2622752878	SAMN37932926	546	Citrobacter freundii strain F3517 plasmid pF3517-4, complete sequence	direct
+NZ_CP137179.1	NZ_CP137179.1	2665554073	SAMN37933137	546	Citrobacter freundii strain F4321 chromosome, complete genome	direct
+NZ_CP137180.1	NZ_CP137180.1	2622753050	SAMN37933137	546	Citrobacter freundii strain F4321 plasmid pF4321-KPC, complete sequence	direct
+NZ_CP137181.1	NZ_CP137181.1	2622753081	SAMN37933137	546	Citrobacter freundii strain F4321 plasmid pF4321-2, complete sequence	direct
+NZ_CP137182.1	NZ_CP137182.1	2622752850	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-5, complete sequence	direct
+NZ_CP137183.1	NZ_CP137183.1	2665656437	SAMN37933681	546	Citrobacter freundii strain F1917 chromosome, complete genome	direct
+NZ_CP137184.1	NZ_CP137184.1	2622752879	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-7, complete sequence	direct
+NZ_CP137185.1	NZ_CP137185.1	2622752889	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-6, complete sequence	direct
+NZ_CP137186.1	NZ_CP137186.1	2622752913	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-NDM, complete sequence	direct
+NZ_CP137187.1	NZ_CP137187.1	2622752824	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-10, complete sequence	direct
+NZ_CP137188.1	NZ_CP137188.1	2622752999	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-2, complete sequence	direct
+NZ_CP137189.1	NZ_CP137189.1	2622753046	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-3, complete sequence	direct
+NZ_CP137190.1	NZ_CP137190.1	2622752852	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-9, complete sequence	direct
+NZ_CP137191.1	NZ_CP137191.1	2622752912	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-8, complete sequence	direct
+NZ_CP137192.1	NZ_CP137192.1	2622752825	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-11, complete sequence	direct
+NZ_CP137193.1	NZ_CP137193.1	2622753221	SAMN37933681	546	Citrobacter freundii strain F1917 plasmid pF1917-1, complete sequence	direct
+NZ_CP137194.1	NZ_CP137194.1	2622752897	SAMN37934525	546	Citrobacter freundii strain F2021 plasmid pF2021-2, complete sequence	direct
+NZ_CP137195.1	NZ_CP137195.1	2665655644	SAMN37934525	546	Citrobacter freundii strain F2021 chromosome, complete genome	direct
+NZ_CP137196.1	NZ_CP137196.1	2622753084	SAMN37934525	546	Citrobacter freundii strain F2021 plasmid pF2021-3, complete sequence	direct
+NZ_CP137197.1	NZ_CP137197.1	2622944004	SAMN37934525	546	Citrobacter freundii strain F2021 plasmid pF2021-NDM, complete sequence	direct
+NZ_CP137198.1	NZ_CP137198.1	2622753053	SAMN37934525	546	Citrobacter freundii strain F2021 plasmid pF2021-4, complete sequence	direct
+NZ_CP137199.1	NZ_CP137199.1	2622753126	SAMN37935181	546	Citrobacter freundii strain F3221 plasmid pF3221-3, complete sequence	direct
+NZ_CP137200.1	NZ_CP137200.1	2622752942	SAMN37935181	546	Citrobacter freundii strain F3221 plasmid pF3221-2, complete sequence	direct
+NZ_CP137201.1	NZ_CP137201.1	2665656557	SAMN37935181	546	Citrobacter freundii strain F3221 chromosome, complete genome	direct
+NZ_CP137202.1	NZ_CP137202.1	2623097451	SAMN37935181	546	Citrobacter freundii strain F3221 plasmid pF3221-NDM, complete sequence	direct
+NZ_CP137203.1	NZ_CP137203.1	2665651304	SAMN37934872	546	Citrobacter freundii strain F2613 chromosome, complete genome	direct
+NZ_CP137204.1	NZ_CP137204.1	2622753086	SAMN37934872	546	Citrobacter freundii strain F2613 plasmid pF2613-NDM, complete sequence	direct
+NZ_CP137205.1	NZ_CP137205.1	2622753031	SAMN37935182	546	Citrobacter freundii strain F3321 plasmid pF3321-IMP, complete sequence	direct
+NZ_CP137206.1	NZ_CP137206.1	2622752944	SAMN37935182	546	Citrobacter freundii strain F3321 plasmid pF3321-1, complete sequence	direct
+NZ_CP137207.1	NZ_CP137207.1	2665553655	SAMN37935182	546	Citrobacter freundii strain F3321 chromosome, complete genome	direct
+NZ_CP137703.1	NZ_CP137703.1	2618951894	SAMN37709339	546	Citrobacter freundii isolate FELIX_MS689 chromosome, complete genome	direct
+NZ_CP137704.1	NZ_CP137704.1	2618951895	SAMN37709339	546	Citrobacter freundii isolate FELIX_MS689 plasmid pCfFELIX689.1, complete sequence	direct
+NZ_CP137717.1	NZ_CP137717.1	2618952386	SAMN37709340	546	Citrobacter freundii isolate FELIX_MS690 chromosome, complete genome	direct
+NZ_CP139745.1	NZ_CP139745.1	2637467902	SAMN37931207	546	Citrobacter freundii isolate FELIX_MS432 chromosome, complete genome	direct
+NZ_CP139849.1	NZ_CP139849.1	2660327021	SAMN38610813	546	Citrobacter freundii strain UKJ86 plasmid pUKJ86_1, complete sequence	direct
+NZ_CP139850.1	NZ_CP139850.1	2660327022	SAMN38610813	546	Citrobacter freundii strain UKJ86 chromosome, complete genome	direct
+NZ_CP139851.1	NZ_CP139851.1	2660327023	SAMN38610813	546	Citrobacter freundii strain UKJ86 plasmid pUKJ86_2	direct
+NZ_CP139852.1	NZ_CP139852.1	2660327024	SAMN38610813	546	Citrobacter freundii strain UKJ86 plasmid pUKJ86_3	direct
+NZ_CP141252.1	NZ_CP141252.1	2714580912	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_F, complete sequence	direct
+NZ_CP141253.1	NZ_CP141253.1	2714580914	SAMN37529178	546	Citrobacter freundii strain isolateG plasmid pIsolateG_G, complete sequence	direct
+NZ_CP141645.1	NZ_CP141645.1	2648857366	SAMN38983828	546	Citrobacter freundii strain NFYY328 chromosome, complete genome	direct
+NZ_CP141646.1	NZ_CP141646.1	2648857564	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-1, complete sequence	direct
+NZ_CP141647.1	NZ_CP141647.1	2648857575	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-2, complete sequence	direct
+NZ_CP141648.1	NZ_CP141648.1	2648857578	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-3, complete sequence	direct
+NZ_CP141649.1	NZ_CP141649.1	2648857583	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-4, complete sequence	direct
+NZ_CP141650.1	NZ_CP141650.1	2648857586	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-5, complete sequence	direct
+NZ_CP141651.1	NZ_CP141651.1	2648857591	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-6, complete sequence	direct
+NZ_CP141652.1	NZ_CP141652.1	2648857594	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-7, complete sequence	direct
+NZ_CP141653.1	NZ_CP141653.1	2648857595	SAMN38983828	546	Citrobacter freundii strain NFYY328 plasmid pNFYY328-8, complete sequence	direct
+NZ_CP142904.1	NZ_CP142904.1	2665537942	SAMN39499919	546	Citrobacter freundii strain B18196 chromosome, complete genome	direct
+NZ_CP142905.1	NZ_CP142905.1	2665538094	SAMN39499919	546	Citrobacter freundii strain B18196 plasmid pB18196_1, complete sequence	direct
+NZ_CP142906.1	NZ_CP142906.1	2665538126	SAMN39499919	546	Citrobacter freundii strain B18196 plasmid pB18196_2, complete sequence	direct
+NZ_CP142907.1	NZ_CP142907.1	2665538141	SAMN39499919	546	Citrobacter freundii strain B18196 plasmid pB18196_3, complete sequence	direct
+NZ_CP142908.1	NZ_CP142908.1	2665538145	SAMN39499919	546	Citrobacter freundii strain B18196 plasmid pB18196_4, complete sequence	direct
+NZ_CP142909.1	NZ_CP142909.1	2665538149	SAMN39499919	546	Citrobacter freundii strain B18196 plasmid pB18196_5, complete sequence	direct
+NZ_CP144725.1	NZ_CP144725.1	2710815298	SAMN39435378	546	Citrobacter freundii strain CI190083 chromosome, complete genome	direct
+NZ_CP144726.1	NZ_CP144726.1	2710815333	SAMN39435378	546	Citrobacter freundii strain CI190083 plasmid pCI190083_1, complete sequence	direct
+NZ_CP144727.1	NZ_CP144727.1	2710815341	SAMN39435378	546	Citrobacter freundii strain CI190083 plasmid pCI190083_2, complete sequence	direct
+NZ_CP144728.1	NZ_CP144728.1	2710815343	SAMN39435378	546	Citrobacter freundii strain CI190083 plasmid pCI190083_3	direct
+NZ_CP144729.1	NZ_CP144729.1	2710815344	SAMN39435378	546	Citrobacter freundii strain CI190083 plasmid pCI190083_4	direct
+NZ_CP145665.1	NZ_CP145665.1	2711012004	SAMN33052304	546	Citrobacter freundii strain S1-CHI-03-B chromosome, complete genome	direct
+NZ_CP145666.1	NZ_CP145666.1	2711012252	SAMN33052304	546	Citrobacter freundii strain S1-CHI-03-B plasmid p1-S1-CHI-03-B, complete sequence	direct
+NZ_CP145667.1	NZ_CP145667.1	2711012297	SAMN33052304	546	Citrobacter freundii strain S1-CHI-03-B plasmid p2-S1-CHI-03-B, complete sequence	direct
+NZ_CP149135.1	NZ_CP149135.1	2711444100	SAMN40298374	546	Citrobacter freundii isolate FELIX_MS426 chromosome, complete genome	direct
+NZ_CP150622.1	NZ_CP150622.1	2714507975	SAMN40453084	546	Citrobacter freundii strain C17 chromosome, complete genome	direct
+NZ_CP150623.1	NZ_CP150623.1	2714508440	SAMN40453084	546	Citrobacter freundii strain C17 plasmid IncHI2A, complete sequence	direct
+NZ_CP150624.1	NZ_CP150624.1	2714508463	SAMN40453084	546	Citrobacter freundii strain C17 plasmid IncA, complete sequence	direct
+NZ_CP150625.1	NZ_CP150625.1	2714508482	SAMN40453084	546	Citrobacter freundii strain C17 plasmid IncF, complete sequence	direct
+NZ_CP150626.1	NZ_CP150626.1	2714508495	SAMN40453084	546	Citrobacter freundii strain C17 plasmid IncX3, complete sequence	direct
+NZ_CP150627.1	NZ_CP150627.1	2714508499	SAMN40453084	546	Citrobacter freundii strain C17 plasmid unnamed	direct
+NZ_CP151202.1	NZ_CP151202.1	2718405242	SAMN23449392	546	Citrobacter freundii strain CFTMDU chromosome, complete genome	direct
+NZ_CP151203.1	NZ_CP151203.1	2718405280	SAMN23449392	546	Citrobacter freundii strain CFTMDU plasmid p1_CFTMDU, complete sequence	direct
+NZ_CP151204.1	NZ_CP151204.1	2718405286	SAMN23449392	546	Citrobacter freundii strain CFTMDU plasmid p2_CFTMDU, complete sequence	direct
+NZ_CP151205.1	NZ_CP151205.1	2718405291	SAMN23449392	546	Citrobacter freundii strain CFTMDU plasmid p3_CFTMDU, complete sequence	direct
+NZ_CP151206.1	NZ_CP151206.1	2718405295	SAMN23449392	546	Citrobacter freundii strain CFTMDU plasmid p4_CFTMDU, complete sequence	direct
+NZ_CP151207.1	NZ_CP151207.1	2718405297	SAMN23449392	546	Citrobacter freundii strain CFTMDU plasmid p5_CFTMDU, complete sequence	direct
+NZ_CP151208.1	NZ_CP151208.1	2718405299	SAMN23449392	546	Citrobacter freundii strain CFTMDU plasmid p6_CFTMDU, complete sequence	direct
+NZ_CP151860.1	NZ_CP151860.1	2722088884	SAMN40574029	546	Citrobacter freundii strain MO_AK867 chromosome, complete genome	direct
+NZ_CP151861.1	NZ_CP151861.1	2722088893	SAMN40574029	546	Citrobacter freundii strain MO_AK867 plasmid pKPC2_CFR867, complete sequence	direct
+NZ_CP151862.1	CP151862.1	2721419911	SAMN40574029	546	Citrobacter freundii strain MO_AK867 plasmid unnamed2, complete sequence	alias:CP151862.1
+NZ_CP151863.1	NZ_CP151863.1	2722088896	SAMN40574029	546	Citrobacter freundii strain MO_AK867 plasmid pVIM1_CFR867	direct
+NZ_CP151864.1	NZ_CP151864.1	2722088897	SAMN40574029	546	Citrobacter freundii strain MO_AK867 plasmid pfosA3_CFR867, complete sequence	direct
+NZ_CP151865.1	NZ_CP151865.1	2722088898	SAMN40574029	546	Citrobacter freundii strain MO_AK867 plasmid unnamed3, complete sequence	direct
+NZ_CP151866.1	NZ_CP151866.1	2722088899	SAMN40574029	546	Citrobacter freundii strain MO_AK867 plasmid unnamed1	direct
+NZ_CP154587.1	NZ_CP154587.1	2728350185	SAMN41129895	546	Citrobacter freundii strain NFYY361 chromosome, complete genome	direct
+NZ_CP154588.1	NZ_CP154588.1	2728350198	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-1, complete sequence	direct
+NZ_CP154589.1	NZ_CP154589.1	2728350200	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-2, complete sequence	direct
+NZ_CP154590.1	NZ_CP154590.1	2728350203	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-3, complete sequence	direct
+NZ_CP154591.1	NZ_CP154591.1	2728350205	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-4, complete sequence	direct
+NZ_CP154592.1	NZ_CP154592.1	2728350206	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-5, complete sequence	direct
+NZ_CP154593.1	NZ_CP154593.1	2728350207	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-6, complete sequence	direct
+NZ_CP154594.1	NZ_CP154594.1	2728350208	SAMN41129895	546	Citrobacter freundii strain NFYY361 plasmid pNFYY361-7, complete sequence	direct
+NZ_CP155122.1	NZ_CP155122.1	2732783127	SAMN41219942	546	Citrobacter freundii strain C61969 chromosome, complete genome	direct
+NZ_CP155123.1	NZ_CP155123.1	2732783128	SAMN41219942	546	Citrobacter freundii strain C61969 plasmid pC61969-NDM, complete sequence	direct
+NZ_CP158491.1	NZ_CP158491.1	2992391856	SAMN41826320	546	Citrobacter freundii strain WF1033 chromosome, complete genome	direct
+NZ_CP158492.1	NZ_CP158492.1	2992391912	SAMN41826320	546	Citrobacter freundii strain WF1033 plasmid pWF1033-Int1, complete sequence	direct
+NZ_CP158493.1	NZ_CP158493.1	2992391917	SAMN41826320	546	Citrobacter freundii strain WF1033 plasmid pWF1033-KPC-IMP, complete sequence	direct
+NZ_CP158494.1	NZ_CP158494.1	2992391919	SAMN41826320	546	Citrobacter freundii strain WF1033 plasmid pWF1033-NDM, complete sequence	direct
+NZ_CP158495.1	NZ_CP158495.1	2992391921	SAMN41826320	546	Citrobacter freundii strain WF1033 plasmid pWF1033-5, complete sequence	direct
+NZ_CP161897.1	NZ_CP161897.1	2865202814	SAMN42439697	546	Citrobacter freundii strain C275 chromosome, complete genome	direct
+NZ_CP161898.1	NZ_CP161898.1	2865202990	SAMN42439697	546	Citrobacter freundii strain C275 plasmid pC2075-1, complete sequence	direct
+NZ_CP161899.1	NZ_CP161899.1	2865203008	SAMN42439697	546	Citrobacter freundii strain C275 plasmid pC2075-2, complete sequence	direct
+NZ_CP161900.1	NZ_CP161900.1	2865203012	SAMN42439697	546	Citrobacter freundii strain C275 plasmid pC2075-3, complete sequence	direct
+NZ_CP162039.1	NZ_CP162039.1	2779436551	SAMN42431289	546	Citrobacter freundii strain Cf_Goe_204579-1 chromosome, complete genome	direct
+NZ_CP162040.1	NZ_CP162040.1	2779436560	SAMN42431289	546	Citrobacter freundii strain Cf_Goe_204579-1 plasmid p382_Cf_Goe_204579-1, complete sequence	direct
+NZ_CP162041.1	NZ_CP162041.1	2779436561	SAMN42431289	546	Citrobacter freundii strain Cf_Goe_204579-1 plasmid p5_Cf_Goe_204579-1, complete sequence	direct
+NZ_CP162975.1	NZ_CP162975.1	2783047361	SAMN42440413	546	Citrobacter freundii strain CXW215 chromosome, complete genome	direct
+NZ_CP162976.1	NZ_CP162976.1	2783047465	SAMN42440413	546	Citrobacter freundii strain CXW215 plasmid pCXW215_1, complete sequence	direct
+NZ_CP162977.1	NZ_CP162977.1	2783047478	SAMN42440413	546	Citrobacter freundii strain CXW215 plasmid pCXW215_2, complete sequence	direct
+NZ_CP162978.1	NZ_CP162978.1	2783047483	SAMN42440413	546	Citrobacter freundii strain CXW215 plasmid pCXW215_3, complete sequence	direct
+NZ_CP162979.1	NZ_CP162979.1	2783047487	SAMN42440413	546	Citrobacter freundii strain CXW215 plasmid pCXW215_4, complete sequence	direct
+NZ_CP162980.1	NZ_CP162980.1	2783047489	SAMN42440413	546	Citrobacter freundii strain CXW215 plasmid pCXW215_5, complete sequence	direct
+NZ_CP162981.1	NZ_CP162981.1	2783047491	SAMN42440413	546	Citrobacter freundii strain CXW215 plasmid pCXW215_6, complete sequence	direct
+NZ_CP162982.1	NZ_CP162982.1	2783071645	SAMN42440412	546	Citrobacter freundii strain CXW213 chromosome, complete genome	direct
+NZ_CP162983.1	NZ_CP162983.1	2783071714	SAMN42440412	546	Citrobacter freundii strain CXW213 plasmid pCXW213_1, complete sequence	direct
+NZ_CP162984.1	NZ_CP162984.1	2783071716	SAMN42440412	546	Citrobacter freundii strain CXW213 plasmid pCXW213_2, complete sequence	direct
+NZ_CP162985.1	NZ_CP162985.1	2783071719	SAMN42440412	546	Citrobacter freundii strain CXW213 plasmid pCXW213_3, complete sequence	direct
+NZ_CP162986.1	NZ_CP162986.1	2783071721	SAMN42440412	546	Citrobacter freundii strain CXW213 plasmid pCXW213_4, complete sequence	direct
+NZ_CP163076.1	NZ_CP163076.1	2783064450	SAMN42440395	546	Citrobacter freundii strain W115 chromosome, complete genome	direct
+NZ_CP163077.1	NZ_CP163077.1	2783064560	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_1, complete sequence	direct
+NZ_CP163078.1	NZ_CP163078.1	2783064577	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_2, complete sequence	direct
+NZ_CP163079.1	NZ_CP163079.1	2783064586	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_3, complete sequence	direct
+NZ_CP163080.1	NZ_CP163080.1	2783064590	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_4, complete sequence	direct
+NZ_CP163081.1	NZ_CP163081.1	2783064593	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_5, complete sequence	direct
+NZ_CP163082.1	NZ_CP163082.1	2783064596	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_6, complete sequence	direct
+NZ_CP163083.1	NZ_CP163083.1	2783064598	SAMN42440395	546	Citrobacter freundii strain W115 plasmid pW115_7, complete sequence	direct
+NZ_CP165768.1	NZ_CP165768.1	2785967145	SAMN43010778	546	Citrobacter freundii strain FAHZZU8106 chromosome, complete genome	direct
+NZ_CP165769.1	NZ_CP165769.1	2785967146	SAMN43010778	546	Citrobacter freundii strain FAHZZU8106 plasmid pFAHZZU8106-VIM-TEM, complete sequence	direct
+NZ_CP165770.1	NZ_CP165770.1	2785967147	SAMN43010778	546	Citrobacter freundii strain FAHZZU8106 plasmid unnamed1, complete sequence	direct
+NZ_CP165771.1	CP165771.1	2785373362	SAMN43010778	546	Citrobacter freundii strain FAHZZU8106 plasmid pFAHZZU8106-KPC, complete sequence	alias:CP165771.1
+NZ_CP165772.1	NZ_CP165772.1	2785967149	SAMN43010778	546	Citrobacter freundii strain FAHZZU8106 plasmid unnamed2, complete sequence	direct
+NZ_CP165773.1	NZ_CP165773.1	2785967150	SAMN43010778	546	Citrobacter freundii strain FAHZZU8106 plasmid unnamed3, complete sequence	direct
+NZ_CP175808.1	NZ_CP175808.1	2870417077	SAMN45046479	546	Citrobacter freundii strain 27-C chromosome, complete genome	direct
+NZ_CP181672.1	NZ_CP181672.1	2975956278	SAMN42539994	546	Citrobacter freundii strain A31575 chromosome, complete genome	direct
+NZ_CP181673.1	NZ_CP181673.1	2975956282	SAMN42539994	546	Citrobacter freundii strain A31575 plasmid p1_A31575, complete sequence	direct
+NZ_CP181674.1	NZ_CP181674.1	2975956283	SAMN42539994	546	Citrobacter freundii strain A31575 plasmid p2_A31575, complete sequence	direct
+NZ_CP181957.1	NZ_CP181957.1	2975958974	SAMN42539184	546	Citrobacter freundii strain A27547 chromosome, complete genome	direct
+NZ_CP181958.1	NZ_CP181958.1	2975959043	SAMN42539184	546	Citrobacter freundii strain A27547 plasmid p1_A27547, complete sequence	direct
+NZ_CP181959.1	NZ_CP181959.1	2975959045	SAMN42539184	546	Citrobacter freundii strain A27547 plasmid p2_A27547, complete sequence	direct
+NZ_CP181960.1	NZ_CP181960.1	2975959047	SAMN42539184	546	Citrobacter freundii strain A27547 plasmid p3_A27547, complete sequence	direct
+NZ_CP182926.1	NZ_CP182926.1	2924005957	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 chromosome, complete genome	direct
+NZ_CP182927.1	NZ_CP182927.1	2924005958	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 plasmid pFAHZZU6636-1, complete sequence	direct
+NZ_CP182928.1	NZ_CP182928.1	2924005959	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 plasmid pFAHZZU6636-2, complete sequence	direct
+NZ_CP182929.1	NZ_CP182929.1	2924005961	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 plasmid p6636X3-NDM-5, complete sequence	direct
+NZ_CP182930.1	NZ_CP182930.1	2924005963	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 plasmid pFAHZZU6636-3, complete sequence	direct
+NZ_CP182931.1	NZ_CP182931.1	2924005964	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 plasmid unnamed1	direct
+NZ_CP182932.1	NZ_CP182932.1	2924005965	SAMN46188678	546	Citrobacter freundii strain FAHZZU6636 plasmid unnamed2	direct
+NZ_CP186042.1	NZ_CP186042.1	2953712189	SAMN47329967	546	Citrobacter freundii strain T1001 chromosome, complete genome	direct
+NZ_CP186043.1	NZ_CP186043.1	2953712190	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-KPC, complete sequence	direct
+NZ_CP186044.1	NZ_CP186044.1	2953712191	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-NDM, complete sequence	direct
+NZ_CP186045.1	NZ_CP186045.1	2953712192	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-NR1, complete sequence	direct
+NZ_CP186046.1	NZ_CP186046.1	2953712193	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-NR2, complete sequence	direct
+NZ_CP186047.1	NZ_CP186047.1	2953712194	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-NR3, complete sequence	direct
+NZ_CP186048.1	NZ_CP186048.1	2953712195	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-NR4, complete sequence	direct
+NZ_CP186049.1	NZ_CP186049.1	2953712196	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-NR5, complete sequence	direct
+NZ_CP186050.1	NZ_CP186050.1	2953712197	SAMN47329967	546	Citrobacter freundii strain T1001 plasmid pT1001-armA, complete sequence	direct
+NZ_CP187118.1	NZ_CP187118.1	2958452002	NA	NA	NA	direct
+NZ_CP187119.1	NZ_CP187119.1	2958452111	SAMN47823672	546	Citrobacter freundii strain M21 plasmid pM21-1, complete sequence	direct
+NZ_CP187120.1	NZ_CP187120.1	2958452117	SAMN47823672	546	Citrobacter freundii strain M21 plasmid pM21-2, complete sequence	direct
+NZ_CP187121.1	NZ_CP187121.1	2958452123	SAMN47823672	546	Citrobacter freundii strain M21 plasmid pM21-3, complete sequence	direct
+NZ_CP194345.1	NZ_CP194345.1	2996728048	SAMN48762826	546	Citrobacter freundii strain SM-3 chromosome, complete genome	direct
+NZ_CP194919.1	NZ_CP194919.1	3004886806	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 chromosome, complete genome	direct
+NZ_CP194920.1	NZ_CP194920.1	3004886938	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed1, complete sequence	direct
+NZ_CP194921.1	NZ_CP194921.1	3004886956	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed2, complete sequence	direct
+NZ_CP194922.1	NZ_CP194922.1	3004886969	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed3, complete sequence	direct
+NZ_CP194923.1	NZ_CP194923.1	3004886979	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed4, complete sequence	direct
+NZ_CP194924.1	NZ_CP194924.1	3004886989	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed5, complete sequence	direct
+NZ_CP194925.1	NZ_CP194925.1	3004886997	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed6, complete sequence	direct
+NZ_CP194926.1	NZ_CP194926.1	3004887041	SAMN48924555	546	Citrobacter freundii strain FAHZZU6617 plasmid unnamed7	direct
+NZ_CP197381.1	NZ_CP197381.1	3046001005	SAMN50229541	546	Citrobacter freundii strain 2025-PB01 chromosome, complete genome	direct
+NZ_CP199762.1	NZ_CP199762.1	3062432410	SAMN51164848	546	Citrobacter freundii strain 2025-PB03 chromosome, complete genome	direct
+NZ_CP199763.1	NZ_CP199763.1	3062433039	SAMN51164389	546	Citrobacter freundii strain 2025-PB02 chromosome, complete genome	direct
+NZ_CP199779.1	NZ_CP199779.1	3062429779	SAMN51178349	546	Citrobacter freundii strain 2025-PB04 chromosome, complete genome	direct
+NZ_JADVJF020000002.1	NZ_JADVJF020000002.1	3107071184	SAMN10435572	546	Citrobacter freundii strain CB00028 plasmid p305_CB00028_2, whole genome shotgun sequence	direct
+NZ_JADVJF020000003.1	NZ_JADVJF020000003.1	3107071185	SAMN10435572	546	Citrobacter freundii strain CB00028 plasmid p351_CB00028_3, whole genome shotgun sequence	direct
+NZ_JBRAWB010000002.1	NZ_JBRAWB010000002.1	3124147099	SAMN51335551	546	Citrobacter freundii strain 16AR1712 plasmid p16AR1712A, whole genome shotgun sequence	direct
+NZ_JBRYYE010000002.1	NZ_JBRYYE010000002.1	3111421885	SAMN52951556	546	Citrobacter freundii strain MAS5905 plasmid pMAS5905-1, whole genome shotgun sequence	direct
+NZ_JBRYYE010000003.1	NZ_JBRYYE010000003.1	3111421911	SAMN52951556	546	Citrobacter freundii strain MAS5905 plasmid pMAS5905-2, whole genome shotgun sequence	direct
+NZ_JBRYYE010000004.1	NZ_JBRYYE010000004.1	3111421927	SAMN52951556	546	Citrobacter freundii strain MAS5905 plasmid pMAS5905-KPC, whole genome shotgun sequence	direct
+NZ_LR881934.1	NZ_LR881934.1	1967506302	SAMEA7313125	546	Citrobacter freundii strain PSV chromosome PSV, complete sequence	direct
+NZ_LR881935.1	NZ_LR881935.1	1967506303	SAMEA7313125	546	Citrobacter freundii strain PSV plasmid pPSV, complete sequence	direct
+NZ_LR890181.1	NZ_LR890181.1	1958974470	SAMEA3357462	546	Citrobacter freundii strain MSB1_1H isolate MSB1_1H chromosome 1, complete sequence	direct
+NZ_LR890182.1	NZ_LR890182.1	1958974471	SAMEA3357462	546	Citrobacter freundii strain MSB1_1H isolate MSB1_1H plasmid 2, complete sequence	direct
+NZ_LR890183.1	NZ_LR890183.1	1958974472	SAMEA3357462	546	Citrobacter freundii strain MSB1_1H isolate MSB1_1H plasmid 3, complete sequence	direct
+NZ_LS992175.1	NZ_LS992175.1	1601825267	SAMEA4830817	546	Citrobacter freundii isolate Citrobacter freundii str. E2614 chromosome 1, complete sequence	direct
+NZ_LS992176.1	NZ_LS992176.1	1601825342	SAMEA4830817	546	Citrobacter freundii isolate Citrobacter freundii str. E2614 plasmid 2, complete sequence	direct
+NZ_LS992177.1	NZ_LS992177.1	1601825348	SAMEA4830817	546	Citrobacter freundii isolate Citrobacter freundii str. E2614 plasmid 3, complete sequence	direct
+NZ_LS992178.1	NZ_LS992178.1	1601825351	SAMEA4830817	546	Citrobacter freundii isolate Citrobacter freundii str. E2614 plasmid 4, complete sequence	direct
+NZ_LS992179.1	NZ_LS992179.1	1601825353	SAMEA4830817	546	Citrobacter freundii isolate Citrobacter freundii str. E2614 plasmid 5, complete sequence	direct
+NZ_LS992183.1	NZ_LS992183.1	1601828560	SAMEA4830818	546	Citrobacter freundii isolate Citrobacter freundii str. U2785 chromosome 1, complete sequence	direct
+NZ_LS992184.1	NZ_LS992184.1	1601828599	SAMEA4830818	546	Citrobacter freundii isolate Citrobacter freundii str. U2785 plasmid 2, complete sequence	direct
+NZ_MF344582.1	NZ_MF344582.1	1848406190	SAMN28016853	546	Citrobacter freundii strain NY2385 plasmid pNY2385-HI2, complete sequence	direct
+NZ_OW848788.1	NZ_OW848788.1	2335390394	SAMEA7853238	546	Citrobacter freundii isolate 112 chromosome main, complete sequence	direct
+NZ_OW848789.1	NZ_OW848789.1	2247397773	SAMEA7853238	546	Citrobacter freundii isolate 112 plasmid P1, complete sequence	direct
+NZ_OW848790.1	NZ_OW848790.1	2247397754	SAMEA7853238	546	Citrobacter freundii isolate 112 plasmid P2, complete sequence	direct
+NZ_OW849082.1	NZ_OW849082.1	2335419862	SAMEA7853256	546	Citrobacter freundii isolate 8 chromosome main, complete sequence	direct
+NZ_OW849083.1	NZ_OW849083.1	2246630802	SAMEA7853256	546	Citrobacter freundii isolate 8 plasmid P1, complete sequence	direct
+NZ_OW849084.1	NZ_OW849084.1	2247397736	SAMEA7853256	546	Citrobacter freundii isolate 8 plasmid P2, complete sequence	direct
+NZ_OW849085.1	NZ_OW849085.1	2247397769	SAMEA7853256	546	Citrobacter freundii isolate 8 plasmid P3, complete sequence	direct
+NZ_OW849099.1	NZ_OW849099.1	2335411767	SAMEA7962729	546	Citrobacter freundii isolate 402 chromosome main, complete sequence	direct
+NZ_OW849100.1	NZ_OW849100.1	2247397743	SAMEA7962729	546	Citrobacter freundii isolate 402 plasmid P1, complete sequence	direct
+NZ_OW849208.1	NZ_OW849208.1	2335425489	SAMEA7962748	546	Citrobacter freundii isolate 18 chromosome main, complete sequence	direct
+NZ_OW849209.1	NZ_OW849209.1	2246630850	SAMEA7962748	546	Citrobacter freundii isolate 18 plasmid P1, complete sequence	direct
+NZ_OW849210.1	NZ_OW849210.1	2246630817	SAMEA7962748	546	Citrobacter freundii isolate 18 plasmid P2, complete sequence	direct
+NZ_OW849211.1	NZ_OW849211.1	2246630797	NA	NA	NA	direct
+NZ_OW849212.1	NZ_OW849212.1	2246630814	SAMEA7962748	546	Citrobacter freundii isolate 18 plasmid P4, complete sequence	direct
+NZ_OW849213.1	NZ_OW849213.1	2247397783	SAMEA7962748	546	Citrobacter freundii isolate 18 plasmid P5, complete sequence	direct
+NZ_OW849214.1	NZ_OW849214.1	2247397779	SAMEA7962748	546	Citrobacter freundii isolate 18 plasmid P6, complete sequence	direct
+NZ_OW849256.1	NZ_OW849256.1	2335379052	SAMEA7962746	546	Citrobacter freundii isolate 18 chromosome main, complete sequence	direct
+NZ_OW849257.1	NZ_OW849257.1	2246630844	SAMEA7962746	546	Citrobacter freundii isolate 18 plasmid P1, complete sequence	direct
+NZ_OW849258.1	NZ_OW849258.1	2246630867	SAMEA7962746	546	Citrobacter freundii isolate 18 plasmid P2, complete sequence	direct
+NZ_OW849259.1	NZ_OW849259.1	2246630806	SAMEA7962746	546	Citrobacter freundii isolate 18 plasmid P3, complete sequence	direct
+NZ_OW849260.1	NZ_OW849260.1	2246630803	SAMEA7962746	546	Citrobacter freundii isolate 18 plasmid P4, complete sequence	direct
+NZ_OW849261.1	NZ_OW849261.1	2247397761	SAMEA7962746	546	Citrobacter freundii isolate 18 plasmid P5, complete sequence	direct
+NZ_OW849527.1	NZ_OW849527.1	2335420919	SAMEA7962742	546	Citrobacter freundii isolate 22 chromosome main, complete sequence	direct
+NZ_OW849528.1	NZ_OW849528.1	2246630834	SAMEA7962742	546	Citrobacter freundii isolate 22 plasmid P1, complete sequence	direct
+NZ_OW849529.1	NZ_OW849529.1	2246630849	SAMEA7962742	546	Citrobacter freundii isolate 22 plasmid P2, complete sequence	direct
+NZ_OW849530.1	NZ_OW849530.1	2246630880	SAMEA7962742	546	Citrobacter freundii isolate 22 plasmid P3, complete sequence	direct
+NZ_OW849531.1	NZ_OW849531.1	2246630808	SAMEA7962742	546	Citrobacter freundii isolate 22 plasmid P4, complete sequence	direct
+NZ_OW967263.1	NZ_OW967263.1	2247346491	SAMEA8065677	546	Citrobacter freundii isolate 22 chromosome main, complete sequence	direct
+NZ_OW967264.1	NZ_OW967264.1	2247346499	SAMEA8065677	546	Citrobacter freundii isolate 22 plasmid P1, complete sequence	direct
+NZ_OW967265.1	NZ_OW967265.1	2247346505	SAMEA8065677	546	Citrobacter freundii isolate 22 plasmid P2, complete sequence	direct
+NZ_OW967266.1	NZ_OW967266.1	2247346518	SAMEA8065677	546	Citrobacter freundii isolate 22 plasmid P3, complete sequence	direct
+NZ_OW967267.1	NZ_OW967267.1	2247346532	SAMEA8065677	546	Citrobacter freundii isolate 22 plasmid P4, complete sequence	direct
+NZ_OW967268.1	NZ_OW967268.1	2247346538	SAMEA8065677	546	Citrobacter freundii isolate 22 plasmid P5, complete sequence	direct
+NZ_OW969875.1	NZ_OW969875.1	2247344524	SAMEA8158487	546	Citrobacter freundii isolate 22 chromosome main, complete sequence	direct
+NZ_OW969876.1	NZ_OW969876.1	2247344608	SAMEA8158487	546	Citrobacter freundii isolate 22 plasmid P1, complete sequence	direct
+NZ_OW969877.1	NZ_OW969877.1	2247344614	SAMEA8158487	546	Citrobacter freundii isolate 22 plasmid P2, complete sequence	direct
+NZ_OW969878.1	NZ_OW969878.1	2247344627	SAMEA8158487	546	Citrobacter freundii isolate 22 plasmid P3, complete sequence	direct
+NZ_OW969879.1	NZ_OW969879.1	2247344643	SAMEA8158487	546	Citrobacter freundii isolate 22 plasmid P4, complete sequence	direct
+NZ_OW969880.1	NZ_OW969880.1	2247344644	SAMEA8158487	546	Citrobacter freundii isolate 22 plasmid P5, complete sequence	direct
+NZ_OW969881.1	NZ_OW969881.1	2247344652	SAMEA8158487	546	Citrobacter freundii isolate 22 plasmid P6, complete sequence	direct
+NZ_OW969882.1	NZ_OW969882.1	2247344655	SAMEA8158487	546	Citrobacter freundii isolate 22 plasmid P7, complete sequence	direct
+NZ_OW969904.1	NZ_OW969904.1	2247357818	SAMEA8158485	546	Citrobacter freundii isolate 0 chromosome main, complete sequence	direct
+NZ_OW969905.1	NZ_OW969905.1	2247357819	SAMEA8158485	546	Citrobacter freundii isolate 0 plasmid P1, complete sequence	direct
+NZ_OW969906.1	NZ_OW969906.1	2247357820	SAMEA8158485	546	Citrobacter freundii isolate 0 plasmid P2, complete sequence	direct
+NZ_OW969907.1	NZ_OW969907.1	2247357821	SAMEA8158485	546	Citrobacter freundii isolate 0 plasmid P3, complete sequence	direct
+NZ_OW969908.1	NZ_OW969908.1	2247357822	SAMEA8158485	546	Citrobacter freundii isolate 0 plasmid P4, complete sequence	direct
+NZ_OW969909.1	NZ_OW969909.1	2247357823	SAMEA8158485	546	Citrobacter freundii isolate 0 plasmid P5, complete sequence	direct
+NZ_OW969910.1	NZ_OW969910.1	2247357824	SAMEA8158485	546	Citrobacter freundii isolate 0 plasmid P6, complete sequence	direct
+NZ_OW969911.1	NZ_OW969911.1	2247357825	SAMEA8158485	546	Citrobacter freundii isolate 0 plasmid P7, complete sequence	direct
+NZ_OW995941.1	NZ_OW995941.1	2260735688	SAMEA8065770	546	Citrobacter freundii isolate 112 chromosome main, complete sequence	direct
+NZ_OW995942.1	NZ_OW995942.1	2260735962	SAMEA8065770	546	Citrobacter freundii isolate 112 plasmid P1, complete sequence	direct
+NZ_OW995943.1	NZ_OW995943.1	2260735993	SAMEA8065770	546	Citrobacter freundii isolate 112 plasmid P2, complete sequence	direct
+NZ_OW995944.1	NZ_OW995944.1	2260736007	SAMEA8065770	546	Citrobacter freundii isolate 112 plasmid P3, complete sequence	direct
+NZ_OW995945.1	NZ_OW995945.1	2260736027	SAMEA8065770	546	Citrobacter freundii isolate 112 plasmid P4, complete sequence	direct
+OW848788.1	OW848788.1	2241884816	SAMEA7853238	546	Citrobacter freundii isolate 112 genome assembly, chromosome: main	direct
+OW848789.1	NZ_OW848789.1	2247397773	SAMEA7853238	546	Citrobacter freundii isolate 112 plasmid P1, complete sequence	alias:NZ_OW848789.1
+OW848790.1	OW848790.1	2241889789	SAMEA7853238	546	Citrobacter freundii isolate 112 genome assembly, plasmid: P2	direct
+OW849082.1	OW849082.1	2241709648	SAMEA7853256	546	Citrobacter freundii isolate 8 genome assembly, chromosome: main	direct
+OW849083.1	OW849083.1	2241714608	SAMEA7853256	546	Citrobacter freundii isolate 8 genome assembly, plasmid: P1	direct
+OW849084.1	OW849084.1	2241714824	SAMEA7853256	546	Citrobacter freundii isolate 8 genome assembly, plasmid: P2	direct
+OW849085.1	OW849085.1	2241714875	SAMEA7853256	546	Citrobacter freundii isolate 8 genome assembly, plasmid: P3	direct
+OW849099.1	OW849099.1	2241725214	SAMEA7962729	546	Citrobacter freundii isolate 402 genome assembly, chromosome: main	direct
+OW849100.1	OW849100.1	2241729715	SAMEA7962729	546	Citrobacter freundii isolate 402 genome assembly, plasmid: P1	direct
+OW849208.1	OW849208.1	2241825785	SAMEA7962748	546	Citrobacter freundii isolate 18 genome assembly, chromosome: main	direct
+OW849209.1	OW849209.1	2241830445	SAMEA7962748	546	Citrobacter freundii isolate 18 genome assembly, plasmid: P1	direct
+OW849210.1	OW849210.1	2241830760	SAMEA7962748	546	Citrobacter freundii isolate 18 genome assembly, plasmid: P2	direct
+OW849211.1	OW849211.1	2241830912	SAMEA7962748	546	Citrobacter freundii isolate 18 genome assembly, plasmid: P3	direct
+OW849212.1	OW849212.1	2241831042	SAMEA7962748	546	Citrobacter freundii isolate 18 genome assembly, plasmid: P4	direct
+OW849213.1	OW849213.1	2241831130	SAMEA7962748	546	Citrobacter freundii isolate 18 genome assembly, plasmid: P5	direct
+OW849214.1	OW849214.1	2241831135	SAMEA7962748	546	Citrobacter freundii isolate 18 genome assembly, plasmid: P6	direct
+OW849256.1	OW849256.1	2241874777	SAMEA7962746	546	Citrobacter freundii isolate 18 genome assembly, chromosome: main	direct
+OW849257.1	OW849257.1	2241884142	SAMEA7962746	546	Citrobacter freundii isolate 18 genome assembly, plasmid: P1	direct
+OW849258.1	OW849258.1	2241884592	SAMEA7962746	546	Citrobacter freundii isolate 18 genome assembly, plasmid: P2	direct
+OW849259.1	OW849259.1	2241884725	SAMEA7962746	546	Citrobacter freundii isolate 18 genome assembly, plasmid: P3	direct
+OW849260.1	OW849260.1	2241889603	SAMEA7962746	546	Citrobacter freundii isolate 18 genome assembly, plasmid: P4	direct
+OW849261.1	OW849261.1	2241889787	SAMEA7962746	546	Citrobacter freundii isolate 18 genome assembly, plasmid: P5	direct
+OW849527.1	OW849527.1	2242280518	SAMEA7962742	546	Citrobacter freundii isolate 22 genome assembly, chromosome: main	direct
+OW849528.1	OW849528.1	2242285395	SAMEA7962742	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P1	direct
+OW849529.1	OW849529.1	2242285667	SAMEA7962742	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P2	direct
+OW849530.1	OW849530.1	2242285825	SAMEA7962742	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P3	direct
+OW849531.1	OW849531.1	2242285912	SAMEA7962742	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P4	direct
+OW967263.1	OW967263.1	2243551123	SAMEA8065677	546	Citrobacter freundii isolate 22 genome assembly, chromosome: main	direct
+OW967264.1	OW967264.1	2243555979	SAMEA8065677	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P1	direct
+OW967265.1	OW967265.1	2243556127	SAMEA8065677	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P2	direct
+OW967266.1	OW967266.1	2243556235	SAMEA8065677	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P3	direct
+OW967267.1	OW967267.1	2243556329	SAMEA8065677	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P4	direct
+OW967268.1	OW967268.1	2243556380	SAMEA8065677	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P5	direct
+OW969875.1	OW969875.1	2244725174	SAMEA8158487	546	Citrobacter freundii isolate 22 genome assembly, chromosome: main	direct
+OW969876.1	OW969876.1	2244730091	SAMEA8158487	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P1	direct
+OW969877.1	OW969877.1	2244730386	SAMEA8158487	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P2	direct
+OW969878.1	OW969878.1	2244730552	SAMEA8158487	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P3	direct
+OW969879.1	OW969879.1	2244730699	SAMEA8158487	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P4	direct
+OW969880.1	OW969880.1	2244730822	SAMEA8158487	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P5	direct
+OW969881.1	OW969881.1	2244730888	SAMEA8158487	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P6	direct
+OW969882.1	OW969882.1	2244730940	SAMEA8158487	546	Citrobacter freundii isolate 22 genome assembly, plasmid: P7	direct
+OW969904.1	OW969904.1	2244738070	SAMEA8158485	546	Citrobacter freundii isolate 0 genome assembly, chromosome: main	direct
+OW969905.1	OW969905.1	2244742939	SAMEA8158485	546	Citrobacter freundii isolate 0 genome assembly, plasmid: P1	direct
+OW969906.1	OW969906.1	2244743191	SAMEA8158485	546	Citrobacter freundii isolate 0 genome assembly, plasmid: P2	direct
+OW969907.1	OW969907.1	2244743245	SAMEA8158485	546	Citrobacter freundii isolate 0 genome assembly, plasmid: P3	direct
+OW969908.1	OW969908.1	2244743262	SAMEA8158485	546	Citrobacter freundii isolate 0 genome assembly, plasmid: P4	direct
+OW969909.1	OW969909.1	2244743268	SAMEA8158485	546	Citrobacter freundii isolate 0 genome assembly, plasmid: P5	direct
+OW969910.1	OW969910.1	2244743274	SAMEA8158485	546	Citrobacter freundii isolate 0 genome assembly, plasmid: P6	direct
+OW969911.1	OW969911.1	2244743284	SAMEA8158485	546	Citrobacter freundii isolate 0 genome assembly, plasmid: P7	direct
+OW995941.1	OW995941.1	2259106471	SAMEA8065770	546	Citrobacter freundii isolate 112 genome assembly, chromosome: main	direct
+OW995942.1	OW995942.1	2259111413	SAMEA8065770	546	Citrobacter freundii isolate 112 genome assembly, plasmid: P1	direct
+OW995943.1	OW995943.1	2259111686	SAMEA8065770	546	Citrobacter freundii isolate 112 genome assembly, plasmid: P2	direct
+OW995944.1	OW995944.1	2259111806	SAMEA8065770	546	Citrobacter freundii isolate 112 genome assembly, plasmid: P3	direct
+OW995945.1	OW995945.1	2259111915	SAMEA8065770	546	Citrobacter freundii isolate 112 genome assembly, plasmid: P4	direct

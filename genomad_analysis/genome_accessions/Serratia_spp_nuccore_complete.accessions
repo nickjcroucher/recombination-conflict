@@ -1,0 +1,1085 @@
+query_accession	resolved_accession	uid	biosample	taxid	title	resolved_from
+CP196505.1	CP196505.1	3035960587	SAMN48998442	2703793	Serratia bockelmannii strain K-E0147 chromosome, complete genome	direct
+CP196506.1	CP196506.1	3035965400	SAMN48998442	2703793	Serratia bockelmannii strain K-E0147 plasmid pK-E0147_a, complete sequence	direct
+CP196512.1	CP196512.1	3035989790	SAMN48998444	2703793	Serratia bockelmannii strain K-L0007 chromosome, complete genome	direct
+CP196513.1	CP196513.1	3035994576	SAMN48998444	2703793	Serratia bockelmannii strain K-L0007 plasmid pK-L0007_a, complete sequence	direct
+CP196534.1	CP196534.1	3036018530	SAMN48998456	2703793	Serratia bockelmannii strain K-M0357 chromosome, complete genome	direct
+CP196538.1	CP196538.1	3035975247	SAMN48998449	2703793	Serratia bockelmannii strain K-L0201 chromosome, complete genome	direct
+CP196541.1	CP196541.1	3036008674	SAMN48998450	2703793	Serratia bockelmannii strain K-L0361 chromosome, complete genome	direct
+CP196542.1	CP196542.1	3036013528	SAMN48998450	2703793	Serratia bockelmannii strain K-L0361 plasmid pK-L0361_a, complete sequence	direct
+CP196543.1	CP196543.1	3036032059	SAMN48998454	2703793	Serratia bockelmannii strain K-M0259 chromosome, complete genome	direct
+NZ_CP196505.1	NZ_CP196505.1	3036865071	SAMN48998442	2703793	Serratia bockelmannii strain K-E0147 chromosome, complete genome	direct
+NZ_CP196506.1	NZ_CP196506.1	3036865103	SAMN48998442	2703793	Serratia bockelmannii strain K-E0147 plasmid pK-E0147_a, complete sequence	direct
+NZ_CP196512.1	NZ_CP196512.1	3036875363	SAMN48998444	2703793	Serratia bockelmannii strain K-L0007 chromosome, complete genome	direct
+NZ_CP196513.1	NZ_CP196513.1	3036875386	SAMN48998444	2703793	Serratia bockelmannii strain K-L0007 plasmid pK-L0007_a, complete sequence	direct
+NZ_CP196534.1	NZ_CP196534.1	3036824695	SAMN48998456	2703793	Serratia bockelmannii strain K-M0357 chromosome, complete genome	direct
+NZ_CP196538.1	NZ_CP196538.1	3037007287	SAMN48998449	2703793	Serratia bockelmannii strain K-L0201 chromosome, complete genome	direct
+NZ_CP196541.1	NZ_CP196541.1	3036999943	SAMN48998450	2703793	Serratia bockelmannii strain K-L0361 chromosome, complete genome	direct
+NZ_CP196542.1	NZ_CP196542.1	3036999973	SAMN48998450	2703793	Serratia bockelmannii strain K-L0361 plasmid pK-L0361_a, complete sequence	direct
+NZ_CP196543.1	NZ_CP196543.1	3036964801	SAMN48998454	2703793	Serratia bockelmannii strain K-M0259 chromosome, complete genome	direct
+CP011254.1	CP011254.1	820750777	SAMN03450772	47917	Serratia fonticola strain DSM 4576, complete genome	direct
+CP023956.1	CP023956.1	1267011351	SAMN07312455	47917	Serratia fonticola strain FDAARGOS_411 chromosome, complete genome	direct
+CP040182.1	CP040182.1	1654144183	SAMN11605912	47917	Serratia fonticola strain MS5 chromosome, complete genome	direct
+CP050171.1	CP050171.1	1823949283	SAMN14353910	47917	Serratia fonticola strain CPSE11 chromosome, complete genome	direct
+CP050172.1	CP050172.1	1823954267	SAMN14353910	47917	Serratia fonticola strain CPSE11 plasmid plas1, complete sequence	direct
+CP054160.3	CP054160.3	2258867472	SAMN14258346	47917	Serratia fonticola strain HH13 chromosome, complete genome	direct
+CP072742.1	CP072742.1	2067161776	SAMN18592158	47917	Serratia fonticola strain R28 chromosome, complete genome	direct
+CP072743.1	CP072743.1	2067166628	SAMN18592158	47917	Serratia fonticola strain R28 plasmid pR28_180, complete sequence	direct
+CP072744.1	CP072744.1	2067166778	SAMN18592158	47917	Serratia fonticola strain R28 plasmid pR28_75, complete sequence	direct
+CP133586.1	CP133586.1	2573940268	SAMN37198867	47917	Serratia fonticola strain NEB369 chromosome, complete genome	direct
+CP183218.1	CP183218.1	2925710555	SAMN46474823	47917	Serratia fonticola strain GTA-SR07 chromosome, complete genome	direct
+CP183219.1	CP183219.1	2925718600	SAMN46474823	47917	Serratia fonticola strain GTA-SR07 plasmid pSR07_1, complete sequence	direct
+CP183220.1	CP183220.1	2925718648	SAMN46474823	47917	Serratia fonticola strain GTA-SR07 plasmid pSR07_2, complete sequence	direct
+CP183242.1	CP183242.1	2925694325	SAMN46474822	47917	Serratia fonticola strain GTA-SR06 chromosome, complete genome	direct
+CP183243.1	CP183243.1	2925701042	SAMN46474822	47917	Serratia fonticola strain GTA-SR06 plasmid pSR06_1, complete sequence	direct
+NZ_CP011254.1	NZ_CP011254.1	820902542	SAMN03450772	47917	Serratia fonticola strain DSM 4576 chromosome, complete genome	direct
+NZ_CP023956.1	NZ_CP023956.1	1268632881	SAMN07312455	47917	Serratia fonticola strain FDAARGOS_411 chromosome, complete genome	direct
+NZ_CP040182.1	NZ_CP040182.1	1655456489	SAMN11605912	47917	Serratia fonticola strain MS5 chromosome, complete genome	direct
+NZ_CP050171.1	NZ_CP050171.1	1824785982	SAMN14353910	47917	Serratia fonticola strain CPSE11 chromosome, complete genome	direct
+NZ_CP050172.1	NZ_CP050172.1	1824785983	SAMN14353910	47917	Serratia fonticola strain CPSE11 plasmid plas1, complete sequence	direct
+NZ_CP054160.3	NZ_CP054160.3	2295922287	SAMN14258346	47917	Serratia fonticola strain HH13 chromosome, complete genome	direct
+NZ_CP072742.1	NZ_CP072742.1	2068536720	SAMN18592158	47917	Serratia fonticola strain R28 chromosome, complete genome	direct
+NZ_CP072743.1	NZ_CP072743.1	2068536903	SAMN18592158	47917	Serratia fonticola strain R28 plasmid pR28_180, complete sequence	direct
+NZ_CP072744.1	NZ_CP072744.1	2068536922	SAMN18592158	47917	Serratia fonticola strain R28 plasmid pR28_75, complete sequence	direct
+NZ_CP133586.1	NZ_CP133586.1	2575333332	SAMN37198867	47917	Serratia fonticola strain NEB369 chromosome, complete genome	direct
+NZ_CP183218.1	NZ_CP183218.1	2927221453	SAMN46474823	47917	Serratia fonticola strain GTA-SR07 chromosome, complete genome	direct
+NZ_CP183219.1	NZ_CP183219.1	2927221454	SAMN46474823	47917	Serratia fonticola strain GTA-SR07 plasmid pSR07_1, complete sequence	direct
+NZ_CP183220.1	NZ_CP183220.1	2927221455	SAMN46474823	47917	Serratia fonticola strain GTA-SR07 plasmid pSR07_2, complete sequence	direct
+NZ_CP183242.1	NZ_CP183242.1	2929774557	SAMN46474822	47917	Serratia fonticola strain GTA-SR06 chromosome, complete genome	direct
+NZ_CP183243.1	NZ_CP183243.1	2929774558	SAMN46474822	47917	Serratia fonticola strain GTA-SR06 plasmid pSR06_1, complete sequence	direct
+CP006252.1	CP006252.1	523439782	SAMN02604177	1346614	Serratia liquefaciens ATCC 27592, complete genome	direct
+CP006253.1	CP006253.1	523444644	SAMN02604177	1346614	Serratia liquefaciens ATCC 27592 plasmid, complete sequence	direct
+CP011303.1	CP011303.1	808951212	SAMN03481691	614	Serratia liquefaciens strain HUMV-21, complete genome	direct
+CP014017.2	CP014017.2	1337385252	SAMN03996271	614	Serratia liquefaciens strain FDAARGOS_125, complete genome	direct
+CP033893.1	CP033893.1	1702199299	SAMN10413339	614	Serratia liquefaciens strain FG3 chromosome, complete genome	direct
+CP033894.1	CP033894.1	1702204640	SAMN10413339	614	Serratia liquefaciens strain FG3 plasmid p1-159, complete sequence	direct
+CP033895.1	CP033895.1	1702204779	SAMN10413339	614	Serratia liquefaciens strain FG3 plasmid p2-125, complete sequence	direct
+CP048784.1	CP048784.1	1812656562	SAMN12560213	614	Serratia liquefaciens strain S1 chromosome, complete genome	direct
+CP048785.1	CP048785.1	1812661402	SAMN12560213	614	Serratia liquefaciens strain S1 plasmid pSl1, complete sequence	direct
+CP048786.1	CP048786.1	1812661426	SAMN12560213	614	Serratia liquefaciens strain S1 plasmid pSl2, complete sequence	direct
+CP061082.1	CP061082.1	1899891374	SAMN15934672	614	Serratia liquefaciens strain MT49 chromosome, complete genome	direct
+CP068148.1	CP068148.1	1958377208	SAMN16357250	614	Serratia liquefaciens strain FDAARGOS_1081 chromosome, complete genome	direct
+CP068149.1	CP068149.1	1958382064	SAMN16357250	614	Serratia liquefaciens strain FDAARGOS_1081 plasmid unnamed, complete sequence	direct
+CP183221.1	CP183221.1	2925665020	SAMN46474946	614	Serratia liquefaciens strain GTA-SR09 chromosome, complete genome	direct
+CP183288.1	CP183288.1	2925618721	SAMN46474773	614	Serratia liquefaciens strain GTA-SR02 chromosome, complete genome	direct
+CP183289.1	CP183289.1	2925623529	SAMN46474773	614	Serratia liquefaciens strain GTA-SR02 plasmid pSR02_1, complete sequence	direct
+CP183290.1	CP183290.1	2925623606	SAMN46474773	614	Serratia liquefaciens strain GTA-SR02 plasmid pSR02_2, complete sequence	direct
+CP183291.1	CP183291.1	2925623698	SAMN46474773	614	Serratia liquefaciens strain GTA-SR02 plasmid pSR02_3, complete sequence	direct
+NC_021741.1	NC_021741.1	525689963	SAMN02604177	1346614	Serratia liquefaciens ATCC 27592, complete sequence	direct
+NC_021742.1	NC_021742.1	525695032	SAMN02604177	1346614	Serratia liquefaciens ATCC 27592 plasmid unnamed, complete sequence	direct
+NZ_CP011303.1	NZ_CP011303.1	811231818	SAMN03481691	614	Serratia liquefaciens strain HUMV-21 chromosome, complete genome	direct
+NZ_CP014017.2	NZ_CP014017.2	1348893797	SAMN03996271	614	Serratia liquefaciens strain FDAARGOS_125 chromosome, complete genome	direct
+NZ_CP033893.1	NZ_CP033893.1	1706435518	SAMN10413339	614	Serratia liquefaciens strain FG3 chromosome, complete genome	direct
+NZ_CP033894.1	NZ_CP033894.1	1706435519	SAMN10413339	614	Serratia liquefaciens strain FG3 plasmid p1-159, complete sequence	direct
+NZ_CP033895.1	NZ_CP033895.1	1706435520	SAMN10413339	614	Serratia liquefaciens strain FG3 plasmid p2-125, complete sequence	direct
+NZ_CP048784.1	NZ_CP048784.1	1817462905	SAMN12560213	614	Serratia liquefaciens strain S1 chromosome, complete genome	direct
+NZ_CP048785.1	NZ_CP048785.1	1817462918	SAMN12560213	614	Serratia liquefaciens strain S1 plasmid pSl1, complete sequence	direct
+NZ_CP048786.1	NZ_CP048786.1	1817462921	SAMN12560213	614	Serratia liquefaciens strain S1 plasmid pSl2, complete sequence	direct
+NZ_CP061082.1	NZ_CP061082.1	1900761482	SAMN15934672	614	Serratia liquefaciens strain MT49 chromosome, complete genome	direct
+NZ_CP068148.1	NZ_CP068148.1	1960182870	SAMN16357250	614	Serratia liquefaciens strain FDAARGOS_1081 chromosome, complete genome	direct
+NZ_CP068149.1	NZ_CP068149.1	1960183101	SAMN16357250	614	Serratia liquefaciens strain FDAARGOS_1081 plasmid unnamed, complete sequence	direct
+NZ_CP183221.1	NZ_CP183221.1	2927143785	SAMN46474946	614	Serratia liquefaciens strain GTA-SR09 chromosome, complete genome	direct
+NZ_CP183288.1	NZ_CP183288.1	2927210837	SAMN46474773	614	Serratia liquefaciens strain GTA-SR02 chromosome, complete genome	direct
+NZ_CP183289.1	NZ_CP183289.1	2927210839	SAMN46474773	614	Serratia liquefaciens strain GTA-SR02 plasmid pSR02_1, complete sequence	direct
+NZ_CP183290.1	NZ_CP183290.1	2927210840	SAMN46474773	614	Serratia liquefaciens strain GTA-SR02 plasmid pSR02_2, complete sequence	direct
+NZ_CP183291.1	NZ_CP183291.1	2927210841	SAMN46474773	614	Serratia liquefaciens strain GTA-SR02 plasmid pSR02_3, complete sequence	direct
+AP013063.1	AP013063.1	573008719	SAMD00061009	1334564	Serratia marcescens SM39 DNA, complete genome	direct
+AP013064.1	AP013064.1	573013567	SAMD00061009	1334564	Serratia marcescens SM39 plasmid pSMC1 DNA, complete genome	direct
+AP013065.1	AP013065.1	573013619	SAMD00061009	1334564	Serratia marcescens SM39 plasmid pSMC2 DNA, complete genome	direct
+AP019009.1	AP019009.1	1509569201	SAMD00143521	615	Serratia marcescens AS-1 DNA, complete genome	direct
+AP019010.1	AP019010.1	1509573859	SAMD00143521	615	Serratia marcescens AS-1 plasmid pSERAS01 DNA, complete genome	direct
+AP021873.1	AP021873.1	1797747013	SAMD00191436	615	Serratia marcescens ATCC 274 DNA, complete genome	direct
+AP024847.1	AP024847.1	2071170492	SAMD00391659	615	Serratia marcescens 2020-O-9 DNA, complete genome	direct
+AP024848.1	AP024848.1	2071175779	SAMD00391659	615	Serratia marcescens 2020-O-9 plasmid p2020-O-9 DNA, complete sequence	direct
+CM008894.1	CM008894.1	1316029357	SAMN07452560	615	Serratia marcescens strain 12TM chromosome, complete sequence, whole genome shotgun sequence	direct
+CM008895.1	CM008895.1	1316029355	SAMN07452560	615	Serratia marcescens strain 12TM plasmid pNDM_12TM, complete sequence, whole genome shotgun sequence	direct
+CM008896.1	CM008896.1	1316029356	SAMN07452560	615	Serratia marcescens strain 12TM plasmid p12TM-94, complete sequence, whole genome shotgun sequence	direct
+CM135112.1	CM135112.1	3135767463	SAMN52755115	615	Serratia marcescens strain CAVP656 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM135113.1	CM135113.1	3135767464	SAMN52755116	615	Serratia marcescens strain CAVP657 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM135114.1	CM135114.1	3135767476	SAMN52755113	615	Serratia marcescens strain CAVP653 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM135115.1	CM135115.1	3135767477	SAMN52755114	615	Serratia marcescens strain CAVP655 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM135116.1	CM135116.1	3135767480	SAMN52755112	615	Serratia marcescens strain CAVP652 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM135117.1	CM135117.1	3135767490	SAMN52755111	615	Serratia marcescens strain CAVP640 chromosome, complete sequence, whole genome shotgun sequence	direct
+CP003959.1	CP003959.1	445210138	SAMN02602965	435998	Serratia marcescens WW4, complete genome	direct
+CP003960.1	CP003960.1	445215535	SAMN02602965	435998	Serratia marcescens WW4 plasmid pSmWW4, complete sequence	direct
+CP011637.1	CP011637.1	828965719	SAMN03733805	615	Serratia marcescens strain CAV1492 plasmid pCAV1492-3223, complete sequence	direct
+CP011638.1	CP011638.1	828965723	SAMN03733805	615	Serratia marcescens strain CAV1492 plasmid pCAV1492-6393, complete sequence	direct
+CP011639.1	CP011639.1	828965729	SAMN03733805	615	Serratia marcescens strain CAV1492 plasmid pKPC_CAV1492, complete sequence	direct
+CP011640.1	CP011640.1	828965798	SAMN03733805	615	Serratia marcescens strain CAV1492 plasmid pCAV1492-73, complete sequence	direct
+CP011641.1	CP011641.1	828965887	SAMN03733805	615	Serratia marcescens strain CAV1492 plasmid pCAV1492-199, complete sequence	direct
+CP011642.1	CP011642.1	828966150	SAMN03733805	615	Serratia marcescens strain CAV1492, complete genome	direct
+CP012639.1	CP012639.1	926475601	SAMN04029108	615	Serratia marcescens strain RSC-14, complete genome	direct
+CP012685.1	CP012685.1	928489081	SAMN03733572	615	Serratia marcescens strain SmUNAM836, complete sequence	direct
+CP012686.1	CP012686.1	928489058	SAMN03733572	615	Serratia marcescens strain SmUNAM836 plasmid pSmUNAM836, complete sequence	direct
+CP013046.2	CP013046.2	1150402286	SAMN04214975	615	Serratia marcescens strain B3R3, complete sequence	direct
+CP013047.2	CP013047.2	1150402503	SAMN04214975	615	Serratia marcescens strain B3R3 plasmid unnamed1, complete sequence	direct
+CP018915.1	CP018915.1	1216650028	SAMN06164056	615	Serratia marcescens strain UMH1, complete sequence	direct
+CP018916.1	CP018916.1	1216654632	SAMN06164056	615	Serratia marcescens strain UMH1 plasmid unnamed1, complete sequence	direct
+CP018917.1	CP018917.1	1216654708	SAMN06164059	615	Serratia marcescens strain UMH5 chromosome, complete genome	direct
+CP018918.1	CP018918.1	1216659676	SAMN06164059	615	Serratia marcescens strain UMH5 plasmid unnamed2, complete sequence	direct
+CP018919.1	CP018919.1	1216659773	SAMN06164061	615	Serratia marcescens strain UMH7 chromosome, complete genome	direct
+CP018920.1	CP018920.1	1216664553	SAMN06164061	615	Serratia marcescens strain UMH7 plasmid unnamed3, complete sequence	direct
+CP018921.1	CP018921.1	1216664662	SAMN06164061	615	Serratia marcescens strain UMH7 plasmid unnamed4, complete sequence	direct
+CP018922.1	CP018922.1	1216664715	SAMN06164061	615	Serratia marcescens strain UMH7 plasmid unnamed5, complete sequence	direct
+CP018923.1	CP018923.1	1216664742	SAMN06164063	615	Serratia marcescens strain UMH9 chromosome, complete genome	direct
+CP018924.1	CP018924.1	1216669299	SAMN06164057	615	Serratia marcescens strain UMH2 chromosome, complete genome	direct
+CP018925.1	CP018925.1	1216674164	SAMN06164058	615	Serratia marcescens strain UMH3 chromosome, complete genome	direct
+CP018926.1	CP018926.1	1216679061	SAMN06164060	615	Serratia marcescens strain UMH6 chromosome, complete genome	direct
+CP018927.1	CP018927.1	1216683847	SAMN06164062	615	Serratia marcescens strain UMH8 chromosome, complete genome	direct
+CP018928.1	CP018928.1	1216688598	SAMN06164064	615	Serratia marcescens strain UMH10 chromosome, complete genome	direct
+CP018929.1	CP018929.1	1216693367	SAMN06164065	615	Serratia marcescens strain UMH11 chromosome, complete genome	direct
+CP018930.1	CP018930.1	1216698135	SAMN06164066	615	Serratia marcescens strain UMH12 chromosome, complete genome	direct
+CP020501.1	CP020501.1	1373540253	SAMN04276914	615	Serratia marcescens strain BWH-23 chromosome, complete genome	direct
+CP020502.1	CP020502.1	1373544923	SAMN04276914	615	Serratia marcescens strain BWH-23 plasmid unnamed, complete sequence	direct
+CP020503.1	CP020503.1	1373545109	SAMN04022954	615	Serratia marcescens strain 95 chromosome, complete genome	direct
+CP020504.1	CP020504.1	1373549956	SAMN04022954	615	Serratia marcescens strain 95 plasmid unnamed3, complete sequence	direct
+CP020505.1	CP020505.1	1373549973	SAMN04022954	615	Serratia marcescens strain 95 plasmid unnamed2, complete sequence	direct
+CP020506.1	CP020506.1	1373550028	SAMN04022954	615	Serratia marcescens strain 95 plasmid unnamed1, complete sequence	direct
+CP020507.1	CP020507.1	1373550241	SAMN04276915	615	Serratia marcescens strain BWH-35 chromosome, complete genome	direct
+CP020508.1	CP020508.1	1373555039	SAMN04276915	615	Serratia marcescens strain BWH-35 plasmid unnamed, complete sequence	direct
+CP021164.1	CP021164.1	1395313077	SAMN06311524	615	Serratia marcescens strain 332 chromosome, complete genome	direct
+CP026050.1	CP026050.1	1335821375	SAMN02934514	615	Serratia marcescens strain FDAARGOS_65 chromosome, complete genome	direct
+CP026702.1	CP026702.1	1344855139	SAMN04014868	615	Serratia marcescens strain AR_0027 chromosome, complete genome	direct
+CP026703.1	CP026703.1	1344860141	SAMN04014868	615	Serratia marcescens strain AR_0027 plasmid unitig_1_pilon, complete sequence	direct
+CP027300.1	CP027300.1	1394363880	SAMN08222723	615	Serratia marcescens strain SGAir0764 chromosome, complete genome	direct
+CP027301.1	CP027301.1	1394368522	SAMN08222723	615	Serratia marcescens strain SGAir0764 plasmid unnamed_1	direct
+CP027533.1	CP027533.1	1359185831	SAMN04014932	615	Serratia marcescens strain AR_0091 chromosome, complete genome	direct
+CP027539.1	CP027539.1	1359190904	SAMN04014940	615	Serratia marcescens strain AR_0099, complete genome	direct
+CP028946.1	CP028946.1	1382805984	SAMN04014965	615	Serratia marcescens strain AR_0124, complete genome	direct
+CP028947.1	CP028947.1	1382801215	SAMN04014971	615	Serratia marcescens strain AR_0130, complete genome	direct
+CP028948.1	CP028948.1	1382786170	SAMN04014964	615	Serratia marcescens strain AR_0123, complete genome	direct
+CP028949.1	CP028949.1	1382815850	SAMN04014962	615	Serratia marcescens strain AR_0121, complete genome	direct
+CP029444.1	CP029444.1	1390556264	SAMN09205456	615	Serratia marcescens strain CAV1761 plasmid pCAV1761-3223, complete sequence	direct
+CP029445.1	CP029445.1	1390556269	SAMN09205456	615	Serratia marcescens strain CAV1761 plasmid pCAV1761-6393, complete sequence	direct
+CP029446.1	CP029446.1	1390556276	SAMN09205456	615	Serratia marcescens strain CAV1761 plasmid pKPC_CAV1761, complete sequence	direct
+CP029447.1	CP029447.1	1390556353	SAMN09205456	615	Serratia marcescens strain CAV1761 plasmid pCAV1761-73, complete sequence	direct
+CP029448.1	CP029448.1	1390556441	SAMN09205456	615	Serratia marcescens strain CAV1761 plasmid pCAV1761-205, complete sequence	direct
+CP029449.1	CP029449.1	1390556644	SAMN09205456	615	Serratia marcescens strain CAV1761 chromosome, complete genome	direct
+CP029715.1	CP029715.1	1398607373	SAMN04014972	615	Serratia marcescens strain AR_0131, complete genome	direct
+CP029746.1	CP029746.1	1398597291	SAMN04014963	615	Serratia marcescens strain AR_0122, complete genome	direct
+CP031315.1	CP031315.1	1442633846	SAMN09469079	615	Serratia marcescens strain N4-5 plasmid pSmN45, complete sequence	direct
+CP031316.1	CP031316.1	1442633860	SAMN09469079	615	Serratia marcescens strain N4-5 chromosome, complete genome	direct
+CP033623.1	CP033623.1	1790841499	SAMN10393815	615	Serratia marcescens strain N10A28 chromosome, complete genome	direct
+CP040350.1	CP040350.1	1863573478	SAMN11633367	615	Serratia marcescens strain 1912768R chromosome, complete genome	direct
+CP041122.1	CP041122.1	1699231469	SAMN11461876	615	Serratia marcescens strain WVU-001 chromosome, complete genome	direct
+CP041123.1	CP041123.1	1699245433	SAMN11461877	615	Serratia marcescens strain WVU-002 chromosome, complete genome	direct
+CP041124.1	CP041124.1	1699257734	SAMN11461878	615	Serratia marcescens strain WVU-003 chromosome, complete genome	direct
+CP041125.1	CP041125.1	1699269005	SAMN11894222	615	Serratia marcescens strain WVU-004 chromosome, complete genome	direct
+CP041129.1	CP041129.1	1699307674	SAMN11894224	615	Serratia marcescens strain WVU-006 chromosome, complete genome	direct
+CP041130.1	CP041130.1	1699325458	SAMN11894225	615	Serratia marcescens strain WVU-007 chromosome, complete genome	direct
+CP041132.1	CP041132.1	1699368071	SAMN11894227	615	Serratia marcescens strain WVU-009 chromosome, complete genome	direct
+CP041133.1	CP041133.1	1699375197	SAMN11894227	615	Serratia marcescens strain WVU-009 plasmid pWVU-009, complete sequence	direct
+CP041134.1	CP041134.1	1699382212	SAMN11894228	615	Serratia marcescens strain WVU-010 chromosome, complete genome	direct
+CP042512.1	CP042512.1	1758953124	SAMN12289419	615	Serratia marcescens strain E28 chromosome, complete genome	direct
+CP042513.1	CP042513.1	1758958337	SAMN12289419	615	Serratia marcescens strain E28 plasmid pE28_001, complete sequence	direct
+CP042514.1	CP042514.1	1758958575	SAMN12289419	615	Serratia marcescens strain E28 plasmid pE28_002, complete sequence	direct
+CP042515.1	CP042515.1	1758958708	SAMN12289419	615	Serratia marcescens strain E28 plasmid pE28_003	direct
+CP042516.1	CP042516.1	1758958777	SAMN12289419	615	Serratia marcescens strain E28 plasmid pE28_004, complete sequence	direct
+CP047391.1	CP047391.1	1796212596	SAMN13676638	615	Serratia marcescens strain 1602 chromosome, complete genome	direct
+CP047392.1	CP047392.1	1796217252	SAMN13676638	615	Serratia marcescens strain 1602 plasmid pKPC-2-HENAN1602, complete sequence	direct
+CP047679.1	CP047679.1	1799038663	SAMN13840998	615	Serratia marcescens strain 4201 chromosome, complete genome	direct
+CP047680.1	CP047680.1	1799043568	SAMN13840998	615	Serratia marcescens strain 4201 plasmid p4201-KPC, complete sequence	direct
+CP047681.1	CP047681.1	1799043670	SAMN13840998	615	Serratia marcescens strain 4201 plasmid pXQ, complete sequence	direct
+CP047682.1	CP047682.1	1799043674	SAMN13840997	615	Serratia marcescens strain 3024 chromosome, complete genome	direct
+CP047683.1	CP047683.1	1799048653	SAMN13840997	615	Serratia marcescens strain 3024 plasmid p3024-KPC, complete sequence	direct
+CP047684.1	CP047684.1	1799048772	SAMN13840997	615	Serratia marcescens strain 3024 plasmid pXQ, complete sequence	direct
+CP047685.1	CP047685.1	1799053873	SAMN13840996	615	Serratia marcescens strain 2838 chromosome, complete genome	direct
+CP047686.1	CP047686.1	1799058838	SAMN13840996	615	Serratia marcescens strain 2838 plasmid p2838-KPC, complete sequence	direct
+CP047687.1	CP047687.1	1799058957	SAMN13840996	615	Serratia marcescens strain 2838 plasmid pXQ, complete sequence	direct
+CP047688.1	CP047688.1	1799048776	SAMN13840995	615	Serratia marcescens strain 1140- chromosome, complete genome	direct
+CP047689.1	CP047689.1	1799053751	SAMN13840995	615	Serratia marcescens strain 1140- plasmid p1140-KPC, complete sequence	direct
+CP047690.1	CP047690.1	1799053870	SAMN13840995	615	Serratia marcescens strain 1140- plasmid pXQ, complete sequence	direct
+CP047691.1	CP047691.1	1799058961	SAMN13840994	615	Serratia marcescens strain C110 chromosome, complete genome	direct
+CP047692.1	CP047692.1	1799063937	SAMN13840994	615	Serratia marcescens strain C110 plasmid pC110-KPC, complete sequence	direct
+CP047693.1	CP047693.1	1799064056	SAMN13840994	615	Serratia marcescens strain C110 plasmid pXQ, complete sequence	direct
+CP050013.1	CP050013.1	1822686610	SAMN14360500	615	Serratia marcescens strain BP2 chromosome, complete genome	direct
+CP050447.1	CP050447.1	1826591088	SAMN14265996	615	Serratia marcescens strain SER00094 chromosome, complete genome	direct
+CP053286.1	CP053286.1	1842466584	SAMN14863985	615	Serratia marcescens strain FZSF02 chromosome, complete genome	direct
+CP053378.1	CP053378.1	1843435725	SAMN14859508	615	Serratia marcescens strain FY chromosome, complete genome	direct
+CP053379.1	CP053379.1	1843435730	SAMN14859508	615	Serratia marcescens strain FY plasmid p1, complete sequence	direct
+CP053380.1	CP053380.1	1843435732	SAMN14859508	615	Serratia marcescens strain FY plasmid p2, complete sequence	direct
+CP053572.1	CP053572.1	1858736299	SAMN12560215	615	Serratia marcescens strain S7.1 chromosome, complete genome	direct
+CP053918.1	CP053918.1	1847972124	SAMN15009256	615	Serratia marcescens strain LY1 chromosome, complete genome	direct
+CP053919.1	CP053919.1	1847972125	SAMN15009256	615	Serratia marcescens strain LY1 plasmid unnamed1, complete sequence	direct
+CP053925.1	CP053925.1	1876121462	SAMN14999148	615	Serratia marcescens strain 12/2010 chromosome, complete genome	direct
+CP053926.1	CP053926.1	1876127699	SAMN14998449	615	Serratia marcescens strain 11/2010 plasmid pAM01, complete sequence	direct
+CP053927.1	CP053927.1	1876127861	SAMN14998449	615	Serratia marcescens strain 11/2010 chromosome, complete genome	direct
+CP054277.1	CP054277.1	1938577787	SAMN15078591	615	Serratia marcescens strain Byron chromosome, complete genome	direct
+CP055161.1	CP055161.1	1860418725	SAMN15196985	615	Serratia marcescens strain JW-CZ2 chromosome, complete genome	direct
+CP058353.1	CP058353.1	2221410238	SAMN15375773	615	Serratia marcescens strain ESE2014 chromosome, complete genome	direct
+CP060440.1	CP060440.1	2200160078	SAMN15666260	615	Serratia marcescens strain M158-1-1 chromosome, complete genome	direct
+CP061075.1	CP061075.1	2895639429	SAMN15953187	615	Serratia marcescens strain 9667 chromosome, complete genome	direct
+CP061076.1	CP061076.1	2895644182	SAMN15953186	615	Serratia marcescens strain 4526 chromosome, complete genome	direct
+CP063229.1	CP063229.1	2072664630	SAMN16456043	615	Serratia marcescens strain LVF3 chromosome, complete genome	direct
+CP063230.1	CP063230.1	2072669632	SAMN16456043	615	Serratia marcescens strain LVF3 plasmid p87710, complete sequence	direct
+CP063238.1	CP063238.1	1920776956	SAMN14835601	615	Serratia marcescens strain SCH909 chromosome, complete genome	direct
+CP063239.1	CP063239.1	1920781947	SAMN14835601	615	Serratia marcescens strain SCH909 plasmid pSCH909, complete sequence	direct
+CP063354.1	CP063354.1	1927254723	SAMN16268784	615	Serratia marcescens strain SCQ1 chromosome, complete genome	direct
+CP063355.1	CP063355.1	1927259346	SAMN16268784	615	Serratia marcescens strain SCQ1 plasmid unnamed, complete sequence	direct
+CP071188.1	CP071188.1	1998329297	SAMEA7301506	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S94_jyu2015 chromosome, complete genome	direct
+CP071189.1	CP071189.1	1998334047	SAMEA7301506	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S94_jyu2015 plasmid unnamed, complete sequence	direct
+CP071190.1	CP071190.1	1998345411	SAMEA7301505	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S79_jyu2015 chromosome, complete genome	direct
+CP071191.1	CP071191.1	1998350146	SAMEA7301505	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S79_jyu2015 plasmid unnamed, complete sequence	direct
+CP071192.1	CP071192.1	1998313630	SAMEA7301504	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S60_jyu2015 chromosome, complete genome	direct
+CP071193.1	CP071193.1	1998318370	SAMEA7301504	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S60_jyu2015 plasmid unnamed, complete sequence	direct
+CP071194.1	CP071194.1	1998318831	SAMEA7301503	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S4_jyu2015 chromosome, complete genome	direct
+CP071195.1	CP071195.1	1998323568	SAMEA7301503	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S4_jyu2015 plasmid unnamed, complete sequence	direct
+CP071196.1	CP071196.1	1998302839	SAMEA7301502	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S54_jyu2015 chromosome, complete genome	direct
+CP071197.1	CP071197.1	1998307558	SAMEA7301502	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S54_jyu2015 plasmid unnamed, complete sequence	direct
+CP071198.1	CP071198.1	1998335234	SAMEA7301501	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S68_jyu2015 chromosome, complete genome	direct
+CP071199.1	CP071199.1	1998339947	SAMEA7301501	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S68_jyu2015 plasmid unnamed, complete sequence	direct
+CP071200.1	CP071200.1	1998297958	SAMEA7301500	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S96_jyu2015 chromosome, complete genome	direct
+CP071201.1	CP071201.1	1998302677	SAMEA7301500	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S96_jyu2015 plasmid unnamed, complete sequence	direct
+CP071202.1	CP071202.1	1998324370	SAMEA7301499	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S97_jyu2015 chromosome, complete genome	direct
+CP071203.1	CP071203.1	1998329090	SAMEA7301499	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S97_jyu2015 plasmid unnamed, complete sequence	direct
+CP071204.1	CP071204.1	1998370154	SAMEA7301498	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S6_jyu2015 chromosome, complete genome	direct
+CP071205.1	CP071205.1	1998374932	SAMEA7301498	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S6_jyu2015 plasmid unnamed, complete sequence	direct
+CP071206.1	CP071206.1	1998340092	SAMEA7301497	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S71_jyu2015 chromosome, complete genome	direct
+CP071207.1	CP071207.1	1998344806	SAMEA7301497	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S71_jyu2015 plasmid unnamed, complete sequence	direct
+CP071208.1	CP071208.1	1998308143	SAMEA7301496	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S81_jyu2015 chromosome, complete genome	direct
+CP071209.1	CP071209.1	1998312905	SAMEA7301496	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S81_jyu2015 plasmid unnamed, complete sequence	direct
+CP071210.1	CP071210.1	1998351706	SAMEA7301495	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S89_jyu2015 chromosome, complete genome	direct
+CP071211.1	CP071211.1	1998356428	SAMEA7301495	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S89_jyu2015 plasmid unnamed, complete sequence	direct
+CP071212.1	CP071212.1	1998293117	SAMEA7301494	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S50_jyu2015 chromosome, complete genome	direct
+CP071213.1	CP071213.1	1998297832	SAMEA7301494	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S50_jyu2015 plasmid unnamed, complete sequence	direct
+CP071214.1	CP071214.1	1998357829	SAMEA7301493	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_SA_jyu2015 chromosome, complete genome	direct
+CP071215.1	CP071215.1	1998362644	SAMEA7301493	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_SA_jyu2015 plasmid unnamed, complete sequence	direct
+CP071216.1	CP071216.1	1998364133	SAMEA7301492	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S24_jyu2015 chromosome, complete genome	direct
+CP071217.1	CP071217.1	1998368959	SAMEA7301492	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S24_jyu2015 plasmid unnamed, complete sequence	direct
+CP071218.1	CP071218.1	1998375101	SAMEA7301491	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S65_jyu2015 chromosome, complete genome	direct
+CP071219.1	CP071219.1	1998379893	SAMEA7301491	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S65_jyu2015 plasmid unnamed, complete sequence	direct
+CP071220.1	CP071220.1	1998433757	SAMEA7301490	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S57_jyu2015 chromosome, complete genome	direct
+CP071221.1	CP071221.1	1998438535	SAMEA7301490	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S57_jyu2015 plasmid unnamed, complete sequence	direct
+CP071222.1	CP071222.1	1998389512	SAMEA7301489	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S28_jyu2015 chromosome, complete genome	direct
+CP071223.1	CP071223.1	1998394248	SAMEA7301489	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S28_jyu2015 plasmid unnamed, complete sequence	direct
+CP071224.1	CP071224.1	1998410159	SAMEA7301488	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S33_jyu2015 chromosome, complete genome	direct
+CP071225.1	CP071225.1	1998414872	SAMEA7301488	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S33_jyu2015 plasmid unnamed, complete sequence	direct
+CP071226.1	CP071226.1	1998424939	SAMEA7301487	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S22_jyu2015 chromosome, complete genome	direct
+CP071227.1	CP071227.1	1998429671	SAMEA7301487	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S22_jyu2015 plasmid unnamed, complete sequence	direct
+CP071228.1	CP071228.1	1998405404	SAMEA7301486	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S78_jyu2015 chromosome, complete genome	direct
+CP071229.1	CP071229.1	1998410117	SAMEA7301486	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S78_jyu2015 plasmid unnamed, complete sequence	direct
+CP071230.1	CP071230.1	1998415038	SAMEA7301485	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S40_jyu2015 chromosome, complete genome	direct
+CP071231.1	CP071231.1	1998419774	SAMEA7301485	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S40_jyu2015 plasmid unnamed, complete sequence	direct
+CP071232.1	CP071232.1	1998400197	SAMEA7301484	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S67_jyu2015 chromosome, complete genome	direct
+CP071233.1	CP071233.1	1998404938	SAMEA7301484	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S67_jyu2015 plasmid unnamed, complete sequence	direct
+CP071234.1	CP071234.1	1998394804	SAMEA7301483	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S95_jyu2015 chromosome, complete genome	direct
+CP071235.1	CP071235.1	1998399543	SAMEA7301483	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S95_jyu2015 plasmid unnamed, complete sequence	direct
+CP071236.1	CP071236.1	1998444336	SAMEA7301482	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S13_jyu2015 chromosome, complete genome	direct
+CP071237.1	CP071237.1	1998449115	SAMEA7301482	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S13_jyu2015 plasmid unnamed, complete sequence	direct
+CP071238.1	NZ_CP071238.1	1998757215	SAMEA7301481	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S9_jyu2015 chromosome, complete genome	alias:NZ_CP071238.1
+CP071239.1	CP071239.1	1998424743	SAMEA7301481	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S9_jyu2015 plasmid unnamed, complete sequence	direct
+CP071240.1	CP071240.1	1998381288	SAMEA7301480	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S64_jyu2015 chromosome, complete genome	direct
+CP071241.1	CP071241.1	1998386035	SAMEA7301480	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S64_jyu2015 plasmid unnamed, complete sequence	direct
+CP071242.1	CP071242.1	1998449975	SAMEA7301479	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S55_jyu2015 chromosome, complete genome	direct
+CP071243.1	CP071243.1	1998454713	SAMEA7301479	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S55_jyu2015 plasmid unnamed, complete sequence	direct
+CP071244.1	CP071244.1	1998454854	SAMEA7301478	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S37_jyu2015 chromosome, complete genome	direct
+CP071245.1	CP071245.1	1998459568	SAMEA7301478	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S37_jyu2015 plasmid unnamed, complete sequence	direct
+CP072199.1	CP072199.1	2020267685	SAMN18473280	911022	Serratia marcescens subsp. marcescens ATCC 13880 chromosome, complete genome	direct
+CP085860.1	CP085860.1	2188686511	SAMN22551389	615	Serratia marcescens strain MV-u1-SK1-O chromosome, complete genome	direct
+CP085861.1	CP085861.1	2188691625	SAMN22551389	615	Serratia marcescens strain MV-u1-SK1-O plasmid pOXA48_MV-u1-SK1-O-a, complete sequence	direct
+CP085862.1	CP085862.1	2188691748	SAMN22551389	615	Serratia marcescens strain MV-u1-SK1-O plasmid pMV-u1-SK1-O-b, complete sequence	direct
+CP090244.1	CP090244.1	2175247585	SAMN24372403	615	Serratia marcescens strain SMNSF-1 chromosome, complete genome	direct
+CP090908.1	CP090908.1	2179638520	SAMN24852073	615	Serratia marcescens strain Sys06 chromosome, complete genome	direct
+CP091120.1	CP091120.1	2202522303	SAMN23485811	615	Serratia marcescens strain CM2019_254 chromosome, complete genome	direct
+CP091122.1	CP091122.1	2202512873	SAMN23485796	615	Serratia marcescens strain CM2012_028 chromosome, complete genome	direct
+CP091123.1	CP091123.1	2202508113	SAMN23485809	615	Serratia marcescens strain CM2017_569 chromosome, complete genome	direct
+CP091124.1	CP091124.1	2202512865	SAMN23485809	615	Serratia marcescens strain CM2017_569 plasmid unnamed, complete sequence	direct
+CP092184.1	CP092184.1	2197041239	SAMN25876440	615	Serratia marcescens strain YHYF1 chromosome, complete genome	direct
+CP092461.1	CP092461.1	2218419771	SAMN19911184	615	Serratia marcescens strain RH10 chromosome, complete genome	direct
+CP097900.1	CP097900.1	2622944179	SAMN28671178	615	Serratia marcescens strain Bup chromosome, complete genome	direct
+CP100753.1	CP100753.1	2271255173	SAMN29532084	615	Serratia marcescens strain SASK1000 chromosome, complete genome	direct
+CP109824.1	CP109824.1	2323250205	SAMN31283467	615	Serratia marcescens strain SMBC31 chromosome, complete genome	direct
+CP109825.1	CP109825.1	2323255079	SAMN31283467	615	Serratia marcescens strain SMBC31 plasmid pSMBC31-93K, complete sequence	direct
+CP109826.1	CP109826.1	2323255176	SAMN31283467	615	Serratia marcescens strain SMBC31 plasmid pSMBC31-39K, complete sequence	direct
+CP109827.1	CP109827.1	2323255219	SAMN31283467	615	Serratia marcescens strain SMBC31 plasmid pSMBC31-5K, complete sequence	direct
+CP109828.1	CP109828.1	2323255227	SAMN31283467	615	Serratia marcescens strain SMBC31 plasmid pSMBC31-2K, complete sequence	direct
+CP109829.1	CP109829.1	2323258950	SAMN31283566	615	Serratia marcescens strain SMBC50 chromosome, complete genome	direct
+CP109830.1	CP109830.1	2323263955	SAMN31283566	615	Serratia marcescens strain SMBC50 plasmid pSMBC50-107K, complete sequence	direct
+CP110102.1	CP110102.1	2324426323	SAMN31424710	615	Serratia marcescens strain SARVS06 chromosome, complete genome	direct
+CP110103.1	CP110103.1	2324431066	SAMN31424710	615	Serratia marcescens strain SARVS06 plasmid plsmd_siar, complete sequence	direct
+CP113902.3	CP113902.3	2752591589	SAMN31988537	615	Serratia marcescens strain AD-W2 chromosome, complete genome	direct
+CP118723.1	CP118723.1	2451323221	SAMN33404193	615	Serratia marcescens strain AHRB3 chromosome, complete genome	direct
+CP118724.1	CP118724.1	2451327809	SAMN33404193	615	Serratia marcescens strain AHRB3 plasmid pAHRB3, complete sequence	direct
+CP118932.1	CP118932.1	2452111021	SAMN33434791	615	Serratia marcescens strain RX11 chromosome, complete genome	direct
+CP119435.1	CP119435.1	2863807050	SAMN33587933	615	Serratia marcescens strain K1030 chromosome, complete genome	direct
+CP119436.1	CP119436.1	2863811936	SAMN33587933	615	Serratia marcescens strain K1030 plasmid pK1030-KPC, complete sequence	direct
+CP121772.1	CP121772.1	2812416592	SAMN34110064	615	Serratia marcescens strain E1-2 chromosome, complete genome	direct
+CP123597.1	CP123597.1	2496632691	SAMN34233932	615	Serratia marcescens strain RMCH-M26-N chromosome, complete genome	direct
+CP123607.1	CP123607.1	2496623849	SAMN34233929	615	Serratia marcescens strain RMCH-M16-N chromosome, complete genome	direct
+CP127881.1	CP127881.1	2522216644	SAMN35676739	615	Serratia marcescens strain ELP1.10 chromosome, complete genome	direct
+CP127882.1	CP127882.1	2522221286	SAMN35676739	615	Serratia marcescens strain ELP1.10 plasmid pELP1.10, complete sequence	direct
+CP132197.1	CP132197.1	2620064104	SAMN36865123	615	Serratia marcescens strain GES6 chromosome, complete genome	direct
+CP132198.1	CP132198.1	2620068835	SAMN36865123	615	Serratia marcescens strain GES6 plasmid pSM05-incQ2-GES6, complete sequence	direct
+CP132199.1	CP132199.1	2620068844	SAMN36865123	615	Serratia marcescens strain GES6 plasmid pSM05-colE1, complete sequence	direct
+CP132290.1	CP132290.1	2563036165	SAMN36830560	615	Serratia marcescens strain X1 chromosome, complete genome	direct
+CP132300.1	CP132300.1	2563071529	SAMN26796324	615	Serratia marcescens strain F61211109 plasmid unnamed1, complete sequence	direct
+CP132301.1	CP132301.1	2563071590	SAMN26796324	615	Serratia marcescens strain F61211109 chromosome, complete genome	direct
+CP132377.1	CP132377.1	2563337699	SAMN36908628	615	Serratia marcescens strain KZ11 chromosome, complete genome	direct
+CP139425.1	CP139425.1	2720437881	SAMN38366970	615	Serratia marcescens strain S50079 chromosome, complete genome	direct
+CP139426.1	CP139426.1	2720442913	SAMN38366970	615	Serratia marcescens strain S50079 plasmid pS50079-1, complete sequence	direct
+CP139427.1	CP139427.1	2720443089	SAMN38366970	615	Serratia marcescens strain S50079 plasmid pS50079-2, complete sequence	direct
+CP139428.1	CP139428.1	2720443329	SAMN38366970	615	Serratia marcescens strain S50079 plasmid pS50079-3, complete sequence	direct
+CP139958.1	CP139958.1	2636501268	SAMN38562723	911022	Serratia marcescens subsp. marcescens ATCC 13880 chromosome, complete genome	direct
+CP139959.1	CP139959.1	2636506003	SAMN38562723	911022	Serratia marcescens subsp. marcescens ATCC 13880 plasmid unnamed, complete sequence	direct
+CP143341.1	CP143341.1	2666537119	SAMN38182635	615	Serratia marcescens strain 2023CB-00608 chromosome, complete genome	direct
+CP143342.1	CP143342.1	2666541970	SAMN38182635	615	Serratia marcescens strain 2023CB-00608 plasmid unnamed1, complete sequence	direct
+CP143343.1	CP143343.1	2666542052	SAMN38182635	615	Serratia marcescens strain 2023CB-00608 plasmid unnamed2, complete sequence	direct
+CP147521.1	CP147521.1	2699590795	SAMN40123735	615	Serratia marcescens strain GN02777 chromosome, complete genome	direct
+CP147522.1	CP147522.1	2699595508	SAMN40123735	615	Serratia marcescens strain GN02777 plasmid unnamed1, complete sequence	direct
+CP147523.1	CP147523.1	2699545071	SAMN40123736	615	Serratia marcescens strain GN02991 plasmid unnamed1, complete sequence	direct
+CP147524.1	CP147524.1	2699545118	SAMN40123736	615	Serratia marcescens strain GN02991 chromosome, complete genome	direct
+CP147525.1	CP147525.1	2699549833	SAMN40123736	615	Serratia marcescens strain GN02991 plasmid unnamed2, complete sequence	direct
+CP147538.1	CP147538.1	2699535345	SAMN40123743	615	Serratia marcescens strain GN02673 chromosome, complete genome	direct
+CP147539.1	CP147539.1	2699614131	SAMN40123744	615	Serratia marcescens strain GN03438 chromosome, complete genome	direct
+CP147540.1	CP147540.1	2699561235	SAMN40123745	615	Serratia marcescens strain GN03465 chromosome, complete genome	direct
+CP147620.1	CP147620.1	2699720601	SAMN40123781	615	Serratia marcescens strain GN02903 chromosome, complete genome	direct
+CP147621.1	CP147621.1	2699706083	SAMN40123782	615	Serratia marcescens strain GN02966 chromosome, complete genome	direct
+CP147991.1	CP147991.1	2702502068	SAMN40355573	615	Mutant Serratia marcescens isolate 60-6, complete genome	direct
+CP150016.1	CP150016.1	2707746658	SAMN39998258	615	Serratia marcescens strain 2024CK-00127 chromosome, complete genome	direct
+CP157869.1	CP157869.1	2744141736	SAMN41651214	615	Serratia marcescens strain KS10 chromosome, complete genome	direct
+CP163149.1	CP163149.1	2970822088	SAMN42539141	615	Serratia marcescens strain A26716 chromosome, complete genome	direct
+CP163407.1	CP163407.1	2784893322	SAMN42780936	615	Serratia marcescens strain 1.8.3 chromosome, complete genome	direct
+CP163497.1	CP163497.1	2783857059	SAMN42749631	615	Serratia marcescens strain XZ-A chromosome, complete genome	direct
+CP163502.1	CP163502.1	2783897927	SAMN42749739	615	Serratia marcescens strain XZ-60S chromosome, complete genome	direct
+CP169392.1	CP169392.1	2804793545	SAMN43374428	615	Serratia marcescens strain IFSMLMEK1 chromosome, complete genome	direct
+CP171400.1	CP171400.1	2836270063	SAMN44252832	615	Serratia marcescens strain Q20i chromosome, complete genome	direct
+CP171401.1	CP171401.1	2836274722	SAMN44252832	615	Serratia marcescens strain Q20i plasmid pQ20i_2, complete sequence	direct
+CP171402.1	CP171402.1	2836274730	SAMN44252832	615	Serratia marcescens strain Q20i plasmid pQ20i_3, complete sequence	direct
+CP171403.1	CP171403.1	2836274733	SAMN44252832	615	Serratia marcescens strain Q20i plasmid pQ20i_1, complete sequence	direct
+CP171404.1	CP171404.1	2836274740	SAMN44252832	615	Serratia marcescens strain Q20i plasmid pQ20i_4, complete sequence	direct
+CP180287.1	CP180287.1	2906369199	SAMN46502749	615	Serratia marcescens strain 149A43 chromosome, complete genome	direct
+CP183425.1	CP183425.1	2926988817	SAMN47217336	615	Serratia marcescens strain H-12-3 chromosome, complete genome	direct
+CP190751.1	CP190751.1	3064654457	SAMN48353146	615	Serratia marcescens strain SMLY-1 chromosome, complete genome	direct
+CP192508.2	CP192508.2	2993295280	SAMN48627459	615	Serratia marcescens strain SM02 chromosome, complete genome	direct
+CP192733.1	CP192733.1	2991005919	SAMN48671768	615	Serratia marcescens strain CH31 chromosome, complete genome	direct
+CP192734.1	CP192734.1	2991010980	SAMN48671768	615	Serratia marcescens strain CH31 plasmid pCH31	direct
+CP193986.1	CP193986.1	2993304793	SAMN48480600	615	Serratia marcescens strain L17 chromosome, complete genome	direct
+CP193987.1	CP193987.1	2993319486	SAMN48480601	615	Serratia marcescens strain L18 chromosome, complete genome	direct
+CP193988.1	CP193988.1	2993309540	SAMN48480602	615	Serratia marcescens strain L20 chromosome, complete genome	direct
+CP194225.1	CP194225.1	2996975390	SAMN48627460	615	Serratia marcescens strain SM03 chromosome, complete genome	direct
+CP194226.1	CP194226.1	2996964291	SAMN48627458	615	Serratia marcescens strain SM01 chromosome, complete genome	direct
+CP195229.1	CP195229.1	3024590176	SAMN49463586	615	Serratia marcescens strain CVB chromosome, complete genome	direct
+CP197183.1	CP197183.1	3042933084	SAMN49980336	615	Serratia marcescens strain Hei101 chromosome, complete genome	direct
+CP197184.1	CP197184.1	3042937910	SAMN49980336	615	Serratia marcescens strain Hei101 plasmid unnamed, complete sequence	direct
+HG326223.1	HG326223.1	560171871	SAMEA3138834	273526	Serratia marcescens subsp. marcescens Db11, complete genome	direct
+HG738868.1	HG738868.1	1127886353	SAMEA3865280	1401254	Serratia marcescens SMB2099 complete genome	direct
+JBRTPY000000000.1	JBRTPY000000000.1	3135765859	SAMN52755116	615	Serratia marcescens strain CAVP657, whole genome shotgun sequencing project	direct
+JBRTPZ000000000.1	JBRTPZ000000000.1	3135765861	SAMN52755115	615	Serratia marcescens strain CAVP656, whole genome shotgun sequencing project	direct
+JBRTQA000000000.1	JBRTQA000000000.1	3135765863	SAMN52755114	615	Serratia marcescens strain CAVP655, whole genome shotgun sequencing project	direct
+JBRTQB000000000.1	JBRTQB000000000.1	3135765862	SAMN52755113	615	Serratia marcescens strain CAVP653, whole genome shotgun sequencing project	direct
+JBRTQC000000000.1	JBRTQC000000000.1	3135765864	SAMN52755112	615	Serratia marcescens strain CAVP652, whole genome shotgun sequencing project	direct
+JBRTQD000000000.1	JBRTQD000000000.1	3135765865	SAMN52755111	615	Serratia marcescens strain CAVP640, whole genome shotgun sequencing project	direct
+LR890657.1	LR890657.1	1927385785	SAMEA3357389	615	Serratia marcescens isolate MSB1_9C-sc-2280320 genome assembly, chromosome: 1	direct
+LR890658.1	LR890658.1	1927385786	SAMEA3357389	615	Serratia marcescens isolate MSB1_9C-sc-2280320 genome assembly, plasmid: 2	direct
+LR890659.1	LR890659.1	1927385787	SAMEA3357389	615	Serratia marcescens isolate MSB1_9C-sc-2280320 genome assembly, plasmid: 3	direct
+LR890660.1	LR890660.1	1927385788	SAMEA3357389	615	Serratia marcescens isolate MSB1_9C-sc-2280320 genome assembly, plasmid: 4	direct
+NC_020211.1	NC_020211.1	448239774	SAMN02602965	435998	Serratia marcescens WW4, complete sequence	direct
+NC_020212.1	NC_020212.1	448239770	SAMN02602965	435998	Serratia marcescens WW4 plasmid pSmWW4, complete sequence	direct
+NZ_AP013063.1	NZ_AP013063.1	751569511	SAMD00061009	1334564	Serratia marcescens SM39 chromosome, complete genome	direct
+NZ_AP013064.1	NZ_AP013064.1	751569689	SAMD00061009	1334564	Serratia marcescens SM39 plasmid pSMC1, complete sequence	direct
+NZ_AP013065.1	NZ_AP013065.1	751569818	SAMD00061009	1334564	Serratia marcescens SM39 plasmid pSMC2, complete sequence	direct
+NZ_AP019009.1	NZ_AP019009.1	1545335440	SAMD00143521	615	Serratia marcescens strain AS-1 chromosome, complete genome	direct
+NZ_AP019010.1	NZ_AP019010.1	1545335441	SAMD00143521	615	Serratia marcescens strain AS-1 plasmid pSERAS01, complete sequence	direct
+NZ_AP021873.1	NZ_AP021873.1	1802762336	SAMD00191436	615	Serratia marcescens strain ATCC 274 chromosome, complete genome	direct
+NZ_AP024847.1	NZ_AP024847.1	2102615440	SAMD00391659	615	Serratia marcescens strain 2020-O-9 chromosome, complete genome	direct
+NZ_AP024848.1	NZ_AP024848.1	2102615991	SAMD00391659	615	Serratia marcescens strain 2020-O-9 plasmid p2020-O-9, complete sequence	direct
+NZ_CM008894.1	NZ_CM008894.1	1317325963	SAMN07452560	615	Serratia marcescens strain 12TM chromosome, whole genome shotgun sequence	direct
+NZ_CM008895.1	NZ_CM008895.1	1317325984	SAMN07452560	615	Serratia marcescens strain 12TM plasmid pNDM_12TM, whole genome shotgun sequence	direct
+NZ_CM008896.1	NZ_CM008896.1	1317325988	SAMN07452560	615	Serratia marcescens strain 12TM plasmid p12TM-94, whole genome shotgun sequence	direct
+NZ_CM135112.1	NZ_CM135112.1	3136128587	SAMN52755115	615	Serratia marcescens strain CAVP656 chromosome, whole genome shotgun sequence	direct
+NZ_CM135113.1	NZ_CM135113.1	3136125284	SAMN52755116	615	Serratia marcescens strain CAVP657 chromosome, whole genome shotgun sequence	direct
+NZ_CM135114.1	NZ_CM135114.1	3136167660	SAMN52755113	615	Serratia marcescens strain CAVP653 chromosome, whole genome shotgun sequence	direct
+NZ_CM135115.1	NZ_CM135115.1	3136136630	SAMN52755114	615	Serratia marcescens strain CAVP655 chromosome, whole genome shotgun sequence	direct
+NZ_CM135116.1	NZ_CM135116.1	3136139967	SAMN52755112	615	Serratia marcescens strain CAVP652 chromosome, whole genome shotgun sequence	direct
+NZ_CM135117.1	NZ_CM135117.1	3136122398	SAMN52755111	615	Serratia marcescens strain CAVP640 chromosome, whole genome shotgun sequence	direct
+NZ_CP011637.1	NZ_CP011637.1	836573120	SAMN03733805	615	Serratia marcescens strain CAV1492 plasmid pCAV1492-3223, complete sequence	direct
+NZ_CP011638.1	NZ_CP011638.1	836573121	SAMN03733805	615	Serratia marcescens strain CAV1492 plasmid pCAV1492-6393, complete sequence	direct
+NZ_CP011639.1	NZ_CP011639.1	836573122	SAMN03733805	615	Serratia marcescens strain CAV1492 plasmid pKPC_CAV1492, complete sequence	direct
+NZ_CP011640.1	NZ_CP011640.1	836573123	SAMN03733805	615	Serratia marcescens strain CAV1492 plasmid pCAV1492-73, complete sequence	direct
+NZ_CP011641.1	NZ_CP011641.1	836573124	SAMN03733805	615	Serratia marcescens strain CAV1492 plasmid pCAV1492-199, complete sequence	direct
+NZ_CP011642.1	NZ_CP011642.1	836573125	SAMN03733805	615	Serratia marcescens strain CAV1492 chromosome, complete genome	direct
+NZ_CP012639.1	NZ_CP012639.1	983508328	SAMN04029108	615	Serratia marcescens strain RSC-14 chromosome, complete genome	direct
+NZ_CP012685.1	NZ_CP012685.1	983556114	SAMN03733572	615	Serratia marcescens strain SmUNAM836 chromosome, complete genome	direct
+NZ_CP012686.1	NZ_CP012686.1	983556115	SAMN03733572	615	Serratia marcescens strain SmUNAM836 plasmid pSmUNAM836, complete sequence	direct
+NZ_CP013046.2	NZ_CP013046.2	1155503707	SAMN04214975	615	Serratia marcescens strain B3R3 chromosome, complete genome	direct
+NZ_CP013047.2	NZ_CP013047.2	1155503709	SAMN04214975	615	Serratia marcescens strain B3R3 plasmid unnamed1, complete sequence	direct
+NZ_CP018915.1	NZ_CP018915.1	1217753893	SAMN06164056	615	Serratia marcescens strain UMH1 chromosome, complete genome	direct
+NZ_CP018916.1	NZ_CP018916.1	1217753992	SAMN06164056	615	Serratia marcescens strain UMH1 plasmid unnamed1, complete sequence	direct
+NZ_CP018917.1	NZ_CP018917.1	1217741302	SAMN06164059	615	Serratia marcescens strain UMH5 chromosome, complete genome	direct
+NZ_CP018918.1	NZ_CP018918.1	1217741303	SAMN06164059	615	Serratia marcescens strain UMH5 plasmid unnamed2, complete sequence	direct
+NZ_CP018919.1	NZ_CP018919.1	1217757726	SAMN06164061	615	Serratia marcescens strain UMH7 chromosome, complete genome	direct
+NZ_CP018920.1	NZ_CP018920.1	1217757834	SAMN06164061	615	Serratia marcescens strain UMH7 plasmid unnamed3, complete sequence	direct
+NZ_CP018921.1	NZ_CP018921.1	1217757841	SAMN06164061	615	Serratia marcescens strain UMH7 plasmid unnamed4, complete sequence	direct
+NZ_CP018922.1	NZ_CP018922.1	1217757846	SAMN06164061	615	Serratia marcescens strain UMH7 plasmid unnamed5, complete sequence	direct
+NZ_CP018923.1	NZ_CP018923.1	1217739760	SAMN06164063	615	Serratia marcescens strain UMH9 chromosome, complete genome	direct
+NZ_CP018924.1	NZ_CP018924.1	1217750861	SAMN06164057	615	Serratia marcescens strain UMH2 chromosome, complete genome	direct
+NZ_CP018925.1	NZ_CP018925.1	1217741924	SAMN06164058	615	Serratia marcescens strain UMH3 chromosome, complete genome	direct
+NZ_CP018926.1	NZ_CP018926.1	1217747204	SAMN06164060	615	Serratia marcescens strain UMH6 chromosome, complete genome	direct
+NZ_CP018927.1	NZ_CP018927.1	1217739664	SAMN06164062	615	Serratia marcescens strain UMH8 chromosome, complete genome	direct
+NZ_CP018928.1	NZ_CP018928.1	1217708070	SAMN06164064	615	Serratia marcescens strain UMH10 chromosome, complete genome	direct
+NZ_CP018929.1	NZ_CP018929.1	1217745711	SAMN06164065	615	Serratia marcescens strain UMH11 chromosome, complete genome	direct
+NZ_CP018930.1	NZ_CP018930.1	1217701852	SAMN06164066	615	Serratia marcescens strain UMH12 chromosome, complete genome	direct
+NZ_CP020501.1	NZ_CP020501.1	1729623274	SAMN04276914	615	Serratia marcescens strain BWH-23 chromosome, complete genome	direct
+NZ_CP020502.1	NZ_CP020502.1	1729623275	SAMN04276914	615	Serratia marcescens strain BWH-23 plasmid unnamed, complete sequence	direct
+NZ_CP020503.1	NZ_CP020503.1	1729615984	SAMN04022954	615	Serratia marcescens strain 95 chromosome, complete genome	direct
+NZ_CP020504.1	NZ_CP020504.1	1729615985	SAMN04022954	615	Serratia marcescens strain 95 plasmid unnamed3, complete sequence	direct
+NZ_CP020505.1	NZ_CP020505.1	1729615987	SAMN04022954	615	Serratia marcescens strain 95 plasmid unnamed2, complete sequence	direct
+NZ_CP020506.1	NZ_CP020506.1	1729615995	SAMN04022954	615	Serratia marcescens strain 95 plasmid unnamed1, complete sequence	direct
+NZ_CP020507.1	NZ_CP020507.1	1729622202	SAMN04276915	615	Serratia marcescens strain BWH-35 chromosome, complete genome	direct
+NZ_CP020508.1	NZ_CP020508.1	1729622203	SAMN04276915	615	Serratia marcescens strain BWH-35 plasmid unnamed, complete sequence	direct
+NZ_CP021164.1	NZ_CP021164.1	1397635250	SAMN06311524	615	Serratia marcescens strain 332 chromosome, complete genome	direct
+NZ_CP026050.1	NZ_CP026050.1	1337793691	SAMN02934514	615	Serratia marcescens strain FDAARGOS_65 chromosome, complete genome	direct
+NZ_CP026702.1	NZ_CP026702.1	1352961644	SAMN04014868	615	Serratia marcescens strain AR_0027 chromosome, complete genome	direct
+NZ_CP026703.1	NZ_CP026703.1	1352961645	SAMN04014868	615	Serratia marcescens strain AR_0027 plasmid unitig_1_pilon, complete sequence	direct
+NZ_CP027300.1	NZ_CP027300.1	1397621773	SAMN08222723	615	Serratia marcescens strain SGAir0764 chromosome, complete genome	direct
+NZ_CP027301.1	NZ_CP027301.1	1397621774	SAMN08222723	615	Serratia marcescens strain SGAir0764 plasmid unnamed_1	direct
+NZ_CP027533.1	NZ_CP027533.1	1360769517	SAMN04014932	615	Serratia marcescens strain AR_0091 chromosome, complete genome	direct
+NZ_CP027539.1	NZ_CP027539.1	1360747431	SAMN04014940	615	Serratia marcescens strain AR_0099 chromosome, complete genome	direct
+NZ_CP028946.1	NZ_CP028946.1	1384111033	SAMN04014965	615	Serratia marcescens strain AR_0124 chromosome, complete genome	direct
+NZ_CP028947.1	NZ_CP028947.1	1384120574	SAMN04014971	615	Serratia marcescens strain AR_0130 chromosome, complete genome	direct
+NZ_CP028948.1	NZ_CP028948.1	1384111079	SAMN04014964	615	Serratia marcescens strain AR_0123 chromosome, complete genome	direct
+NZ_CP028949.1	NZ_CP028949.1	1384093091	SAMN04014962	615	Serratia marcescens strain AR_0121 chromosome, complete genome	direct
+NZ_CP029444.1	NZ_CP029444.1	1778512286	SAMN09205456	615	Serratia marcescens strain CAV1761 plasmid pCAV1761-3223, complete sequence	direct
+NZ_CP029445.1	NZ_CP029445.1	1778512287	SAMN09205456	615	Serratia marcescens strain CAV1761 plasmid pCAV1761-6393, complete sequence	direct
+NZ_CP029446.1	NZ_CP029446.1	1778512288	SAMN09205456	615	Serratia marcescens strain CAV1761 plasmid pKPC_CAV1761, complete sequence	direct
+NZ_CP029447.1	NZ_CP029447.1	1778512289	SAMN09205456	615	Serratia marcescens strain CAV1761 plasmid pCAV1761-73, complete sequence	direct
+NZ_CP029448.1	NZ_CP029448.1	1778512290	SAMN09205456	615	Serratia marcescens strain CAV1761 plasmid pCAV1761-205, complete sequence	direct
+NZ_CP029449.1	NZ_CP029449.1	1778512291	SAMN09205456	615	Serratia marcescens strain CAV1761 chromosome, complete genome	direct
+NZ_CP029715.1	NZ_CP029715.1	1402704371	SAMN04014972	615	Serratia marcescens strain AR_0131 chromosome, complete genome	direct
+NZ_CP029746.1	NZ_CP029746.1	1402824780	SAMN04014963	615	Serratia marcescens strain AR_0122 chromosome, complete genome	direct
+NZ_CP031315.1	NZ_CP031315.1	1444204431	SAMN09469079	615	Serratia marcescens strain N4-5 plasmid pSmN45, complete sequence	direct
+NZ_CP031316.1	NZ_CP031316.1	1444204667	SAMN09469079	615	Serratia marcescens strain N4-5 chromosome, complete genome	direct
+NZ_CP033623.1	NZ_CP033623.1	1797874700	SAMN10393815	615	Serratia marcescens strain N10A28 chromosome, complete genome	direct
+NZ_CP040350.1	NZ_CP040350.1	1864640103	SAMN11633367	615	Serratia marcescens strain 1912768R chromosome, complete genome	direct
+NZ_CP041122.1	NZ_CP041122.1	1705196150	SAMN11461876	615	Serratia marcescens strain WVU-001 chromosome, complete genome	direct
+NZ_CP041123.1	NZ_CP041123.1	1705227134	SAMN11461877	615	Serratia marcescens strain WVU-002 chromosome, complete genome	direct
+NZ_CP041124.1	NZ_CP041124.1	1701449198	SAMN11461878	615	Serratia marcescens strain WVU-003 chromosome, complete genome	direct
+NZ_CP041125.1	NZ_CP041125.1	1701408621	SAMN11894222	615	Serratia marcescens strain WVU-004 chromosome, complete genome	direct
+NZ_CP041129.1	NZ_CP041129.1	1701453463	SAMN11894224	615	Serratia marcescens strain WVU-006 chromosome, complete genome	direct
+NZ_CP041130.1	NZ_CP041130.1	1701561788	SAMN11894225	615	Serratia marcescens strain WVU-007 chromosome, complete genome	direct
+NZ_CP041132.1	NZ_CP041132.1	1701528765	SAMN11894227	615	Serratia marcescens strain WVU-009 chromosome, complete genome	direct
+NZ_CP041133.1	NZ_CP041133.1	1701528867	SAMN11894227	615	Serratia marcescens strain WVU-009 plasmid pWVU-009, complete sequence	direct
+NZ_CP041134.1	NZ_CP041134.1	1701432597	SAMN11894228	615	Serratia marcescens strain WVU-010 chromosome, complete genome	direct
+NZ_CP042512.1	NZ_CP042512.1	1761842104	SAMN12289419	615	Serratia marcescens strain E28 chromosome, complete genome	direct
+NZ_CP042513.1	NZ_CP042513.1	1761842163	SAMN12289419	615	Serratia marcescens strain E28 plasmid pE28_001, complete sequence	direct
+NZ_CP042514.1	NZ_CP042514.1	1761842165	SAMN12289419	615	Serratia marcescens strain E28 plasmid pE28_002, complete sequence	direct
+NZ_CP042515.1	NZ_CP042515.1	1761842167	SAMN12289419	615	Serratia marcescens strain E28 plasmid pE28_003	direct
+NZ_CP042516.1	NZ_CP042516.1	1761842169	SAMN12289419	615	Serratia marcescens strain E28 plasmid pE28_004, complete sequence	direct
+NZ_CP047391.1	NZ_CP047391.1	1797934168	SAMN13676638	615	Serratia marcescens strain 1602 chromosome, complete genome	direct
+NZ_CP047392.1	NZ_CP047392.1	1797934169	SAMN13676638	615	Serratia marcescens strain 1602 plasmid pKPC-2-HENAN1602, complete sequence	direct
+NZ_CP047679.1	NZ_CP047679.1	1800115102	SAMN13840998	615	Serratia marcescens strain 4201 chromosome, complete genome	direct
+NZ_CP047680.1	NZ_CP047680.1	1800115103	SAMN13840998	615	Serratia marcescens strain 4201 plasmid p4201-KPC, complete sequence	direct
+NZ_CP047681.1	NZ_CP047681.1	1800115104	SAMN13840998	615	Serratia marcescens strain 4201 plasmid pXQ, complete sequence	direct
+NZ_CP047682.1	NZ_CP047682.1	1800118805	SAMN13840997	615	Serratia marcescens strain 3024 chromosome, complete genome	direct
+NZ_CP047683.1	NZ_CP047683.1	1800118808	SAMN13840997	615	Serratia marcescens strain 3024 plasmid p3024-KPC, complete sequence	direct
+NZ_CP047684.1	NZ_CP047684.1	1800118809	SAMN13840997	615	Serratia marcescens strain 3024 plasmid pXQ, complete sequence	direct
+NZ_CP047685.1	NZ_CP047685.1	1800122496	SAMN13840996	615	Serratia marcescens strain 2838 chromosome, complete genome	direct
+NZ_CP047686.1	NZ_CP047686.1	1800122499	SAMN13840996	615	Serratia marcescens strain 2838 plasmid p2838-KPC, complete sequence	direct
+NZ_CP047687.1	NZ_CP047687.1	1800122501	SAMN13840996	615	Serratia marcescens strain 2838 plasmid pXQ, complete sequence	direct
+NZ_CP047688.1	NZ_CP047688.1	1800126808	SAMN13840995	615	Serratia marcescens strain 1140- chromosome, complete genome	direct
+NZ_CP047689.1	NZ_CP047689.1	1800126809	SAMN13840995	615	Serratia marcescens strain 1140- plasmid p1140-KPC, complete sequence	direct
+NZ_CP047690.1	NZ_CP047690.1	1800126810	SAMN13840995	615	Serratia marcescens strain 1140- plasmid pXQ, complete sequence	direct
+NZ_CP047691.1	NZ_CP047691.1	1800122447	SAMN13840994	615	Serratia marcescens strain C110 chromosome, complete genome	direct
+NZ_CP047692.1	NZ_CP047692.1	1800122450	SAMN13840994	615	Serratia marcescens strain C110 plasmid pC110-KPC, complete sequence	direct
+NZ_CP047693.1	NZ_CP047693.1	1800122451	SAMN13840994	615	Serratia marcescens strain C110 plasmid pXQ, complete sequence	direct
+NZ_CP050013.1	NZ_CP050013.1	1823451551	SAMN14360500	615	Serratia marcescens strain BP2 chromosome, complete genome	direct
+NZ_CP050447.1	NZ_CP050447.1	1827365461	SAMN14265996	615	Serratia marcescens strain SER00094 chromosome, complete genome	direct
+NZ_CP053286.1	NZ_CP053286.1	1843977850	SAMN14863985	615	Serratia marcescens strain FZSF02 chromosome, complete genome	direct
+NZ_CP053378.1	NZ_CP053378.1	1844044937	SAMN14859508	615	Serratia marcescens strain FY chromosome, complete genome	direct
+NZ_CP053379.1	NZ_CP053379.1	1844044938	SAMN14859508	615	Serratia marcescens strain FY plasmid p1, complete sequence	direct
+NZ_CP053380.1	NZ_CP053380.1	1844044939	SAMN14859508	615	Serratia marcescens strain FY plasmid p2, complete sequence	direct
+NZ_CP053572.1	NZ_CP053572.1	1859368380	SAMN12560215	615	Serratia marcescens strain S7.1 chromosome, complete genome	direct
+NZ_CP053918.1	NZ_CP053918.1	2784640695	SAMN15009256	615	Serratia marcescens strain LY1 chromosome, complete genome	direct
+NZ_CP053919.1	NZ_CP053919.1	2784640696	SAMN15009256	615	Serratia marcescens strain LY1 plasmid unnamed1, complete sequence	direct
+NZ_CP053925.1	NZ_CP053925.1	1878041990	SAMN14999148	615	Serratia marcescens strain 12/2010 chromosome, complete genome	direct
+NZ_CP053926.1	NZ_CP053926.1	1878032873	SAMN14998449	615	Serratia marcescens strain 11/2010 plasmid pAM01, complete sequence	direct
+NZ_CP053927.1	NZ_CP053927.1	1878032874	SAMN14998449	615	Serratia marcescens strain 11/2010 chromosome, complete genome	direct
+NZ_CP054277.1	NZ_CP054277.1	1939153859	SAMN15078591	615	Serratia marcescens strain Byron chromosome, complete genome	direct
+NZ_CP055161.1	NZ_CP055161.1	1861224824	SAMN15196985	615	Serratia marcescens strain JW-CZ2 chromosome, complete genome	direct
+NZ_CP058353.1	NZ_CP058353.1	2222897550	SAMN15375773	615	Serratia marcescens strain ESE2014 chromosome, complete genome	direct
+NZ_CP060440.1	NZ_CP060440.1	2201006462	SAMN15666260	615	Serratia marcescens strain M158-1-1 chromosome, complete genome	direct
+NZ_CP061075.1	NZ_CP061075.1	2897830908	SAMN15953187	615	Serratia marcescens strain 9667 chromosome, complete genome	direct
+NZ_CP061076.1	NZ_CP061076.1	2897832476	SAMN15953186	615	Serratia marcescens strain 4526 chromosome, complete genome	direct
+NZ_CP063229.1	NZ_CP063229.1	2073780655	SAMN16456043	615	Serratia marcescens strain LVF3 chromosome, complete genome	direct
+NZ_CP063230.1	NZ_CP063230.1	2073780683	SAMN16456043	615	Serratia marcescens strain LVF3 plasmid p87710, complete sequence	direct
+NZ_CP063238.1	NZ_CP063238.1	1957230754	SAMN14835601	615	Serratia marcescens strain SCH909 chromosome, complete genome	direct
+NZ_CP063239.1	NZ_CP063239.1	1957230967	SAMN14835601	615	Serratia marcescens strain SCH909 plasmid pSCH909, complete sequence	direct
+NZ_CP063354.1	NZ_CP063354.1	1928309326	SAMN16268784	615	Serratia marcescens strain SCQ1 chromosome, complete genome	direct
+NZ_CP063355.1	NZ_CP063355.1	1928309370	SAMN16268784	615	Serratia marcescens strain SCQ1 plasmid unnamed, complete sequence	direct
+NZ_CP071188.1	NZ_CP071188.1	1998755653	SAMEA7301506	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S94_jyu2015 chromosome, complete genome	direct
+NZ_CP071189.1	NZ_CP071189.1	1998755654	SAMEA7301506	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S94_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071190.1	NZ_CP071190.1	1998758014	SAMEA7301505	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S79_jyu2015 chromosome, complete genome	direct
+NZ_CP071191.1	NZ_CP071191.1	1998758015	SAMEA7301505	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S79_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071192.1	NZ_CP071192.1	1998757234	SAMEA7301504	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S60_jyu2015 chromosome, complete genome	direct
+NZ_CP071193.1	NZ_CP071193.1	1998757236	SAMEA7301504	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S60_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071194.1	NZ_CP071194.1	1998757232	SAMEA7301503	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S4_jyu2015 chromosome, complete genome	direct
+NZ_CP071195.1	NZ_CP071195.1	1998757233	SAMEA7301503	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S4_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071196.1	NZ_CP071196.1	1998757196	SAMEA7301502	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S54_jyu2015 chromosome, complete genome	direct
+NZ_CP071197.1	NZ_CP071197.1	1998757197	SAMEA7301502	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S54_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071198.1	NZ_CP071198.1	1998758020	SAMEA7301501	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S68_jyu2015 chromosome, complete genome	direct
+NZ_CP071199.1	NZ_CP071199.1	1998758021	SAMEA7301501	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S68_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071200.1	NZ_CP071200.1	1998758024	SAMEA7301500	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S96_jyu2015 chromosome, complete genome	direct
+NZ_CP071201.1	NZ_CP071201.1	1998758046	SAMEA7301500	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S96_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071202.1	NZ_CP071202.1	1998757238	SAMEA7301499	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S97_jyu2015 chromosome, complete genome	direct
+NZ_CP071203.1	NZ_CP071203.1	1998757239	SAMEA7301499	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S97_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071204.1	NZ_CP071204.1	1998757202	SAMEA7301498	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S6_jyu2015 chromosome, complete genome	direct
+NZ_CP071205.1	NZ_CP071205.1	1998757207	SAMEA7301498	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S6_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071206.1	NZ_CP071206.1	1998755739	SAMEA7301497	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S71_jyu2015 chromosome, complete genome	direct
+NZ_CP071207.1	NZ_CP071207.1	1998755783	SAMEA7301497	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S71_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071208.1	NZ_CP071208.1	1998758052	SAMEA7301496	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S81_jyu2015 chromosome, complete genome	direct
+NZ_CP071209.1	NZ_CP071209.1	1998758053	SAMEA7301496	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S81_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071210.1	NZ_CP071210.1	1998758060	SAMEA7301495	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S89_jyu2015 chromosome, complete genome	direct
+NZ_CP071211.1	NZ_CP071211.1	1998758061	SAMEA7301495	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S89_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071212.1	NZ_CP071212.1	1998757210	SAMEA7301494	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S50_jyu2015 chromosome, complete genome	direct
+NZ_CP071213.1	NZ_CP071213.1	1998757211	SAMEA7301494	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S50_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071214.1	NZ_CP071214.1	1998755856	SAMEA7301493	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_SA_jyu2015 chromosome, complete genome	direct
+NZ_CP071215.1	NZ_CP071215.1	1998755857	SAMEA7301493	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_SA_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071216.1	NZ_CP071216.1	1998758063	SAMEA7301492	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S24_jyu2015 chromosome, complete genome	direct
+NZ_CP071217.1	NZ_CP071217.1	1998758064	SAMEA7301492	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S24_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071218.1	NZ_CP071218.1	1998758066	SAMEA7301491	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S65_jyu2015 chromosome, complete genome	direct
+NZ_CP071219.1	NZ_CP071219.1	1998758067	SAMEA7301491	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S65_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071220.1	NZ_CP071220.1	1998757227	SAMEA7301490	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S57_jyu2015 chromosome, complete genome	direct
+NZ_CP071221.1	NZ_CP071221.1	1998757228	SAMEA7301490	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S57_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071222.1	NZ_CP071222.1	1998757240	SAMEA7301489	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S28_jyu2015 chromosome, complete genome	direct
+NZ_CP071223.1	NZ_CP071223.1	1998757241	SAMEA7301489	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S28_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071224.1	NZ_CP071224.1	1998755892	SAMEA7301488	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S33_jyu2015 chromosome, complete genome	direct
+NZ_CP071225.1	NZ_CP071225.1	1998755893	SAMEA7301488	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S33_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071226.1	NZ_CP071226.1	1998755896	SAMEA7301487	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S22_jyu2015 chromosome, complete genome	direct
+NZ_CP071227.1	NZ_CP071227.1	1998755897	SAMEA7301487	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S22_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071228.1	NZ_CP071228.1	1998758120	SAMEA7301486	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S78_jyu2015 chromosome, complete genome	direct
+NZ_CP071229.1	NZ_CP071229.1	1998758121	SAMEA7301486	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S78_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071230.1	NZ_CP071230.1	1998757258	SAMEA7301485	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S40_jyu2015 chromosome, complete genome	direct
+NZ_CP071231.1	NZ_CP071231.1	1998757259	SAMEA7301485	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S40_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071232.1	NZ_CP071232.1	1998757253	SAMEA7301484	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S67_jyu2015 chromosome, complete genome	direct
+NZ_CP071233.1	NZ_CP071233.1	1998757254	SAMEA7301484	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S67_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071234.1	NZ_CP071234.1	1998755903	SAMEA7301483	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S95_jyu2015 chromosome, complete genome	direct
+NZ_CP071235.1	NZ_CP071235.1	1998755905	SAMEA7301483	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S95_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071236.1	NZ_CP071236.1	1998755906	SAMEA7301482	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S13_jyu2015 chromosome, complete genome	direct
+NZ_CP071237.1	NZ_CP071237.1	1998755907	SAMEA7301482	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S13_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071238.1	NZ_CP071238.1	1998757215	SAMEA7301481	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S9_jyu2015 chromosome, complete genome	direct
+NZ_CP071239.1	NZ_CP071239.1	1998757216	SAMEA7301481	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S9_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071240.1	NZ_CP071240.1	1998757224	SAMEA7301480	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S64_jyu2015 chromosome, complete genome	direct
+NZ_CP071241.1	NZ_CP071241.1	1998757225	SAMEA7301480	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S64_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071242.1	NZ_CP071242.1	1998755919	SAMEA7301479	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S55_jyu2015 chromosome, complete genome	direct
+NZ_CP071243.1	NZ_CP071243.1	1998755920	SAMEA7301479	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S55_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP071244.1	NZ_CP071244.1	1998744998	SAMEA7301478	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S37_jyu2015 chromosome, complete genome	direct
+NZ_CP071245.1	NZ_CP071245.1	1998745008	SAMEA7301478	911022	Serratia marcescens subsp. marcescens ATCC 13880 substr. Sm_S37_jyu2015 plasmid unnamed, complete sequence	direct
+NZ_CP072199.1	NZ_CP072199.1	2020540571	SAMN18473280	911022	Serratia marcescens subsp. marcescens ATCC 13880 chromosome, complete genome	direct
+NZ_CP085860.1	NZ_CP085860.1	2189943683	SAMN22551389	615	Serratia marcescens strain MV-u1-SK1-O chromosome, complete genome	direct
+NZ_CP085861.1	NZ_CP085861.1	2189943684	SAMN22551389	615	Serratia marcescens strain MV-u1-SK1-O plasmid pOXA48_MV-u1-SK1-O-a, complete sequence	direct
+NZ_CP085862.1	NZ_CP085862.1	2189943685	SAMN22551389	615	Serratia marcescens strain MV-u1-SK1-O plasmid pMV-u1-SK1-O-b, complete sequence	direct
+NZ_CP090244.1	NZ_CP090244.1	2176957910	SAMN24372403	615	Serratia marcescens strain SMNSF-1 chromosome, complete genome	direct
+NZ_CP090908.1	NZ_CP090908.1	2180265733	SAMN24852073	615	Serratia marcescens strain Sys06 chromosome, complete genome	direct
+NZ_CP091120.1	NZ_CP091120.1	2203296935	SAMN23485811	615	Serratia marcescens strain CM2019_254 chromosome, complete genome	direct
+NZ_CP091122.1	NZ_CP091122.1	2203316136	SAMN23485796	615	Serratia marcescens strain CM2012_028 chromosome, complete genome	direct
+NZ_CP091123.1	NZ_CP091123.1	2203318913	SAMN23485809	615	Serratia marcescens strain CM2017_569 chromosome, complete genome	direct
+NZ_CP091124.1	NZ_CP091124.1	2203318914	SAMN23485809	615	Serratia marcescens strain CM2017_569 plasmid unnamed, complete sequence	direct
+NZ_CP092184.1	NZ_CP092184.1	2197126450	SAMN25876440	615	Serratia marcescens strain YHYF1 chromosome, complete genome	direct
+NZ_CP092461.1	NZ_CP092461.1	2219777104	SAMN19911184	615	Serratia marcescens strain RH10 chromosome, complete genome	direct
+NZ_CP097900.1	NZ_CP097900.1	2645284923	SAMN28671178	615	Serratia marcescens strain Bup chromosome, complete genome	direct
+NZ_CP100753.1	NZ_CP100753.1	2272226387	SAMN29532084	615	Serratia marcescens strain SASK1000 chromosome, complete genome	direct
+NZ_CP109824.1	NZ_CP109824.1	2324089483	SAMN31283467	615	Serratia marcescens strain SMBC31 chromosome, complete genome	direct
+NZ_CP109825.1	NZ_CP109825.1	2324089484	SAMN31283467	615	Serratia marcescens strain SMBC31 plasmid pSMBC31-93K, complete sequence	direct
+NZ_CP109826.1	NZ_CP109826.1	2324089485	SAMN31283467	615	Serratia marcescens strain SMBC31 plasmid pSMBC31-39K, complete sequence	direct
+NZ_CP109827.1	NZ_CP109827.1	2324089486	SAMN31283467	615	Serratia marcescens strain SMBC31 plasmid pSMBC31-5K, complete sequence	direct
+NZ_CP109828.1	NZ_CP109828.1	2324089487	SAMN31283467	615	Serratia marcescens strain SMBC31 plasmid pSMBC31-2K, complete sequence	direct
+NZ_CP109829.1	NZ_CP109829.1	2573250086	SAMN31283566	615	Serratia marcescens strain SMBC50 chromosome, complete genome	direct
+NZ_CP109830.1	NZ_CP109830.1	2573250089	SAMN31283566	615	Serratia marcescens strain SMBC50 plasmid pSMBC50-107K, complete sequence	direct
+NZ_CP110102.1	NZ_CP110102.1	2325272217	SAMN31424710	615	Serratia marcescens strain SARVS06 chromosome, complete genome	direct
+NZ_CP110103.1	NZ_CP110103.1	2325272221	SAMN31424710	615	Serratia marcescens strain SARVS06 plasmid plsmd_siar, complete sequence	direct
+NZ_CP113902.3	NZ_CP113902.3	2761272845	SAMN31988537	615	Serratia marcescens strain AD-W2 chromosome, complete genome	direct
+NZ_CP118723.1	NZ_CP118723.1	2451916417	SAMN33404193	615	Serratia marcescens strain AHRB3 chromosome, complete genome	direct
+NZ_CP118724.1	NZ_CP118724.1	2451916419	SAMN33404193	615	Serratia marcescens strain AHRB3 plasmid pAHRB3, complete sequence	direct
+NZ_CP118932.1	NZ_CP118932.1	2452704726	SAMN33434791	615	Serratia marcescens strain RX11 chromosome, complete genome	direct
+NZ_CP119435.1	NZ_CP119435.1	2865865297	SAMN33587933	615	Serratia marcescens strain K1030 chromosome, complete genome	direct
+NZ_CP119436.1	NZ_CP119436.1	2865865306	SAMN33587933	615	Serratia marcescens strain K1030 plasmid pK1030-KPC, complete sequence	direct
+NZ_CP121772.1	NZ_CP121772.1	2819269519	SAMN34110064	615	Serratia marcescens strain E1-2 chromosome, complete genome	direct
+NZ_CP123597.1	NZ_CP123597.1	2497902503	SAMN34233932	615	Serratia marcescens strain RMCH-M26-N chromosome, complete genome	direct
+NZ_CP123607.1	NZ_CP123607.1	2497938456	SAMN34233929	615	Serratia marcescens strain RMCH-M16-N chromosome, complete genome	direct
+NZ_CP127881.1	NZ_CP127881.1	2523524082	SAMN35676739	615	Serratia marcescens strain ELP1.10 chromosome, complete genome	direct
+NZ_CP127882.1	NZ_CP127882.1	2523524083	SAMN35676739	615	Serratia marcescens strain ELP1.10 plasmid pELP1.10, complete sequence	direct
+NZ_CP132197.1	NZ_CP132197.1	2620543068	SAMN36865123	615	Serratia marcescens strain GES6 chromosome, complete genome	direct
+NZ_CP132198.1	NZ_CP132198.1	2620543069	SAMN36865123	615	Serratia marcescens strain GES6 plasmid pSM05-incQ2-GES6, complete sequence	direct
+NZ_CP132199.1	NZ_CP132199.1	2620543070	SAMN36865123	615	Serratia marcescens strain GES6 plasmid pSM05-colE1, complete sequence	direct
+NZ_CP132290.1	NZ_CP132290.1	2847725252	SAMN36830560	615	Serratia marcescens strain X1 chromosome, complete genome	direct
+NZ_CP132300.1	NZ_CP132300.1	2573202063	SAMN26796324	615	Serratia marcescens strain F61211109 plasmid unnamed1, complete sequence	direct
+NZ_CP132301.1	NZ_CP132301.1	2573202065	SAMN26796324	615	Serratia marcescens strain F61211109 chromosome, complete genome	direct
+NZ_CP132377.1	NZ_CP132377.1	2565029805	SAMN36908628	615	Serratia marcescens strain KZ11 chromosome, complete genome	direct
+NZ_CP139425.1	NZ_CP139425.1	2721298630	SAMN38366970	615	Serratia marcescens strain S50079 chromosome, complete genome	direct
+NZ_CP139426.1	NZ_CP139426.1	2721298999	SAMN38366970	615	Serratia marcescens strain S50079 plasmid pS50079-1, complete sequence	direct
+NZ_CP139427.1	NZ_CP139427.1	2721299017	SAMN38366970	615	Serratia marcescens strain S50079 plasmid pS50079-2, complete sequence	direct
+NZ_CP139428.1	NZ_CP139428.1	2721299035	SAMN38366970	615	Serratia marcescens strain S50079 plasmid pS50079-3, complete sequence	direct
+NZ_CP139958.1	NZ_CP139958.1	2661911596	SAMN38562723	911022	Serratia marcescens subsp. marcescens ATCC 13880 chromosome, complete genome	direct
+NZ_CP139959.1	NZ_CP139959.1	2661911836	SAMN38562723	911022	Serratia marcescens subsp. marcescens ATCC 13880 plasmid unnamed, complete sequence	direct
+NZ_CP143341.1	NZ_CP143341.1	2667345567	SAMN38182635	615	Serratia marcescens strain 2023CB-00608 chromosome, complete genome	direct
+NZ_CP143342.1	NZ_CP143342.1	2667345870	SAMN38182635	615	Serratia marcescens strain 2023CB-00608 plasmid unnamed1, complete sequence	direct
+NZ_CP143343.1	NZ_CP143343.1	2667345879	SAMN38182635	615	Serratia marcescens strain 2023CB-00608 plasmid unnamed2, complete sequence	direct
+NZ_CP147521.1	NZ_CP147521.1	2711295343	SAMN40123735	615	Serratia marcescens strain GN02777 chromosome, complete genome	direct
+NZ_CP147522.1	NZ_CP147522.1	2711295345	SAMN40123735	615	Serratia marcescens strain GN02777 plasmid unnamed1, complete sequence	direct
+NZ_CP147523.1	NZ_CP147523.1	2711293422	SAMN40123736	615	Serratia marcescens strain GN02991 plasmid unnamed1, complete sequence	direct
+NZ_CP147524.1	NZ_CP147524.1	2711293424	SAMN40123736	615	Serratia marcescens strain GN02991 chromosome, complete genome	direct
+NZ_CP147525.1	NZ_CP147525.1	2711293425	SAMN40123736	615	Serratia marcescens strain GN02991 plasmid unnamed2, complete sequence	direct
+NZ_CP147538.1	NZ_CP147538.1	2711242082	SAMN40123743	615	Serratia marcescens strain GN02673 chromosome, complete genome	direct
+NZ_CP147539.1	NZ_CP147539.1	2711290860	SAMN40123744	615	Serratia marcescens strain GN03438 chromosome, complete genome	direct
+NZ_CP147540.1	NZ_CP147540.1	2711289301	SAMN40123745	615	Serratia marcescens strain GN03465 chromosome, complete genome	direct
+NZ_CP147620.1	NZ_CP147620.1	2711312015	SAMN40123781	615	Serratia marcescens strain GN02903 chromosome, complete genome	direct
+NZ_CP147621.1	NZ_CP147621.1	2711315961	SAMN40123782	615	Serratia marcescens strain GN02966 chromosome, complete genome	direct
+NZ_CP147991.1	NZ_CP147991.1	2711345913	SAMN40355573	615	Serratia marcescens strain MES-4(60-6) isolate 60-6 chromosome, complete genome	direct
+NZ_CP150016.1	NZ_CP150016.1	2844111302	SAMN39998258	615	Serratia marcescens strain 2024CK-00127 chromosome, complete genome	direct
+NZ_CP157869.1	NZ_CP157869.1	2745231292	SAMN41651214	615	Serratia marcescens strain KS10 chromosome, complete genome	direct
+NZ_CP163149.1	NZ_CP163149.1	2976147372	SAMN42539141	615	Serratia marcescens strain A26716 chromosome, complete genome	direct
+NZ_CP163407.1	NZ_CP163407.1	2785114794	SAMN42780936	615	Serratia marcescens strain 1.8.3 chromosome, complete genome	direct
+NZ_CP163497.1	NZ_CP163497.1	2783989632	SAMN42749631	615	Serratia marcescens strain XZ-A chromosome, complete genome	direct
+NZ_CP163502.1	NZ_CP163502.1	2783989263	SAMN42749739	615	Serratia marcescens strain XZ-60S chromosome, complete genome	direct
+NZ_CP169392.1	NZ_CP169392.1	2805260815	SAMN43374428	615	Serratia marcescens strain IFSMLMEK1 chromosome, complete genome	direct
+NZ_CP171400.1	NZ_CP171400.1	2838219600	SAMN44252832	615	Serratia marcescens strain Q20i chromosome, complete genome	direct
+NZ_CP171401.1	NZ_CP171401.1	2838219780	SAMN44252832	615	Serratia marcescens strain Q20i plasmid pQ20i_2, complete sequence	direct
+NZ_CP171402.1	NZ_CP171402.1	2838219783	SAMN44252832	615	Serratia marcescens strain Q20i plasmid pQ20i_3, complete sequence	direct
+NZ_CP171403.1	NZ_CP171403.1	2838219786	SAMN44252832	615	Serratia marcescens strain Q20i plasmid pQ20i_1, complete sequence	direct
+NZ_CP171404.1	NZ_CP171404.1	2838219789	SAMN44252832	615	Serratia marcescens strain Q20i plasmid pQ20i_4, complete sequence	direct
+NZ_CP180287.1	NZ_CP180287.1	2911602944	SAMN46502749	615	Serratia marcescens strain 149A43 chromosome, complete genome	direct
+NZ_CP183425.1	NZ_CP183425.1	2928909479	SAMN47217336	615	Serratia marcescens strain H-12-3 chromosome, complete genome	direct
+NZ_CP190751.1	NZ_CP190751.1	3069060504	SAMN48353146	615	Serratia marcescens strain SMLY-1 chromosome, complete genome	direct
+NZ_CP192508.2	NZ_CP192508.2	2995076094	SAMN48627459	615	Serratia marcescens strain SM02 chromosome, complete genome	direct
+NZ_CP192733.1	NZ_CP192733.1	2991942237	SAMN48671768	615	Serratia marcescens strain CH31 chromosome, complete genome	direct
+NZ_CP192734.1	NZ_CP192734.1	2991942248	SAMN48671768	615	Serratia marcescens strain CH31 plasmid pCH31	direct
+NZ_CP193986.1	NZ_CP193986.1	2993846233	SAMN48480600	615	Serratia marcescens strain L17 chromosome, complete genome	direct
+NZ_CP193987.1	NZ_CP193987.1	2993846236	SAMN48480601	615	Serratia marcescens strain L18 chromosome, complete genome	direct
+NZ_CP193988.1	NZ_CP193988.1	2993839697	SAMN48480602	615	Serratia marcescens strain L20 chromosome, complete genome	direct
+NZ_CP194225.1	NZ_CP194225.1	2997534152	SAMN48627460	615	Serratia marcescens strain SM03 chromosome, complete genome	direct
+NZ_CP194226.1	NZ_CP194226.1	2997561982	SAMN48627458	615	Serratia marcescens strain SM01 chromosome, complete genome	direct
+NZ_CP195229.1	NZ_CP195229.1	3024944880	SAMN49463586	615	Serratia marcescens strain CVB chromosome, complete genome	direct
+NZ_CP197183.1	NZ_CP197183.1	3044435645	SAMN49980336	615	Serratia marcescens strain Hei101 chromosome, complete genome	direct
+NZ_CP197184.1	NZ_CP197184.1	3044435820	SAMN49980336	615	Serratia marcescens strain Hei101 plasmid unnamed, complete sequence	direct
+NZ_HG326223.1	NZ_HG326223.1	752819988	SAMEA3138834	273526	Serratia marcescens subsp. marcescens Db11 chromosome I, complete sequence	direct
+NZ_HG738868.1	NZ_HG738868.1	1160807446	SAMEA3865280	1401254	Serratia marcescens SMB2099 chromosome I, complete sequence	direct
+NZ_JBRTPY010000002.1	NZ_JBRTPY010000002.1	3136125301	SAMN52755116	615	Serratia marcescens strain CAVP657 plasmid pCAVP657-1, whole genome shotgun sequence	direct
+NZ_JBRTPY010000003.1	NZ_JBRTPY010000003.1	3136125307	SAMN52755116	615	Serratia marcescens strain CAVP657 plasmid pCAVP657-2, whole genome shotgun sequence	direct
+NZ_JBRTPY010000004.1	NZ_JBRTPY010000004.1	3136125311	SAMN52755116	615	Serratia marcescens strain CAVP657 plasmid pCAVP657-3, whole genome shotgun sequence	direct
+NZ_JBRTPZ010000002.1	NZ_JBRTPZ010000002.1	3136128655	SAMN52755115	615	Serratia marcescens strain CAVP656 plasmid pCAVP656-1, whole genome shotgun sequence	direct
+NZ_JBRTPZ010000003.1	NZ_JBRTPZ010000003.1	3136128656	SAMN52755115	615	Serratia marcescens strain CAVP656 plasmid pCAVP656-2, whole genome shotgun sequence	direct
+NZ_JBRTPZ010000004.1	NZ_JBRTPZ010000004.1	3136128657	SAMN52755115	615	Serratia marcescens strain CAVP656 plasmid pCAVP656-3, whole genome shotgun sequence	direct
+NZ_JBRTQA010000002.1	NZ_JBRTQA010000002.1	3136136688	SAMN52755114	615	Serratia marcescens strain CAVP655 plasmid pCAVP655-1, whole genome shotgun sequence	direct
+NZ_JBRTQA010000003.1	NZ_JBRTQA010000003.1	3136136695	SAMN52755114	615	Serratia marcescens strain CAVP655 plasmid pCAVP655-2, whole genome shotgun sequence	direct
+NZ_JBRTQA010000004.1	NZ_JBRTQA010000004.1	3136136699	SAMN52755114	615	Serratia marcescens strain CAVP655 plasmid pCAVP655-3, whole genome shotgun sequence	direct
+NZ_JBRTQA010000005.1	NZ_JBRTQA010000005.1	3136136702	SAMN52755114	615	Serratia marcescens strain CAVP655 plasmid pCAVP655-4, whole genome shotgun sequence	direct
+NZ_JBRTQB010000002.1	NZ_JBRTQB010000002.1	3136167661	SAMN52755113	615	Serratia marcescens strain CAVP653 plasmid pCAVP653-1, whole genome shotgun sequence	direct
+NZ_JBRTQB010000003.1	NZ_JBRTQB010000003.1	3136167662	SAMN52755113	615	Serratia marcescens strain CAVP653 plasmid pCAVP653-2, whole genome shotgun sequence	direct
+NZ_JBRTQB010000004.1	NZ_JBRTQB010000004.1	3136167663	SAMN52755113	615	Serratia marcescens strain CAVP653 plasmid pCAVP653-3, whole genome shotgun sequence	direct
+NZ_JBRTQB010000005.1	NZ_JBRTQB010000005.1	3136167664	SAMN52755113	615	Serratia marcescens strain CAVP653 plasmid pCAVP653-4, whole genome shotgun sequence	direct
+NZ_JBRTQC010000002.1	NZ_JBRTQC010000002.1	3136139973	SAMN52755112	615	Serratia marcescens strain CAVP652 plasmid pCAVP652-1, whole genome shotgun sequence	direct
+NZ_JBRTQC010000003.1	NZ_JBRTQC010000003.1	3136139976	SAMN52755112	615	Serratia marcescens strain CAVP652 plasmid pCAVP652-2, whole genome shotgun sequence	direct
+NZ_JBRTQC010000004.1	NZ_JBRTQC010000004.1	3136139977	SAMN52755112	615	Serratia marcescens strain CAVP652 plasmid pCAVP652-3, whole genome shotgun sequence	direct
+NZ_JBRTQC010000005.1	NZ_JBRTQC010000005.1	3136139978	SAMN52755112	615	Serratia marcescens strain CAVP652 plasmid pCAVP652-4, whole genome shotgun sequence	direct
+NZ_JBRTQD010000002.1	NZ_JBRTQD010000002.1	3136122418	SAMN52755111	615	Serratia marcescens strain CAVP640 plasmid pCAVP640-1, whole genome shotgun sequence	direct
+NZ_JBRTQD010000003.1	NZ_JBRTQD010000003.1	3136122423	SAMN52755111	615	Serratia marcescens strain CAVP640 plasmid pCAVP640-2, whole genome shotgun sequence	direct
+NZ_JBRTQD010000004.1	NZ_JBRTQD010000004.1	3136122427	SAMN52755111	615	Serratia marcescens strain CAVP640 plasmid pCAVP640-3, whole genome shotgun sequence	direct
+NZ_JBRTQD010000005.1	NZ_JBRTQD010000005.1	3136122430	SAMN52755111	615	Serratia marcescens strain CAVP640 plasmid pCAVP640-4, whole genome shotgun sequence	direct
+NZ_LR890657.1	NZ_LR890657.1	1959111456	SAMEA3357389	615	Serratia marcescens strain MSB1_9C isolate MSB1_9C chromosome 1, complete sequence	direct
+NZ_LR890658.1	NZ_LR890658.1	1959111553	SAMEA3357389	615	Serratia marcescens strain MSB1_9C isolate MSB1_9C plasmid 2, complete sequence	direct
+NZ_LR890659.1	NZ_LR890659.1	1959111566	SAMEA3357389	615	Serratia marcescens strain MSB1_9C isolate MSB1_9C plasmid 3, complete sequence	direct
+NZ_LR890660.1	NZ_LR890660.1	1959111573	SAMEA3357389	615	Serratia marcescens strain MSB1_9C isolate MSB1_9C plasmid 4, complete sequence	direct
+NZ_OW849111.1	NZ_OW849111.1	2573259775	SAMEA7962734	615	Serratia marcescens isolate 0 chromosome main, complete sequence	direct
+NZ_OW849112.1	NZ_OW849112.1	2246691288	SAMEA7962734	615	Serratia marcescens isolate 0 plasmid P1, complete sequence	direct
+NZ_OW849113.1	NZ_OW849113.1	2247397654	SAMEA7962734	615	Serratia marcescens isolate 0 plasmid P2, complete sequence	direct
+NZ_OW849114.1	NZ_OW849114.1	2247397651	SAMEA7962734	615	Serratia marcescens isolate 0 plasmid P3, complete sequence	direct
+NZ_OW849139.1	NZ_OW849139.1	2573184641	SAMEA7962811	615	Serratia marcescens isolate 0 chromosome main, complete sequence	direct
+NZ_OW849140.1	NZ_OW849140.1	2246678061	SAMEA7962811	615	Serratia marcescens isolate 0 plasmid P1, complete sequence	direct
+NZ_OW849141.1	NZ_OW849141.1	2247397649	SAMEA7962811	615	Serratia marcescens isolate 0 plasmid P2, complete sequence	direct
+NZ_OW849155.1	NZ_OW849155.1	2573184327	SAMEA7962736	615	Serratia marcescens isolate 0 chromosome main, complete sequence	direct
+NZ_OW849156.1	NZ_OW849156.1	2246673327	SAMEA7962736	615	Serratia marcescens isolate 0 plasmid P1, complete sequence	direct
+NZ_OW849157.1	NZ_OW849157.1	2247397641	SAMEA7962736	615	Serratia marcescens isolate 0 plasmid P2, complete sequence	direct
+NZ_OW849158.1	NZ_OW849158.1	2247397657	SAMEA7962736	615	Serratia marcescens isolate 0 plasmid P3, complete sequence	direct
+NZ_OW849159.1	NZ_OW849159.1	2247397551	SAMEA7962736	615	Serratia marcescens isolate 0 plasmid P4, complete sequence	direct
+NZ_OW849160.1	NZ_OW849160.1	2247397653	SAMEA7962736	615	Serratia marcescens isolate 0 plasmid P5, complete sequence	direct
+NZ_OW849161.1	NZ_OW849161.1	2247397652	SAMEA7962736	615	Serratia marcescens isolate 0 plasmid P6, complete sequence	direct
+NZ_OW849491.1	NZ_OW849491.1	2573186477	SAMEA7962735	615	Serratia marcescens isolate 0 chromosome main, complete sequence	direct
+NZ_OW849492.1	NZ_OW849492.1	2246706633	SAMEA7962735	615	Serratia marcescens isolate 0 plasmid P1, complete sequence	direct
+NZ_OW849493.1	NZ_OW849493.1	2246729459	SAMEA7962735	615	Serratia marcescens isolate 0 plasmid P2, complete sequence	direct
+NZ_OW849494.1	NZ_OW849494.1	2246686039	SAMEA7962735	615	Serratia marcescens isolate 0 plasmid P3, complete sequence	direct
+NZ_OW849495.1	NZ_OW849495.1	2246668338	SAMEA7962735	615	Serratia marcescens isolate 0 plasmid P4, complete sequence	direct
+NZ_OW849496.1	NZ_OW849496.1	2246691289	SAMEA7962735	615	Serratia marcescens isolate 0 plasmid P5, complete sequence	direct
+NZ_OW967830.1	NZ_OW967830.1	2573227097	SAMEA8065730	615	Serratia marcescens isolate 0 chromosome main, complete sequence	direct
+NZ_OW967831.1	NZ_OW967831.1	2573227111	SAMEA8065730	615	Serratia marcescens isolate 0 plasmid P1, complete sequence	direct
+NZ_OW967878.1	NZ_OW967878.1	2573222531	SAMEA8065745	615	Serratia marcescens isolate 0 chromosome main, complete sequence	direct
+NZ_OW967879.1	NZ_OW967879.1	2573222532	SAMEA8065745	615	Serratia marcescens isolate 0 plasmid P1, complete sequence	direct
+NZ_OW967880.1	NZ_OW967880.1	2573222533	SAMEA8065745	615	Serratia marcescens isolate 0 plasmid P2, complete sequence	direct
+NZ_OW967953.1	NZ_OW967953.1	2573227231	SAMEA8065715	615	Serratia marcescens isolate 0 chromosome main, complete sequence	direct
+NZ_OW967954.1	NZ_OW967954.1	2573227242	SAMEA8065715	615	Serratia marcescens isolate 0 plasmid P1, complete sequence	direct
+NZ_OW968016.1	NZ_OW968016.1	2573226839	SAMEA8065742	615	Serratia marcescens isolate 0 chromosome main, complete sequence	direct
+NZ_OW968017.1	NZ_OW968017.1	2573226842	SAMEA8065742	615	Serratia marcescens isolate 0 plasmid P1, complete sequence	direct
+NZ_OX291470.1	NZ_OX291470.1	2573259366	SAMEA13201014	615	Serratia marcescens strain SJC1045 chromosome 1, complete sequence	direct
+NZ_OX291471.1	NZ_OX291471.1	2301459027	SAMEA13201014	615	Serratia marcescens strain SJC1045 plasmid 2, complete sequence	direct
+NZ_OX291472.1	NZ_OX291472.1	2301484473	SAMEA13201014	615	Serratia marcescens strain SJC1045 plasmid 3, complete sequence	direct
+NZ_OX291473.1	NZ_OX291473.1	2301456133	SAMEA13201014	615	Serratia marcescens strain SJC1045 plasmid 4, complete sequence	direct
+NZ_OX291474.1	NZ_OX291474.1	2573186522	SAMEA13201030	615	Serratia marcescens strain SJC1062 chromosome 1, complete sequence	direct
+NZ_OX291475.1	NZ_OX291475.1	2301396791	SAMEA13201030	615	Serratia marcescens strain SJC1062 plasmid 2, complete sequence	direct
+NZ_OX291476.1	NZ_OX291476.1	2301528997	SAMEA13201030	615	Serratia marcescens strain SJC1062 plasmid 3, complete sequence	direct
+NZ_OX291477.1	NZ_OX291477.1	2301454503	SAMEA13201030	615	Serratia marcescens strain SJC1062 plasmid 4, complete sequence	direct
+NZ_OX291478.1	NZ_OX291478.1	2301398180	SAMEA13201030	615	Serratia marcescens strain SJC1062 plasmid 5, complete sequence	direct
+NZ_OX291479.1	NZ_OX291479.1	2301454494	SAMEA13201030	615	Serratia marcescens strain SJC1062 plasmid 6, complete sequence	direct
+NZ_OX291480.1	NZ_OX291480.1	2301454502	SAMEA13201030	615	Serratia marcescens strain SJC1062 plasmid 7, complete sequence	direct
+NZ_OX291528.1	NZ_OX291528.1	2573260472	SAMEA13201022	615	Serratia marcescens strain SJC1054 chromosome 1, complete sequence	direct
+NZ_OX291529.1	NZ_OX291529.1	2301454505	SAMEA13201022	615	Serratia marcescens strain SJC1054 plasmid 2, complete sequence	direct
+NZ_OX291530.1	NZ_OX291530.1	2301454500	SAMEA13201022	615	Serratia marcescens strain SJC1054 plasmid 3, complete sequence	direct
+NZ_OX291531.1	NZ_OX291531.1	2301454491	SAMEA13201022	615	Serratia marcescens strain SJC1054 plasmid 4, complete sequence	direct
+NZ_OX291532.1	NZ_OX291532.1	2573186503	SAMEA13201012	615	Serratia marcescens strain SJC1046 chromosome 1, complete sequence	direct
+NZ_OX291533.1	NZ_OX291533.1	2301396796	SAMEA13201012	615	Serratia marcescens strain SJC1046 plasmid 2, complete sequence	direct
+NZ_OX291534.1	NZ_OX291534.1	2301396759	SAMEA13201012	615	Serratia marcescens strain SJC1046 plasmid 3, complete sequence	direct
+NZ_OX291535.1	NZ_OX291535.1	2301398189	SAMEA13201012	615	Serratia marcescens strain SJC1046 plasmid 4, complete sequence	direct
+NZ_OX291536.1	NZ_OX291536.1	2573257403	SAMEA13201010	615	Serratia marcescens strain SJC1043 chromosome 1, complete sequence	direct
+NZ_OX291537.1	NZ_OX291537.1	2301454488	SAMEA13201010	615	Serratia marcescens strain SJC1043 plasmid 2, complete sequence	direct
+NZ_OX291538.1	NZ_OX291538.1	2301454495	SAMEA13201010	615	Serratia marcescens strain SJC1043 plasmid 3, complete sequence	direct
+NZ_OX291539.1	NZ_OX291539.1	2301454489	SAMEA13201010	615	Serratia marcescens strain SJC1043 plasmid 4, complete sequence	direct
+NZ_OX291586.1	NZ_OX291586.1	2573257080	SAMEA13201015	615	Serratia marcescens strain SJC1048 chromosome 1, complete sequence	direct
+NZ_OX291587.1	NZ_OX291587.1	2301454498	SAMEA13201015	615	Serratia marcescens strain SJC1048 plasmid 2, complete sequence	direct
+NZ_OX291588.1	NZ_OX291588.1	2301398181	SAMEA13201015	615	Serratia marcescens strain SJC1048 plasmid 3, complete sequence	direct
+NZ_OX291589.1	NZ_OX291589.1	2301454492	SAMEA13201015	615	Serratia marcescens strain SJC1048 plasmid 4, complete sequence	direct
+NZ_OX291654.1	NZ_OX291654.1	2573246265	SAMEA13201007	615	Serratia marcescens strain SJC1039 chromosome 1, complete sequence	direct
+NZ_OX291705.1	NZ_OX291705.1	2573195449	SAMEA13201021	615	Serratia marcescens strain SJC1052 chromosome 1, complete sequence	direct
+NZ_OX291706.1	NZ_OX291706.1	2301396054	SAMEA13201021	615	Serratia marcescens strain SJC1052 plasmid 2, complete sequence	direct
+NZ_OX291707.1	NZ_OX291707.1	2301454493	SAMEA13201021	615	Serratia marcescens strain SJC1052 plasmid 3, complete sequence	direct
+NZ_OX291708.1	NZ_OX291708.1	2301454490	SAMEA13201021	615	Serratia marcescens strain SJC1052 plasmid 4, complete sequence	direct
+NZ_OX291724.1	NZ_OX291724.1	2573186773	SAMEA13201026	615	Serratia marcescens strain SJC1058 chromosome 1, complete sequence	direct
+NZ_OX291725.1	NZ_OX291725.1	2301396793	SAMEA13201026	615	Serratia marcescens strain SJC1058 plasmid 2, complete sequence	direct
+NZ_OX291726.1	NZ_OX291726.1	2301396776	SAMEA13201026	615	Serratia marcescens strain SJC1058 plasmid 3, complete sequence	direct
+NZ_OX291727.1	NZ_OX291727.1	2301396732	SAMEA13201026	615	Serratia marcescens strain SJC1058 plasmid 4, complete sequence	direct
+NZ_OX291728.1	NZ_OX291728.1	2301398193	SAMEA13201026	615	Serratia marcescens strain SJC1058 plasmid 5, complete sequence	direct
+NZ_OX291729.1	NZ_OX291729.1	2301398184	SAMEA13201026	615	Serratia marcescens strain SJC1058 plasmid 6, complete sequence	direct
+NZ_OX291746.1	NZ_OX291746.1	2573257186	SAMEA13201019	615	Serratia marcescens strain SJC1051 chromosome 1, complete sequence	direct
+NZ_OX291747.1	NZ_OX291747.1	2301398192	SAMEA13201019	615	Serratia marcescens strain SJC1051 plasmid 2, complete sequence	direct
+NZ_OX291748.1	NZ_OX291748.1	2301396735	SAMEA13201019	615	Serratia marcescens strain SJC1051 plasmid 3, complete sequence	direct
+NZ_OX291749.1	NZ_OX291749.1	2301398190	SAMEA13201019	615	Serratia marcescens strain SJC1051 plasmid 4, complete sequence	direct
+NZ_OX291771.1	NZ_OX291771.1	2573259473	SAMEA13201013	615	Serratia marcescens strain SJC1044 chromosome 1, complete sequence	direct
+NZ_OX291772.1	NZ_OX291772.1	2301398186	SAMEA13201013	615	Serratia marcescens strain SJC1044 plasmid 2, complete sequence	direct
+NZ_OX291773.1	NZ_OX291773.1	2301398188	SAMEA13201013	615	Serratia marcescens strain SJC1044 plasmid 3, complete sequence	direct
+NZ_OX291774.1	NZ_OX291774.1	2301398182	SAMEA13201013	615	Serratia marcescens strain SJC1044 plasmid 4, complete sequence	direct
+NZ_OX291796.1	NZ_OX291796.1	2573259792	SAMEA13201017	615	Serratia marcescens strain SJC1050 chromosome 1, complete sequence	direct
+NZ_OX291797.1	NZ_OX291797.1	2301396775	SAMEA13201017	615	Serratia marcescens strain SJC1050 plasmid 2, complete sequence	direct
+NZ_OX291798.1	NZ_OX291798.1	2301398185	SAMEA13201017	615	Serratia marcescens strain SJC1050 plasmid 3, complete sequence	direct
+NZ_OX291799.1	NZ_OX291799.1	2301396771	SAMEA13201017	615	Serratia marcescens strain SJC1050 plasmid 4, complete sequence	direct
+NZ_OY970406.1	NZ_OY970406.1	2710804438	SAMEA114857254	615	Serratia marcescens isolate SERMG chromosome 1	direct
+NZ_OY970407.1	NZ_OY970407.1	2710804439	SAMEA114857254	615	Serratia marcescens isolate SERMG plasmid 2	direct
+NZ_OY970408.1	NZ_OY970408.1	2710804440	SAMEA114857254	615	Serratia marcescens isolate SERMG plasmid 3	direct
+NZ_OY970409.1	NZ_OY970409.1	2710804441	SAMEA114857254	615	Serratia marcescens isolate SERMG plasmid 4	direct
+NZ_OY970410.1	NZ_OY970410.1	2710806522	SAMEA114857469	615	Serratia marcescens isolate SERG chromosome 1	direct
+NZ_OY970411.1	NZ_OY970411.1	2710806565	SAMEA114857469	615	Serratia marcescens isolate SERG plasmid 2	direct
+NZ_OY970412.1	NZ_OY970412.1	2710806568	SAMEA114857469	615	Serratia marcescens isolate SERG plasmid 3	direct
+OW849111.1	OW849111.1	2241739570	SAMEA7962734	615	Serratia marcescens isolate 0 genome assembly, chromosome: main	direct
+OW849112.1	OW849112.1	2241744228	SAMEA7962734	615	Serratia marcescens isolate 0 genome assembly, plasmid: P1	direct
+OW849113.1	OW849113.1	2241744318	SAMEA7962734	615	Serratia marcescens isolate 0 genome assembly, plasmid: P2	direct
+OW849114.1	OW849114.1	2241744323	SAMEA7962734	615	Serratia marcescens isolate 0 genome assembly, plasmid: P3	direct
+OW849139.1	OW849139.1	2241761295	SAMEA7962811	615	Serratia marcescens isolate 0 genome assembly, chromosome: main	direct
+OW849140.1	OW849140.1	2241765986	SAMEA7962811	615	Serratia marcescens isolate 0 genome assembly, plasmid: P1	direct
+OW849141.1	OW849141.1	2241766055	SAMEA7962811	615	Serratia marcescens isolate 0 genome assembly, plasmid: P2	direct
+OW849155.1	OW849155.1	2241776048	SAMEA7962736	615	Serratia marcescens isolate 0 genome assembly, chromosome: main	direct
+OW849156.1	OW849156.1	2241781019	SAMEA7962736	615	Serratia marcescens isolate 0 genome assembly, plasmid: P1	direct
+OW849157.1	OW849157.1	2241781109	SAMEA7962736	615	Serratia marcescens isolate 0 genome assembly, plasmid: P2	direct
+OW849158.1	OW849158.1	2241781134	SAMEA7962736	615	Serratia marcescens isolate 0 genome assembly, plasmid: P3	direct
+OW849159.1	OW849159.1	2241781148	SAMEA7962736	615	Serratia marcescens isolate 0 genome assembly, plasmid: P4	direct
+OW849160.1	OW849160.1	2241781154	SAMEA7962736	615	Serratia marcescens isolate 0 genome assembly, plasmid: P5	direct
+OW849161.1	OW849161.1	2241781156	SAMEA7962736	615	Serratia marcescens isolate 0 genome assembly, plasmid: P6	direct
+OW849491.1	OW849491.1	2242245534	SAMEA7962735	615	Serratia marcescens isolate 0 genome assembly, chromosome: main	direct
+OW849492.1	OW849492.1	2242250573	SAMEA7962735	615	Serratia marcescens isolate 0 genome assembly, plasmid: P1	direct
+OW849493.1	OW849493.1	2242250790	SAMEA7962735	615	Serratia marcescens isolate 0 genome assembly, plasmid: P2	direct
+OW849494.1	OW849494.1	2242250889	SAMEA7962735	615	Serratia marcescens isolate 0 genome assembly, plasmid: P3	direct
+OW849495.1	OW849495.1	2242250903	SAMEA7962735	615	Serratia marcescens isolate 0 genome assembly, plasmid: P4	direct
+OW849496.1	OW849496.1	2242250907	SAMEA7962735	615	Serratia marcescens isolate 0 genome assembly, plasmid: P5	direct
+OW967830.1	OW967830.1	2243738092	SAMEA8065730	615	Serratia marcescens isolate 0 genome assembly, chromosome: main	direct
+OW967831.1	OW967831.1	2243742778	SAMEA8065730	615	Serratia marcescens isolate 0 genome assembly, plasmid: P1	direct
+OW967878.1	OW967878.1	2243856366	SAMEA8065745	615	Serratia marcescens isolate 0 genome assembly, chromosome: main	direct
+OW967879.1	OW967879.1	2243861118	SAMEA8065745	615	Serratia marcescens isolate 0 genome assembly, plasmid: P1	direct
+OW967880.1	OW967880.1	2243861201	SAMEA8065745	615	Serratia marcescens isolate 0 genome assembly, plasmid: P2	direct
+OW967953.1	OW967953.1	2243908739	SAMEA8065715	615	Serratia marcescens isolate 0 genome assembly, chromosome: main	direct
+OW967954.1	OW967954.1	2243913347	SAMEA8065715	615	Serratia marcescens isolate 0 genome assembly, plasmid: P1	direct
+OW968016.1	OW968016.1	2243998294	SAMEA8065742	615	Serratia marcescens isolate 0 genome assembly, chromosome: main	direct
+OW968017.1	OW968017.1	2244003106	SAMEA8065742	615	Serratia marcescens isolate 0 genome assembly, plasmid: P1	direct
+OX291470.1	OX291470.1	2290172092	SAMEA13201014	615	Serratia marcescens strain SJC1045 genome assembly, chromosome: 1	direct
+OX291471.1	OX291471.1	2290177048	SAMEA13201014	615	Serratia marcescens strain SJC1045 genome assembly, plasmid: 2	direct
+OX291472.1	OX291472.1	2290177062	SAMEA13201014	615	Serratia marcescens strain SJC1045 genome assembly, plasmid: 3	direct
+OX291473.1	OX291473.1	2290177065	SAMEA13201014	615	Serratia marcescens strain SJC1045 genome assembly, plasmid: 4	direct
+OX291474.1	OX291474.1	2290177092	SAMEA13201030	615	Serratia marcescens strain SJC1062 genome assembly, chromosome: 1	direct
+OX291475.1	OX291475.1	2290182096	SAMEA13201030	615	Serratia marcescens strain SJC1062 genome assembly, plasmid: 2	direct
+OX291476.1	OX291476.1	2290182199	SAMEA13201030	615	Serratia marcescens strain SJC1062 genome assembly, plasmid: 3	direct
+OX291477.1	OX291477.1	2290182214	SAMEA13201030	615	Serratia marcescens strain SJC1062 genome assembly, plasmid: 4	direct
+OX291478.1	OX291478.1	2290182221	SAMEA13201030	615	Serratia marcescens strain SJC1062 genome assembly, plasmid: 5	direct
+OX291479.1	OX291479.1	2290182224	SAMEA13201030	615	Serratia marcescens strain SJC1062 genome assembly, plasmid: 6	direct
+OX291480.1	OX291480.1	2290182230	SAMEA13201030	615	Serratia marcescens strain SJC1062 genome assembly, plasmid: 7	direct
+OX291528.1	OX291528.1	2290187954	SAMEA13201022	615	Serratia marcescens strain SJC1054 genome assembly, chromosome: 1	direct
+OX291529.1	OX291529.1	2290192912	SAMEA13201022	615	Serratia marcescens strain SJC1054 genome assembly, plasmid: 2	direct
+OX291530.1	OX291530.1	2290192927	SAMEA13201022	615	Serratia marcescens strain SJC1054 genome assembly, plasmid: 3	direct
+OX291531.1	OX291531.1	2290192932	SAMEA13201022	615	Serratia marcescens strain SJC1054 genome assembly, plasmid: 4	direct
+OX291532.1	OX291532.1	2290192948	SAMEA13201012	615	Serratia marcescens strain SJC1046 genome assembly, chromosome: 1	direct
+OX291533.1	OX291533.1	2290197949	SAMEA13201012	615	Serratia marcescens strain SJC1046 genome assembly, plasmid: 2	direct
+OX291534.1	OX291534.1	2290198051	SAMEA13201012	615	Serratia marcescens strain SJC1046 genome assembly, plasmid: 3	direct
+OX291535.1	OX291535.1	2290198072	SAMEA13201012	615	Serratia marcescens strain SJC1046 genome assembly, plasmid: 4	direct
+OX291536.1	OX291536.1	2290198100	SAMEA13201010	615	Serratia marcescens strain SJC1043 genome assembly, chromosome: 1	direct
+OX291537.1	OX291537.1	2290203064	SAMEA13201010	615	Serratia marcescens strain SJC1043 genome assembly, plasmid: 2	direct
+OX291538.1	OX291538.1	2290203079	SAMEA13201010	615	Serratia marcescens strain SJC1043 genome assembly, plasmid: 3	direct
+OX291539.1	OX291539.1	2290203083	SAMEA13201010	615	Serratia marcescens strain SJC1043 genome assembly, plasmid: 4	direct
+OX291586.1	OX291586.1	2290203333	SAMEA13201015	615	Serratia marcescens strain SJC1048 genome assembly, chromosome: 1	direct
+OX291587.1	OX291587.1	2290208291	SAMEA13201015	615	Serratia marcescens strain SJC1048 genome assembly, plasmid: 2	direct
+OX291588.1	OX291588.1	2290208306	SAMEA13201015	615	Serratia marcescens strain SJC1048 genome assembly, plasmid: 3	direct
+OX291589.1	OX291589.1	2290208309	SAMEA13201015	615	Serratia marcescens strain SJC1048 genome assembly, plasmid: 4	direct
+OX291654.1	OX291654.1	2290219179	SAMEA13201007	615	Serratia marcescens strain SJC1039 genome assembly, chromosome: 1	direct
+OX291705.1	OX291705.1	2290228884	SAMEA13201021	615	Serratia marcescens strain SJC1052 genome assembly, chromosome: 1	direct
+OX291706.1	OX291706.1	2290233840	SAMEA13201021	615	Serratia marcescens strain SJC1052 genome assembly, plasmid: 2	direct
+OX291707.1	OX291707.1	2290233855	SAMEA13201021	615	Serratia marcescens strain SJC1052 genome assembly, plasmid: 3	direct
+OX291708.1	OX291708.1	2290233860	SAMEA13201021	615	Serratia marcescens strain SJC1052 genome assembly, plasmid: 4	direct
+OX291724.1	OX291724.1	2290233866	SAMEA13201026	615	Serratia marcescens strain SJC1058 genome assembly, chromosome: 1	direct
+OX291725.1	OX291725.1	2290238869	SAMEA13201026	615	Serratia marcescens strain SJC1058 genome assembly, plasmid: 2	direct
+OX291726.1	OX291726.1	2290238971	SAMEA13201026	615	Serratia marcescens strain SJC1058 genome assembly, plasmid: 3	direct
+OX291727.1	OX291727.1	2290238986	SAMEA13201026	615	Serratia marcescens strain SJC1058 genome assembly, plasmid: 4	direct
+OX291728.1	OX291728.1	2290238992	SAMEA13201026	615	Serratia marcescens strain SJC1058 genome assembly, plasmid: 5	direct
+OX291729.1	OX291729.1	2290238997	SAMEA13201026	615	Serratia marcescens strain SJC1058 genome assembly, plasmid: 6	direct
+OX291746.1	OX291746.1	2290239024	SAMEA13201019	615	Serratia marcescens strain SJC1051 genome assembly, chromosome: 1	direct
+OX291747.1	OX291747.1	2290244035	SAMEA13201019	615	Serratia marcescens strain SJC1051 genome assembly, plasmid: 2	direct
+OX291748.1	OX291748.1	2290244050	SAMEA13201019	615	Serratia marcescens strain SJC1051 genome assembly, plasmid: 3	direct
+OX291749.1	OX291749.1	2290244054	SAMEA13201019	615	Serratia marcescens strain SJC1051 genome assembly, plasmid: 4	direct
+OX291771.1	OX291771.1	2290248953	SAMEA13201013	615	Serratia marcescens strain SJC1044 genome assembly, chromosome: 1	direct
+OX291772.1	OX291772.1	2290253908	SAMEA13201013	615	Serratia marcescens strain SJC1044 genome assembly, plasmid: 2	direct
+OX291773.1	OX291773.1	2290253922	SAMEA13201013	615	Serratia marcescens strain SJC1044 genome assembly, plasmid: 3	direct
+OX291774.1	OX291774.1	2290253926	SAMEA13201013	615	Serratia marcescens strain SJC1044 genome assembly, plasmid: 4	direct
+OX291796.1	OX291796.1	2290253939	SAMEA13201017	615	Serratia marcescens strain SJC1050 genome assembly, chromosome: 1	direct
+OX291797.1	OX291797.1	2290258895	SAMEA13201017	615	Serratia marcescens strain SJC1050 genome assembly, plasmid: 2	direct
+OX291798.1	OX291798.1	2290258909	SAMEA13201017	615	Serratia marcescens strain SJC1050 genome assembly, plasmid: 3	direct
+OX291799.1	OX291799.1	2290258913	SAMEA13201017	615	Serratia marcescens strain SJC1050 genome assembly, plasmid: 4	direct
+OY970406.1	OY970406.1	2673076178	SAMEA114857254	615	Serratia marcescens isolate SERMG genome assembly, chromosome: 1	direct
+OY970407.1	OY970407.1	2673080962	SAMEA114857254	615	Serratia marcescens isolate SERMG genome assembly, plasmid: 2	direct
+OY970408.1	OY970408.1	2673081125	SAMEA114857254	615	Serratia marcescens isolate SERMG genome assembly, plasmid: 3	direct
+OY970409.1	OY970409.1	2673081236	SAMEA114857254	615	Serratia marcescens isolate SERMG genome assembly, plasmid: 4	direct
+OY970410.1	OY970410.1	2673081345	SAMEA114857469	615	Serratia marcescens isolate SERG genome assembly, chromosome: 1	direct
+OY970411.1	OY970411.1	2673086129	SAMEA114857469	615	Serratia marcescens isolate SERG genome assembly, plasmid: 2	direct
+OY970412.1	OY970412.1	2673086232	SAMEA114857469	615	Serratia marcescens isolate SERG genome assembly, plasmid: 3	direct
+PEHA00000000.1	PEHA00000000.1	1273505008	SAMN07452560	615	Serratia marcescens strain 12TM, whole genome shotgun sequencing project	direct
+PEHA01000001.1	PEHA01000001.1	1273500234	SAMN07452560	615	Serratia marcescens strain 12TM chromosome, whole genome shotgun sequence	direct
+PEHA01000002.1	PEHA01000002.1	1273500112	SAMN07452560	615	Serratia marcescens strain 12TM plasmid pNDM_12TM, whole genome shotgun sequence	direct
+PEHA01000003.1	PEHA01000003.1	1273500022	SAMN07452560	615	Serratia marcescens strain 12TM plasmid p12TM-94, whole genome shotgun sequence	direct
+CP038662.1	CP038662.1	1610158348	SAMN11312277	458197	Serratia nematodiphila strain DH-S01 chromosome, complete genome	direct
+CP100765.1	CP100765.1	2273380714	SAMN29532703	458197	Serratia nematodiphila strain SASK3000 chromosome, complete genome	direct
+NZ_CP038662.1	NZ_CP038662.1	1614130124	SAMN11312277	458197	Serratia nematodiphila strain DH-S01 chromosome, complete genome	direct
+NZ_CP100765.1	NZ_CP100765.1	2273460624	SAMN29532703	458197	Serratia nematodiphila strain SASK3000 chromosome, complete genome	direct
+CP109739.1	CP109739.1	2514460964	SAMN30974103	2703794	Serratia nevei strain 2017-45-174 chromosome, complete genome	direct
+CP109740.1	CP109740.1	2514466173	SAMN30974103	2703794	Serratia nevei strain 2017-45-174 plasmid p2017-45-174_1, complete sequence	direct
+CP109741.1	CP109741.1	2514466322	SAMN30974103	2703794	Serratia nevei strain 2017-45-174 plasmid p2017-45-174_3, complete sequence	direct
+CP109742.1	CP109742.1	2514466376	SAMN30974103	2703794	Serratia nevei strain 2017-45-174 plasmid p2017-45-174_2, complete sequence	direct
+CP109743.1	CP109743.1	2514466451	SAMN30974103	2703794	Serratia nevei strain 2017-45-174 plasmid p2017-45-174_4, complete sequence	direct
+CP115009.1	CP115009.1	2567085724	SAMN32262097	2703794	Serratia nevei strain CUVET18-1371 chromosome, complete genome	direct
+CP115010.1	CP115010.1	2567090716	SAMN32262097	2703794	Serratia nevei strain CUVET18-1371 plasmid pCUVET18-1371.1, complete sequence	direct
+CP115011.1	CP115011.1	2567090844	SAMN32262097	2703794	Serratia nevei strain CUVET18-1371 plasmid pCUVET18-1371.2, complete sequence	direct
+CP115012.1	CP115012.1	2567090947	SAMN32262097	2703794	Serratia nevei strain CUVET18-1371 plasmid pCUVET18-1371.3, complete sequence	direct
+CP115013.1	CP115013.1	2567091038	SAMN32262097	2703794	Serratia nevei strain CUVET18-1371 plasmid pCUVET18-1371.4, complete sequence	direct
+CP115014.1	CP115014.1	2567091098	SAMN32262097	2703794	Serratia nevei strain CUVET18-1371 plasmid pCUVET18-1371.5, complete sequence	direct
+CP115015.1	CP115015.1	2567091119	SAMN32262098	2703794	Serratia nevei strain CUVET18-1784 chromosome, complete genome	direct
+CP115016.1	CP115016.1	2567096171	SAMN32262098	2703794	Serratia nevei strain CUVET18-1784 plasmid pCUVET18-1784.1, complete sequence	direct
+CP115017.1	CP115017.1	2567096300	SAMN32262098	2703794	Serratia nevei strain CUVET18-1784 plasmid pCUVET18-1784.2, complete sequence	direct
+CP115018.1	CP115018.1	2567096405	SAMN32262098	2703794	Serratia nevei strain CUVET18-1784 plasmid pCUVET18-1784.3, complete sequence	direct
+CP115019.1	CP115019.1	2567096499	SAMN32262098	2703794	Serratia nevei strain CUVET18-1784 plasmid pCUVET18-1784.4, complete sequence	direct
+CP115020.1	CP115020.1	2567096560	SAMN32262098	2703794	Serratia nevei strain CUVET18-1784 plasmid pCUVET18-1784.5, complete sequence	direct
+CP149940.1	CP149940.1	2707219194	SAMN40188831	2703794	Serratia nevei strain LMG 31536 chromosome, complete genome	direct
+CP149941.1	CP149941.1	2707224139	SAMN40188831	2703794	Serratia nevei strain LMG 31536 plasmid pSNEVa, complete sequence	direct
+CP183244.1	CP183244.1	2925722008	SAMN46474952	2703794	Serratia nevei strain GTA-SR10 chromosome, complete genome	direct
+CP183417.1	CP183417.1	2929331616	SAMN46474961	2703794	Serratia nevei strain GTA-SR11 chromosome, complete genome	direct
+CP184875.1	CP184875.1	2953948013	SAMN42382017	2703794	Serratia nevei strain ARGA0009 chromosome, complete genome	direct
+CP184876.1	CP184876.1	2953952938	SAMN42382017	2703794	Serratia nevei strain ARGA0009 plasmid p1, complete sequence	direct
+CP184877.1	CP184877.1	2953953020	SAMN42382016	2703794	Serratia nevei strain ARGA0008 chromosome, complete genome	direct
+CP184878.1	CP184878.1	2953957949	SAMN42382016	2703794	Serratia nevei strain ARGA0008 plasmid p1, complete sequence	direct
+CP186928.1	CP186928.1	3068065871	SAMN47433515	2703794	Serratia nevei strain M10 chromosome, complete genome	direct
+CP186929.1	CP186929.1	3068070727	SAMN47433515	2703794	Serratia nevei strain M10 plasmid pM10-1, complete sequence	direct
+CP186930.1	CP186930.1	3068070862	SAMN47433515	2703794	Serratia nevei strain M10 plasmid pM10-2, complete sequence	direct
+CP196510.1	CP196510.1	3035970072	SAMN48998443	2703794	Serratia nevei strain K-E0300 chromosome, complete genome	direct
+CP196511.1	CP196511.1	3035975041	SAMN48998443	2703794	Serratia nevei strain K-E0300 plasmid pK-E0300_a, complete sequence	direct
+NZ_CP109739.1	NZ_CP109739.1	2515172180	SAMN30974103	2703794	Serratia nevei strain 2017-45-174 chromosome, complete genome	direct
+NZ_CP109740.1	NZ_CP109740.1	2515172325	SAMN30974103	2703794	Serratia nevei strain 2017-45-174 plasmid p2017-45-174_1, complete sequence	direct
+NZ_CP109741.1	NZ_CP109741.1	2515172341	SAMN30974103	2703794	Serratia nevei strain 2017-45-174 plasmid p2017-45-174_3, complete sequence	direct
+NZ_CP109742.1	NZ_CP109742.1	2515172348	SAMN30974103	2703794	Serratia nevei strain 2017-45-174 plasmid p2017-45-174_2, complete sequence	direct
+NZ_CP109743.1	NZ_CP109743.1	2515172360	SAMN30974103	2703794	Serratia nevei strain 2017-45-174 plasmid p2017-45-174_4, complete sequence	direct
+NZ_CP115009.1	NZ_CP115009.1	2569248251	SAMN32262097	2703794	Serratia nevei strain CUVET18-1371 chromosome, complete genome	direct
+NZ_CP115010.1	NZ_CP115010.1	2569248325	SAMN32262097	2703794	Serratia nevei strain CUVET18-1371 plasmid pCUVET18-1371.1, complete sequence	direct
+NZ_CP115011.1	NZ_CP115011.1	2569248334	SAMN32262097	2703794	Serratia nevei strain CUVET18-1371 plasmid pCUVET18-1371.2, complete sequence	direct
+NZ_CP115012.1	NZ_CP115012.1	2569248340	SAMN32262097	2703794	Serratia nevei strain CUVET18-1371 plasmid pCUVET18-1371.3, complete sequence	direct
+NZ_CP115013.1	NZ_CP115013.1	2569248342	SAMN32262097	2703794	Serratia nevei strain CUVET18-1371 plasmid pCUVET18-1371.4, complete sequence	direct
+NZ_CP115014.1	NZ_CP115014.1	2569248343	SAMN32262097	2703794	Serratia nevei strain CUVET18-1371 plasmid pCUVET18-1371.5, complete sequence	direct
+NZ_CP115015.1	NZ_CP115015.1	2569249573	SAMN32262098	2703794	Serratia nevei strain CUVET18-1784 chromosome, complete genome	direct
+NZ_CP115016.1	NZ_CP115016.1	2569249576	SAMN32262098	2703794	Serratia nevei strain CUVET18-1784 plasmid pCUVET18-1784.1, complete sequence	direct
+NZ_CP115017.1	NZ_CP115017.1	2569249577	SAMN32262098	2703794	Serratia nevei strain CUVET18-1784 plasmid pCUVET18-1784.2, complete sequence	direct
+NZ_CP115018.1	NZ_CP115018.1	2569249578	SAMN32262098	2703794	Serratia nevei strain CUVET18-1784 plasmid pCUVET18-1784.3, complete sequence	direct
+NZ_CP115019.1	NZ_CP115019.1	2569249579	SAMN32262098	2703794	Serratia nevei strain CUVET18-1784 plasmid pCUVET18-1784.4, complete sequence	direct
+NZ_CP115020.1	NZ_CP115020.1	2569249580	SAMN32262098	2703794	Serratia nevei strain CUVET18-1784 plasmid pCUVET18-1784.5, complete sequence	direct
+NZ_CP149940.1	NZ_CP149940.1	2711546955	SAMN40188831	2703794	Serratia nevei strain LMG 31536 chromosome, complete genome	direct
+NZ_CP149941.1	NZ_CP149941.1	2711547089	SAMN40188831	2703794	Serratia nevei strain LMG 31536 plasmid pSNEVa, complete sequence	direct
+NZ_CP183244.1	NZ_CP183244.1	2945264229	SAMN46474952	2703794	Serratia nevei strain GTA-SR10 chromosome, complete genome	direct
+NZ_CP183417.1	NZ_CP183417.1	2929773709	SAMN46474961	2703794	Serratia nevei strain GTA-SR11 chromosome, complete genome	direct
+NZ_CP184875.1	NZ_CP184875.1	2954556701	SAMN42382017	2703794	Serratia nevei strain ARGA0009 chromosome, complete genome	direct
+NZ_CP184876.1	NZ_CP184876.1	2954556702	SAMN42382017	2703794	Serratia nevei strain ARGA0009 plasmid p1, complete sequence	direct
+NZ_CP184877.1	NZ_CP184877.1	2954556694	SAMN42382016	2703794	Serratia nevei strain ARGA0008 chromosome, complete genome	direct
+NZ_CP184878.1	NZ_CP184878.1	2954556696	SAMN42382016	2703794	Serratia nevei strain ARGA0008 plasmid p1, complete sequence	direct
+NZ_CP186928.1	NZ_CP186928.1	3069708470	SAMN47433515	2703794	Serratia nevei strain M10 chromosome, complete genome	direct
+NZ_CP186929.1	NZ_CP186929.1	3069708532	SAMN47433515	2703794	Serratia nevei strain M10 plasmid pM10-1, complete sequence	direct
+NZ_CP186930.1	NZ_CP186930.1	3069708544	SAMN47433515	2703794	Serratia nevei strain M10 plasmid pM10-2, complete sequence	direct
+NZ_CP196510.1	NZ_CP196510.1	3036981576	SAMN48998443	2703794	Serratia nevei strain K-E0300 chromosome, complete genome	direct
+NZ_CP196511.1	NZ_CP196511.1	3036981623	SAMN48998443	2703794	Serratia nevei strain K-E0300 plasmid pK-E0300_a, complete sequence	direct
+ARWD00000000.1	ARWD00000000.1	482973116	SAMN02440958	1006598	Serratia plymuthica RVH1, whole genome shotgun sequencing project	direct
+ARWD01000001.1	ARWD01000001.1	482973108	SAMN02440958	1006598	Serratia plymuthica RVH1 C786_chromosome1.1_C, whole genome shotgun sequence	direct
+CP002773.1	CP002773.1	333471455	SAMN00713621	768492	Serratia plymuthica AS9, complete genome	direct
+CP006250.1	CP006250.1	514423830	SAMN02603255	682634	Serratia plymuthica 4Rx13, complete genome	direct
+CP006251.1	CP006251.1	514428473	SAMN02603255	682634	Serratia plymuthica 4Rx13 plasmid p75, complete sequence	direct
+CP006566.1	CP006566.1	521009425	SAMN02603297	1348660	Serratia plymuthica S13, complete genome	direct
+CP012096.1	CP012096.1	1036399822	SAMN03841799	82996	Serratia plymuthica strain 3Rp8, complete genome	direct
+CP012097.1	CP012097.1	1036404777	SAMN03841798	82996	Serratia plymuthica strain 3Re4-18, complete genome	direct
+CP042363.1	CP042363.1	2180059284	SAMN12405229	82996	Serratia plymuthica strain A294 chromosome, complete genome	direct
+CP053398.1	CP053398.1	1843453361	SAMN14852675	82996	Serratia plymuthica strain C-1 chromosome, complete genome	direct
+CP065673.1	CP065673.1	1943192847	SAMN13450437	82996	Serratia plymuthica strain FDAARGOS_907 chromosome, complete genome	direct
+CP065688.1	CP065688.1	1943239017	SAMN13450425	82996	Serratia plymuthica strain FDAARGOS_895 chromosome, complete genome	direct
+CP065699.1	CP065699.1	1943250756	SAMN13450419	82996	Serratia plymuthica strain FDAARGOS_889 chromosome, complete genome	direct
+CP065747.1	CP065747.1	1943217540	SAMN13450426	82996	Serratia plymuthica strain FDAARGOS_896 chromosome, complete genome	direct
+CP068096.1	CP068096.1	1958301970	SAMN16357307	82996	Serratia plymuthica strain FDAARGOS_1138 chromosome, complete genome	direct
+CP068097.1	CP068097.1	1958306901	SAMN16357307	82996	Serratia plymuthica strain FDAARGOS_1138 plasmid unnamed1, complete sequence	direct
+CP068098.1	CP068098.1	1958306911	SAMN16357307	82996	Serratia plymuthica strain FDAARGOS_1138 plasmid unnamed2, complete sequence	direct
+CP068099.1	CP068099.1	1958306913	SAMN16357307	82996	Serratia plymuthica strain FDAARGOS_1138 plasmid unnamed3, complete sequence	direct
+CP068100.1	CP068100.1	1958306919	SAMN16357307	82996	Serratia plymuthica strain FDAARGOS_1138 plasmid unnamed4	direct
+CP068101.1	CP068101.1	1958306922	SAMN16357307	82996	Serratia plymuthica strain FDAARGOS_1138 plasmid unnamed5	direct
+CP068771.1	CP068771.1	2034618892	SAMN17369469	82996	Serratia plymuthica strain UBCF_13 chromosome, complete genome	direct
+CP093323.1	CP093323.1	2210003586	SAMN26520714	82996	Serratia plymuthica strain B37/06 chromosome, complete genome	direct
+CP100764.1	CP100764.1	2273374106	SAMN29532317	82996	Serratia plymuthica strain SASK2000 chromosome, complete genome	direct
+CP185735.1	CP185735.1	2946813630	SAMN47505454	82996	Serratia plymuthica strain G25-16 chromosome, complete genome	direct
+CP185736.1	CP185736.1	2946818568	SAMN47505454	82996	Serratia plymuthica strain G25-16 plasmid unnamed1, complete sequence	direct
+NC_015567.1	NC_015567.1	333929848	SAMN00713621	768492	Serratia plymuthica AS9, complete sequence	direct
+NC_021591.1	NC_021591.1	518646702	SAMN02603255	682634	Serratia plymuthica 4Rx13, complete sequence	direct
+NC_021594.1	NC_021594.1	518658687	SAMN02603255	682634	Serratia plymuthica 4Rx13 plasmid p75, complete sequence	direct
+NC_021659.1	NC_021659.1	521166214	SAMN02603297	1348660	Serratia plymuthica S13, complete sequence	direct
+NZ_ARWD01000001.1	NZ_ARWD01000001.1	498514833	SAMN02440958	1006598	Serratia plymuthica RVH1 chromosome, whole genome shotgun sequence	direct
+NZ_CP012096.1	NZ_CP012096.1	1039436864	SAMN03841799	82996	Serratia plymuthica strain 3Rp8 chromosome, complete genome	direct
+NZ_CP012097.1	NZ_CP012097.1	1039436064	SAMN03841798	82996	Serratia plymuthica strain 3Re4-18 chromosome, complete genome	direct
+NZ_CP042363.1	NZ_CP042363.1	2181205079	SAMN12405229	82996	Serratia plymuthica strain A294 chromosome, complete genome	direct
+NZ_CP053398.1	NZ_CP053398.1	1843980456	SAMN14852675	82996	Serratia plymuthica strain C-1 chromosome, complete genome	direct
+NZ_CP065673.1	NZ_CP065673.1	1944972879	SAMN13450437	82996	Serratia plymuthica strain FDAARGOS_907 chromosome, complete genome	direct
+NZ_CP065688.1	NZ_CP065688.1	1944969343	SAMN13450425	82996	Serratia plymuthica strain FDAARGOS_895 chromosome, complete genome	direct
+NZ_CP065699.1	NZ_CP065699.1	1944964580	SAMN13450419	82996	Serratia plymuthica strain FDAARGOS_889 chromosome, complete genome	direct
+NZ_CP065747.1	NZ_CP065747.1	1945020565	SAMN13450426	82996	Serratia plymuthica strain FDAARGOS_896 chromosome, complete genome	direct
+NZ_CP068096.1	NZ_CP068096.1	1959203856	SAMN16357307	82996	Serratia plymuthica strain FDAARGOS_1138 chromosome, complete genome	direct
+NZ_CP068097.1	NZ_CP068097.1	1959203857	SAMN16357307	82996	Serratia plymuthica strain FDAARGOS_1138 plasmid unnamed1, complete sequence	direct
+NZ_CP068098.1	NZ_CP068098.1	1959203858	SAMN16357307	82996	Serratia plymuthica strain FDAARGOS_1138 plasmid unnamed2, complete sequence	direct
+NZ_CP068099.1	NZ_CP068099.1	1959203859	SAMN16357307	82996	Serratia plymuthica strain FDAARGOS_1138 plasmid unnamed3, complete sequence	direct
+NZ_CP068100.1	NZ_CP068100.1	1959203860	SAMN16357307	82996	Serratia plymuthica strain FDAARGOS_1138 plasmid unnamed4	direct
+NZ_CP068101.1	NZ_CP068101.1	1959203861	SAMN16357307	82996	Serratia plymuthica strain FDAARGOS_1138 plasmid unnamed5	direct
+NZ_CP068771.1	NZ_CP068771.1	2036918421	SAMN17369469	82996	Serratia plymuthica strain UBCF_13 chromosome, complete genome	direct
+NZ_CP093323.1	NZ_CP093323.1	2210487460	SAMN26520714	82996	Serratia plymuthica strain B37/06 chromosome, complete genome	direct
+NZ_CP100764.1	NZ_CP100764.1	2273482048	SAMN29532317	82996	Serratia plymuthica strain SASK2000 chromosome, complete genome	direct
+NZ_CP185735.1	NZ_CP185735.1	2948669281	SAMN47505454	82996	Serratia plymuthica strain G25-16 chromosome, complete genome	direct
+NZ_CP185736.1	NZ_CP185736.1	2948669461	SAMN47505454	82996	Serratia plymuthica strain G25-16 plasmid unnamed1, complete sequence	direct
+NZ_OZ345263.1	NZ_OZ345263.1	3112782878	SAMEA120322943	82996	Serratia plymuthica strain R-91904 isolate R-91904 chromosome 1	direct
+OZ345263.1	OZ345263.1	3082673668	SAMEA120322943	82996	Serratia plymuthica strain R-91904 genome assembly, chromosome: 1	direct
+CP124750.1	CP124750.1	2502000026	SAMN32727621	3020826	Serratia sarumanii strain K-M0706 chromosome, complete genome	direct
+CP124751.1	CP124751.1	2502004695	SAMN32727621	3020826	Serratia sarumanii strain K-M0706 plasmid pKM0706a, complete sequence	direct
+CP124752.1	CP124752.1	2502004781	SAMN32727621	3020826	Serratia sarumanii strain K-M0706 plasmid pKM0706b, complete sequence	direct
+CP124753.1	CP124753.1	2502004789	SAMN32727621	3020826	Serratia sarumanii strain K-M0706 plasmid pKM0706c, complete sequence	direct
+CP142089.1	CP142089.1	2648697926	SAMN39290590	3020826	Serratia sarumanii strain K-M0228 chromosome, complete genome	direct
+CP142090.1	CP142090.1	2648702873	SAMN39290590	3020826	Serratia sarumanii strain K-M0228 plasmid pKM0228a, complete sequence	direct
+CP142091.1	CP142091.1	2648702986	SAMN39290590	3020826	Serratia sarumanii strain K-M0228 plasmid pKM0228b, complete sequence	direct
+CP142092.1	CP142092.1	2648685867	SAMN39290592	3020826	Serratia sarumanii strain K-M0260 chromosome, complete genome	direct
+CP142093.1	CP142093.1	2648690963	SAMN39290592	3020826	Serratia sarumanii strain K-M0260 plasmid pKM0260a, complete sequence	direct
+CP142097.1	CP142097.1	2648731714	SAMN39290591	3020826	Serratia sarumanii strain K-M0252 chromosome, complete genome	direct
+CP142098.1	CP142098.1	2648736437	SAMN39290591	3020826	Serratia sarumanii strain K-M0252 plasmid pKM0252a, complete sequence	direct
+CP191461.1	CP191461.1	2980089128	SAMN48433961	3020826	Serratia sarumanii strain MAS3954 chromosome, complete genome	direct
+CP191462.1	CP191462.1	2980089129	SAMN48433961	3020826	Serratia sarumanii strain MAS3954 plasmid pMAS3954-KPC, complete sequence	direct
+CP191463.1	CP191463.1	2980089130	SAMN48433961	3020826	Serratia sarumanii strain MAS3954 plasmid pMAS3954-NDM, complete sequence	direct
+CP196519.1	CP196519.1	3035980278	SAMN48998446	3020826	Serratia sarumanii strain K-L0044 chromosome, complete genome	direct
+CP196520.1	CP196520.1	3035985036	SAMN48998446	3020826	Serratia sarumanii strain K-L0044 plasmid pK-L0044_a, complete sequence	direct
+CP196529.1	CP196529.1	3035985122	SAMN48998447	3020826	Serratia sarumanii strain K-L0071 chromosome, complete genome	direct
+CP196531.1	CP196531.1	3035994659	SAMN48998448	3020826	Serratia sarumanii strain K-L0107 chromosome, complete genome	direct
+CP196532.1	CP196532.1	3035999334	SAMN48998448	3020826	Serratia sarumanii strain K-L0107 plasmid pK-L0107_a, complete sequence	direct
+CP196533.1	CP196533.1	3035999421	SAMN48998448	3020826	Serratia sarumanii strain K-L0107 plasmid pK-L0107_b, complete sequence	direct
+CP196545.1	CP196545.1	3036003830	SAMN48998451	3020826	Serratia sarumanii strain K-L0373 chromosome, complete genome	direct
+CP196546.1	CP196546.1	3036008587	SAMN48998451	3020826	Serratia sarumanii strain K-L0373 plasmid pK-L0373_a, complete sequence	direct
+NZ_CP124750.1	NZ_CP124750.1	2505085432	SAMN32727621	3020826	Serratia sarumanii strain K-M0706 chromosome, complete genome	direct
+NZ_CP124751.1	NZ_CP124751.1	2505085599	SAMN32727621	3020826	Serratia sarumanii strain K-M0706 plasmid pKM0706a, complete sequence	direct
+NZ_CP124752.1	NZ_CP124752.1	2505085600	SAMN32727621	3020826	Serratia sarumanii strain K-M0706 plasmid pKM0706b, complete sequence	direct
+NZ_CP124753.1	NZ_CP124753.1	2505085601	SAMN32727621	3020826	Serratia sarumanii strain K-M0706 plasmid pKM0706c, complete sequence	direct
+NZ_CP142089.1	NZ_CP142089.1	2650832290	SAMN39290590	3020826	Serratia sarumanii strain K-M0228 chromosome, complete genome	direct
+NZ_CP142090.1	NZ_CP142090.1	2650832351	SAMN39290590	3020826	Serratia sarumanii strain K-M0228 plasmid pKM0228a, complete sequence	direct
+NZ_CP142091.1	NZ_CP142091.1	2650832352	SAMN39290590	3020826	Serratia sarumanii strain K-M0228 plasmid pKM0228b, complete sequence	direct
+NZ_CP142092.1	NZ_CP142092.1	2650831527	SAMN39290592	3020826	Serratia sarumanii strain K-M0260 chromosome, complete genome	direct
+NZ_CP142093.1	NZ_CP142093.1	2650831679	SAMN39290592	3020826	Serratia sarumanii strain K-M0260 plasmid pKM0260a, complete sequence	direct
+NZ_CP142097.1	NZ_CP142097.1	2650845896	SAMN39290591	3020826	Serratia sarumanii strain K-M0252 chromosome, complete genome	direct
+NZ_CP142098.1	NZ_CP142098.1	2650845917	SAMN39290591	3020826	Serratia sarumanii strain K-M0252 plasmid pKM0252a, complete sequence	direct
+NZ_CP191461.1	NZ_CP191461.1	2985478784	SAMN48433961	3020826	Serratia sarumanii strain MAS3954 chromosome, complete genome	direct
+NZ_CP191462.1	NZ_CP191462.1	2985479148	SAMN48433961	3020826	Serratia sarumanii strain MAS3954 plasmid pMAS3954-KPC, complete sequence	direct
+NZ_CP191463.1	NZ_CP191463.1	2985479166	SAMN48433961	3020826	Serratia sarumanii strain MAS3954 plasmid pMAS3954-NDM, complete sequence	direct
+NZ_CP196519.1	NZ_CP196519.1	3036975393	SAMN48998446	3020826	Serratia sarumanii strain K-L0044 chromosome, complete genome	direct
+NZ_CP196520.1	NZ_CP196520.1	3036975394	SAMN48998446	3020826	Serratia sarumanii strain K-L0044 plasmid pK-L0044_a, complete sequence	direct
+NZ_CP196529.1	NZ_CP196529.1	3036988941	SAMN48998447	3020826	Serratia sarumanii strain K-L0071 chromosome, complete genome	direct
+NZ_CP196531.1	NZ_CP196531.1	3036989190	SAMN48998448	3020826	Serratia sarumanii strain K-L0107 chromosome, complete genome	direct
+NZ_CP196532.1	NZ_CP196532.1	3036989228	SAMN48998448	3020826	Serratia sarumanii strain K-L0107 plasmid pK-L0107_a, complete sequence	direct
+NZ_CP196533.1	NZ_CP196533.1	3036989230	SAMN48998448	3020826	Serratia sarumanii strain K-L0107 plasmid pK-L0107_b, complete sequence	direct
+NZ_CP196545.1	NZ_CP196545.1	3036994031	SAMN48998451	3020826	Serratia sarumanii strain K-L0373 chromosome, complete genome	direct
+NZ_CP196546.1	NZ_CP196546.1	3036994065	SAMN48998451	3020826	Serratia sarumanii strain K-L0373 plasmid pK-L0373_a, complete sequence	direct
+CP060276.1	CP060276.1	1896731507	SAMN15735260	300181	Serratia ureilytica strain CC119 chromosome, complete genome	direct
+CP060277.1	CP060277.1	1896736164	SAMN15735260	300181	Serratia ureilytica strain CC119 plasmid pCC119, complete sequence	direct
+CP061077.1	CP061077.1	2895629753	SAMN15953184	300181	Serratia ureilytica strain 3457 chromosome, complete genome	direct
+CP061078.1	CP061078.1	2895634569	SAMN15953183	300181	Serratia ureilytica strain 8927 chromosome, complete genome	direct
+CP068214.1	CP068214.1	1958372075	SAMN16357258	300181	Serratia ureilytica strain FDAARGOS_1089 chromosome, complete genome	direct
+CP070508.1	CP070508.1	2207824107	SAMN16287482	300181	Serratia ureilytica strain AM923 chromosome, complete genome	direct
+CP070509.1	CP070509.1	2207828895	SAMN16287482	300181	Serratia ureilytica strain AM923 plasmid unnamed1, complete sequence	direct
+CP070510.1	CP070510.1	2207828944	SAMN16287482	300181	Serratia ureilytica strain AM923 plasmid unnamed2, complete sequence	direct
+CP071320.1	CP071320.1	1998816064	SAMN18104335	300181	Serratia ureilytica strain T6 chromosome, complete genome	direct
+CP074168.1	CP074168.1	2094582384	SAMN18917001	300181	Serratia ureilytica strain JBIWA004 chromosome, complete genome	direct
+CP074169.1	CP074169.1	2094587073	SAMN18917001	300181	Serratia ureilytica strain JBIWA004 plasmid pJBIWA004_1, complete sequence	direct
+CP076651.1	CP076651.1	2055699552	SAMN19678575	300181	Serratia ureilytica strain S24 chromosome, complete genome	direct
+CP084418.1	CP084418.1	2893318376	SAMN21891815	300181	Serratia ureilytica strain T1 chromosome, complete genome	direct
+CP090028.1	CP090028.1	2174722531	SAMN23644637	300181	Serratia ureilytica strain W051 chromosome, complete genome	direct
+CP091121.1	CP091121.1	2202517555	SAMN23485807	300181	Serratia ureilytica strain CM2016_324 chromosome, complete genome	direct
+CP098030.1	CP098030.1	2284926865	SAMN28689428	300181	Serratia ureilytica strain HNU47 chromosome, complete genome	direct
+CP117886.1	CP117886.1	2446152328	SAMN33238824	300181	Serratia ureilytica strain KML.E1 chromosome, complete genome	direct
+CP166418.1	CP166418.1	2833700417	SAMN42529430	300181	Serratia ureilytica strain C01-A chromosome, complete genome	direct
+CP166419.1	CP166419.1	2833704544	SAMN42529430	300181	Serratia ureilytica strain C01-A plasmid pCYVD1a, complete sequence	direct
+CP166420.1	CP166420.1	2833704761	SAMN42529433	300181	Serratia ureilytica strain CBA1 chromosome, complete genome	direct
+CP166421.1	CP166421.1	2833709087	SAMN42529433	300181	Serratia ureilytica strain CBA1 plasmid pCYVD1c, complete sequence	direct
+CP166422.1	CP166422.1	2833709144	SAMN42529433	300181	Serratia ureilytica strain CBA1 plasmid pCBA1_2, complete sequence	direct
+CP166423.1	CP166423.1	2833709292	SAMN42529431	300181	Serratia ureilytica strain S07 chromosome, complete genome	direct
+CP166424.1	CP166424.1	2833713492	SAMN42529431	300181	Serratia ureilytica strain S07 plasmid pCYVD1b, complete sequence	direct
+CP166425.1	CP166425.1	2833713540	SAMN42529434	300181	Serratia ureilytica strain CBD1 chromosome, complete genome	direct
+CP166426.1	CP166426.1	2833717535	SAMN42529434	300181	Serratia ureilytica strain CBD1 plasmid pCYVD1d, complete sequence	direct
+CP166427.1	CP166427.1	2833717591	SAMN42529432	300181	Serratia ureilytica strain Z07 chromosome, complete genome	direct
+CP166428.1	CP166428.1	2833721918	SAMN42529432	300181	Serratia ureilytica strain Z07 plasmid pCYVD1b, complete sequence	direct
+CP184286.1	CP184286.1	2930235961	SAMN47264642	300181	Serratia ureilytica strain E8 chromosome, complete genome	direct
+CP196503.1	CP196503.1	3035955786	SAMN48998441	300181	Serratia ureilytica strain K-E0079 chromosome, complete genome	direct
+CP196504.1	CP196504.1	3035960501	SAMN48998441	300181	Serratia ureilytica strain K-E0079 plasmid pK-E0079_a, complete sequence	direct
+CP196517.1	CP196517.1	3035965486	SAMN48998445	300181	Serratia ureilytica strain K-L0030 chromosome, complete genome	direct
+CP196940.1	CP196940.1	3040817826	SAMN50224400	300181	Serratia ureilytica strain CD3 chromosome, complete genome	direct
+JBFQYL000000000.1	JBFQYL000000000.1	2779090694	SAMN42021056	300181	Serratia ureilytica strain AOBWEB, whole genome shotgun sequencing project	direct
+NZ_CP060276.1	NZ_CP060276.1	1897135334	SAMN15735260	300181	Serratia ureilytica strain CC119 chromosome, complete genome	direct
+NZ_CP060277.1	NZ_CP060277.1	1897135335	SAMN15735260	300181	Serratia ureilytica strain CC119 plasmid pCC119, complete sequence	direct
+NZ_CP061077.1	NZ_CP061077.1	2897832894	SAMN15953184	300181	Serratia ureilytica strain 3457 chromosome, complete genome	direct
+NZ_CP061078.1	NZ_CP061078.1	2897842320	SAMN15953183	300181	Serratia ureilytica strain 8927 chromosome, complete genome	direct
+NZ_CP068214.1	NZ_CP068214.1	1960219571	SAMN16357258	300181	Serratia ureilytica strain FDAARGOS_1089 chromosome, complete genome	direct
+NZ_CP070508.1	NZ_CP070508.1	2208459638	SAMN16287482	300181	Serratia ureilytica strain AM923 chromosome, complete genome	direct
+NZ_CP070509.1	NZ_CP070509.1	2208459702	SAMN16287482	300181	Serratia ureilytica strain AM923 plasmid unnamed1, complete sequence	direct
+NZ_CP070510.1	NZ_CP070510.1	2208459710	SAMN16287482	300181	Serratia ureilytica strain AM923 plasmid unnamed2, complete sequence	direct
+NZ_CP071320.1	NZ_CP071320.1	2005367264	SAMN18104335	300181	Serratia ureilytica strain T6 chromosome, complete genome	direct
+NZ_CP074168.1	NZ_CP074168.1	2100270596	SAMN18917001	300181	Serratia ureilytica strain JBIWA004 chromosome, complete genome	direct
+NZ_CP074169.1	NZ_CP074169.1	2100270943	SAMN18917001	300181	Serratia ureilytica strain JBIWA004 plasmid pJBIWA004_1, complete sequence	direct
+NZ_CP076651.1	NZ_CP076651.1	2056610333	SAMN19678575	300181	Serratia ureilytica strain S24 chromosome, complete genome	direct
+NZ_CP084418.1	NZ_CP084418.1	2894187250	SAMN21891815	300181	Serratia ureilytica strain T1 chromosome, complete genome	direct
+NZ_CP090028.1	NZ_CP090028.1	2175648402	SAMN23644637	300181	Serratia ureilytica strain W051 chromosome, complete genome	direct
+NZ_CP091121.1	NZ_CP091121.1	2203312495	SAMN23485807	300181	Serratia ureilytica strain CM2016_324 chromosome, complete genome	direct
+NZ_CP098030.1	NZ_CP098030.1	2285392556	SAMN28689428	300181	Serratia ureilytica strain HNU47 chromosome, complete genome	direct
+NZ_CP117886.1	NZ_CP117886.1	2446399620	SAMN33238824	300181	Serratia ureilytica strain KML.E1 chromosome, complete genome	direct
+NZ_CP166418.1	NZ_CP166418.1	2834114074	SAMN42529430	300181	Serratia ureilytica strain C01-A chromosome, complete genome	direct
+NZ_CP166419.1	NZ_CP166419.1	2834114337	SAMN42529430	300181	Serratia ureilytica strain C01-A plasmid pCYVD1a, complete sequence	direct
+NZ_CP166420.1	NZ_CP166420.1	2834210537	SAMN42529433	300181	Serratia ureilytica strain CBA1 chromosome, complete genome	direct
+NZ_CP166421.1	NZ_CP166421.1	2834210680	SAMN42529433	300181	Serratia ureilytica strain CBA1 plasmid pCYVD1c, complete sequence	direct
+NZ_CP166422.1	NZ_CP166422.1	2834210685	SAMN42529433	300181	Serratia ureilytica strain CBA1 plasmid pCBA1_2, complete sequence	direct
+NZ_CP166423.1	NZ_CP166423.1	2834164981	SAMN42529431	300181	Serratia ureilytica strain S07 chromosome, complete genome	direct
+NZ_CP166424.1	NZ_CP166424.1	2834165225	SAMN42529431	300181	Serratia ureilytica strain S07 plasmid pCYVD1b, complete sequence	direct
+NZ_CP166425.1	NZ_CP166425.1	2833799578	SAMN42529434	300181	Serratia ureilytica strain CBD1 chromosome, complete genome	direct
+NZ_CP166426.1	NZ_CP166426.1	2833799583	SAMN42529434	300181	Serratia ureilytica strain CBD1 plasmid pCYVD1d, complete sequence	direct
+NZ_CP166427.1	NZ_CP166427.1	2833954082	SAMN42529432	300181	Serratia ureilytica strain Z07 chromosome, complete genome	direct
+NZ_CP166428.1	NZ_CP166428.1	2833954308	SAMN42529432	300181	Serratia ureilytica strain Z07 plasmid pCYVD1b, complete sequence	direct
+NZ_CP184286.1	NZ_CP184286.1	2931150225	SAMN47264642	300181	Serratia ureilytica strain E8 chromosome, complete genome	direct
+NZ_CP196503.1	NZ_CP196503.1	3036978217	SAMN48998441	300181	Serratia ureilytica strain K-E0079 chromosome, complete genome	direct
+NZ_CP196504.1	NZ_CP196504.1	3036978273	SAMN48998441	300181	Serratia ureilytica strain K-E0079 plasmid pK-E0079_a, complete sequence	direct
+NZ_CP196517.1	NZ_CP196517.1	3036994340	SAMN48998445	300181	Serratia ureilytica strain K-L0030 chromosome, complete genome	direct
+NZ_CP196940.1	NZ_CP196940.1	3042043471	SAMN50224400	300181	Serratia ureilytica strain CD3 chromosome, complete genome	direct
+NZ_JBFQYL010000001.1	NZ_JBFQYL010000001.1	2780264696	SAMN42021056	300181	Serratia ureilytica strain AOBWEB chromosome C1, whole genome shotgun sequence	direct
+NZ_JBFQYL010000002.1	NZ_JBFQYL010000002.1	2780264701	SAMN42021056	300181	Serratia ureilytica strain AOBWEB chromosome C2, whole genome shotgun sequence	direct

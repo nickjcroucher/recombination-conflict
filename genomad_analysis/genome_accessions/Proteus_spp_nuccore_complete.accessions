@@ -1,0 +1,707 @@
+query_accession	resolved_accession	uid	biosample	taxid	title	resolved_from
+AM942759.1	AM942759.1	172046403	SAMEA1705945	529507	Proteus mirabilis strain HI4320, complete genome	direct
+AM942760.1	AM942760.1	172046405	SAMEA1705945	529507	Proteus mirabilis pHI4320 plasmid, complete genome	direct
+AP026827.1	AP026827.1	2307993480	SAMD00396921	584	Proteus mirabilis NUITM-VP1 DNA, complete genome	direct
+AP026828.1	AP026828.1	2307997099	SAMD00396921	584	Proteus mirabilis NUITM-VP1 plasmid pNUITM-VP1_1 DNA, complete sequence	direct
+AP026829.1	AP026829.1	2307997230	SAMD00396921	584	Proteus mirabilis NUITM-VP1 plasmid pNUITM-VP1_2 DNA, complete sequence	direct
+CM127464.1	CM127464.1	3062000668	SAMN50785620	584	Proteus mirabilis strain CRPM4365 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM130014.1	CM130014.1	3101930814	SAMN47788337	584	Proteus mirabilis strain PR01307 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM135756.1	CM135756.1	3136950837	SAMN54218985	584	Proteus mirabilis strain PY25163 chromosome, complete sequence, whole genome shotgun sequence	direct
+CP004022.1	CP004022.1	529186758	SAMN02603303	1266738	Proteus mirabilis BB2000, complete genome	direct
+CP012674.1	CP012674.1	927570490	SAMN03968924	584	Proteus mirabilis strain CYPM1, complete genome	direct
+CP012675.1	CP012675.1	927573617	SAMN03968923	584	Proteus mirabilis strain CYPV1, complete genome	direct
+CP015347.1	CP015347.1	1026616321	SAMN04849770	584	Proteus mirabilis strain AOUC-001, complete genome	direct
+CP017082.1	CP017082.1	1243416837	SAMN05715221	584	Proteus mirabilis strain T21, complete genome	direct
+CP017083.1	CP017083.1	1243420427	SAMN05715221	584	Proteus mirabilis strain T21 plasmid pT211, complete sequence	direct
+CP017084.1	CP017084.1	1243420460	SAMN05715221	584	Proteus mirabilis strain T21 plasmid pT212, complete sequence	direct
+CP017085.1	CP017085.1	1243420662	SAMN05715220	584	Proteus mirabilis strain T18 chromosome, complete genome	direct
+CP017086.1	CP017086.1	1243424293	SAMN05715220	584	Proteus mirabilis strain T18 plasmid pT18, complete sequence	direct
+CP020052.1	CP020052.1	1163014565	SAMN04014900	584	Proteus mirabilis strain AR_0059, complete genome	direct
+CP021550.1	CP021550.1	1202225109	SAMN04015000	584	Proteus mirabilis strain AR_0159, complete genome	direct
+CP021551.1	CP021551.1	1202228857	SAMN04015000	584	Proteus mirabilis strain AR_0159 plasmid tig00000137, complete sequence	direct
+CP021694.1	CP021694.1	1202250041	SAMN04014996	584	Proteus mirabilis strain AR_0155, complete genome	direct
+CP021695.1	CP021695.1	1202253981	SAMN04014996	584	Proteus mirabilis strain AR_0155 plasmid tig00000123, complete sequence	direct
+CP021852.1	CP021852.1	1207882630	SAMN04014997	584	Proteus mirabilis strain AR_0156 chromosome, complete genome	direct
+CP021853.1	CP021853.1	1207886389	SAMN04014997	584	Proteus mirabilis strain AR_0156 plasmid unitig_1, complete sequence	direct
+CP021854.1	CP021854.1	1207886602	SAMN04014997	584	Proteus mirabilis strain AR_0156 plasmid unitig_2, complete sequence	direct
+CP021855.1	CP021855.1	1207886640	SAMN04014997	584	Proteus mirabilis strain AR_0156 plasmid unitig_3, complete sequence	direct
+CP026044.1	CP026044.1	1335803871	SAMN02934509	584	Proteus mirabilis strain FDAARGOS_60 chromosome, complete genome	direct
+CP026051.1	CP026051.1	1343165010	SAMN02934516	584	Proteus mirabilis strain FDAARGOS_67 chromosome, complete genome	direct
+CP026059.1	CP026059.1	1336539885	SAMN02934535	584	Proteus mirabilis strain FDAARGOS_80 chromosome, complete genome	direct
+CP026060.1	CP026060.1	1336543369	SAMN02934535	584	Proteus mirabilis strain FDAARGOS_80 plasmid unnamed1, complete sequence	direct
+CP026061.1	CP026061.1	1336543422	SAMN02934535	584	Proteus mirabilis strain FDAARGOS_80 plasmid unnamed2, complete sequence	direct
+CP026062.1	CP026062.1	1335832072	SAMN02934536	584	Proteus mirabilis strain FDAARGOS_81 chromosome, complete genome	direct
+CP026571.1	CP026571.1	1342047421	SAMN08450188	584	Proteus mirabilis strain BC11-24 chromosome, complete genome	direct
+CP026581.1	CP026581.1	1342412287	SAMN08463802	584	Proteus mirabilis isolate GN2 chromosome, complete genome	direct
+CP029129.1	CP029129.1	1384488434	SAMN07291522	584	Proteus mirabilis strain AR379 plasmid unnamed1, complete sequence	direct
+CP029130.1	CP029130.1	1384488453	SAMN07291522	584	Proteus mirabilis strain AR379 plasmid unnamed2	direct
+CP029131.1	CP029131.1	1384488454	SAMN07291522	584	Proteus mirabilis strain AR379 plasmid unnamed3	direct
+CP029132.1	CP029132.1	1384488455	SAMN07291522	584	Proteus mirabilis strain AR379 plasmid unnamed4	direct
+CP029133.1	CP029133.1	1384488458	SAMN07291522	584	Proteus mirabilis strain AR379 chromosome, complete genome	direct
+CP029134.1	CP029134.1	1384492321	SAMN07291522	584	Proteus mirabilis strain AR379 plasmid unnamed5	direct
+CP029725.1	CP029725.1	1398589823	SAMN04014870	584	Proteus mirabilis strain AR_0029 chromosome, complete genome	direct
+CP029726.1	CP029726.1	1398593284	SAMN04014870	584	Proteus mirabilis strain AR_0029 plasmid unnamed, complete sequence	direct
+CP031846.1	CP031846.1	2304881675	SAMN09908145	584	Proteus mirabilis strain XH983 chromosome, complete genome	direct
+CP031847.1	CP031847.1	2304885362	SAMN09908145	584	Proteus mirabilis strain XH983 plasmid pXH983, complete sequence	direct
+CP034090.1	CP034090.1	1526155897	SAMN10458171	584	Proteus mirabilis strain PmSC1111 chromosome, complete genome	direct
+CP034091.1	CP034091.1	1526148777	SAMN10458127	584	Proteus mirabilis strain PmBC1123 chromosome, complete genome	direct
+CP042857.1	CP042857.1	1817304050	SAMN12558915	584	Proteus mirabilis strain 1701092 chromosome, complete genome	direct
+CP042907.1	CP042907.1	1726950815	SAMN12566310	584	Proteus mirabilis strain VAC chromosome, complete genome	direct
+CP043332.1	CP043332.1	1733056596	SAMN12636071	584	Proteus mirabilis strain CRPM10 chromosome, complete genome	direct
+CP043333.1	CP043333.1	1733060258	SAMN12636071	584	Proteus mirabilis strain CRPM10 plasmid pNDM-5, complete sequence	direct
+CP044028.1	CP044028.1	1750437644	SAMN12770272	584	Proteus mirabilis strain K817 chromosome, complete genome	direct
+CP044136.1	CP044136.1	1777196640	SAMN11567705	584	Proteus mirabilis strain ENT1157 chromosome, complete genome	direct
+CP044436.1	CP044436.1	1968279613	SAMN12859940	584	Proteus mirabilis strain C55 chromosome, complete genome	direct
+CP044437.1	CP044437.1	1968285840	SAMN12859943	584	Proteus mirabilis strain C74 chromosome, complete genome	direct
+CP045255.1	CP045255.1	1854602508	SAMN13037561	584	Proteus mirabilis strain L90-1 plasmid pL902, complete sequence	direct
+CP045256.1	CP045256.1	1854602550	SAMN13037561	584	Proteus mirabilis strain L90-1 plasmid pL901, complete sequence	direct
+CP045257.1	CP045257.1	1854602576	SAMN13037561	584	Proteus mirabilis strain L90-1 chromosome, complete genome	direct
+CP045538.2	CP045538.2	1783175318	SAMN13082492	584	Proteus mirabilis strain CRE14IB chromosome, complete genome	direct
+CP045539.1	CP045539.1	1771296180	SAMN13082492	584	Proteus mirabilis strain CRE14IB plasmid pIB_COL3M, complete sequence	direct
+CP045540.1	CP045540.1	1771296183	SAMN13082492	584	Proteus mirabilis strain CRE14IB plasmid pIB_NDM_1, complete sequence	direct
+CP046048.1	CP046048.1	1859356914	SAMN13254340	584	Proteus mirabilis strain HN2p chromosome HN2p, complete sequence	direct
+CP046049.1	CP046049.1	1996320477	SAMN13254342	584	Proteus mirabilis strain DY.F1.2 chromosome, complete genome	direct
+CP046050.1	CP046050.1	1996323963	SAMN13254342	584	Proteus mirabilis strain DY.F1.2 plasmid pDY.F1.2, complete sequence	direct
+CP047112.1	CP047112.1	1788211015	SAMN13509247	584	Proteus mirabilis strain SCBX1.1 chromosome, complete genome	direct
+CP047113.1	CP047113.1	1788214742	SAMN13509247	584	Proteus mirabilis strain SCBX1.1 plasmid plas1.1.1, complete sequence	direct
+CP047114.1	CP047114.1	1788214757	SAMN13509247	584	Proteus mirabilis strain SCBX1.1 plasmid plas1.1.2, complete sequence	direct
+CP047352.1	CP047352.1	1817365417	SAMN13738061	584	Proteus mirabilis strain ZA25 chromosome, complete genome	direct
+CP047353.1	CP047353.1	1817369035	SAMN13738061	584	Proteus mirabilis strain ZA25 plasmid pZA25-tetX-168kb, complete sequence	direct
+CP047354.1	CP047354.1	1817369238	SAMN13738061	584	Proteus mirabilis strain ZA25 plasmid pZA25-qnrD, complete sequence	direct
+CP047589.1	CP047589.1	2034578693	SAMN13812099	584	Proteus mirabilis strain SNYG35 chromosome, complete genome	direct
+CP047590.1	CP047590.1	2034582182	SAMN13812099	584	Proteus mirabilis strain SNYG35 plasmid pSNYG35, complete sequence	direct
+CP047929.1	CP047929.1	1919245582	SAMN13870809	584	Proteus mirabilis strain ChSC1905 chromosome, complete genome	direct
+CP048404.1	CP048404.1	1808503227	SAMN13936255	584	Proteus mirabilis strain N18-00201 chromosome, complete genome	direct
+CP048692.1	CP048692.1	2075673076	SAMN14074717	584	Proteus mirabilis strain HNS2p chromosome, complete genome	direct
+CP048787.1	CP048787.1	1810666232	SAMN14074148	584	Proteus mirabilis strain CC15031 chromosome, complete genome	direct
+CP049753.1	CP049753.1	1820347048	SAMN12995602	584	Proteus mirabilis strain PmBR607 chromosome, complete genome	direct
+CP049754.1	CP049754.1	1820350584	SAMN12995602	584	Proteus mirabilis strain PmBR607 plasmid unnamed1, complete sequence	direct
+CP049755.1	CP049755.1	1820350595	SAMN12995602	584	Proteus mirabilis strain PmBR607 plasmid unnamed2, complete sequence	direct
+CP049941.1	CP049941.1	1821445272	SAMN14331295	584	Proteus mirabilis strain XH1568 chromosome, complete genome	direct
+CP049942.1	CP049942.1	1821448804	SAMN14331403	584	Proteus mirabilis strain XH1569 chromosome, complete genome	direct
+CP051260.1	CP051260.1	1832598333	SAMN14558572	584	Proteus mirabilis strain STP3 chromosome, complete genome	direct
+CP053614.1	CP053614.1	1858829271	SAMN14896267	584	Proteus mirabilis strain S74-1(++)-2 chromosome, complete genome	direct
+CP053615.1	CP053615.1	1858829195	SAMN14938213	584	Proteus mirabilis strain MPE0734 chromosome, complete genome	direct
+CP053616.1	CP053616.1	1858829194	SAMN14938214	584	Proteus mirabilis strain MPE0767 chromosome, complete genome	direct
+CP053681.1	CP053681.1	1858829217	SAMN14909661	584	Proteus mirabilis strain M3-1-17 chromosome, complete genome	direct
+CP053682.1	CP053682.1	1858829216	SAMN14909848	584	Proteus mirabilis strain MPE0156 chromosome, complete genome	direct
+CP053683.1	CP053683.1	1858829215	SAMN14910118	584	Proteus mirabilis strain MPE0027 chromosome, complete genome	direct
+CP053684.1	CP053684.1	1858829221	SAMN14930506	584	Proteus mirabilis strain MPE5139 chromosome, complete genome	direct
+CP053685.1	CP053685.1	1858829220	SAMN14930855	584	Proteus mirabilis strain MPE5203 chromosome, complete genome	direct
+CP053718.1	CP053718.1	1858829222	SAMN14916645	584	Proteus mirabilis strain MPE4069 chromosome, complete genome	direct
+CP053719.1	CP053719.1	1858829196	SAMN14937971	584	Proteus mirabilis strain MPE0346 chromosome, complete genome	direct
+CP053894.1	CP053894.1	1847968533	SAMN15002270	584	Proteus mirabilis strain JPM24 chromosome, complete genome	direct
+CP053895.1	CP053895.1	1847972015	SAMN15002270	584	Proteus mirabilis strain JPM24 plasmid pJPM24, complete sequence	direct
+CP053898.1	CP053898.1	1847972131	SAMN15002272	584	Proteus mirabilis strain YPM35 chromosome, complete genome	direct
+CP053899.1	CP053899.1	1847975852	SAMN15002272	584	Proteus mirabilis strain YPM35 plasmid pJPM35-1, complete sequence	direct
+CP053900.1	CP053900.1	1847975991	SAMN15002272	584	Proteus mirabilis strain YPM35 plasmid pJPM35-2, complete sequence	direct
+CP053901.1	CP053901.1	1847976032	SAMN15002272	584	Proteus mirabilis strain YPM35 plasmid pJPM35-3, complete sequence	direct
+CP055009.1	CP055009.1	2197781141	SAMN13925540	584	Proteus mirabilis strain STIN_74 chromosome, complete genome	direct
+CP055095.1	CP055095.1	2197915343	SAMN13925601	584	Proteus mirabilis strain SWHIN_109 chromosome, complete genome	direct
+CP062146.1	CP062146.1	1913302613	SAMN15770595	584	Proteus mirabilis strain S012 chromosome, complete genome	direct
+CP063440.1	CP063440.1	1927725094	SAMN16521237	584	Proteus mirabilis strain Yak 2019 chromosome, complete genome	direct
+CP065039.2	CP065039.2	2074143912	SAMN16824307	584	Proteus mirabilis strain XH1653 chromosome, complete genome	direct
+CP065144.1	CP065144.1	1938324818	SAMN16816180	584	Proteus mirabilis strain PmBJ024-1 chromosome, complete genome	direct
+CP065145.1	CP065145.1	1938328229	SAMN16816163	584	Proteus mirabilis strain PmBJ023-2 chromosome, complete genome	direct
+CP065146.1	CP065146.1	1938336737	SAMN16816162	584	Proteus mirabilis strain PmBJ020-1 chromosome, complete genome	direct
+CP065147.1	CP065147.1	1938317985	SAMN16816155	584	Proteus mirabilis strain PmBJ015-2 chromosome, complete genome	direct
+CP065148.1	CP065148.1	1938321402	SAMN16816126	584	Proteus mirabilis strain PmBJ012-2 chromosome, complete genome	direct
+CP066833.1	CP066833.1	2022305611	SAMN17100626	584	Proteus mirabilis strain RGF134-1 chromosome, complete genome	direct
+CP066834.1	CP066834.1	2022309209	SAMN17100626	584	Proteus mirabilis strain RGF134-1 plasmid pRGF134-1-4kb, complete sequence	direct
+CP066835.1	CP066835.1	2022309214	SAMN17100626	584	Proteus mirabilis strain RGF134-1 plasmid pRGF134-1-5kb, complete sequence	direct
+CP068152.1	CP068152.1	1958236570	SAMN16357248	584	Proteus mirabilis strain FDAARGOS_1079 chromosome, complete genome	direct
+CP070569.1	CP070569.1	1993988814	SAMN16933295	584	Proteus mirabilis strain PM52260 chromosome, complete genome	direct
+CP070570.1	CP070570.1	1993992496	SAMN16933295	584	Proteus mirabilis strain PM52260 plasmid p52260_1, complete sequence	direct
+CP070571.1	CP070571.1	1993992545	SAMN16933295	584	Proteus mirabilis strain PM52260 plasmid p52260_KPC, complete sequence	direct
+CP070572.1	CP070572.1	1993992638	SAMN16933297	584	Proteus mirabilis strain PM52808 chromosome, complete genome	direct
+CP070573.1	CP070573.1	1993996318	SAMN16933297	584	Proteus mirabilis strain PM52808 plasmid p52808_1, complete sequence	direct
+CP070574.1	CP070574.1	1993996319	SAMN16933297	584	Proteus mirabilis strain PM52808 plasmid p52808_2, complete sequence	direct
+CP070575.1	CP070575.1	1993996368	SAMN16933297	584	Proteus mirabilis strain PM52808 plasmid p52808_KPC, complete sequence	direct
+CP071773.1	CP071773.1	2264088051	SAMN18275117	584	Proteus mirabilis strain swupm1 chromosome, complete genome	direct
+CP071774.1	CP071774.1	2264091368	SAMN18275117	584	Proteus mirabilis strain swupm1 plasmid pswupm1.1, complete sequence	direct
+CP071775.1	CP071775.1	2264091374	SAMN18275117	584	Proteus mirabilis strain swupm1 plasmid pswupm1.2, complete sequence	direct
+CP071776.1	CP071776.1	2264091377	SAMN18275117	584	Proteus mirabilis strain swupm1 plasmid pswupm1.3, complete sequence	direct
+CP071777.1	CP071777.1	2264091380	SAMN18275150	584	Proteus mirabilis strain swupm2 chromosome, complete genome	direct
+CP071778.1	CP071778.1	2264094696	SAMN18275150	584	Proteus mirabilis strain swupm2 plasmid pswupm2.1, complete sequence	direct
+CP071779.1	CP071779.1	2264094701	SAMN18275150	584	Proteus mirabilis strain swupm2 plasmid pswupm2.2, complete sequence	direct
+CP071780.1	CP071780.1	2264094707	SAMN18275199	584	Proteus mirabilis strain swupm3 chromosome, complete genome	direct
+CP071781.1	CP071781.1	2264098028	SAMN18275199	584	Proteus mirabilis strain swupm3 plasmid pswupm3.1, complete sequence	direct
+CP071782.1	CP071782.1	2264098034	SAMN18275199	584	Proteus mirabilis strain swupm3 plasmid pswupm3.2, complete sequence	direct
+CP071783.1	CP071783.1	2264098037	SAMN18275199	584	Proteus mirabilis strain swupm3 plasmid pswupm3.3, complete sequence	direct
+CP072779.1	CP072779.1	2024713269	SAMN18593959	584	Proteus mirabilis strain 1035 chromosome, complete genome	direct
+CP072780.1	CP072780.1	2024716944	SAMN18593959	584	Proteus mirabilis strain 1035 plasmid pPM1035, complete sequence	direct
+CP073245.1	CP073245.1	2029451625	SAMN18781105	584	Proteus mirabilis strain S74-3-2 chromosome, complete genome	direct
+CP073246.1	CP073246.1	2029451621	SAMN18781106	584	Proteus mirabilis strain N639-2X chromosome, complete genome	direct
+CP073247.1	CP073247.1	2029451623	SAMN18781108	584	Proteus mirabilis strain S62-3-2-2 chromosome, complete genome	direct
+CP073248.1	CP073248.1	2029451622	SAMN18781111	584	Proteus mirabilis strain N292 chromosome, complete genome	direct
+CP077963.1	CP077963.1	2065592029	SAMN19608370	584	Proteus mirabilis strain 6Pmi283 chromosome, complete genome	direct
+CP077964.1	CP077964.1	2065595550	SAMN19608370	584	Proteus mirabilis strain 6Pmi283 plasmid p6Pmi283-NDM, complete sequence	direct
+CP077965.1	CP077965.1	2065595773	SAMN19608370	584	Proteus mirabilis strain 6Pmi283 plasmid p6Pmi283-2, complete sequence	direct
+CP089317.1	CP089317.1	2167779362	SAMN23803107	584	Proteus mirabilis strain PM1162 chromosome, complete genome	direct
+CP089318.1	CP089318.1	2167783157	SAMN23803107	584	Proteus mirabilis strain PM1162 plasmid pPM1162, complete sequence	direct
+CP092652.1	CP092652.1	2202779512	SAMN26106932	584	Proteus mirabilis strain PM8762 chromosome, complete genome	direct
+CP095765.1	CP095765.1	2229942308	SAMN27177301	584	Proteus mirabilis strain T1010 chromosome, complete genome	direct
+CP096775.1	CP096775.1	2234412938	SAMN27518677	584	Proteus mirabilis strain HURS-181823 chromosome, complete genome	direct
+CP096776.1	CP096776.1	2234421068	SAMN27518675	584	Proteus mirabilis strain HURS-186083 chromosome, complete genome	direct
+CP096893.1	CP096893.1	2523007955	SAMN27918893	584	Proteus mirabilis strain 51661 chromosome, complete genome	direct
+CP097803.1	CP097803.1	2877862624	SAMN28159679	584	Proteus mirabilis strain GDPM-P16 chromosome, complete genome	direct
+CP098444.1	CP098444.1	2252122545	SAMN28745244	584	Proteus mirabilis strain FZP3105 chromosome, complete genome	direct
+CP098445.1	CP098445.1	2252126198	SAMN28745244	584	Proteus mirabilis strain FZP3105 plasmid pNDM_FZP3105, complete sequence	direct
+CP098446.1	CP098446.1	2252118268	SAMN28745298	584	Proteus mirabilis strain FZP2826 chromosome, complete genome	direct
+CP098447.1	CP098447.1	2252137324	SAMN28745299	584	Proteus mirabilis strain FZP2936 chromosome, complete genome	direct
+CP098448.1	CP098448.1	2252141087	SAMN28745299	584	Proteus mirabilis strain FZP2936 plasmid p1_FZP2936, complete sequence	direct
+CP098449.1	CP098449.1	2252141149	SAMN28745299	584	Proteus mirabilis strain FZP2936 plasmid pKPC_FZP2936, complete sequence	direct
+CP098450.1	CP098450.1	2252152803	SAMN28745301	584	Proteus mirabilis strain FZP3115 chromosome, complete genome	direct
+CP098451.1	CP098451.1	2252156566	SAMN28745301	584	Proteus mirabilis strain FZP3115 plasmid p1_FZP3115, complete sequence	direct
+CP098452.1	CP098452.1	2252156628	SAMN28745301	584	Proteus mirabilis strain FZP3115 plasmid pKPC_FZP3115, complete sequence	direct
+CP102086.1	CP102086.1	2508596344	SAMN29841163	584	Proteus mirabilis strain MN029 chromosome, complete genome	direct
+CP104986.1	CP104986.1	2310910288	SAMN30912358	584	Proteus mirabilis strain W47 chromosome, complete genome	direct
+CP104987.1	CP104987.1	2310910289	SAMN30912358	584	Proteus mirabilis strain W47 plasmid pW47-1, complete sequence	direct
+CP104988.1	CP104988.1	2310910290	SAMN30912358	584	Proteus mirabilis strain W47 plasmid pW47-2, complete sequence	direct
+CP110371.1	CP110371.1	2325907341	SAMN31527003	584	Proteus mirabilis strain CZP17 chromosome, complete genome	direct
+CP110372.1	CP110372.1	2325916211	SAMN31527195	584	Proteus mirabilis strain CZP44 chromosome, complete genome	direct
+CP110373.1	CP110373.1	2325919776	SAMN31527216	584	Proteus mirabilis strain CZP26 chromosome, complete genome	direct
+CP110374.1	CP110374.1	2325923380	SAMN31527216	584	Proteus mirabilis strain CZP26 plasmid pCZP26-1, complete sequence	direct
+CP110375.1	CP110375.1	2325930790	SAMN31527278	584	Proteus mirabilis strain NYP6 chromosome, complete genome	direct
+CP110376.1	CP110376.1	2325923390	SAMN31527276	584	Proteus mirabilis strain NYP69 chromosome, complete genome	direct
+CP110377.1	CP110377.1	2325927087	SAMN31527305	584	Proteus mirabilis strain NYP73 chromosome, complete genome	direct
+CP110673.1	CP110673.1	2328536950	SAMN31634663	584	Proteus mirabilis strain DP2019 chromosome, complete genome	direct
+CP116223.1	CP116223.1	2473762863	SAMN32686646	584	Proteus mirabilis strain PM1-chromosome chromosome, complete genome	direct
+CP117166.1	CP117166.1	2442596287	SAMN26871936	584	Proteus mirabilis strain 181-3b chromosome, complete genome	direct
+CP118227.1	CP118227.1	2447564125	SAMN33299137	584	Proteus mirabilis strain CY32 chromosome, complete genome	direct
+CP118228.1	CP118228.1	2447567831	SAMN33299137	584	Proteus mirabilis strain CY32 plasmid pCY32-1, complete sequence	direct
+CP118229.1	CP118229.1	2447567841	SAMN33299137	584	Proteus mirabilis strain CY32 plasmid pCY32-2, complete sequence	direct
+CP118635.1	CP118635.1	2870267167	SAMN33388078	584	Proteus mirabilis strain G121 chromosome, complete genome	direct
+CP118636.1	CP118636.1	2870270559	SAMN33388078	584	Proteus mirabilis strain G121 plasmid p1, complete sequence	direct
+CP118637.1	CP118637.1	2870270722	SAMN33388081	584	Proteus mirabilis strain G137 chromosome, complete genome	direct
+CP119297.1	CP119297.1	2457342810	SAMN33575657	584	Proteus mirabilis strain HK294 chromosome, complete genome	direct
+CP122400.1	CP122400.1	2895613602	SAMN34145880	584	Proteus mirabilis strain BL95 chromosome, complete genome	direct
+CP124744.1	CP124744.1	2501863249	SAMN34510058	584	Proteus mirabilis strain WSY-114 chromosome, complete genome	direct
+CP126338.1	CP126338.1	2513813046	SAMN35302129	584	Proteus mirabilis strain W2 chromosome, complete genome	direct
+CP136433.1	CP136433.1	2592817998	SAMN37729294	584	Proteus mirabilis strain PM1 chromosome, complete genome	direct
+CP136434.1	CP136434.1	2592821797	SAMN37729294	584	Proteus mirabilis strain PM1 plasmid pPM1-KPC_25k, complete sequence	direct
+CP137081.1	CP137081.1	2609678215	SAMN37867196	584	Proteus mirabilis strain PM9 chromosome, complete genome	direct
+CP137082.1	CP137082.1	2609681990	SAMN37867196	584	Proteus mirabilis strain PM9 plasmid pPM9-KPC_24k, complete sequence	direct
+CP137083.1	CP137083.1	2609683713	SAMN37867208	584	Proteus mirabilis strain PM11 chromosome, complete genome	direct
+CP137084.1	CP137084.1	2609688846	SAMN37867222	584	Proteus mirabilis strain PM14 plasmid pPM14-3, complete sequence	direct
+CP137085.1	CP137085.1	2609689238	SAMN37867222	584	Proteus mirabilis strain PM14 chromosome, complete genome	direct
+CP137086.1	CP137086.1	2609693001	SAMN37867222	584	Proteus mirabilis strain PM14 plasmid pPM14-2, complete sequence	direct
+CP137087.1	CP137087.1	2609693020	SAMN37867222	584	Proteus mirabilis strain PM14 plasmid pPM14-NDM_123k, complete sequence	direct
+CP137214.1	CP137214.1	2611917573	SAMN37935180	584	Proteus mirabilis strain PM22 chromosome, complete genome	direct
+CP137215.1	CP137215.1	2611921075	SAMN37935180	584	Proteus mirabilis strain PM22 plasmid pPM22-2, complete sequence	direct
+CP137216.1	CP137216.1	2611921090	SAMN37935180	584	Proteus mirabilis strain PM22 plasmid pPM22-NDM_109k, complete sequence	direct
+CP137217.1	CP137217.1	2611927594	SAMN37935183	584	Proteus mirabilis strain PM33 chromosome, complete genome	direct
+CP137218.1	CP137218.1	2611931510	SAMN37935183	584	Proteus mirabilis strain PM33 plasmid pPM33-2, complete sequence	direct
+CP137219.1	CP137219.1	2611931604	SAMN37935183	584	Proteus mirabilis strain PM33 plasmid pPM33-NDM_252k, complete sequence	direct
+CP137220.1	CP137220.1	2611912687	SAMN37935185	584	Proteus mirabilis strain PM23 chromosome, complete genome	direct
+CP137221.1	CP137221.1	2611922565	SAMN37935292	584	Proteus mirabilis strain PM35 chromosome, complete genome	direct
+CP137222.1	CP137222.1	2611926334	SAMN37935292	584	Proteus mirabilis strain PM35 plasmid pPM35-KPC_24k, complete sequence	direct
+CP137223.1	CP137223.1	2611926368	SAMN37935292	584	Proteus mirabilis strain PM35 plasmid pPM35-1, complete sequence	direct
+CP137224.1	CP137224.1	2611954072	SAMN37935302	584	Proteus mirabilis strain PM38 chromosome, complete genome	direct
+CP137225.1	CP137225.1	2611957739	SAMN37935302	584	Proteus mirabilis strain PM38 plasmid pPM38-KPC_25k, complete sequence	direct
+CP137226.1	CP137226.1	2611933178	SAMN37935306	584	Proteus mirabilis strain PM44 chromosome, complete genome	direct
+CP137227.1	CP137227.1	2611936886	SAMN37935306	584	Proteus mirabilis strain PM44 plasmid pPM44-KPC_24k, complete sequence	direct
+CP137228.1	CP137228.1	2611964379	SAMN37935461	584	Proteus mirabilis strain PM54 chromosome, complete genome	direct
+CP137229.1	CP137229.1	2611968331	SAMN37935461	584	Proteus mirabilis strain PM54 plasmid pPM54-2, complete sequence	direct
+CP137230.1	CP137230.1	2611968429	SAMN37935461	584	Proteus mirabilis strain PM54 plasmid pPM54-NDM_252k, complete sequence	direct
+CP137233.1	CP137233.1	2611938329	SAMN37935508	584	Proteus mirabilis strain PM65 chromosome, complete genome	direct
+CP137234.1	CP137234.1	2611941965	SAMN37935508	584	Proteus mirabilis strain PM65 plasmid pPM65-2, complete sequence	direct
+CP137235.1	CP137235.1	2611942097	SAMN37935508	584	Proteus mirabilis strain PM65 plasmid pPM65-NDM_124k, complete sequence	direct
+CP137236.1	CP137236.1	2611959033	SAMN37935521	584	Proteus mirabilis strain PM73 chromosome, complete genome	direct
+CP137237.1	CP137237.1	2611962859	SAMN37935521	584	Proteus mirabilis strain PM73 plasmid pPM73-KPC_48k, complete sequence	direct
+CP137238.1	CP137238.1	2611973188	SAMN37936112	584	Proteus mirabilis strain PM74 chromosome, complete genome	direct
+CP137239.1	CP137239.1	2611976973	SAMN37936112	584	Proteus mirabilis strain PM74 plasmid pPM74-KPC_48k, complete sequence	direct
+CP137333.1	CP137333.1	2614888862	SAMN37919047	584	Proteus mirabilis strain PM15 chromosome, complete genome	direct
+CP137334.1	CP137334.1	2614892561	SAMN37919047	584	Proteus mirabilis strain PM15 plasmid pPM15-KPC_24k, complete sequence	direct
+CP137335.1	CP137335.1	2614894031	SAMN37919048	584	Proteus mirabilis strain PM16 chromosome, complete genome	direct
+CP137336.1	CP137336.1	2614897565	SAMN37919048	584	Proteus mirabilis strain PM16 plasmid pPM16-2, complete sequence	direct
+CP137337.1	CP137337.1	2614897570	SAMN37919048	584	Proteus mirabilis strain PM16 plasmid pPM16-1, complete sequence	direct
+CP137736.1	CP137736.1	2618800219	SAMN37935197	584	Proteus mirabilis strain PM32 chromosome, complete genome	direct
+CP138492.1	CP138492.1	2621937827	SAMN37935422	584	Proteus mirabilis strain PM46 chromosome, complete genome	direct
+CP138493.1	CP138493.1	2621941472	SAMN37935422	584	Proteus mirabilis strain PM46 plasmid pPM46-KPC_24k, complete sequence	direct
+CP140127.1	CP140127.1	2889452605	SAMN38736024	584	Proteus mirabilis strain PM1163 chromosome, complete genome	direct
+CP140441.1	CP140441.1	2637542320	SAMN37442925	584	Proteus mirabilis strain 2023CK-01118 chromosome, complete genome	direct
+CP140442.1	CP140442.1	2637545980	SAMN37442925	584	Proteus mirabilis strain 2023CK-01118 plasmid unnamed1, complete sequence	direct
+CP141835.1	CP141835.1	2870179963	SAMN39214373	584	Proteus mirabilis strain KUST-1312 chromosome, complete genome	direct
+CP141836.1	CP141836.1	2870179964	SAMN39214373	584	Proteus mirabilis strain KUST-1312 plasmid pPMKUST1	direct
+CP142374.1	CP142374.1	2652951428	SAMN38739307	584	Proteus mirabilis strain PM230418060 chromosome, complete genome	direct
+CP142376.1	CP142376.1	2652793179	SAMN38736073	584	Proteus mirabilis strain PM1164 chromosome, complete genome	direct
+CP142377.1	CP142377.1	2652796739	SAMN38736073	584	Proteus mirabilis strain PM1164 plasmid pPM1164, complete sequence	direct
+CP143353.1	CP143353.1	2666517904	SAMN38788856	584	Proteus mirabilis strain 2023CK-01567 chromosome, complete genome	direct
+CP143354.1	CP143354.1	2666521448	SAMN38788856	584	Proteus mirabilis strain 2023CK-01567 plasmid unnamed1, complete sequence	direct
+CP144669.1	CP144669.1	2675294430	SAMN39861440	584	Proteus mirabilis strain PM1163 chromosome, complete genome	direct
+CP145479.1	CP145479.1	2687110586	SAMN39972476	584	Proteus mirabilis strain pmi68 chromosome, complete genome	direct
+CP145480.1	CP145480.1	2687114170	SAMN39972476	584	Proteus mirabilis strain pmi68 plasmid pWF3430, complete sequence	direct
+CP146909.1	CP146909.1	2697368512	SAMN40126636	584	Proteus mirabilis strain NXQI.22 chromosome, complete genome	direct
+CP148134.1	CP148134.1	2706416248	SAMN35709918	584	Proteus mirabilis strain P12 chromosome, complete genome	direct
+CP148135.1	CP148135.1	2706419930	SAMN35709918	584	Proteus mirabilis strain P12 plasmid unnamed, complete sequence	direct
+CP148136.1	CP148136.1	2706412349	SAMN35709919	584	Proteus mirabilis strain P13 chromosome, complete genome	direct
+CP148137.1	CP148137.1	2706416175	SAMN35709919	584	Proteus mirabilis strain P13 plasmid unnamed, complete sequence	direct
+CP148138.1	CP148138.1	2716039986	SAMN37689403	584	Proteus mirabilis strain PM-OXA-10 chromosome, complete genome	direct
+CP148139.1	CP148139.1	2716043563	SAMN37689403	584	Proteus mirabilis strain PM-OXA-10 plasmid unnamed, complete sequence	direct
+CP148140.1	CP148140.1	2716032124	SAMN37689402	584	Proteus mirabilis strain PM-OXA-09 chromosome, complete genome	direct
+CP148141.1	CP148141.1	2716035776	SAMN37689402	584	Proteus mirabilis strain PM-OXA-09 plasmid unnamed, complete sequence	direct
+CP148142.1	CP148142.1	2716043721	SAMN37689398	584	Proteus mirabilis strain PM-OXA-05 chromosome, complete genome	direct
+CP148143.1	CP148143.1	2716047314	SAMN37689395	584	Proteus mirabilis strain PM-OXA-02 chromosome, complete genome	direct
+CP151672.1	CP151672.1	2719867576	SAMN37689401	584	Proteus mirabilis strain P8 chromosome, complete genome	direct
+CP151673.1	CP151673.1	2719871337	SAMN37689401	584	Proteus mirabilis strain P8 plasmid pOXA-P8, complete sequence	direct
+CP151674.1	CP151674.1	2719871419	SAMN37689401	584	Proteus mirabilis strain P8 plasmid unnamed, complete sequence	direct
+CP151675.1	CP151675.1	2719871467	SAMN37689401	584	Proteus mirabilis strain P8 plasmid unnamed2, complete sequence	direct
+CP151676.1	CP151676.1	2719871477	SAMN37689396	584	Proteus mirabilis strain P3 chromosome, complete genome	direct
+CP151677.1	CP151677.1	2719875419	SAMN37689396	584	Proteus mirabilis strain P3 plasmid unnamed, complete sequence	direct
+CP151678.1	CP151678.1	2719875470	SAMN37689396	584	Proteus mirabilis strain P3 plasmid unnamed2, complete sequence	direct
+CP152374.1	CP152374.1	2724411337	SAMN40257061	584	Proteus mirabilis strain PM190 chromosome, complete genome	direct
+CP154800.1	CP154800.1	2727998648	SAMN37689400	584	Proteus mirabilis strain PM-OXA-07 chromosome, complete genome	direct
+CP154801.1	CP154801.1	2728002105	SAMN37689399	584	Proteus mirabilis strain PM-OXA-06 chromosome, complete genome	direct
+CP154802.1	CP154802.1	2728005865	SAMN37689394	584	Proteus mirabilis strain PM-OXA-01 chromosome, complete genome	direct
+CP155794.1	CP155794.1	2735032133	SAMN41378189	584	Proteus mirabilis strain Pm5 chromosome, complete genome	direct
+CP159145.1	CP159145.1	2752299568	SAMN41685791	584	Proteus mirabilis strain 10035004-1 chromosome, complete genome	direct
+CP159146.1	CP159146.1	2752303055	SAMN41685792	584	Proteus mirabilis strain 10035004-2 chromosome, complete genome	direct
+CP162022.1	CP162022.1	2777007214	SAMN42505624	584	Proteus mirabilis strain SH-4 chromosome, complete genome	direct
+CP163140.1	CP163140.1	2970777515	SAMN42539196	584	Proteus mirabilis strain A27672 chromosome, complete genome	direct
+CP163157.1	CP163157.1	2970871614	SAMN42539044	584	Proteus mirabilis strain A25355 chromosome, complete genome	direct
+CP166032.1	CP166032.1	2970964673	SAMN42539980	584	Proteus mirabilis strain A31498 chromosome, complete genome	direct
+CP166037.1	CP166037.1	2970956570	SAMN42539949	584	Proteus mirabilis strain A31034 chromosome, complete genome	direct
+CP168002.1	CP168002.1	2793316611	SAMN43067844	584	Proteus mirabilis strain CriePir1633 chromosome, complete genome	direct
+CP169048.1	CP169048.1	2800998790	SAMN43414873	584	Proteus mirabilis strain 20119 chromosome, complete genome	direct
+CP169049.1	CP169049.1	2801002576	SAMN43414873	584	Proteus mirabilis strain 20119 plasmid pC20119, complete sequence	direct
+CP170631.1	CP170631.1	2814736329	SAMN43983397	584	Proteus mirabilis strain PM1 chromosome, complete genome	direct
+CP172235.1	CP172235.1	2844121409	SAMN44468767	584	Proteus mirabilis strain wxy-a1 chromosome, complete genome	direct
+CP177077.1	CP177077.1	2889395233	SAMN17373069	584	Proteus mirabilis strain Survcare401 chromosome, complete genome	direct
+CP177078.1	CP177078.1	2889399004	SAMN17373069	584	Proteus mirabilis strain Survcare401 plasmid p401_1, complete sequence	direct
+CP177079.1	CP177079.1	2889399055	SAMN17373069	584	Proteus mirabilis strain Survcare401 plasmid p401_2, complete sequence	direct
+CP177210.1	CP177210.1	2911118781	SAMN32532993	584	Proteus mirabilis strain 1B-M chromosome, complete genome	direct
+CP181087.1	CP181087.1	2913660803	SAMN46751946	584	Proteus mirabilis strain SH-8 chromosome, complete genome	direct
+CP181088.1	CP181088.1	2913664329	SAMN46751946	584	Proteus mirabilis strain SH-8 plasmid pSH-8, complete sequence	direct
+CP181371.1	CP181371.1	2916350378	SAMN46143986	584	Proteus mirabilis strain COFI-RLBCAU-II chromosome, complete genome	direct
+CP181372.1	CP181372.1	2916353835	SAMN46143986	584	Proteus mirabilis strain COFI-RLBCAU-II plasmid unnamed1, complete sequence	direct
+CP181373.1	CP181373.1	2916353839	SAMN46143986	584	Proteus mirabilis strain COFI-RLBCAU-II plasmid unnamed2, complete sequence	direct
+CP181374.1	CP181374.1	2916353856	SAMN46143986	584	Proteus mirabilis strain COFI-RLBCAU-II plasmid unnamed3, complete sequence	direct
+CP181851.1	CP181851.1	2969923291	SAMN42539098	584	Proteus mirabilis strain A26332 chromosome, complete genome	direct
+CP181852.1	CP181852.1	2969926997	SAMN42539098	584	Proteus mirabilis strain A26332 plasmid p2_A26332, complete sequence	direct
+CP181853.1	CP181853.1	2969927007	SAMN42539098	584	Proteus mirabilis strain A26332 plasmid p1_A26332, complete sequence	direct
+CP185292.1	CP185292.1	2945885211	SAMN47438240	584	Proteus mirabilis strain PR00020 chromosome, complete genome	direct
+CP185293.1	CP185293.1	2945888643	SAMN47438240	584	Proteus mirabilis strain PR00020 plasmid pPR00020, complete sequence	direct
+CP186539.1	CP186539.1	2953864897	SAMN47743198	584	Proteus mirabilis strain PmMTP02JC chromosome, complete genome	direct
+CP187420.1	CP187420.1	2959665414	SAMN47939896	584	Proteus mirabilis strain Larus michahellis chromosome, complete genome	direct
+CP187944.1	CP187944.1	2961796942	SAMN48049884	584	Proteus mirabilis strain PmMTP47SC chromosome, complete genome	direct
+CP189754.1	CP189754.1	2970469130	SAMN48179116	584	Proteus mirabilis strain 42SC chromosome, complete genome	direct
+CP189755.1	CP189755.1	2970476531	SAMN48179135	584	Proteus mirabilis strain 62LC chromosome, complete genome	direct
+CP189756.1	CP189756.1	2970472900	SAMN48179142	584	Proteus mirabilis strain 64DC chromosome, complete genome	direct
+CP189757.1	CP189757.1	2970480347	SAMN48179157	584	Proteus mirabilis strain 73DC chromosome, complete genome	direct
+CP189758.1	CP189758.1	2970483917	SAMN48179273	584	Proteus mirabilis strain 95LC chromosome, complete genome	direct
+CP189768.1	CP189768.1	2970405241	SAMN48176790	584	Proteus mirabilis strain 69NC chromosome, complete genome	direct
+CP189769.1	CP189769.1	2970412427	SAMN48176839	584	Proteus mirabilis strain 82HC chromosome, complete genome	direct
+CP189770.1	CP189770.1	2970408821	SAMN48176840	584	Proteus mirabilis strain 84LC chromosome, complete genome	direct
+CP189771.1	CP189771.1	2970420462	SAMN48177063	584	Proteus mirabilis strain 86HC chromosome, complete genome	direct
+CP189772.1	CP189772.1	2970433535	SAMN48177285	584	Proteus mirabilis strain 89HC chromosome, complete genome	direct
+CP189773.1	CP189773.1	2970429856	SAMN48177315	584	Proteus mirabilis strain 93HC chromosome, complete genome	direct
+CP189777.1	CP189777.1	2970395379	SAMN48175400	584	Proteus mirabilis strain 68DC chromosome, complete genome	direct
+CP191542.1	CP191542.1	2984964606	SAMN47409569	584	Proteus mirabilis strain PM7752 chromosome, complete genome	direct
+CP191543.1	CP191543.1	2984964611	SAMN47409569	584	Proteus mirabilis strain PM7752 plasmid pPM7752-NDM_6k, complete sequence	direct
+CP192503.1	CP192503.1	2988450137	SAMN47409567	584	Proteus mirabilis strain PM1700 chromosome, complete genome	direct
+CP192504.1	CP192504.1	2988450138	SAMN47409567	584	Proteus mirabilis strain PM1700 plasmid pPM1700-NDM_54k, complete sequence	direct
+CP192505.1	CP192505.1	2988453897	SAMN47409568	584	Proteus mirabilis strain PM8086 chromosome, complete genome	direct
+CP192506.1	CP192506.1	2988453898	SAMN47409568	584	Proteus mirabilis strain PM8086 plasmid pPM8086-NDM_156k, complete sequence	direct
+CP196195.1	CP196195.1	3031993709	SAMN49815850	584	Proteus mirabilis strain CRPM6848 chromosome, complete genome	direct
+CP196196.1	CP196196.1	3031993714	SAMN49815850	584	Proteus mirabilis strain CRPM6848 plasmid pPM6848-PER-4, complete sequence	direct
+CP196197.1	CP196197.1	3031993717	SAMN49815850	584	Proteus mirabilis strain CRPM6848 plasmid pPM6848-3, complete sequence	direct
+CP196198.1	CP196198.1	3031993719	SAMN49815850	584	Proteus mirabilis strain CRPM6848 plasmid pPM6848-4, complete sequence	direct
+CP196199.1	CP196199.1	3031993721	SAMN49815850	584	Proteus mirabilis strain CRPM6848 plasmid pPM6848-5, complete sequence	direct
+CP196200.1	CP196200.1	3031993722	SAMN49815850	584	Proteus mirabilis strain CRPM6848 plasmid pPM6848-6, complete sequence	direct
+CP196207.1	CP196207.1	3032911973	SAMN49815849	584	Proteus mirabilis strain CRPM3923 chromosome, complete genome	direct
+CP196208.1	CP196208.1	3032911974	SAMN49815849	584	Proteus mirabilis strain CRPM3923 plasmid pPM3923-PER-4, complete sequence	direct
+CP196209.1	CP196209.1	3032911975	SAMN49815849	584	Proteus mirabilis strain CRPM3923 plasmid pPM3923-3, complete sequence	direct
+CP196210.1	CP196210.1	3032911976	SAMN49815849	584	Proteus mirabilis strain CRPM3923 plasmid pPM3923-4, complete sequence	direct
+JBQTEW000000000.1	JBQTEW000000000.1	3061403910	SAMN50785620	584	Proteus mirabilis strain CRPM4365, whole genome shotgun sequencing project	direct
+JBRZEW000000000.1	JBRZEW000000000.1	3101929711	SAMN47788337	584	Proteus mirabilis strain PR01307, whole genome shotgun sequencing project	direct
+JBTCBO000000000.1	JBTCBO000000000.1	3136950826	SAMN54218985	584	Proteus mirabilis strain PY25163, whole genome shotgun sequencing project	direct
+LR134205.1	LR134205.1	1539531468	SAMEA3222067	584	Proteus mirabilis strain NCTC4199 genome assembly, chromosome: 1	direct
+NC_010554.1	NC_010554.1	197283915	SAMEA1705945	529507	Proteus mirabilis HI4320, complete sequence	direct
+NC_010555.1	NC_010555.1	172055989	SAMEA1705945	529507	Proteus mirabilis HI4320 plasmid pHI4320, complete sequence	direct
+NC_022000.1	NC_022000.1	529235720	SAMN02603303	1266738	Proteus mirabilis BB2000, complete sequence	direct
+NZ_AP026827.1	NZ_AP026827.1	2327402976	SAMD00396921	584	Proteus mirabilis strain NUITM-VP1 chromosome, complete genome	direct
+NZ_AP026828.1	NZ_AP026828.1	2327403073	SAMD00396921	584	Proteus mirabilis strain NUITM-VP1 plasmid pNUITM-VP1_1, complete sequence	direct
+NZ_AP026829.1	NZ_AP026829.1	2327403079	SAMD00396921	584	Proteus mirabilis strain NUITM-VP1 plasmid pNUITM-VP1_2, complete sequence	direct
+NZ_CM127464.1	NZ_CM127464.1	3062726851	SAMN50785620	584	Proteus mirabilis strain CRPM4365 chromosome, whole genome shotgun sequence	direct
+NZ_CM130014.1	NZ_CM130014.1	3111355662	SAMN47788337	584	Proteus mirabilis strain PR01307 chromosome, whole genome shotgun sequence	direct
+NZ_CM135756.1	NZ_CM135756.1	3137092222	SAMN54218985	584	Proteus mirabilis strain PY25163 chromosome, whole genome shotgun sequence	direct
+NZ_CP012674.1	NZ_CP012674.1	928789175	SAMN03968924	584	Proteus mirabilis strain CYPM1 chromosome, complete genome	direct
+NZ_CP012675.1	NZ_CP012675.1	927829596	SAMN03968923	584	Proteus mirabilis strain CYPV1 chromosome, complete genome	direct
+NZ_CP015347.1	NZ_CP015347.1	1027761532	SAMN04849770	584	Proteus mirabilis strain AOUC-001 chromosome, complete genome	direct
+NZ_CP017082.1	NZ_CP017082.1	1243949769	SAMN05715221	584	Proteus mirabilis strain T21 chromosome, complete genome	direct
+NZ_CP017083.1	NZ_CP017083.1	1243949770	SAMN05715221	584	Proteus mirabilis strain T21 plasmid pT211, complete sequence	direct
+NZ_CP017084.1	NZ_CP017084.1	1243949771	SAMN05715221	584	Proteus mirabilis strain T21 plasmid pT212, complete sequence	direct
+NZ_CP017085.1	NZ_CP017085.1	1243964776	SAMN05715220	584	Proteus mirabilis strain T18 chromosome, complete genome	direct
+NZ_CP017086.1	NZ_CP017086.1	1243964777	SAMN05715220	584	Proteus mirabilis strain T18 plasmid pT18, complete sequence	direct
+NZ_CP020052.1	NZ_CP020052.1	1167614098	SAMN04014900	584	Proteus mirabilis strain AR_0059 chromosome, complete genome	direct
+NZ_CP021550.1	NZ_CP021550.1	1205007135	SAMN04015000	584	Proteus mirabilis strain AR_0159 chromosome, complete genome	direct
+NZ_CP021551.1	NZ_CP021551.1	1205007171	SAMN04015000	584	Proteus mirabilis strain AR_0159 plasmid tig00000137, complete sequence	direct
+NZ_CP021694.1	NZ_CP021694.1	1204989037	SAMN04014996	584	Proteus mirabilis strain AR_0155 chromosome, complete genome	direct
+NZ_CP021695.1	NZ_CP021695.1	1204989046	SAMN04014996	584	Proteus mirabilis strain AR_0155 plasmid tig00000123, complete sequence	direct
+NZ_CP021852.1	NZ_CP021852.1	1208944070	SAMN04014997	584	Proteus mirabilis strain AR_0156 chromosome, complete genome	direct
+NZ_CP021853.1	NZ_CP021853.1	1208944071	SAMN04014997	584	Proteus mirabilis strain AR_0156 plasmid unitig_1, complete sequence	direct
+NZ_CP021854.1	NZ_CP021854.1	1208944072	SAMN04014997	584	Proteus mirabilis strain AR_0156 plasmid unitig_2, complete sequence	direct
+NZ_CP021855.1	NZ_CP021855.1	1208944073	SAMN04014997	584	Proteus mirabilis strain AR_0156 plasmid unitig_3, complete sequence	direct
+NZ_CP026044.1	NZ_CP026044.1	1337837733	SAMN02934509	584	Proteus mirabilis strain FDAARGOS_60 chromosome, complete genome	direct
+NZ_CP026051.1	NZ_CP026051.1	1353482028	SAMN02934516	584	Proteus mirabilis strain FDAARGOS_67 chromosome, complete genome	direct
+NZ_CP026059.1	NZ_CP026059.1	1337954223	SAMN02934535	584	Proteus mirabilis strain FDAARGOS_80 chromosome, complete genome	direct
+NZ_CP026060.1	NZ_CP026060.1	1337954224	SAMN02934535	584	Proteus mirabilis strain FDAARGOS_80 plasmid unnamed1, complete sequence	direct
+NZ_CP026061.1	NZ_CP026061.1	1337954225	SAMN02934535	584	Proteus mirabilis strain FDAARGOS_80 plasmid unnamed2, complete sequence	direct
+NZ_CP026062.1	NZ_CP026062.1	1337859645	SAMN02934536	584	Proteus mirabilis strain FDAARGOS_81 chromosome, complete genome	direct
+NZ_CP026571.1	NZ_CP026571.1	1352856808	SAMN08450188	584	Proteus mirabilis strain BC11-24 chromosome, complete genome	direct
+NZ_CP026581.1	NZ_CP026581.1	1352585518	SAMN08463802	584	Proteus mirabilis isolate GN2 chromosome, complete genome	direct
+NZ_CP029129.1	NZ_CP029129.1	1385137679	SAMN07291522	584	Proteus mirabilis strain AR379 plasmid unnamed1, complete sequence	direct
+NZ_CP029130.1	NZ_CP029130.1	1385137680	SAMN07291522	584	Proteus mirabilis strain AR379 plasmid unnamed2	direct
+NZ_CP029131.1	NZ_CP029131.1	1385137681	SAMN07291522	584	Proteus mirabilis strain AR379 plasmid unnamed3	direct
+NZ_CP029132.1	NZ_CP029132.1	1385137682	SAMN07291522	584	Proteus mirabilis strain AR379 plasmid unnamed4	direct
+NZ_CP029133.1	NZ_CP029133.1	1385137683	SAMN07291522	584	Proteus mirabilis strain AR379 chromosome, complete genome	direct
+NZ_CP029134.1	NZ_CP029134.1	1385137684	SAMN07291522	584	Proteus mirabilis strain AR379 plasmid unnamed5	direct
+NZ_CP029725.1	NZ_CP029725.1	1402836880	SAMN04014870	584	Proteus mirabilis strain AR_0029 chromosome, complete genome	direct
+NZ_CP029726.1	NZ_CP029726.1	1402836998	SAMN04014870	584	Proteus mirabilis strain AR_0029 plasmid unnamed, complete sequence	direct
+NZ_CP031846.1	NZ_CP031846.1	2306492617	SAMN09908145	584	Proteus mirabilis strain XH983 chromosome, complete genome	direct
+NZ_CP031847.1	NZ_CP031847.1	2306492660	SAMN09908145	584	Proteus mirabilis strain XH983 plasmid pXH983, complete sequence	direct
+NZ_CP034090.1	NZ_CP034090.1	1527147991	SAMN10458171	584	Proteus mirabilis strain PmSC1111 chromosome, complete genome	direct
+NZ_CP034091.1	NZ_CP034091.1	1527168127	SAMN10458127	584	Proteus mirabilis strain PmBC1123 chromosome, complete genome	direct
+NZ_CP042857.1	NZ_CP042857.1	1818190346	SAMN12558915	584	Proteus mirabilis strain 1701092 chromosome, complete genome	direct
+NZ_CP042907.1	NZ_CP042907.1	1727923632	SAMN12566310	584	Proteus mirabilis strain VAC chromosome, complete genome	direct
+NZ_CP043332.1	NZ_CP043332.1	1740656151	SAMN12636071	584	Proteus mirabilis strain CRPM10 chromosome, complete genome	direct
+NZ_CP043333.1	NZ_CP043333.1	1740656152	SAMN12636071	584	Proteus mirabilis strain CRPM10 plasmid pNDM-5, complete sequence	direct
+NZ_CP044028.1	NZ_CP044028.1	1752471198	SAMN12770272	584	Proteus mirabilis strain K817 chromosome, complete genome	direct
+NZ_CP044136.1	NZ_CP044136.1	1779469712	SAMN11567705	584	Proteus mirabilis strain ENT1157 chromosome, complete genome	direct
+NZ_CP044436.1	NZ_CP044436.1	1969243240	SAMN12859940	584	Proteus mirabilis strain C55 chromosome, complete genome	direct
+NZ_CP044437.1	NZ_CP044437.1	1969257037	SAMN12859943	584	Proteus mirabilis strain C74 chromosome, complete genome	direct
+NZ_CP045255.1	NZ_CP045255.1	1857441361	SAMN13037561	584	Proteus mirabilis strain L90-1 plasmid pL902, complete sequence	direct
+NZ_CP045256.1	NZ_CP045256.1	1857441362	SAMN13037561	584	Proteus mirabilis strain L90-1 plasmid pL901, complete sequence	direct
+NZ_CP045257.1	NZ_CP045257.1	1857441364	SAMN13037561	584	Proteus mirabilis strain L90-1 chromosome, complete genome	direct
+NZ_CP045538.2	NZ_CP045538.2	1817037941	SAMN13082492	584	Proteus mirabilis strain CRE14IB chromosome, complete genome	direct
+NZ_CP045539.1	NZ_CP045539.1	1771772668	SAMN13082492	584	Proteus mirabilis strain CRE14IB plasmid pIB_COL3M, complete sequence	direct
+NZ_CP045540.1	NZ_CP045540.1	1771772685	SAMN13082492	584	Proteus mirabilis strain CRE14IB plasmid pIB_NDM_1, complete sequence	direct
+NZ_CP046048.1	NZ_CP046048.1	1859674578	SAMN13254340	584	Proteus mirabilis strain HN2p chromosome HN2p, complete sequence	direct
+NZ_CP046049.1	NZ_CP046049.1	1997442765	SAMN13254342	584	Proteus mirabilis strain DY.F1.2 chromosome, complete genome	direct
+NZ_CP046050.1	NZ_CP046050.1	1997442886	SAMN13254342	584	Proteus mirabilis strain DY.F1.2 plasmid pDY.F1.2, complete sequence	direct
+NZ_CP047112.1	NZ_CP047112.1	1797826614	SAMN13509247	584	Proteus mirabilis strain SCBX1.1 chromosome, complete genome	direct
+NZ_CP047113.1	NZ_CP047113.1	1797826649	SAMN13509247	584	Proteus mirabilis strain SCBX1.1 plasmid plas1.1.1, complete sequence	direct
+NZ_CP047114.1	NZ_CP047114.1	1797826650	SAMN13509247	584	Proteus mirabilis strain SCBX1.1 plasmid plas1.1.2, complete sequence	direct
+NZ_CP047352.1	NZ_CP047352.1	1818189664	SAMN13738061	584	Proteus mirabilis strain ZA25 chromosome, complete genome	direct
+NZ_CP047353.1	NZ_CP047353.1	1818189665	SAMN13738061	584	Proteus mirabilis strain ZA25 plasmid pZA25-tetX-168kb, complete sequence	direct
+NZ_CP047354.1	NZ_CP047354.1	1818189666	SAMN13738061	584	Proteus mirabilis strain ZA25 plasmid pZA25-qnrD, complete sequence	direct
+NZ_CP047589.1	NZ_CP047589.1	2036921862	SAMN13812099	584	Proteus mirabilis strain SNYG35 chromosome, complete genome	direct
+NZ_CP047590.1	NZ_CP047590.1	2036921866	SAMN13812099	584	Proteus mirabilis strain SNYG35 plasmid pSNYG35, complete sequence	direct
+NZ_CP047929.1	NZ_CP047929.1	1942770093	SAMN13870809	584	Proteus mirabilis strain ChSC1905 chromosome, complete genome	direct
+NZ_CP048404.1	NZ_CP048404.1	1816891373	SAMN13936255	584	Proteus mirabilis strain N18-00201 chromosome, complete genome	direct
+NZ_CP048692.1	NZ_CP048692.1	2076676919	SAMN14074717	584	Proteus mirabilis strain HNS2p chromosome, complete genome	direct
+NZ_CP048787.1	NZ_CP048787.1	1816886070	SAMN14074148	584	Proteus mirabilis strain CC15031 chromosome, complete genome	direct
+NZ_CP049753.1	NZ_CP049753.1	1821061312	SAMN12995602	584	Proteus mirabilis strain PmBR607 chromosome, complete genome	direct
+NZ_CP049754.1	NZ_CP049754.1	1821061313	SAMN12995602	584	Proteus mirabilis strain PmBR607 plasmid unnamed1, complete sequence	direct
+NZ_CP049755.1	NZ_CP049755.1	1821061314	SAMN12995602	584	Proteus mirabilis strain PmBR607 plasmid unnamed2, complete sequence	direct
+NZ_CP049941.1	NZ_CP049941.1	1821971833	SAMN14331295	584	Proteus mirabilis strain XH1568 chromosome, complete genome	direct
+NZ_CP049942.1	NZ_CP049942.1	1821962935	SAMN14331403	584	Proteus mirabilis strain XH1569 chromosome, complete genome	direct
+NZ_CP051260.1	NZ_CP051260.1	1833560619	SAMN14558572	584	Proteus mirabilis strain STP3 chromosome, complete genome	direct
+NZ_CP053614.1	NZ_CP053614.1	1859559883	SAMN14896267	584	Proteus mirabilis strain S74-1(++)-2 chromosome, complete genome	direct
+NZ_CP053615.1	NZ_CP053615.1	1859541547	SAMN14938213	584	Proteus mirabilis strain MPE0734 chromosome, complete genome	direct
+NZ_CP053616.1	NZ_CP053616.1	1859540931	SAMN14938214	584	Proteus mirabilis strain MPE0767 chromosome, complete genome	direct
+NZ_CP053681.1	NZ_CP053681.1	1859536539	SAMN14909661	584	Proteus mirabilis strain M3-1-17 chromosome, complete genome	direct
+NZ_CP053682.1	NZ_CP053682.1	1859536541	SAMN14909848	584	Proteus mirabilis strain MPE0156 chromosome, complete genome	direct
+NZ_CP053683.1	NZ_CP053683.1	1859560418	SAMN14910118	584	Proteus mirabilis strain MPE0027 chromosome, complete genome	direct
+NZ_CP053684.1	NZ_CP053684.1	1859549360	SAMN14930506	584	Proteus mirabilis strain MPE5139 chromosome, complete genome	direct
+NZ_CP053685.1	NZ_CP053685.1	1859540399	SAMN14930855	584	Proteus mirabilis strain MPE5203 chromosome, complete genome	direct
+NZ_CP053718.1	NZ_CP053718.1	1859541409	SAMN14916645	584	Proteus mirabilis strain MPE4069 chromosome, complete genome	direct
+NZ_CP053719.1	NZ_CP053719.1	1859573943	SAMN14937971	584	Proteus mirabilis strain MPE0346 chromosome, complete genome	direct
+NZ_CP053894.1	NZ_CP053894.1	1848795734	SAMN15002270	584	Proteus mirabilis strain JPM24 chromosome, complete genome	direct
+NZ_CP053895.1	NZ_CP053895.1	1848795736	SAMN15002270	584	Proteus mirabilis strain JPM24 plasmid pJPM24, complete sequence	direct
+NZ_CP053898.1	NZ_CP053898.1	1848802928	SAMN15002272	584	Proteus mirabilis strain YPM35 chromosome, complete genome	direct
+NZ_CP053899.1	NZ_CP053899.1	1848802929	SAMN15002272	584	Proteus mirabilis strain YPM35 plasmid pJPM35-1, complete sequence	direct
+NZ_CP053900.1	NZ_CP053900.1	1848802930	SAMN15002272	584	Proteus mirabilis strain YPM35 plasmid pJPM35-2, complete sequence	direct
+NZ_CP053901.1	NZ_CP053901.1	1848802931	SAMN15002272	584	Proteus mirabilis strain YPM35 plasmid pJPM35-3, complete sequence	direct
+NZ_CP055009.1	NZ_CP055009.1	2198947375	SAMN13925540	584	Proteus mirabilis strain STIN_74 chromosome, complete genome	direct
+NZ_CP055095.1	NZ_CP055095.1	2198966651	SAMN13925601	584	Proteus mirabilis strain SWHIN_109 chromosome, complete genome	direct
+NZ_CP062146.1	NZ_CP062146.1	1914210178	SAMN15770595	584	Proteus mirabilis strain S012 chromosome, complete genome	direct
+NZ_CP063440.1	NZ_CP063440.1	1928223710	SAMN16521237	584	Proteus mirabilis strain Yak 2019 chromosome, complete genome	direct
+NZ_CP065039.2	NZ_CP065039.2	2096627317	SAMN16824307	584	Proteus mirabilis strain XH1653 chromosome, complete genome	direct
+NZ_CP065144.1	NZ_CP065144.1	1938384329	SAMN16816180	584	Proteus mirabilis strain PmBJ024-1 chromosome, complete genome	direct
+NZ_CP065145.1	NZ_CP065145.1	1938384919	SAMN16816163	584	Proteus mirabilis strain PmBJ023-2 chromosome, complete genome	direct
+NZ_CP065146.1	NZ_CP065146.1	1938384910	SAMN16816162	584	Proteus mirabilis strain PmBJ020-1 chromosome, complete genome	direct
+NZ_CP065147.1	NZ_CP065147.1	1938384920	SAMN16816155	584	Proteus mirabilis strain PmBJ015-2 chromosome, complete genome	direct
+NZ_CP065148.1	NZ_CP065148.1	1938384913	SAMN16816126	584	Proteus mirabilis strain PmBJ012-2 chromosome, complete genome	direct
+NZ_CP066833.1	NZ_CP066833.1	2099756814	SAMN17100626	584	Proteus mirabilis strain RGF134-1 chromosome, complete genome	direct
+NZ_CP066834.1	NZ_CP066834.1	2099756863	SAMN17100626	584	Proteus mirabilis strain RGF134-1 plasmid pRGF134-1-4kb, complete sequence	direct
+NZ_CP066835.1	NZ_CP066835.1	2099756888	SAMN17100626	584	Proteus mirabilis strain RGF134-1 plasmid pRGF134-1-5kb, complete sequence	direct
+NZ_CP068152.1	NZ_CP068152.1	1959207634	SAMN16357248	584	Proteus mirabilis strain FDAARGOS_1079 chromosome, complete genome	direct
+NZ_CP070569.1	NZ_CP070569.1	1995269374	SAMN16933295	584	Proteus mirabilis strain PM52260 chromosome, complete genome	direct
+NZ_CP070570.1	NZ_CP070570.1	1995269375	SAMN16933295	584	Proteus mirabilis strain PM52260 plasmid p52260_1, complete sequence	direct
+NZ_CP070571.1	NZ_CP070571.1	1995269376	SAMN16933295	584	Proteus mirabilis strain PM52260 plasmid p52260_KPC, complete sequence	direct
+NZ_CP070572.1	NZ_CP070572.1	1995259198	SAMN16933297	584	Proteus mirabilis strain PM52808 chromosome, complete genome	direct
+NZ_CP070573.1	NZ_CP070573.1	1995259199	SAMN16933297	584	Proteus mirabilis strain PM52808 plasmid p52808_1, complete sequence	direct
+NZ_CP070574.1	NZ_CP070574.1	1995259200	SAMN16933297	584	Proteus mirabilis strain PM52808 plasmid p52808_2, complete sequence	direct
+NZ_CP070575.1	NZ_CP070575.1	1995259201	SAMN16933297	584	Proteus mirabilis strain PM52808 plasmid p52808_KPC, complete sequence	direct
+NZ_CP071773.1	NZ_CP071773.1	2265554673	SAMN18275117	584	Proteus mirabilis strain swupm1 chromosome, complete genome	direct
+NZ_CP071774.1	NZ_CP071774.1	2265554810	SAMN18275117	584	Proteus mirabilis strain swupm1 plasmid pswupm1.1, complete sequence	direct
+NZ_CP071775.1	NZ_CP071775.1	2265554812	SAMN18275117	584	Proteus mirabilis strain swupm1 plasmid pswupm1.2, complete sequence	direct
+NZ_CP071776.1	NZ_CP071776.1	2265554814	SAMN18275117	584	Proteus mirabilis strain swupm1 plasmid pswupm1.3, complete sequence	direct
+NZ_CP071777.1	NZ_CP071777.1	2265600238	SAMN18275150	584	Proteus mirabilis strain swupm2 chromosome, complete genome	direct
+NZ_CP071778.1	NZ_CP071778.1	2265600264	SAMN18275150	584	Proteus mirabilis strain swupm2 plasmid pswupm2.1, complete sequence	direct
+NZ_CP071779.1	NZ_CP071779.1	2265600266	SAMN18275150	584	Proteus mirabilis strain swupm2 plasmid pswupm2.2, complete sequence	direct
+NZ_CP071780.1	NZ_CP071780.1	2265573960	SAMN18275199	584	Proteus mirabilis strain swupm3 chromosome, complete genome	direct
+NZ_CP071781.1	NZ_CP071781.1	2265574010	SAMN18275199	584	Proteus mirabilis strain swupm3 plasmid pswupm3.1, complete sequence	direct
+NZ_CP071782.1	NZ_CP071782.1	2265574012	SAMN18275199	584	Proteus mirabilis strain swupm3 plasmid pswupm3.2, complete sequence	direct
+NZ_CP071783.1	NZ_CP071783.1	2265574013	SAMN18275199	584	Proteus mirabilis strain swupm3 plasmid pswupm3.3, complete sequence	direct
+NZ_CP072779.1	NZ_CP072779.1	2025134224	SAMN18593959	584	Proteus mirabilis strain 1035 chromosome, complete genome	direct
+NZ_CP072780.1	NZ_CP072780.1	2025134235	SAMN18593959	584	Proteus mirabilis strain 1035 plasmid pPM1035, complete sequence	direct
+NZ_CP073245.1	NZ_CP073245.1	2035800143	SAMN18781105	584	Proteus mirabilis strain S74-3-2 chromosome, complete genome	direct
+NZ_CP073246.1	NZ_CP073246.1	2035828442	SAMN18781106	584	Proteus mirabilis strain N639-2X chromosome, complete genome	direct
+NZ_CP073247.1	NZ_CP073247.1	2035827310	SAMN18781108	584	Proteus mirabilis strain S62-3-2-2 chromosome, complete genome	direct
+NZ_CP073248.1	NZ_CP073248.1	2035798049	SAMN18781111	584	Proteus mirabilis strain N292 chromosome, complete genome	direct
+NZ_CP077963.1	NZ_CP077963.1	2067693361	SAMN19608370	584	Proteus mirabilis strain 6Pmi283 chromosome, complete genome	direct
+NZ_CP077964.1	NZ_CP077964.1	2067693371	SAMN19608370	584	Proteus mirabilis strain 6Pmi283 plasmid p6Pmi283-NDM, complete sequence	direct
+NZ_CP077965.1	NZ_CP077965.1	2067693373	SAMN19608370	584	Proteus mirabilis strain 6Pmi283 plasmid p6Pmi283-2, complete sequence	direct
+NZ_CP089317.1	NZ_CP089317.1	2168014662	SAMN23803107	584	Proteus mirabilis strain PM1162 chromosome, complete genome	direct
+NZ_CP089318.1	NZ_CP089318.1	2168014663	SAMN23803107	584	Proteus mirabilis strain PM1162 plasmid pPM1162, complete sequence	direct
+NZ_CP092652.1	NZ_CP092652.1	2203319884	SAMN26106932	584	Proteus mirabilis strain PM8762 chromosome, complete genome	direct
+NZ_CP095765.1	NZ_CP095765.1	2230058175	SAMN27177301	584	Proteus mirabilis strain T1010 chromosome, complete genome	direct
+NZ_CP096775.1	NZ_CP096775.1	2236683472	SAMN27518677	584	Proteus mirabilis strain HURS-181823 chromosome, complete genome	direct
+NZ_CP096776.1	NZ_CP096776.1	2236670819	SAMN27518675	584	Proteus mirabilis strain HURS-186083 chromosome, complete genome	direct
+NZ_CP096893.1	NZ_CP096893.1	2524245002	SAMN27918893	584	Proteus mirabilis strain 51661 chromosome, complete genome	direct
+NZ_CP097803.1	NZ_CP097803.1	2880471807	SAMN28159679	584	Proteus mirabilis strain GDPM-P16 chromosome, complete genome	direct
+NZ_CP098444.1	NZ_CP098444.1	2252339775	SAMN28745244	584	Proteus mirabilis strain FZP3105 chromosome, complete genome	direct
+NZ_CP098445.1	NZ_CP098445.1	2252339776	SAMN28745244	584	Proteus mirabilis strain FZP3105 plasmid pNDM_FZP3105, complete sequence	direct
+NZ_CP098446.1	NZ_CP098446.1	2252349308	SAMN28745298	584	Proteus mirabilis strain FZP2826 chromosome, complete genome	direct
+NZ_CP098447.1	NZ_CP098447.1	2252349372	SAMN28745299	584	Proteus mirabilis strain FZP2936 chromosome, complete genome	direct
+NZ_CP098448.1	NZ_CP098448.1	2252349373	SAMN28745299	584	Proteus mirabilis strain FZP2936 plasmid p1_FZP2936, complete sequence	direct
+NZ_CP098449.1	NZ_CP098449.1	2252349374	SAMN28745299	584	Proteus mirabilis strain FZP2936 plasmid pKPC_FZP2936, complete sequence	direct
+NZ_CP098450.1	NZ_CP098450.1	2252344580	SAMN28745301	584	Proteus mirabilis strain FZP3115 chromosome, complete genome	direct
+NZ_CP098451.1	NZ_CP098451.1	2252344581	SAMN28745301	584	Proteus mirabilis strain FZP3115 plasmid p1_FZP3115, complete sequence	direct
+NZ_CP098452.1	NZ_CP098452.1	2252344582	SAMN28745301	584	Proteus mirabilis strain FZP3115 plasmid pKPC_FZP3115, complete sequence	direct
+NZ_CP102086.1	NZ_CP102086.1	2509404776	SAMN29841163	584	Proteus mirabilis strain MN029 chromosome, complete genome	direct
+NZ_CP104986.1	NZ_CP104986.1	2312111040	SAMN30912358	584	Proteus mirabilis strain W47 chromosome, complete genome	direct
+NZ_CP104987.1	NZ_CP104987.1	2312111041	SAMN30912358	584	Proteus mirabilis strain W47 plasmid pW47-1, complete sequence	direct
+NZ_CP104988.1	NZ_CP104988.1	2312111042	SAMN30912358	584	Proteus mirabilis strain W47 plasmid pW47-2, complete sequence	direct
+NZ_CP110371.1	NZ_CP110371.1	2327448514	SAMN31527003	584	Proteus mirabilis strain CZP17 chromosome, complete genome	direct
+NZ_CP110372.1	NZ_CP110372.1	2327492468	SAMN31527195	584	Proteus mirabilis strain CZP44 chromosome, complete genome	direct
+NZ_CP110373.1	NZ_CP110373.1	2327492513	SAMN31527216	584	Proteus mirabilis strain CZP26 chromosome, complete genome	direct
+NZ_CP110374.1	NZ_CP110374.1	2327492514	SAMN31527216	584	Proteus mirabilis strain CZP26 plasmid pCZP26-1, complete sequence	direct
+NZ_CP110375.1	NZ_CP110375.1	2327448595	SAMN31527278	584	Proteus mirabilis strain NYP6 chromosome, complete genome	direct
+NZ_CP110376.1	NZ_CP110376.1	2327504684	SAMN31527276	584	Proteus mirabilis strain NYP69 chromosome, complete genome	direct
+NZ_CP110377.1	NZ_CP110377.1	2327483516	SAMN31527305	584	Proteus mirabilis strain NYP73 chromosome, complete genome	direct
+NZ_CP110673.1	NZ_CP110673.1	2329301065	SAMN31634663	584	Proteus mirabilis strain DP2019 chromosome, complete genome	direct
+NZ_CP116223.1	NZ_CP116223.1	2474204997	SAMN32686646	584	Proteus mirabilis strain PM1-chromosome chromosome, complete genome	direct
+NZ_CP117166.1	NZ_CP117166.1	2444639968	SAMN26871936	584	Proteus mirabilis strain 181-3b chromosome, complete genome	direct
+NZ_CP118227.1	NZ_CP118227.1	2447898726	SAMN33299137	584	Proteus mirabilis strain CY32 chromosome, complete genome	direct
+NZ_CP118228.1	NZ_CP118228.1	2447898863	SAMN33299137	584	Proteus mirabilis strain CY32 plasmid pCY32-1, complete sequence	direct
+NZ_CP118229.1	NZ_CP118229.1	2447898865	SAMN33299137	584	Proteus mirabilis strain CY32 plasmid pCY32-2, complete sequence	direct
+NZ_CP118635.1	NZ_CP118635.1	2871221304	SAMN33388078	584	Proteus mirabilis strain G121 chromosome, complete genome	direct
+NZ_CP118636.1	NZ_CP118636.1	2871221305	SAMN33388078	584	Proteus mirabilis strain G121 plasmid p1, complete sequence	direct
+NZ_CP118637.1	NZ_CP118637.1	2871216137	SAMN33388081	584	Proteus mirabilis strain G137 chromosome, complete genome	direct
+NZ_CP119297.1	NZ_CP119297.1	2459211070	SAMN33575657	584	Proteus mirabilis strain HK294 chromosome, complete genome	direct
+NZ_CP122400.1	NZ_CP122400.1	2897753901	SAMN34145880	584	Proteus mirabilis strain BL95 chromosome, complete genome	direct
+NZ_CP124744.1	NZ_CP124744.1	2505052934	SAMN34510058	584	Proteus mirabilis strain WSY-114 chromosome, complete genome	direct
+NZ_CP126338.1	NZ_CP126338.1	2514894839	SAMN35302129	584	Proteus mirabilis strain W2 chromosome, complete genome	direct
+NZ_CP136433.1	NZ_CP136433.1	2594426995	SAMN37729294	584	Proteus mirabilis strain PM1 chromosome, complete genome	direct
+NZ_CP136434.1	NZ_CP136434.1	2594427048	SAMN37729294	584	Proteus mirabilis strain PM1 plasmid pPM1-KPC_25k, complete sequence	direct
+NZ_CP137081.1	NZ_CP137081.1	2862315158	SAMN37867196	584	Proteus mirabilis strain PM9 chromosome, complete genome	direct
+NZ_CP137082.1	NZ_CP137082.1	2622752915	SAMN37867196	584	Proteus mirabilis strain PM9 plasmid pPM9-KPC_24k, complete sequence	direct
+NZ_CP137083.1	NZ_CP137083.1	2865907330	SAMN37867208	584	Proteus mirabilis strain PM11 chromosome, complete genome	direct
+NZ_CP137084.1	NZ_CP137084.1	2622752800	SAMN37867222	584	Proteus mirabilis strain PM14 plasmid pPM14-3, complete sequence	direct
+NZ_CP137085.1	NZ_CP137085.1	2865905501	SAMN37867222	584	Proteus mirabilis strain PM14 chromosome, complete genome	direct
+NZ_CP137086.1	NZ_CP137086.1	2622752801	SAMN37867222	584	Proteus mirabilis strain PM14 plasmid pPM14-2, complete sequence	direct
+NZ_CP137087.1	NZ_CP137087.1	2622752939	SAMN37867222	584	Proteus mirabilis strain PM14 plasmid pPM14-NDM_123k, complete sequence	direct
+NZ_CP137214.1	NZ_CP137214.1	2614572581	SAMN37935180	584	Proteus mirabilis strain PM22 chromosome, complete genome	direct
+NZ_CP137215.1	NZ_CP137215.1	2614572726	SAMN37935180	584	Proteus mirabilis strain PM22 plasmid pPM22-2, complete sequence	direct
+NZ_CP137216.1	NZ_CP137216.1	2614572744	SAMN37935180	584	Proteus mirabilis strain PM22 plasmid pPM22-NDM_109k, complete sequence	direct
+NZ_CP137217.1	NZ_CP137217.1	2614632745	SAMN37935183	584	Proteus mirabilis strain PM33 chromosome, complete genome	direct
+NZ_CP137218.1	NZ_CP137218.1	2614632868	SAMN37935183	584	Proteus mirabilis strain PM33 plasmid pPM33-2, complete sequence	direct
+NZ_CP137219.1	NZ_CP137219.1	2614632893	SAMN37935183	584	Proteus mirabilis strain PM33 plasmid pPM33-NDM_252k, complete sequence	direct
+NZ_CP137220.1	NZ_CP137220.1	2614682499	SAMN37935185	584	Proteus mirabilis strain PM23 chromosome, complete genome	direct
+NZ_CP137221.1	NZ_CP137221.1	2614550665	SAMN37935292	584	Proteus mirabilis strain PM35 chromosome, complete genome	direct
+NZ_CP137222.1	NZ_CP137222.1	2614550787	SAMN37935292	584	Proteus mirabilis strain PM35 plasmid pPM35-KPC_24k, complete sequence	direct
+NZ_CP137223.1	NZ_CP137223.1	2614550799	SAMN37935292	584	Proteus mirabilis strain PM35 plasmid pPM35-1, complete sequence	direct
+NZ_CP137224.1	NZ_CP137224.1	2614539740	SAMN37935302	584	Proteus mirabilis strain PM38 chromosome, complete genome	direct
+NZ_CP137225.1	NZ_CP137225.1	2614539863	SAMN37935302	584	Proteus mirabilis strain PM38 plasmid pPM38-KPC_25k, complete sequence	direct
+NZ_CP137226.1	NZ_CP137226.1	2614540299	SAMN37935306	584	Proteus mirabilis strain PM44 chromosome, complete genome	direct
+NZ_CP137227.1	NZ_CP137227.1	2614540399	SAMN37935306	584	Proteus mirabilis strain PM44 plasmid pPM44-KPC_24k, complete sequence	direct
+NZ_CP137228.1	NZ_CP137228.1	2614653628	SAMN37935461	584	Proteus mirabilis strain PM54 chromosome, complete genome	direct
+NZ_CP137229.1	NZ_CP137229.1	2614653731	SAMN37935461	584	Proteus mirabilis strain PM54 plasmid pPM54-2, complete sequence	direct
+NZ_CP137230.1	NZ_CP137230.1	2614653754	SAMN37935461	584	Proteus mirabilis strain PM54 plasmid pPM54-NDM_252k, complete sequence	direct
+NZ_CP137233.1	NZ_CP137233.1	2614576105	SAMN37935508	584	Proteus mirabilis strain PM65 chromosome, complete genome	direct
+NZ_CP137234.1	NZ_CP137234.1	2614576235	SAMN37935508	584	Proteus mirabilis strain PM65 plasmid pPM65-2, complete sequence	direct
+NZ_CP137235.1	NZ_CP137235.1	2614576250	SAMN37935508	584	Proteus mirabilis strain PM65 plasmid pPM65-NDM_124k, complete sequence	direct
+NZ_CP137236.1	NZ_CP137236.1	2614669880	SAMN37935521	584	Proteus mirabilis strain PM73 chromosome, complete genome	direct
+NZ_CP137237.1	NZ_CP137237.1	2614669993	SAMN37935521	584	Proteus mirabilis strain PM73 plasmid pPM73-KPC_48k, complete sequence	direct
+NZ_CP137238.1	NZ_CP137238.1	2614551486	SAMN37936112	584	Proteus mirabilis strain PM74 chromosome, complete genome	direct
+NZ_CP137239.1	NZ_CP137239.1	2614551614	SAMN37936112	584	Proteus mirabilis strain PM74 plasmid pPM74-KPC_48k, complete sequence	direct
+NZ_CP137333.1	NZ_CP137333.1	2616060099	SAMN37919047	584	Proteus mirabilis strain PM15 chromosome, complete genome	direct
+NZ_CP137334.1	NZ_CP137334.1	2616060100	SAMN37919047	584	Proteus mirabilis strain PM15 plasmid pPM15-KPC_24k, complete sequence	direct
+NZ_CP137335.1	NZ_CP137335.1	2616199571	SAMN37919048	584	Proteus mirabilis strain PM16 chromosome, complete genome	direct
+NZ_CP137336.1	NZ_CP137336.1	2616199648	SAMN37919048	584	Proteus mirabilis strain PM16 plasmid pPM16-2, complete sequence	direct
+NZ_CP137337.1	NZ_CP137337.1	2616199650	SAMN37919048	584	Proteus mirabilis strain PM16 plasmid pPM16-1, complete sequence	direct
+NZ_CP137736.1	NZ_CP137736.1	2619483232	SAMN37935197	584	Proteus mirabilis strain PM32 chromosome, complete genome	direct
+NZ_CP138492.1	NZ_CP138492.1	2623834568	SAMN37935422	584	Proteus mirabilis strain PM46 chromosome, complete genome	direct
+NZ_CP138493.1	NZ_CP138493.1	2623834570	SAMN37935422	584	Proteus mirabilis strain PM46 plasmid pPM46-KPC_24k, complete sequence	direct
+NZ_CP140127.1	NZ_CP140127.1	2889827970	SAMN38736024	584	Proteus mirabilis strain PM1163 chromosome, complete genome	direct
+NZ_CP140441.1	NZ_CP140441.1	2844111192	SAMN37442925	584	Proteus mirabilis strain 2023CK-01118 chromosome, complete genome	direct
+NZ_CP140442.1	NZ_CP140442.1	2643446599	SAMN37442925	584	Proteus mirabilis strain 2023CK-01118 plasmid unnamed1, complete sequence	direct
+NZ_CP141835.1	NZ_CP141835.1	2871217912	SAMN39214373	584	Proteus mirabilis strain KUST-1312 chromosome, complete genome	direct
+NZ_CP141836.1	NZ_CP141836.1	2871217972	SAMN39214373	584	Proteus mirabilis strain KUST-1312 plasmid pPMKUST1	direct
+NZ_CP142374.1	NZ_CP142374.1	2661059773	SAMN38739307	584	Proteus mirabilis strain PM230418060 chromosome, complete genome	direct
+NZ_CP142376.1	NZ_CP142376.1	2662106871	SAMN38736073	584	Proteus mirabilis strain PM1164 chromosome, complete genome	direct
+NZ_CP142377.1	NZ_CP142377.1	2662106949	SAMN38736073	584	Proteus mirabilis strain PM1164 plasmid pPM1164, complete sequence	direct
+NZ_CP143353.1	NZ_CP143353.1	2708409798	SAMN38788856	584	Proteus mirabilis strain 2023CK-01567 chromosome, complete genome	direct
+NZ_CP143354.1	NZ_CP143354.1	2708409926	SAMN38788856	584	Proteus mirabilis strain 2023CK-01567 plasmid unnamed1, complete sequence	direct
+NZ_CP144669.1	NZ_CP144669.1	2710767454	SAMN39861440	584	Proteus mirabilis strain PM1163 chromosome, complete genome	direct
+NZ_CP145479.1	NZ_CP145479.1	2710952013	SAMN39972476	584	Proteus mirabilis strain pmi68 chromosome, complete genome	direct
+NZ_CP145480.1	NZ_CP145480.1	2710952121	SAMN39972476	584	Proteus mirabilis strain pmi68 plasmid pWF3430, complete sequence	direct
+NZ_CP146909.1	NZ_CP146909.1	2711154022	SAMN40126636	584	Proteus mirabilis strain NXQI.22 chromosome, complete genome	direct
+NZ_CP148134.1	NZ_CP148134.1	2711502828	SAMN35709918	584	Proteus mirabilis strain P12 chromosome, complete genome	direct
+NZ_CP148135.1	NZ_CP148135.1	2711502829	SAMN35709918	584	Proteus mirabilis strain P12 plasmid unnamed, complete sequence	direct
+NZ_CP148136.1	NZ_CP148136.1	2711502838	SAMN35709919	584	Proteus mirabilis strain P13 chromosome, complete genome	direct
+NZ_CP148137.1	NZ_CP148137.1	2711502841	SAMN35709919	584	Proteus mirabilis strain P13 plasmid unnamed, complete sequence	direct
+NZ_CP148138.1	NZ_CP148138.1	2716306804	SAMN37689403	584	Proteus mirabilis strain PM-OXA-10 chromosome, complete genome	direct
+NZ_CP148139.1	NZ_CP148139.1	2716306806	SAMN37689403	584	Proteus mirabilis strain PM-OXA-10 plasmid unnamed, complete sequence	direct
+NZ_CP148140.1	NZ_CP148140.1	2716302285	SAMN37689402	584	Proteus mirabilis strain PM-OXA-09 chromosome, complete genome	direct
+NZ_CP148141.1	NZ_CP148141.1	2716302288	SAMN37689402	584	Proteus mirabilis strain PM-OXA-09 plasmid unnamed, complete sequence	direct
+NZ_CP148142.1	NZ_CP148142.1	2716293581	SAMN37689398	584	Proteus mirabilis strain PM-OXA-05 chromosome, complete genome	direct
+NZ_CP148143.1	NZ_CP148143.1	2716306650	SAMN37689395	584	Proteus mirabilis strain PM-OXA-02 chromosome, complete genome	direct
+NZ_CP151672.1	NZ_CP151672.1	2720567442	SAMN37689401	584	Proteus mirabilis strain P8 chromosome, complete genome	direct
+NZ_CP151673.1	NZ_CP151673.1	2720567443	SAMN37689401	584	Proteus mirabilis strain P8 plasmid pOXA-P8, complete sequence	direct
+NZ_CP151674.1	NZ_CP151674.1	2720567444	SAMN37689401	584	Proteus mirabilis strain P8 plasmid unnamed, complete sequence	direct
+NZ_CP151675.1	NZ_CP151675.1	2720567445	SAMN37689401	584	Proteus mirabilis strain P8 plasmid unnamed2, complete sequence	direct
+NZ_CP151676.1	NZ_CP151676.1	2720585388	SAMN37689396	584	Proteus mirabilis strain P3 chromosome, complete genome	direct
+NZ_CP151677.1	NZ_CP151677.1	2720585399	SAMN37689396	584	Proteus mirabilis strain P3 plasmid unnamed, complete sequence	direct
+NZ_CP151678.1	NZ_CP151678.1	2720585401	SAMN37689396	584	Proteus mirabilis strain P3 plasmid unnamed2, complete sequence	direct
+NZ_CP152374.1	NZ_CP152374.1	2724790427	SAMN40257061	584	Proteus mirabilis strain PM190 chromosome, complete genome	direct
+NZ_CP154800.1	NZ_CP154800.1	2728699845	SAMN37689400	584	Proteus mirabilis strain PM-OXA-07 chromosome, complete genome	direct
+NZ_CP154801.1	NZ_CP154801.1	2728695406	SAMN37689399	584	Proteus mirabilis strain PM-OXA-06 chromosome, complete genome	direct
+NZ_CP154802.1	NZ_CP154802.1	2728690617	SAMN37689394	584	Proteus mirabilis strain PM-OXA-01 chromosome, complete genome	direct
+NZ_CP155794.1	NZ_CP155794.1	2736018373	SAMN41378189	584	Proteus mirabilis strain Pm5 chromosome, complete genome	direct
+NZ_CP159145.1	NZ_CP159145.1	2752866874	SAMN41685791	584	Proteus mirabilis strain 10035004-1 chromosome, complete genome	direct
+NZ_CP159146.1	NZ_CP159146.1	2752871338	SAMN41685792	584	Proteus mirabilis strain 10035004-2 chromosome, complete genome	direct
+NZ_CP162022.1	NZ_CP162022.1	2779570857	SAMN42505624	584	Proteus mirabilis strain SH-4 chromosome, complete genome	direct
+NZ_CP163140.1	NZ_CP163140.1	2976143899	SAMN42539196	584	Proteus mirabilis strain A27672 chromosome, complete genome	direct
+NZ_CP163157.1	NZ_CP163157.1	2976141652	SAMN42539044	584	Proteus mirabilis strain A25355 chromosome, complete genome	direct
+NZ_CP166032.1	NZ_CP166032.1	2976149285	SAMN42539980	584	Proteus mirabilis strain A31498 chromosome, complete genome	direct
+NZ_CP166037.1	NZ_CP166037.1	2976149328	SAMN42539949	584	Proteus mirabilis strain A31034 chromosome, complete genome	direct
+NZ_CP168002.1	NZ_CP168002.1	2794532019	SAMN43067844	584	Proteus mirabilis strain CriePir1633 chromosome, complete genome	direct
+NZ_CP169048.1	NZ_CP169048.1	2801585118	SAMN43414873	584	Proteus mirabilis strain 20119 chromosome, complete genome	direct
+NZ_CP169049.1	NZ_CP169049.1	2801585119	SAMN43414873	584	Proteus mirabilis strain 20119 plasmid pC20119, complete sequence	direct
+NZ_CP170631.1	NZ_CP170631.1	2830807861	SAMN43983397	584	Proteus mirabilis strain PM1 chromosome, complete genome	direct
+NZ_CP172235.1	NZ_CP172235.1	2844399313	SAMN44468767	584	Proteus mirabilis strain wxy-a1 chromosome, complete genome	direct
+NZ_CP177077.1	NZ_CP177077.1	2889829509	SAMN17373069	584	Proteus mirabilis strain Survcare401 chromosome, complete genome	direct
+NZ_CP177078.1	NZ_CP177078.1	2889829515	SAMN17373069	584	Proteus mirabilis strain Survcare401 plasmid p401_1, complete sequence	direct
+NZ_CP177079.1	NZ_CP177079.1	2889829516	SAMN17373069	584	Proteus mirabilis strain Survcare401 plasmid p401_2, complete sequence	direct
+NZ_CP177210.1	NZ_CP177210.1	2912157616	SAMN32532993	584	Proteus mirabilis strain 1B-M chromosome, complete genome	direct
+NZ_CP181087.1	NZ_CP181087.1	2913847497	SAMN46751946	584	Proteus mirabilis strain SH-8 chromosome, complete genome	direct
+NZ_CP181088.1	NZ_CP181088.1	2913847498	SAMN46751946	584	Proteus mirabilis strain SH-8 plasmid pSH-8, complete sequence	direct
+NZ_CP181371.1	NZ_CP181371.1	2918535411	SAMN46143986	584	Proteus mirabilis strain COFI-RLBCAU-II chromosome, complete genome	direct
+NZ_CP181372.1	NZ_CP181372.1	2918535412	SAMN46143986	584	Proteus mirabilis strain COFI-RLBCAU-II plasmid unnamed1, complete sequence	direct
+NZ_CP181373.1	NZ_CP181373.1	2918535413	SAMN46143986	584	Proteus mirabilis strain COFI-RLBCAU-II plasmid unnamed2, complete sequence	direct
+NZ_CP181374.1	NZ_CP181374.1	2918535414	SAMN46143986	584	Proteus mirabilis strain COFI-RLBCAU-II plasmid unnamed3, complete sequence	direct
+NZ_CP181851.1	NZ_CP181851.1	2976066978	SAMN42539098	584	Proteus mirabilis strain A26332 chromosome, complete genome	direct
+NZ_CP181852.1	NZ_CP181852.1	2976066991	SAMN42539098	584	Proteus mirabilis strain A26332 plasmid p2_A26332, complete sequence	direct
+NZ_CP181853.1	NZ_CP181853.1	2976066992	SAMN42539098	584	Proteus mirabilis strain A26332 plasmid p1_A26332, complete sequence	direct
+NZ_CP185292.1	NZ_CP185292.1	2948029385	SAMN47438240	584	Proteus mirabilis strain PR00020 chromosome, complete genome	direct
+NZ_CP185293.1	NZ_CP185293.1	2948029386	SAMN47438240	584	Proteus mirabilis strain PR00020 plasmid pPR00020, complete sequence	direct
+NZ_CP186539.1	NZ_CP186539.1	2954552812	SAMN47743198	584	Proteus mirabilis strain PmMTP02JC chromosome, complete genome	direct
+NZ_CP187420.1	NZ_CP187420.1	2974185091	SAMN47939896	584	Proteus mirabilis strain Larus michahellis chromosome, complete genome	direct
+NZ_CP187944.1	NZ_CP187944.1	2975148362	SAMN48049884	584	Proteus mirabilis strain PmMTP47SC chromosome, complete genome	direct
+NZ_CP189754.1	NZ_CP189754.1	2976065045	SAMN48179116	584	Proteus mirabilis strain 42SC chromosome, complete genome	direct
+NZ_CP189755.1	NZ_CP189755.1	2976065213	SAMN48179135	584	Proteus mirabilis strain 62LC chromosome, complete genome	direct
+NZ_CP189756.1	NZ_CP189756.1	2976057049	SAMN48179142	584	Proteus mirabilis strain 64DC chromosome, complete genome	direct
+NZ_CP189757.1	NZ_CP189757.1	2976065417	SAMN48179157	584	Proteus mirabilis strain 73DC chromosome, complete genome	direct
+NZ_CP189758.1	NZ_CP189758.1	2976063131	SAMN48179273	584	Proteus mirabilis strain 95LC chromosome, complete genome	direct
+NZ_CP189768.1	NZ_CP189768.1	2976057706	SAMN48176790	584	Proteus mirabilis strain 69NC chromosome, complete genome	direct
+NZ_CP189769.1	NZ_CP189769.1	2976054049	SAMN48176839	584	Proteus mirabilis strain 82HC chromosome, complete genome	direct
+NZ_CP189770.1	NZ_CP189770.1	2976062889	SAMN48176840	584	Proteus mirabilis strain 84LC chromosome, complete genome	direct
+NZ_CP189771.1	NZ_CP189771.1	2976054275	SAMN48177063	584	Proteus mirabilis strain 86HC chromosome, complete genome	direct
+NZ_CP189772.1	NZ_CP189772.1	2976064883	SAMN48177285	584	Proteus mirabilis strain 89HC chromosome, complete genome	direct
+NZ_CP189773.1	NZ_CP189773.1	2976071304	SAMN48177315	584	Proteus mirabilis strain 93HC chromosome, complete genome	direct
+NZ_CP189777.1	NZ_CP189777.1	2976057640	SAMN48175400	584	Proteus mirabilis strain 68DC chromosome, complete genome	direct
+NZ_CP191542.1	NZ_CP191542.1	2986550173	SAMN47409569	584	Proteus mirabilis strain PM7752 chromosome, complete genome	direct
+NZ_CP191543.1	NZ_CP191543.1	2986550174	SAMN47409569	584	Proteus mirabilis strain PM7752 plasmid pPM7752-NDM_6k, complete sequence	direct
+NZ_CP192503.1	NZ_CP192503.1	2989104794	SAMN47409567	584	Proteus mirabilis strain PM1700 chromosome, complete genome	direct
+NZ_CP192504.1	NZ_CP192504.1	2989104938	SAMN47409567	584	Proteus mirabilis strain PM1700 plasmid pPM1700-NDM_54k, complete sequence	direct
+NZ_CP192505.1	NZ_CP192505.1	2989102253	SAMN47409568	584	Proteus mirabilis strain PM8086 chromosome, complete genome	direct
+NZ_CP192506.1	NZ_CP192506.1	2989102254	SAMN47409568	584	Proteus mirabilis strain PM8086 plasmid pPM8086-NDM_156k, complete sequence	direct
+NZ_CP196195.1	NZ_CP196195.1	3033784654	SAMN49815850	584	Proteus mirabilis strain CRPM6848 chromosome, complete genome	direct
+NZ_CP196196.1	NZ_CP196196.1	3033784655	SAMN49815850	584	Proteus mirabilis strain CRPM6848 plasmid pPM6848-PER-4, complete sequence	direct
+NZ_CP196197.1	NZ_CP196197.1	3033784656	SAMN49815850	584	Proteus mirabilis strain CRPM6848 plasmid pPM6848-3, complete sequence	direct
+NZ_CP196198.1	NZ_CP196198.1	3033784657	SAMN49815850	584	Proteus mirabilis strain CRPM6848 plasmid pPM6848-4, complete sequence	direct
+NZ_CP196199.1	NZ_CP196199.1	3033784658	SAMN49815850	584	Proteus mirabilis strain CRPM6848 plasmid pPM6848-5, complete sequence	direct
+NZ_CP196200.1	NZ_CP196200.1	3033784659	SAMN49815850	584	Proteus mirabilis strain CRPM6848 plasmid pPM6848-6, complete sequence	direct
+NZ_CP196207.1	NZ_CP196207.1	3034424926	SAMN49815849	584	Proteus mirabilis strain CRPM3923 chromosome, complete genome	direct
+NZ_CP196208.1	NZ_CP196208.1	3034424928	SAMN49815849	584	Proteus mirabilis strain CRPM3923 plasmid pPM3923-PER-4, complete sequence	direct
+NZ_CP196209.1	NZ_CP196209.1	3034424929	SAMN49815849	584	Proteus mirabilis strain CRPM3923 plasmid pPM3923-3, complete sequence	direct
+NZ_CP196210.1	NZ_CP196210.1	3034424930	SAMN49815849	584	Proteus mirabilis strain CRPM3923 plasmid pPM3923-4, complete sequence	direct
+NZ_JBQTEW010000001.1	NZ_JBQTEW010000001.1	3062726981	SAMN50785620	584	Proteus mirabilis strain CRPM4365 plasmid pPM4365-1, whole genome shotgun sequence	direct
+NZ_JBRZEW010000002.1	NZ_JBRZEW010000002.1	3111355663	SAMN47788337	584	Proteus mirabilis strain PR01307 plasmid p28_PR01307_2, whole genome shotgun sequence	direct
+NZ_JBTCBO010000002.1	NZ_JBTCBO010000002.1	3137092223	SAMN54218985	584	Proteus mirabilis strain PY25163 plasmid pPY25163_1, whole genome shotgun sequence	direct
+NZ_JBTCBO010000003.1	NZ_JBTCBO010000003.1	3137092224	SAMN54218985	584	Proteus mirabilis strain PY25163 plasmid pPY25163_2, whole genome shotgun sequence	direct
+NZ_JBTCBO010000004.1	NZ_JBTCBO010000004.1	3137092225	SAMN54218985	584	Proteus mirabilis strain PY25163 plasmid pPY25163_3, whole genome shotgun sequence	direct
+NZ_LR134205.1	NZ_LR134205.1	1545228155	SAMEA3222067	584	Proteus mirabilis strain NCTC4199 chromosome 1, complete sequence	direct
+CP045008.1	CP045008.1	1783189766	SAMN12990251	626774	Proteus terrae subsp. cibarius strain ZF2 chromosome, complete genome	direct
+CP045009.1	CP045009.1	1783193571	SAMN12990251	626774	Proteus terrae subsp. cibarius strain ZF2 plasmid pZF2-cfr, complete sequence	direct
+CP045010.1	CP045010.1	1783193638	SAMN12990251	626774	Proteus terrae subsp. cibarius strain ZF2 plasmid pZF2-7kb, complete sequence	direct
+CP045011.1	CP045011.1	1783193644	SAMN12990251	626774	Proteus terrae subsp. cibarius strain ZF2 plasmid pZF2-qnrD, complete sequence	direct
+CP047340.1	CP047340.1	1817352561	SAMN13738032	626774	Proteus terrae subsp. cibarius strain ZF1 chromosome, complete genome	direct
+CP047341.1	CP047341.1	1817356345	SAMN13738032	626774	Proteus terrae subsp. cibarius strain ZF1 plasmid pZF1-cfr, complete sequence	direct
+CP047342.1	CP047342.1	1817356412	SAMN13738032	626774	Proteus terrae subsp. cibarius strain ZF1 plasmid pZF1-7kb, complete sequence	direct
+CP047343.1	CP047343.1	1817356417	SAMN13738032	626774	Proteus terrae subsp. cibarius strain ZF1 plasmid pZF1-qnrD, complete sequence	direct
+CP047349.1	CP047349.1	1817360588	SAMN13738053	626774	Proteus terrae subsp. cibarius strain ZN2 chromosome, complete genome	direct
+CP047350.1	CP047350.1	1817364017	SAMN13738053	626774	Proteus terrae subsp. cibarius strain ZN2 plasmid pZN2-tetX-171kb, complete sequence	direct
+CP047351.1	CP047351.1	1817364213	SAMN13738053	626774	Proteus terrae subsp. cibarius strain ZN2 plasmid pZN2-qnrD, complete sequence	direct
+CP053042.1	CP053042.1	1845856815	SAMN14604096	626774	Proteus terrae subsp. cibarius strain HNCF44W chromosome, complete genome	direct
+CP053043.1	CP053043.1	1845860236	SAMN14604096	626774	Proteus terrae subsp. cibarius strain HNCF44W plasmid pHNCF44W_NDM-1, complete sequence	direct
+CP053044.1	CP053044.1	1845853330	SAMN14604094	626774	Proteus terrae subsp. cibarius strain HNCF43W chromosome, complete genome	direct
+CP053371.1	CP053371.1	1843435757	SAMN14894250	626774	Proteus terrae subsp. cibarius strain G32 chromosome, complete genome	direct
+CP053372.1	CP053372.1	1843439293	SAMN14894250	626774	Proteus terrae subsp. cibarius strain G32 plasmid pG32-177, complete sequence	direct
+CP053373.1	CP053373.1	1843439470	SAMN14894250	626774	Proteus terrae subsp. cibarius strain G32 plasmid pG32-51, complete sequence	direct
+CP073244.1	CP073244.1	2029451619	SAMN18781101	626774	Proteus terrae subsp. cibarius strain M878-2 chromosome, complete genome	direct
+CP073356.1	CP073356.1	2095994666	SAMN18818640	626774	Proteus terrae subsp. cibarius strain SDQ8C180-2T chromosome, complete genome	direct
+CP073357.1	CP073357.1	2095998080	SAMN18818640	626774	Proteus terrae subsp. cibarius strain SDQ8C180-2T plasmid pSDQ8C180-1, complete sequence	direct
+CP073358.1	CP073358.1	2095998253	SAMN18818640	626774	Proteus terrae subsp. cibarius strain SDQ8C180-2T plasmid pSDQ8C180-2, complete sequence	direct
+CP073359.1	CP073359.1	2095998259	SAMN18818640	626774	Proteus terrae subsp. cibarius strain SDQ8C180-2T plasmid pSDQ8C180-3, complete sequence	direct
+CP073630.1	CP073630.1	2031294447	SAMN18839099	626774	Proteus terrae subsp. cibarius strain S24-2-1 chromosome, complete genome	direct
+CP073914.1	CP073914.1	2032821053	SAMN18859086	626774	Proteus terrae subsp. cibarius strain SH19PTE4 chromosome, complete genome	direct
+CP079882.1	CP079882.1	2304949146	SAMN20206207	1574161	Proteus terrae strain 20Q172tw chromosome, complete genome	direct
+CP079883.1	CP079883.1	2304952870	SAMN20206207	1574161	Proteus terrae strain 20Q172tw plasmid unnamed, complete sequence	direct
+CP085032.1	CP085032.1	2119308729	SAMN22222466	626774	Proteus terrae subsp. cibarius strain ZJ19PC chromosome, complete genome	direct
+CP116620.1	CP116620.1	2437840914	SAMN31527617	1574161	Proteus terrae strain CZP50 chromosome, complete genome	direct
+CP116621.1	CP116621.1	2437833446	SAMN31527004	1574161	Proteus terrae strain TP22 chromosome, complete genome	direct
+CP116622.1	CP116622.1	2437837099	SAMN31527004	1574161	Proteus terrae strain TP22 plasmid pTP22-1, complete sequence	direct
+CP137231.1	CP137231.1	2620246777	SAMN37935465	1574161	Proteus terrae strain PM57 plasmid pPM57-NDM_142k, complete sequence	direct
+CP137232.1	CP137232.1	2620246941	SAMN37935465	1574161	Proteus terrae strain PM57 chromosome, complete genome	direct
+CP152080.1	CP152080.1	2723872500	SAMN41003026	1574161	Proteus terrae strain MaPt001 chromosome, complete genome	direct
+CP152081.1	CP152081.1	2723876048	SAMN41003026	1574161	Proteus terrae strain MaPt001 plasmid unnamed, complete sequence	direct
+NZ_CP045008.1	NZ_CP045008.1	1783927903	SAMN12990251	626774	Proteus terrae subsp. cibarius strain ZF2 chromosome, complete genome	direct
+NZ_CP045009.1	NZ_CP045009.1	1783927940	SAMN12990251	626774	Proteus terrae subsp. cibarius strain ZF2 plasmid pZF2-cfr, complete sequence	direct
+NZ_CP045010.1	NZ_CP045010.1	1783927943	SAMN12990251	626774	Proteus terrae subsp. cibarius strain ZF2 plasmid pZF2-7kb, complete sequence	direct
+NZ_CP045011.1	NZ_CP045011.1	1783927944	SAMN12990251	626774	Proteus terrae subsp. cibarius strain ZF2 plasmid pZF2-qnrD, complete sequence	direct
+NZ_CP047340.1	NZ_CP047340.1	1818193216	SAMN13738032	626774	Proteus terrae subsp. cibarius strain ZF1 chromosome, complete genome	direct
+NZ_CP047341.1	NZ_CP047341.1	1818193217	SAMN13738032	626774	Proteus terrae subsp. cibarius strain ZF1 plasmid pZF1-cfr, complete sequence	direct
+NZ_CP047342.1	NZ_CP047342.1	1818193218	SAMN13738032	626774	Proteus terrae subsp. cibarius strain ZF1 plasmid pZF1-7kb, complete sequence	direct
+NZ_CP047343.1	NZ_CP047343.1	1818193219	SAMN13738032	626774	Proteus terrae subsp. cibarius strain ZF1 plasmid pZF1-qnrD, complete sequence	direct
+NZ_CP047349.1	NZ_CP047349.1	1818193818	SAMN13738053	626774	Proteus terrae subsp. cibarius strain ZN2 chromosome, complete genome	direct
+NZ_CP047350.1	NZ_CP047350.1	1818193819	SAMN13738053	626774	Proteus terrae subsp. cibarius strain ZN2 plasmid pZN2-tetX-171kb, complete sequence	direct
+NZ_CP047351.1	NZ_CP047351.1	1818193820	SAMN13738053	626774	Proteus terrae subsp. cibarius strain ZN2 plasmid pZN2-qnrD, complete sequence	direct
+NZ_CP053042.1	NZ_CP053042.1	1846270417	SAMN14604096	626774	Proteus terrae subsp. cibarius strain HNCF44W chromosome, complete genome	direct
+NZ_CP053043.1	NZ_CP053043.1	1846270418	SAMN14604096	626774	Proteus terrae subsp. cibarius strain HNCF44W plasmid pHNCF44W_NDM-1, complete sequence	direct
+NZ_CP053044.1	NZ_CP053044.1	1846264627	SAMN14604094	626774	Proteus terrae subsp. cibarius strain HNCF43W chromosome, complete genome	direct
+NZ_CP053371.1	NZ_CP053371.1	1844045091	SAMN14894250	626774	Proteus terrae subsp. cibarius strain G32 chromosome, complete genome	direct
+NZ_CP053372.1	NZ_CP053372.1	1844045092	SAMN14894250	626774	Proteus terrae subsp. cibarius strain G32 plasmid pG32-177, complete sequence	direct
+NZ_CP053373.1	NZ_CP053373.1	1844045093	SAMN14894250	626774	Proteus terrae subsp. cibarius strain G32 plasmid pG32-51, complete sequence	direct
+NZ_CP073244.1	NZ_CP073244.1	2035796240	SAMN18781101	626774	Proteus terrae subsp. cibarius strain M878-2 chromosome, complete genome	direct
+NZ_CP073356.1	NZ_CP073356.1	2101056854	SAMN18818640	626774	Proteus terrae subsp. cibarius strain SDQ8C180-2T chromosome, complete genome	direct
+NZ_CP073357.1	NZ_CP073357.1	2101056855	SAMN18818640	626774	Proteus terrae subsp. cibarius strain SDQ8C180-2T plasmid pSDQ8C180-1, complete sequence	direct
+NZ_CP073358.1	NZ_CP073358.1	2101056856	SAMN18818640	626774	Proteus terrae subsp. cibarius strain SDQ8C180-2T plasmid pSDQ8C180-2, complete sequence	direct
+NZ_CP073359.1	NZ_CP073359.1	2101056857	SAMN18818640	626774	Proteus terrae subsp. cibarius strain SDQ8C180-2T plasmid pSDQ8C180-3, complete sequence	direct
+NZ_CP073630.1	NZ_CP073630.1	2035812300	SAMN18839099	626774	Proteus terrae subsp. cibarius strain S24-2-1 chromosome, complete genome	direct
+NZ_CP073914.1	NZ_CP073914.1	2035813414	SAMN18859086	626774	Proteus terrae subsp. cibarius strain SH19PTE4 chromosome, complete genome	direct
+NZ_CP079882.1	NZ_CP079882.1	2306512809	SAMN20206207	1574161	Proteus terrae strain 20Q172tw chromosome, complete genome	direct
+NZ_CP079883.1	NZ_CP079883.1	2306513063	SAMN20206207	1574161	Proteus terrae strain 20Q172tw plasmid unnamed, complete sequence	direct
+NZ_CP085032.1	NZ_CP085032.1	2123545671	SAMN22222466	626774	Proteus terrae subsp. cibarius strain ZJ19PC chromosome, complete genome	direct
+NZ_CP116620.1	NZ_CP116620.1	2438747261	SAMN31527617	1574161	Proteus terrae strain CZP50 chromosome, complete genome	direct
+NZ_CP116621.1	NZ_CP116621.1	2438755198	SAMN31527004	1574161	Proteus terrae strain TP22 chromosome, complete genome	direct
+NZ_CP116622.1	NZ_CP116622.1	2438755269	SAMN31527004	1574161	Proteus terrae strain TP22 plasmid pTP22-1, complete sequence	direct
+NZ_CP137231.1	NZ_CP137231.1	2620643956	SAMN37935465	1574161	Proteus terrae strain PM57 plasmid pPM57-NDM_142k, complete sequence	direct
+NZ_CP137232.1	NZ_CP137232.1	2620644002	SAMN37935465	1574161	Proteus terrae strain PM57 chromosome, complete genome	direct
+NZ_CP152080.1	NZ_CP152080.1	2724500178	SAMN41003026	1574161	Proteus terrae strain MaPt001 chromosome, complete genome	direct
+NZ_CP152081.1	NZ_CP152081.1	2724500179	SAMN41003026	1574161	Proteus terrae strain MaPt001 plasmid unnamed, complete sequence	direct

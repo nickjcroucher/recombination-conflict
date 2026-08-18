@@ -1,0 +1,29 @@
+query_accession	resolved_accession	uid	biosample	taxid	title	resolved_from
+CP002005.1	CP002005.1	295919923	SAMN02603777	1236608	Moraxella catarrhalis BBH18, complete genome	direct
+CP007669.1	CP007669.1	696614304	SAMN02595593	480	Moraxella catarrhalis strain 25239, complete genome	direct
+CP008804.1	CP008804.1	672768103	SAMN02870719	480	Moraxella catarrhalis strain 25240, complete genome	direct
+CP018059.1	CP018059.1	1173591243	SAMN05949222	480	Moraxella catarrhalis strain CCRI-195ME, complete sequence	direct
+CP018060.1	CP018060.1	1173592982	SAMN05949222	480	Moraxella catarrhalis strain CCRI-195ME plasmid, complete sequence	direct
+CP020400.2	CP020400.2	1348088589	SAMN04875550	480	Moraxella catarrhalis strain FDAARGOS_213 chromosome, complete genome	direct
+CP027405.1	CP027405.1	1356708726	SAMN06173317	480	Moraxella catarrhalis strain FDAARGOS_304 chromosome, complete genome	direct
+CP034662.1	CP034662.1	1543029033	SAMN10536193	480	Moraxella catarrhalis strain 46P58B1 chromosome, complete genome	direct
+CP034663.1	CP034663.1	1543021250	SAMN10536192	480	Moraxella catarrhalis strain 74P58B1 chromosome, complete genome	direct
+CP034664.1	CP034664.1	1543023141	SAMN10536191	480	Moraxella catarrhalis strain 74P50B1 chromosome, complete genome	direct
+CP034665.1	CP034665.1	1543025034	SAMN10536190	480	Moraxella catarrhalis strain 142P87B1 chromosome, complete genome	direct
+CP034666.1	CP034666.1	1543027030	SAMN10536188	480	Moraxella catarrhalis strain 5P47B2 chromosome, complete genome	direct
+CP160099.1	CP160099.1	2892613988	SAMN41916142	480	Moraxella catarrhalis strain A_01_mct chromosome, complete genome	direct
+LS483445.1	LS483445.1	1403541907	SAMEA4076728	480	Moraxella catarrhalis strain NCTC11020 genome assembly, chromosome: 1	direct
+NC_014147.1	NC_014147.1	296112228	SAMN02603777	1236608	Moraxella catarrhalis BBH18, complete sequence	direct
+NZ_CP007669.1	NZ_CP007669.1	755160843	SAMN02595593	480	Moraxella catarrhalis strain ATCC 25239 chromosome, complete genome	direct
+NZ_CP008804.1	NZ_CP008804.1	749306710	SAMN02870719	480	Moraxella catarrhalis strain 25240 chromosome, complete genome	direct
+NZ_CP018059.1	NZ_CP018059.1	1174894709	SAMN05949222	480	Moraxella catarrhalis strain CCRI-195ME chromosome, complete genome	direct
+NZ_CP018060.1	NZ_CP018060.1	1174894710	SAMN05949222	480	Moraxella catarrhalis strain CCRI-195ME plasmid unnamed, complete sequence	direct
+NZ_CP020400.2	NZ_CP020400.2	1356472811	SAMN04875550	480	Moraxella catarrhalis strain FDAARGOS_213 chromosome, complete genome	direct
+NZ_CP027405.1	NZ_CP027405.1	1359856592	SAMN06173317	480	Moraxella catarrhalis strain FDAARGOS_304 chromosome, complete genome	direct
+NZ_CP034662.1	NZ_CP034662.1	1546618153	SAMN10536193	480	Moraxella catarrhalis strain 46P58B1 chromosome, complete genome	direct
+NZ_CP034663.1	NZ_CP034663.1	1546430149	SAMN10536192	480	Moraxella catarrhalis strain 74P58B1 chromosome, complete genome	direct
+NZ_CP034664.1	NZ_CP034664.1	1546595075	SAMN10536191	480	Moraxella catarrhalis strain 74P50B1 chromosome, complete genome	direct
+NZ_CP034665.1	NZ_CP034665.1	1546601925	SAMN10536190	480	Moraxella catarrhalis strain 142P87B1 chromosome, complete genome	direct
+NZ_CP034666.1	NZ_CP034666.1	1546430516	SAMN10536188	480	Moraxella catarrhalis strain 5P47B2 chromosome, complete genome	direct
+NZ_CP160099.1	NZ_CP160099.1	2894088829	SAMN41916142	480	Moraxella catarrhalis strain A_01_mct chromosome, complete genome	direct
+NZ_LS483445.1	NZ_LS483445.1	1409083116	SAMEA4076728	480	Moraxella catarrhalis strain NCTC11020 chromosome 1, complete sequence	direct

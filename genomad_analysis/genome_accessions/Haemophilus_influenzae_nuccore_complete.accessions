@@ -1,0 +1,567 @@
+query_accession	resolved_accession	uid	biosample	taxid	title	resolved_from
+AP018764.1	AP018764.1	2043695831	SAMD00119525	727	Haemophilus influenzae CHBN-II-1 DNA, complete genome	direct
+AP018765.1	AP018765.1	2043697756	SAMD00119526	727	Haemophilus influenzae CHBN-II-2 DNA, complete genome	direct
+AP018766.1	AP018766.1	2043699681	SAMD00119527	727	Haemophilus influenzae CHBN-II-3 DNA, complete genome	direct
+AP018767.1	AP018767.1	2043701428	SAMD00119528	727	Haemophilus influenzae CHBN-II-4 DNA, complete genome	direct
+AP018768.1	AP018768.1	2043703158	SAMD00119529	727	Haemophilus influenzae CHBN-II-5 DNA, complete genome	direct
+AP018769.1	AP018769.1	2043704850	SAMD00119530	727	Haemophilus influenzae CHBN-II-6 DNA, complete genome	direct
+AP018770.1	AP018770.1	2043706554	SAMD00119531	727	Haemophilus influenzae CHBN-II-7 DNA, complete genome	direct
+AP018771.1	AP018771.1	2043708359	SAMD00119532	727	Haemophilus influenzae CHBN-II-8 DNA, complete genome	direct
+AP018772.1	AP018772.1	2043710191	SAMD00119533	727	Haemophilus influenzae CHBN-III-1 DNA, complete genome	direct
+AP018773.1	AP018773.1	2043711876	SAMD00119534	727	Haemophilus influenzae CHBN-III-2 DNA, complete genome	direct
+AP018774.1	AP018774.1	2043713697	SAMD00119535	727	Haemophilus influenzae CHBN-III-3 DNA, complete genome	direct
+AP018775.1	AP018775.1	2043715373	SAMD00119536	727	Haemophilus influenzae CHBN-III-4 DNA, complete genome	direct
+AP018776.1	AP018776.1	2043717077	SAMD00119537	727	Haemophilus influenzae CHBN-III-5 DNA, complete genome	direct
+AP018777.1	AP018777.1	2043718780	SAMD00119538	727	Haemophilus influenzae CHBN-III-6 DNA, complete genome	direct
+AP018778.1	AP018778.1	2043720585	SAMD00119539	727	Haemophilus influenzae CHBN-III-7 DNA, complete genome	direct
+AP018779.1	AP018779.1	2043722436	SAMD00119540	727	Haemophilus influenzae CHBN-III-8 DNA, complete genome	direct
+AP018780.1	AP018780.1	2043724109	SAMD00119541	727	Haemophilus influenzae CHBN-IV-1 DNA, complete genome	direct
+AP018781.1	AP018781.1	2043725897	SAMD00119542	727	Haemophilus influenzae CHBN-V-1 DNA, complete genome	direct
+AP018782.1	AP018782.1	2043727769	SAMD00119543	727	Haemophilus influenzae CHBN-V-2 DNA, complete genome	direct
+AP018783.1	AP018783.1	2043729470	SAMD00119544	727	Haemophilus influenzae CHBN-V-3 DNA, complete genome	direct
+AP022846.1	AP022846.1	1904919971	SAMD00204789	727	Haemophilus influenzae TAMBA230 DNA, complete genome	direct
+AP022867.1	AP022867.1	1851723164	SAMD00210359	727	Haemophilus influenzae 2018-Y40 DNA, complete genome	direct
+AP024414.1	AP024414.1	1967481673	SAMD00233110	727	Haemophilus influenzae TA8730 DNA, complete genome	direct
+CP000057.2	CP000057.2	156617157	SAMN02603157	281310	Haemophilus influenzae 86-028NP, complete genome	direct
+CP002276.1	CP002276.1	309972265	SAMN02604260	262727	Haemophilus influenzae R2846, complete genome	direct
+CP002277.1	CP002277.1	309750011	SAMN02604259	262728	Haemophilus influenzae R2866, complete genome	direct
+CP005967.1	CP005967.1	540363543	SAMN02603575	1334187	Haemophilus influenzae KR494, complete genome	direct
+CP007470.1	CP007470.1	759021908	SAMN02595602	727	Haemophilus influenzae strain 477, complete genome	direct
+CP007471.1	CP007471.1	759023666	SAMN02595604	727	Haemophilus influenzae strain C486, complete genome	direct
+CP007472.1	CP007472.1	759025366	SAMN02595605	727	Haemophilus influenzae strain 723, complete genome	direct
+CP007805.1	CP007805.1	646229263	SAMN02800345	1295140	Haemophilus influenzae CGSHiCZ412602, complete genome	direct
+CP008740.1	CP008740.1	800893094	SAMN03450976	1232659	Haemophilus influenzae 2019, complete genome	direct
+CP009610.1	CP009610.1	697784296	SAMN03093440	727	Haemophilus influenzae strain Hi375, complete genome	direct
+CP017811.1	CP017811.1	1095142962	NA	NA	NA	direct
+CP020006.1	CP020006.1	1352751775	SAMN06203601	727	Haemophilus influenzae strain 48P106H1 chromosome, complete genome	direct
+CP020007.1	CP020007.1	1352753550	SAMN06203603	727	Haemophilus influenzae strain 48P153H1 chromosome, complete genome	direct
+CP020008.1	CP020008.1	1352755327	SAMN06203638	727	Haemophilus influenzae strain 5P28H1 chromosome, complete genome	direct
+CP020009.1	CP020009.1	1352757173	SAMN06203639	727	Haemophilus influenzae strain 5P54H1 chromosome, complete genome	direct
+CP020010.1	CP020010.1	1352759029	SAMN06203648	727	Haemophilus influenzae strain 67P38H1 chromosome, complete genome	direct
+CP020011.1	CP020011.1	1352760772	SAMN06203650	727	Haemophilus influenzae strain 67P56H1 chromosome, complete genome	direct
+CP020012.1	CP020012.1	1352762515	SAMN06203655	727	Haemophilus influenzae strain 6P24H2 chromosome, complete genome	direct
+CP020013.1	CP020013.1	1352764348	SAMN06203656	727	Haemophilus influenzae strain 6P32H1 chromosome, complete genome	direct
+CP020014.1	CP020014.1	1352766184	SAMN06203483	727	Haemophilus influenzae strain 11P6H chromosome, complete genome	direct
+CP020411.2	CP020411.2	1348135914	SAMN04875536	727	Haemophilus influenzae strain FDAARGOS_199 chromosome, complete genome	direct
+CP031236.1	CP031236.1	1440307112	SAMN09704927	727	Haemophilus influenzae strain M25267 chromosome, complete genome	direct
+CP031237.1	CP031237.1	1438629560	SAMN09704892	727	Haemophilus influenzae strain M12125 chromosome, complete genome	direct
+CP031239.1	CP031239.1	1440307113	SAMN09704896	727	Haemophilus influenzae strain M13034 chromosome, complete genome	direct
+CP031241.1	CP031241.1	1438629557	SAMN09704911	727	Haemophilus influenzae strain M17648 chromosome, complete genome	direct
+CP031242.1	CP031242.1	1438629554	SAMN09704917	727	Haemophilus influenzae strain M21460 chromosome, complete genome	direct
+CP031249.1	CP031249.1	1440307118	SAMN09704905	727	Haemophilus influenzae strain M15895 chromosome, complete genome	direct
+CP031250.1	CP031250.1	1438634270	SAMN09704916	727	Haemophilus influenzae strain M21384 chromosome, complete genome	direct
+CP031254.1	CP031254.1	1438629559	SAMN09704928	727	Haemophilus influenzae strain M25588 chromosome, complete genome	direct
+CP031678.1	CP031678.1	1463667700	SAMN07421955	727	Haemophilus influenzae strain P679-2791 chromosome, complete genome	direct
+CP031679.1	CP031679.1	1463693719	SAMN07421951	727	Haemophilus influenzae strain P676-2514 chromosome, complete genome	direct
+CP031680.1	CP031680.1	1463673851	SAMN07421947	727	Haemophilus influenzae strain P672-7661 chromosome, complete genome	direct
+CP031681.1	CP031681.1	1463665767	SAMN07421944	727	Haemophilus influenzae strain P669-6977 chromosome, complete genome	direct
+CP031682.1	CP031682.1	1463681863	SAMN07421940	727	Haemophilus influenzae strain P665-7858 chromosome, complete genome	direct
+CP031683.1	NZ_CP031683.1	1467728508	SAMN07421937	727	Haemophilus influenzae strain P662-7189 chromosome, complete genome	alias:NZ_CP031683.1
+CP031684.1	CP031684.1	1463664129	SAMN07421929	727	Haemophilus influenzae strain P652-8881 chromosome, complete genome	direct
+CP031685.1	CP031685.1	1463660749	SAMN07421927	727	Haemophilus influenzae strain P650-8603 chromosome, complete genome	direct
+CP031686.1	CP031686.1	1463672088	SAMN07421919	727	Haemophilus influenzae strain P642-4396 chromosome, complete genome	direct
+CP031687.1	CP031687.1	1463708963	SAMN07421918	727	Haemophilus influenzae strain P641-4342 chromosome, complete genome	direct
+CP031688.1	CP031688.1	1463678483	SAMN07421913	727	Haemophilus influenzae strain P636-8296 chromosome, complete genome	direct
+CP031689.1	CP031689.1	1463662436	SAMN07421898	727	Haemophilus influenzae strain P621-7028 chromosome, complete genome	direct
+CP031690.1	CP031690.1	1463684800	SAMN07421894	727	Haemophilus influenzae strain P617-9224 chromosome, complete genome	direct
+CP031691.1	CP031691.1	1463703764	SAMN07421892	727	Haemophilus influenzae strain P615-8618 chromosome, complete genome	direct
+CP031692.1	CP031692.1	1463680174	SAMN07421872	727	Haemophilus influenzae strain P595-8370 chromosome, complete genome	direct
+CP043770.1	CP043770.1	1746308460	SAMN12687934	725	Haemophilus influenzae biotype aegyptius strain HE7/F1946 chromosome, complete genome	direct
+CP043771.1	CP043771.1	1746306608	SAMN12687935	725	Haemophilus influenzae biotype aegyptius strain HE15/F3028 chromosome, complete genome	direct
+CP043772.1	CP043772.1	1746304775	SAMN12687936	725	Haemophilus influenzae biotype aegyptius strain HE24/F3037 chromosome, complete genome	direct
+CP044497.1	CP044497.1	1757091335	SAMN12877006	727	Haemophilus influenzae strain PittGG chromosome, complete genome	direct
+CP063127.1	CP063127.1	1919225142	SAMN16409221	727	Haemophilus influenzae strain M1C112_1 chromosome, complete genome	direct
+CP082856.1	CP082856.1	2093905788	SAMN20888896	727	Haemophilus influenzae strain FDAARGOS_1479 chromosome, complete genome	direct
+CP085949.1	CP085949.1	2127640178	SAMN22091659	727	Haemophilus influenzae strain FDAARGOS_1562 chromosome, complete genome	direct
+CP085950.1	CP085950.1	2127641840	SAMN22091659	727	Haemophilus influenzae strain FDAARGOS_1562 plasmid unnamed, complete sequence	direct
+CP085951.1	CP085951.1	2127647716	SAMN22091658	727	Haemophilus influenzae strain FDAARGOS_1561 chromosome, complete genome	direct
+CP085952.1	CP085952.1	2127669731	SAMN22091657	727	Haemophilus influenzae strain FDAARGOS_1560 chromosome, complete genome	direct
+CP089167.1	CP089167.1	3003649789	SAMN23709844	727	Haemophilus influenzae strain mpi1786 chromosome, complete genome	direct
+CP089168.1	CP089168.1	3003665030	SAMN23709837	727	Haemophilus influenzae strain mpi1763 chromosome, complete genome	direct
+CP089169.1	CP089169.1	3003693131	NA	NA	NA	direct
+CP089170.1	CP089170.1	3003706915	SAMN23709815	727	Haemophilus influenzae strain mpi1561 chromosome, complete genome	direct
+CP089171.1	CP089171.1	3003721780	SAMN23709813	727	Haemophilus influenzae strain mpi1559 chromosome, complete genome	direct
+CP089172.1	CP089172.1	3003749642	SAMN23709810	727	Haemophilus influenzae strain mpi1547 chromosome, complete genome	direct
+CP089173.1	CP089173.1	3003751394	SAMN23709808	727	Haemophilus influenzae strain mpi1545 chromosome, complete genome	direct
+CP089174.1	CP089174.1	3003757260	SAMN23709807	727	Haemophilus influenzae strain mpi1481 chromosome, complete genome	direct
+CP089175.1	CP089175.1	3003766780	SAMN23709800	727	Haemophilus influenzae strain mpi1474 chromosome, complete genome	direct
+CP089176.1	CP089176.1	3004625342	SAMN23709786	727	Haemophilus influenzae strain mpi1430 chromosome, complete genome	direct
+CP089177.1	CP089177.1	3004628899	SAMN23709769	727	Haemophilus influenzae strain mpi1411 chromosome, complete genome	direct
+CP089178.1	CP089178.1	3004632367	SAMN23709768	727	Haemophilus influenzae strain mpi1341 chromosome, complete genome	direct
+CP089179.1	NZ_CP089179.1	3005513725	SAMN23709764	727	Haemophilus influenzae strain mpi1337 chromosome, complete genome	alias:NZ_CP089179.1
+CP089180.1	CP089180.1	3004630572	SAMN23709760	727	Haemophilus influenzae strain mpi1333 chromosome, complete genome	direct
+CP089181.1	CP089181.1	3003763379	SAMN23709743	727	Haemophilus influenzae strain mpi1200 chromosome, complete genome	direct
+CP089182.1	CP089182.1	3003765141	SAMN23709742	727	Haemophilus influenzae strain mpi1199 chromosome, complete genome	direct
+CP089183.1	CP089183.1	3003768598	SAMN23709741	727	Haemophilus influenzae strain mpi1198 chromosome, complete genome	direct
+CP089184.1	CP089184.1	3003770286	SAMN23709739	727	Haemophilus influenzae strain mpi1157 chromosome, complete genome	direct
+CP089185.1	CP089185.1	3003773582	SAMN23709735	727	Haemophilus influenzae strain mpi1153 chromosome, complete genome	direct
+CP089186.1	CP089186.1	3003775314	SAMN23709728	727	Haemophilus influenzae strain mpi1145 chromosome, complete genome	direct
+CP089187.1	CP089187.1	3003771943	SAMN23709723	727	Haemophilus influenzae strain mpi1140 chromosome, complete genome	direct
+CP089188.1	CP089188.1	3003777052	SAMN23709715	727	Haemophilus influenzae strain mpi1126 chromosome, complete genome	direct
+CP089189.1	CP089189.1	3003783884	SAMN23709706	727	Haemophilus influenzae strain mpi1117 chromosome, complete genome	direct
+CP089190.1	CP089190.1	3003787568	SAMN23709702	727	Haemophilus influenzae strain mpi993 chromosome, complete genome	direct
+CP089191.1	CP089191.1	3003785796	SAMN23709700	727	Haemophilus influenzae strain mpi991 chromosome, complete genome	direct
+CP089192.1	CP089192.1	3003796381	SAMN23709698	727	Haemophilus influenzae strain mpi989 chromosome, complete genome	direct
+CP089193.1	NZ_CP089193.1	3004832861	SAMN23709684	727	Haemophilus influenzae strain mpi971 chromosome, complete genome	alias:NZ_CP089193.1
+CP089194.1	CP089194.1	3003791184	SAMN23709676	727	Haemophilus influenzae strain mpi779 chromosome, complete genome	direct
+CP089195.1	CP089195.1	3003794673	SAMN23709667	727	Haemophilus influenzae strain mpi668 chromosome, complete genome	direct
+CP089196.1	CP089196.1	3003798200	SAMN23709665	727	Haemophilus influenzae strain mpi664 chromosome, complete genome	direct
+CP089197.1	CP089197.1	3003793017	SAMN23709659	727	Haemophilus influenzae strain mpi550 chromosome, complete genome	direct
+CP089198.1	CP089198.1	3003800020	SAMN23709657	727	Haemophilus influenzae strain mpi547 chromosome, complete genome	direct
+CP089199.1	CP089199.1	3003803447	SAMN23709654	727	Haemophilus influenzae strain mpi543 chromosome, complete genome	direct
+CP089200.1	CP089200.1	3003801732	SAMN23709647	727	Haemophilus influenzae strain mpi528 chromosome, complete genome	direct
+CP116489.1	CP116489.1	2440607821	SAMN06203705	727	Haemophilus influenzae strain 93P28H1 chromosome, complete genome	direct
+CP116490.1	CP116490.1	2440609526	SAMN06203703	727	Haemophilus influenzae strain 93P10H1 chromosome, complete genome	direct
+CP131716.1	CP131716.1	2720104223	SAMN36766238	727	Haemophilus influenzae strain 2016C10-304 chromosome, complete genome	direct
+CP131717.1	CP131717.1	2720111556	SAMN36766237	727	Haemophilus influenzae strain 2016N21-284 chromosome, complete genome	direct
+CP131718.1	CP131718.1	2720117077	SAMN36766236	727	Haemophilus influenzae strain 2016S11-301 chromosome, complete genome	direct
+CP131719.1	CP131719.1	2720113474	SAMN36766235	727	Haemophilus influenzae strain 2016S09-327 chromosome, complete genome	direct
+CP131720.1	CP131720.1	2720115363	SAMN36766234	727	Haemophilus influenzae strain 2016N07-308 chromosome, complete genome	direct
+CP131721.1	CP131721.1	2720117059	SAMN36766234	727	Haemophilus influenzae strain 2016N07-308 plasmid p2016N07-308-1, complete sequence	direct
+CP131722.1	CP131722.1	2720119121	SAMN36766233	727	Haemophilus influenzae strain 2018C09-260 chromosome, complete genome	direct
+CP131723.1	CP131723.1	2720121034	SAMN36766232	727	Haemophilus influenzae strain 2018C08-260 chromosome, complete genome	direct
+CP131724.1	CP131724.1	2720122911	SAMN36766231	727	Haemophilus influenzae strain 2018N05-309 chromosome, complete genome	direct
+CP131725.1	CP131725.1	2720124730	SAMN36766230	727	Haemophilus influenzae strain 2018S05-172 chromosome, complete genome	direct
+CP131726.1	CP131726.1	2956359802	SAMN36766229	727	Haemophilus influenzae strain 2018C04-262 chromosome, complete genome	direct
+CP135729.1	CP135729.1	2991311407	SAMN06203722	727	Haemophilus influenzae strain 99P50H1 chromosome, complete genome	direct
+CP135730.1	CP135730.1	2991313281	SAMN06203721	727	Haemophilus influenzae strain 99P41H1 chromosome, complete genome	direct
+CP135731.1	CP135731.1	2991316806	SAMN06203716	727	Haemophilus influenzae strain 96P6H3 chromosome, complete genome	direct
+CP135732.1	CP135732.1	2991315047	SAMN06203715	727	Haemophilus influenzae strain 96P6H1 chromosome, complete genome	direct
+CP135733.1	NZ_CP135733.1	2991945488	SAMN06203714	727	Haemophilus influenzae strain 96P3H1 chromosome, complete genome	alias:NZ_CP135733.1
+CP135734.1	CP135734.1	2991320382	SAMN06203712	727	Haemophilus influenzae strain 96P15H1 chromosome, complete genome	direct
+CP135735.1	CP135735.1	2991322199	SAMN06203710	727	Haemophilus influenzae strain 94P41H1 chromosome, complete genome	direct
+CP135736.1	CP135736.1	2991323821	SAMN06203709	727	Haemophilus influenzae strain 94P40H1 chromosome, complete genome	direct
+CP135737.1	CP135737.1	2991325449	SAMN06203708	727	Haemophilus influenzae strain 94P20H1 chromosome, complete genome	direct
+CP135738.1	CP135738.1	2991327149	SAMN06203707	727	Haemophilus influenzae strain 94P17H1 chromosome, complete genome	direct
+CP135739.1	CP135739.1	2991328843	SAMN06203704	727	Haemophilus influenzae strain 93P1H1 chromosome, complete genome	direct
+CP135740.1	CP135740.1	2991332297	SAMN06203701	727	Haemophilus influenzae strain 91P4H1 chromosome, complete genome	direct
+CP135741.1	CP135741.1	2991330519	SAMN06203700	727	Haemophilus influenzae strain 91P3H3 chromosome, complete genome	direct
+CP135742.1	CP135742.1	2991335840	SAMN06203698	727	Haemophilus influenzae strain 91P114H1 chromosome, complete genome	direct
+CP135743.1	CP135743.1	2991341028	SAMN06203697	727	Haemophilus influenzae strain 91P109H1 chromosome, complete genome	direct
+CP135744.1	CP135744.1	2991337628	SAMN06203695	727	Haemophilus influenzae strain 87P138H1 chromosome, complete genome	direct
+CP135745.1	CP135745.1	2991334075	SAMN06203694	727	Haemophilus influenzae strain 87P128H2 chromosome, complete genome	direct
+CP135746.1	CP135746.1	2991342804	SAMN06203692	727	Haemophilus influenzae strain 84P7H1 chromosome, complete genome	direct
+CP135748.1	CP135748.1	2991339387	SAMN06203690	727	Haemophilus influenzae strain 84P56H1 chromosome, complete genome	direct
+CP135749.1	CP135749.1	2994128193	SAMN06203706	727	Haemophilus influenzae strain 93P6H1 chromosome, complete genome	direct
+CP135750.1	CP135750.1	2994126554	SAMN06203689	727	Haemophilus influenzae strain 84P48H1 chromosome, complete genome	direct
+CP135751.1	CP135751.1	2994129895	SAMN06203687	727	Haemophilus influenzae strain 84P36H1 chromosome, complete genome	direct
+CP135752.1	CP135752.1	2994133500	SAMN06203685	727	Haemophilus influenzae strain 84P28H1 chromosome, complete genome	direct
+CP135753.1	CP135753.1	2994131807	SAMN06203684	727	Haemophilus influenzae strain 84P23H6 chromosome, complete genome	direct
+CP135754.1	CP135754.1	2994135199	SAMN06203683	727	Haemophilus influenzae strain 84P23H1 chromosome, complete genome	direct
+CP135755.1	CP135755.1	2994138892	SAMN06203682	727	Haemophilus influenzae strain 84P21H1 chromosome, complete genome	direct
+CP135756.1	CP135756.1	2994136985	SAMN06203681	727	Haemophilus influenzae strain 84P20H1 chromosome, complete genome	direct
+CP135757.1	CP135757.1	2994140692	SAMN06203680	727	Haemophilus influenzae strain 84P18H1 chromosome, complete genome	direct
+CP135758.1	CP135758.1	2994142398	SAMN06203679	727	Haemophilus influenzae strain 84P15H4 chromosome, complete genome	direct
+CP135759.1	CP135759.1	2997095357	SAMN06203678	727	Haemophilus influenzae strain 84P15H1 chromosome, complete genome	direct
+CP135760.1	CP135760.1	2997097041	SAMN06203676	727	Haemophilus influenzae strain 84P13H1 chromosome, complete genome	direct
+CP135761.1	CP135761.1	2997100410	SAMN06203670	727	Haemophilus influenzae strain 74P49H2 chromosome, complete genome	direct
+CP135762.1	CP135762.1	2997102315	NA	NA	NA	direct
+CP135763.1	CP135763.1	2997104016	SAMN06203668	727	Haemophilus influenzae strain 74P1H1 chromosome, complete genome	direct
+CP135764.1	CP135764.1	2997105802	SAMN06203667	727	Haemophilus influenzae strain 74P16H1 chromosome, complete genome	direct
+CP135765.1	CP135765.1	2997110911	SAMN06203666	727	Haemophilus influenzae strain 74P15H1 chromosome, complete genome	direct
+CP135766.1	CP135766.1	2997109209	SAMN06203665	727	Haemophilus influenzae strain 73P39H1 chromosome, complete genome	direct
+CP135767.1	CP135767.1	2997107507	SAMN06203664	727	Haemophilus influenzae strain 73P2H1 chromosome, complete genome	direct
+CP135768.1	CP135768.1	2997114345	SAMN06203663	727	Haemophilus influenzae strain 72P14H1 chromosome, complete genome	direct
+CP135769.1	CP135769.1	2997112699	SAMN06203662	727	Haemophilus influenzae strain 72P12H1 chromosome, complete genome	direct
+CP135770.1	CP135770.1	2997116021	SAMN06203661	727	Haemophilus influenzae strain 70P13H1 chromosome, complete genome	direct
+CP135771.1	CP135771.1	2997119563	SAMN06203660	727	Haemophilus influenzae strain 70P11H1 chromosome, complete genome	direct
+CP135772.1	CP135772.1	2997117902	SAMN06203659	727	Haemophilus influenzae strain 6P9H1 chromosome, complete genome	direct
+CP135773.1	CP135773.1	2997121432	SAMN06203658	727	Haemophilus influenzae strain 6P8H2 chromosome, complete genome	direct
+CP135774.1	CP135774.1	2997123089	SAMN06203657	727	Haemophilus influenzae strain 6P5H chromosome, complete genome	direct
+CP135775.1	CP135775.1	2997124902	SAMN06203654	727	Haemophilus influenzae strain 6P22H1 chromosome, complete genome	direct
+CP135776.1	CP135776.1	2997126716	SAMN06203653	727	Haemophilus influenzae strain 69P7H1 chromosome, complete genome	direct
+CP135777.1	CP135777.1	2997128645	SAMN06203652	727	Haemophilus influenzae strain 69P2H1 chromosome, complete genome	direct
+CP135778.1	CP135778.1	2997130587	SAMN06203649	727	Haemophilus influenzae strain 67P50H1 chromosome, complete genome	direct
+CP135779.1	CP135779.1	2997133971	SAMN06203647	727	Haemophilus influenzae strain 67P23H1 chromosome, complete genome	direct
+CP135780.1	CP135780.1	2997132336	SAMN06203645	727	Haemophilus influenzae strain 67P10H4 chromosome, complete genome	direct
+CP135781.1	CP135781.1	2997135606	SAMN06203643	727	Haemophilus influenzae strain 63P90H1 chromosome, complete genome	direct
+CP135782.1	CP135782.1	2997138832	SAMN06203642	727	Haemophilus influenzae strain 63P50H1 chromosome, complete genome	direct
+CP135784.1	NA	NA	NA	NA	NA	no_uid
+CP135808.1	CP135808.1	2997155528	SAMN06203592	727	Haemophilus influenzae strain 46P27H1 chromosome, complete genome	direct
+CP135809.1	CP135809.1	2997157294	SAMN06203589	727	Haemophilus influenzae strain 45P11H1 chromosome, complete genome	direct
+CP135810.1	CP135810.1	2997159286	SAMN06203588	727	Haemophilus influenzae strain 44P85H1 chromosome, complete genome	direct
+CP135811.1	CP135811.1	2997192108	SAMN06203587	727	Haemophilus influenzae strain 44P204H1 chromosome, complete genome	direct
+CP135812.1	CP135812.1	2997160986	NA	NA	NA	direct
+CP135813.1	CP135813.1	2997164384	SAMN06203585	727	Haemophilus influenzae strain 44P104H1 chromosome, complete genome	direct
+CP135814.1	CP135814.1	2997162749	SAMN06203582	727	Haemophilus influenzae strain 40P44H1 chromosome, complete genome	direct
+CP135815.1	CP135815.1	2997166084	SAMN06203581	727	Haemophilus influenzae strain 40P41H1 chromosome, complete genome	direct
+CP135816.1	CP135816.1	2997173083	SAMN06203580	727	Haemophilus influenzae strain 3P24H1 chromosome, complete genome	direct
+CP135817.1	CP135817.1	2997167734	SAMN06203579	727	Haemophilus influenzae strain 3P14H1 chromosome, complete genome	direct
+CP135818.1	CP135818.1	2997171413	SAMN06203578	727	Haemophilus influenzae strain 39P29H1 chromosome, complete genome	direct
+CP135819.1	CP135819.1	2997169683	SAMN06203576	727	Haemophilus influenzae strain 39P20H1 chromosome, complete genome	direct
+CP135820.1	CP135820.1	2997174774	SAMN06203575	727	Haemophilus influenzae strain 39P1H1 chromosome, complete genome	direct
+CP135821.1	CP135821.1	2997176513	SAMN06203574	727	Haemophilus influenzae strain 39P18H1 chromosome, complete genome	direct
+CP135822.1	CP135822.1	2997178253	SAMN06203572	727	Haemophilus influenzae strain 37P6H2 chromosome, complete genome	direct
+CP135823.1	CP135823.1	2997180067	SAMN06203571	727	Haemophilus influenzae strain 37P4H1 chromosome, complete genome	direct
+CP135824.1	CP135824.1	2997181882	SAMN06203569	727	Haemophilus influenzae strain 34P8H9 chromosome, complete genome	direct
+CP135825.1	CP135825.1	2997183648	SAMN06203565	727	Haemophilus influenzae strain 33P19H1 chromosome, complete genome	direct
+CP135826.1	CP135826.1	2997188688	SAMN06203563	727	Haemophilus influenzae strain 33P125H1 chromosome, complete genome	direct
+CP135827.1	CP135827.1	2997186966	SAMN06203562	727	Haemophilus influenzae strain 33P110H3 chromosome, complete genome	direct
+CP135828.1	CP135828.1	2997185342	SAMN06203560	727	Haemophilus influenzae strain 31P7H7 chromosome, complete genome	direct
+CP135829.1	CP135829.1	2997190408	SAMN06203559	727	Haemophilus influenzae strain 31P14H6 chromosome, complete genome	direct
+CP135830.1	CP135830.1	2997200634	SAMN06203555	727	Haemophilus influenzae strain 27P39H1 chromosome, complete genome	direct
+CP135831.1	CP135831.1	2997193900	SAMN06203554	727	Haemophilus influenzae strain 27P38H1 chromosome, complete genome	direct
+CP135832.1	CP135832.1	2997197222	SAMN06203551	727	Haemophilus influenzae strain 26P2H chromosome, complete genome	direct
+CP135833.1	CP135833.1	2997198931	SAMN06203550	727	Haemophilus influenzae strain 26P1H chromosome, complete genome	direct
+CP135834.1	CP135834.1	2997195591	SAMN06203549	727	Haemophilus influenzae strain 24P45H1 chromosome, complete genome	direct
+CP135835.1	CP135835.1	2997202390	SAMN06203548	727	Haemophilus influenzae strain 24P44H4 chromosome, complete genome	direct
+CP135836.1	CP135836.1	2997205748	SAMN06203546	727	Haemophilus influenzae strain 24P17H1 chromosome, complete genome	direct
+CP135837.1	CP135837.1	2997231855	SAMN06203545	727	Haemophilus influenzae strain 1P22H3 chromosome, complete genome	direct
+CP135838.1	CP135838.1	2997211172	SAMN06203544	727	Haemophilus influenzae strain 1P18H1 chromosome, complete genome	direct
+CP135839.1	CP135839.1	2997204019	SAMN06203543	727	Haemophilus influenzae strain 1P16H5 chromosome, complete genome	direct
+CP135840.1	CP135840.1	2997207420	SAMN06203542	727	Haemophilus influenzae strain 19P94H1 chromosome, complete genome	direct
+CP135841.1	CP135841.1	2997209251	SAMN06203541	727	Haemophilus influenzae strain 19P81H1 chromosome, complete genome	direct
+CP135842.1	CP135842.1	2997214555	SAMN06203540	727	Haemophilus influenzae strain 19P68H7 chromosome, complete genome	direct
+CP135843.1	NZ_CP135843.1	2998756858	SAMN06203539	727	Haemophilus influenzae strain 19P49H1 chromosome, complete genome	alias:NZ_CP135843.1
+CP135844.1	CP135844.1	2997212913	SAMN06203538	727	Haemophilus influenzae strain 19P173H1 chromosome, complete genome	direct
+CP135845.1	CP135845.1	2997218294	SAMN06203537	727	Haemophilus influenzae strain 19P172H1 chromosome, complete genome	direct
+CP135846.1	CP135846.1	2997223350	SAMN06203534	727	Haemophilus influenzae strain 18P17H2 chromosome, complete genome	direct
+CP135847.1	CP135847.1	2997219920	SAMN06203533	727	Haemophilus influenzae strain 18P16H1 chromosome, complete genome	direct
+CP135848.1	CP135848.1	2997233715	SAMN06203532	727	Haemophilus influenzae strain 14P8H4 chromosome, complete genome	direct
+CP135849.1	CP135849.1	2997221625	SAMN06203530	727	Haemophilus influenzae strain 14P46H1 chromosome, complete genome	direct
+CP135850.1	CP135850.1	2997226707	SAMN06203529	727	Haemophilus influenzae strain 14P41H1 chromosome, complete genome	direct
+CP135851.1	CP135851.1	2997225062	SAMN06203528	727	Haemophilus influenzae strain 14P35H1 chromosome, complete genome	direct
+CP135852.1	CP135852.1	2997230205	SAMN06203527	727	Haemophilus influenzae strain 14P33H2 chromosome, complete genome	direct
+CP135853.1	CP135853.1	2997228393	SAMN06203525	727	Haemophilus influenzae strain 14P23H1 chromosome, complete genome	direct
+CP135907.1	CP135907.1	2997098724	SAMN06203675	727	Haemophilus influenzae strain 84P12H1 chromosome, complete genome	direct
+CP135908.1	CP135908.1	2997140444	SAMN06203634	727	Haemophilus influenzae strain 59P6H1 chromosome, complete genome	direct
+CP135910.1	CP135910.1	2997143749	SAMN06203632	727	Haemophilus influenzae strain 59P1H1 chromosome, complete genome	direct
+CP135911.1	CP135911.1	2997145419	SAMN06203632	727	Haemophilus influenzae strain 59P1H1 plasmid unnamed, complete sequence	direct
+CP135912.1	CP135912.1	2997145460	SAMN06203624	727	Haemophilus influenzae strain 56P34H1 chromosome, complete genome	direct
+CP135913.1	CP135913.1	2997151805	SAMN06203612	727	Haemophilus influenzae strain 51P10H1 chromosome, complete genome	direct
+CP135914.1	CP135914.1	2997153759	SAMN06203593	727	Haemophilus influenzae strain 46P30H6 chromosome, complete genome	direct
+CP144280.1	CP144280.1	2673500410	SAMN39743870	727	Haemophilus influenzae strain P3_EMO chromosome, complete genome	direct
+CP146693.1	CP146693.1	2696768219	SAMN39831887	727	Haemophilus influenzae strain Rd-KW20 chromosome, complete genome	direct
+CP148001.1	CP148001.1	2937984513	SAMN40283276	727	Haemophilus influenzae strain AR2632 chromosome, complete genome	direct
+CP148002.1	CP148002.1	2937986253	SAMN40283275	727	Haemophilus influenzae strain AR2427 chromosome, complete genome	direct
+CP148890.1	CP148890.1	3007188195	SAMN40299924	727	Mutant Haemophilus influenzae isolate NTHi375 delta nagB#10, complete genome	direct
+CP148891.1	CP148891.1	3007190044	SAMN40299923	727	Mutant Haemophilus influenzae isolate NTHi375 delta nagB#9, complete genome	direct
+CP148892.1	CP148892.1	3007191791	SAMN40299922	727	Mutant Haemophilus influenzae isolate NTHi375 delta nagB#8, complete genome	direct
+CP148893.1	CP148893.1	3007198215	NA	NA	NA	direct
+CP148894.1	CP148894.1	3007200058	SAMN40299920	727	Haemophilus influenzae strain NTX chromosome, complete genome	direct
+CP148895.1	CP148895.1	3007201923	SAMN40299919	727	Haemophilus influenzae strain NT127 chromosome, complete genome	direct
+CP160810.1	CP160810.1	3040659691	SAMN42207749	727	Haemophilus influenzae strain MHI-4890 chromosome, complete genome	direct
+CP160811.1	CP160811.1	3040659692	SAMN42207748	727	Haemophilus influenzae strain MHI-4814 chromosome, complete genome	direct
+CP160812.1	NZ_CP160812.1	3043325776	SAMN42207747	727	Haemophilus influenzae strain MHI-4812 chromosome, complete genome	alias:NZ_CP160812.1
+CP160813.1	CP160813.1	3040659693	SAMN42207746	727	Haemophilus influenzae strain MHI-4772 chromosome, complete genome	direct
+CP160814.1	CP160814.1	3040659695	SAMN42207745	727	Haemophilus influenzae strain MHI-4743 chromosome, complete genome	direct
+CP160815.1	CP160815.1	3040662929	SAMN42207744	727	Haemophilus influenzae strain MHI-4688 chromosome, complete genome	direct
+CP160816.1	CP160816.1	3040662939	SAMN42207743	727	Haemophilus influenzae strain MHI-4640 chromosome, complete genome	direct
+CP160817.1	CP160817.1	3040662940	SAMN42207742	727	Haemophilus influenzae strain MHI-4615 chromosome, complete genome	direct
+CP160818.1	CP160818.1	3040662942	SAMN42207741	727	Haemophilus influenzae strain MHI-4578 chromosome, complete genome	direct
+CP160819.1	CP160819.1	3040662941	SAMN42207740	727	Haemophilus influenzae strain MHI-4537 chromosome, complete genome	direct
+CP160820.1	CP160820.1	3040662943	SAMN42207739	727	Haemophilus influenzae strain MHI-4506 chromosome, complete genome	direct
+CP160821.1	CP160821.1	3040662944	SAMN42207738	727	Haemophilus influenzae strain MHI-4466 chromosome, complete genome	direct
+CP160822.1	CP160822.1	3040666632	SAMN42207737	727	Haemophilus influenzae strain MHI-4419 chromosome, complete genome	direct
+CP165604.1	NZ_CP165604.1	2784850246	SAMN42940327	727	Haemophilus influenzae strain Rd-KW20 chromosome, complete genome	alias:NZ_CP165604.1
+CP167879.1	CP167879.1	2804729319	SAMN43089418	727	Haemophilus influenzae strain NTHi52 chromosome, complete genome	direct
+CP172082.1	CP172082.1	2843350219	SAMN11853699	727	Haemophilus influenzae strain GA54827 chromosome, complete genome	direct
+CP172083.1	CP172083.1	2843350220	SAMN11853699	727	Haemophilus influenzae strain GA54827 plasmid p1, complete sequence	direct
+CP172084.1	CP172084.1	2843350221	SAMN11853712	727	Haemophilus influenzae strain GA81666 chromosome, complete genome	direct
+FQ312006.1	NA	NA	NA	NA	NA	no_uid
+FQ670178.1	FQ670178.1	317431924	SAMEA3138342	866630	Haemophilus influenzae F3031 complete genome	direct
+FQ670204.1	FQ670204.1	317449542	SAMEA2272570	935897	Haemophilus influenzae F3047 complete genome	direct
+LN831035.1	LN831035.1	777209018	SAMEA2498480	727	Haemophilus influenzae genome assembly NCTC8143, chromosome : 1	direct
+LR134168.1	LR134168.1	1539458933	SAMEA3207623	727	Haemophilus influenzae strain NCTC11394 genome assembly, chromosome: 1	direct
+LR134171.1	LR134171.1	1539463027	NA	NA	NA	direct
+LR134490.1	LR134490.1	1540193267	SAMEA104200675	727	Haemophilus influenzae strain NCTC11873 genome assembly, chromosome: 1	direct
+LR590465.1	LR590465.1	1639008316	SAMEA3222080	727	Haemophilus influenzae strain NCTC8468 genome assembly, chromosome: 1	direct
+LS483392.1	LS483392.1	1403411823	SAMEA3867450	727	Haemophilus influenzae strain NCTC11931 genome assembly, chromosome: 1	direct
+LS483411.1	LS483411.1	1403459942	SAMEA3893456	727	Haemophilus influenzae strain NCTC11426 genome assembly, chromosome: 1	direct
+LS483438.1	LS483438.1	1403527523	SAMEA4030739	727	Haemophilus influenzae strain NCTC12975 genome assembly, chromosome: 1	direct
+LS483480.1	LS483480.1	1403648431	SAMEA3221101	727	Haemophilus influenzae strain NCTC13377 genome assembly, chromosome: 1	direct
+LS483486.1	LS483486.1	1403672381	SAMEA3207620	727	Haemophilus influenzae strain NCTC12194 genome assembly, chromosome: 1	direct
+LS483496.1	LS483496.1	1403709816	SAMEA2822163	727	Haemophilus influenzae strain NCTC8455 genome assembly, chromosome: 1	direct
+NC_007146.2	NC_007146.2	162960935	SAMN02603157	281310	Haemophilus influenzae 86-028NP, complete sequence	direct
+NC_014920.1	NC_014920.1	319896422	SAMEA3138342	866630	Haemophilus influenzae F3031, complete sequence	direct
+NC_014922.1	NC_014922.1	319774951	SAMEA2272570	935897	Haemophilus influenzae F3047, complete sequence	direct
+NC_016809.1	NC_016809.1	378696079	SAMEA3138383	862964	Haemophilus influenzae 10810, complete sequence	direct
+NC_017451.1	NC_017451.1	386263233	SAMN02604259	262728	Haemophilus influenzae R2866, complete sequence	direct
+NC_017452.1	NC_017452.1	386265029	SAMN02604260	262727	Haemophilus influenzae R2846, complete sequence	direct
+NC_022356.1	NC_022356.1	543951066	SAMN02603575	1334187	Haemophilus influenzae KR494, complete sequence	direct
+NZ_AP018764.1	NZ_AP018764.1	2084151801	SAMD00119525	727	Haemophilus influenzae strain CHBN-II-1 isolate 13H34 chromosome, complete genome	direct
+NZ_AP018765.1	NZ_AP018765.1	2084166737	SAMD00119526	727	Haemophilus influenzae strain CHBN-II-2 isolate 12H49 chromosome, complete genome	direct
+NZ_AP018766.1	NZ_AP018766.1	2084165317	NA	NA	NA	direct
+NZ_AP018767.1	NZ_AP018767.1	2084155342	SAMD00119528	727	Haemophilus influenzae strain CHBN-II-4 isolate 13H33 chromosome, complete genome	direct
+NZ_AP018768.1	NZ_AP018768.1	2084182493	SAMD00119529	727	Haemophilus influenzae strain CHBN-II-5 isolate 13H40 chromosome, complete genome	direct
+NZ_AP018769.1	NZ_AP018769.1	2084149215	SAMD00119530	727	Haemophilus influenzae strain CHBN-II-6 isolate 12H01 chromosome, complete genome	direct
+NZ_AP018770.1	NZ_AP018770.1	2084166393	SAMD00119531	727	Haemophilus influenzae strain CHBN-II-7 isolate 13H35 chromosome, complete genome	direct
+NZ_AP018771.1	NZ_AP018771.1	2084158552	SAMD00119532	727	Haemophilus influenzae strain CHBN-II-8 isolate 10H27 chromosome, complete genome	direct
+NZ_AP018772.1	NZ_AP018772.1	2084151982	SAMD00119533	727	Haemophilus influenzae strain CHBN-III-1 isolate 15H02 chromosome, complete genome	direct
+NZ_AP018773.1	NZ_AP018773.1	2084182360	SAMD00119534	727	Haemophilus influenzae strain CHBN-III-2 isolate 13H39 chromosome, complete genome	direct
+NZ_AP018774.1	NZ_AP018774.1	2084149320	SAMD00119535	727	Haemophilus influenzae strain CHBN-III-3 isolate 13H42 chromosome, complete genome	direct
+NZ_AP018775.1	NZ_AP018775.1	2084158442	SAMD00119536	727	Haemophilus influenzae strain CHBN-III-4 isolate 12H35 chromosome, complete genome	direct
+NZ_AP018776.1	NZ_AP018776.1	2084166846	SAMD00119537	727	Haemophilus influenzae strain CHBN-III-5 isolate 13H30 chromosome, complete genome	direct
+NZ_AP018777.1	NZ_AP018777.1	2084155432	SAMD00119538	727	Haemophilus influenzae strain CHBN-III-6 isolate 13H31 chromosome, complete genome	direct
+NZ_AP018778.1	NZ_AP018778.1	2084167989	SAMD00119539	727	Haemophilus influenzae strain CHBN-III-7 isolate 15H01 chromosome, complete genome	direct
+NZ_AP018779.1	NZ_AP018779.1	2084144500	SAMD00119540	727	Haemophilus influenzae strain CHBN-III-8 isolate 10H15 chromosome, complete genome	direct
+NZ_AP018780.1	NZ_AP018780.1	2084150829	SAMD00119541	727	Haemophilus influenzae strain CHBN-IV-1 isolate 13H36 chromosome, complete genome	direct
+NZ_AP018781.1	NZ_AP018781.1	2084160215	SAMD00119542	727	Haemophilus influenzae strain CHBN-V-1 isolate 13H43 chromosome, complete genome	direct
+NZ_AP018782.1	AP018782.1	2043727769	SAMD00119543	727	Haemophilus influenzae CHBN-V-2 DNA, complete genome	alias:AP018782.1
+NZ_AP018783.1	NZ_AP018783.1	2084182753	SAMD00119544	727	Haemophilus influenzae strain CHBN-V-3 isolate 15H03 chromosome, complete genome	direct
+NZ_AP022846.1	NZ_AP022846.1	1909937728	SAMD00204789	727	Haemophilus influenzae strain TAMBA230 chromosome, complete genome	direct
+NZ_AP022867.1	NZ_AP022867.1	1867874545	SAMD00210359	727	Haemophilus influenzae strain 2018-Y40 chromosome, complete genome	direct
+NZ_AP024414.1	NZ_AP024414.1	1986236339	NA	NA	NA	direct
+NZ_CP007470.1	NZ_CP007470.1	764357426	SAMN02595602	727	Haemophilus influenzae strain 477 chromosome, complete genome	direct
+NZ_CP007471.1	NZ_CP007471.1	764390102	SAMN02595604	727	Haemophilus influenzae strain C486 chromosome, complete genome	direct
+NZ_CP007472.1	NZ_CP007472.1	764437982	SAMN02595605	727	Haemophilus influenzae strain 723 chromosome, complete genome	direct
+NZ_CP007805.1	NZ_CP007805.1	749298689	SAMN02800345	1295140	Haemophilus influenzae CGSHiCZ412602 chromosome, complete genome	direct
+NZ_CP008740.1	NZ_CP008740.1	803453675	SAMN03450976	1232659	Haemophilus influenzae 2019 chromosome, complete genome	direct
+NZ_CP009610.1	NZ_CP009610.1	754508973	SAMN03093440	727	Haemophilus influenzae strain Hi375 chromosome, complete genome	direct
+NZ_CP017811.1	NZ_CP017811.1	1096119112	SAMN05714732	727	Haemophilus influenzae strain NML-Hia-1 chromosome, complete genome	direct
+NZ_CP020006.1	CP020006.1	1352751775	SAMN06203601	727	Haemophilus influenzae strain 48P106H1 chromosome, complete genome	alias:CP020006.1
+NZ_CP020007.1	NZ_CP020007.1	1356377620	SAMN06203603	727	Haemophilus influenzae strain 48P153H1 chromosome, complete genome	direct
+NZ_CP020008.1	NZ_CP020008.1	1355950258	SAMN06203638	727	Haemophilus influenzae strain 5P28H1 chromosome, complete genome	direct
+NZ_CP020009.1	NZ_CP020009.1	1356018572	SAMN06203639	727	Haemophilus influenzae strain 5P54H1 chromosome, complete genome	direct
+NZ_CP020010.1	NZ_CP020010.1	1355929925	SAMN06203648	727	Haemophilus influenzae strain 67P38H1 chromosome, complete genome	direct
+NZ_CP020011.1	NZ_CP020011.1	1355930549	SAMN06203650	727	Haemophilus influenzae strain 67P56H1 chromosome, complete genome	direct
+NZ_CP020012.1	NZ_CP020012.1	1356470115	SAMN06203655	727	Haemophilus influenzae strain 6P24H2 chromosome, complete genome	direct
+NZ_CP020013.1	NZ_CP020013.1	1355966764	SAMN06203656	727	Haemophilus influenzae strain 6P32H1 chromosome, complete genome	direct
+NZ_CP020014.1	NZ_CP020014.1	1356019133	SAMN06203483	727	Haemophilus influenzae strain 11P6H chromosome, complete genome	direct
+NZ_CP020411.2	NZ_CP020411.2	1355444439	SAMN04875536	727	Haemophilus influenzae strain FDAARGOS_199 chromosome, complete genome	direct
+NZ_CP031236.1	NZ_CP031236.1	1441358716	SAMN09704927	727	Haemophilus influenzae strain M25267 chromosome, complete genome	direct
+NZ_CP031237.1	NZ_CP031237.1	1441357050	SAMN09704892	727	Haemophilus influenzae strain M12125 chromosome, complete genome	direct
+NZ_CP031239.1	NZ_CP031239.1	1441360444	SAMN09704896	727	Haemophilus influenzae strain M13034 chromosome, complete genome	direct
+NZ_CP031241.1	NZ_CP031241.1	1441402606	SAMN09704911	727	Haemophilus influenzae strain M17648 chromosome, complete genome	direct
+NZ_CP031242.1	NZ_CP031242.1	1441375461	SAMN09704917	727	Haemophilus influenzae strain M21460 chromosome, complete genome	direct
+NZ_CP031249.1	NZ_CP031249.1	1441402774	SAMN09704905	727	Haemophilus influenzae strain M15895 chromosome, complete genome	direct
+NZ_CP031250.1	NZ_CP031250.1	1441360382	SAMN09704916	727	Haemophilus influenzae strain M21384 chromosome, complete genome	direct
+NZ_CP031254.1	NZ_CP031254.1	1441343281	SAMN09704928	727	Haemophilus influenzae strain M25588 chromosome, complete genome	direct
+NZ_CP031678.1	NZ_CP031678.1	1467723228	SAMN07421955	727	Haemophilus influenzae strain P679-2791 chromosome, complete genome	direct
+NZ_CP031679.1	NZ_CP031679.1	1467738371	SAMN07421951	727	Haemophilus influenzae strain P676-2514 chromosome, complete genome	direct
+NZ_CP031680.1	NZ_CP031680.1	1467701688	SAMN07421947	727	Haemophilus influenzae strain P672-7661 chromosome, complete genome	direct
+NZ_CP031681.1	NZ_CP031681.1	1467737055	SAMN07421944	727	Haemophilus influenzae strain P669-6977 chromosome, complete genome	direct
+NZ_CP031682.1	NZ_CP031682.1	1467728607	SAMN07421940	727	Haemophilus influenzae strain P665-7858 chromosome, complete genome	direct
+NZ_CP031683.1	NZ_CP031683.1	1467728508	SAMN07421937	727	Haemophilus influenzae strain P662-7189 chromosome, complete genome	direct
+NZ_CP031684.1	NZ_CP031684.1	1467718277	SAMN07421929	727	Haemophilus influenzae strain P652-8881 chromosome, complete genome	direct
+NZ_CP031685.1	NZ_CP031685.1	1467717194	SAMN07421927	727	Haemophilus influenzae strain P650-8603 chromosome, complete genome	direct
+NZ_CP031686.1	NZ_CP031686.1	1467699808	SAMN07421919	727	Haemophilus influenzae strain P642-4396 chromosome, complete genome	direct
+NZ_CP031687.1	NZ_CP031687.1	1467735570	SAMN07421918	727	Haemophilus influenzae strain P641-4342 chromosome, complete genome	direct
+NZ_CP031688.1	NZ_CP031688.1	1467734847	SAMN07421913	727	Haemophilus influenzae strain P636-8296 chromosome, complete genome	direct
+NZ_CP031689.1	NZ_CP031689.1	1467728655	SAMN07421898	727	Haemophilus influenzae strain P621-7028 chromosome, complete genome	direct
+NZ_CP031690.1	NZ_CP031690.1	1467719433	SAMN07421894	727	Haemophilus influenzae strain P617-9224 chromosome, complete genome	direct
+NZ_CP031691.1	NZ_CP031691.1	1467731119	SAMN07421892	727	Haemophilus influenzae strain P615-8618 chromosome, complete genome	direct
+NZ_CP031692.1	NZ_CP031692.1	1467728648	SAMN07421872	727	Haemophilus influenzae strain P595-8370 chromosome, complete genome	direct
+NZ_CP043770.1	NZ_CP043770.1	1747449212	SAMN12687934	725	Haemophilus influenzae biotype aegyptius strain HE7/F1946 chromosome, complete genome	direct
+NZ_CP043771.1	NZ_CP043771.1	1747439777	SAMN12687935	725	Haemophilus influenzae biotype aegyptius strain HE15/F3028 chromosome, complete genome	direct
+NZ_CP043772.1	NZ_CP043772.1	1747439750	SAMN12687936	725	Haemophilus influenzae biotype aegyptius strain HE24/F3037 chromosome, complete genome	direct
+NZ_CP044497.1	NZ_CP044497.1	1759669654	SAMN12877006	727	Haemophilus influenzae strain PittGG chromosome, complete genome	direct
+NZ_CP063127.1	NZ_CP063127.1	1942740206	SAMN16409221	727	Haemophilus influenzae strain M1C112_1 chromosome, complete genome	direct
+NZ_CP082856.1	NZ_CP082856.1	2099876513	SAMN20888896	727	Haemophilus influenzae strain FDAARGOS_1479 chromosome, complete genome	direct
+NZ_CP085949.1	NZ_CP085949.1	2128918559	SAMN22091659	727	Haemophilus influenzae strain FDAARGOS_1562 chromosome, complete genome	direct
+NZ_CP085950.1	NZ_CP085950.1	2128919406	SAMN22091659	727	Haemophilus influenzae strain FDAARGOS_1562 plasmid unnamed, complete sequence	direct
+NZ_CP085951.1	NZ_CP085951.1	2128689020	SAMN22091658	727	Haemophilus influenzae strain FDAARGOS_1561 chromosome, complete genome	direct
+NZ_CP085952.1	NZ_CP085952.1	2128799274	SAMN22091657	727	Haemophilus influenzae strain FDAARGOS_1560 chromosome, complete genome	direct
+NZ_CP089167.1	NZ_CP089167.1	3004810211	SAMN23709844	727	Haemophilus influenzae strain mpi1786 chromosome, complete genome	direct
+NZ_CP089168.1	NZ_CP089168.1	3004833342	SAMN23709837	727	Haemophilus influenzae strain mpi1763 chromosome, complete genome	direct
+NZ_CP089169.1	NZ_CP089169.1	3004812851	NA	NA	NA	direct
+NZ_CP089170.1	NZ_CP089170.1	3004812587	SAMN23709815	727	Haemophilus influenzae strain mpi1561 chromosome, complete genome	direct
+NZ_CP089171.1	NZ_CP089171.1	3004810302	SAMN23709813	727	Haemophilus influenzae strain mpi1559 chromosome, complete genome	direct
+NZ_CP089172.1	NZ_CP089172.1	3004828682	SAMN23709810	727	Haemophilus influenzae strain mpi1547 chromosome, complete genome	direct
+NZ_CP089173.1	NZ_CP089173.1	3004834903	SAMN23709808	727	Haemophilus influenzae strain mpi1545 chromosome, complete genome	direct
+NZ_CP089174.1	NZ_CP089174.1	3004810246	SAMN23709807	727	Haemophilus influenzae strain mpi1481 chromosome, complete genome	direct
+NZ_CP089175.1	NZ_CP089175.1	3004815104	SAMN23709800	727	Haemophilus influenzae strain mpi1474 chromosome, complete genome	direct
+NZ_CP089176.1	NZ_CP089176.1	3005525561	SAMN23709786	727	Haemophilus influenzae strain mpi1430 chromosome, complete genome	direct
+NZ_CP089177.1	NA	NA	NA	NA	NA	no_uid
+NZ_CP089178.1	NZ_CP089178.1	3005508550	SAMN23709768	727	Haemophilus influenzae strain mpi1341 chromosome, complete genome	direct
+NZ_CP089179.1	NZ_CP089179.1	3005513725	SAMN23709764	727	Haemophilus influenzae strain mpi1337 chromosome, complete genome	direct
+NZ_CP089180.1	NZ_CP089180.1	3005512432	SAMN23709760	727	Haemophilus influenzae strain mpi1333 chromosome, complete genome	direct
+NZ_CP089181.1	CP089181.1	3003763379	SAMN23709743	727	Haemophilus influenzae strain mpi1200 chromosome, complete genome	alias:CP089181.1
+NZ_CP089182.1	NZ_CP089182.1	3004812337	SAMN23709742	727	Haemophilus influenzae strain mpi1199 chromosome, complete genome	direct
+NZ_CP089183.1	NZ_CP089183.1	3004812438	SAMN23709741	727	Haemophilus influenzae strain mpi1198 chromosome, complete genome	direct
+NZ_CP089184.1	NZ_CP089184.1	3004822683	SAMN23709739	727	Haemophilus influenzae strain mpi1157 chromosome, complete genome	direct
+NZ_CP089185.1	NZ_CP089185.1	3004819839	SAMN23709735	727	Haemophilus influenzae strain mpi1153 chromosome, complete genome	direct
+NZ_CP089186.1	NZ_CP089186.1	3004814443	SAMN23709728	727	Haemophilus influenzae strain mpi1145 chromosome, complete genome	direct
+NZ_CP089187.1	NZ_CP089187.1	3004820399	SAMN23709723	727	Haemophilus influenzae strain mpi1140 chromosome, complete genome	direct
+NZ_CP089188.1	NZ_CP089188.1	3004833433	SAMN23709715	727	Haemophilus influenzae strain mpi1126 chromosome, complete genome	direct
+NZ_CP089189.1	NZ_CP089189.1	3004812494	SAMN23709706	727	Haemophilus influenzae strain mpi1117 chromosome, complete genome	direct
+NZ_CP089190.1	NZ_CP089190.1	3004814134	SAMN23709702	727	Haemophilus influenzae strain mpi993 chromosome, complete genome	direct
+NZ_CP089191.1	NZ_CP089191.1	3004830837	SAMN23709700	727	Haemophilus influenzae strain mpi991 chromosome, complete genome	direct
+NZ_CP089192.1	NZ_CP089192.1	3004842966	SAMN23709698	727	Haemophilus influenzae strain mpi989 chromosome, complete genome	direct
+NZ_CP089193.1	NZ_CP089193.1	3004832861	SAMN23709684	727	Haemophilus influenzae strain mpi971 chromosome, complete genome	direct
+NZ_CP089194.1	NZ_CP089194.1	3004816578	SAMN23709676	727	Haemophilus influenzae strain mpi779 chromosome, complete genome	direct
+NZ_CP089195.1	NZ_CP089195.1	3004829667	SAMN23709667	727	Haemophilus influenzae strain mpi668 chromosome, complete genome	direct
+NZ_CP089196.1	NZ_CP089196.1	3004821966	SAMN23709665	727	Haemophilus influenzae strain mpi664 chromosome, complete genome	direct
+NZ_CP089197.1	NZ_CP089197.1	3004811116	SAMN23709659	727	Haemophilus influenzae strain mpi550 chromosome, complete genome	direct
+NZ_CP089198.1	NZ_CP089198.1	3004828777	SAMN23709657	727	Haemophilus influenzae strain mpi547 chromosome, complete genome	direct
+NZ_CP089199.1	NZ_CP089199.1	3004843444	SAMN23709654	727	Haemophilus influenzae strain mpi543 chromosome, complete genome	direct
+NZ_CP089200.1	NZ_CP089200.1	3004820946	SAMN23709647	727	Haemophilus influenzae strain mpi528 chromosome, complete genome	direct
+NZ_CP116489.1	NZ_CP116489.1	2440873361	SAMN06203705	727	Haemophilus influenzae strain 93P28H1 chromosome, complete genome	direct
+NZ_CP116490.1	CP116490.1	2440609526	SAMN06203703	727	Haemophilus influenzae strain 93P10H1 chromosome, complete genome	alias:CP116490.1
+NZ_CP131716.1	NZ_CP131716.1	2721311979	SAMN36766238	727	Haemophilus influenzae strain 2016C10-304 chromosome, complete genome	direct
+NZ_CP131717.1	NZ_CP131717.1	2721307465	SAMN36766237	727	Haemophilus influenzae strain 2016N21-284 chromosome, complete genome	direct
+NZ_CP131718.1	NZ_CP131718.1	2721330177	SAMN36766236	727	Haemophilus influenzae strain 2016S11-301 chromosome, complete genome	direct
+NZ_CP131719.1	NZ_CP131719.1	2721336062	SAMN36766235	727	Haemophilus influenzae strain 2016S09-327 chromosome, complete genome	direct
+NZ_CP131720.1	NZ_CP131720.1	2721311616	SAMN36766234	727	Haemophilus influenzae strain 2016N07-308 chromosome, complete genome	direct
+NZ_CP131721.1	NZ_CP131721.1	2721311660	SAMN36766234	727	Haemophilus influenzae strain 2016N07-308 plasmid p2016N07-308-1, complete sequence	direct
+NZ_CP131722.1	NZ_CP131722.1	2721310392	SAMN36766233	727	Haemophilus influenzae strain 2018C09-260 chromosome, complete genome	direct
+NZ_CP131723.1	NZ_CP131723.1	2721309199	SAMN36766232	727	Haemophilus influenzae strain 2018C08-260 chromosome, complete genome	direct
+NZ_CP131724.1	NZ_CP131724.1	2721324575	SAMN36766231	727	Haemophilus influenzae strain 2018N05-309 chromosome, complete genome	direct
+NZ_CP131725.1	NZ_CP131725.1	2721310703	SAMN36766230	727	Haemophilus influenzae strain 2018S05-172 chromosome, complete genome	direct
+NZ_CP131726.1	NZ_CP131726.1	2958494550	SAMN36766229	727	Haemophilus influenzae strain 2018C04-262 chromosome, complete genome	direct
+NZ_CP135729.1	NZ_CP135729.1	2991872974	SAMN06203722	727	Haemophilus influenzae strain 99P50H1 chromosome, complete genome	direct
+NZ_CP135730.1	CP135730.1	2991313281	SAMN06203721	727	Haemophilus influenzae strain 99P41H1 chromosome, complete genome	alias:CP135730.1
+NZ_CP135731.1	NZ_CP135731.1	2991857677	SAMN06203716	727	Haemophilus influenzae strain 96P6H3 chromosome, complete genome	direct
+NZ_CP135732.1	NZ_CP135732.1	2991896718	SAMN06203715	727	Haemophilus influenzae strain 96P6H1 chromosome, complete genome	direct
+NZ_CP135733.1	NZ_CP135733.1	2991945488	SAMN06203714	727	Haemophilus influenzae strain 96P3H1 chromosome, complete genome	direct
+NZ_CP135734.1	NZ_CP135734.1	2991861229	SAMN06203712	727	Haemophilus influenzae strain 96P15H1 chromosome, complete genome	direct
+NZ_CP135735.1	NZ_CP135735.1	2991881289	SAMN06203710	727	Haemophilus influenzae strain 94P41H1 chromosome, complete genome	direct
+NZ_CP135736.1	NZ_CP135736.1	2991880283	SAMN06203709	727	Haemophilus influenzae strain 94P40H1 chromosome, complete genome	direct
+NZ_CP135737.1	NZ_CP135737.1	2991908524	SAMN06203708	727	Haemophilus influenzae strain 94P20H1 chromosome, complete genome	direct
+NZ_CP135738.1	NZ_CP135738.1	2991944598	SAMN06203707	727	Haemophilus influenzae strain 94P17H1 chromosome, complete genome	direct
+NZ_CP135739.1	NZ_CP135739.1	2991897441	SAMN06203704	727	Haemophilus influenzae strain 93P1H1 chromosome, complete genome	direct
+NZ_CP135740.1	NZ_CP135740.1	2991915252	SAMN06203701	727	Haemophilus influenzae strain 91P4H1 chromosome, complete genome	direct
+NZ_CP135741.1	NZ_CP135741.1	2991857682	SAMN06203700	727	Haemophilus influenzae strain 91P3H3 chromosome, complete genome	direct
+NZ_CP135742.1	NZ_CP135742.1	2991861373	SAMN06203698	727	Haemophilus influenzae strain 91P114H1 chromosome, complete genome	direct
+NZ_CP135743.1	NZ_CP135743.1	2991880317	SAMN06203697	727	Haemophilus influenzae strain 91P109H1 chromosome, complete genome	direct
+NZ_CP135744.1	NZ_CP135744.1	2991920850	SAMN06203695	727	Haemophilus influenzae strain 87P138H1 chromosome, complete genome	direct
+NZ_CP135745.1	NZ_CP135745.1	2991873120	SAMN06203694	727	Haemophilus influenzae strain 87P128H2 chromosome, complete genome	direct
+NZ_CP135746.1	NZ_CP135746.1	2991863671	SAMN06203692	727	Haemophilus influenzae strain 84P7H1 chromosome, complete genome	direct
+NZ_CP135748.1	NZ_CP135748.1	2991944139	SAMN06203690	727	Haemophilus influenzae strain 84P56H1 chromosome, complete genome	direct
+NZ_CP135749.1	NZ_CP135749.1	2996831288	SAMN06203706	727	Haemophilus influenzae strain 93P6H1 chromosome, complete genome	direct
+NZ_CP135750.1	NZ_CP135750.1	2996884730	SAMN06203689	727	Haemophilus influenzae strain 84P48H1 chromosome, complete genome	direct
+NZ_CP135751.1	NZ_CP135751.1	2996855697	SAMN06203687	727	Haemophilus influenzae strain 84P36H1 chromosome, complete genome	direct
+NZ_CP135752.1	NZ_CP135752.1	2996853749	SAMN06203685	727	Haemophilus influenzae strain 84P28H1 chromosome, complete genome	direct
+NZ_CP135753.1	NZ_CP135753.1	2996798152	SAMN06203684	727	Haemophilus influenzae strain 84P23H6 chromosome, complete genome	direct
+NZ_CP135754.1	CP135754.1	2994135199	SAMN06203683	727	Haemophilus influenzae strain 84P23H1 chromosome, complete genome	alias:CP135754.1
+NZ_CP135755.1	CP135755.1	2994138892	SAMN06203682	727	Haemophilus influenzae strain 84P21H1 chromosome, complete genome	alias:CP135755.1
+NZ_CP135756.1	NZ_CP135756.1	2996830244	SAMN06203681	727	Haemophilus influenzae strain 84P20H1 chromosome, complete genome	direct
+NZ_CP135757.1	NZ_CP135757.1	2996809560	SAMN06203680	727	Haemophilus influenzae strain 84P18H1 chromosome, complete genome	direct
+NZ_CP135758.1	NZ_CP135758.1	2996855687	SAMN06203679	727	Haemophilus influenzae strain 84P15H4 chromosome, complete genome	direct
+NZ_CP135759.1	NZ_CP135759.1	2997552808	SAMN06203678	727	Haemophilus influenzae strain 84P15H1 chromosome, complete genome	direct
+NZ_CP135760.1	NZ_CP135760.1	2997578477	SAMN06203676	727	Haemophilus influenzae strain 84P13H1 chromosome, complete genome	direct
+NZ_CP135761.1	CP135761.1	2997100410	SAMN06203670	727	Haemophilus influenzae strain 74P49H2 chromosome, complete genome	alias:CP135761.1
+NZ_CP135762.1	NZ_CP135762.1	2997541386	SAMN06203669	727	Haemophilus influenzae strain 74P23H1 chromosome, complete genome	direct
+NZ_CP135763.1	NZ_CP135763.1	2997608210	SAMN06203668	727	Haemophilus influenzae strain 74P1H1 chromosome, complete genome	direct
+NZ_CP135764.1	NZ_CP135764.1	2997578625	SAMN06203667	727	Haemophilus influenzae strain 74P16H1 chromosome, complete genome	direct
+NZ_CP135765.1	NZ_CP135765.1	2998740402	SAMN06203666	727	Haemophilus influenzae strain 74P15H1 chromosome, complete genome	direct
+NZ_CP135766.1	NZ_CP135766.1	2998740417	SAMN06203665	727	Haemophilus influenzae strain 73P39H1 chromosome, complete genome	direct
+NZ_CP135767.1	NZ_CP135767.1	2998752113	SAMN06203664	727	Haemophilus influenzae strain 73P2H1 chromosome, complete genome	direct
+NZ_CP135768.1	NZ_CP135768.1	2998740399	SAMN06203663	727	Haemophilus influenzae strain 72P14H1 chromosome, complete genome	direct
+NZ_CP135769.1	CP135769.1	2997112699	SAMN06203662	727	Haemophilus influenzae strain 72P12H1 chromosome, complete genome	alias:CP135769.1
+NZ_CP135770.1	NZ_CP135770.1	2998765657	SAMN06203661	727	Haemophilus influenzae strain 70P13H1 chromosome, complete genome	direct
+NZ_CP135771.1	NZ_CP135771.1	2998740834	SAMN06203660	727	Haemophilus influenzae strain 70P11H1 chromosome, complete genome	direct
+NZ_CP135772.1	NZ_CP135772.1	2998755427	SAMN06203659	727	Haemophilus influenzae strain 6P9H1 chromosome, complete genome	direct
+NZ_CP135773.1	NZ_CP135773.1	2998753626	SAMN06203658	727	Haemophilus influenzae strain 6P8H2 chromosome, complete genome	direct
+NZ_CP135774.1	NZ_CP135774.1	2998766461	SAMN06203657	727	Haemophilus influenzae strain 6P5H chromosome, complete genome	direct
+NZ_CP135775.1	NZ_CP135775.1	2998740450	SAMN06203654	727	Haemophilus influenzae strain 6P22H1 chromosome, complete genome	direct
+NZ_CP135776.1	NZ_CP135776.1	2998740693	SAMN06203653	727	Haemophilus influenzae strain 69P7H1 chromosome, complete genome	direct
+NZ_CP135777.1	NZ_CP135777.1	2998764375	SAMN06203652	727	Haemophilus influenzae strain 69P2H1 chromosome, complete genome	direct
+NZ_CP135778.1	NZ_CP135778.1	2998774652	SAMN06203649	727	Haemophilus influenzae strain 67P50H1 chromosome, complete genome	direct
+NZ_CP135779.1	NZ_CP135779.1	2998752448	SAMN06203647	727	Haemophilus influenzae strain 67P23H1 chromosome, complete genome	direct
+NZ_CP135780.1	NZ_CP135780.1	2998756950	SAMN06203645	727	Haemophilus influenzae strain 67P10H4 chromosome, complete genome	direct
+NZ_CP135781.1	CP135781.1	2997135606	SAMN06203643	727	Haemophilus influenzae strain 63P90H1 chromosome, complete genome	alias:CP135781.1
+NZ_CP135782.1	NZ_CP135782.1	2998764536	SAMN06203642	727	Haemophilus influenzae strain 63P50H1 chromosome, complete genome	direct
+NZ_CP135784.1	CP135784.1	2997137169	SAMN06203636	727	Haemophilus influenzae strain 5P1H1 chromosome, complete genome	alias:CP135784.1
+NZ_CP135808.1	NZ_CP135808.1	2998762632	SAMN06203592	727	Haemophilus influenzae strain 46P27H1 chromosome, complete genome	direct
+NZ_CP135809.1	NZ_CP135809.1	2998740493	SAMN06203589	727	Haemophilus influenzae strain 45P11H1 chromosome, complete genome	direct
+NZ_CP135810.1	NZ_CP135810.1	2998764248	SAMN06203588	727	Haemophilus influenzae strain 44P85H1 chromosome, complete genome	direct
+NZ_CP135811.1	NZ_CP135811.1	2998767590	SAMN06203587	727	Haemophilus influenzae strain 44P204H1 chromosome, complete genome	direct
+NZ_CP135812.1	NZ_CP135812.1	2998743301	SAMN06203586	727	Haemophilus influenzae strain 44P197H1 chromosome, complete genome	direct
+NZ_CP135813.1	NZ_CP135813.1	2998740393	SAMN06203585	727	Haemophilus influenzae strain 44P104H1 chromosome, complete genome	direct
+NZ_CP135814.1	NZ_CP135814.1	2998740506	SAMN06203582	727	Haemophilus influenzae strain 40P44H1 chromosome, complete genome	direct
+NZ_CP135815.1	NZ_CP135815.1	2998743620	SAMN06203581	727	Haemophilus influenzae strain 40P41H1 chromosome, complete genome	direct
+NZ_CP135816.1	NZ_CP135816.1	2998755774	SAMN06203580	727	Haemophilus influenzae strain 3P24H1 chromosome, complete genome	direct
+NZ_CP135817.1	NZ_CP135817.1	2998763338	SAMN06203579	727	Haemophilus influenzae strain 3P14H1 chromosome, complete genome	direct
+NZ_CP135818.1	NZ_CP135818.1	2998756419	SAMN06203578	727	Haemophilus influenzae strain 39P29H1 chromosome, complete genome	direct
+NZ_CP135819.1	NZ_CP135819.1	2998768455	SAMN06203576	727	Haemophilus influenzae strain 39P20H1 chromosome, complete genome	direct
+NZ_CP135820.1	NZ_CP135820.1	2998774640	SAMN06203575	727	Haemophilus influenzae strain 39P1H1 chromosome, complete genome	direct
+NZ_CP135821.1	NZ_CP135821.1	2998765049	SAMN06203574	727	Haemophilus influenzae strain 39P18H1 chromosome, complete genome	direct
+NZ_CP135822.1	NZ_CP135822.1	2998742497	SAMN06203572	727	Haemophilus influenzae strain 37P6H2 chromosome, complete genome	direct
+NZ_CP135823.1	NZ_CP135823.1	2998756456	SAMN06203571	727	Haemophilus influenzae strain 37P4H1 chromosome, complete genome	direct
+NZ_CP135824.1	NZ_CP135824.1	2998764086	SAMN06203569	727	Haemophilus influenzae strain 34P8H9 chromosome, complete genome	direct
+NZ_CP135825.1	NZ_CP135825.1	2998763193	SAMN06203565	727	Haemophilus influenzae strain 33P19H1 chromosome, complete genome	direct
+NZ_CP135826.1	NZ_CP135826.1	2998740409	SAMN06203563	727	Haemophilus influenzae strain 33P125H1 chromosome, complete genome	direct
+NZ_CP135827.1	NZ_CP135827.1	2998749215	SAMN06203562	727	Haemophilus influenzae strain 33P110H3 chromosome, complete genome	direct
+NZ_CP135828.1	NZ_CP135828.1	2998755766	SAMN06203560	727	Haemophilus influenzae strain 31P7H7 chromosome, complete genome	direct
+NZ_CP135829.1	CP135829.1	2997190408	SAMN06203559	727	Haemophilus influenzae strain 31P14H6 chromosome, complete genome	alias:CP135829.1
+NZ_CP135830.1	NZ_CP135830.1	2998774713	SAMN06203555	727	Haemophilus influenzae strain 27P39H1 chromosome, complete genome	direct
+NZ_CP135831.1	NZ_CP135831.1	2998765396	SAMN06203554	727	Haemophilus influenzae strain 27P38H1 chromosome, complete genome	direct
+NZ_CP135832.1	NZ_CP135832.1	2998740492	SAMN06203551	727	Haemophilus influenzae strain 26P2H chromosome, complete genome	direct
+NZ_CP135833.1	NZ_CP135833.1	2998753075	SAMN06203550	727	Haemophilus influenzae strain 26P1H chromosome, complete genome	direct
+NZ_CP135834.1	NZ_CP135834.1	2998742581	SAMN06203549	727	Haemophilus influenzae strain 24P45H1 chromosome, complete genome	direct
+NZ_CP135835.1	NZ_CP135835.1	2998756864	SAMN06203548	727	Haemophilus influenzae strain 24P44H4 chromosome, complete genome	direct
+NZ_CP135836.1	NZ_CP135836.1	2998768806	SAMN06203546	727	Haemophilus influenzae strain 24P17H1 chromosome, complete genome	direct
+NZ_CP135837.1	CP135837.1	2997231855	SAMN06203545	727	Haemophilus influenzae strain 1P22H3 chromosome, complete genome	alias:CP135837.1
+NZ_CP135838.1	NZ_CP135838.1	2998742588	SAMN06203544	727	Haemophilus influenzae strain 1P18H1 chromosome, complete genome	direct
+NZ_CP135839.1	NZ_CP135839.1	2998740420	SAMN06203543	727	Haemophilus influenzae strain 1P16H5 chromosome, complete genome	direct
+NZ_CP135840.1	NZ_CP135840.1	2998757237	SAMN06203542	727	Haemophilus influenzae strain 19P94H1 chromosome, complete genome	direct
+NZ_CP135841.1	CP135841.1	2997209251	SAMN06203541	727	Haemophilus influenzae strain 19P81H1 chromosome, complete genome	alias:CP135841.1
+NZ_CP135842.1	CP135842.1	2997214555	SAMN06203540	727	Haemophilus influenzae strain 19P68H7 chromosome, complete genome	alias:CP135842.1
+NZ_CP135843.1	NZ_CP135843.1	2998756858	SAMN06203539	727	Haemophilus influenzae strain 19P49H1 chromosome, complete genome	direct
+NZ_CP135844.1	NZ_CP135844.1	2998740435	SAMN06203538	727	Haemophilus influenzae strain 19P173H1 chromosome, complete genome	direct
+NZ_CP135845.1	NZ_CP135845.1	2998758192	SAMN06203537	727	Haemophilus influenzae strain 19P172H1 chromosome, complete genome	direct
+NZ_CP135846.1	NZ_CP135846.1	2998756813	SAMN06203534	727	Haemophilus influenzae strain 18P17H2 chromosome, complete genome	direct
+NZ_CP135847.1	NZ_CP135847.1	2998757082	SAMN06203533	727	Haemophilus influenzae strain 18P16H1 chromosome, complete genome	direct
+NZ_CP135848.1	NZ_CP135848.1	2998740443	SAMN06203532	727	Haemophilus influenzae strain 14P8H4 chromosome, complete genome	direct
+NZ_CP135849.1	NZ_CP135849.1	2998749079	SAMN06203530	727	Haemophilus influenzae strain 14P46H1 chromosome, complete genome	direct
+NZ_CP135850.1	CP135850.1	2997226707	SAMN06203529	727	Haemophilus influenzae strain 14P41H1 chromosome, complete genome	alias:CP135850.1
+NZ_CP135851.1	NZ_CP135851.1	2998748850	SAMN06203528	727	Haemophilus influenzae strain 14P35H1 chromosome, complete genome	direct
+NZ_CP135852.1	NZ_CP135852.1	2998756859	SAMN06203527	727	Haemophilus influenzae strain 14P33H2 chromosome, complete genome	direct
+NZ_CP135853.1	NZ_CP135853.1	2998756513	SAMN06203525	727	Haemophilus influenzae strain 14P23H1 chromosome, complete genome	direct
+NZ_CP135907.1	NZ_CP135907.1	2997578775	SAMN06203675	727	Haemophilus influenzae strain 84P12H1 chromosome, complete genome	direct
+NZ_CP135908.1	NZ_CP135908.1	2998752614	SAMN06203634	727	Haemophilus influenzae strain 59P6H1 chromosome, complete genome	direct
+NZ_CP135910.1	CP135910.1	2997143749	SAMN06203632	727	Haemophilus influenzae strain 59P1H1 chromosome, complete genome	alias:CP135910.1
+NZ_CP135911.1	CP135911.1	2997145419	SAMN06203632	727	Haemophilus influenzae strain 59P1H1 plasmid unnamed, complete sequence	alias:CP135911.1
+NZ_CP135912.1	NZ_CP135912.1	2998756943	SAMN06203624	727	Haemophilus influenzae strain 56P34H1 chromosome, complete genome	direct
+NZ_CP135913.1	CP135913.1	2997151805	SAMN06203612	727	Haemophilus influenzae strain 51P10H1 chromosome, complete genome	alias:CP135913.1
+NZ_CP135914.1	NZ_CP135914.1	2998765904	SAMN06203593	727	Haemophilus influenzae strain 46P30H6 chromosome, complete genome	direct
+NZ_CP144280.1	NZ_CP144280.1	2674198041	SAMN39743870	727	Haemophilus influenzae strain P3_EMO chromosome, complete genome	direct
+NZ_CP146693.1	NZ_CP146693.1	2711141997	SAMN39831887	727	Haemophilus influenzae strain Rd-KW20 chromosome, complete genome	direct
+NZ_CP148001.1	NZ_CP148001.1	2938229728	SAMN40283276	727	Haemophilus influenzae strain AR2632 chromosome, complete genome	direct
+NZ_CP148002.1	NZ_CP148002.1	2938234074	SAMN40283275	727	Haemophilus influenzae strain AR2427 chromosome, complete genome	direct
+NZ_CP148890.1	NZ_CP148890.1	3007814765	SAMN40299924	727	Haemophilus influenzae isolate NTHi375 delta nagB#10 chromosome, complete genome	direct
+NZ_CP148891.1	NZ_CP148891.1	3007877288	SAMN40299923	727	Haemophilus influenzae isolate NTHi375 delta nagB#9 chromosome, complete genome	direct
+NZ_CP148892.1	NZ_CP148892.1	3007951728	SAMN40299922	727	Haemophilus influenzae isolate NTHi375 delta nagB#8 chromosome, complete genome	direct
+NZ_CP148893.1	NZ_CP148893.1	3008285713	SAMN40299921	727	Haemophilus influenzae isolate Nt delta copZA/v chromosome, complete genome	direct
+NZ_CP148894.1	NZ_CP148894.1	3008285721	SAMN40299920	727	Haemophilus influenzae strain NTX chromosome, complete genome	direct
+NZ_CP148895.1	NZ_CP148895.1	3008559117	SAMN40299919	727	Haemophilus influenzae strain NT127 chromosome, complete genome	direct
+NZ_CP160810.1	NZ_CP160810.1	3042034313	SAMN42207749	727	Haemophilus influenzae strain MHI-4890 chromosome, complete genome	direct
+NZ_CP160811.1	NZ_CP160811.1	3042013145	SAMN42207748	727	Haemophilus influenzae strain MHI-4814 chromosome, complete genome	direct
+NZ_CP160812.1	NZ_CP160812.1	3043325776	SAMN42207747	727	Haemophilus influenzae strain MHI-4812 chromosome, complete genome	direct
+NZ_CP160813.1	NZ_CP160813.1	3042013315	SAMN42207746	727	Haemophilus influenzae strain MHI-4772 chromosome, complete genome	direct
+NZ_CP160814.1	NZ_CP160814.1	3042006701	SAMN42207745	727	Haemophilus influenzae strain MHI-4743 chromosome, complete genome	direct
+NZ_CP160815.1	NZ_CP160815.1	3042046931	SAMN42207744	727	Haemophilus influenzae strain MHI-4688 chromosome, complete genome	direct
+NZ_CP160816.1	NZ_CP160816.1	3042042065	SAMN42207743	727	Haemophilus influenzae strain MHI-4640 chromosome, complete genome	direct
+NZ_CP160817.1	NZ_CP160817.1	3042009921	SAMN42207742	727	Haemophilus influenzae strain MHI-4615 chromosome, complete genome	direct
+NZ_CP160818.1	NZ_CP160818.1	3042033508	SAMN42207741	727	Haemophilus influenzae strain MHI-4578 chromosome, complete genome	direct
+NZ_CP160819.1	NZ_CP160819.1	3041992869	SAMN42207740	727	Haemophilus influenzae strain MHI-4537 chromosome, complete genome	direct
+NZ_CP160820.1	NZ_CP160820.1	3042040001	SAMN42207739	727	Haemophilus influenzae strain MHI-4506 chromosome, complete genome	direct
+NZ_CP160821.1	NZ_CP160821.1	3042008951	SAMN42207738	727	Haemophilus influenzae strain MHI-4466 chromosome, complete genome	direct
+NZ_CP160822.1	NZ_CP160822.1	3042023664	SAMN42207737	727	Haemophilus influenzae strain MHI-4419 chromosome, complete genome	direct
+NZ_CP165604.1	NZ_CP165604.1	2784850246	SAMN42940327	727	Haemophilus influenzae strain Rd-KW20 chromosome, complete genome	direct
+NZ_CP167879.1	CP167879.1	2804729319	SAMN43089418	727	Haemophilus influenzae strain NTHi52 chromosome, complete genome	alias:CP167879.1
+NZ_CP172082.1	NZ_CP172082.1	2843487301	SAMN11853699	727	Haemophilus influenzae strain GA54827 chromosome, complete genome	direct
+NZ_CP172083.1	NZ_CP172083.1	2843487367	SAMN11853699	727	Haemophilus influenzae strain GA54827 plasmid p1, complete sequence	direct
+NZ_CP172084.1	NZ_CP172084.1	2843514511	SAMN11853712	727	Haemophilus influenzae strain GA81666 chromosome, complete genome	direct
+NZ_LN831035.1	NZ_LN831035.1	960313217	SAMEA2498480	727	Haemophilus influenzae strain NCTC8143 chromosome 1, complete sequence	direct
+NZ_LR134168.1	NZ_LR134168.1	1545341042	SAMEA3207623	727	Haemophilus influenzae strain NCTC11394 chromosome 1, complete sequence	direct
+NZ_LR134171.1	NZ_LR134171.1	1545295398	SAMEA3221100	727	Haemophilus influenzae strain NCTC12699 chromosome 1, complete sequence	direct
+NZ_LR134490.1	NZ_LR134490.1	1545347952	SAMEA104200675	727	Haemophilus influenzae strain NCTC11873 chromosome 1, complete sequence	direct
+NZ_LR590465.1	NZ_LR590465.1	1668375782	SAMEA3222080	727	Haemophilus influenzae strain NCTC8468 chromosome 1	direct
+NZ_LS483392.1	NZ_LS483392.1	1409028166	SAMEA3867450	727	Haemophilus influenzae strain NCTC11931 chromosome 1, complete sequence	direct
+NZ_LS483411.1	NZ_LS483411.1	1409031922	SAMEA3893456	727	Haemophilus influenzae strain NCTC11426 chromosome 1, complete sequence	direct
+NZ_LS483438.1	NZ_LS483438.1	1409083563	SAMEA4030739	727	Haemophilus influenzae strain NCTC12975 chromosome 1, complete sequence	direct
+NZ_LS483480.1	NZ_LS483480.1	1409087034	SAMEA3221101	727	Haemophilus influenzae strain NCTC13377 chromosome 1, complete sequence	direct
+NZ_LS483486.1	NZ_LS483486.1	1409063225	SAMEA3207620	727	Haemophilus influenzae strain NCTC12194 chromosome 1, complete sequence	direct
+NZ_LS483496.1	NZ_LS483496.1	1409025345	SAMEA2822163	727	Haemophilus influenzae strain NCTC8455 chromosome 1, complete sequence	direct
+NZ_OV040584.1	NZ_OV040584.1	2161050152	SAMEA10987108	727	Haemophilus influenzae isolate KR271 chromosome 1, complete sequence	direct
+NZ_OV040719.1	NZ_OV040719.1	2161017894	SAMEA10982446	727	Haemophilus influenzae strain 3655 isolate 3655 chromosome 1, complete sequence	direct
+NZ_OZ241822.1	NZ_OZ241822.1	3111810203	SAMEA117791999	727	Haemophilus influenzae isolate NO_Hi18124 chromosome 1, complete sequence	direct
+NZ_OZ241823.1	NZ_OZ241823.1	3111810606	SAMEA117792000	727	Haemophilus influenzae isolate NO_Hi21324 chromosome 1, complete sequence	direct
+NZ_OZ242472.1	NZ_OZ242472.1	3112434057	SAMEA117813799	727	Haemophilus influenzae isolate DK_2087 chromosome 1, complete sequence	direct
+NZ_OZ242473.1	NZ_OZ242473.1	3112485017	SAMEA117813795	727	Haemophilus influenzae isolate DK_0015 chromosome 1, complete sequence	direct
+NZ_OZ242525.1	NZ_OZ242525.1	3112431979	SAMEA117813800	727	Haemophilus influenzae isolate DK_2135 chromosome 1, complete sequence	direct
+NZ_OZ242526.1	NZ_OZ242526.1	3112431918	SAMEA117813798	727	Haemophilus influenzae isolate DK_1553 chromosome 1, complete sequence	direct
+NZ_OZ242537.1	NZ_OZ242537.1	3112736596	SAMEA117813796	727	Haemophilus influenzae isolate DK_1016 chromosome 1, complete sequence	direct
+NZ_OZ242548.1	NZ_OZ242548.1	3112771167	SAMEA117813797	727	Haemophilus influenzae isolate DK_1293 chromosome 1, complete sequence	direct
+OV040584.1	OV040584.1	2159206024	SAMEA10987108	727	Haemophilus influenzae isolate KR271 genome assembly, chromosome: 1	direct
+OV040719.1	OV040719.1	2159207705	SAMEA10982446	727	Haemophilus influenzae strain 3655 genome assembly, chromosome: 1	direct
+OZ241822.1	OZ241822.1	3057767322	SAMEA117791999	727	Haemophilus influenzae isolate NO_Hi18124 genome assembly, chromosome: 1	direct
+OZ241823.1	OZ241823.1	3057767323	SAMEA117792000	727	Haemophilus influenzae isolate NO_Hi21324 genome assembly, chromosome: 1	direct
+OZ242472.1	OZ242472.1	3057767325	SAMEA117813799	727	Haemophilus influenzae isolate DK_2087 genome assembly, chromosome: 1	direct
+OZ242473.1	OZ242473.1	3057767326	SAMEA117813795	727	Haemophilus influenzae isolate DK_0015 genome assembly, chromosome: 1	direct
+OZ242525.1	OZ242525.1	3057767327	SAMEA117813800	727	Haemophilus influenzae isolate DK_2135 genome assembly, chromosome: 1	direct
+OZ242526.1	OZ242526.1	3057767328	SAMEA117813798	727	Haemophilus influenzae isolate DK_1553 genome assembly, chromosome: 1	direct
+OZ242537.1	OZ242537.1	3057767329	SAMEA117813796	727	Haemophilus influenzae isolate DK_1016 genome assembly, chromosome: 1	direct
+OZ242548.1	OZ242548.1	3057767330	SAMEA117813797	727	Haemophilus influenzae isolate DK_1293 genome assembly, chromosome: 1	direct

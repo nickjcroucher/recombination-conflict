@@ -1,0 +1,300 @@
+query_accession	resolved_accession	uid	biosample	taxid	title	resolved_from
+CM128866.1	CM128866.1	3070052069	SAMN51960061	582	Morganella morganii strain L4765hy chromosome, complete sequence, whole genome shotgun sequence	direct
+CM129971.1	CM129971.1	3101597501	SAMN48696005	582	Morganella morganii strain HM02 chromosome, complete sequence, whole genome shotgun sequence	direct
+CP004345.1	CP004345.1	455418716	SAMN02603113	1124991	Morganella morganii subsp. morganii KT, complete genome	direct
+CP014026.2	CP014026.2	1348057532	SAMN03996316	582	Morganella morganii strain FDAARGOS_172, complete genome	direct
+CP023505.1	CP023505.1	1247200627	SAMN07312409	582	Morganella morganii strain FDAARGOS_365 chromosome, complete genome	direct
+CP023506.1	CP023506.1	1247204359	SAMN07312409	582	Morganella morganii strain FDAARGOS_365 plasmid unnamed, complete sequence	direct
+CP025933.1	CP025933.1	1331052009	SAMN08335225	582	Morganella morganii strain KC-Tt-01 chromosome, complete genome	direct
+CP026046.1	CP026046.1	1335811550	SAMN02934512	582	Morganella morganii strain FDAARGOS_63 chromosome, complete genome	direct
+CP027177.1	CP027177.1	1353847801	SAMN04014898	582	Morganella morganii strain AR_0057 chromosome, complete genome	direct
+CP028956.1	CP028956.1	1382766776	SAMN04014974	582	Morganella morganii strain AR_0133 chromosome, complete genome	direct
+CP028957.1	CP028957.1	1382776870	SAMN04014974	582	Morganella morganii strain AR_0133 plasmid unnamed1, complete sequence	direct
+CP028958.1	CP028958.1	1382776880	SAMN04014974	582	Morganella morganii strain AR_0133 plasmid unnamed2, complete sequence	direct
+CP032295.1	CP032295.1	1477101260	SAMN10031395	582	Morganella morganii strain DG56-16 chromosome, complete genome	direct
+CP033056.1	CP033056.1	1538946356	SAMN10218950	582	Morganella morganii strain L241 chromosome, complete genome	direct
+CP033057.1	CP033057.1	1538949905	SAMN10218950	582	Morganella morganii strain L241 plasmid pNDM5-L241, complete sequence	direct
+CP034944.1	CP034944.1	1678581120	SAMN10712293	180434	Morganella morganii subsp. morganii strain ATCC 25830 chromosome, complete genome	direct
+CP039377.1	CP039377.1	1864126650	SAMN11401652	582	Morganella morganii strain Jiangxi chromosome, complete genome	direct
+CP043955.1	CP043955.1	1822046636	SAMN12769847	180434	Morganella morganii subsp. morganii strain 229813 chromosome, complete genome	direct
+CP048275.1	CP048275.1	1806765810	SAMN13936254	582	Morganella morganii strain N18-00103 chromosome, complete genome	direct
+CP048806.1	CP048806.1	1810932531	SAMN14085905	582	Morganella morganii strain MP63 chromosome, complete genome	direct
+CP048807.1	CP048807.1	1810936182	SAMN14085905	582	Morganella morganii strain MP63 plasmid pMP63A, complete sequence	direct
+CP048808.1	CP048808.1	1810936188	SAMN14085905	582	Morganella morganii strain MP63 plasmid pMP63B, complete sequence	direct
+CP048809.1	CP048809.1	1810936191	SAMN14085905	582	Morganella morganii strain MP63 plasmid pMP63C, complete sequence	direct
+CP059477.1	CP059477.1	2198376704	SAMN15594731	582	Morganella morganii strain S164-3 chromosome, complete genome	direct
+CP059986.1	CP059986.1	2030060075	SAMN15719828	582	Morganella morganii strain 11759 chromosome, complete genome	direct
+CP061513.1	CP061513.1	1955193697	SAMN16124556	582	Morganella morganii strain GDMM86 chromosome, complete genome	direct
+CP063843.1	CP063843.1	1938445541	SAMN16619592	582	Morganella morganii strain SMM01 chromosome, complete genome	direct
+CP064054.1	CP064054.1	2050266629	SAMN16622915	180434	Morganella morganii subsp. morganii strain 516602 chromosome, complete genome	direct
+CP064055.1	CP064055.1	2050299651	SAMN16623190	180434	Morganella morganii subsp. morganii strain GN28 chromosome, complete genome	direct
+CP066127.1	CP066127.1	2067656314	SAMN17058980	582	Morganella morganii strain FAM24685 chromosome, complete genome	direct
+CP066129.1	CP066129.1	2067648703	SAMN17066406	582	Morganella morganii strain FAM24679 chromosome, complete genome	direct
+CP066130.1	CP066130.1	2067644922	SAMN17066452	582	Morganella morganii strain FAM24678 chromosome, complete genome	direct
+CP066131.1	CP066131.1	2067648635	SAMN17066452	582	Morganella morganii strain FAM24678 plasmid unnamed1	direct
+CP066132.1	CP066132.1	2067641048	SAMN17069496	582	Morganella morganii strain FAM24676 chromosome, complete genome	direct
+CP066133.1	CP066133.1	2067637185	SAMN17070466	582	Morganella morganii strain FAM24675 chromosome, complete genome	direct
+CP066134.1	CP066134.1	2067640956	SAMN17070466	582	Morganella morganii strain FAM24675 plasmid unnamed1	direct
+CP066135.1	CP066135.1	2067641022	SAMN17070466	582	Morganella morganii strain FAM24675 plasmid unnamed2	direct
+CP066136.1	CP066136.1	2067641027	SAMN17070466	582	Morganella morganii strain FAM24675 plasmid unnamed3	direct
+CP066137.1	CP066137.1	2067633295	SAMN17070561	582	Morganella morganii strain FAM24672 chromosome, complete genome	direct
+CP066138.1	CP066138.1	2067629426	SAMN17070562	582	Morganella morganii strain FAM24671 chromosome, complete genome	direct
+CP066139.1	CP066139.1	2067633286	SAMN17070562	582	Morganella morganii strain FAM24671 plasmid unnamed1, complete sequence	direct
+CP066140.1	CP066140.1	2067625563	SAMN17070621	582	Morganella morganii strain FAM24670 chromosome, complete genome	direct
+CP066141.1	CP066141.1	2067629420	SAMN17070621	582	Morganella morganii strain FAM24670 plasmid unnamed1, complete sequence	direct
+CP066777.1	CP066777.1	2067785398	SAMN08142803	582	Morganella morganii strain FAM24091 chromosome, complete genome	direct
+CP066778.1	CP066778.1	2067789065	SAMN08142803	582	Morganella morganii strain FAM24091 plasmid unnamed1, complete sequence	direct
+CP068145.1	CP068145.1	1958341723	SAMN16357254	582	Morganella morganii strain FDAARGOS_1085 chromosome, complete genome	direct
+CP068562.1	CP068562.1	2067652404	SAMN17059475	582	Morganella morganii strain FAM24681 chromosome, complete genome	direct
+CP069157.1	CP069157.1	2067618568	SAMN17310992	582	Morganella morganii strain DSM 30164 chromosome, complete genome	direct
+CP070521.1	CP070521.1	1994004380	SAMN16933265	582	Morganella morganii strain MM46903 plasmid p46903_KPC, complete sequence	direct
+CP070522.1	CP070522.1	1994004424	SAMN16933265	582	Morganella morganii strain MM46903 plasmid p46903_2, complete sequence	direct
+CP070523.1	CP070523.1	1994004468	SAMN16933265	582	Morganella morganii strain MM46903 plasmid p46903_1, complete sequence	direct
+CP070524.1	CP070524.1	1994004498	SAMN16933265	582	Morganella morganii strain MM46903 chromosome, complete genome	direct
+CP070535.1	CP070535.1	1994000476	SAMN16933275	582	Morganella morganii strain MM48659 plasmid p48659_KPC, complete sequence	direct
+CP070536.1	CP070536.1	1994000543	SAMN16933275	582	Morganella morganii strain MM48659 plasmid p48659_1, complete sequence	direct
+CP070537.1	CP070537.1	1994000595	SAMN16933275	582	Morganella morganii strain MM48659 chromosome, complete genome	direct
+CP070550.1	CP070550.1	1993996461	SAMN16933284	582	Morganella morganii strain MM50821 plasmid p50821_KPC, complete sequence	direct
+CP070551.1	CP070551.1	1993996507	SAMN16933284	582	Morganella morganii strain MM50821 plasmid p50821_2, complete sequence	direct
+CP070552.1	CP070552.1	1993996514	SAMN16933284	582	Morganella morganii strain MM50821 plasmid p50821_1, complete sequence	direct
+CP070553.1	CP070553.1	1993996518	SAMN16933284	582	Morganella morganii strain MM50821 chromosome, complete genome	direct
+CP076623.1	CP076623.1	2154007020	SAMN19659029	582	Morganella morganii strain CTX51T chromosome, complete genome	direct
+CP076624.1	CP076624.1	2154010825	SAMN19659029	582	Morganella morganii strain CTX51T plasmid p_MMCTX51T, complete sequence	direct
+CP086203.1	CP086203.1	2129861533	SAMN22814155	582	Morganella morganii strain MMAS2018 chromosome, complete genome	direct
+CP095382.1	CP095382.1	3004106467	SAMN26198621	582	Morganella morganii strain 19MO05SA02 chromosome, complete genome	direct
+CP095383.1	CP095383.1	3004109974	SAMN26198621	582	Morganella morganii strain 19MO05SA02 plasmid pSP19M00488, complete sequence	direct
+CP101057.1	CP101057.1	2788191228	SAMN29495172	582	Morganella morganii strain OT11 chromosome, complete genome	direct
+CP101058.1	CP101058.1	2788195109	SAMN29495172	582	Morganella morganii strain OT11 plasmid unnamed1, complete sequence	direct
+CP101059.1	CP101059.1	2788195166	SAMN29495172	582	Morganella morganii strain OT11 plasmid unnamed2, complete sequence	direct
+CP103768.1	CP103768.1	2294444276	SAMN30502440	582	Morganella morganii strain K266 chromosome, complete genome	direct
+CP126137.1	CP126137.1	2511752390	SAMN35004663	582	Morganella morganii strain Sample-M-2023 chromosome, complete genome	direct
+CP128435.1	CP128435.1	2528472630	SAMN35741046	180434	Morganella morganii subsp. morganii strain QLYYMMQL588 chromosome, complete genome	direct
+CP128436.1	CP128436.1	2528472631	SAMN35741046	180434	Morganella morganii subsp. morganii strain QLYYMMQL588 plasmid unnamed1, complete sequence	direct
+CP128437.1	CP128437.1	2528472632	SAMN35741046	180434	Morganella morganii subsp. morganii strain QLYYMMQL588 plasmid unnamed2, complete sequence	direct
+CP132322.1	CP132322.1	2563714885	SAMN27992994	582	Morganella morganii strain 2022CK-00284 plasmid unnamed1, complete sequence	direct
+CP132323.1	CP132323.1	2563715864	SAMN27992994	582	Morganella morganii strain 2022CK-00284 chromosome, complete genome	direct
+CP132554.1	CP132554.1	2921134725	SAMN36950023	582	Morganella morganii strain HD0531g chromosome, complete genome	direct
+CP132555.1	CP132555.1	2921138311	SAMN36950023	582	Morganella morganii strain HD0531g plasmid p.nunamed1, complete sequence	direct
+CP132556.1	CP132556.1	2921138315	SAMN36950023	582	Morganella morganii strain HD0531g plasmid p.nunamed2, complete sequence	direct
+CP132600.1	CP132600.1	2719900955	SAMN36779405	582	Morganella morganii strain 23 chromosome, complete genome	direct
+CP132601.1	CP132601.1	2719904483	SAMN36779405	582	Morganella morganii strain 23 plasmid pA, complete sequence	direct
+CP132602.1	CP132602.1	2719904564	SAMN36779405	582	Morganella morganii strain 23 plasmid pB, complete sequence	direct
+CP132746.1	CP132746.1	2719893714	SAMN36779551	582	Morganella morganii strain 41 chromosome, complete genome	direct
+CP134699.1	CP134699.1	2581327258	SAMN37356954	582	Morganella morganii strain SDTA-1 chromosome, complete genome	direct
+CP135144.1	CP135144.1	2586140112	SAMN37478061	582	Morganella morganii strain A19 chromosome, complete genome	direct
+CP135145.1	CP135145.1	2586143905	SAMN37478061	582	Morganella morganii strain A19 plasmid p1, complete sequence	direct
+CP135146.1	CP135146.1	2586143996	SAMN37478061	582	Morganella morganii strain A19 plasmid p2, complete sequence	direct
+CP137459.1	CP137459.1	2619015512	SAMN33190968	582	Morganella morganii strain 2022JQ-00674 chromosome, complete genome	direct
+CP137460.1	CP137460.1	2619019319	SAMN33190968	582	Morganella morganii strain 2022JQ-00674 plasmid unnamed1, complete sequence	direct
+CP139441.1	CP139441.1	2630423321	SAMN38306392	582	Morganella morganii strain 2387 chromosome, complete genome	direct
+CP139442.1	CP139442.1	2630427097	SAMN38306392	582	Morganella morganii strain 2387 plasmid p2387-KPC-2, complete sequence	direct
+CP139443.1	CP139443.1	2630427157	SAMN38306392	582	Morganella morganii strain 2387 plasmid pUnnamed1, complete sequence	direct
+CP139988.1	CP139988.1	2636497762	SAMN38562704	582	Morganella morganii strain HAMBI_1292 chromosome, complete genome	direct
+CP148043.1	CP148043.1	2702657495	SAMN40447594	582	Morganella morganii strain DZ1 chromosome, complete genome	direct
+CP148044.1	CP148044.1	2702661320	SAMN40447594	582	Morganella morganii strain DZ1 plasmid pDZa, complete sequence	direct
+CP148045.1	CP148045.1	2702661390	SAMN40447594	582	Morganella morganii strain DZ1 plasmid pDZb, complete sequence	direct
+CP148046.1	CP148046.1	2702661393	SAMN40447594	582	Morganella morganii strain DZ1 plasmid pDZc, complete sequence	direct
+CP149976.1	CP149976.1	2707689683	SAMN40589551	582	Morganella morganii strain MM4205 plasmid pMM4205-KPC-2_59k, complete sequence	direct
+CP149977.1	CP149977.1	2707689745	SAMN40589551	582	Morganella morganii strain MM4205 plasmid pMM4205-2, complete sequence	direct
+CP149978.1	CP149978.1	2707689830	SAMN40589551	582	Morganella morganii strain MM4205 chromosome, complete genome	direct
+CP149979.1	CP149979.1	2707685478	SAMN40589560	582	Morganella morganii strain MM1680 chromosome, complete genome	direct
+CP149980.1	CP149980.1	2707689176	SAMN40589560	582	Morganella morganii strain MM1680 plasmid pMM1680-KPC-2_99k, complete sequence	direct
+CP149981.1	CP149981.1	2707689305	SAMN40589560	582	Morganella morganii strain MM1680 plasmid pMM1680-KPC-2_66k, complete sequence	direct
+CP149982.1	CP149982.1	2707689375	SAMN40589560	582	Morganella morganii strain MM1680 plasmid pMM1680-3, complete sequence	direct
+CP149983.1	CP149983.1	2707693618	SAMN40589627	582	Morganella morganii strain MM6005 plasmid pMM6005-KPC-2_99k, complete sequence	direct
+CP149984.1	CP149984.1	2707693751	SAMN40589627	582	Morganella morganii strain MM6005 chromosome, complete genome	direct
+CP149985.1	CP149985.1	2707697578	SAMN40589632	582	Morganella morganii strain MM4512 chromosome, complete genome	direct
+CP149986.1	CP149986.1	2707701384	SAMN40589632	582	Morganella morganii strain MM4512 plasmid pMM4512-KPC-2_61k, complete sequence	direct
+CP149987.1	CP149987.1	2707701450	SAMN40589632	582	Morganella morganii strain MM4512 plasmid pMM4512-KPC-2_142k, complete sequence	direct
+CP149988.1	CP149988.1	2707701735	SAMN40589643	582	Morganella morganii strain MM9291 chromosome, complete genome	direct
+CP149989.1	CP149989.1	2707705429	SAMN40589643	582	Morganella morganii strain MM9291 plasmid pMM9291-2, complete sequence	direct
+CP149990.1	CP149990.1	2707705474	SAMN40589643	582	Morganella morganii strain MM9291 plasmid pMM9291-NDM-1_257k, complete sequence	direct
+CP149991.1	CP149991.1	2707705790	SAMN40589652	582	Morganella morganii strain MM2467 chromosome, complete genome	direct
+CP149992.1	CP149992.1	2707709725	SAMN40589652	582	Morganella morganii strain MM2467 plasmid pMM2467-NDM-1_109k, complete sequence	direct
+CP149993.1	CP149993.1	2707709838	SAMN40589652	582	Morganella morganii strain MM2467 plasmid pMM2467-2, complete sequence	direct
+CP150712.1	CP150712.1	2713901246	SAMN40573507	582	Morganella morganii strain RB04 chromosome, complete genome	direct
+CP150713.1	CP150713.1	2713884383	SAMN40573534	582	Morganella morganii strain RB07 chromosome, complete genome	direct
+CP150714.1	CP150714.1	2713895774	SAMN40573509	582	Morganella morganii strain RB11 chromosome, complete genome	direct
+CP150715.1	CP150715.1	2713904914	SAMN40573508	582	Morganella morganii strain RB05 chromosome, complete genome	direct
+CP150716.1	CP150716.1	2713908468	SAMN40573506	582	Morganella morganii strain RB03 chromosome, complete genome	direct
+CP150717.1	CP150717.1	2713912223	SAMN40573478	582	Morganella morganii strain RB02 chromosome, complete genome	direct
+CP159738.1	CP159738.1	2754637157	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed1	direct
+CP159739.1	CP159739.1	2754637181	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed2	direct
+CP159740.1	CP159740.1	2754637186	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed3	direct
+CP159741.1	CP159741.1	2754637197	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed4	direct
+CP159742.1	CP159742.1	2754637487	SAMN41660815	582	Morganella morganii strain Z22-3 chromosome, complete genome	direct
+CP159743.1	CP159743.1	2754640972	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed5	direct
+CP159744.1	CP159744.1	2754640980	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed6	direct
+CP159745.1	CP159745.1	2754640984	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed7	direct
+CP159746.1	CP159746.1	2754640994	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed8, complete sequence	direct
+CP166035.1	CP166035.1	2970968201	SAMN42539958	582	Morganella morganii strain A31143 chromosome, complete genome	direct
+CP166048.1	CP166048.1	2971019862	SAMN42539861	582	Morganella morganii strain A29005 chromosome, complete genome	direct
+CP168464.1	CP168464.1	2801215177	SAMN42837554	582	Morganella morganii strain 2024CK-01033 chromosome, complete genome	direct
+CP168465.1	CP168465.1	2801218902	SAMN42837554	582	Morganella morganii strain 2024CK-01033 plasmid unnamed1, complete sequence	direct
+CP168466.1	CP168466.1	2801218971	SAMN42837554	582	Morganella morganii strain 2024CK-01033 plasmid unnamed2, complete sequence	direct
+CP168467.1	CP168467.1	2801219028	SAMN42837554	582	Morganella morganii strain 2024CK-01033 plasmid unnamed3, complete sequence	direct
+CP172114.1	CP172114.1	2843517692	SAMN44379867	582	Morganella morganii strain M-D1C1-1 chromosome, complete genome	direct
+CP172115.1	CP172115.1	2843517695	SAMN44379916	582	Morganella morganii strain M-D1C1-2 chromosome, complete genome	direct
+CP172116.1	CP172116.1	2843517696	SAMN44379916	582	Morganella morganii strain M-D1C1-2 plasmid pM-D1C1-2-4Kb, complete sequence	direct
+CP172117.1	CP172117.1	2843517690	SAMN44379937	582	Morganella morganii strain M-D4C2-1 chromosome, complete genome	direct
+CP172118.1	CP172118.1	2843517691	SAMN44379937	582	Morganella morganii strain M-D4C2-1 plasmid pM-D4C1-2-4Kb, complete sequence	direct
+CP173707.1	CP173707.1	2858634955	SAMN44292983	582	Morganella morganii strain DW0548 chromosome, complete genome	direct
+CP173708.1	CP173708.1	2858639040	SAMN44292983	582	Morganella morganii strain DW0548 plasmid pMMDW0548, complete sequence	direct
+CP181997.1	CP181997.1	2971239241	SAMN42539204	582	Morganella morganii strain A27745 chromosome, complete genome	direct
+CP181998.1	CP181998.1	2971242931	SAMN42539204	582	Morganella morganii strain A27745 plasmid p1_A27745, complete sequence	direct
+CP194356.1	CP194356.1	2996928701	SAMN48696004	582	Morganella morganii strain HM01 chromosome, complete genome	direct
+JBRILL000000000.1	JBRILL000000000.1	3070052056	SAMN51960061	582	Morganella morganii strain L4765hy, whole genome shotgun sequencing project	direct
+JBRXCB000000000.1	JBRXCB000000000.1	3101597038	SAMN48696005	582	Morganella morganii strain HM02, whole genome shotgun sequencing project	direct
+LR699007.1	LR699007.1	1721134205	SAMEA5852017	582	Morganella morganii isolate MGYG-HGUT-02512 genome assembly, chromosome: 1	direct
+LS483498.1	LS483498.1	1403717663	SAMEA2709025	582	Morganella morganii strain NCTC12028 genome assembly, chromosome: 1	direct
+NC_020418.1	NC_020418.1	455737153	SAMN02603113	1124991	Morganella morganii subsp. morganii KT, complete sequence	direct
+NZ_CM128866.1	NZ_CM128866.1	3106742420	SAMN51960061	582	Morganella morganii strain L4765hy chromosome, whole genome shotgun sequence	direct
+NZ_CM129971.1	NZ_CM129971.1	3110983319	SAMN48696005	582	Morganella morganii strain HM02 chromosome, whole genome shotgun sequence	direct
+NZ_CP014026.2	NZ_CP014026.2	1356472703	SAMN03996316	582	Morganella morganii strain FDAARGOS_172 chromosome, complete genome	direct
+NZ_CP023505.1	NZ_CP023505.1	1248550951	SAMN07312409	582	Morganella morganii strain FDAARGOS_365 chromosome, complete genome	direct
+NZ_CP023506.1	NZ_CP023506.1	1248550952	SAMN07312409	582	Morganella morganii strain FDAARGOS_365 plasmid unnamed, complete sequence	direct
+NZ_CP025933.1	NZ_CP025933.1	1332868156	SAMN08335225	582	Morganella morganii strain KC-Tt-01 chromosome, complete genome	direct
+NZ_CP026046.1	NZ_CP026046.1	1337027824	SAMN02934512	582	Morganella morganii strain FDAARGOS_63 chromosome, complete genome	direct
+NZ_CP027177.1	NZ_CP027177.1	1358015739	SAMN04014898	582	Morganella morganii strain AR_0057 chromosome, complete genome	direct
+NZ_CP028956.1	NZ_CP028956.1	1384092439	SAMN04014974	582	Morganella morganii strain AR_0133 chromosome, complete genome	direct
+NZ_CP028957.1	NZ_CP028957.1	1384092440	SAMN04014974	582	Morganella morganii strain AR_0133 plasmid unnamed1, complete sequence	direct
+NZ_CP028958.1	NZ_CP028958.1	1384092441	SAMN04014974	582	Morganella morganii strain AR_0133 plasmid unnamed2, complete sequence	direct
+NZ_CP032295.1	NZ_CP032295.1	1478113264	SAMN10031395	582	Morganella morganii strain DG56-16 chromosome, complete genome	direct
+NZ_CP033056.1	NZ_CP033056.1	1543221160	SAMN10218950	582	Morganella morganii strain L241 chromosome, complete genome	direct
+NZ_CP033057.1	NZ_CP033057.1	1543221161	SAMN10218950	582	Morganella morganii strain L241 plasmid pNDM5-L241, complete sequence	direct
+NZ_CP034944.1	NZ_CP034944.1	1679390055	SAMN10712293	180434	Morganella morganii subsp. morganii strain ATCC 25830 chromosome, complete genome	direct
+NZ_CP039377.1	NZ_CP039377.1	1864692312	SAMN11401652	582	Morganella morganii strain Jiangxi chromosome, complete genome	direct
+NZ_CP043955.1	NZ_CP043955.1	1822665250	SAMN12769847	180434	Morganella morganii subsp. morganii strain 229813 chromosome, complete genome	direct
+NZ_CP048275.1	NZ_CP048275.1	1811236833	SAMN13936254	582	Morganella morganii strain N18-00103 chromosome, complete genome	direct
+NZ_CP048806.1	NZ_CP048806.1	1816728537	SAMN14085905	582	Morganella morganii strain MP63 chromosome, complete genome	direct
+NZ_CP048807.1	NZ_CP048807.1	1816728745	SAMN14085905	582	Morganella morganii strain MP63 plasmid pMP63A, complete sequence	direct
+NZ_CP048808.1	NZ_CP048808.1	1816728750	SAMN14085905	582	Morganella morganii strain MP63 plasmid pMP63B, complete sequence	direct
+NZ_CP048809.1	NZ_CP048809.1	1816728755	SAMN14085905	582	Morganella morganii strain MP63 plasmid pMP63C, complete sequence	direct
+NZ_CP059477.1	NZ_CP059477.1	2199694463	SAMN15594731	582	Morganella morganii strain S164-3 chromosome, complete genome	direct
+NZ_CP059986.1	NZ_CP059986.1	2035571502	SAMN15719828	582	Morganella morganii strain 11759 chromosome, complete genome	direct
+NZ_CP061513.1	NZ_CP061513.1	1956883009	SAMN16124556	582	Morganella morganii strain GDMM86 chromosome, complete genome	direct
+NZ_CP063843.1	NZ_CP063843.1	1938613877	SAMN16619592	582	Morganella morganii strain SMM01 chromosome, complete genome	direct
+NZ_CP064054.1	NZ_CP064054.1	2051281458	SAMN16622915	180434	Morganella morganii subsp. morganii strain 516602 chromosome, complete genome	direct
+NZ_CP064055.1	NZ_CP064055.1	2051284890	SAMN16623190	180434	Morganella morganii subsp. morganii strain GN28 chromosome, complete genome	direct
+NZ_CP066127.1	NZ_CP066127.1	2068403799	SAMN17058980	582	Morganella morganii strain FAM24685 chromosome, complete genome	direct
+NZ_CP066129.1	NZ_CP066129.1	2068273698	SAMN17066406	582	Morganella morganii strain FAM24679 chromosome, complete genome	direct
+NZ_CP066130.1	NZ_CP066130.1	2068339404	SAMN17066452	582	Morganella morganii strain FAM24678 chromosome, complete genome	direct
+NZ_CP066131.1	NZ_CP066131.1	2068339494	SAMN17066452	582	Morganella morganii strain FAM24678 plasmid unnamed1	direct
+NZ_CP066132.1	NZ_CP066132.1	2068342941	SAMN17069496	582	Morganella morganii strain FAM24676 chromosome, complete genome	direct
+NZ_CP066133.1	NZ_CP066133.1	2068343596	SAMN17070466	582	Morganella morganii strain FAM24675 chromosome, complete genome	direct
+NZ_CP066134.1	NZ_CP066134.1	2068343691	SAMN17070466	582	Morganella morganii strain FAM24675 plasmid unnamed1	direct
+NZ_CP066135.1	NZ_CP066135.1	2068343696	SAMN17070466	582	Morganella morganii strain FAM24675 plasmid unnamed2	direct
+NZ_CP066136.1	NZ_CP066136.1	2068343698	SAMN17070466	582	Morganella morganii strain FAM24675 plasmid unnamed3	direct
+NZ_CP066137.1	NZ_CP066137.1	2068275184	SAMN17070561	582	Morganella morganii strain FAM24672 chromosome, complete genome	direct
+NZ_CP066138.1	NZ_CP066138.1	2068276670	SAMN17070562	582	Morganella morganii strain FAM24671 chromosome, complete genome	direct
+NZ_CP066139.1	NZ_CP066139.1	2068276754	SAMN17070562	582	Morganella morganii strain FAM24671 plasmid unnamed1, complete sequence	direct
+NZ_CP066140.1	NZ_CP066140.1	2068198131	SAMN17070621	582	Morganella morganii strain FAM24670 chromosome, complete genome	direct
+NZ_CP066141.1	NZ_CP066141.1	2068198215	SAMN17070621	582	Morganella morganii strain FAM24670 plasmid unnamed1, complete sequence	direct
+NZ_CP066777.1	NZ_CP066777.1	2281653707	SAMN08142803	582	Morganella morganii strain FAM24091 chromosome, complete genome	direct
+NZ_CP066778.1	NZ_CP066778.1	2281653717	SAMN08142803	582	Morganella morganii strain FAM24091 plasmid unnamed1, complete sequence	direct
+NZ_CP068145.1	NZ_CP068145.1	1960175947	SAMN16357254	582	Morganella morganii strain FDAARGOS_1085 chromosome, complete genome	direct
+NZ_CP068562.1	NZ_CP068562.1	2068199565	SAMN17059475	582	Morganella morganii strain FAM24681 chromosome, complete genome	direct
+NZ_CP069157.1	NZ_CP069157.1	2068407135	SAMN17310992	582	Morganella morganii strain DSM 30164 chromosome, complete genome	direct
+NZ_CP070521.1	NZ_CP070521.1	1995190950	SAMN16933265	582	Morganella morganii strain MM46903 plasmid p46903_KPC, complete sequence	direct
+NZ_CP070522.1	NZ_CP070522.1	1995190954	SAMN16933265	582	Morganella morganii strain MM46903 plasmid p46903_2, complete sequence	direct
+NZ_CP070523.1	NZ_CP070523.1	1995190960	SAMN16933265	582	Morganella morganii strain MM46903 plasmid p46903_1, complete sequence	direct
+NZ_CP070524.1	NZ_CP070524.1	1995190998	SAMN16933265	582	Morganella morganii strain MM46903 chromosome, complete genome	direct
+NZ_CP070535.1	NZ_CP070535.1	1995202262	SAMN16933275	582	Morganella morganii strain MM48659 plasmid p48659_KPC, complete sequence	direct
+NZ_CP070536.1	NZ_CP070536.1	1995202273	SAMN16933275	582	Morganella morganii strain MM48659 plasmid p48659_1, complete sequence	direct
+NZ_CP070537.1	NZ_CP070537.1	1995202377	SAMN16933275	582	Morganella morganii strain MM48659 chromosome, complete genome	direct
+NZ_CP070550.1	NZ_CP070550.1	1995178481	SAMN16933284	582	Morganella morganii strain MM50821 plasmid p50821_KPC, complete sequence	direct
+NZ_CP070551.1	NZ_CP070551.1	1995178482	SAMN16933284	582	Morganella morganii strain MM50821 plasmid p50821_2, complete sequence	direct
+NZ_CP070552.1	NZ_CP070552.1	1995178483	SAMN16933284	582	Morganella morganii strain MM50821 plasmid p50821_1, complete sequence	direct
+NZ_CP070553.1	NZ_CP070553.1	1995178484	SAMN16933284	582	Morganella morganii strain MM50821 chromosome, complete genome	direct
+NZ_CP076623.1	NZ_CP076623.1	2155547876	SAMN19659029	582	Morganella morganii strain CTX51T chromosome, complete genome	direct
+NZ_CP076624.1	NZ_CP076624.1	2155547877	SAMN19659029	582	Morganella morganii strain CTX51T plasmid p_MMCTX51T, complete sequence	direct
+NZ_CP086203.1	NZ_CP086203.1	2130593829	SAMN22814155	582	Morganella morganii strain MMAS2018 chromosome, complete genome	direct
+NZ_CP095382.1	NZ_CP095382.1	3004871682	SAMN26198621	582	Morganella morganii strain 19MO05SA02 chromosome, complete genome	direct
+NZ_CP095383.1	NZ_CP095383.1	3004871683	SAMN26198621	582	Morganella morganii strain 19MO05SA02 plasmid pSP19M00488, complete sequence	direct
+NZ_CP101057.1	NZ_CP101057.1	2788638880	SAMN29495172	582	Morganella morganii strain OT11 chromosome, complete genome	direct
+NZ_CP101058.1	NZ_CP101058.1	2788638903	SAMN29495172	582	Morganella morganii strain OT11 plasmid unnamed1, complete sequence	direct
+NZ_CP101059.1	NZ_CP101059.1	2788638906	SAMN29495172	582	Morganella morganii strain OT11 plasmid unnamed2, complete sequence	direct
+NZ_CP103768.1	NZ_CP103768.1	2294918982	SAMN30502440	582	Morganella morganii strain K266 chromosome, complete genome	direct
+NZ_CP126137.1	NZ_CP126137.1	2511862377	SAMN35004663	582	Morganella morganii strain Sample-M-2023 chromosome, complete genome	direct
+NZ_CP128435.1	NZ_CP128435.1	2530476651	SAMN35741046	180434	Morganella morganii subsp. morganii strain QLYYMMQL588 chromosome, complete genome	direct
+NZ_CP128436.1	NZ_CP128436.1	2530476726	SAMN35741046	180434	Morganella morganii subsp. morganii strain QLYYMMQL588 plasmid unnamed1, complete sequence	direct
+NZ_CP128437.1	NZ_CP128437.1	2530476730	SAMN35741046	180434	Morganella morganii subsp. morganii strain QLYYMMQL588 plasmid unnamed2, complete sequence	direct
+NZ_CP132322.1	NZ_CP132322.1	2566701428	SAMN27992994	582	Morganella morganii strain 2022CK-00284 plasmid unnamed1, complete sequence	direct
+NZ_CP132323.1	NZ_CP132323.1	2566701561	SAMN27992994	582	Morganella morganii strain 2022CK-00284 chromosome, complete genome	direct
+NZ_CP132554.1	NZ_CP132554.1	2923757139	SAMN36950023	582	Morganella morganii strain HD0531g chromosome, complete genome	direct
+NZ_CP132555.1	NZ_CP132555.1	2923757140	SAMN36950023	582	Morganella morganii strain HD0531g plasmid p.nunamed1, complete sequence	direct
+NZ_CP132556.1	NZ_CP132556.1	2923757141	SAMN36950023	582	Morganella morganii strain HD0531g plasmid p.nunamed2, complete sequence	direct
+NZ_CP132600.1	NZ_CP132600.1	2720641205	SAMN36779405	582	Morganella morganii strain 23 chromosome, complete genome	direct
+NZ_CP132601.1	NZ_CP132601.1	2720641310	SAMN36779405	582	Morganella morganii strain 23 plasmid pA, complete sequence	direct
+NZ_CP132602.1	NZ_CP132602.1	2720641316	SAMN36779405	582	Morganella morganii strain 23 plasmid pB, complete sequence	direct
+NZ_CP132746.1	NZ_CP132746.1	2720633082	SAMN36779551	582	Morganella morganii strain 41 chromosome, complete genome	direct
+NZ_CP134699.1	NZ_CP134699.1	2582376522	SAMN37356954	582	Morganella morganii strain SDTA-1 chromosome, complete genome	direct
+NZ_CP135144.1	NZ_CP135144.1	2588221533	SAMN37478061	582	Morganella morganii strain A19 chromosome, complete genome	direct
+NZ_CP135145.1	NZ_CP135145.1	2588221627	SAMN37478061	582	Morganella morganii strain A19 plasmid p1, complete sequence	direct
+NZ_CP135146.1	NZ_CP135146.1	2588221631	SAMN37478061	582	Morganella morganii strain A19 plasmid p2, complete sequence	direct
+NZ_CP137459.1	NZ_CP137459.1	2619452722	SAMN33190968	582	Morganella morganii strain 2022JQ-00674 chromosome, complete genome	direct
+NZ_CP137460.1	NZ_CP137460.1	2619452729	SAMN33190968	582	Morganella morganii strain 2022JQ-00674 plasmid unnamed1, complete sequence	direct
+NZ_CP139441.1	NZ_CP139441.1	2633478826	SAMN38306392	582	Morganella morganii strain 2387 chromosome, complete genome	direct
+NZ_CP139442.1	NZ_CP139442.1	2633478827	SAMN38306392	582	Morganella morganii strain 2387 plasmid p2387-KPC-2, complete sequence	direct
+NZ_CP139443.1	NZ_CP139443.1	2633478828	SAMN38306392	582	Morganella morganii strain 2387 plasmid pUnnamed1, complete sequence	direct
+NZ_CP139988.1	NZ_CP139988.1	2660991174	SAMN38562704	582	Morganella morganii strain HAMBI_1292 chromosome, complete genome	direct
+NZ_CP148043.1	NZ_CP148043.1	2711291501	SAMN40447594	582	Morganella morganii strain DZ1 chromosome, complete genome	direct
+NZ_CP148044.1	NZ_CP148044.1	2711291671	SAMN40447594	582	Morganella morganii strain DZ1 plasmid pDZa, complete sequence	direct
+NZ_CP148045.1	NZ_CP148045.1	2711291673	SAMN40447594	582	Morganella morganii strain DZ1 plasmid pDZb, complete sequence	direct
+NZ_CP148046.1	NZ_CP148046.1	2711291674	SAMN40447594	582	Morganella morganii strain DZ1 plasmid pDZc, complete sequence	direct
+NZ_CP149976.1	NZ_CP149976.1	2720460483	SAMN40589551	582	Morganella morganii strain MM4205 plasmid pMM4205-KPC-2_59k, complete sequence	direct
+NZ_CP149977.1	NZ_CP149977.1	2720460500	SAMN40589551	582	Morganella morganii strain MM4205 plasmid pMM4205-2, complete sequence	direct
+NZ_CP149978.1	NZ_CP149978.1	2862594863	SAMN40589551	582	Morganella morganii strain MM4205 chromosome, complete genome	direct
+NZ_CP149979.1	NZ_CP149979.1	2862594315	SAMN40589560	582	Morganella morganii strain MM1680 chromosome, complete genome	direct
+NZ_CP149980.1	NZ_CP149980.1	2720463980	SAMN40589560	582	Morganella morganii strain MM1680 plasmid pMM1680-KPC-2_99k, complete sequence	direct
+NZ_CP149981.1	NZ_CP149981.1	2720463961	SAMN40589560	582	Morganella morganii strain MM1680 plasmid pMM1680-KPC-2_66k, complete sequence	direct
+NZ_CP149982.1	NZ_CP149982.1	2720460562	SAMN40589560	582	Morganella morganii strain MM1680 plasmid pMM1680-3, complete sequence	direct
+NZ_CP149983.1	NZ_CP149983.1	2720463964	SAMN40589627	582	Morganella morganii strain MM6005 plasmid pMM6005-KPC-2_99k, complete sequence	direct
+NZ_CP149984.1	NZ_CP149984.1	2862602968	SAMN40589627	582	Morganella morganii strain MM6005 chromosome, complete genome	direct
+NZ_CP149985.1	NZ_CP149985.1	2862594964	SAMN40589632	582	Morganella morganii strain MM4512 chromosome, complete genome	direct
+NZ_CP149986.1	NZ_CP149986.1	2720460593	SAMN40589632	582	Morganella morganii strain MM4512 plasmid pMM4512-KPC-2_61k, complete sequence	direct
+NZ_CP149987.1	NZ_CP149987.1	2720460581	SAMN40589632	582	Morganella morganii strain MM4512 plasmid pMM4512-KPC-2_142k, complete sequence	direct
+NZ_CP149988.1	NZ_CP149988.1	2862603338	SAMN40589643	582	Morganella morganii strain MM9291 chromosome, complete genome	direct
+NZ_CP149989.1	NZ_CP149989.1	2720460573	SAMN40589643	582	Morganella morganii strain MM9291 plasmid pMM9291-2, complete sequence	direct
+NZ_CP149990.1	NZ_CP149990.1	2720464197	SAMN40589643	582	Morganella morganii strain MM9291 plasmid pMM9291-NDM-1_257k, complete sequence	direct
+NZ_CP149991.1	NZ_CP149991.1	2862603467	SAMN40589652	582	Morganella morganii strain MM2467 chromosome, complete genome	direct
+NZ_CP149992.1	NZ_CP149992.1	2720460638	SAMN40589652	582	Morganella morganii strain MM2467 plasmid pMM2467-NDM-1_109k, complete sequence	direct
+NZ_CP149993.1	NZ_CP149993.1	2720460531	SAMN40589652	582	Morganella morganii strain MM2467 plasmid pMM2467-2, complete sequence	direct
+NZ_CP150712.1	NZ_CP150712.1	2715081687	SAMN40573507	582	Morganella morganii strain RB04 chromosome, complete genome	direct
+NZ_CP150713.1	NZ_CP150713.1	2715072324	SAMN40573534	582	Morganella morganii strain RB07 chromosome, complete genome	direct
+NZ_CP150714.1	NZ_CP150714.1	2715069899	SAMN40573509	582	Morganella morganii strain RB11 chromosome, complete genome	direct
+NZ_CP150715.1	NZ_CP150715.1	2715074969	SAMN40573508	582	Morganella morganii strain RB05 chromosome, complete genome	direct
+NZ_CP150716.1	NZ_CP150716.1	2715082691	SAMN40573506	582	Morganella morganii strain RB03 chromosome, complete genome	direct
+NZ_CP150717.1	NZ_CP150717.1	2715077441	SAMN40573478	582	Morganella morganii strain RB02 chromosome, complete genome	direct
+NZ_CP159738.1	NZ_CP159738.1	2755747306	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed1	direct
+NZ_CP159739.1	NZ_CP159739.1	2755747309	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed2	direct
+NZ_CP159740.1	NZ_CP159740.1	2755747312	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed3	direct
+NZ_CP159741.1	NZ_CP159741.1	2755747332	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed4	direct
+NZ_CP159742.1	NZ_CP159742.1	2755747440	SAMN41660815	582	Morganella morganii strain Z22-3 chromosome, complete genome	direct
+NZ_CP159743.1	NZ_CP159743.1	2755747510	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed5	direct
+NZ_CP159744.1	NZ_CP159744.1	2755747513	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed6	direct
+NZ_CP159745.1	NZ_CP159745.1	2755747515	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed7	direct
+NZ_CP159746.1	NZ_CP159746.1	2755747518	SAMN41660815	582	Morganella morganii strain Z22-3 plasmid unnamed8, complete sequence	direct
+NZ_CP166035.1	NZ_CP166035.1	2976147481	SAMN42539958	582	Morganella morganii strain A31143 chromosome, complete genome	direct
+NZ_CP166048.1	NZ_CP166048.1	2976150451	SAMN42539861	582	Morganella morganii strain A29005 chromosome, complete genome	direct
+NZ_CP168464.1	NZ_CP168464.1	2802001446	SAMN42837554	582	Morganella morganii strain 2024CK-01033 chromosome, complete genome	direct
+NZ_CP168465.1	NZ_CP168465.1	2802001520	SAMN42837554	582	Morganella morganii strain 2024CK-01033 plasmid unnamed1, complete sequence	direct
+NZ_CP168466.1	NZ_CP168466.1	2802001526	SAMN42837554	582	Morganella morganii strain 2024CK-01033 plasmid unnamed2, complete sequence	direct
+NZ_CP168467.1	NZ_CP168467.1	2802001533	SAMN42837554	582	Morganella morganii strain 2024CK-01033 plasmid unnamed3, complete sequence	direct
+NZ_CP172114.1	NZ_CP172114.1	2843951849	SAMN44379867	582	Morganella morganii strain M-D1C1-1 chromosome, complete genome	direct
+NZ_CP172115.1	NZ_CP172115.1	2843946880	SAMN44379916	582	Morganella morganii strain M-D1C1-2 chromosome, complete genome	direct
+NZ_CP172116.1	NZ_CP172116.1	2843946881	SAMN44379916	582	Morganella morganii strain M-D1C1-2 plasmid pM-D1C1-2-4Kb, complete sequence	direct
+NZ_CP172117.1	NZ_CP172117.1	2843943404	SAMN44379937	582	Morganella morganii strain M-D4C2-1 chromosome, complete genome	direct
+NZ_CP172118.1	NZ_CP172118.1	2843943405	SAMN44379937	582	Morganella morganii strain M-D4C2-1 plasmid pM-D4C1-2-4Kb, complete sequence	direct
+NZ_CP173707.1	NZ_CP173707.1	2860933788	SAMN44292983	582	Morganella morganii strain DW0548 chromosome, complete genome	direct
+NZ_CP173708.1	NZ_CP173708.1	2860933967	SAMN44292983	582	Morganella morganii strain DW0548 plasmid pMMDW0548, complete sequence	direct
+NZ_CP181997.1	NZ_CP181997.1	2976149020	SAMN42539204	582	Morganella morganii strain A27745 chromosome, complete genome	direct
+NZ_CP181998.1	NZ_CP181998.1	2976149025	SAMN42539204	582	Morganella morganii strain A27745 plasmid p1_A27745, complete sequence	direct
+NZ_CP194356.1	NZ_CP194356.1	2997576707	SAMN48696004	582	Morganella morganii strain HM01 chromosome, complete genome	direct
+NZ_JBRILL010000002.1	NZ_JBRILL010000002.1	3106742428	SAMN51960061	582	Morganella morganii strain L4765hy plasmid pAA_1, whole genome shotgun sequence	direct
+NZ_LR699007.1	NZ_LR699007.1	1727807197	SAMEA5852017	582	Morganella morganii isolate MGYG-HGUT-02512 chromosome 1	direct
+NZ_LS483498.1	NZ_LS483498.1	1409106685	SAMEA2709025	582	Morganella morganii strain NCTC12028 chromosome 1, complete sequence	direct
+NZ_OX460951.1	NZ_OX460951.1	2509769670	SAMEA112774570	582	Morganella morganii strain HIS2824 isolate HIS2824 chromosome HIS2824_c1	direct
+NZ_OX460952.1	NZ_OX460952.1	2509769671	SAMEA112774570	582	Morganella morganii strain HIS2824 isolate HIS2824 plasmid HIS2824_p1	direct
+OX460951.1	OX460951.1	2488157603	SAMEA112774570	582	Morganella morganii strain HIS2824 genome assembly, chromosome: HIS2824_c1	direct
+OX460952.1	OX460952.1	2488157607	SAMEA112774570	582	Morganella morganii strain HIS2824 genome assembly, plasmid: HIS2824_p1	direct

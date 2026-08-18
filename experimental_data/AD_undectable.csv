@@ -1,0 +1,73 @@
+conditions,replicates,Time,AD
+No CSP or DNA control,1st,2 hr,0.036
+No CSP or DNA control,1st,2 hr,
+No CSP or DNA control,1st,2 hr,0.148
+No DNA control,1st,2 hr,
+No DNA control,1st,2 hr,
+No DNA control,1st,2 hr,
+CSP + 1% pneumococcal,1st,2 hr,
+CSP + 1% pneumococcal,1st,2 hr,0.017
+CSP + 1% pneumococcal,1st,2 hr,0.160
+CSP + 99% pneumococcal,1st,2 hr,0.291
+CSP + 99% pneumococcal,1st,2 hr,
+CSP + 99% pneumococcal,1st,2 hr,0.023
+No CSP or DNA control,1st,4 hr,
+No CSP or DNA control,1st,4 hr,
+No CSP or DNA control,1st,4 hr,
+No DNA control,1st,4 hr,0.424
+No DNA control,1st,4 hr,
+No DNA control,1st,4 hr,
+CSP + 1% pneumococcal,1st,4 hr,0.157
+CSP + 1% pneumococcal,1st,4 hr,0.236
+CSP + 1% pneumococcal,1st,4 hr,
+CSP + 99% pneumococcal,1st,4 hr,
+CSP + 99% pneumococcal,1st,4 hr,
+CSP + 99% pneumococcal,1st,4 hr,
+No CSP or DNA control,2nd,2 hr,0.520
+No CSP or DNA control,2nd,2 hr,0.623
+No CSP or DNA control,2nd,2 hr,7.753
+No DNA control,2nd,2 hr,4.250
+No DNA control,2nd,2 hr,0.509
+No DNA control,2nd,2 hr,0.145
+CSP + 1% pneumococcal,2nd,2 hr,683.306
+CSP + 1% pneumococcal,2nd,2 hr,172.784
+CSP + 1% pneumococcal,2nd,2 hr,395.047
+CSP + 99% pneumococcal,2nd,2 hr,898.894
+CSP + 99% pneumococcal,2nd,2 hr,49.285
+CSP + 99% pneumococcal,2nd,2 hr,133.186
+No CSP or DNA control,2nd,4 hr,0.195
+No CSP or DNA control,2nd,4 hr,0.935
+No CSP or DNA control,2nd,4 hr,
+No DNA control,2nd,4 hr,
+No DNA control,2nd,4 hr,15.062
+No DNA control,2nd,4 hr,8.877
+CSP + 1% pneumococcal,2nd,4 hr,
+CSP + 1% pneumococcal,2nd,4 hr,0.127
+CSP + 1% pneumococcal,2nd,4 hr,
+CSP + 99% pneumococcal,2nd,4 hr,0.353
+CSP + 99% pneumococcal,2nd,4 hr,
+CSP + 99% pneumococcal,2nd,4 hr,8.163
+No CSP or DNA control,3rd,2 hr,
+No CSP or DNA control,3rd,2 hr,0.068
+No CSP or DNA control,3rd,2 hr,
+No DNA control,3rd,2 hr,
+No DNA control,3rd,2 hr,
+No DNA control,3rd,2 hr,0.240
+CSP + 1% pneumococcal,3rd,2 hr,
+CSP + 1% pneumococcal,3rd,2 hr,426.508
+CSP + 1% pneumococcal,3rd,2 hr,134.614
+CSP + 99% pneumococcal,3rd,2 hr,29.154
+CSP + 99% pneumococcal,3rd,2 hr,0.432
+CSP + 99% pneumococcal,3rd,2 hr,
+No CSP or DNA control,3rd,4 hr,
+No CSP or DNA control,3rd,4 hr,
+No CSP or DNA control,3rd,4 hr,
+No DNA control,3rd,4 hr,0.157
+No DNA control,3rd,4 hr,
+No DNA control,3rd,4 hr,
+CSP + 1% pneumococcal,3rd,4 hr,
+CSP + 1% pneumococcal,3rd,4 hr,0.032
+CSP + 1% pneumococcal,3rd,4 hr,1.867
+CSP + 99% pneumococcal,3rd,4 hr,11.206
+CSP + 99% pneumococcal,3rd,4 hr,53.467
+CSP + 99% pneumococcal,3rd,4 hr,

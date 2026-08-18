@@ -1,0 +1,407 @@
+query_accession	resolved_accession	uid	biosample	taxid	title	resolved_from
+AE009948.1	AE009948.1	22535226	SAMN02604013	208435	Streptococcus agalactiae 2603V/R, complete genome	direct
+AL732656.1	AL732656.1	30407156	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome	direct
+AL766843.1	AL766843.1	23094426	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 1	direct
+AL766844.1	AL766844.1	23094557	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 2	direct
+AL766845.1	AL766845.1	23094784	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 3	direct
+AL766846.1	AL766846.1	23094961	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 4	direct
+AL766847.1	AL766847.1	23095200	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 5	direct
+AL766848.1	AL766848.1	23095367	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 6	direct
+AL766849.1	AL766849.1	23095613	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 7	direct
+AL766850.1	AL766850.1	24412858	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 8	direct
+AL766851.1	AL766851.1	24413042	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 9	direct
+AL766852.1	AL766852.1	24413138	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 10	direct
+AL766853.1	AL766853.1	24413320	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 11	direct
+AL766854.1	AL766854.1	24413438	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 12	direct
+AL766855.1	AL766855.1	24413525	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 13	direct
+AL766856.1	AL766856.1	24413615	SAMEA3138330	211110	Streptococcus agalactiae NEM316 complete genome, segment 14	direct
+AP018935.1	AP018935.1	1481051108	SAMD00137662	1311	Streptococcus agalactiae HU-GS5823 DNA, complete genome	direct
+AP020310.1	AP020310.1	2168701869	SAMD00173301	1311	Streptococcus agalactiae GCMC97051 DNA, complete genome	direct
+CM129918.1	CM129918.1	3092106351	SAMN52751413	1311	Streptococcus agalactiae strain H11 chromosome, complete sequence, whole genome shotgun sequence	direct
+CM130719.1	CM130719.1	3106663360	SAMN53056682	1311	Streptococcus agalactiae strain SagR272 chromosome, complete sequence, whole genome shotgun sequence	direct
+CP000114.1	CP000114.1	76561771	SAMN02604011	205921	Streptococcus agalactiae A909, complete genome	direct
+CP003810.1	CP003810.1	406649408	SAMN02603155	1203670	Streptococcus agalactiae GD201008-001, complete genome	direct
+CP006910.1	CP006910.1	721332205	SAMN03178022	1427374	Streptococcus agalactiae CNCTC 10/84, complete genome	direct
+CP007570.1	CP007570.1	674107077	SAMN02720890	1311	Streptococcus agalactiae strain GBS1-NY, complete genome	direct
+CP007571.1	CP007571.1	674109292	SAMN05771130	1311	Streptococcus agalactiae strain GBS2-NM, complete genome	direct
+CP007572.1	CP007572.1	674112297	SAMN05771129	1311	Streptococcus agalactiae strain GBS6, complete genome	direct
+CP007631.2	CP007631.2	672620002	SAMN02741687	1311	Streptococcus agalactiae strain NGBS061, complete genome	direct
+CP007632.1	CP007632.1	665997927	SAMN02741688	1311	Streptococcus agalactiae strain NGBS572, complete genome	direct
+CP008813.1	CP008813.1	1214509120	SAMN02850626	1311	Streptococcus agalactiae strain C001, complete genome	direct
+CP010319.1	CP010319.1	914598217	SAMN03108598	1311	Streptococcus agalactiae strain GBS85147, complete genome	direct
+CP010867.1	CP010867.1	827409863	SAMN03329971	1311	Streptococcus agalactiae strain SS1, complete genome	direct
+CP010874.1	CP010874.1	1005653411	SAMN03331945	1311	Streptococcus agalactiae strain CU_GBS_08 chromosome, complete genome	direct
+CP010875.1	CP010875.1	1005655463	SAMN03331944	1311	Streptococcus agalactiae strain CU_GBS_98, complete genome	direct
+CP011325.1	CP011325.1	909811907	SAMN02992126	1311	Streptococcus agalactiae strain HN016, complete genome	direct
+CP011329.1	CP011329.1	909819336	SAMN02991570	1311	Streptococcus agalactiae strain H002, complete genome	direct
+CP012419.2	CP012419.2	940376811	SAMN04002524	1311	Streptococcus agalactiae strain SG-M1, complete genome	direct
+CP012480.1	CP012480.1	985632614	SAMN04007140	1311	Streptococcus agalactiae strain NGBS128, complete genome	direct
+CP012503.1	CP012503.1	1059449888	SAMN04007152	1311	Streptococcus agalactiae strain NGBS357, complete genome	direct
+CP012742.1	CP012742.1	987149824	SAMN04007140	1311	Streptococcus agalactiae strain NGBS128 plasmid pNGBS128, complete sequence	direct
+CP013202.1	CP013202.1	955670971	SAMN04111187	1311	Streptococcus agalactiae strain GBS ST-1, complete genome	direct
+CP013908.1	CP013908.1	1127548671	SAMN04376007	1311	Streptococcus agalactiae strain GBS-M002, complete genome	direct
+CP016391.1	CP016391.1	1043227317	SAMN05187216	1311	Streptococcus agalactiae strain FWL1402, complete genome	direct
+CP016501.2	CP016501.2	1565817932	SAMN05370985	1311	Streptococcus agalactiae strain WC1535 chromosome, complete genome	direct
+CP019978.1	CP019978.1	1158638012	SAMN06329441	1311	Streptococcus agalactiae strain Sag37 chromosome, complete genome	direct
+CP019979.1	CP019979.1	1158640122	SAMN06445344	1311	Streptococcus agalactiae strain Sag158 chromosome, complete genome	direct
+CP020449.2	CP020449.2	1352851017	SAMN04875580	1311	Streptococcus agalactiae strain FDAARGOS_254 chromosome, complete genome	direct
+CP021769.1	CP021769.1	1418400075	SAMN07178061	1311	Streptococcus agalactiae strain B509 chromosome, complete genome	direct
+CP021770.1	CP021770.1	1418402049	SAMN07178060	1311	Streptococcus agalactiae strain B508 chromosome, complete genome	direct
+CP021771.1	CP021771.1	1418404136	SAMN07178059	1311	Streptococcus agalactiae strain B507 chromosome, complete genome	direct
+CP021772.1	CP021772.1	1418406115	SAMN07178058	1311	Streptococcus agalactiae strain B111 chromosome, complete genome	direct
+CP021773.1	CP021773.1	1418408181	SAMN07178057	1311	Streptococcus agalactiae strain B105 chromosome, complete genome	direct
+CP021862.1	CP021862.1	1207860948	SAMN05384056	1311	Streptococcus agalactiae strain CUGBS591 chromosome, complete genome	direct
+CP021863.1	CP021863.1	1207863098	SAMN05384092	1311	Streptococcus agalactiae strain SG-M163 chromosome, complete genome	direct
+CP021864.1	CP021864.1	1207865151	SAMN05384089	1311	Streptococcus agalactiae strain SG-M158 chromosome, complete genome	direct
+CP021865.1	CP021865.1	1207867205	SAMN05384208	1311	Streptococcus agalactiae strain SG-M50 chromosome, complete genome	direct
+CP021866.1	CP021866.1	1207869257	SAMN05384163	1311	Streptococcus agalactiae strain SG-M29 chromosome, complete genome	direct
+CP021867.1	CP021867.1	1207871481	SAMN05384059	1311	Streptococcus agalactiae strain SG-M25 chromosome, complete genome	direct
+CP021868.1	CP021868.1	1207873628	SAMN05384054	1311	Streptococcus agalactiae strain SG-M8 chromosome, complete genome	direct
+CP021869.1	CP021869.1	1207875697	SAMN05384057	1311	Streptococcus agalactiae strain SG-M6 chromosome, complete genome	direct
+CP021870.1	CP021870.1	1207880385	SAMN05384060	1311	Streptococcus agalactiae strain SG-M4 chromosome, complete genome	direct
+CP022537.1	CP022537.1	1241125863	SAMN07374522	1311	Streptococcus agalactiae strain 874391 chromosome, complete genome	direct
+CP025026.1	CP025026.1	1293059790	SAMN08111303	1311	Streptococcus agalactiae strain SGEHI2015-113 chromosome, complete genome	direct
+CP025027.1	CP025027.1	1293057840	SAMN08111302	1311	Streptococcus agalactiae strain SGEHI2015-107 chromosome, complete genome	direct
+CP025028.1	CP025028.1	1293066849	SAMN08111301	1311	Streptococcus agalactiae strain SGEHI2015-95 chromosome, complete genome	direct
+CP025029.1	CP025029.1	1293061765	SAMN08111300	1311	Streptococcus agalactiae strain SGEHI2015-25 chromosome, complete genome	direct
+CP026082.1	CP026082.1	1801999889	SAMN08374174	1311	Streptococcus agalactiae strain YZ1605 chromosome, complete genome	direct
+CP026083.1	CP026083.1	1802002027	SAMN08374174	1311	Streptococcus agalactiae strain YZ1605 plasmid pYZ1605, complete sequence	direct
+CP026084.1	CP026084.1	1802002039	SAMN08374240	1311	Streptococcus agalactiae strain NJ1606 chromosome, complete genome	direct
+CP029561.1	CP029561.1	1699409147	SAMN09229090	1311	Streptococcus agalactiae strain 32790-3A chromosome, complete genome	direct
+CP029749.1	CP029749.1	1700679306	SAMN09267180	1311	Streptococcus agalactiae strain PLGBS13 chromosome, complete genome	direct
+CP030845.1	CP030845.1	1427045515	SAMN09606624	1311	Streptococcus agalactiae strain S73 chromosome, complete genome	direct
+CP031556.1	CP031556.1	1450364208	SAMN09789228	1311	Streptococcus agalactiae strain Sag27 chromosome, complete genome	direct
+CP033822.1	CP033822.1	1519061507	SAMN10163206	1311	Streptococcus agalactiae strain FDAARGOS_512 chromosome, complete genome	direct
+CP034315.1	CP034315.1	1534013859	SAMN09379579	1311	Streptococcus agalactiae strain TFJ0901 chromosome, complete genome	direct
+CP036376.1	CP036376.1	1829598006	SAMN10907844	1311	Streptococcus agalactiae strain Sag153 chromosome, complete genome	direct
+CP038809.1	CP038809.1	2078765753	SAMN03329970	1311	Streptococcus agalactiae strain SS1168 chromosome, complete genome	direct
+CP041998.1	CP041998.1	1891185672	SAMN12355362	1311	Streptococcus agalactiae strain GBS7 chromosome, complete genome	direct
+CP041999.1	CP041999.1	1891188538	SAMN12355365	1311	Streptococcus agalactiae strain GBS11 chromosome, complete genome	direct
+CP042000.1	CP042000.1	1891190704	SAMN12355372	1311	Streptococcus agalactiae strain GBS19 chromosome, complete genome	direct
+CP042001.1	CP042001.1	1891220646	SAMN12355381	1311	Streptococcus agalactiae strain GBS28 chromosome, complete genome	direct
+CP042002.1	CP042002.1	1891237193	SAMN12355383	1311	Streptococcus agalactiae strain GBS30 chromosome, complete genome	direct
+CP044090.1	CP044090.1	1750958816	SAMN11056385	1311	Streptococcus agalactiae strain FDAARGOS_670 chromosome, complete genome	direct
+CP044091.1	CP044091.1	1750946042	SAMN11056384	1311	Streptococcus agalactiae strain FDAARGOS_669 chromosome, complete genome	direct
+CP049938.1	CP049938.1	1821439924	SAMN14331836	1311	Streptococcus agalactiae strain ZQ0910 chromosome, complete genome	direct
+CP051004.1	CP051004.1	1833339643	SAMN13536106	342614	Streptococcus agalactiae 515 chromosome, complete genome	direct
+CP053027.1	CP053027.1	1839533690	SAMN14677105	1311	Streptococcus agalactiae strain 01173 chromosome, complete genome	direct
+CP053886.1	CP053886.1	2179732993	SAMN03329879	1311	Streptococcus agalactiae strain SS114 chromosome, complete genome	direct
+CP053887.1	CP053887.1	2179737407	SAMN03329869	1311	Streptococcus agalactiae strain SS102 chromosome, complete genome	direct
+CP053888.1	CP053888.1	2179739381	SAMN03329919	1311	Streptococcus agalactiae strain SS44 chromosome, complete genome	direct
+CP053889.1	CP053889.1	2179741402	SAMN03329918	1311	Streptococcus agalactiae strain SS43 chromosome, complete genome	direct
+CP053890.1	CP053890.1	2179743365	SAMN12355421	1311	Streptococcus agalactiae strain GBS68 chromosome, complete genome	direct
+CP053891.1	CP053891.1	2179747289	SAMN12355373	1311	Streptococcus agalactiae strain GBS20 chromosome, complete genome	direct
+CP054054.1	CP054054.1	2179735381	SAMN03329878	1311	Streptococcus agalactiae strain SS111 chromosome, complete genome	direct
+CP054055.1	CP054055.1	2179745350	SAMN12355400	1311	Streptococcus agalactiae strain GBS47 chromosome, complete genome	direct
+CP058666.1	CP058666.1	1869313397	SAMN15246708	1311	Streptococcus agalactiae strain S9968 chromosome, complete genome	direct
+CP059383.1	CP059383.1	1880617134	SAMN15580042	1311	Streptococcus agalactiae strain BJ01 chromosome, complete genome	direct
+CP063198.2	CP063198.2	1949357595	SAMN16191206	342617	Streptococcus agalactiae CJB111 chromosome, complete genome	direct
+CP086129.1	CP086129.1	2177615233	SAMN22108510	1311	Streptococcus agalactiae strain MIN-181 chromosome, complete genome	direct
+CP086130.1	CP086130.1	2177617467	SAMN22108509	1311	Streptococcus agalactiae strain MIN-180 chromosome, complete genome	direct
+CP101991.1	CP101991.1	2574043696	SAMN29959624	1311	Streptococcus agalactiae strain BCJB4361 chromosome, complete genome	direct
+CP101992.1	CP101992.1	2574046037	SAMN29959623	1311	Streptococcus agalactiae strain BCJB3586 chromosome, complete genome	direct
+CP101993.1	CP101993.1	2574048156	SAMN29959622	1311	Streptococcus agalactiae strain BCJB3344 chromosome, complete genome	direct
+CP101994.1	CP101994.1	2574050351	SAMN29959621	1311	Streptococcus agalactiae strain BCJB3343 chromosome, complete genome	direct
+CP101995.1	CP101995.1	2574052653	SAMN29959620	1311	Streptococcus agalactiae strain BCJB2983 chromosome, complete genome	direct
+CP101996.1	CP101996.1	2574054659	SAMN29959619	1311	Streptococcus agalactiae strain BCJB1835 chromosome, complete genome	direct
+CP104748.1	CP104748.1	2309068306	SAMN30873151	1311	Streptococcus agalactiae strain TAH 10/84 chromosome, complete genome	direct
+CP104749.1	CP104749.1	2309070456	SAMN30873150	1311	Streptococcus agalactiae strain TAH 10/84 dUdp chromosome, complete genome	direct
+CP104750.1	CP104750.1	2309072872	SAMN30873149	1311	Streptococcus agalactiae strain TAH 10/84 dMrvR chromosome, complete genome	direct
+CP107524.1	CP107524.1	2320738831	SAMN31213618	1311	Streptococcus agalactiae strain SA5087 chromosome, complete genome	direct
+CP116705.1	CP116705.1	2510382841	SAMN32878366	1311	Mutant Streptococcus agalactiae strain CNCTC 10/84 dCas9, complete genome	direct
+CP116706.1	CP116706.1	2510380831	SAMN32878365	1311	Mutant Streptococcus agalactiae strain A909 sCas9, complete genome	direct
+CP116707.1	CP116707.1	2510378815	SAMN32878364	1311	Mutant Streptococcus agalactiae strain A909 sCas9revertant, complete genome	direct
+CP116708.1	CP116708.1	2510376912	SAMN32878363	1311	Mutant Streptococcus agalactiae strain CNCTC 10/84 sCas9, complete genome	direct
+CP116709.1	CP116709.1	2510375009	SAMN32878362	1311	Mutant Streptococcus agalactiae strain CNCTC 10/84 sCas9revertant, complete genome	direct
+CP116710.1	CP116710.1	2510373052	SAMN32878361	1311	Mutant Streptococcus agalactiae strain A909 dCas9, complete genome	direct
+CP116711.1	CP116711.1	2510371149	SAMN32878360	1311	Mutant Streptococcus agalactiae strain CNCTC 10/84 Cas9 AEKOrevertant, complete genome	direct
+CP116712.1	CP116712.1	2510369247	SAMN32878359	1311	Mutant Streptococcus agalactiae strain CNCTC 10/84 Cas9 AEKO, complete genome	direct
+CP116713.1	CP116713.1	2510367233	SAMN32878358	1311	Mutant Streptococcus agalactiae strain A909 Cas9 AEKOrevertant, complete genome	direct
+CP116714.1	CP116714.1	2510365221	SAMN32878357	1311	Mutant Streptococcus agalactiae strain A909 Cas9 AEKO, complete genome	direct
+CP118043.1	CP118043.1	2451521028	SAMN33275459	1311	Streptococcus agalactiae strain VSI63 chromosome, complete genome	direct
+CP118079.1	CP118079.1	2451605166	SAMN33275442	1311	Streptococcus agalactiae strain VSI15 chromosome, complete genome	direct
+CP118080.1	CP118080.1	2451607272	SAMN33275441	1311	Streptococcus agalactiae strain VSI14 chromosome, complete genome	direct
+CP119576.1	CP119576.1	2461924225	SAMN33687318	1311	Streptococcus agalactiae strain Guangzhou-SAG092 chromosome, complete genome	direct
+CP120654.1	CP120654.1	2473419535	SAMN33760391	1311	Streptococcus agalactiae strain Guangzhou-SAG036 chromosome, complete genome	direct
+CP120953.1	CP120953.1	2522939443	SAMN33919071	1311	Streptococcus agalactiae strain GBSIR0001 chromosome, complete genome	direct
+CP121159.1	CP121159.1	2482045817	SAMN33836061	1311	Streptococcus agalactiae strain S1 chromosome, complete genome	direct
+CP121160.1	CP121160.1	2482045778	SAMN33836060	1311	Streptococcus agalactiae strain S5 chromosome, complete genome	direct
+CP123969.1	CP123969.1	2499353747	SAMN34339751	1311	Streptococcus agalactiae strain CS2108 chromosome, complete genome	direct
+CP123970.1	CP123970.1	2499355759	SAMN34339751	1311	Streptococcus agalactiae strain CS2108 plasmid unnamed, complete sequence	direct
+CP128605.1	CP128605.1	2958144552	SAMN35880059	1311	Streptococcus agalactiae strain AR977 chromosome, complete genome	direct
+CP129875.1	CP129875.1	2546355825	SAMN35521427	342616	Streptococcus agalactiae COH1 chromosome, complete genome	direct
+CP129876.1	CP129876.1	2546355826	SAMN35521428	1311	Streptococcus agalactiae strain NEM316 chromosome, complete genome	direct
+CP134202.1	CP134202.1	2578847054	SAMN37286898	1311	Streptococcus agalactiae strain Alim_agalac_1000 chromosome, complete genome	direct
+CP134688.1	CP134688.1	2877984921	SAMN35326541	1311	Streptococcus agalactiae strain MA07 chromosome, complete genome	direct
+CP134689.1	CP134689.1	2878003126	SAMN35312073	1311	Streptococcus agalactiae strain HU05/19 chromosome, complete genome	direct
+CP135101.1	CP135101.1	2878001087	SAMN35326212	1311	Streptococcus agalactiae strain HU13/21 chromosome, complete genome	direct
+CP135102.1	CP135102.1	2878005322	SAMN35326332	1311	Streptococcus agalactiae strain HU32/21 chromosome, complete genome	direct
+CP135103.1	CP135103.1	2878014906	SAMN35326345	1311	Streptococcus agalactiae strain HU36/21 chromosome, complete genome	direct
+CP135104.1	CP135104.1	2878016976	SAMN35326562	1311	Streptococcus agalactiae strain MA15 chromosome, complete genome	direct
+CP138367.1	CP138367.1	2621768854	SAMN38156288	1311	Streptococcus agalactiae strain R31-snf2-MTase2 chromosome, complete genome	direct
+CP138368.1	CP138368.1	2621764980	SAMN38156297	1311	Streptococcus agalactiae strain SagR92 chromosome, complete genome	direct
+CP138369.1	CP138369.1	2621766939	SAMN38156456	1311	Streptococcus agalactiae strain SagR31 chromosome, complete genome	direct
+CP138370.1	CP138370.1	2621778018	SAMN38156594	1311	Streptococcus agalactiae strain SagR40 chromosome, complete genome	direct
+CP138371.1	CP138371.1	2621773430	SAMN38157180	1311	Streptococcus agalactiae strain R31-snf2 chromosome, complete genome	direct
+CP142853.1	CP142853.1	3004022300	SAMN39484731	1311	Streptococcus agalactiae strain 986 chromosome, complete genome	direct
+CP142854.1	CP142854.1	3004001559	SAMN39484455	1311	Streptococcus agalactiae strain 782 chromosome, complete genome	direct
+CP143101.1	CP143101.1	3004020093	SAMN39483318	1311	Streptococcus agalactiae strain MA12 chromosome, complete genome	direct
+CP143102.1	CP143102.1	3004009961	SAMN39484138	1311	Streptococcus agalactiae strain 765 chromosome, complete genome	direct
+CP147731.1	CP147731.1	2699807159	SAMN40233030	1311	Streptococcus agalactiae strain SagR266 chromosome, complete genome	direct
+CP147733.1	CP147733.1	2699802047	SAMN40233034	1311	Streptococcus agalactiae strain SagR272_TC chromosome, complete genome	direct
+CP157724.1	CP157724.1	3030628182	SAMN40990104	1311	Streptococcus agalactiae strain RAOG665 chromosome, complete genome	direct
+CP157725.1	CP157725.1	3030624280	SAMN40990103	1311	Streptococcus agalactiae strain RAOG664 chromosome, complete genome	direct
+CP157726.1	CP157726.1	3030626231	SAMN40990102	1311	Streptococcus agalactiae strain RAOG663 chromosome, complete genome	direct
+CP157727.1	CP157727.1	3030632084	SAMN40990101	1311	Streptococcus agalactiae strain RAOG662 chromosome, complete genome	direct
+CP157728.1	CP157728.1	3030630133	SAMN40947428	1311	Streptococcus agalactiae strain RAOG640 chromosome, complete genome	direct
+CP163561.1	CP163561.1	2798014490	SAMN42930103	1311	Streptococcus agalactiae strain GBS-B4009 chromosome, complete genome	direct
+CP168323.1	CP168323.1	2797060155	SAMN43285230	1311	Streptococcus agalactiae strain SA2BKE chromosome, complete genome	direct
+CP169988.1	CP169988.1	2976341548	SAMN43761491	1311	Streptococcus agalactiae strain T44 plasmid pPD76_T44, complete sequence	direct
+CP169989.1	CP169989.1	2976341549	SAMN43761491	1311	Streptococcus agalactiae strain T44 chromosome, complete genome	direct
+CP180684.1	CP180684.1	2913226627	SAMN46729552	1311	Streptococcus agalactiae strain M18 chromosome, complete genome	direct
+CP180685.1	CP180685.1	2913233190	SAMN46729551	1311	Streptococcus agalactiae strain M14 chromosome, complete genome	direct
+CP187263.1	CP187263.1	2957280749	SAMN47732629	1311	Streptococcus agalactiae strain 161002207-6 chromosome, complete genome	direct
+CP187264.1	CP187264.1	2957280748	SAMN47732628	1311	Streptococcus agalactiae strain 161002207-5 chromosome, complete genome	direct
+CP191190.1	CP191190.1	3053811291	SAMN48131564	1311	Streptococcus agalactiae strain Sag105 chromosome, complete genome	direct
+CP191191.1	CP191191.1	3053815924	SAMN48131565	1311	Streptococcus agalactiae strain Sag149 chromosome, complete genome	direct
+CP191192.1	CP191192.1	3053818139	SAMN48131567	1311	Streptococcus agalactiae strain Sag28 chromosome, complete genome	direct
+CP191193.1	CP191193.1	3053813720	SAMN48131568	1311	Streptococcus agalactiae strain Sag56 chromosome, complete genome	direct
+CP191194.1	CP191194.1	3053822460	SAMN48131569	1311	Streptococcus agalactiae strain Sag58 chromosome, complete genome	direct
+CP191195.1	CP191195.1	3053826761	SAMN48131570	1311	Streptococcus agalactiae strain Sag-G044 chromosome, complete genome	direct
+CP191196.1	CP191196.1	3053824682	SAMN48131571	1311	Streptococcus agalactiae strain Sag-G052 chromosome, complete genome	direct
+CP191197.1	CP191197.1	3053828945	SAMN48131572	1311	Streptococcus agalactiae strain Sag-HS21-263 chromosome, complete genome	direct
+CP191198.1	CP191198.1	3053820305	SAMN48131573	1311	Streptococcus agalactiae strain Sag-ZDN16 chromosome, complete genome	direct
+CP191199.1	CP191199.1	3053831048	SAMN48131574	1311	Streptococcus agalactiae strain Sag-ZDN19 chromosome, complete genome	direct
+CP199919.1	CP199919.1	3063798651	SAMN51304262	1311	Streptococcus agalactiae strain SagR311-mut chromosome, complete genome	direct
+HF952104.1	HF952104.1	507581572	SAMEA2272272	1309806	Streptococcus agalactiae 09mas018883 complete genome	direct
+HF952105.1	HF952105.1	507583662	SAMEA2272371	1309807	Streptococcus agalactiae ILRI005 complete genome	direct
+HG939456.1	HG939456.1	606215985	SAMEA3139000	342616	Streptococcus agalactiae, strain COH1, complete genome	direct
+JBRRGL000000000.1	JBRRGL000000000.1	3091825322	SAMN52751413	1311	Streptococcus agalactiae strain H11, whole genome shotgun sequencing project	direct
+JBSDES000000000.1	JBSDES000000000.1	3106660981	SAMN53056682	1311	Streptococcus agalactiae strain SagR272, whole genome shotgun sequencing project	direct
+LR134265.1	LR134265.1	1539699848	SAMEA3529271	1311	Streptococcus agalactiae strain NCTC8184 genome assembly, chromosome: 1	direct
+LR134512.1	LR134512.1	1540247954	SAMEA104210798	1311	Streptococcus agalactiae strain NCTC13949 genome assembly, chromosome: 1	direct
+LR134520.1	LR134520.1	1540262826	SAMEA104224788	1311	Streptococcus agalactiae strain NCTC13947 genome assembly, chromosome: 1	direct
+LS483342.1	LS483342.1	1403302629	SAMEA3597587	1311	Streptococcus agalactiae strain NCTC11930 genome assembly, chromosome: 1	direct
+LS483387.1	LS483387.1	1403402249	SAMEA3856681	1311	Streptococcus agalactiae strain NCTC8187 genome assembly, chromosome: 1	direct
+LT545678.1	LT545678.1	1072298630	SAMEA3888151	1311	Streptococcus agalactiae isolate SA111 genome assembly, chromosome: I	direct
+LT714196.1	LT714196.1	1194638361	SAMEA46071418	1311	Streptococcus agalactiae isolate BM110 genome assembly, chromosome: I	direct
+NC_004116.1	NC_004116.1	22536185	SAMN02604013	208435	Streptococcus agalactiae 2603V/R, complete sequence	direct
+NC_004368.1	NC_004368.1	25010075	SAMEA3138330	211110	Streptococcus agalactiae NEM316, complete sequence	direct
+NC_007432.1	NC_007432.1	76786714	SAMN02604011	205921	Streptococcus agalactiae A909, complete sequence	direct
+NC_018646.1	NC_018646.1	406708523	SAMN02603155	1203670	Streptococcus agalactiae GD201008-001, complete sequence	direct
+NC_021485.1	NC_021485.1	512538239	SAMEA2272272	1309806	Streptococcus agalactiae 09mas018883 chromosome I, complete sequence	direct
+NC_021486.1	NC_021486.1	512543719	SAMEA2272371	1309807	Streptococcus agalactiae ILRI005 chromosome I, complete sequence	direct
+NZ_AP018935.1	NZ_AP018935.1	1545306101	SAMD00137662	1311	Streptococcus agalactiae strain HU-GS5823 chromosome, complete genome	direct
+NZ_AP020310.1	NZ_AP020310.1	2189446247	SAMD00173301	1311	Streptococcus agalactiae strain GCMC97051 chromosome, complete genome	direct
+NZ_CM129918.1	NZ_CM129918.1	3108818224	SAMN52751413	1311	Streptococcus agalactiae strain H11 chromosome, whole genome shotgun sequence	direct
+NZ_CM130719.1	NZ_CM130719.1	3112784285	SAMN53056682	1311	Streptococcus agalactiae strain SagR272 chromosome, whole genome shotgun sequence	direct
+NZ_CP006910.1	NZ_CP006910.1	749295059	SAMN03178022	1427374	Streptococcus agalactiae CNCTC 10/84 chromosome, complete genome	direct
+NZ_CP007570.1	NZ_CP007570.1	752682099	SAMN02720890	1311	Streptococcus agalactiae strain GBS1-NY chromosome, complete genome	direct
+NZ_CP007571.1	NZ_CP007571.1	752682386	SAMN05771130	1311	Streptococcus agalactiae strain GBS2-NM chromosome, complete genome	direct
+NZ_CP007572.1	NZ_CP007572.1	752678152	SAMN05771129	1311	Streptococcus agalactiae strain GBS6 chromosome, complete genome	direct
+NZ_CP007631.1	NZ_CP007631.1	749295056	SAMN02741687	1311	Streptococcus agalactiae strain NGBS061 chromosome, complete genome	direct
+NZ_CP007632.1	NZ_CP007632.1	749295058	SAMN02741688	1311	Streptococcus agalactiae strain NGBS572 chromosome, complete genome	direct
+NZ_CP008813.1	NZ_CP008813.1	1214770472	SAMN02850626	1311	Streptococcus agalactiae strain C001 chromosome, complete genome	direct
+NZ_CP010319.1	NZ_CP010319.1	920656943	SAMN03108598	1311	Streptococcus agalactiae strain GBS85147 chromosome, complete genome	direct
+NZ_CP010867.1	NZ_CP010867.1	844798393	SAMN03329971	1311	Streptococcus agalactiae strain SS1 chromosome, complete genome	direct
+NZ_CP010874.1	NZ_CP010874.1	1006577223	SAMN03331945	1311	Streptococcus agalactiae strain CU_GBS_08 chromosome, complete genome	direct
+NZ_CP010875.1	NZ_CP010875.1	1006553555	SAMN03331944	1311	Streptococcus agalactiae strain CU_GBS_98 chromosome, complete genome	direct
+NZ_CP011325.1	NZ_CP011325.1	915768712	SAMN02992126	1311	Streptococcus agalactiae strain HN016 chromosome, complete genome	direct
+NZ_CP011329.1	NZ_CP011329.1	915758652	SAMN02991570	1311	Streptococcus agalactiae strain H002 chromosome, complete genome	direct
+NZ_CP012419.2	NZ_CP012419.2	983255571	SAMN04002524	1311	Streptococcus agalactiae strain SG-M1 chromosome, complete genome	direct
+NZ_CP012480.1	CP012480.1	985632614	SAMN04007140	1311	Streptococcus agalactiae strain NGBS128, complete genome	alias:CP012480.1
+NZ_CP012503.1	NZ_CP012503.1	1059947522	SAMN04007152	1311	Streptococcus agalactiae strain NGBS357 chromosome, complete genome	direct
+NZ_CP012742.1	CP012742.1	987149824	SAMN04007140	1311	Streptococcus agalactiae strain NGBS128 plasmid pNGBS128, complete sequence	alias:CP012742.1
+NZ_CP013202.1	NZ_CP013202.1	959863954	SAMN04111187	1311	Streptococcus agalactiae strain GBS ST-1 chromosome, complete genome	direct
+NZ_CP013908.1	NZ_CP013908.1	1128950776	SAMN04376007	1311	Streptococcus agalactiae strain GBS-M002 chromosome, complete genome	direct
+NZ_CP016391.1	NZ_CP016391.1	1043350793	SAMN05187216	1311	Streptococcus agalactiae strain FWL1402 chromosome, complete genome	direct
+NZ_CP016501.2	NZ_CP016501.2	1654737656	SAMN05370985	1311	Streptococcus agalactiae strain WC1535 chromosome, complete genome	direct
+NZ_CP019978.1	NZ_CP019978.1	1159287219	SAMN06329441	1311	Streptococcus agalactiae strain Sag37 chromosome, complete genome	direct
+NZ_CP019979.1	NZ_CP019979.1	1159286517	SAMN06445344	1311	Streptococcus agalactiae strain Sag158 chromosome, complete genome	direct
+NZ_CP020449.2	NZ_CP020449.2	1358780614	SAMN04875580	1311	Streptococcus agalactiae strain FDAARGOS_254 chromosome, complete genome	direct
+NZ_CP021769.1	NZ_CP021769.1	1424148566	SAMN07178061	1311	Streptococcus agalactiae strain B509 chromosome, complete genome	direct
+NZ_CP021770.1	NZ_CP021770.1	1424175237	SAMN07178060	1311	Streptococcus agalactiae strain B508 chromosome, complete genome	direct
+NZ_CP021771.1	NZ_CP021771.1	1424198611	SAMN07178059	1311	Streptococcus agalactiae strain B507 chromosome, complete genome	direct
+NZ_CP021772.1	NZ_CP021772.1	1424221457	SAMN07178058	1311	Streptococcus agalactiae strain B111 chromosome, complete genome	direct
+NZ_CP021773.1	NZ_CP021773.1	1424117627	SAMN07178057	1311	Streptococcus agalactiae strain B105 chromosome, complete genome	direct
+NZ_CP021862.1	NZ_CP021862.1	1208921968	SAMN05384056	1311	Streptococcus agalactiae strain CUGBS591 chromosome, complete genome	direct
+NZ_CP021863.1	NZ_CP021863.1	1208924317	SAMN05384092	1311	Streptococcus agalactiae strain SG-M163 chromosome, complete genome	direct
+NZ_CP021864.1	NZ_CP021864.1	1208939515	SAMN05384089	1311	Streptococcus agalactiae strain SG-M158 chromosome, complete genome	direct
+NZ_CP021865.1	NZ_CP021865.1	1208932926	SAMN05384208	1311	Streptococcus agalactiae strain SG-M50 chromosome, complete genome	direct
+NZ_CP021866.1	NZ_CP021866.1	1208923274	SAMN05384163	1311	Streptococcus agalactiae strain SG-M29 chromosome, complete genome	direct
+NZ_CP021867.1	NZ_CP021867.1	1208933012	SAMN05384059	1311	Streptococcus agalactiae strain SG-M25 chromosome, complete genome	direct
+NZ_CP021868.1	NZ_CP021868.1	1208917094	SAMN05384054	1311	Streptococcus agalactiae strain SG-M8 chromosome, complete genome	direct
+NZ_CP021869.1	NZ_CP021869.1	1208934208	SAMN05384057	1311	Streptococcus agalactiae strain SG-M6 chromosome, complete genome	direct
+NZ_CP021870.1	NZ_CP021870.1	1208939621	SAMN05384060	1311	Streptococcus agalactiae strain SG-M4 chromosome, complete genome	direct
+NZ_CP022537.1	NZ_CP022537.1	1241802247	SAMN07374522	1311	Streptococcus agalactiae strain 874391 chromosome, complete genome	direct
+NZ_CP025026.1	NZ_CP025026.1	1300150696	SAMN08111303	1311	Streptococcus agalactiae strain SGEHI2015-113 chromosome, complete genome	direct
+NZ_CP025027.1	NZ_CP025027.1	1300297552	SAMN08111302	1311	Streptococcus agalactiae strain SGEHI2015-107 chromosome, complete genome	direct
+NZ_CP025028.1	NZ_CP025028.1	1300299365	SAMN08111301	1311	Streptococcus agalactiae strain SGEHI2015-95 chromosome, complete genome	direct
+NZ_CP025029.1	NZ_CP025029.1	1300149025	SAMN08111300	1311	Streptococcus agalactiae strain SGEHI2015-25 chromosome, complete genome	direct
+NZ_CP026082.1	NZ_CP026082.1	1802705479	SAMN08374174	1311	Streptococcus agalactiae strain YZ1605 chromosome, complete genome	direct
+NZ_CP026083.1	NZ_CP026083.1	1802705485	SAMN08374174	1311	Streptococcus agalactiae strain YZ1605 plasmid pYZ1605, complete sequence	direct
+NZ_CP026084.1	NZ_CP026084.1	1802718317	SAMN08374240	1311	Streptococcus agalactiae strain NJ1606 chromosome, complete genome	direct
+NZ_CP029561.1	NZ_CP029561.1	1701662595	SAMN09229090	1311	Streptococcus agalactiae strain 32790-3A chromosome, complete genome	direct
+NZ_CP029749.1	NZ_CP029749.1	1705229897	SAMN09267180	1311	Streptococcus agalactiae strain PLGBS13 chromosome, complete genome	direct
+NZ_CP030845.1	NZ_CP030845.1	1430559781	SAMN09606624	1311	Streptococcus agalactiae strain S73 chromosome, complete genome	direct
+NZ_CP031556.1	NZ_CP031556.1	1460004523	SAMN09789228	1311	Streptococcus agalactiae strain Sag27 chromosome, complete genome	direct
+NZ_CP033822.1	NZ_CP033822.1	1520488949	SAMN10163206	1311	Streptococcus agalactiae strain FDAARGOS_512 chromosome, complete genome	direct
+NZ_CP034315.1	NZ_CP034315.1	1535653149	SAMN09379579	1311	Streptococcus agalactiae strain TFJ0901 chromosome, complete genome	direct
+NZ_CP036376.1	NZ_CP036376.1	1829678824	SAMN10907844	1311	Streptococcus agalactiae strain Sag153 chromosome, complete genome	direct
+NZ_CP038809.1	NZ_CP038809.1	2079479160	SAMN03329970	1311	Streptococcus agalactiae strain SS1168 chromosome, complete genome	direct
+NZ_CP041998.1	NZ_CP041998.1	1893138070	SAMN12355362	1311	Streptococcus agalactiae strain GBS7 chromosome, complete genome	direct
+NZ_CP041999.1	NZ_CP041999.1	1893149529	SAMN12355365	1311	Streptococcus agalactiae strain GBS11 chromosome, complete genome	direct
+NZ_CP042000.1	NZ_CP042000.1	1893139422	SAMN12355372	1311	Streptococcus agalactiae strain GBS19 chromosome, complete genome	direct
+NZ_CP042001.1	NZ_CP042001.1	1893148393	SAMN12355381	1311	Streptococcus agalactiae strain GBS28 chromosome, complete genome	direct
+NZ_CP042002.1	NZ_CP042002.1	1893139434	SAMN12355383	1311	Streptococcus agalactiae strain GBS30 chromosome, complete genome	direct
+NZ_CP044090.1	NZ_CP044090.1	1752215635	SAMN11056385	1311	Streptococcus agalactiae strain FDAARGOS_670 chromosome, complete genome	direct
+NZ_CP044091.1	NZ_CP044091.1	1752237400	SAMN11056384	1311	Streptococcus agalactiae strain FDAARGOS_669 chromosome, complete genome	direct
+NZ_CP049938.1	NZ_CP049938.1	1821996363	SAMN14331836	1311	Streptococcus agalactiae strain ZQ0910 chromosome, complete genome	direct
+NZ_CP051004.1	NZ_CP051004.1	1834224810	SAMN13536106	342614	Streptococcus agalactiae 515 chromosome, complete genome	direct
+NZ_CP053027.1	NZ_CP053027.1	1839796504	SAMN14677105	1311	Streptococcus agalactiae strain 01173 chromosome, complete genome	direct
+NZ_CP053886.1	NZ_CP053886.1	2181029987	SAMN03329879	1311	Streptococcus agalactiae strain SS114 chromosome, complete genome	direct
+NZ_CP053887.1	NZ_CP053887.1	2181037178	SAMN03329869	1311	Streptococcus agalactiae strain SS102 chromosome, complete genome	direct
+NZ_CP053888.1	NZ_CP053888.1	2181037556	SAMN03329919	1311	Streptococcus agalactiae strain SS44 chromosome, complete genome	direct
+NZ_CP053889.1	NZ_CP053889.1	2181019807	SAMN03329918	1311	Streptococcus agalactiae strain SS43 chromosome, complete genome	direct
+NZ_CP053890.1	NZ_CP053890.1	2181050890	SAMN12355421	1311	Streptococcus agalactiae strain GBS68 chromosome, complete genome	direct
+NZ_CP053891.1	NZ_CP053891.1	2181034135	SAMN12355373	1311	Streptococcus agalactiae strain GBS20 chromosome, complete genome	direct
+NZ_CP054054.1	NZ_CP054054.1	2181034136	SAMN03329878	1311	Streptococcus agalactiae strain SS111 chromosome, complete genome	direct
+NZ_CP054055.1	NZ_CP054055.1	2181019793	SAMN12355400	1311	Streptococcus agalactiae strain GBS47 chromosome, complete genome	direct
+NZ_CP058666.1	NZ_CP058666.1	1870081603	SAMN15246708	1311	Streptococcus agalactiae strain S9968 chromosome, complete genome	direct
+NZ_CP059383.1	NZ_CP059383.1	1884070021	SAMN15580042	1311	Streptococcus agalactiae strain BJ01 chromosome, complete genome	direct
+NZ_CP063198.2	NZ_CP063198.2	1951703210	SAMN16191206	342617	Streptococcus agalactiae CJB111 chromosome, complete genome	direct
+NZ_CP086129.1	NZ_CP086129.1	2178775962	NA	NA	NA	direct
+NZ_CP086130.1	NZ_CP086130.1	2178810347	SAMN22108509	1311	Streptococcus agalactiae strain MIN-180 chromosome, complete genome	direct
+NZ_CP101991.1	NZ_CP101991.1	2575279412	SAMN29959624	1311	Streptococcus agalactiae strain BCJB4361 chromosome, complete genome	direct
+NZ_CP101992.1	NZ_CP101992.1	2575287377	SAMN29959623	1311	Streptococcus agalactiae strain BCJB3586 chromosome, complete genome	direct
+NZ_CP101993.1	NZ_CP101993.1	2575280716	SAMN29959622	1311	Streptococcus agalactiae strain BCJB3344 chromosome, complete genome	direct
+NZ_CP101994.1	NZ_CP101994.1	2575262220	SAMN29959621	1311	Streptococcus agalactiae strain BCJB3343 chromosome, complete genome	direct
+NZ_CP101995.1	NZ_CP101995.1	2575287480	SAMN29959620	1311	Streptococcus agalactiae strain BCJB2983 chromosome, complete genome	direct
+NZ_CP101996.1	NZ_CP101996.1	2575262238	SAMN29959619	1311	Streptococcus agalactiae strain BCJB1835 chromosome, complete genome	direct
+NZ_CP104748.1	NZ_CP104748.1	2310757113	SAMN30873151	1311	Streptococcus agalactiae strain TAH 10/84 chromosome, complete genome	direct
+NZ_CP104749.1	NZ_CP104749.1	2310750185	SAMN30873150	1311	Streptococcus agalactiae strain TAH 10/84 dUdp chromosome, complete genome	direct
+NZ_CP104750.1	NZ_CP104750.1	2310726873	SAMN30873149	1311	Streptococcus agalactiae strain TAH 10/84 dMrvR chromosome, complete genome	direct
+NZ_CP107524.1	NZ_CP107524.1	2321043415	SAMN31213618	1311	Streptococcus agalactiae strain SA5087 chromosome, complete genome	direct
+NZ_CP116705.1	NZ_CP116705.1	2511267147	SAMN32878366	1311	Streptococcus agalactiae strain CNCTC 10/84 dCas9 chromosome, complete genome	direct
+NZ_CP116706.1	NZ_CP116706.1	2511267166	SAMN32878365	1311	Streptococcus agalactiae strain A909 sCas9 chromosome, complete genome	direct
+NZ_CP116707.1	NZ_CP116707.1	2511266305	SAMN32878364	1311	Streptococcus agalactiae strain A909 sCas9revertant chromosome, complete genome	direct
+NZ_CP116708.1	NZ_CP116708.1	2511260619	SAMN32878363	1311	Streptococcus agalactiae strain CNCTC 10/84 sCas9 chromosome, complete genome	direct
+NZ_CP116709.1	NZ_CP116709.1	2511265197	SAMN32878362	1311	Streptococcus agalactiae strain CNCTC 10/84 sCas9revertant chromosome, complete genome	direct
+NZ_CP116710.1	NZ_CP116710.1	2511267187	SAMN32878361	1311	Streptococcus agalactiae strain A909 dCas9 chromosome, complete genome	direct
+NZ_CP116711.1	NZ_CP116711.1	2511267215	SAMN32878360	1311	Streptococcus agalactiae strain CNCTC 10/84 Cas9 AEKOrevertant chromosome, complete genome	direct
+NZ_CP116712.1	NZ_CP116712.1	2511266373	SAMN32878359	1311	Streptococcus agalactiae strain CNCTC 10/84 Cas9 AEKO chromosome, complete genome	direct
+NZ_CP116713.1	NZ_CP116713.1	2511261187	SAMN32878358	1311	Streptococcus agalactiae strain A909 Cas9 AEKOrevertant chromosome, complete genome	direct
+NZ_CP116714.1	NZ_CP116714.1	2511265234	SAMN32878357	1311	Streptococcus agalactiae strain A909 Cas9 AEKO chromosome, complete genome	direct
+NZ_CP118043.1	NZ_CP118043.1	2451930639	SAMN33275459	1311	Streptococcus agalactiae strain VSI63 chromosome, complete genome	direct
+NZ_CP118079.1	NZ_CP118079.1	2451912438	SAMN33275442	1311	Streptococcus agalactiae strain VSI15 chromosome, complete genome	direct
+NZ_CP118080.1	NZ_CP118080.1	2451914986	SAMN33275441	1311	Streptococcus agalactiae strain VSI14 chromosome, complete genome	direct
+NZ_CP119576.1	NZ_CP119576.1	2462970434	SAMN33687318	1311	Streptococcus agalactiae strain Guangzhou-SAG092 chromosome, complete genome	direct
+NZ_CP120654.1	NZ_CP120654.1	2474142695	SAMN33760391	1311	Streptococcus agalactiae strain Guangzhou-SAG036 chromosome, complete genome	direct
+NZ_CP120953.1	NZ_CP120953.1	2524507264	SAMN33919071	1311	Streptococcus agalactiae strain GBSIR0001 chromosome, complete genome	direct
+NZ_CP121159.1	NZ_CP121159.1	2482337211	SAMN33836061	1311	Streptococcus agalactiae strain S1 chromosome, complete genome	direct
+NZ_CP121160.1	NZ_CP121160.1	2482337069	SAMN33836060	1311	Streptococcus agalactiae strain S5 chromosome, complete genome	direct
+NZ_CP123969.1	NZ_CP123969.1	2500038877	SAMN34339751	1311	Streptococcus agalactiae strain CS2108 chromosome, complete genome	direct
+NZ_CP123970.1	NZ_CP123970.1	2500038897	SAMN34339751	1311	Streptococcus agalactiae strain CS2108 plasmid unnamed, complete sequence	direct
+NZ_CP128605.1	NZ_CP128605.1	2960350172	SAMN35880059	1311	Streptococcus agalactiae strain AR977 chromosome, complete genome	direct
+NZ_CP129875.1	NZ_CP129875.1	2549342027	SAMN35521427	342616	Streptococcus agalactiae COH1 chromosome, complete genome	direct
+NZ_CP129876.1	NZ_CP129876.1	2549062248	SAMN35521428	1311	Streptococcus agalactiae strain NEM316 chromosome, complete genome	direct
+NZ_CP134202.1	NZ_CP134202.1	2580232154	SAMN37286898	1311	Streptococcus agalactiae strain Alim_agalac_1000 chromosome, complete genome	direct
+NZ_CP134688.1	NZ_CP134688.1	2880616635	SAMN35326541	1311	Streptococcus agalactiae strain MA07 chromosome, complete genome	direct
+NZ_CP134689.1	NZ_CP134689.1	2880611570	SAMN35312073	1311	Streptococcus agalactiae strain HU05/19 chromosome, complete genome	direct
+NZ_CP135101.1	NZ_CP135101.1	2880610382	SAMN35326212	1311	Streptococcus agalactiae strain HU13/21 chromosome, complete genome	direct
+NZ_CP135102.1	NZ_CP135102.1	2880610999	SAMN35326332	1311	Streptococcus agalactiae strain HU32/21 chromosome, complete genome	direct
+NZ_CP135103.1	NZ_CP135103.1	2880612430	SAMN35326345	1311	Streptococcus agalactiae strain HU36/21 chromosome, complete genome	direct
+NZ_CP135104.1	NZ_CP135104.1	2880616297	SAMN35326562	1311	Streptococcus agalactiae strain MA15 chromosome, complete genome	direct
+NZ_CP138367.1	NZ_CP138367.1	2622230970	SAMN38156288	1311	Streptococcus agalactiae strain R31-snf2-MTase2 chromosome, complete genome	direct
+NZ_CP138368.1	NZ_CP138368.1	2622267302	SAMN38156297	1311	Streptococcus agalactiae strain SagR92 chromosome, complete genome	direct
+NZ_CP138369.1	NZ_CP138369.1	2622189932	SAMN38156456	1311	Streptococcus agalactiae strain SagR31 chromosome, complete genome	direct
+NZ_CP138370.1	NZ_CP138370.1	2622190072	SAMN38156594	1311	Streptococcus agalactiae strain SagR40 chromosome, complete genome	direct
+NZ_CP138371.1	NZ_CP138371.1	2622309981	SAMN38157180	1311	Streptococcus agalactiae strain R31-snf2 chromosome, complete genome	direct
+NZ_CP142853.1	NZ_CP142853.1	3004886337	SAMN39484731	1311	Streptococcus agalactiae strain 986 chromosome, complete genome	direct
+NZ_CP142854.1	NZ_CP142854.1	3004897200	SAMN39484455	1311	Streptococcus agalactiae strain 782 chromosome, complete genome	direct
+NZ_CP143101.1	NZ_CP143101.1	3004896402	SAMN39483318	1311	Streptococcus agalactiae strain MA12 chromosome, complete genome	direct
+NZ_CP143102.1	NZ_CP143102.1	3004896409	SAMN39484138	1311	Streptococcus agalactiae strain 765 chromosome, complete genome	direct
+NZ_CP147731.1	NZ_CP147731.1	2711190004	SAMN40233030	1311	Streptococcus agalactiae strain SagR266 chromosome, complete genome	direct
+NZ_CP147733.1	NZ_CP147733.1	2711183959	SAMN40233034	1311	Streptococcus agalactiae strain SagR272_TC chromosome, complete genome	direct
+NZ_CP157724.1	NZ_CP157724.1	3032647822	SAMN40990104	1311	Streptococcus agalactiae strain RAOG665 chromosome, complete genome	direct
+NZ_CP157725.1	NZ_CP157725.1	3032647810	SAMN40990103	1311	Streptococcus agalactiae strain RAOG664 chromosome, complete genome	direct
+NZ_CP157726.1	NZ_CP157726.1	3032647814	SAMN40990102	1311	Streptococcus agalactiae strain RAOG663 chromosome, complete genome	direct
+NZ_CP157727.1	NZ_CP157727.1	3032647819	SAMN40990101	1311	Streptococcus agalactiae strain RAOG662 chromosome, complete genome	direct
+NZ_CP157728.1	NZ_CP157728.1	3032647079	SAMN40947428	1311	Streptococcus agalactiae strain RAOG640 chromosome, complete genome	direct
+NZ_CP163561.1	NZ_CP163561.1	2800124809	SAMN42930103	1311	Streptococcus agalactiae strain GBS-B4009 chromosome, complete genome	direct
+NZ_CP168323.1	NZ_CP168323.1	2797155591	SAMN43285230	1311	Streptococcus agalactiae strain SA2BKE chromosome, complete genome	direct
+NZ_CP169988.1	NZ_CP169988.1	2978443024	SAMN43761491	1311	Streptococcus agalactiae strain T44 plasmid pPD76_T44, complete sequence	direct
+NZ_CP169989.1	NZ_CP169989.1	2978443025	SAMN43761491	1311	Streptococcus agalactiae strain T44 chromosome, complete genome	direct
+NZ_CP180684.1	NZ_CP180684.1	2913605048	SAMN46729552	1311	Streptococcus agalactiae strain M18 chromosome, complete genome	direct
+NZ_CP180685.1	NZ_CP180685.1	2913605024	SAMN46729551	1311	Streptococcus agalactiae strain M14 chromosome, complete genome	direct
+NZ_CP187263.1	NZ_CP187263.1	2959312989	SAMN47732629	1311	Streptococcus agalactiae strain 161002207-6 chromosome, complete genome	direct
+NZ_CP187264.1	NZ_CP187264.1	2959313996	SAMN47732628	1311	Streptococcus agalactiae strain 161002207-5 chromosome, complete genome	direct
+NZ_CP191190.1	NZ_CP191190.1	3054933444	SAMN48131564	1311	Streptococcus agalactiae strain Sag105 chromosome, complete genome	direct
+NZ_CP191191.1	NZ_CP191191.1	3054933507	SAMN48131565	1311	Streptococcus agalactiae strain Sag149 chromosome, complete genome	direct
+NZ_CP191192.1	NZ_CP191192.1	3054933669	SAMN48131567	1311	Streptococcus agalactiae strain Sag28 chromosome, complete genome	direct
+NZ_CP191193.1	NZ_CP191193.1	3054933503	SAMN48131568	1311	Streptococcus agalactiae strain Sag56 chromosome, complete genome	direct
+NZ_CP191194.1	NZ_CP191194.1	3054933582	SAMN48131569	1311	Streptococcus agalactiae strain Sag58 chromosome, complete genome	direct
+NZ_CP191195.1	NZ_CP191195.1	3054933553	SAMN48131570	1311	Streptococcus agalactiae strain Sag-G044 chromosome, complete genome	direct
+NZ_CP191196.1	NZ_CP191196.1	3054933682	SAMN48131571	1311	Streptococcus agalactiae strain Sag-G052 chromosome, complete genome	direct
+NZ_CP191197.1	NZ_CP191197.1	3054933642	SAMN48131572	1311	Streptococcus agalactiae strain Sag-HS21-263 chromosome, complete genome	direct
+NZ_CP191198.1	NZ_CP191198.1	3054933474	SAMN48131573	1311	Streptococcus agalactiae strain Sag-ZDN16 chromosome, complete genome	direct
+NZ_CP191199.1	NZ_CP191199.1	3054933613	SAMN48131574	1311	Streptococcus agalactiae strain Sag-ZDN19 chromosome, complete genome	direct
+NZ_CP199919.1	NZ_CP199919.1	3068056006	SAMN51304262	1311	Streptococcus agalactiae strain SagR311-mut chromosome, complete genome	direct
+NZ_HG939456.1	NZ_HG939456.1	749295057	SAMEA3139000	342616	Streptococcus agalactiae COH1 chromosome I, complete sequence	direct
+NZ_LR134265.1	NZ_LR134265.1	1569288934	SAMEA3529271	1311	Streptococcus agalactiae strain NCTC8184 chromosome 1, complete sequence	direct
+NZ_LR134512.1	NZ_LR134512.1	1545244648	SAMEA104210798	1311	Streptococcus agalactiae strain NCTC13949 chromosome 1, complete sequence	direct
+NZ_LR134520.1	NZ_LR134520.1	1545245645	SAMEA104224788	1311	Streptococcus agalactiae strain NCTC13947 chromosome 1, complete sequence	direct
+NZ_LS483342.1	NZ_LS483342.1	1409015048	SAMEA3597587	1311	Streptococcus agalactiae strain NCTC11930 chromosome 1, complete sequence	direct
+NZ_LS483387.1	NZ_LS483387.1	1409031285	SAMEA3856681	1311	Streptococcus agalactiae strain NCTC8187 chromosome 1, complete sequence	direct
+NZ_LT545678.1	NZ_LT545678.1	1073578430	SAMEA3888151	1311	Streptococcus agalactiae isolate SA111 chromosome I, complete sequence	direct
+NZ_LT714196.1	NZ_LT714196.1	1197962318	SAMEA46071418	1311	Streptococcus agalactiae isolate BM110 chromosome I, complete sequence	direct
+NZ_OX460906.1	NZ_OX460906.1	2509587129	SAMEA8908802	1311	Streptococcus agalactiae isolate MRI Z2-265 chromosome 23495_7_299_h	direct
+NZ_OX460907.1	NZ_OX460907.1	2509587130	SAMEA8908802	1311	Streptococcus agalactiae isolate MRI Z2-265 plasmid pZ2-265	direct
+NZ_OX460911.1	NZ_OX460911.1	2509583694	SAMEA8908799	1311	Streptococcus agalactiae isolate MRI Z2-322 chromosome 23220_1_89_h	direct
+NZ_OX460931.1	NZ_OX460931.1	2509558424	SAMEA8908800	1311	Streptococcus agalactiae isolate MRI Z2-174 chromosome 23495_7_283_h	direct
+NZ_OX460932.1	NZ_OX460932.1	2509558460	SAMEA8908800	1311	Streptococcus agalactiae isolate MRI Z2-174 plasmid pZ2-174	direct
+NZ_OX460934.1	NZ_OX460934.1	2509505450	SAMEA8908794	1311	Streptococcus agalactiae isolate MRI Z2-335 chromosome 23220_1_3_h	direct
+NZ_OX460935.1	NZ_OX460935.1	2509506557	SAMEA8908811	1311	Streptococcus agalactiae isolate MRI Z2-286 chromosome 23495_7_372_h	direct
+NZ_OX460938.1	NZ_OX460938.1	2509559531	SAMEA8908797	1311	Streptococcus agalactiae isolate MRI Z2-318 chromosome 23220_1_57_h	direct
+NZ_OX460940.1	NZ_OX460940.1	2509507252	SAMEA8908803	1311	Streptococcus agalactiae isolate MRI Z2-179 chromosome 23495_7_322_h	direct
+NZ_OX460941.1	OX460941.1	2479261509	SAMEA8908804	1311	Streptococcus agalactiae isolate MRI Z2-304 genome assembly, chromosome: 23495_7_326_h	alias:OX460941.1
+NZ_OX460942.1	NZ_OX460942.1	2509584791	SAMEA8908806	1311	Streptococcus agalactiae isolate MRI Z2-158 chromosome 23495_7_344_h	direct
+NZ_OX460943.1	NZ_OX460943.1	2509507633	SAMEA8908795	1311	Streptococcus agalactiae isolate MRI Z2-328 chromosome 23220_1_42_h	direct
+NZ_OX460960.1	NZ_OX460960.1	2509509064	SAMEA8908801	1311	Streptococcus agalactiae isolate MRI Z2-299 chromosome 23495_7_287_h	direct
+NZ_OX460961.1	NZ_OX460961.1	2509509106	SAMEA8908801	1311	Streptococcus agalactiae isolate MRI Z2-299 plasmid pZ2-265	direct
+NZ_OX460962.1	NZ_OX460962.1	2509509109	SAMEA8908801	1311	Streptococcus agalactiae isolate MRI Z2-299 plasmid other	direct
+NZ_OX460968.1	NZ_OX460968.1	2509505322	SAMEA8908798	1311	Streptococcus agalactiae isolate MRI Z2-342 chromosome 23220_1_59_h	direct
+NZ_OX460984.1	NZ_OX460984.1	2509582245	SAMEA8908809	1311	Streptococcus agalactiae isolate MRI Z2-172 chromosome 23495_7_361_h	direct
+NZ_OX460985.1	NZ_OX460985.1	2509505504	SAMEA8908808	1311	Streptococcus agalactiae isolate MRI Z2-307 chromosome 23495_7_350_h	direct
+NZ_OX461088.1	NZ_OX461088.1	2509505558	SAMEA8908793	1311	Streptococcus agalactiae isolate MRI Z2-338 chromosome 23220_1_27_h	direct
+NZ_OX461090.1	NZ_OX461090.1	2509274346	SAMEA8908792	1311	Streptococcus agalactiae isolate MRI Z2-336 chromosome 23220_1_11_h	direct
+NZ_OX461091.1	NZ_OX461091.1	2509274347	SAMEA8908792	1311	Streptococcus agalactiae isolate MRI Z2-336 plasmid IME	direct
+NZ_OX461092.1	NZ_OX461092.1	2509274348	SAMEA8908792	1311	Streptococcus agalactiae isolate MRI Z2-336 plasmid pZ2-336	direct
+NZ_OX461103.1	NZ_OX461103.1	2509582788	SAMEA8908810	1311	Streptococcus agalactiae isolate MRI Z2-149 chromosome 23495_7_367_h	direct
+NZ_OX465025.1	NZ_OX465025.1	2529398885	SAMEA8908796	1311	Streptococcus agalactiae isolate MRI Z2-329 chromosome 23220_1_50_h	direct
+NZ_OX595791.1	NZ_OX595791.1	2510029600	SAMEA8908805	1311	Streptococcus agalactiae isolate MRI Z2-270 chromosome 23495_7_339_h	direct
+OX460906.1	OX460906.1	2477395346	SAMEA8908802	1311	Streptococcus agalactiae isolate MRI Z2-265 genome assembly, chromosome: 23495_7_299_h	direct
+OX460907.1	OX460907.1	2477395353	SAMEA8908802	1311	Streptococcus agalactiae isolate MRI Z2-265 genome assembly, plasmid: pZ2-265	direct
+OX460911.1	OX460911.1	2479259629	SAMEA8908799	1311	Streptococcus agalactiae isolate MRI Z2-322 genome assembly, chromosome: 23220_1_89_h	direct
+OX460931.1	OX460931.1	2479261503	SAMEA8908800	1311	Streptococcus agalactiae isolate MRI Z2-174 genome assembly, chromosome: 23495_7_283_h	direct
+OX460932.1	OX460932.1	2479261504	SAMEA8908800	1311	Streptococcus agalactiae isolate MRI Z2-174 genome assembly, plasmid: pZ2-174	direct
+OX460934.1	OX460934.1	2479261505	SAMEA8908794	1311	Streptococcus agalactiae isolate MRI Z2-335 genome assembly, chromosome: 23220_1_3_h	direct
+OX460935.1	OX460935.1	2479261506	SAMEA8908811	1311	Streptococcus agalactiae isolate MRI Z2-286 genome assembly, chromosome: 23495_7_372_h	direct
+OX460938.1	OX460938.1	2479261507	SAMEA8908797	1311	Streptococcus agalactiae isolate MRI Z2-318 genome assembly, chromosome: 23220_1_57_h	direct
+OX460940.1	OX460940.1	2479261508	SAMEA8908803	1311	Streptococcus agalactiae isolate MRI Z2-179 genome assembly, chromosome: 23495_7_322_h	direct
+OX460941.1	OX460941.1	2479261509	SAMEA8908804	1311	Streptococcus agalactiae isolate MRI Z2-304 genome assembly, chromosome: 23495_7_326_h	direct
+OX460942.1	OX460942.1	2479261510	SAMEA8908806	1311	Streptococcus agalactiae isolate MRI Z2-158 genome assembly, chromosome: 23495_7_344_h	direct
+OX460943.1	OX460943.1	2479262429	SAMEA8908795	1311	Streptococcus agalactiae isolate MRI Z2-328 genome assembly, chromosome: 23220_1_42_h	direct
+OX460960.1	OX460960.1	2479262444	SAMEA8908801	1311	Streptococcus agalactiae isolate MRI Z2-299 genome assembly, chromosome: 23495_7_287_h	direct
+OX460961.1	OX460961.1	2479262445	SAMEA8908801	1311	Streptococcus agalactiae isolate MRI Z2-299 genome assembly, plasmid: pZ2-265	direct
+OX460962.1	OX460962.1	2479262446	SAMEA8908801	1311	Streptococcus agalactiae isolate MRI Z2-299 genome assembly, plasmid: other	direct
+OX460968.1	OX460968.1	2479262447	SAMEA8908798	1311	Streptococcus agalactiae isolate MRI Z2-342 genome assembly, chromosome: 23220_1_59_h	direct
+OX460984.1	OX460984.1	2483364869	SAMEA8908809	1311	Streptococcus agalactiae isolate MRI Z2-172 genome assembly, chromosome: 23495_7_361_h	direct
+OX460985.1	OX460985.1	2483364877	SAMEA8908808	1311	Streptococcus agalactiae isolate MRI Z2-307 genome assembly, chromosome: 23495_7_350_h	direct
+OX461088.1	OX461088.1	2483383419	SAMEA8908793	1311	Streptococcus agalactiae isolate MRI Z2-338 genome assembly, chromosome: 23220_1_27_h	direct
+OX461090.1	OX461090.1	2483383421	SAMEA8908792	1311	Streptococcus agalactiae isolate MRI Z2-336 genome assembly, chromosome: 23220_1_11_h	direct
+OX461091.1	OX461091.1	2483383422	SAMEA8908792	1311	Streptococcus agalactiae isolate MRI Z2-336 genome assembly, plasmid: IME	direct
+OX461092.1	OX461092.1	2483383423	SAMEA8908792	1311	Streptococcus agalactiae isolate MRI Z2-336 genome assembly, plasmid: pZ2-336	direct
+OX461103.1	OX461103.1	2483383430	SAMEA8908810	1311	Streptococcus agalactiae isolate MRI Z2-149 genome assembly, chromosome: 23495_7_367_h	direct
+OX465025.1	OX465025.1	2526818704	SAMEA8908796	1311	Streptococcus agalactiae isolate MRI Z2-329 genome assembly, chromosome: 23220_1_50_h	direct
+OX595791.1	OX595791.1	2504368736	SAMEA8908805	1311	Streptococcus agalactiae isolate MRI Z2-270 genome assembly, chromosome: 23495_7_339_h	direct

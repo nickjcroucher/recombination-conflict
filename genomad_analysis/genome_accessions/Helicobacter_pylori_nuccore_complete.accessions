@@ -1,0 +1,895 @@
+query_accession	resolved_accession	uid	biosample	taxid	title	resolved_from
+AE001439.1	AE001439.1	12057207	SAMN02602990	85963	Helicobacter pylori J99, complete genome	direct
+AP011940.1	AP011940.1	317176808	SAMD00060971	866344	Helicobacter pylori F16 DNA, complete genome	direct
+AP011941.1	AP011941.1	317178309	SAMD00060972	866345	Helicobacter pylori F30 DNA, complete genome	direct
+AP011942.1	AP011942.1	317179790	SAMD00060972	866345	Helicobacter pylori F30 plasmid pHPF30 DNA, complete genome	direct
+AP011943.1	AP011943.1	317179796	SAMD00060973	102608	Helicobacter pylori F32 DNA, complete genome	direct
+AP011944.1	AP011944.1	317181288	SAMD00060973	102608	Helicobacter pylori F32 plasmid pHPF32 DNA, complete genome	direct
+AP011945.1	AP011945.1	317181290	SAMD00060974	866346	Helicobacter pylori F57 DNA, complete genome	direct
+AP012600.1	AP012600.1	459942343	SAMD00061056	1248725	Helicobacter pylori OK113 DNA, complete genome	direct
+AP012601.1	AP012601.1	459943864	SAMD00061057	1248726	Helicobacter pylori OK310 DNA, complete genome	direct
+AP012602.1	AP012602.1	459945356	SAMD00061057	1248726	Helicobacter pylori OK310 plasmid pHPOK310 DNA, complete genome	direct
+AP013354.1	AP013354.1	548960075	SAMD00061015	1391726	Helicobacter pylori 26695-1 DNA, complete genome	direct
+AP013355.1	AP013355.1	548960076	SAMD00061017	1391728	Helicobacter pylori 26695-1CH DNA, complete genome	direct
+AP013356.1	AP013356.1	548960077	SAMD00061016	1391727	Helicobacter pylori 26695-1CL DNA, complete genome	direct
+AP014523.1	AP014523.1	647550235	SAMD00061026	1426844	Helicobacter pylori NY40 DNA, complete genome	direct
+AP017632.1	AP017632.1	1559946603	SAMD00051588	210	Helicobacter pylori DNA, complete genome, strain: ATCC43504	direct
+AP017633.1	AP017633.1	1559948212	SAMD00051589	210	Helicobacter pylori DNA, complete genome, strain: PMSS1	direct
+AP017634.1	AP017634.1	1559949719	SAMD00051589	210	Helicobacter pylori plasmid pPMSS1 DNA, complete sequence, strain: PMSS1	direct
+AP019730.1	AP019730.1	1728166110	SAMN02724990	210	Helicobacter pylori TN2wt DNA, complete genome	direct
+AP023344.1	AP023344.1	2220845177	NA	NA	NA	direct
+AP023345.1	AP023345.1	2220846751	SAMD00232839	210	Helicobacter pylori JSHR31 DNA, complete genome	direct
+AP023346.1	AP023346.1	2220848270	SAMD00232839	210	Helicobacter pylori JSHR31 plasmid JSHR31-PL DNA, complete sequence	direct
+AP023347.1	AP023347.1	2220848283	SAMD00232838	210	Helicobacter pylori JSHR 6 DNA, complete genome	direct
+AP024599.1	AP024599.1	2048645451	NA	NA	NA	direct
+AP024962.1	AP024962.1	2075919668	SAMD00392799	210	Helicobacter pylori #3 DNA, complete genome	direct
+AP024963.1	AP024963.1	2075921187	SAMD00392800	210	Helicobacter pylori #5 DNA, complete genome	direct
+AP024964.1	AP024964.1	2075922753	SAMD00392801	210	Helicobacter pylori #6 DNA, complete genome	direct
+AP024965.1	AP024965.1	2075924311	SAMD00392802	210	Helicobacter pylori #8 DNA, complete genome	direct
+AP026446.1	AP026446.1	2319416291	NA	NA	NA	direct
+CP000012.1	CP000012.1	261837457	SAMN02603300	290847	Helicobacter pylori 51, complete genome	direct
+CP000241.1	CP000241.1	107836197	SAMN02604311	357544	Helicobacter pylori HPAG1, complete genome	direct
+CP000242.1	CP000242.1	107837734	SAMN02604311	357544	Helicobacter pylori HPAG1 plasmid pHPAG1, complete sequence	direct
+CP001072.2	CP001072.2	189491895	SAMN02604319	512562	Helicobacter pylori Shi470, complete genome	direct
+CP001173.1	CP001173.1	208431905	SAMN02604237	563041	Helicobacter pylori G27, complete genome	direct
+CP001174.1	CP001174.1	208433399	NA	NA	NA	direct
+CP001582.1	CP001582.1	297379223	SAMN00003101	637913	Helicobacter pylori v225d, complete genome	direct
+CP001583.1	CP001583.1	297380765	SAMN00003101	637913	Helicobacter pylori v225d plasmid pHPv225d, complete sequence	direct
+CP001680.1	CP001680.1	261838873	SAMN02603357	684950	Helicobacter pylori 52, complete genome	direct
+CP002071.1	CP002071.1	308062870	NA	NA	NA	direct
+CP002072.1	CP002072.1	308061298	SAMN02603200	794851	Helicobacter pylori Sat464 plasmid pHPSAT464, complete sequence	direct
+CP002073.1	CP002073.1	308059716	NA	NA	NA	direct
+CP002074.1	CP002074.1	308064373	SAMN02603203	765963	Helicobacter pylori PeCan4, complete genome	direct
+CP002075.1	CP002075.1	308065929	SAMN02603203	765963	Helicobacter pylori PeCan4 plasmid pHPPC4, complete sequence	direct
+CP002076.1	CP002076.1	308061305	SAMN02603204	765964	Helicobacter pylori Cuz20, complete genome	direct
+CP002096.1	CP002096.1	315585794	SAMN02299423	585535	Helicobacter pylori 35A, complete genome	direct
+CP002331.1	CP002331.1	317008680	SAMN02603026	907238	Helicobacter pylori India7, complete genome	direct
+CP002332.1	CP002332.1	317013424	SAMN02603024	907240	Helicobacter pylori Gambia94/24, complete genome	direct
+CP002333.1	CP002333.1	317015029	SAMN02603024	907240	Helicobacter pylori Gambia94/24 plasmid, complete sequence	direct
+CP002334.1	CP002334.1	317011857	SAMN02603023	907237	Helicobacter pylori Lithuania75, complete genome	direct
+CP002335.1	CP002335.1	317013404	SAMN02603023	907237	Helicobacter pylori Lithuania75 plasmid, complete sequence	direct
+CP002336.1	CP002336.1	317010283	SAMN02603025	907239	Helicobacter pylori SouthAfrica7, complete genome	direct
+CP002337.1	CP002337.1	317011827	SAMN02603025	907239	Helicobacter pylori SouthAfrica7 plasmid, complete sequence	direct
+CP002571.1	CP002571.1	325996870	SAMN02603712	985081	Helicobacter pylori 2017, complete genome	direct
+CP002572.1	CP002572.1	325995266	SAMN02603713	985080	Helicobacter pylori 2018, complete genome	direct
+CP002605.1	CP002605.1	332672788	SAMN00189522	585538	Helicobacter pylori 83, complete genome	direct
+CP002953.1	CP002953.1	380873809	SAMN02604318	1055527	Helicobacter pylori ELS37, complete genome	direct
+CP002954.1	CP002954.1	380875380	SAMN02604318	1055527	Helicobacter pylori ELS37 plasmid pHPELS37, complete sequence	direct
+CP002980.1	CP002980.1	344334211	SAMN02604320	1055528	Helicobacter pylori Puno120, complete genome	direct
+CP002981.1	CP002981.1	344335737	SAMN02604320	1055528	Helicobacter pylori Puno120 plasmid pHPPN120, complete sequence	direct
+CP002982.1	CP002982.1	344335753	SAMN02604321	1055529	Helicobacter pylori Puno135, complete genome	direct
+CP002983.1	CP002983.1	344331165	SAMN02604322	1055530	Helicobacter pylori SNT49, complete genome	direct
+CP002984.1	CP002984.1	344332681	SAMN02604322	1055530	Helicobacter pylori SNT49 plasmid pHPSNT, complete sequence	direct
+CP003472.1	CP003472.1	384556702	SAMN02603193	1163739	Helicobacter pylori Shi417, complete genome	direct
+CP003473.1	CP003473.1	384558251	SAMN02603195	1163741	Helicobacter pylori Shi169, complete genome	direct
+CP003474.1	CP003474.1	384559777	SAMN02603194	1163740	Helicobacter pylori Shi112, complete genome	direct
+CP003475.1	CP003475.1	384561342	SAMN02603196	1163742	Helicobacter pylori PeCan18, complete genome	direct
+CP003476.1	CP003476.1	425628494	SAMN02604324	1055532	Helicobacter pylori Aklavik86, complete genome	direct
+CP003477.1	CP003477.1	425629869	SAMN02604324	1055532	Helicobacter pylori Aklavik86 plasmid p1HPAKL86, complete sequence	direct
+CP003478.1	CP003478.1	425629882	SAMN02604324	1055532	Helicobacter pylori Aklavik86 plasmid p2HPAKL86, complete sequence	direct
+CP003483.1	CP003483.1	425626953	SAMN02604323	1055531	Helicobacter pylori Aklavik117, complete genome	direct
+CP003484.1	CP003484.1	425628474	SAMN02604323	1055531	Helicobacter pylori Aklavik117 plasmid p1HPAKL117, complete sequence	direct
+CP003485.1	CP003485.1	425628491	SAMN02604323	1055531	Helicobacter pylori Aklavik117 plasmid p2HPAKL117, complete sequence	direct
+CP003486.1	CP003486.1	384551775	NA	NA	NA	direct
+CP003487.1	CP003487.1	384553269	SAMN02603197	1163743	Helicobacter pylori HUP-B14 plasmid pHPB14, complete sequence	direct
+CP003904.1	CP003904.1	409893163	SAMN02603761	85962	Helicobacter pylori 26695, complete genome	direct
+CP003905.1	CP003905.1	409894893	SAMN02603762	1234365	Helicobacter pylori Rif1, complete genome	direct
+CP003906.1	CP003906.1	409896556	SAMN02603763	1234600	Helicobacter pylori Rif2, complete genome	direct
+CP005490.3	CP005490.3	684654607	SAMN02230257	1311573	Helicobacter pylori UM032 chromosome, complete genome	direct
+CP005491.3	CP005491.3	684655069	SAMN02230259	1321938	Helicobacter pylori UM299 chromosome, complete genome	direct
+CP005492.3	CP005492.3	686465340	SAMN02604194	1321939	Helicobacter pylori UM037, complete genome	direct
+CP005493.3	CP005493.3	686465507	SAMN02230271	1321940	Helicobacter pylori UM066, complete genome	direct
+CP006610.2	CP006610.2	685885934	NA	NA	NA	direct
+CP006820.1	CP006820.1	597814853	SAMN03081488	1382920	Helicobacter pylori oki102, complete genome	direct
+CP006821.1	CP006821.1	597816335	SAMN03081489	1382921	Helicobacter pylori oki112, complete genome	direct
+CP006822.1	CP006822.1	597817819	SAMN03081490	1382922	Helicobacter pylori oki128, complete genome	direct
+CP006823.1	CP006823.1	597819213	SAMN03081491	1382923	Helicobacter pylori oki154, complete genome	direct
+CP006824.1	CP006824.1	597820653	SAMN03081492	1382924	Helicobacter pylori oki422, complete genome	direct
+CP006825.1	CP006825.1	597822122	SAMN03081493	1382925	Helicobacter pylori oki673, complete genome	direct
+CP006826.1	CP006826.1	597823560	SAMN03081494	1382926	Helicobacter pylori oki828, complete genome	direct
+CP006827.1	CP006827.1	597825006	SAMN03081495	1382927	Helicobacter pylori oki898, complete genome	direct
+CP006888.1	CP006888.1	558757555	SAMN02376623	1407462	Helicobacter pylori BM012A, complete genome	direct
+CP006889.1	CP006889.1	558759127	SAMN02376624	1407463	Helicobacter pylori BM012S, complete genome	direct
+CP007603.1	CP007603.1	631807036	SAMN02736817	102611	Helicobacter pylori J166, complete genome	direct
+CP007604.1	CP007604.1	631808491	SAMN02736809	210	Helicobacter pylori strain BM013A, complete genome	direct
+CP007605.1	CP007605.1	631809926	SAMN02736818	210	Helicobacter pylori strain BM012B, complete genome	direct
+CP007606.1	CP007606.1	631811420	SAMN02736816	210	Helicobacter pylori strain BM013B, complete genome	direct
+CP009259.1	CP009259.1	1149039824	SAMN03331743	102617	Helicobacter pylori SS1, complete sequence	direct
+CP009260.1	CP009260.1	1149041282	SAMN03331743	102617	Helicobacter pylori SS1 plasmid pHPLYSS1, complete sequence	direct
+CP010435.1	CP010435.1	749166835	SAMN03268385	1391726	Helicobacter pylori 26695-1, complete genome	direct
+CP010436.1	CP010436.1	749168891	SAMN03268365	210	Helicobacter pylori strain 26695-1MET, complete genome	direct
+CP011330.1	CP011330.1	816207297	SAMN03487572	85963	Helicobacter pylori J99, complete genome	direct
+CP011482.1	CP011482.1	1033006593	SAMN02731779	210	Helicobacter pylori strain L7, complete genome	direct
+CP011483.1	CP011483.1	1033008052	SAMN02731778	210	Helicobacter pylori strain DU15, complete genome	direct
+CP011484.1	CP011484.1	1033009499	SAMN02731783	210	Helicobacter pylori strain CC33C, complete genome	direct
+CP011485.1	CP011485.1	1033010977	SAMN02731780	210	Helicobacter pylori strain ausabrJ05, complete genome	direct
+CP011486.1	CP011486.1	1033012332	SAMN02731784	210	Helicobacter pylori strain K26A1, complete genome	direct
+CP011487.1	CP011487.1	1033005233	SAMN02731781	210	Helicobacter pylori strain PNG84A, complete genome	direct
+CP012905.1	CP012905.1	948532598	SAMN03144736	210	Helicobacter pylori strain 7C, complete sequence	direct
+CP012906.1	CP012906.1	948534021	SAMN03144736	210	Helicobacter pylori strain 7C plasmid, complete sequence	direct
+CP018823.1	CP018823.1	1143706535	SAMN04362855	1431450	Helicobacter pylori strain PMSS1 complete genome	direct
+CP018824.1	CP018824.1	1143707995	SAMN04362855	1431450	Helicobacter pylori PMSS1 plasmid pHPYLPMSS1, complete sequence	direct
+CP019700.1	CP019700.1	1349634849	SAMN06216064	210	Helicobacter pylori strain B128_1 chromosome, complete genome	direct
+CP022409.1	CP022409.1	1218502500	SAMN07338981	210	Helicobacter pylori strain G272 chromosome, complete genome	direct
+CP022410.1	CP022410.1	1218503903	SAMN07338981	210	Helicobacter pylori strain G272 plasmid unnamed1, complete sequence	direct
+CP024021.1	CP024021.1	1349656990	SAMN06216085	210	Helicobacter pylori strain 7.13_D3a chromosome, complete genome	direct
+CP024022.1	CP024022.1	1349658474	SAMN06216086	210	Helicobacter pylori strain 7.13_D3b chromosome, complete genome	direct
+CP024023.1	CP024023.1	1349659958	SAMN06216087	210	Helicobacter pylori isolate 7.13_D3c chromosome, complete genome	direct
+CP024071.1	CP024071.1	1349636338	SAMN06216070	210	Helicobacter pylori strain 7.13_R1a chromosome, complete genome	direct
+CP024072.1	CP024072.1	1349680765	SAMN06216071	210	Helicobacter pylori strain 7.13_R1b chromosome, complete genome	direct
+CP024073.1	CP024073.1	1349637834	SAMN06216072	210	Helicobacter pylori strain 7.13_R1c chromosome, complete genome	direct
+CP024074.1	CP024074.1	1349639319	SAMN06216073	210	Helicobacter pylori strain 7.13_R2a chromosome, complete genome	direct
+CP024075.1	CP024075.1	1349640803	SAMN06216074	210	Helicobacter pylori strain 7.13_R2b chromosome, complete genome	direct
+CP024076.1	CP024076.1	1349642289	SAMN06216075	210	Helicobacter pylori strain 7.13_R2c chromosome, complete genome	direct
+CP024077.1	CP024077.1	1349643773	SAMN06216076	210	Helicobacter pylori strain 7.13_R3a chromosome, complete genome	direct
+CP024078.1	CP024078.1	1349645258	SAMN06216077	210	Helicobacter pylori strain 7.13_R3b chromosome, complete genome	direct
+CP024079.1	CP024079.1	1349646744	SAMN06216078	210	Helicobacter pylori strain 7.13_R3c chromosome, complete genome	direct
+CP024946.1	CP024946.1	1717467478	SAMN08055037	210	Helicobacter pylori strain B147 chromosome, complete genome	direct
+CP024947.1	CP024947.1	1717465978	SAMN08055036	210	Helicobacter pylori strain J182 chromosome, complete genome	direct
+CP024948.1	CP024948.1	1717464456	SAMN08055035	210	Helicobacter pylori strain B140 chromosome, complete genome	direct
+CP024949.1	CP024949.1	1717462980	SAMN08055034	210	Helicobacter pylori strain B136A chromosome, complete genome	direct
+CP024950.1	CP024950.1	1717461538	SAMN08055033	210	Helicobacter pylori strain B130A chromosome, complete genome	direct
+CP024951.1	CP024951.1	1717460047	SAMN08055032	544406	Helicobacter pylori B128 chromosome, complete genome	direct
+CP024952.1	CP024952.1	1717458586	SAMN08055031	210	Helicobacter pylori strain B125A chromosome, complete genome	direct
+CP024953.1	CP024953.1	1717457093	SAMN08055030	210	Helicobacter pylori strain 7.13 chromosome, complete genome	direct
+CP025474.1	CP025474.1	1540336045	SAMN08195713	210	Helicobacter pylori strain H-137 chromosome, complete genome	direct
+CP026324.1	CP026324.1	1336544982	SAMN08388635	210	Helicobacter pylori strain 26695-dRdM2 chromosome, complete genome	direct
+CP026325.1	CP026325.1	1336543469	SAMN08388634	210	Helicobacter pylori strain dRdM1 chromosome, complete genome	direct
+CP026326.1	CP026326.1	1336547967	SAMN08388633	210	Helicobacter pylori strain 26695-dR chromosome, complete genome	direct
+CP026515.1	CP026515.1	1339790007	SAMN08388637	210	Helicobacter pylori strain dRdM2addM2 chromosome, complete genome	direct
+CP027404.1	CP027404.1	1356707264	SAMN06173313	210	Helicobacter pylori strain FDAARGOS_300 chromosome, complete genome	direct
+CP028325.1	CP028325.1	1377048488	SAMN06173311	210	Helicobacter pylori strain FDAARGOS_298 chromosome, complete genome	direct
+CP032471.1	CP032471.1	1682028839	SAMN10053865	210	Helicobacter pylori strain 479-C2-EK2 chromosome, complete genome	direct
+CP032472.1	CP032472.1	1682028840	SAMN10053852	210	Helicobacter pylori strain 479-A2-EK4 chromosome, complete genome	direct
+CP032473.1	CP032473.1	1682028841	SAMN10053800	210	Helicobacter pylori strain 476-A2-EK2 chromosome, complete genome	direct
+CP032474.1	CP032474.1	1682028842	NA	NA	NA	direct
+CP032475.1	CP032475.1	1682028843	SAMN10053787	210	Helicobacter pylori strain 381-F-EK9 chromosome, complete genome	direct
+CP032476.1	CP032476.1	1682028844	SAMN10053769	210	Helicobacter pylori strain 381-C-EK1 chromosome, complete genome	direct
+CP032477.1	CP032477.1	1682028845	SAMN10053716	210	Helicobacter pylori strain 169-C-EK8 chromosome, complete genome	direct
+CP032478.1	CP032478.1	1682028846	SAMN10053600	210	Helicobacter pylori strain 25-A-EK9 chromosome, complete genome	direct
+CP032479.1	CP032479.1	1682028847	SAMN10053522	210	Helicobacter pylori strain 21-F-EK1 chromosome, complete genome	direct
+CP032480.1	CP032480.1	1682028848	NA	NA	NA	direct
+CP032898.1	CP032898.1	1682028849	SAMN10053855	210	Helicobacter pylori strain 479-C-EK2 chromosome, complete genome	direct
+CP032899.1	CP032899.1	1682028850	SAMN10053819	210	Helicobacter pylori strain 478-A-EK1 chromosome, complete genome	direct
+CP032900.1	CP032900.1	1682028851	SAMN10053793	210	Helicobacter pylori strain 476-A-EK5 chromosome, complete genome	direct
+CP032901.1	CP032901.1	1682028852	SAMN10053762	210	Helicobacter pylori strain 381-A-EK4 chromosome, complete genome	direct
+CP032902.1	CP032902.1	1682028853	SAMN10053739	210	Helicobacter pylori strain 280-A-EK1 chromosome, complete genome	direct
+CP032903.1	CP032903.1	1682028854	SAMN10053719	210	Helicobacter pylori strain 173-A-EK1 chromosome, complete genome	direct
+CP032904.1	CP032904.1	1682028855	SAMN10053703	210	Helicobacter pylori strain 169-A-EK5 chromosome, complete genome	direct
+CP032905.1	CP032905.1	1682028856	NA	NA	NA	direct
+CP032906.1	CP032906.1	1682028857	SAMN10053592	210	Helicobacter pylori strain 25-A-EK1 chromosome, complete genome	direct
+CP032907.1	CP032907.1	1682028858	SAMN10053562	210	Helicobacter pylori strain 24-A-EK1 chromosome, complete genome	direct
+CP032908.1	CP032908.1	1682028859	SAMN10053532	210	Helicobacter pylori strain 23-A-EK1 chromosome, complete genome	direct
+CP032909.1	CP032909.1	1682028860	SAMN10053502	210	Helicobacter pylori strain 21-A-EK1 chromosome, complete genome	direct
+CP032910.1	CP032910.1	1682028861	SAMN10053472	210	Helicobacter pylori strain 20-A-EK1 chromosome, complete genome	direct
+CP032911.1	CP032911.1	1682028862	NA	NA	NA	direct
+CP032912.1	CP032912.1	1682028863	SAMN10053419	210	Helicobacter pylori strain 13-A-EK8 chromosome, complete genome	direct
+CP032913.1	CP032913.1	1682028864	SAMN10053382	210	Helicobacter pylori strain 5-A-EK1 chromosome, complete genome	direct
+CP034071.1	CP034071.1	1526087404	SAMN10461767	210	Helicobacter pylori strain Hpbs1 chromosome, complete genome	direct
+CP034147.1	CP034147.1	1566531527	SAMN06329538	210	Helicobacter pylori strain HP14039 chromosome, complete genome	direct
+CP034312.1	CP034312.1	1534010532	SAMN10181238	210	Helicobacter pylori strain HP42K plasmid pHP42-2, complete sequence	direct
+CP034313.1	CP034313.1	1534010535	SAMN10181238	210	Helicobacter pylori strain HP42K plasmid pHP42-1, complete sequence	direct
+CP034314.1	CP034314.1	1534010549	SAMN10181238	210	Helicobacter pylori strain HP42K chromosome, complete genome	direct
+CP035105.1	CP035105.1	1560269297	SAMN10663081	210	Helicobacter pylori strain Hpbs2 chromosome, complete genome	direct
+CP035106.1	CP035106.1	1560269298	SAMN10663175	210	Helicobacter pylori strain Hpbs3 chromosome, complete genome	direct
+CP036379.1	CP036379.1	1822040153	SAMN10961649	210	Helicobacter pylori strain H1 chromosome, complete genome	direct
+CP036380.1	CP036380.1	1822040157	SAMN10961648	210	Helicobacter pylori strain 125C7 chromosome, complete genome	direct
+CP036381.1	CP036381.1	1822040158	SAMN10961647	210	Helicobacter pylori strain 125A3 chromosome, complete genome	direct
+CP036382.1	CP036382.1	1822040159	SAMN10961646	210	Helicobacter pylori strain 119C10 chromosome, complete genome	direct
+CP036383.1	CP036383.1	1822040190	SAMN10961645	210	Helicobacter pylori strain 119A2 chromosome, complete genome	direct
+CP036384.1	CP036384.1	1822040191	SAMN10961644	210	Helicobacter pylori strain 103C8 chromosome, complete genome	direct
+CP036385.1	CP036385.1	1822040192	SAMN10961643	210	Helicobacter pylori strain 103A4 chromosome, complete genome	direct
+CP036386.1	CP036386.1	1822040196	SAMN10961642	210	Helicobacter pylori strain 87C7 chromosome, complete genome	direct
+CP036387.1	CP036387.1	1822040197	SAMN10961641	210	Helicobacter pylori strain 87A3 chromosome, complete genome	direct
+CP036388.1	CP036388.1	1822040198	SAMN10961640	210	Helicobacter pylori strain 81C9 chromosome, complete genome	direct
+CP036389.1	CP036389.1	1822040201	SAMN10961639	210	Helicobacter pylori strain 81A1 chromosome, complete genome	direct
+CP036390.1	CP036390.1	1822040206	SAMN10961638	210	Helicobacter pylori strain 78C8 chromosome, complete genome	direct
+CP036391.1	CP036391.1	1822040208	SAMN10961637	210	Helicobacter pylori strain 78A3 chromosome, complete genome	direct
+CP036392.1	CP036392.1	1822040220	NA	NA	NA	direct
+CP036393.1	CP036393.1	1822040221	SAMN10961635	210	Helicobacter pylori strain 48A2 chromosome, complete genome	direct
+CP036394.1	CP036394.1	1822040222	SAMN10961634	210	Helicobacter pylori strain 29C8 chromosome, complete genome	direct
+CP036395.1	CP036395.1	1822040247	SAMN10961633	210	Helicobacter pylori strain 29A2 chromosome, complete genome	direct
+CP036396.1	CP036396.1	1822040582	SAMN10961632	210	Helicobacter pylori strain 12C8 chromosome, complete genome	direct
+CP036397.1	CP036397.1	1822040591	SAMN10961631	210	Helicobacter pylori strain 12A3 chromosome, complete genome	direct
+CP036398.1	CP036398.1	1822040592	SAMN10961630	210	Helicobacter pylori strain 8C10 chromosome, complete genome	direct
+CP036399.1	CP036399.1	1822040966	SAMN10961629	210	Helicobacter pylori strain 8A3 chromosome, complete genome	direct
+CP042211.1	CP042211.1	1714001972	SAMN10083778	210	Helicobacter pylori strain B128 7.13 chromosome, complete genome	direct
+CP042212.1	CP042212.1	1714003452	SAMN10083778	210	Helicobacter pylori strain B128 7.13 plasmid pB128, complete sequence	direct
+CP048599.1	CP048599.1	1811465874	SAMN13950474	210	Helicobacter pylori strain GCT 97 chromosome, complete genome	direct
+CP048600.1	CP048600.1	1811464290	SAMN13950473	210	Helicobacter pylori strain GCT 43 chromosome, complete genome	direct
+CP048601.1	CP048601.1	1811462730	SAMN13950472	210	Helicobacter pylori strain GCT 27 chromosome, complete genome	direct
+CP051290.1	CP051290.1	1959430571	SAMN14589633	210	Helicobacter pylori strain ASHA-001 chromosome, complete genome	direct
+CP051291.1	CP051291.1	1959432023	SAMN14589635	210	Helicobacter pylori strain ASHA-002 chromosome, complete genome	direct
+CP051292.1	CP051292.1	1959433497	SAMN14589656	210	Helicobacter pylori strain ASHA-003 chromosome, complete genome	direct
+CP051434.1	CP051434.1	1959434987	NA	NA	NA	direct
+CP051435.1	CP051435.1	1959436437	SAMN14592743	210	Helicobacter pylori strain ASHA-005 chromosome, complete genome	direct
+CP051493.1	CP051493.1	1959442318	SAMN14593096	210	Helicobacter pylori strain LIM-006 chromosome, complete genome	direct
+CP051494.1	CP051494.1	1959448157	SAMN14593090	210	Helicobacter pylori strain PUNO-010 chromosome, complete genome	direct
+CP051495.1	CP051495.1	1959449627	SAMN14593089	210	Helicobacter pylori strain PUNO-009 chromosome, complete genome	direct
+CP051496.1	CP051496.1	1959451074	SAMN14593088	210	Helicobacter pylori strain PUNO-008 chromosome, complete genome	direct
+CP051497.1	CP051497.1	1959452558	SAMN14593087	210	Helicobacter pylori strain PUNO-007 chromosome, complete genome	direct
+CP051498.1	CP051498.1	1963799311	SAMN14593086	210	Helicobacter pylori strain PUNO-006 chromosome, complete genome	direct
+CP051499.1	CP051499.1	1959453993	SAMN14593085	210	Helicobacter pylori strain PUNO-004 chromosome, complete genome	direct
+CP051500.1	CP051500.1	1959455432	SAMN14593084	210	Helicobacter pylori strain PUNO-003 chromosome, complete genome	direct
+CP051501.1	CP051501.1	1959456876	SAMN14593083	210	Helicobacter pylori strain PUNO-002 chromosome, complete genome	direct
+CP051502.1	CP051502.1	1959458283	SAMN14593082	210	Helicobacter pylori strain PUNO-001 chromosome, complete genome	direct
+CP051503.1	CP051503.1	1959459735	SAMN14593081	210	Helicobacter pylori strain SHIM-014 chromosome, complete genome	direct
+CP051504.1	CP051504.1	1963801974	SAMN14593080	210	Helicobacter pylori strain SHIM-011 chromosome, complete genome	direct
+CP051505.1	CP051505.1	1963804580	NA	NA	NA	direct
+CP051506.1	CP051506.1	1959461170	SAMN14593078	210	Helicobacter pylori strain SHIM-007 chromosome, complete genome	direct
+CP051507.1	CP051507.1	1959462592	SAMN14593077	210	Helicobacter pylori strain SHIM-002 chromosome, complete genome	direct
+CP051508.1	CP051508.1	1959464071	SAMN14593076	210	Helicobacter pylori strain ASHA-010 chromosome, complete genome	direct
+CP051509.1	CP051509.1	1959465531	SAMN14593075	210	Helicobacter pylori strain ASHA-009 chromosome, complete genome	direct
+CP051510.1	CP051510.1	1959466958	SAMN14593074	210	Helicobacter pylori strain ASHA-008 chromosome, complete genome	direct
+CP051511.1	CP051511.1	1959468405	SAMN14593073	210	Helicobacter pylori strain ASHA-006 chromosome, complete genome	direct
+CP051533.1	CP051533.1	1959437881	SAMN14593100	210	Helicobacter pylori strain LIM-010 chromosome, complete genome	direct
+CP051534.1	CP051534.1	1959439416	SAMN14593099	210	Helicobacter pylori strain LIM-009 chromosome, complete genome	direct
+CP051535.1	CP051535.1	1959440847	SAMN14593098	210	Helicobacter pylori strain LIM-008 chromosome, complete genome	direct
+CP051536.1	CP051536.1	1959442317	SAMN14593097	210	Helicobacter pylori strain LIM-007 chromosome, complete genome	direct
+CP051537.1	CP051537.1	1959443841	SAMN14593095	210	Helicobacter pylori strain LIM-005 chromosome, complete genome	direct
+CP051539.1	CP051539.1	1959445257	SAMN14593093	210	Helicobacter pylori strain LIM-003 chromosome, complete genome	direct
+CP051540.1	CP051540.1	1963796757	SAMN14593092	210	Helicobacter pylori strain LIM-002 chromosome, complete genome	direct
+CP051541.1	CP051541.1	1959446700	SAMN14593091	210	Helicobacter pylori strain LIM-001 chromosome, complete genome	direct
+CP053256.1	CP053256.1	1843197985	SAMN02470830	1231719	Helicobacter pylori A45 chromosome, complete genome	direct
+CP053257.1	CP053257.1	1843199429	SAMN02470830	1231719	Helicobacter pylori A45 plasmid unnamed, complete sequence	direct
+CP053392.1	CP053392.1	1843429903	SAMN14820694	210	Helicobacter pylori strain HP9192 chromosome, complete genome	direct
+CP053393.1	CP053393.1	1843431374	SAMN14820694	210	Helicobacter pylori strain HP9192 plasmid unnamed, complete sequence	direct
+CP053394.1	CP053394.1	1843434120	NA	NA	NA	direct
+CP053395.1	CP053395.1	1843435592	SAMN14820693	210	Helicobacter pylori strain HP1352 plasmid unnamed, complete sequence	direct
+CP053396.1	CP053396.1	1843431995	SAMN14820692	210	Helicobacter pylori strain HPY chromosome, complete genome	direct
+CP053397.1	CP053397.1	1843433443	SAMN14820692	210	Helicobacter pylori strain HPY plasmid unnamed, complete sequence	direct
+CP058250.1	CP058250.1	2185953293	SAMN15338960	210	Helicobacter pylori strain AL02 chromosome, complete genome	direct
+CP058251.1	CP058251.1	2185953301	SAMN15339009	210	Helicobacter pylori strain UBN18 chromosome, complete genome	direct
+CP058252.1	CP058252.1	2185953302	SAMN15339008	210	Helicobacter pylori strain NP05-124 chromosome, complete genome	direct
+CP058281.1	CP058281.1	2185957251	SAMN15339005	210	Helicobacter pylori strain Hk711 chromosome, complete genome	direct
+CP058285.1	CP058285.1	2185957255	SAMN15339001	210	Helicobacter pylori strain BT302 chromosome, complete genome	direct
+CP058287.1	CP058287.1	2185957257	SAMN15338999	210	Helicobacter pylori strain AL04 chromosome, complete genome	direct
+CP071936.1	CP071936.1	2508370476	SAMN18296288	210	Helicobacter pylori strain MTT03 chromosome, complete genome	direct
+CP071975.1	CP071975.1	2022722490	SAMN18350106	210	Helicobacter pylori strain MT5118 chromosome, complete genome	direct
+CP071976.1	CP071976.1	2022723930	SAMN18350106	210	Helicobacter pylori strain MT5118 plasmid pMT5118, complete sequence	direct
+CP071977.1	CP071977.1	2022721047	SAMN18350156	210	Helicobacter pylori strain MT5105 chromosome, complete genome	direct
+CP071978.1	CP071978.1	2022719564	SAMN18350180	210	Helicobacter pylori strain MT5125 chromosome, complete genome	direct
+CP071979.1	CP071979.1	2022721024	SAMN18350180	210	Helicobacter pylori strain MT5125 plasmid p1MT5125, complete sequence	direct
+CP071980.1	CP071980.1	2022721032	SAMN18350180	210	Helicobacter pylori strain MT5125 plasmid p2MT5125, complete sequence	direct
+CP071981.1	CP071981.1	2022718114	SAMN18350188	210	Helicobacter pylori strain MT5111 chromosome, complete genome	direct
+CP071982.1	CP071982.1	2022716674	SAMN18350190	210	Helicobacter pylori strain MT5135 chromosome, complete genome	direct
+CP071983.1	CP071983.1	2022718100	SAMN18350190	210	Helicobacter pylori strain MT5135 plasmid pMT5135, complete sequence	direct
+CP071984.1	CP071984.1	2022715199	SAMN18350230	210	Helicobacter pylori strain MT5114 chromosome, complete genome	direct
+CP071985.1	CP071985.1	2022713776	SAMN18350231	210	Helicobacter pylori strain MT5119 chromosome, complete genome	direct
+CP071986.1	CP071986.1	2022712313	NA	NA	NA	direct
+CP071987.1	CP071987.1	2022710855	SAMN18350271	210	Helicobacter pylori strain MT5136 chromosome, complete genome	direct
+CP085923.1	CP085923.1	2127553156	SAMN22365130	210	Helicobacter pylori strain FDAARGOS_1601 chromosome, complete genome	direct
+CP085924.1	CP085924.1	2127554604	SAMN22365130	210	Helicobacter pylori strain FDAARGOS_1601 plasmid unnamed, complete sequence	direct
+CP085947.1	CP085947.1	2127638174	SAMN22091660	210	Helicobacter pylori strain FDAARGOS_1563 chromosome, complete genome	direct
+CP085948.1	CP085948.1	2127639651	SAMN22091660	210	Helicobacter pylori strain FDAARGOS_1563 plasmid unnamed, complete sequence	direct
+CP086760.1	CP086760.1	2153619151	SAMN22488069	210	Helicobacter pylori strain 3192 chromosome, complete genome	direct
+CP089283.1	CP089283.1	2165146657	SAMN23610989	210	Helicobacter pylori strain J99 derivative isolate D1 chromosome, complete genome	direct
+CP090367.1	CP090367.1	2809036736	SAMN24498429	210	Helicobacter pylori strain CCUG 17875 chromosome, complete genome	direct
+CP090368.1	CP090368.1	2809038185	SAMN24498429	210	Helicobacter pylori strain CCUG 17875 plasmid unnamed, complete sequence	direct
+CP091770.1	CP091770.1	2189838471	SAMN25210003	210	Helicobacter pylori strain K115 chromosome, complete genome	direct
+CP094051.1	CP094051.1	2221952457	SAMN26675611	210	Helicobacter pylori strain Hpfe127 chromosome, complete genome	direct
+CP094052.1	CP094052.1	2221953874	SAMN26675610	210	Helicobacter pylori strain Hpfe126 chromosome, complete genome	direct
+CP094053.1	CP094053.1	2221955308	SAMN26675610	210	Helicobacter pylori strain Hpfe126 plasmid pHpfe126-1, complete sequence	direct
+CP094054.1	CP094054.1	2221955315	SAMN26675609	210	Helicobacter pylori strain Hpfe125 chromosome, complete genome	direct
+CP094055.1	CP094055.1	2221956691	SAMN26675609	210	Helicobacter pylori strain Hpfe125 plasmid pHpfe125-1, complete sequence	direct
+CP094056.1	CP094056.1	2221957215	SAMN26675608	210	Helicobacter pylori strain Hpfe124 chromosome, complete genome	direct
+CP094057.1	CP094057.1	2221958609	SAMN26675608	210	Helicobacter pylori strain Hpfe124 plasmid pHpfe124-1, complete sequence	direct
+CP094058.1	CP094058.1	2221958883	SAMN26675607	210	Helicobacter pylori strain Hpfe123 chromosome, complete genome	direct
+CP094059.1	CP094059.1	2221960539	SAMN26675606	210	Helicobacter pylori strain Hpfe122 chromosome, complete genome	direct
+CP094060.1	CP094060.1	2221961935	SAMN26675606	210	Helicobacter pylori strain Hpfe122 plasmid pHpfe122-1, complete sequence	direct
+CP094061.1	CP094061.1	2221961978	SAMN26675605	210	Helicobacter pylori strain Hpfe120 chromosome, complete genome	direct
+CP094062.1	CP094062.1	2221963637	SAMN26675604	210	Helicobacter pylori strain Hpfe118 chromosome, complete genome	direct
+CP094063.1	CP094063.1	2221965070	SAMN26675603	210	Helicobacter pylori strain Hpfe115 chromosome, complete genome	direct
+CP094064.1	CP094064.1	2221966727	SAMN26675602	210	Helicobacter pylori strain Hpfe114 chromosome, complete genome	direct
+CP094065.1	CP094065.1	2221970092	SAMN26675600	210	Helicobacter pylori strain Hpfe112 chromosome, complete genome	direct
+CP094066.1	CP094066.1	2221971896	SAMN26675599	210	Helicobacter pylori strain Hpfe110 chromosome, complete genome	direct
+CP094067.1	CP094067.1	2221973870	SAMN26675597	210	Helicobacter pylori strain Hpfe108 chromosome, complete genome	direct
+CP094068.1	CP094068.1	2221975270	SAMN26675597	210	Helicobacter pylori strain Hpfe108 plasmid pHpfe108-1, complete sequence	direct
+CP094069.1	CP094069.1	2221975277	SAMN26675597	210	Helicobacter pylori strain Hpfe108 plasmid pHpfe108-2, complete sequence	direct
+CP094070.1	CP094070.1	2221975673	SAMN26675596	210	Helicobacter pylori strain Hpfe107 chromosome, complete genome	direct
+CP094071.1	CP094071.1	2221977393	SAMN26675595	210	Helicobacter pylori strain Hpfe106 chromosome, complete genome	direct
+CP094072.1	CP094072.1	2221978802	SAMN26675595	210	Helicobacter pylori strain Hpfe106 plasmid pHpfe106-1, complete sequence	direct
+CP094073.1	CP094073.1	2221979181	SAMN26675593	210	Helicobacter pylori strain Hpfe104 chromosome, complete genome	direct
+CP094074.1	CP094074.1	2221980576	SAMN26675592	210	Helicobacter pylori strain Hpfe103 chromosome, complete genome	direct
+CP094075.1	CP094075.1	2221982013	SAMN26675592	210	Helicobacter pylori strain Hpfe103 plasmid pHpfe103-1, complete sequence	direct
+CP094076.1	CP094076.1	2221982318	SAMN26675591	210	Helicobacter pylori strain Hpfe102 chromosome, complete genome	direct
+CP094077.1	CP094077.1	2221983749	NA	NA	NA	direct
+CP094078.1	CP094078.1	2221983776	SAMN26675590	210	Helicobacter pylori strain Hpfe101 chromosome, complete genome	direct
+CP094079.1	CP094079.1	2221985191	SAMN26675589	210	Helicobacter pylori strain Hpfe100 chromosome, complete genome	direct
+CP094080.1	CP094080.1	2221986937	SAMN26675588	210	Helicobacter pylori strain Hpfe099 chromosome, complete genome	direct
+CP094081.1	NZ_CP094081.1	2223649845	SAMN26675588	210	Helicobacter pylori strain Hpfe099 plasmid pHpfe099-1, complete sequence	alias:NZ_CP094081.1
+CP094082.1	CP094082.1	2221998174	SAMN26675586	210	Helicobacter pylori strain Hpfe097 chromosome, complete genome	direct
+CP094083.1	CP094083.1	2221999785	SAMN26675585	210	Helicobacter pylori strain Hpfe096 chromosome, complete genome	direct
+CP094084.1	CP094084.1	2222001186	SAMN26675585	210	Helicobacter pylori strain Hpfe096 plasmid pHpfe096-1, complete sequence	direct
+CP094085.1	CP094085.1	2222001390	SAMN26675584	210	Helicobacter pylori strain Hpfe095 chromosome, complete genome	direct
+CP094086.1	CP094086.1	2222002805	SAMN26675584	210	Helicobacter pylori strain Hpfe095 plasmid pHpfe095-1, complete sequence	direct
+CP094087.1	CP094087.1	2222002810	SAMN26675582	210	Helicobacter pylori strain Hpfe093 chromosome, complete genome	direct
+CP094088.1	CP094088.1	2222004445	SAMN26675581	210	Helicobacter pylori strain Hpfe092 chromosome, complete genome	direct
+CP094089.1	CP094089.1	2222005886	SAMN26675581	210	Helicobacter pylori strain Hpfe092 plasmid pHpfe092-1, complete sequence	direct
+CP094090.1	CP094090.1	2222006180	SAMN26675579	210	Helicobacter pylori strain Hpfe089 chromosome, complete genome	direct
+CP094091.1	CP094091.1	2222007869	SAMN26675578	210	Helicobacter pylori strain Hpfe088 chromosome, complete genome	direct
+CP094092.1	CP094092.1	2222009481	SAMN26675576	210	Helicobacter pylori strain Hpfe086 chromosome, complete genome	direct
+CP094093.1	CP094093.1	2222015050	NA	NA	NA	direct
+CP094094.1	CP094094.1	2222016671	SAMN26675574	210	Helicobacter pylori strain Hpfe084 chromosome, complete genome	direct
+CP094095.1	CP094095.1	2222018173	SAMN26675573	210	Helicobacter pylori strain Hpfe083 chromosome, complete genome	direct
+CP094096.1	CP094096.1	2222020725	SAMN26675572	210	Helicobacter pylori strain Hpfe082 chromosome, complete genome	direct
+CP094097.1	CP094097.1	2222022147	SAMN26675572	210	Helicobacter pylori strain Hpfe082 plasmid pHpfe082-1, complete sequence	direct
+CP094098.1	CP094098.1	2222022670	SAMN26675571	210	Helicobacter pylori strain Hpfe081 chromosome, complete genome	direct
+CP094099.1	CP094099.1	2222024226	SAMN26675570	210	Helicobacter pylori strain Hpfe080 chromosome, complete genome	direct
+CP094100.1	CP094100.1	2222025608	SAMN26675570	210	Helicobacter pylori strain Hpfe080 plasmid pHpfe080-1, complete sequence	direct
+CP094101.1	CP094101.1	2222025612	SAMN26675569	210	Helicobacter pylori strain Hpfe079 chromosome, complete genome	direct
+CP094102.1	CP094102.1	2222027032	SAMN26675568	210	Helicobacter pylori strain Hpfe078 chromosome, complete genome	direct
+CP094105.1	CP094105.1	2222030377	SAMN26675566	210	Helicobacter pylori strain Hpfe076 chromosome, complete genome	direct
+CP094106.1	CP094106.1	2222031759	SAMN26675565	210	Helicobacter pylori strain Hpfe075 chromosome, complete genome	direct
+CP094107.1	CP094107.1	2222033203	SAMN26675564	210	Helicobacter pylori strain Hpfe074 chromosome, complete genome	direct
+CP094109.1	CP094109.1	2222036022	SAMN26675562	210	Helicobacter pylori strain Hpfe072 chromosome, complete genome	direct
+CP094110.1	CP094110.1	2222037435	SAMN26675561	210	Helicobacter pylori strain Hpfe071 chromosome, complete genome	direct
+CP094111.1	CP094111.1	2222038865	SAMN26675560	210	Helicobacter pylori strain Hpfe070 chromosome, complete genome	direct
+CP094112.1	CP094112.1	2222040287	SAMN26675560	210	Helicobacter pylori strain Hpfe070 plasmid pHpfe070-1, complete sequence	direct
+CP094113.1	CP094113.1	2222040433	SAMN26675559	210	Helicobacter pylori strain Hpfe069 chromosome, complete genome	direct
+CP094114.1	CP094114.1	2222041858	SAMN26675559	210	Helicobacter pylori strain Hpfe069 plasmid pHpfe069-1, complete sequence	direct
+CP094115.1	CP094115.1	2222042068	SAMN26675558	210	Helicobacter pylori strain Hpfe068 chromosome, complete genome	direct
+CP094116.1	CP094116.1	2222043447	SAMN26675556	210	Helicobacter pylori strain Hpfe066 chromosome, complete genome	direct
+CP094117.1	CP094117.1	2222044845	SAMN26675555	210	Helicobacter pylori strain Hpfe065 chromosome, complete genome	direct
+CP094118.1	CP094118.1	2222046231	SAMN26675555	210	Helicobacter pylori strain Hpfe065 plasmid pHpfe065-1, complete sequence	direct
+CP094119.1	CP094119.1	2222046235	SAMN26675554	210	Helicobacter pylori strain Hpfe064 chromosome, complete genome	direct
+CP094120.1	CP094120.1	2222050484	SAMN26675551	210	Helicobacter pylori strain Hpfe061 chromosome, complete genome	direct
+CP094121.1	CP094121.1	2222053340	NA	NA	NA	direct
+CP094122.1	CP094122.1	2222054739	SAMN26675548	210	Helicobacter pylori strain Hpfe058 chromosome, complete genome	direct
+CP094123.1	CP094123.1	2222056183	SAMN26675548	210	Helicobacter pylori strain Hpfe058 plasmid pHpfe058-1, complete sequence	direct
+CP094124.1	CP094124.1	2222056195	SAMN26675547	210	Helicobacter pylori strain Hpfe057 chromosome, complete genome	direct
+CP094125.1	CP094125.1	2222057589	SAMN26675547	210	Helicobacter pylori strain Hpfe057 plasmid pHpfe057-1, complete sequence	direct
+CP094126.1	CP094126.1	2222057592	SAMN26675546	210	Helicobacter pylori strain Hpfe056 chromosome, complete genome	direct
+CP094127.1	CP094127.1	2222059029	SAMN26675546	210	Helicobacter pylori strain Hpfe056 plasmid pHpfe056-1, complete sequence	direct
+CP094128.1	CP094128.1	2222059042	SAMN26675545	210	Helicobacter pylori strain Hpfe055 chromosome, complete genome	direct
+CP094129.1	CP094129.1	2222060437	SAMN26675544	210	Helicobacter pylori strain Hpfe054 chromosome, complete genome	direct
+CP094130.1	CP094130.1	2222061857	SAMN26675543	210	Helicobacter pylori strain Hpfe053 chromosome, complete genome	direct
+CP094131.1	CP094131.1	2222063293	NA	NA	NA	direct
+CP094132.1	CP094132.1	2222064678	SAMN26675541	210	Helicobacter pylori strain Hpfe051 chromosome, complete genome	direct
+CP094133.1	CP094133.1	2222066123	SAMN26675540	210	Helicobacter pylori strain Hpfe049 chromosome, complete genome	direct
+CP094134.1	CP094134.1	2222067562	SAMN26675539	210	Helicobacter pylori strain Hpfe048 chromosome, complete genome	direct
+CP094135.1	CP094135.1	2222069272	SAMN26675538	210	Helicobacter pylori strain Hpfe040 chromosome, complete genome	direct
+CP094136.1	CP094136.1	2222070682	SAMN26675537	210	Helicobacter pylori strain Hpfe039 chromosome, complete genome	direct
+CP094137.1	CP094137.1	2222072130	SAMN26675536	210	Helicobacter pylori strain Hpfe038 chromosome, complete genome	direct
+CP094138.1	CP094138.1	2222073541	SAMN26675535	210	Helicobacter pylori strain Hpfe037 chromosome, complete genome	direct
+CP094139.1	CP094139.1	2222074941	NA	NA	NA	direct
+CP094140.1	CP094140.1	2222076999	SAMN26675533	210	Helicobacter pylori strain Hpfe035 chromosome, complete genome	direct
+CP094141.1	CP094141.1	2222078394	SAMN26675533	210	Helicobacter pylori strain Hpfe035 plasmid pHpfe035-1, complete sequence	direct
+CP094142.1	CP094142.1	2222078615	NA	NA	NA	direct
+CP094143.1	CP094143.1	2222080055	SAMN26675531	210	Helicobacter pylori strain Hpfe032 chromosome, complete genome	direct
+CP094144.1	CP094144.1	2222081491	SAMN26675530	210	Helicobacter pylori strain Hpfe029 chromosome, complete genome	direct
+CP094145.1	CP094145.1	2222082876	SAMN26675529	210	Helicobacter pylori strain Hpfe028 chromosome, complete genome	direct
+CP094146.1	CP094146.1	2222084275	SAMN26675529	210	Helicobacter pylori strain Hpfe028 plasmid pHpfe028-1, complete sequence	direct
+CP094147.1	CP094147.1	2222084285	SAMN26675528	210	Helicobacter pylori strain Hpfe027 chromosome, complete genome	direct
+CP094148.1	CP094148.1	2222085693	SAMN26675527	210	Helicobacter pylori strain Hpfe024 chromosome, complete genome	direct
+CP094149.1	CP094149.1	2222087355	SAMN26675526	210	Helicobacter pylori strain Hpfe023 chromosome, complete genome	direct
+CP094150.1	CP094150.1	2222094688	SAMN26675525	210	Helicobacter pylori strain Hpfe022 chromosome, complete genome	direct
+CP094151.1	CP094151.1	2222096230	SAMN26675524	210	Helicobacter pylori strain Hpfe019 chromosome, complete genome	direct
+CP094152.1	CP094152.1	2222097672	SAMN26675524	210	Helicobacter pylori strain Hpfe019 plasmid pHpfe019-1, complete sequence	direct
+CP094153.1	CP094153.1	2222098739	SAMN26675523	210	Helicobacter pylori strain Hpfe010 chromosome, complete genome	direct
+CP094154.1	CP094154.1	2222100141	SAMN26675523	210	Helicobacter pylori strain Hpfe010 plasmid pHpfe010-1, complete sequence	direct
+CP094155.1	CP094155.1	2222100148	SAMN26675523	210	Helicobacter pylori strain Hpfe010 plasmid pHpfe010-2, complete sequence	direct
+CP094156.1	CP094156.1	2222100152	SAMN26675521	210	Helicobacter pylori strain Hpfe005 chromosome, complete genome	direct
+CP094157.1	CP094157.1	2222101605	SAMN26675520	210	Helicobacter pylori strain Hpfe0021 chromosome, complete genome	direct
+CP094158.1	CP094158.1	2222103034	SAMN26675520	210	Helicobacter pylori strain Hpfe0021 plasmid pHpfe0021-1, complete sequence	direct
+CP094159.1	CP094159.1	2222103087	SAMN26675519	210	Helicobacter pylori strain Hpfe0020 chromosome, complete genome	direct
+CP094160.1	NZ_CP094160.1	2223569197	SAMN26675518	210	Helicobacter pylori strain Hpfe0016 chromosome, complete genome	alias:NZ_CP094160.1
+CP094161.1	CP094161.1	2222110184	SAMN26675517	210	Helicobacter pylori strain Hpfe0015 chromosome, complete genome	direct
+CP094162.1	CP094162.1	2222111570	SAMN26675517	210	Helicobacter pylori strain Hpfe0015 plasmid pHpfe0015-1, complete sequence	direct
+CP094164.1	CP094164.1	2222114588	SAMN26675515	210	Helicobacter pylori strain Hpfe0012 chromosome, complete genome	direct
+CP094165.1	CP094165.1	2222117178	SAMN26675514	210	Helicobacter pylori strain Hpfe0011 chromosome, complete genome	direct
+CP094166.1	CP094166.1	2222118637	SAMN26675514	210	Helicobacter pylori strain Hpfe0011 plasmid pHpfe0011-1, complete sequence	direct
+CP094167.1	CP094167.1	2222124512	SAMN26675512	210	Helicobacter pylori strain Hpfe0007 chromosome, complete genome	direct
+CP094168.1	CP094168.1	2222127127	SAMN26675511	210	Helicobacter pylori strain Hpfe0006 chromosome, complete genome	direct
+CP094169.1	CP094169.1	2222128536	SAMN26675511	210	Helicobacter pylori strain Hpfe0006 plasmid pHpfe0006-1, complete sequence	direct
+CP094170.1	CP094170.1	2222133493	SAMN26675510	210	Helicobacter pylori strain Hpfe0004 chromosome, complete genome	direct
+CP094171.1	CP094171.1	2222137767	SAMN26675509	210	Helicobacter pylori strain Hpfe0003 chromosome, complete genome	direct
+CP094172.1	CP094172.1	2222140588	SAMN26675508	210	Helicobacter pylori strain Hpfe0002 chromosome, complete genome	direct
+CP094173.1	CP094173.1	2222143778	SAMN26675507	210	Helicobacter pylori strain Hpfe0001 chromosome, complete genome	direct
+CP094175.1	CP094175.1	2222047662	SAMN26675553	210	Helicobacter pylori strain Hpfe063 chromosome, complete genome	direct
+CP094176.1	CP094176.1	2222049082	SAMN26675553	210	Helicobacter pylori strain Hpfe063 plasmid pHpfe063-1, complete sequence	direct
+CP094177.1	CP094177.1	2222049086	SAMN26675552	210	Helicobacter pylori strain Hpfe062 chromosome, complete genome	direct
+CP094178.1	CP094178.1	2222051913	SAMN26675550	210	Helicobacter pylori strain Hpfe060 chromosome, complete genome	direct
+CP116234.1	CP116234.1	2431363601	SAMN32735351	210	Helicobacter pylori strain H390d chromosome, complete genome	direct
+CP117023.1	CP117023.1	2445456379	SAMN32959140	210	Helicobacter pylori strain 444A6 plasmid pHP444A, complete sequence	direct
+CP117024.1	CP117024.1	2445456380	SAMN32959140	210	Helicobacter pylori strain 444A6 chromosome, complete genome	direct
+CP122515.1	CP122515.1	2491806855	SAMN34152678	210	Helicobacter pylori strain HP22 chromosome, complete genome	direct
+CP122516.1	CP122516.1	2491805402	SAMN34152750	210	Helicobacter pylori strain HP34 chromosome, complete genome	direct
+CP122946.1	CP122946.1	2523089587	SAMN34043884	210	Helicobacter pylori strain BS31 chromosome, complete genome	direct
+CP122947.1	CP122947.1	2523091060	SAMN34043886	210	Helicobacter pylori strain BS07 chromosome, complete genome	direct
+CP122948.1	CP122948.1	2523092486	SAMN34043887	210	Helicobacter pylori strain BS21 chromosome, complete genome	direct
+CP122949.1	CP122949.1	2523093919	SAMN34043888	210	Helicobacter pylori strain BS22 chromosome, complete genome	direct
+CP122950.1	CP122950.1	2523098226	SAMN34043891	210	Helicobacter pylori strain BS28-1 chromosome, complete genome	direct
+CP122951.1	CP122951.1	2523095355	SAMN34043889	210	Helicobacter pylori strain BS26 chromosome, complete genome	direct
+CP122952.1	CP122952.1	2523096759	SAMN34043890	210	Helicobacter pylori strain BS27-1 chromosome, complete genome	direct
+CP122953.1	CP122953.1	2523099639	SAMN34043892	210	Helicobacter pylori strain BS30 chromosome, complete genome	direct
+CP122954.1	CP122954.1	2523101058	SAMN34043893	210	Helicobacter pylori strain BS06 chromosome, complete genome	direct
+CP122955.1	CP122955.1	2523102491	SAMN34043895	210	Helicobacter pylori strain BS27-2 chromosome, complete genome	direct
+CP122956.1	CP122956.1	2523103962	SAMN34043897	210	Helicobacter pylori strain BT112 chromosome, complete genome	direct
+CP125966.1	CP125966.1	2509448016	SAMN35124854	210	Helicobacter pylori strain H390r chromosome, complete genome	direct
+CP129105.1	CP129105.1	2530923338	SAMN35982747	210	Helicobacter pylori strain HP45k chromosome, complete genome	direct
+CP130623.1	CP130623.1	2800714372	SAMN34043885	210	Helicobacter pylori strain BS04 chromosome, complete genome	direct
+CP130624.1	CP130624.1	2800715753	NA	NA	NA	direct
+CP130625.1	CP130625.1	2800715765	SAMN34043894	210	Helicobacter pylori strain BS08 chromosome, complete genome	direct
+CP130626.1	CP130626.1	2800717206	SAMN34043894	210	Helicobacter pylori strain BS08 plasmid unnamed, complete sequence	direct
+CP134393.1	CP134393.1	2579233121	SAMN37313677	210	Helicobacter pylori strain ICDC15003-50-2 chromosome, complete genome	direct
+CP134394.1	CP134394.1	2579235983	SAMN37313676	210	Helicobacter pylori strain ICDC15003-50-1 chromosome, complete genome	direct
+CP134395.1	CP134395.1	2579231689	SAMN37313675	210	Helicobacter pylori strain ICDC15003-8-2 chromosome, complete genome	direct
+CP134396.1	CP134396.1	2579234556	SAMN37313674	210	Helicobacter pylori strain ICDC15003-8-1 chromosome, complete genome	direct
+CP134397.1	CP134397.1	2579237414	SAMN37313673	210	Helicobacter pylori strain ICDC15003s chromosome, complete genome	direct
+CP140483.1	CP140483.1	2637608581	SAMN38527861	210	Helicobacter pylori strain 51N chromosome, complete genome	direct
+CP140484.1	NZ_CP140484.1	2638590228	SAMN38528081	210	Helicobacter pylori strain 52N chromosome, complete genome	alias:NZ_CP140484.1
+CP141771.1	CP141771.1	2647863980	SAMN39105593	210	Helicobacter pylori strain P08204 chromosome, complete genome	direct
+CP141772.1	CP141772.1	2647863981	SAMN39105593	210	Helicobacter pylori strain P08204 plasmid unnamed, complete sequence	direct
+CP141773.1	CP141773.1	2647863983	SAMN39105594	210	Helicobacter pylori strain P08205 chromosome, complete genome	direct
+CP141774.1	CP141774.1	2647863982	SAMN39105596	210	Helicobacter pylori strain P07353 chromosome, complete genome	direct
+CP141838.1	CP141838.1	2647973668	SAMN39105595	210	Helicobacter pylori strain P07928 chromosome, complete genome	direct
+CP188266.1	CP188266.1	3006885677	SAMN47804646	210	Helicobacter pylori strain VN0344 chromosome, complete genome	direct
+CP188267.1	CP188267.1	3006887148	SAMN47804647	210	Helicobacter pylori strain VN0358 chromosome, complete genome	direct
+CP188268.1	CP188268.1	3006888650	SAMN47804650	210	Helicobacter pylori strain VN0621 chromosome, complete genome	direct
+FM991728.1	FM991728.1	254000649	SAMEA3138296	592205	Helicobacter pylori B38 complete genome, strain B38	direct
+FN598874.1	FN598874.1	298354685	SAMEA2272698	693745	Helicobacter pylori B8 complete genome	direct
+FN665651.1	FN665651.1	298356397	SAMEA2272698	693745	Helicobacter pylori B8 HPB8p plasmid	direct
+LR134517.1	LR134517.1	1540258434	NA	NA	NA	direct
+LR134519.1	LR134519.1	1540261282	SAMEA104224786	210	Helicobacter pylori strain NCTC12823 genome assembly, chromosome: 1	direct
+LR698956.1	LR698956.1	1721134155	SAMEA5850860	210	Helicobacter pylori isolate MGYG-HGUT-01357 genome assembly, chromosome: 1	direct
+LS483488.1	LS483488.1	1403677474	SAMEA3178013	102618	Helicobacter pylori strain NCTC11637 genome assembly, chromosome: 1	direct
+LT635456.1	LT635456.1	1214879952	SAMEA4554831	210	Helicobacter pylori isolate HE101/09 genome assembly, chromosome: I	direct
+LT635459.1	LT635459.1	1214879954	SAMEA4554832	210	Helicobacter pylori isolate HE132/09 genome assembly, chromosome: I	direct
+LT635460.1	NZ_LT635460.1	1271429413	SAMEA4554841	210	Helicobacter pylori isolate HE178/09 chromosome I	alias:NZ_LT635460.1
+LT635471.1	LT635471.1	1214879956	SAMEA4554835	210	Helicobacter pylori isolate HE141/09 genome assembly, chromosome: I	direct
+LT635472.1	LT635472.1	1214879957	SAMEA4554839	210	Helicobacter pylori isolate HE170/09 genome assembly, chromosome: I	direct
+LT635473.1	LT635473.1	1214879958	SAMEA4554834	210	Helicobacter pylori isolate HE136/09 genome assembly, chromosome: I	direct
+LT635474.1	LT635474.1	1214879959	SAMEA4554840	210	Helicobacter pylori isolate HE171/09 genome assembly, chromosome: I	direct
+LT635476.1	LT635476.1	1214879960	SAMEA4554833	210	Helicobacter pylori isolate HE134/09 genome assembly, chromosome: I	direct
+LT635477.1	LT635477.1	1214879961	SAMEA4554838	210	Helicobacter pylori isolate HE147/09 genome assembly, chromosome: I	direct
+LT635478.1	LT635478.1	1214879962	SAMEA4554836	210	Helicobacter pylori isolate HE142/09 genome assembly, chromosome: I	direct
+LT837687.1	LT837687.1	1214882331	NA	NA	NA	direct
+LT838273.1	LT838273.1	1214883908	SAMEA103957791	210	Helicobacter pylori isolate HE93/10_v1 genome assembly, chromosome: I	direct
+NC_000921.1	NC_000921.1	15611071	SAMN02602990	85963	Helicobacter pylori J99, complete sequence	direct
+NC_008086.1	NC_008086.1	108562424	SAMN02604311	357544	Helicobacter pylori HPAG1, complete sequence	direct
+NC_008087.1	NC_008087.1	108564598	SAMN02604311	357544	Helicobacter pylori HPAG1 plasmid pHPAG1, complete sequence	direct
+NC_010698.2	NC_010698.2	209406223	SAMN02604319	512562	Helicobacter pylori Shi470, complete sequence	direct
+NC_011333.1	NC_011333.1	208433976	SAMN02604237	563041	Helicobacter pylori G27, complete sequence	direct
+NC_011334.1	NC_011334.1	208435470	SAMN02604237	563041	Helicobacter pylori G27 plasmid pHPG27, complete sequence	direct
+NC_012973.1	NC_012973.1	254778738	SAMEA3138296	592205	Helicobacter pylori B38, complete sequence	direct
+NC_014256.1	NC_014256.1	298735500	SAMEA2272698	693745	Helicobacter pylori B8, complete sequence	direct
+NC_014257.1	NC_014257.1	298717635	SAMEA2272698	693745	Helicobacter pylori B8 plasmid HPB8p, complete sequence	direct
+NC_014555.1	NC_014555.1	308182188	SAMN02603203	765963	Helicobacter pylori PeCan4, complete sequence	direct
+NC_014556.1	NC_014556.1	308183744	SAMN02603203	765963	Helicobacter pylori PeCan4 plasmid pHPPC4, complete sequence	direct
+NC_014560.1	NC_014560.1	308183796	SAMN02603202	765962	Helicobacter pylori SJM180, complete sequence	direct
+NC_017063.1	NC_017063.1	383749063	NA	NA	NA	direct
+NC_017064.1	NC_017064.1	383750634	SAMN02604318	1055527	Helicobacter pylori ELS37 plasmid pHPELS37, complete sequence	direct
+NC_017354.1	NC_017354.1	384887043	SAMN02603357	684950	Helicobacter pylori 52, complete sequence	direct
+NC_017355.1	NC_017355.1	384888657	SAMN00003101	637913	Helicobacter pylori v225d, complete sequence	direct
+NC_017356.1	NC_017356.1	384893581	SAMN02603200	794851	Helicobacter pylori Sat464 plasmid pHPSAT464, complete sequence	direct
+NC_017358.1	NC_017358.1	384892008	SAMN02603204	765964	Helicobacter pylori Cuz20, complete sequence	direct
+NC_017359.1	NC_017359.1	384893616	SAMN02603200	794851	Helicobacter pylori Sat464, complete sequence	direct
+NC_017360.1	NC_017360.1	384895178	SAMN02299423	585535	Helicobacter pylori 35A, complete sequence	direct
+NC_017361.1	NC_017361.1	385221504	SAMN02603025	907239	Helicobacter pylori SouthAfrica7, complete sequence	direct
+NC_017362.1	NC_017362.1	384896752	SAMN02603023	907237	Helicobacter pylori Lithuania75, complete sequence	direct
+NC_017363.1	NC_017363.1	384896665	SAMN02603023	907237	Helicobacter pylori Lithuania75 plasmid unnamed, complete sequence	direct
+NC_017364.1	NC_017364.1	385219871	SAMN02603024	907240	Helicobacter pylori Gambia94/24 plasmid unnamed, complete sequence	direct
+NC_017365.1	NC_017365.1	384898367	SAMD00060972	866345	Helicobacter pylori F30, complete sequence	direct
+NC_017366.1	NC_017366.1	385215269	SAMD00060973	102608	Helicobacter pylori F32, complete sequence	direct
+NC_017367.1	NC_017367.1	385248496	SAMD00060974	866346	Helicobacter pylori F57, complete sequence	direct
+NC_017368.1	NC_017368.1	385216759	SAMD00060971	866344	Helicobacter pylori F16, complete sequence	direct
+NC_017369.1	NC_017369.1	385218260	SAMD00060972	866345	Helicobacter pylori F30 plasmid pHPF30, complete sequence	direct
+NC_017370.1	NC_017370.1	386262355	SAMD00060973	102608	Helicobacter pylori F32 plasmid pHPF32, complete sequence	direct
+NC_017371.1	NC_017371.1	385218266	SAMN02603024	907240	Helicobacter pylori Gambia94/24, complete sequence	direct
+NC_017372.1	NC_017372.1	385219873	SAMN02603026	907238	Helicobacter pylori India7, complete sequence	direct
+NC_017373.1	NC_017373.1	385221474	SAMN02603025	907239	Helicobacter pylori SouthAfrica7 plasmid unnamed, complete sequence	direct
+NC_017374.1	NC_017374.1	385223048	SAMN02603712	985081	Helicobacter pylori 2017, complete sequence	direct
+NC_017375.1	NC_017375.1	385224642	SAMN00189522	585538	Helicobacter pylori 83, complete sequence	direct
+NC_017376.1	NC_017376.1	385226252	SAMN02604322	1055530	Helicobacter pylori SNT49, complete sequence	direct
+NC_017377.1	NC_017377.1	385229299	SAMN02604320	1055528	Helicobacter pylori Puno120 plasmid pHPPN120, complete sequence	direct
+NC_017378.1	NC_017378.1	385227773	SAMN02604320	1055528	Helicobacter pylori Puno120, complete sequence	direct
+NC_017379.1	NC_017379.1	385229315	SAMN02604321	1055529	Helicobacter pylori Puno135, complete sequence	direct
+NC_017380.1	NC_017380.1	385227768	SAMN02604322	1055530	Helicobacter pylori SNT49 plasmid pHPSNT, complete sequence	direct
+NC_017381.1	NC_017381.1	385230889	SAMN02603713	985080	Helicobacter pylori 2018, complete sequence	direct
+NC_017382.1	NC_017382.1	387781698	SAMN02603300	290847	Helicobacter pylori 51, complete sequence	direct
+NC_017383.1	NC_017383.1	384888493	SAMN00003101	637913	Helicobacter pylori v225d plasmid pHPv225d, complete sequence	direct
+NC_017733.1	NC_017733.1	386745526	SAMN02603197	1163743	Helicobacter pylori HUP-B14, complete sequence	direct
+NC_017734.1	NC_017734.1	386745517	NA	NA	NA	direct
+NC_017739.1	NC_017739.1	386750444	SAMN02603193	1163739	Helicobacter pylori Shi417, complete sequence	direct
+NC_017740.1	NC_017740.1	386751993	SAMN02603195	1163741	Helicobacter pylori Shi169, complete sequence	direct
+NC_017741.1	NC_017741.1	386753519	SAMN02603194	1163740	Helicobacter pylori Shi112, complete sequence	direct
+NC_017742.1	NA	NA	NA	NA	NA	no_uid
+NC_018937.1	NC_018937.1	410023236	SAMN02603762	1234365	Helicobacter pylori Rif1, complete sequence	direct
+NC_018938.1	NC_018938.1	410081538	SAMN02603763	1234600	Helicobacter pylori Rif2, complete sequence	direct
+NC_018939.1	NC_018939.1	410024832	SAMN02603761	85962	Helicobacter pylori 26695, complete sequence	direct
+NC_019560.1	NC_019560.1	425788638	SAMN02604323	1055531	Helicobacter pylori Aklavik117, complete sequence	direct
+NC_019561.1	NC_019561.1	425790159	SAMN02604323	1055531	Helicobacter pylori Aklavik117 plasmid p1HPAKL117, complete sequence	direct
+NC_019562.1	NC_019562.1	425790176	SAMN02604323	1055531	Helicobacter pylori Aklavik117 plasmid p2HPAKL117, complete sequence	direct
+NC_019563.1	NC_019563.1	425790179	SAMN02604324	1055532	Helicobacter pylori Aklavik86, complete sequence	direct
+NC_019564.1	NC_019564.1	425791554	SAMN02604324	1055532	Helicobacter pylori Aklavik86 plasmid p1HPAKL86, complete sequence	direct
+NC_019565.1	NC_019565.1	425791567	SAMN02604324	1055532	Helicobacter pylori Aklavik86 plasmid p2HPAKL86, complete sequence	direct
+NC_020508.1	NC_020508.1	470164400	SAMD00061056	1248725	Helicobacter pylori OK113, complete sequence	direct
+NC_020509.1	NC_020509.1	478429022	SAMD00061057	1248726	Helicobacter pylori OK310, complete sequence	direct
+NC_020556.1	NC_020556.1	469823624	SAMD00061057	1248726	Helicobacter pylori OK310 plasmid pHPOK310, complete sequence	direct
+NC_021215.3	NC_021215.3	685455742	SAMN02230257	1311573	Helicobacter pylori UM032, complete sequence	direct
+NC_021216.3	NC_021216.3	685456130	SAMN02230259	1321938	Helicobacter pylori UM299, complete sequence	direct
+NC_021217.3	NC_021217.3	687954368	SAMN02604194	1321939	Helicobacter pylori UM037, complete sequence	direct
+NC_021218.3	NC_021218.3	687956598	SAMN02230271	1321940	Helicobacter pylori UM066, complete sequence	direct
+NC_021882.2	NC_021882.2	687961717	SAMN02641597	1321941	Helicobacter pylori UM298, complete sequence	direct
+NC_022886.1	NC_022886.1	560107639	SAMN02376623	1407462	Helicobacter pylori BM012A, complete sequence	direct
+NC_022911.1	NC_022911.1	560153071	SAMN02376624	1407463	Helicobacter pylori BM012S, complete sequence	direct
+NZ_AP013354.1	NZ_AP013354.1	757741967	SAMD00061015	1391726	Helicobacter pylori 26695-1 chromosome, complete genome	direct
+NZ_AP013355.1	NZ_AP013355.1	757744860	NA	NA	NA	direct
+NZ_AP013356.1	NZ_AP013356.1	757741541	SAMD00061016	1391727	Helicobacter pylori 26695-1CL chromosome, complete genome	direct
+NZ_AP014523.1	NZ_AP014523.1	751583658	SAMD00061026	1426844	Helicobacter pylori NY40 chromosome, complete genome	direct
+NZ_AP017632.1	NZ_AP017632.1	1583048046	SAMD00051588	210	Helicobacter pylori strain ATCC 43504 chromosome, complete genome	direct
+NZ_AP017633.1	NZ_AP017633.1	1582996620	SAMD00051589	210	Helicobacter pylori strain PMSS1 chromosome, complete genome	direct
+NZ_AP017634.1	NZ_AP017634.1	1582996706	SAMD00051589	210	Helicobacter pylori strain PMSS1 plasmid pPMSS1, complete sequence	direct
+NZ_AP019730.1	NZ_AP019730.1	1740774282	SAMN02724990	210	Helicobacter pylori strain TN2wt chromosome, complete genome	direct
+NZ_AP023344.1	NZ_AP023344.1	2233749499	SAMD00232837	210	Helicobacter pylori strain JSHR3 chromosome, complete genome	direct
+NZ_AP023345.1	NZ_AP023345.1	2233793070	SAMD00232839	210	Helicobacter pylori strain JSHR31 chromosome, complete genome	direct
+NZ_AP023346.1	NZ_AP023346.1	2233793158	SAMD00232839	210	Helicobacter pylori strain JSHR31 plasmid JSHR31-PL, complete sequence	direct
+NZ_AP023347.1	NZ_AP023347.1	2233725635	SAMD00232838	210	Helicobacter pylori strain JSHR6 chromosome, complete genome	direct
+NZ_AP024599.1	NZ_AP024599.1	2083750191	SAMD00296812	210	Helicobacter pylori strain 3401 chromosome, complete genome	direct
+NZ_AP024962.1	NZ_AP024962.1	2102408106	SAMD00392799	210	Helicobacter pylori strain #3 chromosome, complete genome	direct
+NZ_AP024963.1	NZ_AP024963.1	2102406386	SAMD00392800	210	Helicobacter pylori strain #5 chromosome, complete genome	direct
+NZ_AP024964.1	NZ_AP024964.1	2102412890	SAMD00392801	210	Helicobacter pylori strain #6 chromosome, complete genome	direct
+NZ_AP024965.1	NZ_AP024965.1	2102407283	SAMD00392802	210	Helicobacter pylori strain #8 chromosome, complete genome	direct
+NZ_AP026446.1	NZ_AP026446.1	2366129803	SAMD00509734	210	Helicobacter pylori strain CHC155 chromosome, complete genome	direct
+NZ_CP006820.1	NZ_CP006820.1	749295377	SAMN03081488	1382920	Helicobacter pylori oki102 chromosome, complete genome	direct
+NZ_CP006821.1	NZ_CP006821.1	749295362	SAMN03081489	1382921	Helicobacter pylori oki112 chromosome, complete genome	direct
+NZ_CP006822.1	NZ_CP006822.1	749295358	SAMN03081490	1382922	Helicobacter pylori oki128 chromosome, complete genome	direct
+NZ_CP006823.1	NZ_CP006823.1	749295370	SAMN03081491	1382923	Helicobacter pylori oki154 chromosome, complete genome	direct
+NZ_CP006824.1	NZ_CP006824.1	749295359	SAMN03081492	1382924	Helicobacter pylori oki422 chromosome, complete genome	direct
+NZ_CP006825.1	CP006825.1	597822122	SAMN03081493	1382925	Helicobacter pylori oki673, complete genome	alias:CP006825.1
+NZ_CP006826.1	NZ_CP006826.1	749295379	NA	NA	NA	direct
+NZ_CP006827.1	NZ_CP006827.1	749295365	SAMN03081495	1382927	Helicobacter pylori oki898 chromosome, complete genome	direct
+NZ_CP007603.1	NZ_CP007603.1	749295375	SAMN02736817	102611	Helicobacter pylori J166 chromosome, complete genome	direct
+NZ_CP007604.1	NZ_CP007604.1	749295366	SAMN02736809	210	Helicobacter pylori strain BM013A chromosome, complete genome	direct
+NZ_CP007605.1	NZ_CP007605.1	749295372	SAMN02736818	210	Helicobacter pylori strain BM012B chromosome, complete genome	direct
+NZ_CP007606.1	NZ_CP007606.1	749295361	SAMN02736816	210	Helicobacter pylori strain BM013B chromosome, complete genome	direct
+NZ_CP009259.1	NZ_CP009259.1	1149579885	SAMN03331743	102617	Helicobacter pylori SS1 chromosome, complete genome	direct
+NZ_CP009260.1	NZ_CP009260.1	1149579886	SAMN03331743	102617	Helicobacter pylori SS1 plasmid pHPLYSS1, complete sequence	direct
+NZ_CP010435.1	CP010435.1	749166835	SAMN03268385	1391726	Helicobacter pylori 26695-1, complete genome	alias:CP010435.1
+NZ_CP010436.1	NZ_CP010436.1	757741152	SAMN03268365	210	Helicobacter pylori strain 26695-1MET chromosome, complete genome	direct
+NZ_CP011330.1	NZ_CP011330.1	817693153	SAMN03487572	85963	Helicobacter pylori J99 chromosome, complete genome	direct
+NZ_CP011482.1	NZ_CP011482.1	1033126602	SAMN02731779	210	Helicobacter pylori strain L7 chromosome, complete genome	direct
+NZ_CP011483.1	NZ_CP011483.1	1033125242	SAMN02731778	210	Helicobacter pylori strain DU15 chromosome, complete genome	direct
+NZ_CP011484.1	NZ_CP011484.1	1033130889	SAMN02731783	210	Helicobacter pylori strain CC33C chromosome, complete genome	direct
+NZ_CP011485.1	NZ_CP011485.1	1033132053	SAMN02731780	210	Helicobacter pylori strain ausabrJ05 chromosome, complete genome	direct
+NZ_CP011486.1	NZ_CP011486.1	1033128945	SAMN02731784	210	Helicobacter pylori strain K26A1 chromosome, complete genome	direct
+NZ_CP011487.1	NZ_CP011487.1	1033127814	SAMN02731781	210	Helicobacter pylori strain PNG84A chromosome, complete genome	direct
+NZ_CP012905.1	NZ_CP012905.1	983230873	SAMN03144736	210	Helicobacter pylori strain 7C chromosome, complete genome	direct
+NZ_CP012906.1	NZ_CP012906.1	983230874	SAMN03144736	210	Helicobacter pylori strain 7C plasmid unnamed, complete sequence	direct
+NZ_CP018823.1	NZ_CP018823.1	1147456876	SAMN04362855	1431450	Helicobacter pylori PMSS1 chromosome, complete genome	direct
+NZ_CP018824.1	NZ_CP018824.1	1147456902	SAMN04362855	1431450	Helicobacter pylori PMSS1 plasmid pHPYLPMSS1, complete sequence	direct
+NZ_CP019700.1	NZ_CP019700.1	1353419982	SAMN06216064	210	Helicobacter pylori strain B128_1 chromosome, complete genome	direct
+NZ_CP022409.1	CP022409.1	1218502500	SAMN07338981	210	Helicobacter pylori strain G272 chromosome, complete genome	alias:CP022409.1
+NZ_CP022410.1	NZ_CP022410.1	1219529868	SAMN07338981	210	Helicobacter pylori strain G272 plasmid unnamed1, complete sequence	direct
+NZ_CP024021.1	NZ_CP024021.1	1353426708	SAMN06216085	210	Helicobacter pylori strain 7.13_D3a chromosome, complete genome	direct
+NZ_CP024022.1	NZ_CP024022.1	1353428896	SAMN06216086	210	Helicobacter pylori strain 7.13_D3b chromosome, complete genome	direct
+NZ_CP024023.1	NZ_CP024023.1	1353428899	SAMN06216087	210	Helicobacter pylori isolate 7.13_D3c chromosome, complete genome	direct
+NZ_CP024071.1	NA	NA	NA	NA	NA	no_uid
+NZ_CP024072.1	NZ_CP024072.1	1353434842	SAMN06216071	210	Helicobacter pylori strain 7.13_R1b chromosome, complete genome	direct
+NZ_CP024073.1	NZ_CP024073.1	1353431671	SAMN06216072	210	Helicobacter pylori strain 7.13_R1c chromosome, complete genome	direct
+NZ_CP024074.1	NZ_CP024074.1	1353431676	SAMN06216073	210	Helicobacter pylori strain 7.13_R2a chromosome, complete genome	direct
+NZ_CP024075.1	NZ_CP024075.1	1353428922	SAMN06216074	210	Helicobacter pylori strain 7.13_R2b chromosome, complete genome	direct
+NZ_CP024076.1	NZ_CP024076.1	1353428917	SAMN06216075	210	Helicobacter pylori strain 7.13_R2c chromosome, complete genome	direct
+NZ_CP024077.1	NZ_CP024077.1	1353428927	SAMN06216076	210	Helicobacter pylori strain 7.13_R3a chromosome, complete genome	direct
+NZ_CP024078.1	NZ_CP024078.1	1353426717	SAMN06216077	210	Helicobacter pylori strain 7.13_R3b chromosome, complete genome	direct
+NZ_CP024079.1	NZ_CP024079.1	1353428929	SAMN06216078	210	Helicobacter pylori strain 7.13_R3c chromosome, complete genome	direct
+NZ_CP024946.1	NZ_CP024946.1	1719430695	SAMN08055037	210	Helicobacter pylori strain B147 chromosome, complete genome	direct
+NZ_CP024947.1	NZ_CP024947.1	1719435013	SAMN08055036	210	Helicobacter pylori strain J182 chromosome, complete genome	direct
+NZ_CP024948.1	NZ_CP024948.1	1719532760	SAMN08055035	210	Helicobacter pylori strain B140 chromosome, complete genome	direct
+NZ_CP024949.1	NZ_CP024949.1	1719535966	SAMN08055034	210	Helicobacter pylori strain B136A chromosome, complete genome	direct
+NZ_CP024950.1	NZ_CP024950.1	1720064826	SAMN08055033	210	Helicobacter pylori strain B130A chromosome, complete genome	direct
+NZ_CP024951.1	NZ_CP024951.1	1719516083	SAMN08055032	544406	Helicobacter pylori B128 chromosome, complete genome	direct
+NZ_CP024952.1	NZ_CP024952.1	1719428704	SAMN08055031	210	Helicobacter pylori strain B125A chromosome, complete genome	direct
+NZ_CP024953.1	NZ_CP024953.1	1758145674	SAMN08055030	210	Helicobacter pylori strain 7.13 chromosome, complete genome	direct
+NZ_CP025474.1	NZ_CP025474.1	1543265307	SAMN08195713	210	Helicobacter pylori strain H-137 chromosome, complete genome	direct
+NZ_CP026324.1	NZ_CP026324.1	1337936975	SAMN08388635	210	Helicobacter pylori strain 26695-dRdM2 chromosome, complete genome	direct
+NZ_CP026325.1	NZ_CP026325.1	1337961113	SAMN08388634	210	Helicobacter pylori strain dRdM1 chromosome, complete genome	direct
+NZ_CP026326.1	NZ_CP026326.1	1337980254	SAMN08388633	210	Helicobacter pylori strain 26695-dR chromosome, complete genome	direct
+NZ_CP026515.1	NZ_CP026515.1	1353457057	SAMN08388637	210	Helicobacter pylori strain dRdM2addM2 chromosome, complete genome	direct
+NZ_CP027404.1	NZ_CP027404.1	1359856223	SAMN06173313	210	Helicobacter pylori strain FDAARGOS_300 chromosome, complete genome	direct
+NZ_CP028325.1	NZ_CP028325.1	1382308292	SAMN06173311	210	Helicobacter pylori strain FDAARGOS_298 chromosome, complete genome	direct
+NZ_CP032471.1	NZ_CP032471.1	1690788330	SAMN10053865	210	Helicobacter pylori strain 479-C2-EK2 chromosome, complete genome	direct
+NZ_CP032472.1	NZ_CP032472.1	1690767649	SAMN10053852	210	Helicobacter pylori strain 479-A2-EK4 chromosome, complete genome	direct
+NZ_CP032473.1	CP032473.1	1682028841	SAMN10053800	210	Helicobacter pylori strain 476-A2-EK2 chromosome, complete genome	alias:CP032473.1
+NZ_CP032474.1	CP032474.1	1682028842	SAMN10053808	210	Helicobacter pylori strain 476-C-EK5 chromosome, complete genome	alias:CP032474.1
+NZ_CP032475.1	NZ_CP032475.1	1690802446	SAMN10053787	210	Helicobacter pylori strain 381-F-EK9 chromosome, complete genome	direct
+NZ_CP032476.1	NZ_CP032476.1	1690802610	SAMN10053769	210	Helicobacter pylori strain 381-C-EK1 chromosome, complete genome	direct
+NZ_CP032477.1	NZ_CP032477.1	1690783763	SAMN10053716	210	Helicobacter pylori strain 169-C-EK8 chromosome, complete genome	direct
+NZ_CP032478.1	NZ_CP032478.1	1690768736	SAMN10053600	210	Helicobacter pylori strain 25-A-EK9 chromosome, complete genome	direct
+NZ_CP032479.1	NZ_CP032479.1	1690798697	SAMN10053522	210	Helicobacter pylori strain 21-F-EK1 chromosome, complete genome	direct
+NZ_CP032480.1	NZ_CP032480.1	1690800059	SAMN10053452	210	Helicobacter pylori strain 19-C-EK1 chromosome, complete genome	direct
+NZ_CP032898.1	NZ_CP032898.1	1690773843	SAMN10053855	210	Helicobacter pylori strain 479-C-EK2 chromosome, complete genome	direct
+NZ_CP032899.1	NZ_CP032899.1	1690807521	SAMN10053819	210	Helicobacter pylori strain 478-A-EK1 chromosome, complete genome	direct
+NZ_CP032900.1	CP032900.1	1682028851	SAMN10053793	210	Helicobacter pylori strain 476-A-EK5 chromosome, complete genome	alias:CP032900.1
+NZ_CP032901.1	NZ_CP032901.1	1690785069	SAMN10053762	210	Helicobacter pylori strain 381-A-EK4 chromosome, complete genome	direct
+NZ_CP032902.1	CP032902.1	1682028853	SAMN10053739	210	Helicobacter pylori strain 280-A-EK1 chromosome, complete genome	alias:CP032902.1
+NZ_CP032903.1	CP032903.1	1682028854	SAMN10053719	210	Helicobacter pylori strain 173-A-EK1 chromosome, complete genome	alias:CP032903.1
+NZ_CP032904.1	NZ_CP032904.1	1690772027	SAMN10053703	210	Helicobacter pylori strain 169-A-EK5 chromosome, complete genome	direct
+NZ_CP032905.1	NZ_CP032905.1	1690804421	SAMN10053622	210	Helicobacter pylori strain 26-A-EK1 chromosome, complete genome	direct
+NZ_CP032906.1	NZ_CP032906.1	1690788478	SAMN10053592	210	Helicobacter pylori strain 25-A-EK1 chromosome, complete genome	direct
+NZ_CP032907.1	NZ_CP032907.1	1690786333	SAMN10053562	210	Helicobacter pylori strain 24-A-EK1 chromosome, complete genome	direct
+NZ_CP032908.1	NZ_CP032908.1	1690787827	SAMN10053532	210	Helicobacter pylori strain 23-A-EK1 chromosome, complete genome	direct
+NZ_CP032909.1	NZ_CP032909.1	1690801568	SAMN10053502	210	Helicobacter pylori strain 21-A-EK1 chromosome, complete genome	direct
+NZ_CP032910.1	CP032910.1	1682028861	SAMN10053472	210	Helicobacter pylori strain 20-A-EK1 chromosome, complete genome	alias:CP032910.1
+NZ_CP032911.1	NZ_CP032911.1	1690805991	SAMN10053444	210	Helicobacter pylori strain 19-A-EK3 chromosome, complete genome	direct
+NZ_CP032912.1	NZ_CP032912.1	1690773127	SAMN10053419	210	Helicobacter pylori strain 13-A-EK8 chromosome, complete genome	direct
+NZ_CP032913.1	NZ_CP032913.1	1690775108	SAMN10053382	210	Helicobacter pylori strain 5-A-EK1 chromosome, complete genome	direct
+NZ_CP034071.1	NZ_CP034071.1	1527157107	SAMN10461767	210	Helicobacter pylori strain Hpbs1 chromosome, complete genome	direct
+NZ_CP034147.1	NZ_CP034147.1	1568950457	SAMN06329538	210	Helicobacter pylori strain HP14039 chromosome, complete genome	direct
+NZ_CP034312.1	NZ_CP034312.1	1535583191	SAMN10181238	210	Helicobacter pylori strain HP42K plasmid pHP42-2, complete sequence	direct
+NZ_CP034313.1	NZ_CP034313.1	1535583195	SAMN10181238	210	Helicobacter pylori strain HP42K plasmid pHP42-1, complete sequence	direct
+NZ_CP034314.1	NZ_CP034314.1	1535583272	SAMN10181238	210	Helicobacter pylori strain HP42K chromosome, complete genome	direct
+NZ_CP035105.1	NZ_CP035105.1	1561183749	SAMN10663081	210	Helicobacter pylori strain Hpbs2 chromosome, complete genome	direct
+NZ_CP035106.1	NZ_CP035106.1	1561181846	SAMN10663175	210	Helicobacter pylori strain Hpbs3 chromosome, complete genome	direct
+NZ_CP036379.1	NZ_CP036379.1	1905550915	SAMN10961649	210	Helicobacter pylori strain H1 chromosome, complete genome	direct
+NZ_CP036380.1	NZ_CP036380.1	1905550979	SAMN10961648	210	Helicobacter pylori strain 125C7 chromosome, complete genome	direct
+NZ_CP036381.1	NZ_CP036381.1	1905551051	SAMN10961647	210	Helicobacter pylori strain 125A3 chromosome, complete genome	direct
+NZ_CP036382.1	NZ_CP036382.1	1905550921	SAMN10961646	210	Helicobacter pylori strain 119C10 chromosome, complete genome	direct
+NZ_CP036383.1	CP036383.1	1822040190	SAMN10961645	210	Helicobacter pylori strain 119A2 chromosome, complete genome	alias:CP036383.1
+NZ_CP036384.1	NZ_CP036384.1	1905550893	SAMN10961644	210	Helicobacter pylori strain 103C8 chromosome, complete genome	direct
+NZ_CP036385.1	NZ_CP036385.1	1905550898	SAMN10961643	210	Helicobacter pylori strain 103A4 chromosome, complete genome	direct
+NZ_CP036386.1	NZ_CP036386.1	1905550986	SAMN10961642	210	Helicobacter pylori strain 87C7 chromosome, complete genome	direct
+NZ_CP036387.1	NZ_CP036387.1	1905551056	SAMN10961641	210	Helicobacter pylori strain 87A3 chromosome, complete genome	direct
+NZ_CP036388.1	NZ_CP036388.1	1905550973	SAMN10961640	210	Helicobacter pylori strain 81C9 chromosome, complete genome	direct
+NZ_CP036389.1	NZ_CP036389.1	1905550992	SAMN10961639	210	Helicobacter pylori strain 81A1 chromosome, complete genome	direct
+NZ_CP036390.1	NZ_CP036390.1	1905550974	SAMN10961638	210	Helicobacter pylori strain 78C8 chromosome, complete genome	direct
+NZ_CP036391.1	NZ_CP036391.1	1905552942	SAMN10961637	210	Helicobacter pylori strain 78A3 chromosome, complete genome	direct
+NZ_CP036392.1	NZ_CP036392.1	1905550976	SAMN10961636	210	Helicobacter pylori strain 48C8 chromosome, complete genome	direct
+NZ_CP036393.1	NZ_CP036393.1	1905552943	SAMN10961635	210	Helicobacter pylori strain 48A2 chromosome, complete genome	direct
+NZ_CP036394.1	NZ_CP036394.1	1905551607	SAMN10961634	210	Helicobacter pylori strain 29C8 chromosome, complete genome	direct
+NZ_CP036395.1	NZ_CP036395.1	1905550904	SAMN10961633	210	Helicobacter pylori strain 29A2 chromosome, complete genome	direct
+NZ_CP036396.1	NZ_CP036396.1	1905550989	SAMN10961632	210	Helicobacter pylori strain 12C8 chromosome, complete genome	direct
+NZ_CP036397.1	NZ_CP036397.1	1905551141	SAMN10961631	210	Helicobacter pylori strain 12A3 chromosome, complete genome	direct
+NZ_CP036398.1	NZ_CP036398.1	1905550914	SAMN10961630	210	Helicobacter pylori strain 8C10 chromosome, complete genome	direct
+NZ_CP036399.1	NZ_CP036399.1	1905551144	SAMN10961629	210	Helicobacter pylori strain 8A3 chromosome, complete genome	direct
+NZ_CP042211.1	NZ_CP042211.1	1718407846	SAMN10083778	210	Helicobacter pylori strain B128 7.13 chromosome, complete genome	direct
+NZ_CP042212.1	NZ_CP042212.1	1718407847	SAMN10083778	210	Helicobacter pylori strain B128 7.13 plasmid pB128, complete sequence	direct
+NZ_CP048599.1	CP048599.1	1811465874	SAMN13950474	210	Helicobacter pylori strain GCT 97 chromosome, complete genome	alias:CP048599.1
+NZ_CP048600.1	NZ_CP048600.1	1816496900	SAMN13950473	210	Helicobacter pylori strain GCT 43 chromosome, complete genome	direct
+NZ_CP048601.1	NZ_CP048601.1	1816531213	SAMN13950472	210	Helicobacter pylori strain GCT 27 chromosome, complete genome	direct
+NZ_CP051290.1	NZ_CP051290.1	1964515167	SAMN14589633	210	Helicobacter pylori strain ASHA-001 chromosome, complete genome	direct
+NZ_CP051291.1	NZ_CP051291.1	1964516043	SAMN14589635	210	Helicobacter pylori strain ASHA-002 chromosome, complete genome	direct
+NZ_CP051292.1	NZ_CP051292.1	1964517892	SAMN14589656	210	Helicobacter pylori strain ASHA-003 chromosome, complete genome	direct
+NZ_CP051434.1	NZ_CP051434.1	1964508985	SAMN14592714	210	Helicobacter pylori strain ASHA-004 chromosome, complete genome	direct
+NZ_CP051435.1	NZ_CP051435.1	1964541566	SAMN14592743	210	Helicobacter pylori strain ASHA-005 chromosome, complete genome	direct
+NZ_CP051493.1	NZ_CP051493.1	1964511111	SAMN14593096	210	Helicobacter pylori strain LIM-006 chromosome, complete genome	direct
+NZ_CP051494.1	NZ_CP051494.1	1964540494	SAMN14593090	210	Helicobacter pylori strain PUNO-010 chromosome, complete genome	direct
+NZ_CP051495.1	NZ_CP051495.1	1964523580	SAMN14593089	210	Helicobacter pylori strain PUNO-009 chromosome, complete genome	direct
+NZ_CP051496.1	NZ_CP051496.1	1964526253	SAMN14593088	210	Helicobacter pylori strain PUNO-008 chromosome, complete genome	direct
+NZ_CP051497.1	NZ_CP051497.1	1964528463	SAMN14593087	210	Helicobacter pylori strain PUNO-007 chromosome, complete genome	direct
+NZ_CP051498.1	NZ_CP051498.1	1966321940	SAMN14593086	210	Helicobacter pylori strain PUNO-006 chromosome, complete genome	direct
+NZ_CP051499.1	NZ_CP051499.1	1964850151	SAMN14593085	210	Helicobacter pylori strain PUNO-004 chromosome, complete genome	direct
+NZ_CP051500.1	NZ_CP051500.1	1964840649	SAMN14593084	210	Helicobacter pylori strain PUNO-003 chromosome, complete genome	direct
+NZ_CP051501.1	NZ_CP051501.1	1964843066	SAMN14593083	210	Helicobacter pylori strain PUNO-002 chromosome, complete genome	direct
+NZ_CP051502.1	NZ_CP051502.1	1964857031	SAMN14593082	210	Helicobacter pylori strain PUNO-001 chromosome, complete genome	direct
+NZ_CP051503.1	NZ_CP051503.1	1964866299	SAMN14593081	210	Helicobacter pylori strain SHIM-014 chromosome, complete genome	direct
+NZ_CP051504.1	NZ_CP051504.1	1966322995	SAMN14593080	210	Helicobacter pylori strain SHIM-011 chromosome, complete genome	direct
+NZ_CP051505.1	NZ_CP051505.1	1966197716	SAMN14593079	210	Helicobacter pylori strain SHIM-010 chromosome, complete genome	direct
+NZ_CP051506.1	NZ_CP051506.1	1964852489	SAMN14593078	210	Helicobacter pylori strain SHIM-007 chromosome, complete genome	direct
+NZ_CP051507.1	NZ_CP051507.1	1964858433	SAMN14593077	210	Helicobacter pylori strain SHIM-002 chromosome, complete genome	direct
+NZ_CP051508.1	NZ_CP051508.1	1964845018	SAMN14593076	210	Helicobacter pylori strain ASHA-010 chromosome, complete genome	direct
+NZ_CP051509.1	NZ_CP051509.1	1964847136	SAMN14593075	210	Helicobacter pylori strain ASHA-009 chromosome, complete genome	direct
+NZ_CP051510.1	NZ_CP051510.1	1964864091	SAMN14593074	210	Helicobacter pylori strain ASHA-008 chromosome, complete genome	direct
+NZ_CP051511.1	NZ_CP051511.1	1964861716	SAMN14593073	210	Helicobacter pylori strain ASHA-006 chromosome, complete genome	direct
+NZ_CP051533.1	NZ_CP051533.1	1964530165	SAMN14593100	210	Helicobacter pylori strain LIM-010 chromosome, complete genome	direct
+NZ_CP051534.1	NZ_CP051534.1	1964531950	SAMN14593099	210	Helicobacter pylori strain LIM-009 chromosome, complete genome	direct
+NZ_CP051535.1	NZ_CP051535.1	1964519483	SAMN14593098	210	Helicobacter pylori strain LIM-008 chromosome, complete genome	direct
+NZ_CP051536.1	NZ_CP051536.1	1964536452	SAMN14593097	210	Helicobacter pylori strain LIM-007 chromosome, complete genome	direct
+NZ_CP051537.1	NZ_CP051537.1	1964513065	SAMN14593095	210	Helicobacter pylori strain LIM-005 chromosome, complete genome	direct
+NZ_CP051539.1	NZ_CP051539.1	1964521216	SAMN14593093	210	Helicobacter pylori strain LIM-003 chromosome, complete genome	direct
+NZ_CP051540.1	NZ_CP051540.1	1966241726	SAMN14593092	210	Helicobacter pylori strain LIM-002 chromosome, complete genome	direct
+NZ_CP051541.1	NZ_CP051541.1	1964533827	SAMN14593091	210	Helicobacter pylori strain LIM-001 chromosome, complete genome	direct
+NZ_CP053256.1	NZ_CP053256.1	1843980542	SAMN02470830	1231719	Helicobacter pylori A45 chromosome, complete genome	direct
+NZ_CP053257.1	NZ_CP053257.1	1843980543	SAMN02470830	1231719	Helicobacter pylori A45 plasmid unnamed, complete sequence	direct
+NZ_CP053392.1	NZ_CP053392.1	1844027135	SAMN14820694	210	Helicobacter pylori strain HP9192 chromosome, complete genome	direct
+NZ_CP053393.1	NZ_CP053393.1	1844027176	SAMN14820694	210	Helicobacter pylori strain HP9192 plasmid unnamed, complete sequence	direct
+NZ_CP053394.1	NZ_CP053394.1	1844013456	NA	NA	NA	direct
+NZ_CP053395.1	NZ_CP053395.1	1844013497	SAMN14820693	210	Helicobacter pylori strain HP1352 plasmid unnamed, complete sequence	direct
+NZ_CP053396.1	NZ_CP053396.1	1844003877	SAMN14820692	210	Helicobacter pylori strain HPY chromosome, complete genome	direct
+NZ_CP053397.1	NZ_CP053397.1	1844003920	SAMN14820692	210	Helicobacter pylori strain HPY plasmid unnamed, complete sequence	direct
+NZ_CP058250.1	NZ_CP058250.1	2188591236	SAMN15338960	210	Helicobacter pylori strain AL02 chromosome, complete genome	direct
+NZ_CP058251.1	NZ_CP058251.1	2188594699	SAMN15339009	210	Helicobacter pylori strain UBN18 chromosome, complete genome	direct
+NZ_CP058252.1	NZ_CP058252.1	2188582341	SAMN15339008	210	Helicobacter pylori strain NP05-124 chromosome, complete genome	direct
+NZ_CP058281.1	NZ_CP058281.1	2188593680	SAMN15339005	210	Helicobacter pylori strain Hk711 chromosome, complete genome	direct
+NZ_CP058285.1	NZ_CP058285.1	2188586525	SAMN15339001	210	Helicobacter pylori strain BT302 chromosome, complete genome	direct
+NZ_CP058287.1	NZ_CP058287.1	2188581519	SAMN15338999	210	Helicobacter pylori strain AL04 chromosome, complete genome	direct
+NZ_CP071936.1	NZ_CP071936.1	2509361347	SAMN18296288	210	Helicobacter pylori strain MTT03 chromosome, complete genome	direct
+NZ_CP071975.1	NZ_CP071975.1	2023707783	SAMN18350106	210	Helicobacter pylori strain MT5118 chromosome, complete genome	direct
+NZ_CP071976.1	NZ_CP071976.1	2023707787	SAMN18350106	210	Helicobacter pylori strain MT5118 plasmid pMT5118, complete sequence	direct
+NZ_CP071977.1	NZ_CP071977.1	2023659155	SAMN18350156	210	Helicobacter pylori strain MT5105 chromosome, complete genome	direct
+NZ_CP071978.1	NZ_CP071978.1	2023660782	SAMN18350180	210	Helicobacter pylori strain MT5125 chromosome, complete genome	direct
+NZ_CP071979.1	NZ_CP071979.1	2023660785	SAMN18350180	210	Helicobacter pylori strain MT5125 plasmid p1MT5125, complete sequence	direct
+NZ_CP071980.1	NZ_CP071980.1	2023660786	SAMN18350180	210	Helicobacter pylori strain MT5125 plasmid p2MT5125, complete sequence	direct
+NZ_CP071981.1	NZ_CP071981.1	2023679750	SAMN18350188	210	Helicobacter pylori strain MT5111 chromosome, complete genome	direct
+NZ_CP071982.1	NZ_CP071982.1	2023769237	SAMN18350190	210	Helicobacter pylori strain MT5135 chromosome, complete genome	direct
+NZ_CP071983.1	NZ_CP071983.1	2023769277	SAMN18350190	210	Helicobacter pylori strain MT5135 plasmid pMT5135, complete sequence	direct
+NZ_CP071984.1	NZ_CP071984.1	2023681538	SAMN18350230	210	Helicobacter pylori strain MT5114 chromosome, complete genome	direct
+NZ_CP071985.1	NZ_CP071985.1	2023661726	SAMN18350231	210	Helicobacter pylori strain MT5119 chromosome, complete genome	direct
+NZ_CP071986.1	NZ_CP071986.1	2023709079	SAMN18350270	210	Helicobacter pylori strain MT5124 chromosome, complete genome	direct
+NZ_CP071987.1	NZ_CP071987.1	2023771027	SAMN18350271	210	Helicobacter pylori strain MT5136 chromosome, complete genome	direct
+NZ_CP085923.1	NZ_CP085923.1	2128763739	SAMN22365130	210	Helicobacter pylori strain FDAARGOS_1601 chromosome, complete genome	direct
+NZ_CP085924.1	NZ_CP085924.1	2128763740	SAMN22365130	210	Helicobacter pylori strain FDAARGOS_1601 plasmid unnamed, complete sequence	direct
+NZ_CP085947.1	NZ_CP085947.1	2128794567	SAMN22091660	210	Helicobacter pylori strain FDAARGOS_1563 chromosome, complete genome	direct
+NZ_CP085948.1	NZ_CP085948.1	2128794626	SAMN22091660	210	Helicobacter pylori strain FDAARGOS_1563 plasmid unnamed, complete sequence	direct
+NZ_CP086760.1	NZ_CP086760.1	2155395425	SAMN22488069	210	Helicobacter pylori strain 3192 chromosome, complete genome	direct
+NZ_CP089283.1	NZ_CP089283.1	2178876216	SAMN23610989	210	Helicobacter pylori strain J99 derivative isolate D1 chromosome, complete genome	direct
+NZ_CP090367.1	NZ_CP090367.1	2860100591	SAMN24498429	210	Helicobacter pylori strain CCUG 17875 chromosome, complete genome	direct
+NZ_CP090368.1	NZ_CP090368.1	2832629928	SAMN24498429	210	Helicobacter pylori strain CCUG 17875 plasmid unnamed, complete sequence	direct
+NZ_CP091770.1	NZ_CP091770.1	2191915745	SAMN25210003	210	Helicobacter pylori strain K115 chromosome, complete genome	direct
+NZ_CP094051.1	NZ_CP094051.1	2223609599	SAMN26675611	210	Helicobacter pylori strain Hpfe127 chromosome, complete genome	direct
+NZ_CP094052.1	NZ_CP094052.1	2223560569	SAMN26675610	210	Helicobacter pylori strain Hpfe126 chromosome, complete genome	direct
+NZ_CP094053.1	NZ_CP094053.1	2223560570	SAMN26675610	210	Helicobacter pylori strain Hpfe126 plasmid pHpfe126-1, complete sequence	direct
+NZ_CP094054.1	NZ_CP094054.1	2223561414	SAMN26675609	210	Helicobacter pylori strain Hpfe125 chromosome, complete genome	direct
+NZ_CP094055.1	NZ_CP094055.1	2223561415	SAMN26675609	210	Helicobacter pylori strain Hpfe125 plasmid pHpfe125-1, complete sequence	direct
+NZ_CP094056.1	NZ_CP094056.1	2223573409	SAMN26675608	210	Helicobacter pylori strain Hpfe124 chromosome, complete genome	direct
+NZ_CP094057.1	NZ_CP094057.1	2223573444	SAMN26675608	210	Helicobacter pylori strain Hpfe124 plasmid pHpfe124-1, complete sequence	direct
+NZ_CP094058.1	NZ_CP094058.1	2223590571	SAMN26675607	210	Helicobacter pylori strain Hpfe123 chromosome, complete genome	direct
+NZ_CP094059.1	NZ_CP094059.1	2223628994	SAMN26675606	210	Helicobacter pylori strain Hpfe122 chromosome, complete genome	direct
+NZ_CP094060.1	NZ_CP094060.1	2223629012	SAMN26675606	210	Helicobacter pylori strain Hpfe122 plasmid pHpfe122-1, complete sequence	direct
+NZ_CP094061.1	NZ_CP094061.1	2223559723	SAMN26675605	210	Helicobacter pylori strain Hpfe120 chromosome, complete genome	direct
+NZ_CP094062.1	NZ_CP094062.1	2223594155	SAMN26675604	210	Helicobacter pylori strain Hpfe118 chromosome, complete genome	direct
+NZ_CP094063.1	NZ_CP094063.1	2223575208	SAMN26675603	210	Helicobacter pylori strain Hpfe115 chromosome, complete genome	direct
+NZ_CP094064.1	NZ_CP094064.1	2223599448	SAMN26675602	210	Helicobacter pylori strain Hpfe114 chromosome, complete genome	direct
+NZ_CP094065.1	NZ_CP094065.1	2223570088	SAMN26675600	210	Helicobacter pylori strain Hpfe112 chromosome, complete genome	direct
+NZ_CP094066.1	NZ_CP094066.1	2223562322	SAMN26675599	210	Helicobacter pylori strain Hpfe110 chromosome, complete genome	direct
+NZ_CP094067.1	NZ_CP094067.1	2223600742	SAMN26675597	210	Helicobacter pylori strain Hpfe108 chromosome, complete genome	direct
+NZ_CP094068.1	NZ_CP094068.1	2223600743	SAMN26675597	210	Helicobacter pylori strain Hpfe108 plasmid pHpfe108-1, complete sequence	direct
+NZ_CP094069.1	NZ_CP094069.1	2223600744	SAMN26675597	210	Helicobacter pylori strain Hpfe108 plasmid pHpfe108-2, complete sequence	direct
+NZ_CP094070.1	NZ_CP094070.1	2223610957	SAMN26675596	210	Helicobacter pylori strain Hpfe107 chromosome, complete genome	direct
+NZ_CP094071.1	NZ_CP094071.1	2223648186	SAMN26675595	210	Helicobacter pylori strain Hpfe106 chromosome, complete genome	direct
+NZ_CP094072.1	NZ_CP094072.1	2223648207	SAMN26675595	210	Helicobacter pylori strain Hpfe106 plasmid pHpfe106-1, complete sequence	direct
+NZ_CP094073.1	NZ_CP094073.1	2223585139	SAMN26675593	210	Helicobacter pylori strain Hpfe104 chromosome, complete genome	direct
+NZ_CP094074.1	NZ_CP094074.1	2223563230	SAMN26675592	210	Helicobacter pylori strain Hpfe103 chromosome, complete genome	direct
+NZ_CP094075.1	NZ_CP094075.1	2223563231	SAMN26675592	210	Helicobacter pylori strain Hpfe103 plasmid pHpfe103-1, complete sequence	direct
+NZ_CP094076.1	NZ_CP094076.1	2223592210	SAMN26675591	210	Helicobacter pylori strain Hpfe102 chromosome, complete genome	direct
+NZ_CP094077.1	NZ_CP094077.1	2223592255	SAMN26675591	210	Helicobacter pylori strain Hpfe102 plasmid pHpfe102-1, complete sequence	direct
+NZ_CP094078.1	NZ_CP094078.1	2223602432	SAMN26675590	210	Helicobacter pylori strain Hpfe101 chromosome, complete genome	direct
+NZ_CP094079.1	NZ_CP094079.1	2223618919	SAMN26675589	210	Helicobacter pylori strain Hpfe100 chromosome, complete genome	direct
+NZ_CP094080.1	NZ_CP094080.1	2223649835	SAMN26675588	210	Helicobacter pylori strain Hpfe099 chromosome, complete genome	direct
+NZ_CP094081.1	NZ_CP094081.1	2223649845	SAMN26675588	210	Helicobacter pylori strain Hpfe099 plasmid pHpfe099-1, complete sequence	direct
+NZ_CP094082.1	NZ_CP094082.1	2223595793	SAMN26675586	210	Helicobacter pylori strain Hpfe097 chromosome, complete genome	direct
+NZ_CP094083.1	NZ_CP094083.1	2223577051	SAMN26675585	210	Helicobacter pylori strain Hpfe096 chromosome, complete genome	direct
+NZ_CP094084.1	NZ_CP094084.1	2223577086	SAMN26675585	210	Helicobacter pylori strain Hpfe096 plasmid pHpfe096-1, complete sequence	direct
+NZ_CP094085.1	NZ_CP094085.1	2223624820	SAMN26675584	210	Helicobacter pylori strain Hpfe095 chromosome, complete genome	direct
+NZ_CP094086.1	NZ_CP094086.1	2223624844	SAMN26675584	210	Helicobacter pylori strain Hpfe095 plasmid pHpfe095-1, complete sequence	direct
+NZ_CP094087.1	NZ_CP094087.1	2223627652	SAMN26675582	210	Helicobacter pylori strain Hpfe093 chromosome, complete genome	direct
+NZ_CP094088.1	NZ_CP094088.1	2223612111	SAMN26675581	210	Helicobacter pylori strain Hpfe092 chromosome, complete genome	direct
+NZ_CP094089.1	NZ_CP094089.1	2223612125	SAMN26675581	210	Helicobacter pylori strain Hpfe092 plasmid pHpfe092-1, complete sequence	direct
+NZ_CP094090.1	NZ_CP094090.1	2223570955	SAMN26675579	210	Helicobacter pylori strain Hpfe089 chromosome, complete genome	direct
+NZ_CP094091.1	NZ_CP094091.1	2223613002	SAMN26675578	210	Helicobacter pylori strain Hpfe088 chromosome, complete genome	direct
+NZ_CP094092.1	NZ_CP094092.1	2223631339	SAMN26675576	210	Helicobacter pylori strain Hpfe086 chromosome, complete genome	direct
+NZ_CP094093.1	NZ_CP094093.1	2223651630	SAMN26675575	210	Helicobacter pylori strain Hpfe085 chromosome, complete genome	direct
+NZ_CP094094.1	NZ_CP094094.1	2223614772	SAMN26675574	210	Helicobacter pylori strain Hpfe084 chromosome, complete genome	direct
+NZ_CP094095.1	NZ_CP094095.1	2223564096	SAMN26675573	210	Helicobacter pylori strain Hpfe083 chromosome, complete genome	direct
+NZ_CP094096.1	NZ_CP094096.1	2223604450	SAMN26675572	210	Helicobacter pylori strain Hpfe082 chromosome, complete genome	direct
+NZ_CP094097.1	NZ_CP094097.1	2223604481	SAMN26675572	210	Helicobacter pylori strain Hpfe082 plasmid pHpfe082-1, complete sequence	direct
+NZ_CP094098.1	NZ_CP094098.1	2223586903	SAMN26675571	210	Helicobacter pylori strain Hpfe081 chromosome, complete genome	direct
+NZ_CP094099.1	NZ_CP094099.1	2223564956	SAMN26675570	210	Helicobacter pylori strain Hpfe080 chromosome, complete genome	direct
+NZ_CP094100.1	NZ_CP094100.1	2223564957	SAMN26675570	210	Helicobacter pylori strain Hpfe080 plasmid pHpfe080-1, complete sequence	direct
+NZ_CP094101.1	NZ_CP094101.1	2223597503	SAMN26675569	210	Helicobacter pylori strain Hpfe079 chromosome, complete genome	direct
+NZ_CP094102.1	NZ_CP094102.1	2223602431	SAMN26675568	210	Helicobacter pylori strain Hpfe078 chromosome, complete genome	direct
+NZ_CP094105.1	NZ_CP094105.1	2223620527	SAMN26675566	210	Helicobacter pylori strain Hpfe076 chromosome, complete genome	direct
+NZ_CP094106.1	NZ_CP094106.1	2223572076	SAMN26675565	210	Helicobacter pylori strain Hpfe075 chromosome, complete genome	direct
+NZ_CP094107.1	NZ_CP094107.1	2223565812	SAMN26675564	210	Helicobacter pylori strain Hpfe074 chromosome, complete genome	direct
+NZ_CP094109.1	NZ_CP094109.1	2223616217	SAMN26675562	210	Helicobacter pylori strain Hpfe072 chromosome, complete genome	direct
+NZ_CP094110.1	NZ_CP094110.1	2223653428	SAMN26675561	210	Helicobacter pylori strain Hpfe071 chromosome, complete genome	direct
+NZ_CP094111.1	NZ_CP094111.1	2223627770	NA	NA	NA	direct
+NZ_CP094112.1	NZ_CP094112.1	2223627789	SAMN26675560	210	Helicobacter pylori strain Hpfe070 plasmid pHpfe070-1, complete sequence	direct
+NZ_CP094113.1	NZ_CP094113.1	2223613678	SAMN26675559	210	Helicobacter pylori strain Hpfe069 chromosome, complete genome	direct
+NZ_CP094114.1	NZ_CP094114.1	2223613705	SAMN26675559	210	Helicobacter pylori strain Hpfe069 plasmid pHpfe069-1, complete sequence	direct
+NZ_CP094115.1	NZ_CP094115.1	2223603916	SAMN26675558	210	Helicobacter pylori strain Hpfe068 chromosome, complete genome	direct
+NZ_CP094116.1	NZ_CP094116.1	2223594333	SAMN26675556	210	Helicobacter pylori strain Hpfe066 chromosome, complete genome	direct
+NZ_CP094117.1	NZ_CP094117.1	2223655006	SAMN26675555	210	Helicobacter pylori strain Hpfe065 chromosome, complete genome	direct
+NZ_CP094118.1	NZ_CP094118.1	2223655040	SAMN26675555	210	Helicobacter pylori strain Hpfe065 plasmid pHpfe065-1, complete sequence	direct
+NZ_CP094119.1	NZ_CP094119.1	2223588807	SAMN26675554	210	Helicobacter pylori strain Hpfe064 chromosome, complete genome	direct
+NZ_CP094120.1	NZ_CP094120.1	2223617990	SAMN26675551	210	Helicobacter pylori strain Hpfe061 chromosome, complete genome	direct
+NZ_CP094121.1	NZ_CP094121.1	2223566668	SAMN26675549	210	Helicobacter pylori strain Hpfe059 chromosome, complete genome	direct
+NZ_CP094122.1	NZ_CP094122.1	2223605577	SAMN26675548	210	Helicobacter pylori strain Hpfe058 chromosome, complete genome	direct
+NZ_CP094123.1	NZ_CP094123.1	2223605614	SAMN26675548	210	Helicobacter pylori strain Hpfe058 plasmid pHpfe058-1, complete sequence	direct
+NZ_CP094124.1	NZ_CP094124.1	2223586068	SAMN26675547	210	Helicobacter pylori strain Hpfe057 chromosome, complete genome	direct
+NZ_CP094125.1	NZ_CP094125.1	2223586082	SAMN26675547	210	Helicobacter pylori strain Hpfe057 plasmid pHpfe057-1, complete sequence	direct
+NZ_CP094126.1	NZ_CP094126.1	2223606169	SAMN26675546	210	Helicobacter pylori strain Hpfe056 chromosome, complete genome	direct
+NZ_CP094127.1	NZ_CP094127.1	2223606207	SAMN26675546	210	Helicobacter pylori strain Hpfe056 plasmid pHpfe056-1, complete sequence	direct
+NZ_CP094128.1	NZ_CP094128.1	2223656327	SAMN26675545	210	Helicobacter pylori strain Hpfe055 chromosome, complete genome	direct
+NZ_CP094129.1	NZ_CP094129.1	2223599138	SAMN26675544	210	Helicobacter pylori strain Hpfe054 chromosome, complete genome	direct
+NZ_CP094130.1	NZ_CP094130.1	2223607256	SAMN26675543	210	Helicobacter pylori strain Hpfe053 chromosome, complete genome	direct
+NZ_CP094131.1	NZ_CP094131.1	2223596031	SAMN26675542	210	Helicobacter pylori strain Hpfe052 chromosome, complete genome	direct
+NZ_CP094132.1	NZ_CP094132.1	2223629603	SAMN26675541	210	Helicobacter pylori strain Hpfe051 chromosome, complete genome	direct
+NZ_CP094133.1	NZ_CP094133.1	2223573700	SAMN26675540	210	Helicobacter pylori strain Hpfe049 chromosome, complete genome	direct
+NZ_CP094134.1	NZ_CP094134.1	2223580789	SAMN26675539	210	Helicobacter pylori strain Hpfe048 chromosome, complete genome	direct
+NZ_CP094135.1	NZ_CP094135.1	2223627047	SAMN26675538	210	Helicobacter pylori strain Hpfe040 chromosome, complete genome	direct
+NZ_CP094136.1	NZ_CP094136.1	2223615579	SAMN26675537	210	Helicobacter pylori strain Hpfe039 chromosome, complete genome	direct
+NZ_CP094137.1	NZ_CP094137.1	2223632141	SAMN26675536	210	Helicobacter pylori strain Hpfe038 chromosome, complete genome	direct
+NZ_CP094138.1	NZ_CP094138.1	2223567530	SAMN26675535	210	Helicobacter pylori strain Hpfe037 chromosome, complete genome	direct
+NZ_CP094139.1	NZ_CP094139.1	2223608971	SAMN26675534	210	Helicobacter pylori strain Hpfe036 chromosome, complete genome	direct
+NZ_CP094140.1	NZ_CP094140.1	2223619874	SAMN26675533	210	Helicobacter pylori strain Hpfe035 chromosome, complete genome	direct
+NZ_CP094141.1	NZ_CP094141.1	2223619911	SAMN26675533	210	Helicobacter pylori strain Hpfe035 plasmid pHpfe035-1, complete sequence	direct
+NZ_CP094142.1	NZ_CP094142.1	2223623634	SAMN26675532	210	Helicobacter pylori strain Hpfe033 chromosome, complete genome	direct
+NZ_CP094143.1	NZ_CP094143.1	2223657463	SAMN26675531	210	Helicobacter pylori strain Hpfe032 chromosome, complete genome	direct
+NZ_CP094144.1	NZ_CP094144.1	2223587725	SAMN26675530	210	Helicobacter pylori strain Hpfe029 chromosome, complete genome	direct
+NZ_CP094145.1	NZ_CP094145.1	2223582687	SAMN26675529	210	Helicobacter pylori strain Hpfe028 chromosome, complete genome	direct
+NZ_CP094146.1	NZ_CP094146.1	2223582719	SAMN26675529	210	Helicobacter pylori strain Hpfe028 plasmid pHpfe028-1, complete sequence	direct
+NZ_CP094147.1	NZ_CP094147.1	2223590997	SAMN26675528	210	Helicobacter pylori strain Hpfe027 chromosome, complete genome	direct
+NZ_CP094148.1	NZ_CP094148.1	2223568326	SAMN26675527	210	Helicobacter pylori strain Hpfe024 chromosome, complete genome	direct
+NZ_CP094149.1	NZ_CP094149.1	2223634636	SAMN26675526	210	Helicobacter pylori strain Hpfe023 chromosome, complete genome	direct
+NZ_CP094150.1	NZ_CP094150.1	2223575390	SAMN26675525	210	Helicobacter pylori strain Hpfe022 chromosome, complete genome	direct
+NZ_CP094151.1	NZ_CP094151.1	2223636203	SAMN26675524	210	Helicobacter pylori strain Hpfe019 chromosome, complete genome	direct
+NZ_CP094152.1	NZ_CP094152.1	2223636245	SAMN26675524	210	Helicobacter pylori strain Hpfe019 plasmid pHpfe019-1, complete sequence	direct
+NZ_CP094153.1	NZ_CP094153.1	2223597701	SAMN26675523	210	Helicobacter pylori strain Hpfe010 chromosome, complete genome	direct
+NZ_CP094154.1	NZ_CP094154.1	2223597737	SAMN26675523	210	Helicobacter pylori strain Hpfe010 plasmid pHpfe010-1, complete sequence	direct
+NZ_CP094155.1	NZ_CP094155.1	2223597740	SAMN26675523	210	Helicobacter pylori strain Hpfe010 plasmid pHpfe010-2, complete sequence	direct
+NZ_CP094156.1	NZ_CP094156.1	2223621017	SAMN26675521	210	Helicobacter pylori strain Hpfe005 chromosome, complete genome	direct
+NZ_CP094157.1	NZ_CP094157.1	2223624881	SAMN26675520	210	Helicobacter pylori strain Hpfe0021 chromosome, complete genome	direct
+NZ_CP094158.1	NZ_CP094158.1	2223624895	SAMN26675520	210	Helicobacter pylori strain Hpfe0021 plasmid pHpfe0021-1, complete sequence	direct
+NZ_CP094159.1	NZ_CP094159.1	2223658960	SAMN26675519	210	Helicobacter pylori strain Hpfe0020 chromosome, complete genome	direct
+NZ_CP094160.1	NZ_CP094160.1	2223569197	NA	NA	NA	direct
+NZ_CP094161.1	NZ_CP094161.1	2223592653	SAMN26675517	210	Helicobacter pylori strain Hpfe0015 chromosome, complete genome	direct
+NZ_CP094162.1	NZ_CP094162.1	2223592674	SAMN26675517	210	Helicobacter pylori strain Hpfe0015 plasmid pHpfe0015-1, complete sequence	direct
+NZ_CP094164.1	NZ_CP094164.1	2223607858	SAMN26675515	210	Helicobacter pylori strain Hpfe0012 chromosome, complete genome	direct
+NZ_CP094165.1	NZ_CP094165.1	2223626386	SAMN26675514	210	Helicobacter pylori strain Hpfe0011 chromosome, complete genome	direct
+NZ_CP094166.1	NZ_CP094166.1	2223626400	SAMN26675514	210	Helicobacter pylori strain Hpfe0011 plasmid pHpfe0011-1, complete sequence	direct
+NZ_CP094167.1	NZ_CP094167.1	2223576652	SAMN26675512	210	Helicobacter pylori strain Hpfe0007 chromosome, complete genome	direct
+NZ_CP094168.1	NZ_CP094168.1	2223610569	SAMN26675511	210	Helicobacter pylori strain Hpfe0006 chromosome, complete genome	direct
+NZ_CP094169.1	NZ_CP094169.1	2223610606	SAMN26675511	210	Helicobacter pylori strain Hpfe0006 plasmid pHpfe0006-1, complete sequence	direct
+NZ_CP094170.1	NZ_CP094170.1	2223638732	SAMN26675510	210	Helicobacter pylori strain Hpfe0004 chromosome, complete genome	direct
+NZ_CP094171.1	NZ_CP094171.1	2223622552	SAMN26675509	210	Helicobacter pylori strain Hpfe0003 chromosome, complete genome	direct
+NZ_CP094172.1	NZ_CP094172.1	2223637613	SAMN26675508	210	Helicobacter pylori strain Hpfe0002 chromosome, complete genome	direct
+NZ_CP094173.1	NZ_CP094173.1	2223600741	SAMN26675507	210	Helicobacter pylori strain Hpfe0001 chromosome, complete genome	direct
+NZ_CP094175.1	NZ_CP094175.1	2223578867	SAMN26675553	210	Helicobacter pylori strain Hpfe063 chromosome, complete genome	direct
+NZ_CP094176.1	NZ_CP094176.1	2223578877	SAMN26675553	210	Helicobacter pylori strain Hpfe063 plasmid pHpfe063-1, complete sequence	direct
+NZ_CP094177.1	NZ_CP094177.1	2223633529	SAMN26675552	210	Helicobacter pylori strain Hpfe062 chromosome, complete genome	direct
+NZ_CP094178.1	NZ_CP094178.1	2223622449	SAMN26675550	210	Helicobacter pylori strain Hpfe060 chromosome, complete genome	direct
+NZ_CP116234.1	NZ_CP116234.1	2432304225	SAMN32735351	210	Helicobacter pylori strain H390d chromosome, complete genome	direct
+NZ_CP117023.1	NZ_CP117023.1	2445832567	SAMN32959140	210	Helicobacter pylori strain 444A6 plasmid pHP444A, complete sequence	direct
+NZ_CP117024.1	NZ_CP117024.1	2445832630	SAMN32959140	210	Helicobacter pylori strain 444A6 chromosome, complete genome	direct
+NZ_CP122515.1	NZ_CP122515.1	2495726104	SAMN34152678	210	Helicobacter pylori strain HP22 chromosome, complete genome	direct
+NZ_CP122516.1	NZ_CP122516.1	2495716133	SAMN34152750	210	Helicobacter pylori strain HP34 chromosome, complete genome	direct
+NZ_CP122946.1	NZ_CP122946.1	2524251239	SAMN34043884	210	Helicobacter pylori strain BS31 chromosome, complete genome	direct
+NZ_CP122947.1	NZ_CP122947.1	2524252779	SAMN34043886	210	Helicobacter pylori strain BS07 chromosome, complete genome	direct
+NZ_CP122948.1	NZ_CP122948.1	2524275117	SAMN34043887	210	Helicobacter pylori strain BS21 chromosome, complete genome	direct
+NZ_CP122949.1	NZ_CP122949.1	2575610547	SAMN34043888	210	Helicobacter pylori strain BS22 chromosome, complete genome	direct
+NZ_CP122950.1	NZ_CP122950.1	2524315563	SAMN34043891	210	Helicobacter pylori strain BS28-1 chromosome, complete genome	direct
+NZ_CP122951.1	NZ_CP122951.1	2524305920	SAMN34043889	210	Helicobacter pylori strain BS26 chromosome, complete genome	direct
+NZ_CP122952.1	NZ_CP122952.1	2524310388	SAMN34043890	210	Helicobacter pylori strain BS27-1 chromosome, complete genome	direct
+NZ_CP122953.1	NZ_CP122953.1	2524254679	SAMN34043892	210	Helicobacter pylori strain BS30 chromosome, complete genome	direct
+NZ_CP122954.1	NZ_CP122954.1	2524278157	SAMN34043893	210	Helicobacter pylori strain BS06 chromosome, complete genome	direct
+NZ_CP122955.1	NZ_CP122955.1	2524315632	SAMN34043895	210	Helicobacter pylori strain BS27-2 chromosome, complete genome	direct
+NZ_CP122956.1	NZ_CP122956.1	2524256138	SAMN34043897	210	Helicobacter pylori strain BT112 chromosome, complete genome	direct
+NZ_CP125966.1	NZ_CP125966.1	2510056501	SAMN35124854	210	Helicobacter pylori strain H390r chromosome, complete genome	direct
+NZ_CP129105.1	NZ_CP129105.1	2532697714	SAMN35982747	210	Helicobacter pylori strain HP45k chromosome, complete genome	direct
+NZ_CP130623.1	NZ_CP130623.1	2801528865	SAMN34043885	210	Helicobacter pylori strain BS04 chromosome, complete genome	direct
+NZ_CP130624.1	NZ_CP130624.1	2801528869	SAMN34043885	210	Helicobacter pylori strain BS04 plasmid unnamed, complete sequence	direct
+NZ_CP130625.1	NZ_CP130625.1	2801495170	SAMN34043894	210	Helicobacter pylori strain BS08 chromosome, complete genome	direct
+NZ_CP130626.1	NZ_CP130626.1	2801495203	SAMN34043894	210	Helicobacter pylori strain BS08 plasmid unnamed, complete sequence	direct
+NZ_CP134393.1	NZ_CP134393.1	2580626666	SAMN37313677	210	Helicobacter pylori strain ICDC15003-50-2 chromosome, complete genome	direct
+NZ_CP134394.1	NZ_CP134394.1	2580626697	SAMN37313676	210	Helicobacter pylori strain ICDC15003-50-1 chromosome, complete genome	direct
+NZ_CP134395.1	NZ_CP134395.1	2580623848	SAMN37313675	210	Helicobacter pylori strain ICDC15003-8-2 chromosome, complete genome	direct
+NZ_CP134396.1	NZ_CP134396.1	2580654978	SAMN37313674	210	Helicobacter pylori strain ICDC15003-8-1 chromosome, complete genome	direct
+NZ_CP134397.1	NZ_CP134397.1	2580636091	SAMN37313673	210	Helicobacter pylori strain ICDC15003s chromosome, complete genome	direct
+NZ_CP140483.1	NZ_CP140483.1	2806025452	SAMN38527861	210	Helicobacter pylori strain 51N chromosome, complete genome	direct
+NZ_CP140484.1	NZ_CP140484.1	2638590228	SAMN38528081	210	Helicobacter pylori strain 52N chromosome, complete genome	direct
+NZ_CP141771.1	NZ_CP141771.1	2648832221	SAMN39105593	210	Helicobacter pylori strain P08204 chromosome, complete genome	direct
+NZ_CP141772.1	NZ_CP141772.1	2648832294	SAMN39105593	210	Helicobacter pylori strain P08204 plasmid unnamed, complete sequence	direct
+NZ_CP141773.1	NZ_CP141773.1	2648873547	SAMN39105594	210	Helicobacter pylori strain P08205 chromosome, complete genome	direct
+NZ_CP141774.1	NZ_CP141774.1	2648874548	SAMN39105596	210	Helicobacter pylori strain P07353 chromosome, complete genome	direct
+NZ_CP141838.1	NZ_CP141838.1	2648806440	SAMN39105595	210	Helicobacter pylori strain P07928 chromosome, complete genome	direct
+NZ_CP188266.1	NZ_CP188266.1	3007866220	SAMN47804646	210	Helicobacter pylori strain VN0344 chromosome, complete genome	direct
+NZ_CP188267.1	NZ_CP188267.1	3007908151	SAMN47804647	210	Helicobacter pylori strain VN0358 chromosome, complete genome	direct
+NZ_CP188268.1	NZ_CP188268.1	3007879869	SAMN47804650	210	Helicobacter pylori strain VN0621 chromosome, complete genome	direct
+NZ_LR134517.1	NZ_LR134517.1	1545271300	SAMEA104224776	210	Helicobacter pylori strain NCTC13345 chromosome 1, complete sequence	direct
+NZ_LR134519.1	NZ_LR134519.1	1545303506	NA	NA	NA	direct
+NZ_LR698956.1	NZ_LR698956.1	1727693687	SAMEA5850860	210	Helicobacter pylori isolate MGYG-HGUT-01357 chromosome 1	direct
+NZ_LS483488.1	NZ_LS483488.1	1409078763	SAMEA3178013	102618	Helicobacter pylori NCTC 11637 = CCUG 17874 = ATCC 43504 = JCM 12093 strain NCTC 11637 chromosome 1, complete sequence	direct
+NZ_LT635456.1	NZ_LT635456.1	1271473738	NA	NA	NA	direct
+NZ_LT635459.1	NZ_LT635459.1	1271428227	SAMEA4554832	210	Helicobacter pylori isolate HE132/09 chromosome I	direct
+NZ_LT635460.1	NZ_LT635460.1	1271429413	SAMEA4554841	210	Helicobacter pylori isolate HE178/09 chromosome I	direct
+NZ_LT635471.1	NZ_LT635471.1	1271428383	SAMEA4554835	210	Helicobacter pylori isolate HE141/09 chromosome I	direct
+NZ_LT635472.1	NZ_LT635472.1	1271374585	SAMEA4554839	210	Helicobacter pylori isolate HE170/09 chromosome I	direct
+NZ_LT635473.1	NZ_LT635473.1	1271476409	SAMEA4554834	210	Helicobacter pylori isolate HE136/09 chromosome I	direct
+NZ_LT635474.1	NZ_LT635474.1	1271428388	SAMEA4554840	210	Helicobacter pylori isolate HE171/09 chromosome I	direct
+NZ_LT635476.1	NZ_LT635476.1	1271475210	SAMEA4554833	210	Helicobacter pylori isolate HE134/09 chromosome I	direct
+NZ_LT635477.1	NZ_LT635477.1	1271373392	SAMEA4554838	210	Helicobacter pylori isolate HE147/09 chromosome I	direct
+NZ_LT635478.1	NZ_LT635478.1	1271393201	SAMEA4554836	210	Helicobacter pylori isolate HE142/09 chromosome I	direct
+NZ_LT837687.1	NZ_LT837687.1	1215902816	SAMEA33005668	210	Helicobacter pylori isolate BCM-300 chromosome I	direct
+NZ_LT838273.1	NZ_LT838273.1	1271472431	SAMEA103957791	210	Helicobacter pylori isolate HE93/10_v1 chromosome I	direct

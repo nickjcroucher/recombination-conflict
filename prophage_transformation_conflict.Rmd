@@ -29,6 +29,7 @@ library(archive)
 library(rstatix)
 library(ggpubr)
 library(see)
+library(scales)
 
 position_dodge <- function(width = NULL, preserve = "total") {
   ggproto(NULL, PositionDodge,
@@ -409,9 +410,12 @@ plot_violin_kw <- function(x_var,
       "text",
       x = Inf, y = Inf,
       label = pval_label,
-      hjust = 1.05, vjust = 1.5,
+      hjust = 1.05, vjust = 1.25,
       size = 3.5,
       parse = TRUE
+    ) +
+    scale_y_continuous(
+      expand = expansion(mult = c(0, 0.2))
     ) +
     theme_bw() +
     theme(panel.grid = element_blank(),
@@ -581,9 +585,7 @@ plot_observed_vs_poisson <- function(observed_data,
       labeller = ggplot2::label_parsed
     ) +
     ggplot2::scale_x_continuous(
-      breaks = function(x) seq(floor(min(x, na.rm = TRUE)),
-                             ceiling(max(x, na.rm = TRUE)),
-                             by = 1),
+      breaks = scales::pretty_breaks(n = 5),
       minor_breaks = NULL
     ) +
     ggplot2::labs(x = x_label, y = "Observed probability") +
@@ -766,12 +768,12 @@ plot_rec_vs_element_model <- function(model_fit,
     ggplot2::theme_bw() +
     ggplot2::annotate("text",
                       x = stats::quantile(df[[x_var]], 0.95, na.rm = TRUE),
-                      y = stats::quantile(df[[y_var]], 0.95, na.rm = TRUE),
+                      y = stats::quantile(df[[y_var]], 0.90, na.rm = TRUE),
                       label = p_label, parse = TRUE, hjust = 1) +
     ggplot2::annotate(
       "text",
       x = stats::quantile(df[[x_var]], 0.95, na.rm = TRUE),
-      y = stats::quantile(df[[y_var]], 0.88, na.rm = TRUE),
+      y = stats::quantile(df[[y_var]], 0.95, na.rm = TRUE),
       label = r2_label,
       parse = TRUE,
       hjust = 1
@@ -816,21 +818,58 @@ fit_poisson_by_species <- function(df, conf.level = 0.95) {
     dplyr::group_by(species, display, detector, element_type) %>%
     dplyr::group_modify(~{
       dat <- .x
-
+      counts <- dat$count
       n <- nrow(dat)
-      k <- sum(dat$count, na.rm = TRUE)
+      k <- sum(counts, na.rm = TRUE)
+      alpha <- 1 - conf.level
 
-      ci <- poisson_rate_ci_exact(k = k, n = n, conf.level = conf.level)
+      if (k == 0) {
+        # Exact CI for all-zero case: fitdistrplus cannot fit a degenerate distribution
+        tibble::tibble(
+          n_isolates     = n,
+          k_total        = k,
+          lambda_hat     = 0,
+          lambda_lwr     = 0,
+          lambda_upr     = -log(alpha) / n,
+          mean_empirical = 0,
+          var_empirical  = 0,
+          aic            = NA_real_,
+          bic            = NA_real_,
+          fit_converged  = NA
+        )
+      } else {
+        tryCatch({
+          fit <- fitdistrplus::fitdist(counts, distr = "pois", method = "mle")
 
-      tibble::tibble(
-        n_isolates = n,
-        k_total = k,
-        lambda_hat = unname(ci["lambda"]),
-        lambda_lwr = unname(ci["lwr"]),
-        lambda_upr = unname(ci["upr"]),
-        mean_empirical = mean(dat$count, na.rm = TRUE),
-        var_empirical = stats::var(dat$count, na.rm = TRUE)
-      )
+          ci <- confint(fit, level = conf.level)
+
+          tibble::tibble(
+            n_isolates     = n,
+            k_total        = k,
+            lambda_hat     = unname(fit$estimate["lambda"]),
+            lambda_lwr     = ci["lambda", 1],
+            lambda_upr     = ci["lambda", 2],
+            mean_empirical = mean(counts, na.rm = TRUE),
+            var_empirical  = stats::var(counts, na.rm = TRUE),
+            aic            = fit$aic,
+            bic            = fit$bic,
+            fit_converged  = fit$convergence == 0
+          )
+        }, error = function(e) {
+          tibble::tibble(
+            n_isolates     = n,
+            k_total        = k,
+            lambda_hat     = NA_real_,
+            lambda_lwr     = NA_real_,
+            lambda_upr     = NA_real_,
+            mean_empirical = mean(counts, na.rm = TRUE),
+            var_empirical  = stats::var(counts, na.rm = TRUE),
+            aic            = NA_real_,
+            bic            = NA_real_,
+            fit_converged  = FALSE
+          )
+        })
+      }
     }) %>%
     dplyr::ungroup()
 }
@@ -939,15 +978,17 @@ plot_ecology_panel <- function(in_df,
     dplyr::left_join(intestinal_df, by = "species") %>% 
     dplyr::left_join(nasopharyngeal_df, by = "species") 
 
-  element_label <- paste0(stringr::str_to_title(element_choice), " per isolate")
+  element_label <- paste0(stringr::str_to_title(element_choice), "\nper isolate")
 
+  rec_y_lab <- "Recombination\nprobability"
+  
   rec_by_gram_plot <-
     plot_violin_kw(
       data = plot_df,
       x_var = Gram,
       y_var = .data[[y_rec_col]],
-      x_lab = "Gram stain phenotype",
-      y_lab = "Recombination probability"
+      x_lab = "Cell wall morphology",
+      y_lab = rec_y_lab
     )
 
   element_by_gram_plot <-
@@ -955,7 +996,7 @@ plot_ecology_panel <- function(in_df,
       data = plot_df,
       x_var = Gram,
       y_var = .data[[y_element_col]],
-      x_lab = "Gram stain phenotype",
+      x_lab = "Cell wall morphology",
       y_lab = element_label
     )
 
@@ -965,7 +1006,7 @@ plot_ecology_panel <- function(in_df,
       x_var = Transformability,
       y_var = .data[[y_rec_col]],
       x_lab = "Transformability",
-      y_lab = "Recombination probability"
+      y_lab = rec_y_lab
     )
 
   element_by_transformability_plot <-
@@ -983,7 +1024,7 @@ plot_ecology_panel <- function(in_df,
       x_var = Intestinal,
       y_var = .data[[y_rec_col]],
       x_lab = "Association with intestinal tract",
-      y_lab = "Recombination probability"
+      y_lab = rec_y_lab
     )
 
   element_by_ecology_plot <-
@@ -1001,7 +1042,7 @@ plot_ecology_panel <- function(in_df,
       x_var = Nasopharynx,
       y_var = .data[[y_rec_col]],
       x_lab = "Association with nasopharynx",
-      y_lab = "Recombination probability"
+      y_lab = rec_y_lab
     )
 
   element_by_np_plot <-
@@ -1045,6 +1086,17 @@ plot_ecology_panel <- function(in_df,
   )
 
   list(plot = final_plot, data = plot_df)
+}
+
+process_replicates <- function(x) {
+  x_chr <- stringr::str_to_lower(stringr::str_trim(as.character(x)))
+  
+  dplyr::case_when(
+    stringr::str_detect(x_chr, "^[0-9]+$") ~ x_chr,                               # "1" -> "1"
+    stringr::str_detect(x_chr, "^[0-9]+(st|nd|rd|th)$") ~ 
+      stringr::str_remove(x_chr, "(st|nd|rd|th)$"),                               # "1st" -> "1"
+    TRUE ~ NA_character_
+  )
 }
 
 ```
@@ -1506,7 +1558,7 @@ ggplot(rho_m_df,
 
 ### Fit generalised linear mixed effects model of homologous recombination
 
-``` {r Model the probability of changes occurring through recombination, fig.width = 8, fig.height = 8}
+``` {r Model the probability of changes occurring through recombination, fig.width = 10, fig.height = 10}
 
 rec_modelling_df <-
   mismatches_df %>% 
@@ -2001,7 +2053,7 @@ ggplot(all_results %>%
 
 ```
 
-### Distribution of prophage identified from PHASTER
+### Prepare data for analysis of PHASTER prophage frequencies
 
 ``` {r Count prophage per genome, fig.height = 8, fig.width = 8}
 
@@ -2050,110 +2102,19 @@ filtered_prophage_per_sample_df <-
       by = "name"
     )
 
-# Fit statistical distributions to prophage count data for each species
-fits_per_species <-
-  filtered_prophage_per_sample_df %>%
-  dplyr::group_by(species) %>%
-  dplyr::summarise(
-    data = list(total_phage_count),.groups = "drop"
-  ) %>%
-  dplyr::mutate(
-    # Fit Poisson
-    fit_pois = map(data, ~ suppressWarnings(fitdist(unlist(.x), "pois", method = "mle")))
-  )
-
-# Extract fit information
-pois_params <- fits_per_species %>%
-  dplyr::transmute(
-    species,
-    lambda = map_dbl(fit_pois, ~.x$estimate[["lambda"]])
-  )
-
-# Extract confidence intervals
-pois_ci <-
-  fits_per_species %>%
-    dplyr::mutate(
-      # extract point estimate
-      lambda_hat = map_dbl(fit_pois, ~.x$estimate[["lambda"]]),
-      # extract CI as a matrix, then convert to vector
-      ci_mat = map(fit_pois, ~ confint(.x))  # default 95% Wald CI
-    ) %>%
-    dplyr::mutate(
-      lambda_lwr = map_dbl(ci_mat, ~.x["lambda", "2.5 %"]),
-      lambda_upr = map_dbl(ci_mat, ~.x["lambda", "97.5 %"])
-    ) %>%
-    dplyr::mutate(lambda_lwr = dplyr::if_else(lambda_lwr < 0, 0.0, lambda_lwr)) %>% 
-    dplyr::select(species, lambda_hat, lambda_lwr, lambda_upr)
-
-# Calculate probabilities
-count_grid <- tibble(total_phage_count = 0:max(filtered_prophage_per_sample_df$total_phage_count))
-fitted_df <-
-  pois_params %>% 
-    dplyr::select(species, lambda) %>%
-    tidyr::crossing(count_grid) %>%
-    dplyr::mutate(
-        dist = "Poisson",
-        fitted_prob = dpois(total_phage_count, lambda)
-    ) %>% 
-    dplyr::left_join(
-      enframe(species_name) %>% 
-        tidyr::unnest(value) %>% 
-        dplyr::rename(species = value),
-      by = "species"
-    ) %>% 
-    dplyr::left_join(
-      enframe(display_name) %>% 
-        tidyr::unnest(value) %>% 
-        dplyr::rename(display = value),
-      by = "name"
-    )
-
-# Plot fitted distributions against observed prophage counts
-ggplot() +
-  # Observed probabilities as bars
-  geom_col(
-    data = filtered_prophage_per_sample_df %>% 
-            dplyr::select(species,total_phage_count,obs_prob,display) %>% 
-            dplyr::distinct(),
-    aes(x = total_phage_count, y = obs_prob),
-    fill = "blue",
-    color = "blue",
-    width = 0.8
-  ) +
-  # Fitted distributions as lines
-  geom_line(
-    data = fitted_df,
-    aes(x = total_phage_count,
-        y = fitted_prob),
-    size = 0.5,
-    linetype = 2,
-    colour = "red"
-  ) +
-  facet_wrap(~display,
-             scales = "free_y",
-             labeller = label_parsed) +
-  labs(
-    x = "Total phage count per sample",
-    y = "Proportion",
-    color = "Distribution"
-  ) +
-  theme_bw() +
-  theme(strip.background = element_blank(),
-        legend.position = "bottom")
-
 ```
-
-Two groups of bacteria exhibited a substantial deviation from the unimodal distribution expected of a homogeneously-behaving population:
-
-- *Enterobacter* spp.: there are many isolates (of both *E. hormaechei* and *E. cloacae*) that lack any prophage, despite a peak at 4 prophage per isolate (isolates of *E. hormaechei*)
-
-- *Proteus* spp.: there are many isolates (of both *P. mirabilis* and *P. terrae*) that lack any prophage, despite a peak at 2 prophage per isolate (isolates of *P. mirabilis* and *P. terrae*)
-
-These were excluded from the subsequent comparison, to ensure the MLST and prophage data both corresponded to homogeneously behaving populations of isolates.
 
 ## Identify genomes for geNomad analysis
 
-Taking the same set of complete genome accession codes, we select up to 200 Biosample IDs for each species in which the replicons' total length matches that expected for a genome:
+Taking the same set of complete genome accession codes, we first obtain the lengths of the complete genomes identified from the NCBI search above:
+
+``` {bash, eval = FALSE}
+
+for f in */*txt; do DIRNAME=`dirname $f`; BASENAME=`basename $f`; cd $DIRNAME; bsub -M 1000 -R 'select[mem>1000] rusage[mem=1000]' -o download_metadata.o -e download_metadata.e ../download_nuccore_metadata.sh $BASENAME ${BASENAME%txt}accessions; cd ..; done
+
+```
+
+We select up to 200 Biosample IDs for each species in which the replicons' total length matches that expected for a genome:
 
 ``` {r Find biosamples of suitable size, eval = FALSE}
 
@@ -2490,7 +2451,7 @@ ggplot() +
 # Process geNomad prophage output
 genomad_plasmid_threshold <- 0
 genomad_plasmid_df <-
-  read.table(file = "./genomad_analysis/tmp_genomad_plasmid_summary.tsv",
+  read.table(file = "./genomad_analysis/genomad_plasmid_summary.tsv",
              comment.char = "",
              header = TRUE,
              sep = "\t") %>%
@@ -2639,6 +2600,15 @@ plot_observed_vs_poisson(
 
 ```
 
+
+Two groups of bacteria exhibited a substantial deviation from the unimodal distribution expected of a homogeneously-behaving population:
+
+- *Enterobacter* spp.: there are many isolates (of both *E. hormaechei* and *E. cloacae*) that lack any prophage, despite a peak at 4 prophage per isolate (isolates of *E. hormaechei*)
+
+- *Proteus* spp.: there are many isolates (of both *P. mirabilis* and *P. terrae*) that lack any prophage, despite a peak at 2 prophage per isolate (isolates of *P. mirabilis* and *P. terrae*)
+
+These were excluded from the subsequent comparison, to ensure the MLST and prophage data both corresponded to homogeneously behaving populations of isolates.
+
 Poisson fit to plasmid from geNomad:
 
 ``` {r Poisson fits to geNomad plasmid data, fig.width = 8, fig.height = 8}
@@ -2729,7 +2699,7 @@ prophage_rec_df <-
 
 ## Fit model to PHASTER outputs
 
-``` {r Fit joint model to PHASTER data, fig.width = 8, fig.height = 10}
+``` {r Fit joint model to PHASTER data, fig.width = 10, fig.height = 10}
 
 # Fit model to PHASTER output
 phaster_model <-
@@ -2760,7 +2730,7 @@ Plot the data and model output together with bacterial species information:
 
 ## Fit model to geNomad Caudoviricetes outputs
 
-``` {r Fit joint model to caudoviricetes geNomad data, fig.width = 8, fig.height = 10}
+``` {r Fit joint model to caudoviricetes geNomad data, fig.width = 10, fig.height = 10}
 
 # Fit model to PHASTER output
 genomad_caudoviricetes_model <-
@@ -2889,6 +2859,11 @@ ecological_df <-
   enframe(primary_niche) %>% 
     dplyr::mutate(value = unlist(value)) %>% 
     dplyr::rename(Niche = value) %>% 
+    dplyr::left_join(enframe(display_name) %>% 
+                       dplyr::mutate(Species = unlist(value)) %>% 
+                       dplyr::select(-value),
+                     by= c("name")
+                     ) %>% 
     dplyr::mutate(Comment = 
                     dplyr::case_when(
                       name == "Sau" ~ "Found in nares, skin and gastrointestinal tract",
@@ -2899,8 +2874,35 @@ ecological_df <-
                       name %in% c("Spn","Hflu","Mcat") ~ "Found in nasopharynx",
                       TRUE ~ ""
                     )
-                  )
-  
+                  ) %>% 
+  dplyr::select(-name)
+
+clean_species <- function(x) {
+  y <- x
+
+  # case 1: italic('...')~'spp.'
+  y <- str_replace(
+    y,
+    "^italic\\('([^']+)'\\)~'spp\\.'$",
+    "<i>\\1</i> spp."
+  )
+
+  # case 2: italic('...')
+  y <- str_replace(
+    y,
+    "^italic\\('([^']+)'\\)$",
+    "<i>\\1</i>"
+  )
+
+  y
+}
+
+ecological_df %>%
+  dplyr::mutate(Species = clean_species(Species)) %>%
+  dplyr::select(Species,Niche,Comment) %>% 
+  knitr::kable(format = "html", escape = FALSE) %>%   # important
+  kableExtra::kable_styling(bootstrap_options = "striped", full_width = FALSE)
+
 ```
 
 ## Ecological comparison with PHASTER
@@ -3014,8 +3016,82 @@ sample_summary_df <-
     by = c("Species"="species")
   )
 
+# Full length genomes used for geNomad
+# Read all .accessions files into a single dataframe
+full_length_genomes_df <-
+  # Gather information on accessions
+  list.files(
+    path       = "./genomad_analysis/genome_accessions",
+    pattern    = "\\.accessions$",
+    full.names = TRUE
+  ) |>
+  set_names() |>
+  map(read_tsv, 
+      col_names     = TRUE, 
+      col_types     = cols(.default = col_character()),   # read ALL cols as character
+      show_col_types = FALSE) |>
+  list_rbind(names_to = "filepath") |>
+  dplyr::mutate(
+    species = str_extract(filepath, "([^/]+)(?=_nuccore_complete\\.accessions$)")
+  ) |>
+  dplyr::select(species, everything(), -filepath) %>% 
+  # Get rid of duplicates
+  dplyr::group_by(resolved_accession) %>% 
+  dplyr::mutate(accession_count = n()) %>% 
+  dplyr::ungroup() %>% 
+  dplyr::filter(accession_count == 1) %>% 
+  # Now check on total length
+  dplyr::inner_join(read.table("./genomad_analysis/genome_accessions/complete_replicon_lengths.tsv",
+                               header = TRUE),
+                    by = c("resolved_accession")) %>% 
+  dplyr::group_by(biosample) %>% 
+  dplyr::mutate(Total_length = sum(length)) %>% 
+  dplyr::ungroup() %>% 
+  # Filter by total length
+    dplyr::left_join(
+      enframe(lower_length_threshold) %>%
+            tidyr::unnest(value) %>% 
+            dplyr::rename(Lower = value) %>% 
+        dplyr::left_join(
+        enframe(upper_length_threshold) %>%
+            tidyr::unnest(value) %>% 
+            dplyr::rename(Upper = value)
+        ) %>%
+        dplyr::left_join(enframe(species_name) %>%
+                           tidyr::unnest(value) %>% 
+                           dplyr::rename(species = value),
+                             by = "name") %>%
+        dplyr::left_join(enframe(display_name) %>%
+                           tidyr::unnest(value) %>% 
+                           dplyr::rename(display = value),
+                             by = "name") %>% 
+        dplyr::mutate(species = gsub(" ","_",species)),
+        by = "species"
+      ) %>% 
+  dplyr::filter(Total_length > Lower & Total_length < Upper) %>% 
+  # Step 3: Flag WGS shotgun accessions (e.g. QWKQ00000000.2)
+  dplyr::mutate(
+    is_wgs = str_detect(
+      resolved_accession,
+      "^[A-Z]{4,8}\\d*0{4,}(\\.\\d+)?$"   # 4-6 letters, digits ending in 4+ zeros, optional version
+    )
+  ) |>
+  # Step 4: Flag biosample as WGS if ANY of its accessions are WGS
+  dplyr::group_by(species, biosample) |>
+  dplyr::mutate(
+    wgs_biosample = any(is_wgs)
+  ) |>
+  dplyr::ungroup() |>
+  dplyr::filter(!wgs_biosample) |>         #
+  # Final
+  dplyr::group_by(species) %>% 
+  dplyr::summarise(`Full length genomes` = n_distinct(biosample)) %>% 
+  dplyr::ungroup()
+
 # Generate summary table
 sample_summary_df %>%
+  dplyr::left_join(full_length_genomes_df %>% dplyr::mutate(Species = gsub("_"," ",species)) %>% dplyr::select(-species), by = "Species") %>% 
+  dplyr::select(Species,`Sequence types`,`Divergent genotypes`,`Complete replicons`,`Full length genomes`,`Full-length genomes analysed with geNomad`,`PHASTER entries`,`Full-length genomes analysed with PHASTER`) %>% 
   kable() %>%
   kable_styling(bootstrap_options = "striped", full_width = FALSE)
 
@@ -3095,9 +3171,9 @@ qpcr_df <-
     ) %>% 
     dplyr::mutate(DNA =
                     dplyr::case_when(
-                      mutants == "NO_CSP" ~ "No CSP or DNA control",
+                      mutants == "NO_CSP" ~ "No CSP or DNA",
                       mutants == "CSP_DnaseI" ~ "CSP and DNase",
-                      mutants == "CSP" ~ "No DNA control",
+                      mutants == "CSP" ~ "CSP, no DNA",
                       grepl("E99",mutants) ~ "1% pneumococcal",
                       grepl("E90",mutants) ~ "10% pneumococcal",
                       grepl("E50",mutants) ~ "50% pneumococcal",
@@ -3126,12 +3202,12 @@ qpcr_df <-
       )
   ) %>% 
   dplyr::filter(!is.na(qPCR)) %>% 
-  dplyr::mutate(`Biological replicate` = as.character(Replicate)) %>% 
+  dplyr::mutate(`Biological replicate` = process_replicates(Replicate)) %>% 
   # Adjust for 1.25 ul sampled volume
   dplyr::mutate(qPCR = qPCR/1.25) %>% 
   dplyr::mutate(DNA = factor(DNA,
                              levels = c("1% pneumococcal", "10% pneumococcal", "50% pneumococcal", "90% pneumococcal", "99% pneumococcal",
-                                        "No CSP or DNA control", "CSP and DNase", "No DNA control")
+                                        "No CSP or DNA", "CSP and DNase", "CSP, no DNA")
                              )
                 ) %>% 
   dplyr::mutate(Locus = "attP") %>% 
@@ -3144,10 +3220,10 @@ qpcr_df <-
   tidyr::fill(rpoA, .direction = "down") %>% 
   dplyr::ungroup() %>% 
   dplyr::select(-.idx) %>% 
-  dplyr::filter(Replicate != "3rd") %>%
+  dplyr::filter(`Biological replicate` != "3") %>%
   dplyr::mutate(`Biological replicate` = dplyr::if_else(
-    `Biological replicate` == "4th",
-    "3rd",
+    `Biological replicate` == "4",
+    "3",
     `Biological replicate`)
   ) %>% 
   dplyr::mutate(`Biological replicate` = factor(`Biological replicate`))
@@ -3162,71 +3238,72 @@ qpcr_df <-
 dna_levels <- c("1% pneumococcal", "10% pneumococcal", "50% pneumococcal",
                 "90% pneumococcal", "99% pneumococcal")
 
-model_df <- qpcr_df %>% 
-  dplyr::filter(`Experimental conditions` != "Control") %>% 
-  dplyr::mutate(
-    DNA = factor(DNA, levels = dna_levels),   # 1% is reference
-    `Biological replicate` = factor(`Biological replicate`),
-    RMV8_MGE = factor(RMV8_MGE),
-    Timepoint = factor(Timepoint),
-    `Experimental conditions` = factor(`Experimental conditions`),
-    log_qPCR = log10(qPCR)
-  )
+qpcr_signif_test <- function(in_df, dna_levels) {
+  model_df <- in_df %>% 
+    dplyr::filter(`Experimental conditions` != "Control") %>% 
+    dplyr::mutate(
+      DNA = factor(DNA, levels = dna_levels),
+      RMV8_MGE = factor(RMV8_MGE),
+      Timepoint = factor(Timepoint),
+      `Experimental conditions` = factor(`Experimental conditions`),
+      log_qPCR = log10(qPCR)
+    )
 
-# Nest by strata
-nested <- model_df %>%
-  group_by(RMV8_MGE, Timepoint, `Experimental conditions`) %>%
-  tidyr::nest()
+  nested <- model_df %>%
+    dplyr::group_by(RMV8_MGE, Timepoint, `Experimental conditions`) %>%
+    tidyr::nest()
 
-# Fit lmer per stratum
-fit_one <- function(dat) {
-  # random intercept for biological replicate
-  glmmTMB::glmmTMB(
-    log_qPCR ~ DNA + (1 | `Biological replicate`),
-    data = dat,
-    family = gaussian(),
-    ziformula = ~0
-  )
+  fit_one <- function(dat) {
+    dat <- droplevels(dat)
+    if (dplyr::n_distinct(dat$DNA) < 2) return(NULL)
+
+    glmmTMB::glmmTMB(
+      log_qPCR ~ DNA + (1 | `Biological replicate`),
+      data = dat,
+      family = gaussian(),
+      ziformula = ~0
+    )
+  }
+
+  nested <- nested %>%
+    dplyr::mutate(
+      fit = purrr::map(data, fit_one),
+      emm = purrr::map(fit, ~ if (is.null(.x)) NULL else emmeans::emmeans(.x, ~ DNA)),
+      ctr = purrr::map(emm, ~ if (is.null(.x)) NULL else emmeans::contrast(.x, method = "trt.vs.ctrl", ref = 1)),
+      ctr_tbl = purrr::map(ctr, ~ if (is.null(.x)) tibble::tibble() else tibble::as_tibble(summary(.x, infer = TRUE)))
+    )
+
+  contrast_df <- nested %>%
+    dplyr::select(RMV8_MGE, Timepoint, `Experimental conditions`, ctr_tbl) %>%
+    tidyr::unnest(ctr_tbl) %>%
+    dplyr::mutate(DNA_comp = stringr::str_extract(contrast, "^[^-]+") %>% stringr::str_trim()) %>%
+    dplyr::group_by(RMV8_MGE, Timepoint, `Experimental conditions`) %>%
+    dplyr::mutate(p.adj = p.adjust(p.value, method = "holm")) %>%
+    rstatix::add_significance(p.col = "p.adj") %>%
+    dplyr::ungroup()
+
+  mge_annot_df <- model_df %>%
+    dplyr::group_by(RMV8_MGE, Timepoint, `Experimental conditions`, DNA) %>%
+    dplyr::summarise(ymax = max(qPCR, na.rm = TRUE), .groups = "drop") %>%
+    dplyr::left_join(
+      contrast_df %>%
+        dplyr::rename(DNA = DNA_comp) %>%
+        dplyr::select(RMV8_MGE, Timepoint, `Experimental conditions`, DNA, p.adj, p.adj.signif),
+      by = c("RMV8_MGE", "Timepoint", "Experimental conditions", "DNA")
+    ) %>%
+    dplyr::filter(!is.na(DNA), p.adj < 0.1) %>%
+    dplyr::mutate(
+      y = dplyr::if_else(
+        `Experimental conditions` == "Induced competence",
+        max(in_df$qPCR, na.rm = TRUE) * 1.4,
+        max(in_df$qPCR, na.rm = TRUE)
+      ) * 1.25,
+      DNA = factor(DNA, levels = dna_levels)
+    )
+
 }
 
-nested <- nested %>%
-  dplyr::mutate(
-    fit = purrr::map(data, fit_one),
-    emm = purrr::map(fit, ~ emmeans::emmeans(.x, ~ DNA)),
-    # compare each level vs ref (1%)
-    ctr = purrr::map(emm, ~ emmeans::contrast(.x, method = "trt.vs.ctrl", ref = 1)),
-    ctr_tbl = purrr::map(ctr, ~ as_tibble(summary(.x, infer = TRUE)))
-  )
-
-contrast_df <- nested %>%
-  dplyr::select(RMV8_MGE, Timepoint, `Experimental conditions`, ctr_tbl) %>%
-  tidyr::unnest(ctr_tbl) %>%
-  dplyr::mutate(
-    DNA_comp = stringr::str_extract(contrast, "^[^-]+") %>% stringr::str_trim()
-  ) %>%
-  # Adjust p-values WITHIN analysis groups (consistent with your wilcox pipeline idea)
-  dplyr::group_by(RMV8_MGE, Timepoint, `Experimental conditions`) %>%
-  dplyr::mutate(p.adj = p.adjust(p.value, method = "holm")) %>% 
-  rstatix::add_significance(p.col = "p.adj") %>% 
-  dplyr::ungroup()
-
-# Calculate annotation
-mge_annot_df <- model_df %>%
-  group_by(RMV8_MGE, Timepoint, `Experimental conditions`, DNA) %>%
-  summarise(ymax = max(qPCR, na.rm = TRUE), .groups = "drop") %>%
-  left_join(
-    contrast_df %>%
-      dplyr::rename(DNA = DNA_comp) %>% 
-      dplyr::select(RMV8_MGE, Timepoint, `Experimental conditions`, DNA, p.adj.signif),
-    by = c("RMV8_MGE", "Timepoint", "Experimental conditions","DNA")
-  ) %>%
-  filter(!is.na(DNA), p.adj.signif != "ns") %>% 
-  # y position - put everything at the top
-  dplyr::mutate(y = dplyr::if_else(`Experimental conditions`=="Induced competence",
-                                   max(qpcr_df$qPCR)*1.4,
-                                   max(qpcr_df$qPCR))*1.2) %>% 
-  dplyr::mutate(DNA = factor(DNA, levels = levels(qpcr_df$DNA)))
-
+mge_annot_df <- qpcr_signif_test(qpcr_df, dna_levels)
 
 ```
 
@@ -3255,10 +3332,12 @@ mge_annot_df <- model_df %>%
                labeller = label_parsed) +
     xlab("Experimental conditions") +
     geom_text(
-      data = mge_annot_df %>% dplyr::mutate(qPCR = y, `Biological replicate` = "1st"),
+      data = mge_annot_df %>% dplyr::mutate(qPCR = y, `Biological replicate` = "1"),
+      #aes(label = paste0("italic(p)==", signif(p.adj, 2))),
       aes(label = p.adj.signif),
+      #parse = TRUE,
       inherit.aes = TRUE,
-      size = 5,
+      size = 4,
       show.legend = FALSE
     ) +
     theme_bw() +
@@ -3272,7 +3351,7 @@ mge_annot_df <- model_df %>%
 
 ``` {r Focus on change in spontaneous deletion}
 
-spontaneous_start_end_df <-
+rmv8_decline_df <-
   dplyr::bind_rows(
      qpcr_df %>%
       dplyr::filter(
@@ -3297,7 +3376,7 @@ spontaneous_start_end_df <-
                           names_to = "MGE",
                           values_to = "qPCR") %>% 
       dplyr::filter(MGE == "Phage_circular") %>% 
-      dplyr::mutate(`Biological replicate` = as.character(Replicate)),
+      dplyr::mutate(`Biological replicate` = process_replicates(Replicate)),
     read_csv("./experimental_data/extra_replicate_spontaneous_qPCR.csv") %>% 
       dplyr::filter(conditions=="4hour") %>% 
       dplyr::mutate(DNA =
@@ -3311,10 +3390,17 @@ spontaneous_start_end_df <-
         cols = c(Phage_circular,PRCI_circular),
         names_to = "MGE",
         values_to = "qPCR") %>% 
-      dplyr::filter(MGE == "Phage_circular")
+        dplyr::mutate(`Biological replicate` = process_replicates(Replicate)) %>% 
+        dplyr::filter(MGE == "Phage_circular")
     ) %>% 
-    dplyr::mutate(`Biological replicate` =
-                    gsub("[^0-9.-]", "", Replicate))   %>%
+    dplyr::mutate(RMV8_MGE = "phi*'RMV8'",
+                  Timepoint = '4h post-subculture')
+
+test_res_df <-
+  qpcr_signif_test(rmv8_decline_df, c("1% pneumococcal","99% pneumococcal"))
+
+spontaneous_start_end_df <-
+  rmv8_decline_df %>% 
     dplyr::group_by(DNA,`Biological replicate`,`Experimental conditions`) %>% 
     dplyr::mutate(Mean_est = mean(qPCR)) %>% 
     dplyr::ungroup() %>% 
@@ -3334,8 +3420,16 @@ spontaneous_start_end_df <-
     dplyr::filter(DNA == "99% pneumococcal")
 
 # Plot fold changes
-replicate_palette <- c(16,17,15,3,7,8,10)
+replicate_palette <- c(16,17,15,3,7,5,10)
 names(replicate_palette) = as.character(1:7)
+
+fmt_p_plotmath <- function(p, digits = 2) {
+  if (is.na(p)) return("italic(p)==NA")
+  e <- floor(log10(p))
+  m <- signif(p / (10^e), digits)
+  paste0("italic(p)==", m, "%*%10^", e)
+}
+
 (fold_change_plot <-
   ggplot(spontaneous_start_end_df,
          aes(x = `Biological replicate`,
@@ -3353,6 +3447,16 @@ names(replicate_palette) = as.character(1:7)
                         aesthetics = c("fill","colour")) +
     geom_vline(xintercept = 3.5, linetype = 2) +
     ylab(expression("Fold change in"~italic(attP)~"concentration")) +
+    geom_text(
+      data = test_res_df %>% dplyr::mutate(`Biological replicate` = "6", Change = 0.525),
+      aes(label = fmt_p_plotmath(p.adj)),
+      colour = "black",
+      parse = TRUE,
+      inherit.aes = TRUE,
+      size = 3,
+      show.legend = FALSE,
+      nudge_x = -0.4
+    ) +
     theme_bw() +
     theme(axis.text.x = element_blank(),
           strip.background = element_rect(fill = NA))
@@ -3370,18 +3474,19 @@ Plot transformation data:
 
 transformation_df <-
   dplyr::bind_rows(
-    read_csv("./experimental_data/transformation_rates.csv"),
+    read_csv("./experimental_data/transformation_rates_updated.csv"),
     read_csv("./experimental_data/deletions_with_CSP_three_replicates.csv") %>% 
       dplyr::filter(conditions == "Phage_Kan") %>% 
       dplyr::select(-conditions) %>% 
       dplyr::mutate(mutants = gsub("_","+",donor)) %>% 
-      dplyr::rename(deletion_rates = Transformation_efficiency)
+      dplyr::rename(deletion_rates = Transformation_efficiency),
+    read_csv("./experimental_data/spontaneous_transformation_additional_replicates.csv") %>% dplyr::select(-Timepoint)
   ) %>% 
   dplyr::mutate(DNA =
                     dplyr::case_when(
-                      mutants == "Control" ~ "No CSP or DNA control",
+                      mutants == "Control" ~ "No CSP or DNA",
                       mutants == "CSP_DnaseI" ~ "CSP and DNase",
-                      mutants == "CSP" ~ "No DNA control",
+                      mutants == "CSP" ~ "CSP, no DNA",
                       grepl("E99",mutants) ~ "1% pneumococcal",
                       grepl("E90",mutants) ~ "10% pneumococcal",
                       grepl("E50",mutants) ~ "50% pneumococcal",
@@ -3389,6 +3494,11 @@ transformation_df <-
                       grepl("E1",mutants) ~ "99% pneumococcal"
                     )
     ) %>% 
+    dplyr::mutate(DNA = factor(DNA,
+                                 levels = c("1% pneumococcal", "10% pneumococcal", "50% pneumococcal", "90% pneumococcal", "99% pneumococcal",
+                                            "No CSP or DNA", "CSP and DNase", "CSP, no DNA")
+                                 )
+                    ) %>% 
     dplyr::mutate(`Experimental conditions` =
                     dplyr::case_when(
                       mutants == "Control" ~ "Control",
@@ -3431,8 +3541,8 @@ wilcox_results <- analysis_df %>%
 # y positions by condition x DNA for clean label placement
 y_pos_df <- analysis_df %>%
   dplyr::mutate(y = dplyr::if_else(`Experimental conditions` == "Induced competence",
-                max(deletion_rates, na.rm = TRUE) * 1.4,
-                max(deletion_rates, na.rm = TRUE) * 1.2
+                max(deletion_rates, na.rm = TRUE) * 1.75,
+                max(deletion_rates, na.rm = TRUE) * 1.15
                 )
 )
 
@@ -3473,7 +3583,7 @@ transf_annot_df <- wilcox_results %>%
     alpha = 0.25
   ) +
   geom_point(position = position_jitterdodge()) +
-  ylab(expression(atop("Transformation efficiency", "(transformants per cfu)"))) +
+  ylab(expression(atop("Transformation efficiency     ", "(transformants per cfu)       "))) +
   scale_colour_manual(values = competence_palette, aesthetics = c("fill", "colour")) +
   scale_shape_manual(values = replicate_palette) +
   scale_y_continuous(trans = "log10") +
@@ -3536,7 +3646,8 @@ bottom_right_plot <-
 bottom_plots <-
   cowplot::plot_grid(plotlist = list(transformation_plot +
                                        theme(legend.position = "none",
-                                             axis.title.y = element_text(hjust =  2.5)),
+                                             axis.title.y = element_text(hjust = 1,
+                                                                         vjust = 0)),
                                      bottom_right_plot),
                      labels = c("B",""),
                      nrow = 1,
@@ -3581,14 +3692,15 @@ dnase_control_df <-
           MGE == "Ratio_Prophage" ~ "phi*'RMV8'~'to'~italic(rpoA)"
         )
     ) %>% 
-  dplyr::rename(`Biological replicate` = replicate) %>% 
+  dplyr::mutate(`Biological replicate` = process_replicates(replicate)) %>% 
+  dplyr::select(-replicate) %>% 
   dplyr::mutate(
     Experiment = factor(
       dplyr::case_when(
-        mutants == "control" ~ "No CSP control",
+        mutants == "control" ~ "No CSP",
         mutants == "CSP_induced" ~ "2h post-CSP"
       ),
-      levels = c("No CSP control","2h post-CSP")
+      levels = c("No CSP","2h post-CSP")
     )
   )
 
@@ -3627,6 +3739,13 @@ condition_col_names <- c("Experimental conditions","DNA","Timepoint","Biological
 
 alternative_mge_loci_df <-
   read.csv("./experimental_data/revision_qPCR_ISME.csv") %>% 
+  dplyr::mutate(conditions =
+                  dplyr::case_when(
+                    conditions == "No CSP or DNA control" ~ "No CSP or DNA",
+                    conditions == "No DNA control" ~ "CSP, no DNA",
+                    TRUE ~ conditions
+                  )
+                ) %>% 
   dplyr::mutate(DNA =
                     dplyr::case_when(
                       conditions == "CSP + 1% pneumococcal" ~ "1% pneumococcal",
@@ -3641,7 +3760,7 @@ alternative_mge_loci_df <-
                       TRUE ~ "Spontaneous competence"
                     )
     ) %>% 
-    dplyr::mutate(`Biological replicate` = replicates) %>% 
+    dplyr::mutate(`Biological replicate` = process_replicates(replicates)) %>% 
     dplyr::mutate(
       Timepoint =
         dplyr::case_when(
@@ -3679,23 +3798,34 @@ alternative_mge_loci_df <-
           `Biological replicate` = factor(`Biological replicate`)
         ) %>%
         dplyr::select(dplyr::all_of(condition_col_names)) %>%
-        dplyr::filter(DNA %in% c("1% pneumococcal","99% pneumococcal","No CSP or DNA control","No DNA control") & `Experimental conditions` %in% c("Control","Induced competence"))
-    )
+        dplyr::filter(DNA %in% c("1% pneumococcal","99% pneumococcal","No CSP or DNA","CSP, no DNA") & `Experimental conditions` %in% c("Control","Induced competence"))
+    ) %>% 
+    dplyr::mutate(Locus =
+                      dplyr::case_when(
+                        Locus == "phage_reg" ~ "italic(reg)",
+                        Locus == "PRCI_int" ~ "italic(int)",
+                        Locus == "gyrA" ~ "italic(gyrA)",
+                        Locus == "rpoA" ~ "italic(rpoA)",
+                        Locus == "attP" ~ "italic(attP)"
+                      )
+                    )
 
 ```
 
-``` {r Plot validation data}
+``` {r Plot validation data, fig.width = 8, fig.height = 6}
 
 locus_palette <- c(
-  "attP" = "blue",
-  "gyrA" = "grey",
-  "rpoA" = "black",
-  "phage_reg" = "navy",
-  "PRCI_int" = "purple"
+  "italic(attP)" = "#02401B",
+  "italic(gyrA)" = "grey",
+  "italic(rpoA)" = "black",
+  "italic(reg)" = "#A2A475",
+  "italic(int)" = "#81A88D"
 )
 
 (qpcr_validation_plot <-
-  ggplot(alternative_mge_loci_df,
+  ggplot(alternative_mge_loci_df %>% 
+           dplyr::filter(RMV8_MGE!="'Chromosome'") %>% 
+           dplyr::mutate(RMV8_MGE = factor(RMV8_MGE, levels = c("phi*'RMV8'","'PRCI'[italic(malA)]"))),
          aes(x = DNA,
              y = qPCR,
              colour = Locus,
@@ -3708,12 +3838,18 @@ locus_palette <- c(
                 alpha = 0.25) +
     geom_point(position = position_jitterdodge()) +
     scale_colour_manual(values = locus_palette,
+                        labels = function(x) parse(text = x),
                         aesthetics = c("fill","colour")) +
     scale_y_continuous(trans = "log10") +
     ylab(expression(atop(italic(attP)~'sites per'~mu*'l','culture supernatant'))) +
     facet_grid(RMV8_MGE~Timepoint,
                labeller = label_parsed) +
     xlab("Experimental conditions") +
+    guides(
+      fill = guide_legend(order = 1),
+      colour   = "none",      # prevent duplicate fill guide if it appears
+      shape  = guide_legend(order = 2)
+    ) +
     theme_bw() +
     theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
           strip.background = element_blank())
@@ -3732,7 +3868,7 @@ attB_df <-
                     dplyr::case_when(
                       conditions == "CSP + 1% pneumococcal" ~ "1% pneumococcal",
                       conditions == "CSP + 99% pneumococcal" ~ "99% pneumococcal",
-                      TRUE ~ conditions
+                      TRUE ~ gsub(" control","",conditions)
                     )
     ) %>% 
     dplyr::mutate(`Experimental conditions` =
@@ -3742,7 +3878,7 @@ attB_df <-
                       TRUE ~ "Spontaneous competence"
                     )
     ) %>% 
-    dplyr::mutate(`Biological replicate` = replicates) %>% 
+    dplyr::mutate(`Biological replicate` = process_replicates(replicates)) %>% 
     dplyr::mutate(
       Timepoint =
         dplyr::case_when(
@@ -3760,11 +3896,11 @@ attB_df <-
              shape = `Biological replicate`)) +
     geom_violin(draw_quantiles = c(0.5),
                 position = position_dodge(preserve = "single"),
+                colour = "#02401B",
+                fill = "#02401B",
                 scale = "width",
                 alpha = 0.25) +
-    geom_point(position = position_jitterdodge()) +
-    scale_colour_manual(values = locus_palette,
-                        aesthetics = c("fill","colour")) +
+    geom_point(position = position_jitterdodge(),colour = "#02401B") +
     scale_y_continuous(trans = "log10") +
     ylab(expression(atop(italic(attB)~'sites per'~mu*'l','culture supernatant'))) +
     facet_grid(~Timepoint,
